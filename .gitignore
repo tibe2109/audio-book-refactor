@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# AI agent & IDE directories
+.agy/
+.qodo/
+.gemini/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary and log files
+*.log
