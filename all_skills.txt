@@ -1,0 +1,1055 @@
+==== arf_01_pdf_structure_extractor ====
+---
+name: arf_01_pdf_structure_extractor
+description: Bước 1 - Bóc tách cấu trúc PDF phức tạp, loại bỏ Header/Footer/TOC và khởi tạo Session Manifest.
+---
+
+# Kỹ năng 01: Bóc tách Cấu trúc PDF (PDF Structure Extractor)
+
+Kỹ năng này chịu trách nhiệm phân tích, lọc nhiễu và bóc tách toàn bộ cấu trúc nội dung từ các file sách điện tử định dạng PDF (kể cả PDF có layout phức tạp như 2 cột, header/footer biến đổi, footnote, mục lục dài). Kết quả đầu ra là hệ thống thư mục chương độc lập chứa văn bản gốc bất biến (`raw_original.txt`) kèm file theo dõi phiên làm việc (`.session_manifest.json`).
+
+---
+
+## 1. Mục tiêu và Phạm vi
+- **Nhận diện Cấu trúc Vĩ mô (Macro Chapter Architecture):** Luôn ưu tiên phát hiện cấu trúc chương vĩ mô (Lời mở đầu, Chương 1..N, Lời kết) dựa trên dải trang (Page Range) và phân tích Mục lục. Tuyệt đối KHÔNG băm nhỏ văn bản theo các tiểu mục nội dung bên trong chương (như "Đấu trường nội tâm", "Biểu tượng", "Điểm yếu", "Ví dụ...").
+- **Hàn gắn Chữ cái Nghệ thuật (Drop-Cap Healer):** Tự động phát hiện và nối liền các chữ cái Drop-Cap in hoa đơn lẻ đứng đầu dòng bị rớt dòng (`T\nrong` -> `Trong`, `B\nạn` -> `Bạn`, `C\non` -> `Con`, `Đ\niều` -> `Điều`, `M\nột` -> `Một`).
+- **Lọc nhiễu văn bản (Noise Filtering):** Loại bỏ hoàn toàn Header (tiêu đề trang lặp lại), Footer, số trang (Page numbers), dòng chú thích chân trang (Footnotes/Page marks) và trang Mục lục (Table of Contents - TOC).
+- **Xử lý Layout đa dạng:** Hỗ trợ sách 1 cột tiêu chuẩn và sách 2 cột (Multi-column reading order: đọc hết cột 1 từ trên xuống dưới rồi sang cột 2).
+- **Tính Bất biến (Immutability):** File `raw_original.txt` được tạo ra là dữ liệu gốc nguyên bản, dùng làm bằng chứng đối soát (QC Ground Truth) cho toàn bộ quy trình dịch và tạo audio book về sau.
+- **Quản trị Phiên (Session Isolation):** Mọi sách được quản lý theo thư mục định danh `[book_slug]` với file `.session_manifest.json` ghi vết trạng thái từng chương.
+
+---
+
+## 2. Cấu trúc Thư mục và Định dạng Output
+
+### 2.1 Cấu trúc cây thư mục đầu ra
+
+```
+[output_dir]/[book_slug]/
+├── .session_manifest.json          # File manifest theo dõi trạng thái session của sách
+├── 00-Preface/
+│   └── raw_original.txt           # Nội dung thô của phần Mở đầu (Bất biến)
+├── 01-Intro/
+│   └── raw_original.txt           # Nội dung thô phần Dẫn nhập (Bất biến)
+├── 02-Chuong-01/
+│   └── raw_original.txt           # Nội dung thô Chương 1 (Bất biến)
+├── 03-Chuong-02/
+│   └── raw_original.txt           # Nội dung thô Chương 2 (Bất biến)
+└── ...
+```
+
+### 2.2 Quy cách file `.session_manifest.json`
+
+File `.session_manifest.json` được tạo mới hoặc cập nhật sau khi hoàn thành bóc tách:
+
+```json
+{
+  "session_id": "ses_20260816_a1b2c3d4",
+  "book_slug": "eat-that-frog",
+  "source_pdf": "D:/Solution/Audio-Book-Refactor/Docs/eat-that-frog.pdf",
+  "total_pages": 144,
+  "toc_range": [1, 13],
+  "content_start_page": 14,
+  "created_at": "2026-08-16T10:05:00+07:00",
+  "updated_at": "2026-08-16T10:06:00+07:00",
+  "pipeline_stage": "01_structure_extracted",
+  "chapters": [
+    {
+      "index": 0,
+      "folder": "00-Preface",
+      "title": "Preface",
+      "start_page": 9,
+      "end_page": 11,
+      "char_count": 5210,
+      "status": "raw_extracted",
+      "raw_file": "00-Preface/raw_original.txt"
+    },
+    {
+      "index": 1,
+      "folder": "02-Chuong-01",
+      "title": "Chapter 1: Set the Table",
+      "start_page": 14,
+      "end_page": 19,
+      "char_count": 7820,
+      "status": "raw_extracted",
+      "raw_file": "02-Chuong-01/raw_original.txt"
+    }
+  ],
+  "metadata": {
+    "extractor_version": "1.0.0",
+    "column_layout": "single_column",
+    "noise_filtered": {
+      "headers_removed": true,
+      "footers_removed": true,
+      "page_numbers_removed": true
+    }
+  }
+}
+```
+
+---
+
+## 3. Hướng dẫn Dành cho AI Agent (Execution Workflow)
+
+### Bước 1: Tiếp nhận yêu cầu & Thu thập tham số
+Xác định các thông tin cần thiết:
+1. `--pdf_path`: Đường dẫn tuyệt đối tới file PDF.
+2. `--output_dir`: Thư mục gốc lưu trữ kết quả.
+3. `--book_slug`: Slug định danh sách (ví dụ: `eat-that-frog`, `dac-nhan-tam`).
+4. `--session_id`: (Tùy chọn) Mã phiên làm việc, nếu không cung cấp script sẽ tự khởi tạo.
+
+### Bước 2: Xử lý Đơn sách hoặc Đa sách (Multi-Agent Dispatching)
+- **Nếu là 1 file PDF:**
+  AI gọi lệnh `run_command` chạy trực tiếp script `extract_structure.py`.
+- **Nếu là thư mục chứa nhiều file PDF hoặc file PDF quá lớn (> 500 trang):**
+  AI kích hoạt `invoke_subagent` để chia nhỏ công việc song song cho từng cuốn sách hoặc từng cụm chương lớn, mỗi subagent làm việc độc lập trong thư mục `[book_slug]` tương ứng.
+
+### Bước 3: Chạy Script Python Bóc tách Cấu trúc
+
+Lệnh thực thi chuẩn:
+```powershell
+python .agy/skills/01_pdf_structure_extractor/scripts/extract_structure.py `
+  --pdf_path "D:\Solution\Audio-Book-Refactor\Docs\Eat That Frog! 21 Great Ways to Stop Procrastinating and Get More Done in Less Time ( PDFDrive ).pdf" `
+  --output_dir "D:\Solution\Audio-Book-Refactor\Kich-ban-clipchamp" `
+  --book_slug "Eat-that-frog"
+```
+
+### Bước 4: Kiểm tra tính hợp lệ của Output (Verification)
+Sau khi script hoàn tất:
+1. Đọc nội dung `.session_manifest.json` trong thư mục sách để kiểm tra danh sách chương và trang.
+2. Đảm bảo toàn bộ các thư mục chương đều có file `raw_original.txt` với dung lượng `> 0 bytes`.
+3. Báo cáo kết quả rõ ràng (Tổng số trang, tổng số chương phát hiện được, tổng số ký tự đã bóc tách).
+
+---
+
+## 4. Các Heuristic Xử lý PDF Nâng cao trong Script
+
+1. **Bộ lọc Header & Footer theo tần suất và tọa độ:**
+   - Quét qua mẫu 20-30 trang đầu và cuối để tìm các dòng văn bản lặp lại tại vị trí y-top (< 10% chiều cao trang) hoặc y-bottom (> 90% chiều cao trang).
+   - Tự động cắt bỏ các chuỗi này khi ghép văn bản nội dung.
+
+2. **Bộ lọc Số trang (Page Number Regex):**
+   - Loại bỏ các dòng độc lập chỉ chứa chữ số, số La Mã (i, ii, iii, iv, v...), hoặc mẫu `Page X / Page X of Y`.
+
+3. **Phát hiện Trang Mục lục (TOC Scanning):**
+   - Quét từ khóa `Contents`, `Table of Contents`, `Mục lục`, kết hợp với mật độ xuất hiện của dấu chấm kéo dài `...` và số trang ở cuối dòng.
+   - Đánh dấu vùng trang TOC để không nhận diện nhầm tiêu đề trong TOC thành chương nội dung.
+
+4. **Xử lý Layout 2 cột (Column Flow Detection):**
+   - Phân tích tọa độ x0, x1 của các block văn bản trên trang. Nếu tồn tại khoảng phân cách cột (gutter) rõ rệt ở giữa trang, script tự gom cụm block theo cột trái trước, sau đó nối tiếp cột phải.
+
+5. **Phát hiện Ranh giới Chương (Chapter Boundary Rules):**
+   - Tìm kiếm các mẫu nhận diện: `Chapter \d+`, `Chương \d+`, `Part [IVXLCDM\d]+`, `Introduction`, `Preface`, `Conclusion`, `Epilogue`, `Lời mở đầu`, `Kết luận`.
+   - Kết hợp kiểm tra kiểu chữ: Font size lớn hơn font văn bản thân bài (Body text) hoặc dòng chữ in hoa độc lập trên trang mới.
+
+---
+
+## 5. Hướng Dẫn Kích Hoạt Sub-Agent Theo Từng Chương (Per-Chapter Subagent Spawning)
+
+Khi đối mặt với các tài liệu PDF dài (> 200 trang) hoặc có cấu trúc phức tạp, AI Conductor có thể kích hoạt song song các Sub-agent chuyên trách thẩm tra từng chương bằng lệnh `invoke_subagent`:
+
+```python
+# Mẫu kích hoạt Subagent cho từng chương / nhóm chương
+invoke_subagent(
+    Subagents=[
+        {
+            "TypeName": "self",
+            "Role": "PDF Structure Verifier [01-quy-luat-01]",
+            "Prompt": (
+                "Bạn là Chuyên gia Cấu trúc PDF phụ trách kiểm tra chương '01-quy-luat-01-lam-chu-cai-toi-cam-xuc'.\n"
+                "Nhiệm vụ: Mở file 'raw_original.txt' của chương này, kiểm tra đối soát với PDF gốc để đảm bảo:\n"
+                "1. Không còn sót Header, Footer hay số trang.\n"
+                "2. Các chữ Drop-Cap đầu dòng đã được hàn gắn 100% (ví dụ: 'Trong suốt', 'Bạn thích').\n"
+                "3. Không bị cắt cụt câu ở đầu hoặc cuối chương."
+            )
+        }
+    ]
+)
+```
+
+---
+
+## 6. Chuyển tiếp Quy trình (Next Stage)
+
+Sau khi Skill `arf_01_pdf_structure_extractor` hoàn tất, AI chuyển tiếp sang:
+- **Skill 2:** `arf_02_author_style_translator` — Dịch thuật nhập vai tác giả bảo toàn 100% ngữ nghĩa.
+- Dữ liệu đầu vào của Skill tiếp theo luôn lấy trực tiếp từ file `raw_original.txt` của từng chương được liệt kê trong `.session_manifest.json`.
+
+---
+
+## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
+
+**BẮT BUỘC ĐỐI VỚI ROOT AGENT:** Khi được gọi để thực hiện bóc tách PDF, bạn **KHÔNG ĐƯỢC PHÉP** tự xử lý tuần tự toàn bộ file một mình. Thay vào đó, bạn **PHẢI** sử dụng công cụ `invoke_subagent` để gọi ra từ 4 đến 10 Sub-agents (Parser Agents) nhằm chia sẻ công việc đọc và bóc tách theo dải trang (Page Range) một cách song song.
+
+### Quy tắc Phân rã Công việc (Work Breakdown Rules):
+1. **Chia theo dải trang (Page Chunking):** Phân chia tổng số trang của file PDF thành 4 đến 10 phần. Mỗi Parser Agent sẽ chịu trách nhiệm đọc và trích xuất cấu trúc trên một dải trang cụ thể.
+2. **Tổng hợp (Aggregation):** Root Agent đóng vai trò là Orchestrator, phân phát nhiệm vụ, đợi các Sub-agents hoàn thành công việc rồi tổng hợp kết quả để tạo thành các thư mục chương và file `.session_manifest.json` hoàn chỉnh.
+
+### Ví dụ Cấu hình JSON cho `invoke_subagent`:
+
+```json
+{
+  "Subagents": [
+    {
+      "Role": "Parser Agent - Part 1 (Pages 1-50)",
+      "Prompt": "Bạn là Parser Agent. Hãy phân tích từ trang 1 đến 50 của file 'book.pdf'. Thực hiện bóc tách cấu trúc, lọc nhiễu Header/Footer/TOC và lưu kết quả thô. Dùng công cụ `send_message` báo cáo lại cho tôi khi hoàn tất.",
+      "TypeName": "self"
+    },
+    {
+      "Role": "Parser Agent - Part 2 (Pages 51-100)",
+      "Prompt": "Bạn là Parser Agent. Hãy phân tích từ trang 51 đến 100 của file 'book.pdf'. Thực hiện bóc tách cấu trúc, lọc nhiễu Header/Footer/TOC và lưu kết quả thô. Dùng công cụ `send_message` báo cáo lại cho tôi khi hoàn tất.",
+      "TypeName": "self"
+    },
+    {
+      "Role": "Parser Agent - Part 3 (Pages 101-150)",
+      "Prompt": "Bạn là Parser Agent. Hãy phân tích từ trang 101 đến 150 của file 'book.pdf'. Thực hiện bóc tách cấu trúc, lọc nhiễu Header/Footer/TOC và lưu kết quả thô. Dùng công cụ `send_message` báo cáo lại cho tôi khi hoàn tất.",
+      "TypeName": "self"
+    },
+    {
+      "Role": "Parser Agent - Part 4 (Pages 151-200)",
+      "Prompt": "Bạn là Parser Agent. Hãy phân tích từ trang 151 đến 200 của file 'book.pdf'. Thực hiện bóc tách cấu trúc, lọc nhiễu Header/Footer/TOC và lưu kết quả thô. Dùng công cụ `send_message` báo cáo lại cho tôi khi hoàn tất.",
+      "TypeName": "self"
+    }
+  ]
+}
+```
+
+
+==== arf_02_author_style_translator ====
+---
+name: arf_02_author_style_translator
+description: Bước 2 - Dịch thuật AI nhập vai tác giả giữ trọn vẹn văn phong, hỗ trợ Subagent song song.
+---
+
+# Kỹ năng: Dịch thuật Nhập vai Tác giả (Author-Style Translator) - Bước 2
+
+Kỹ năng này chuyên trách thực hiện **Bước 2** trong quy trình sản xuất Audio Book: Chuyển đổi toàn bộ nội dung nguyên tác từ văn bản thô đã bóc tách (`raw_original.txt`) sang bản dịch tiếng Việt hoàn chỉnh (`translated.txt`), nhập vai văn phong tác giả, bảo toàn 100% ngữ nghĩa và cấu trúc để chuẩn bị cho các bước tạo kịch bản TTS tiếp theo.
+
+---
+
+## 1. Mục đích Cốt lõi & Nguyên tắc Dịch thuật
+
+### 1.1. Nhập vai trực tiếp Tác giả (Author Persona)
+- AI không chỉ đơn thuần là công cụ dịch từ vựng, mà đóng vai trò là **chính tác giả đang đọc lại và tái hiện tác phẩm của mình bằng tiếng Việt**.
+- Giữ trọn vẹn giọng văn, sắc thái cảm xúc, nhịp điệu diễn đạt và triết lý truyền tải của tác giả (nghiêm cẩn, hài hước, truyền cảm hứng, học thuật, phản tư,...).
+- Chuẩn hóa thuật ngữ chuyên ngành nhất quán xuyên suốt toàn bộ các chương của cuốn sách.
+
+### 1.2. Nguyên tắc "Bảo toàn Tuyệt đối 100%" (Zero Loss & Zero Deviation)
+- **Không tóm tắt (No Summarization):** Mọi ý niệm, câu chuyện, dẫn chứng, số liệu đều phải được chuyển ngữ đầy đủ.
+- **Không bớt xén (No Omission):** Tuyệt đối không lược bỏ các đoạn văn phụ, ví dụ minh họa hoặc lời dẫn nhập.
+- **Không thêm lời bình (No Meta-commentary/Editorializing):** Tuyệt đối không tự ý chèn nhận định cá nhân của AI (như *"Theo tôi...", "Tác giả muốn nói rằng...", "Ghi chú của người dịch..."*).
+- **Giữ nguyên cấu trúc văn bản:** Bảo toàn hệ thống phân cấp Tiêu đề chính, Tiêu đề phụ, Đề mục con, Đoạn văn và Danh sách liệt kê.
+
+---
+
+## 2. Quản lý Session & Điều phối Subagents
+
+Quy trình hoạt động dựa trên cơ chế Session Manifest để đảm bảo tính liên tục, khả năng phục hồi khi gặp sự cố và phân tải xử lý song song mạnh mẽ.
+
+```
+[book_slug]/
+├── .session_manifest.json          <-- Quản lý trạng thái và tiến trình toàn sách
+├── 00-gioi-thieu/
+│   ├── raw_original.txt            <-- Input
+│   └── translated.txt              <-- Output của Bước 2
+├── 01-chuong-01/
+│   ├── raw_original.txt
+│   └── translated.txt
+└── ...
+```
+
+### 2.1. Cấu trúc `.session_manifest.json`
+File manifest lưu trữ thông tin meta của phiên dịch thuật:
+```json
+{
+  "session_id": "session_20260816_audiobook_01",
+  "book_title": "Tên Cuốn Sách",
+  "author": "Tên Tác Giả",
+  "book_slug": "ten-cuon-sach",
+  "step_1_status": "completed",
+  "step_2_status": "in_progress",
+  "step_2_started_at": "2026-08-16T10:10:00Z",
+  "step_2_completed_at": null,
+  "chapters": [
+    {
+      "id": "00-gioi-thieu",
+      "title": "Lời giới thiệu",
+      "folder": "00-gioi-thieu",
+      "raw_file": "00-gioi-thieu/raw_original.txt",
+      "translated_file": "00-gioi-thieu/translated.txt",
+      "step_2_status": "completed"
+    },
+    {
+      "id": "01-chuong-01",
+      "title": "Chương 1",
+      "folder": "01-chuong-01",
+      "raw_file": "01-chuong-01/raw_original.txt",
+      "translated_file": "01-chuong-01/translated.txt",
+      "step_2_status": "in_progress"
+    }
+  ]
+}
+```
+
+### 2.2. Chiến lược Điều phối Subagent Song Song
+1. **Xác định các chương cần xử lý:** Đọc `.session_manifest.json`, lọc danh sách các chương có `step_2_status` là `"pending"` hoặc `"error"`.
+2. **Kích hoạt Subagents:**
+   - Khi xử lý cuốn sách có nhiều chương, phân bổ mỗi chương (hoặc nhóm 2-3 chương ngắn) cho một Subagent độc lập thực hiện thông qua `invoke_subagent`.
+   - Khi xử lý hàng loạt sách (Batch Books), mỗi Subagent phụ trách riêng một thư mục `[book_slug]`.
+3. **Cập nhật tiến độ nguyên tử (Atomic Manifest Update):**
+   - Trước khi dịch chương: Cập nhật `step_2_status: "in_progress"` cho chương tương ứng trong manifest.
+   - Sau khi tạo xong file `translated.txt`: Cập nhật trạng thái chương thành `"completed"`.
+   - Khi tất cả các chương hoàn tất: Cập nhật trường tổng thể `step_2_status: "completed"` và ghi nhận `step_2_completed_at`.
+
+---
+
+## 3. Quy trình Triển khai Chuẩn
+
+### Bước 1: Tiếp nhận và Xác thực Dữ liệu Đầu vào
+- Kiểm tra sự tồn tại của thư mục sách và file `.session_manifest.json`.
+- Kiểm tra các file `raw_original.txt` trong từng thư mục chương. Đảm bảo file gốc không rỗng.
+
+### Bước 2: Thiết lập Prompt Nhập vai Tác giả
+Khi thực hiện dịch thuật (qua AI Subagent hoặc tool tự động), sử dụng hệ thống chỉ dẫn sau:
+```text
+Bạn là [Tác giả], đang trực tiếp đọc lại và chuyển tải trọn vẹn tác phẩm "[Tên sách]" sang tiếng Việt.
+Yêu cầu:
+1. Giữ trọn vẹn phong cách, ngôn từ, thần thái và nhịp điệu của nguyên tác.
+2. Dịch chính xác 100%, không bỏ sót bất kỳ chi tiết, luận điểm, số liệu hay ví dụ nào.
+3. Tuyệt đối KHÔNG tóm tắt, KHÔNG lược dịch, KHÔNG thêm lời bình luận, mở đầu hay kết bài của AI.
+4. Giữ nguyên cấu trúc phân đoạn, tiêu đề chương mục.
+5. Ngôn ngữ tự nhiên, mạch lạc, dễ nghe khi chuyển thành giọng đọc Audio Book.
+```
+
+### Bước 3: Dịch thuật & Ghi file Đầu ra
+- Đọc nội dung từ `[chapter_dir]/raw_original.txt`.
+- Chuyển ngữ toàn văn theo chuẩn nhập vai tác giả.
+- Ghi trực tiếp kết quả vào `[chapter_dir]/translated.txt` (sử dụng UTF-8).
+
+### Bước 4: Đồng bộ Manifest & Báo cáo
+- Ghi nhận trạng thái hoàn thành vào `.session_manifest.json`.
+- Báo cáo kết quả chi tiết cho Agent điều phối hoặc người dùng.
+
+---
+
+## 4. Hướng Dẫn Kích Hoạt Sub-Agent Dịch Thuật Theo Từng Chương (Per-Chapter Translator Subagent)
+
+Để đảm bảo chất lượng dịch thuật cao nhất, AI Conductor phân bổ mỗi chương (hoặc nhóm 2-3 chương) cho một Sub-agent nhập vai độc lập:
+
+```python
+# Mẫu kích hoạt Subagent dịch thuật chuyên sâu từng chương
+invoke_subagent(
+    Subagents=[
+        {
+            "TypeName": "self",
+            "Role": "Author Persona Translator [01-quy-luat-01]",
+            "Prompt": (
+                "Bạn là Chuyên gia Dịch thuật Văn học cao cấp nhập vai tác giả Robert Greene.\n"
+                "Tác phẩm: 'Những Quy Luật Về Bản Chất Con Người' | Thể loại: Tâm lý học hành vi / Triết học quyền lực.\n"
+                "Nhiệm vụ: Dịch toàn văn file '01-quy-luat-01-lam-chu-cai-toi-cam-xuc/raw_original.txt' sang 'translated.txt'.\n"
+                "Yêu cầu:\n"
+                "1. Dịch trung thành 100%, không tóm tắt, không bớt xén dù một câu chuyện lịch sử hay ẩn dụ.\n"
+                "2. Giữ nguyên văn phong sắc sảo, hùng biện và giọng điệu chiêm nghiệm của tác giả.\n"
+                "3. Viết trực tiếp vào file 'translated.txt' của chương tương ứng."
+            )
+        }
+    ]
+)
+```
+
+---
+
+## 5. Công cụ Hỗ trợ Dịch Hàng Loạt: `batch_translate.py`
+
+Trong thư mục `scripts/`, công cụ `batch_translate.py` được cung cấp sẵn để thực thi CLI tự động:
+
+```bash
+# Cú pháp chạy cơ bản:
+python .agy/skills/arf_02_author_style_translator/scripts/batch_translate.py --input_dir "path/to/book_folder" --author "Tên Tác Giả" --book_title "Tên Sách"
+```
+
+## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
+
+**BẮT BUỘC:** Khi Root Agent được kích hoạt, tuyệt đối KHÔNG ĐƯỢC xử lý tuần tự một mình. Root Agent phải đóng vai trò là Orchestrator và bắt buộc phải gọi công cụ `invoke_subagent` để điều phối từ 4 đến 10 Sub-agents cùng tham gia chia sẻ khối lượng công việc.
+
+Việc phân rã công việc có thể theo một trong hai mô hình:
+1. **Phân rã theo chiều dọc (Theo vai trò chuyên sâu):** Chia các khâu xử lý một chương/đoạn lớn thành các Sub-agents chuyên trách lần lượt: `Context Analyzer` (Phân tích bối cảnh và văn phong), `Raw Translator` (Dịch thô giữ 100% ngữ nghĩa), `Style Polisher` (Chuốt văn phong tác giả), và `QC` (Kiểm tra chất lượng và đảm bảo zero loss).
+2. **Phân rã theo chiều ngang (Theo chương):** Phân chia mỗi chương (hoặc một nhóm chương ngắn) cho một Sub-agent độc lập xử lý song song để tăng tốc độ dịch thuật toàn bộ cuốn sách.
+
+**Mẫu JSON cấu hình `invoke_subagent` (Phân rã theo chiều dọc):**
+
+```json
+{
+  "Subagents": [
+    {
+      "TypeName": "self",
+      "Role": "Context Analyzer",
+      "Prompt": "Đọc toàn bộ raw_original.txt, phân tích phong cách tác giả, bối cảnh, thuật ngữ chính và xuất ra bảng hướng dẫn dịch thuật cho chương 1."
+    },
+    {
+      "TypeName": "self",
+      "Role": "Raw Translator",
+      "Prompt": "Dựa trên bản gốc và hướng dẫn của Context Analyzer, hãy dịch thô (Raw translation) nguyên văn chương 1, đảm bảo truyền tải 100% ý nghĩa, không tóm tắt."
+    },
+    {
+      "TypeName": "self",
+      "Role": "Style Polisher",
+      "Prompt": "Nhập vai tác giả, lấy bản dịch thô của Raw Translator và trau chuốt lại văn phong, cảm xúc, ngữ điệu cho phù hợp với nguyên tác tiếng Việt hoàn chỉnh."
+    },
+    {
+      "TypeName": "self",
+      "Role": "QC & Validator",
+      "Prompt": "Đối chiếu bản trau chuốt của Style Polisher với raw_original.txt. Đảm bảo Zero Loss & Zero Deviation, không có ý nào bị thiếu hoặc tự ý thêm vào. Output cuối cùng lưu vào translated.txt."
+    }
+  ]
+}
+```
+
+
+==== arf_04_smart_audiobook_rechunker ====
+---
+name: arf_04_smart_audiobook_rechunker
+description: Bước 4 - Rechunk thông minh văn bản thành các chunk chuẩn đệm TTS 2.800–3.000 ký tự (không cắt ngang câu).
+---
+
+# Kỹ năng 04: Phân Đoạn Thông Minh Kịch Bản Audio Book (Bước 4 - Smart Rechunker)
+
+Kỹ năng này chuyên trách thực hiện **Bước 4** trong quy trình sản xuất Audio Book: Tái phân đoạn (Rechunk) kịch bản thô cấp 1 (`normalized.txt`) thành các file đệm TTS tối ưu (`Kich-ban-raw-1.txt`, `Kich-ban-raw-2.txt`,...) với dung lượng lý tưởng từ **2.800 – 3.000 ký tự**, đáp ứng hoàn hảo giới hạn nạp của các công cụ Text-to-Speech (như Clipchamp, Azure TTS, v.v.).
+
+---
+
+## 1. Mục Đích & Tiêu Chuẩn Phân Đoạn
+
+1. **Dung lượng tiêu chuẩn**:
+   - **Tối đa (Max chunk)**: 2.800 – 3.000 ký tự (mặc định 3.000 ký tự).
+   - **Tối thiểu (Min chunk)**: 500 ký tự. Không tạo ra các file con quá ngắn. Nếu file cuối cùng < 500 ký tự, tự động gộp vào file trước đó.
+2. **Thứ tự ưu tiên cắt gọt (Split Priority)**:
+   - **Ưu tiên 1 (Cao nhất)**: Cắt tại ranh giới đoạn văn (`\n\n`).
+   - **Ưu tiên 2**: Nếu đoạn văn quá dài (> max_chunk), cắt tại dấu kết thúc câu (`.`, `!`, `?`).
+   - **Ràng buộc tuyệt đối**: **Tuyệt đối không cắt ngang giữa câu hoặc giữa từ**.
+3. **Bảo toàn dữ liệu (Zero Data Loss)**:
+   - Tổng số ký tự trước và sau khi rechunk phải được đối soát (độ lệch cho phép do chuẩn hóa khoảng trắng $\le 0.05\%$).
+4. **Quy ước tập tin**:
+   - **Đầu vào (Input)**: `normalized.txt` (hoặc các file kịch bản thô trong thư mục chương).
+   - **Đầu ra (Output)**: `Kich-ban-raw-1.txt`, `Kich-ban-raw-2.txt`, `Kich-ban-raw-3.txt`,...
+   - Giữ nguyên `normalized.txt` sau khi rechunk thành công.
+
+---
+
+## 2. Quản Lý Phiên Làm Việc (Session State Tracking)
+
+Khi nhận tham số `--session_id`, hệ thống tự động ghi nhận và cập nhật trạng thái:
+- Khóa trạng thái: `step_4_status` = `"IN_PROGRESS"` -> `"COMPLETED"` (hoặc `"FAILED"`).
+- Báo cáo đối soát dung lượng:
+  - `total_chars_before`: Tổng ký tự ban đầu của kịch bản.
+  - `total_chars_after`: Tổng ký tự của toàn bộ các file `Kich-ban-raw-*.txt` đã tạo.
+  - `integrity_rate`: Tỷ lệ bảo toàn dữ liệu (%).
+  - `chapters_processed`: Danh sách các chương và số lượng file sinh ra.
+
+File session được lưu tại `.agy/sessions/<session_id>.json` hoặc `session.json` trong thư mục làm việc.
+
+---
+
+## 3. Cấu Trúc Thư Mục Sau Rechunk
+
+```
+[output_dir]/
+└── 02-Chuong-01/
+    ├── raw_original.txt        # Bản gốc từ PDF (bảo lưu)
+    ├── translated.txt          # Bản dịch tiếng Việt (bảo lưu)
+    ├── normalized.txt          # Bản chuẩn hóa ngữ âm (bảo lưu)
+    ├── Kich-ban-raw-1.txt      # Chunk thứ 1 (2.800 - 3.000 ký tự)
+    ├── Kich-ban-raw-2.txt      # Chunk thứ 2 (2.800 - 3.000 ký tự)
+    └── Kich-ban-raw-3.txt      # Chunk thứ 3 (>= 500 ký tự)
+```
+
+---
+
+## 4. Hướng Dẫn Vận Hành Cho AI & CLI
+
+AI điều phối quy trình có thể chạy script bằng công cụ `run_command`:
+
+### Chạy cho toàn bộ các chương trong thư mục sách:
+```powershell
+python .agy/skills/04_smart_audiobook_rechunker/scripts/rechunk_smart.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Eat-that-frog" --max_chunk 3000 --min_chunk 500 --session_id "session_001"
+```
+
+### Chạy cho một chương đơn lẻ:
+```powershell
+python .agy/skills/04_smart_audiobook_rechunker/scripts/rechunk_smart.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Eat-that-frog/02-Chuong-01" --max_chunk 3000 --min_chunk 500
+```
+
+---
+
+## 5. Hướng Dẫn Kích Hoạt Sub-Agent Phân Đoạn Từng Chương (Semantic Chunking Subagent)
+
+Khi cần tối ưu phân đoạn cho từng chương riêng biệt:
+
+```python
+invoke_subagent(
+    Subagents=[
+        {
+            "TypeName": "self",
+            "Role": "Semantic Chunking Specialist [01-quy-luat-01]",
+            "Prompt": (
+                "Bạn là Chuyên gia Phân đoạn Kịch bản (Smart Rechunker) cho chương '01-quy-luat-01'.\n"
+                "Nhiệm vụ: Phân đoạn 'normalized.txt' thành các file 'Kich-ban-raw-N.txt' từ 2.800-3.000 ký tự theo ranh giới đoạn văn.\n"
+                "Yêu cầu: Bảo toàn 100% nội dung (Zero Data Loss), không cắt ngang câu."
+            )
+        }
+    ]
+)
+```
+
+---
+
+## 6. Tiêu Chí Nghiệm Thu (Acceptance Criteria)
+
+1. Mỗi file `Kich-ban-raw-*.txt` có dung lượng $\le 3.000$ ký tự.
+2. Không có file nào có dung lượng $< 500$ ký tự (trừ khi toàn bộ chương sách ngắn hơn 500 ký tự).
+3. Không có câu văn nào bị cắt đứt giữa chừng.
+4. Session cập nhật `step_4_status = "completed"`.
+
+---
+
+## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
+
+**Mệnh lệnh Bắt buộc cho Root Agent:**
+Khi được giao nhiệm vụ phân đoạn (rechunk) nhiều chương sách, bạn **tuyệt đối không được xử lý tuần tự một mình**. Bạn phải phân rã công việc theo chiều ngang và gọi đồng thời **từ 4 đến 10 Sub-agents** thông qua công cụ `invoke_subagent` để xử lý song song các chương. Mỗi Sub-agent sẽ chịu trách nhiệm chạy script phân đoạn trên một hoặc một nhóm chương cụ thể để đảm bảo tốc độ và tối ưu context.
+
+**Ví dụ cấu hình JSON cho `invoke_subagent`:**
+```json
+{
+  "Subagents": [
+    {
+      "TypeName": "self",
+      "Role": "Semantic Chunker - Batch 1 (Chương 01-03)",
+      "Prompt": "Áp dụng kỹ năng Smart Audiobook Rechunker để xử lý các chương 01 đến 03. Đảm bảo output 2.800-3.000 ký tự và không cắt ngang câu."
+    },
+    {
+      "TypeName": "self",
+      "Role": "Semantic Chunker - Batch 2 (Chương 04-06)",
+      "Prompt": "Áp dụng kỹ năng Smart Audiobook Rechunker để xử lý các chương 04 đến 06. Đảm bảo output 2.800-3.000 ký tự và không cắt ngang câu."
+    }
+  ]
+}
+```
+Chiến lược này đặc biệt quan trọng để tăng tốc độ phân rã kịch bản với các cuốn audiobook dài hơi, cũng như kiểm soát chất lượng text sau rechunk của từng tiến trình một cách độc lập.
+
+
+==== arf_05_script_structure_formatter ====
+﻿---
+name: arf_05_script_structure_formatter
+description: Bước 5 - Tách tiêu đề/phụ đề và chèn marker ngắt nghỉ nhịp thở TTS (. ......) sau tiêu đề và cuối đoạn.
+---
+
+# Kỹ năng 05: Định dạng Cấu trúc Kịch bản TTS (Script Structure Formatter)
+
+Kỹ năng này chịu trách nhiệm **chuẩn hóa cấu trúc hình thức và nhịp thở của văn bản kịch bản**, giải quyết triệt để lỗi dính tiêu đề (Heading) vào nội dung đoạn văn (Body paragraph), đồng thời phân bổ các điểm ngắt nghỉ chuẩn xác cho công cụ Text-To-Speech (TTS như Clipchamp, Edge TTS, v.v.).
+
+---
+
+## 1. Mục Đích & Tiêu Chuẩn
+
+1. **Tách Bạch Tiêu Đề & Nội Dung**:
+   - Nhận diện các dòng tiêu đề, chương, phần, mục (Heading 1, 2, 3).
+   - Đảm bảo luôn có khoảng trắng (xuống dòng) rõ ràng giữa tiêu đề và đoạn văn bên dưới.
+2. **Chèn Nhịp Thở Đệm (Breathing Markers)**:
+   - Hệ thống TTS tự động đọc rất nhanh, cần chèn chuỗi marker: `. ......` (1 dấu chấm, 1 dấu cách, 6 dấu chấm) để tạo khoảng lặng ~1.5 - 2 giây.
+   - **Vị trí bắt buộc chèn**: 
+     - Ngay sau mỗi dòng tiêu đề/phụ đề.
+     - Cuối mỗi đoạn văn dài (trước khi sang đoạn mới).
+     - (Tùy chọn) Sau các dấu chấm câu kết thúc ý lớn.
+3. **Bảo toàn nguyên vẹn từ vựng**:
+   - Chỉ điều chỉnh cấu trúc khoảng trắng và chèn chuỗi marker ngắt nghỉ. Tuyệt đối không thay đổi, xóa bớt hay thêm từ vựng vào nội dung chính (Zero Data Loss - Text Content).
+4. **Quy ước tập tin**:
+   - **Đầu vào (Input)**: `Kich-ban-raw-N.txt` (các chunk từ Bước 4).
+   - **Đầu ra (Output)**: Các file `Kich-ban-N.txt` (Kịch bản thô cấp 1, đã chuẩn hóa nhịp thở).
+   - Tự động dọn dẹp các file `Kich-ban-raw-N.txt` cũ.
+
+---
+
+## 2. Quản Lý Phiên Làm Việc (Session State Tracking)
+
+Khi nhận tham số `--session_id`, hệ thống tự động ghi nhận và cập nhật trạng thái:
+- Khóa trạng thái: `step_5_status` = `"IN_PROGRESS"` -> `"COMPLETED"` (hoặc `"FAILED"`).
+- Báo cáo định dạng:
+  - Báo cáo số lượng chunk đã được định dạng cấu trúc và chèn nhịp thở.
+  - Số lượng marker `. ......` đã chèn (nếu đo đếm được).
+
+File session được lưu tại `.agy/sessions/<session_id>.json` hoặc `session.json` trong thư mục làm việc.
+
+---
+
+## 3. Cấu Trúc Thư Mục Sau Định Dạng
+
+```
+[output_dir]/
+└── 02-Chuong-01/
+    ├── raw_original.txt        # Bản gốc từ PDF (bảo lưu)
+    ├── translated.txt          # Bản dịch tiếng Việt (bảo lưu)
+    ├── normalized.txt          # Bản chuẩn hóa ngữ âm (bảo lưu)
+    ├── Kich-ban-raw-1.txt      # Chunk 1 (Đã định dạng tiêu đề & chèn nhịp thở)
+    ├── Kich-ban-raw-2.txt      # Chunk 2 (Đã định dạng tiêu đề & chèn nhịp thở)
+    └── Kich-ban-raw-3.txt      # Chunk 3 (Đã định dạng tiêu đề & chèn nhịp thở)
+```
+
+---
+
+## 4. Hướng Dẫn Vận Hành Cho AI & CLI
+
+AI điều phối quy trình có thể chạy script bằng công cụ `run_command`:
+
+### Chạy cho toàn bộ các chương trong thư mục sách:
+```powershell
+python .agy/skills/05_script_structure_formatter/scripts/format_script_structure.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Eat-that-frog" --session_id "session_001"
+```
+
+### Chạy cho một chương đơn lẻ:
+```powershell
+python .agy/skills/05_script_structure_formatter/scripts/format_script_structure.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Eat-that-frog/02-Chuong-01"
+```
+
+---
+
+## 5. Hướng Dẫn Kích Hoạt Sub-Agent Định Dạng Từng Chương (Formatting Subagent)
+
+Khi cần sử dụng LLM để phân tích ngữ cảnh và định dạng cấu trúc một cách thông minh cho từng chương:
+
+```python
+invoke_subagent(
+    Subagents=[
+        {
+            "TypeName": "self",
+            "Role": "Structure Formatting Specialist [01-quy-luat-01]",
+            "Prompt": (
+                "Bạn là Chuyên gia Định dạng Kịch bản TTS (Script Structure Formatter) cho chương '01-quy-luat-01'.\n"
+                "Nhiệm vụ: Duyệt qua tất cả các file 'Kich-ban-raw-N.txt', tách bạch các dòng tiêu đề (Headings) khỏi nội dung đoạn văn, "
+                "và chèn chuỗi marker ngắt nghỉ '. ......' vào cuối mỗi tiêu đề và cuối mỗi đoạn văn lớn. Lưu đè kết quả vào chính file 'Kich-ban-raw-N.txt'.\n"
+                "Yêu cầu: Bảo toàn nguyên vẹn 100% từ vựng của kịch bản, chỉ sửa cấu trúc ngắt dòng và chèn marker."
+            )
+        }
+    ]
+)
+```
+
+---
+
+## 6. Tiêu Chí Nghiệm Thu (Acceptance Criteria)
+
+1. Các file `Kich-ban-raw-N.txt` đã được cập nhật với cấu trúc mới và được định dạng chuẩn.
+2. Tiêu đề và nội dung được tách biệt bởi dòng trống (newline).
+3. Các marker nhịp thở `. ......` xuất hiện đúng vị trí cuối tiêu đề và cuối các đoạn văn.
+4. Session cập nhật `step_5_status = "completed"`.
+
+---
+
+## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
+
+**Mệnh lệnh Bắt buộc cho Root Agent:**
+Khi được giao nhiệm vụ định dạng cấu trúc kịch bản (Script Structure Formatting) cho nhiều chương sách, bạn **tuyệt đối không được xử lý tuần tự một mình**. Tương tự như quá trình rechunk, bạn phải phân rã công việc theo chiều ngang và gọi đồng thời **từ 4 đến 10 Sub-agents** thông qua công cụ `invoke_subagent` để xử lý song song các chương. Mỗi Sub-agent sẽ chịu trách nhiệm định dạng trên một nhóm chương cụ thể.
+
+**Ví dụ cấu hình JSON cho `invoke_subagent`:**
+```json
+{
+  "Subagents": [
+    {
+      "TypeName": "self",
+      "Role": "Formatter - Batch 1 (Chương 01-03)",
+      "Prompt": "Áp dụng kỹ năng Script Structure Formatter để định dạng cấu trúc và chèn nhịp thở '. ......' cho các chương 01 đến 03. Quét tất cả file 'Kich-ban-raw-N.txt' và lưu đè vào 'Kich-ban-raw-N.txt'."
+    },
+    {
+      "TypeName": "self",
+      "Role": "Formatter - Batch 2 (Chương 04-06)",
+      "Prompt": "Áp dụng kỹ năng Script Structure Formatter để định dạng cấu trúc và chèn nhịp thở '. ......' cho các chương 04 đến 06. Quét tất cả file 'Kich-ban-raw-N.txt' và lưu đè vào 'Kich-ban-raw-N.txt'."
+    }
+  ]
+}
+```
+Việc chia nhỏ quá trình định dạng bằng nhiều agent sẽ giúp tối ưu hóa thời gian xử lý và giảm nguy cơ lỗi context khi làm việc với lượng lớn văn bản.
+
+
+==== arf_06_llm_script_refiner ====
+---
+name: arf_06_llm_script_refiner
+description: Bước 6 - Tinh chỉnh diễn đọc và nhịp thở bằng LLM theo Prompt chuẩn TTS, dọn dẹp file tạm.
+---
+
+# Kỹ năng 06: Tinh chỉnh Kịch bản Diễn Đọc bằng LLM (`06_llm_script_refiner`)
+
+Kỹ năng này chịu trách nhiệm nhận các khối kịch bản thô (`Kich-ban-raw-N.txt`) từ bước Rechunk, áp dụng **Prompt TTS chuẩn** và gọi LLM để biên tập lại câu từ cho phù hợp với giọng đọc tự nhiên (thêm dấu phẩy ngắt hơi, sửa lỗi ngữ pháp, tách tiêu đề dính, chuẩn hóa phiên âm, giữ nguyên marker ngắt nghỉ `. ......`).
+
+---
+
+## 1. Mục tiêu & Nguyên tắc Tinh chỉnh
+
+### 1.1 Mục tiêu cốt lõi: AI Voice & Prosody Director
+- Đóng vai trò là **Tổng đạo diễn Diễn đọc Âm thanh**, hiểu sâu sắc ngữ cảnh văn học (Literary Context) và nhịp thở của người đọc thật.
+- Biến đổi văn bản dịch thô/OCR thành kịch bản có ngữ điệu diễn đọc truyền cảm, nhịp nhàng, êm ái, tối ưu cho các bộ Text-To-Speech (TTS như Microsoft Edge TTS, Clipchamp, Azure Neural Voice).
+
+### 1.2 Nguyên tắc tinh chỉnh AI bắt buộc
+1. **Phân tích Ngữ điệu & Cảm xúc (Emotional Tone Analysis):** Nhận diện phân đoạn đang xử lý là triết lý trầm ngâm, câu chuyện lịch sử kịch tính, lời khuyên hành động hay phân tích tâm lý để điều phối nhịp văn phù hợp.
+2. **Bổ sung nhịp thở tự nhiên (Breathing Commas):** Thêm dấu phẩy `,` tại các mệnh đề phụ, sau các liên từ mở đầu (`tuy nhiên,`, `bởi vì,`, `do đó,`), và ở các câu phức dài trên 12 từ để bộ đọc TTS lấy hơi tự nhiên, không bị đọc dồn dập hoặc hụt hơi.
+3. **Phân biệt Lời dẫn chuyện & Lời thoại nhân vật:** Đảm bảo lời trích dẫn danh ngôn hoặc lời thoại được đặt sau dấu phẩy và ngắt nhịp rõ ràng để tạo điểm nhấn âm thanh.
+4. **Giữ nguyên Marker ngắt nghỉ `. ......`:** Tuyệt đối giữ nguyên ký hiệu `. ......` ở cuối mỗi đoạn văn hoặc câu chuyển ý quan trọng. Ký hiệu này giúp TTS ngắt nghỉ 1.5 - 2 giây để người nghe chiêm nghiệm.
+5. **Không tóm tắt / Không lược ý (100% Content Fidelity):** Giữ trọn vẹn 100% nội dung, không rút gọn luận điểm, ví dụ hay số liệu của tác giả.
+6. **Không thêm lời dẫn thoại của AI:** Tuyệt đối không thêm các câu mở đầu/kết bài máy móc như *"Dưới đây là kịch bản"*, *"Chào bạn"*... Chỉ xuất nội dung kịch bản sạch.
+
+---
+
+## 2. Quản lý Session & Checkpoint (Resume Logic)
+
+Kỹ năng lưu vết quá trình thực thi thông qua tệp `.session_manifest.json` nằm tại thư mục gốc của dự án hoặc thư mục đầu vào.
+
+### 2.1 Cấu trúc Manifest
+```json
+{
+  "session_id": "session_20260816_100000",
+  "step_6_status": "in_progress",
+  "updated_at": "2026-08-16T10:15:00+07:00",
+  "chapters": {
+    "01-Chuong-01": {
+      "status": "completed",
+      "total_raw_chunks": 3,
+      "completed_chunks": [1, 2, 3]
+    },
+    "02-Chuong-02": {
+      "status": "in_progress",
+      "total_raw_chunks": 4,
+      "completed_chunks": [1, 2]
+    }
+  }
+}
+```
+
+### 2.2 Cơ chế Khôi phục (Resume)
+- Trước khi xử lý file `Kich-ban-raw-N.txt`, script sẽ kiểm tra xem file đích `Kich-ban-N.txt` đã tồn tại và có dung lượng hợp lệ (> 50 byte) hay chưa.
+- Nếu đã tồn tại: **Bỏ qua (Skip)** chunk này và ghi nhận vào checkpoint, giúp tiết kiệm token và thời gian khi chạy lại sau sự cố mất kết nối hoặc dừng đột ngột.
+- Khi toàn bộ các chunk trong một chương hoàn thành, cập nhật trạng thái chương thành `"completed"`.
+- Khi toàn bộ các chương hoàn thành, cập nhật `step_6_status` thành `"completed"`.
+
+---
+
+## 3. Tự Động Dọn Dẹp File Trung Gian (Auto-Cleanup)
+
+Sau khi một chương (hoặc toàn bộ dự án) hoàn thành tinh chỉnh 100%:
+- 🗑️ **Xóa các file thô trung gian:** `Kich-ban-raw-*.txt`
+- 🗑️ **Xóa các file tạm:** `translated.txt` (nếu có)
+- 🔒 **GIỮ LẠI BẮT BUỘC:**
+  - `raw_original.txt`: Bằng chứng văn bản gốc để phục vụ Quality Control (QC).
+  - `Kich-ban-1.txt`, `Kich-ban-2.txt`, ...: Các kịch bản hoàn chỉnh (Final Output).
+
+---
+
+## 4. Hướng Dẫn Kích Hoạt Sub-Agent Biên Kịch Giọng Đọc Từng Chương (Senior Voice Refiner Subagent)
+
+Khi muốn tinh chỉnh sâu sắc ngữ điệu từng chương bằng LLM:
+
+```python
+invoke_subagent(
+    Subagents=[
+        {
+            "TypeName": "self",
+            "Role": "Senior Voice Script Refiner [01-quy-luat-01]",
+            "Prompt": (
+                "Bạn là Tổng biên kịch Diễn đọc Giọng nói cho chương '01-quy-luat-01-lam-chu-cai-toi-cam-xuc'.\n"
+                "Tác giả: Robert Greene | Thể loại: Tâm lý học hành vi / Triết học quyền lực.\n"
+                "Nhiệm vụ: Đọc toàn bộ các chunk 'Kich-ban-raw-N.txt' của chương này và tinh chỉnh thành 'Kich-ban-N.txt'.\n"
+                "Yêu cầu:\n"
+                "1. Thêm dấu phẩy lấy hơi tự nhiên ở những câu dài để bộ đọc TTS ngắt giọng êm ái.\n"
+                "2. Bảo toàn 100% nội dung và marker ngắt nghỉ '. ......'.\n"
+                "3. Khử sạch toàn bộ ký tự cấm TTS (ngoặc, nháy) và chuyển chữ số thành chữ viết."
+            )
+        }
+    ]
+)
+```
+
+---
+
+## 5. Hướng dẫn Sử dụng Script `refine_llm.py`
+
+### 5.1 Vị trí tệp
+- File thực thi: [refine_llm.py](file:///d:/Solution/Audio-Book-Refactor/.agy/skills/arf_06_llm_script_refiner/scripts/refine_llm.py)
+
+### 5.2 Ví dụ câu lệnh
+```bash
+python .agy/skills/arf_06_llm_script_refiner/scripts/refine_llm.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Nhung-quy-luat-ve-ban-chat-con-nguoi" --force
+```
+
+---
+
+## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
+
+**Mệnh lệnh Bắt buộc dành cho Root Agent:**
+Khi được gọi để thực hiện tinh chỉnh script cho một thư mục lớn hoặc một dự án sách nói, Root Agent **KHÔNG ĐƯỢC** tự mình xử lý tuần tự toàn bộ các file `Kich-ban-raw-N.txt`. Do khối lượng dữ liệu lớn và để tận dụng tối đa khả năng xử lý song song, Root Agent phải sử dụng công cụ `invoke_subagent` để gọi từ **5 đến 10 Sub-agents (Refiners)**.
+
+**Chiến lược phân rã (Horizontal Split):**
+- Chia đều danh sách các file cần xử lý (ví dụ: chia theo chương hoặc chia theo dải chunk) cho các Sub-agents.
+- Mỗi Sub-agent chịu trách nhiệm một tập con các file `Kich-ban-raw-N.txt` và lưu thành `Kich-ban-N.txt` tương ứng.
+
+**Ví dụ cấu hình JSON cho `invoke_subagent`:**
+
+```json
+{
+  "Subagents": [
+    {
+      "TypeName": "self",
+      "Role": "Refiner_01",
+      "Prompt": "Bạn là Refiner_01. Hãy đọc và tinh chỉnh các file từ 'Kich-ban-raw-1.txt' đến 'Kich-ban-raw-5.txt' trong thư mục '01-quy-luat-01'. Hãy làm theo các quy tắc Tinh chỉnh bằng LLM đã định nghĩa trong SKILL."
+    },
+    {
+      "TypeName": "self",
+      "Role": "Refiner_02",
+      "Prompt": "Bạn là Refiner_02. Hãy đọc và tinh chỉnh các file từ 'Kich-ban-raw-6.txt' đến 'Kich-ban-raw-10.txt' trong thư mục '01-quy-luat-01'. Hãy làm theo các quy tắc Tinh chỉnh bằng LLM đã định nghĩa trong SKILL."
+    },
+    {
+      "TypeName": "self",
+      "Role": "Refiner_03",
+      "Prompt": "Bạn là Refiner_03. Hãy đọc và tinh chỉnh các file từ 'Kich-ban-raw-11.txt' đến 'Kich-ban-raw-15.txt' trong thư mục '01-quy-luat-01'. Hãy làm theo các quy tắc Tinh chỉnh bằng LLM đã định nghĩa trong SKILL."
+    },
+    {
+      "TypeName": "self",
+      "Role": "Refiner_04",
+      "Prompt": "Bạn là Refiner_04. Hãy đọc và tinh chỉnh các file từ 'Kich-ban-raw-16.txt' đến 'Kich-ban-raw-20.txt' trong thư mục '01-quy-luat-01'. Hãy làm theo các quy tắc Tinh chỉnh bằng LLM đã định nghĩa trong SKILL."
+    },
+    {
+      "TypeName": "self",
+      "Role": "Refiner_05",
+      "Prompt": "Bạn là Refiner_05. Hãy đọc và tinh chỉnh các file từ 'Kich-ban-raw-21.txt' đến 'Kich-ban-raw-25.txt' trong thư mục '01-quy-luat-01'. Hãy làm theo các quy tắc Tinh chỉnh bằng LLM đã định nghĩa trong SKILL."
+    }
+  ]
+}
+```
+
+Sau khi các Sub-agents hoàn thành, Root Agent sẽ tổng hợp trạng thái, kiểm tra các checkpoint và tiến hành dọn dẹp các file trung gian nếu cần thiết.
+
+
+
+==== arf_07_audiobook_qc_auditor ====
+---
+name: arf_07_audiobook_qc_auditor
+description: Bước 7 - Kiểm tra QC đa tầng (Regex, số sót, ký tự cấm, tách biệt Tiêu đề - Thân bài, Word Count delta, Red Flag) và xuất báo cáo QC_Report.md.
+---
+
+# Audiobook QC Auditor (Kiểm Soát Chất Lượng Kịch Bản Sách Nói)
+
+Skill **07_audiobook_qc_auditor** đóng vai trò là Trưởng Bộ Phận Thẩm Định & Kiểm Soát Chất Lượng (Quality Control & Quality Assurance) trong pipeline sản xuất Audiobook tự động. Skill này đảm bảo 100% kịch bản đạt tiêu chuẩn nghiêm ngặt về kỹ thuật TTS, không sót chữ số, không chứa ký tự cấm, đúng nhịp nghỉ, tách biệt hoàn toàn Tiêu đề và Thân bài, và không bị AI bớt xén/tóm tắt sai lệch so với bản gốc.
+
+---
+
+## 1. Mục Tiêu & Tiêu Chuẩn Thẩm Định
+
+### A. Tiêu chuẩn Kỹ thuật (Technical Format)
+1. **Quy chuẩn tên thư mục chương:**
+   - Chỉ sử dụng chữ cái tiếng Anh không dấu, số, và dấu gạch nối `-` (Regex: `^[a-zA-Z0-9\-]+$`).
+   - Ví dụ hợp lệ: `00-gioi-thieu`, `01-quy-luat-01-lam-chu-cai-toi-cam-xuc`.
+2. **Dung lượng file kịch bản:**
+   - Mỗi file `.txt` không được vượt quá **3000 ký tự** (ngưỡng tối ưu: 2200 - 2800 ký tự để API TTS xử lý ổn định, không bị ngắt timeout).
+   - Không được để file rỗng (0 bytes).
+3. **Ký tự cấm trong kịch bản (Zero Forbidden Characters):**
+   - Tuyệt đối không chứa: Ngoặc kép `""` `“”`, ngoặc đơn `()`, ngoặc vuông `[]`, dấu hai chấm `:`, gạch ngang dài `—` `–`.
+   - Phải thay thế bằng lời dẫn tự nhiên hoặc ngắt câu phù hợp cho giọng đọc.
+4. **Quy tắc phiên âm số (Zero-digit Policy):**
+   - Không được sót lại bất kỳ chữ số tự nhiên nào (`0-9`).
+   - Mọi con số, năm, phần trăm, số tiền, ngày tháng phải được viết hoàn toàn thành chữ tiếng Việt (Ví dụ: `1986` -> `một nghìn chín trăm tám mươi sáu`, `20%` -> `hai mươi phần trăm`).
+5. **Cú pháp nhịp nghỉ & Dấu ba chấm:**
+   - Không dùng `...` tùy tiện gây ngắc ngứ.
+   - Nhịp nghỉ dài giữa các đoạn/tiêu đề phải tuân thủ định dạng chuẩn: `. ......` (chấm, khoảng trắng, 6 chấm).
+6. **Kiểm tra Tách biệt Tiêu đề & Nội dung (Heading-to-Body Separation Check - BẮT BUỘC):**
+   - **Lỗi dính tiêu đề:** Tiêu đề chương, Tiêu đề phụ (Sub-heading), Tên quy luật, hoặc Tên tác giả trích dẫn bị dính liền vào câu văn đầu tiên của phần thân bài mà không có dấu chấm ngắt nghỉ hoặc marker `. ......`.
+   - **Ví dụ vi phạm & Cách khắc phục:**
+     - ❌ **Lỗi:** `Giới thiệu Nếu bạn tình cờ bắt gặp...`  
+       -> ✅ **Đúng:** `Giới thiệu. ...... Nếu bạn tình cờ bắt gặp...`
+     - ❌ **Lỗi:** `Làm chủ cái tôi cảm xúc Quy luật của sự thiếu sáng suốt Bạn thích tưởng tượng rằng...`  
+       -> ✅ **Đúng:** `Làm chủ cái tôi cảm xúc. ...... Quy luật của sự thiếu sáng suốt. ...... Bạn thích tưởng tượng rằng...`
+     - ❌ **Lỗi:** `...mẩu khoáng vật rất đặc biệt., Arthur Schopenhauer Trong suốt đời mình...`  
+       -> ✅ **Đúng:** `...mẩu khoáng vật rất đặc biệt. ...... Arthur Schopenhauer. ...... Trong suốt đời mình...`
+     - ❌ **Lỗi:** `....... Đấu trường nội tâm Một ngày cuối năm...`  
+       -> ✅ **Đúng:** `....... Đấu trường nội tâm. ...... Một ngày cuối năm...`
+   - **Thuật toán phát hiện (Detection Heuristics):**
+     - Quét các từ khóa bắt đầu: `Giới thiệu`, `Lời mở đầu`, `Lời nói đầu`, `Chương \w+`, `Quy luật (của|\d+)`, `Phần \w+`, `Tiểu dẫn`, `Chiến lược`, `Đấu trường nội tâm`, `Chìa khóa dẫn đến`, `Các bước`, v.v. nếu theo sau trực tiếp bởi chữ viết hoa của câu thân bài mà không có dấu chấm/ngắt nghỉ.
+     - Quét cụm từ tiêu đề ngắn (<= 8 từ) đứng đầu file hoặc đứng sau marker `. ......` nhưng không có dấu ngắt trước khi vào câu văn có chủ vị.
+     - Quét trích dẫn tên tác giả đứng sau dấu phẩy/chấm dính liền câu mở đoạn mới: `,\s*([A-ZÀ-Ỹ][a-zà-ỹ\s\-]+)\s+([A-ZÀ-Ỹ][a-zà-ỹ]+)`.
+
+### B. Kiểm Tra Chênh Lệch Số Từ (Word Count Delta)
+- Đối chiếu tổng số từ của toàn bộ file kịch bản trong chương với file nguồn `raw_original.txt`.
+- **Cảnh báo RED FLAG:** Nếu độ lệch số từ $|N_{\text{kịch bản}} - N_{\text{gốc}}| / N_{\text{gốc}} > 30\%$, hệ thống sẽ bật cảnh báo đỏ có nguy cơ bớt xén nội dung (Summarization/Hallucination).
+
+---
+
+## 2. Quy Trình AI Semantic Audit (Thẩm Định Viên AI Đọc Đối Chứng Ngữ Nghĩa)
+
+Khi thẩm định chất lượng hoặc khi phát hiện lỗi dính tiêu đề / cờ **RED FLAG**:
+
+1. **Đọc so sánh song song đa chiều (Parallel Cross-Check):**
+   - Mở đồng thời `raw_original.txt` và các file kịch bản `Kich-ban-N.txt` của chương cần thẩm định.
+   - Đối chiếu từng phân đoạn ý niệm: Tiêu đề chương -> Phụ đề -> Danh ngôn mở đầu -> Luận điểm chính -> Câu chuyện minh họa -> Đúc kết bài học.
+2. **Đánh giá ranh giới phân tách (Boundary Assessment):**
+   - Kiểm tra mọi vị trí chuyển đoạn, tiêu đề phụ xem đã được chèn `. ......` và xuống dòng đúng chuẩn hay chưa.
+3. **Đánh giá tổn thất ngữ nghĩa (Semantic Loss Assessment):**
+   - Kiểm tra xem các câu chuyện, ví dụ minh họa, danh ngôn hay nhân vật lịch sử có bị cắt xén hay không.
+   - **Đạt chuẩn (PASS):** Tách biệt tiêu đề chuẩn xác, bảo toàn 100% ý nghĩa và văn phong tác giả -> AI cấp chứng nhận **Verified 100%** `- [x]`.
+   - **Không đạt (FAIL):** Phát hiện dính tiêu đề vào thân bài hoặc bị lược bỏ đoạn văn -> Kích hoạt sửa lỗi ngay lập tức.
+
+---
+
+## 3. Quy Trình Thực Hiện (Action Steps)
+
+### Bước 1: Khởi Chạy Pipeline QC
+```powershell
+python .agy/skills/07_audiobook_qc_auditor/scripts/qc_pipeline_v2.py --input_dir "<DUONG_DAN_THU_MUC_SACH>"
+```
+
+### Bước 2: Phân Tích Kết Quả & Báo Cáo
+Đọc file `QC_Report.md` được tạo tại thư mục gốc của sách:
+- **Nếu toàn bộ PASS:** Báo cáo xác nhận danh sách `- [x] <Tên-chương>` đạt chuẩn 100% (Verified 100%).
+- **Nếu PHÁT HIỆN LỖI:** Hệ thống chỉ rõ từng file, từng dòng bị dính tiêu đề để tự động sửa chữa.
+
+---
+
+## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
+
+Khi được gọi (thông qua lệnh), Root Agent (Master Agent) **KHÔNG ĐƯỢC** xử lý tuần tự công việc một mình. Bắt buộc phải sử dụng công cụ `invoke_subagent` để gọi từ **4 đến 10 Auditor Sub-agents** nhằm chia sẻ khối lượng công việc kiểm tra (QC) song song. 
+
+### Chiến lược Phân chia Công việc
+Tùy thuộc vào số lượng chương sách, Master Agent có thể phân chia công việc theo một trong hai cách:
+- **Chia theo chiều ngang (Theo tệp/chương):** Mỗi Sub-agent phụ trách kiểm tra QC (Regex, lỗi tách tiêu đề, word count...) cho một cụm chương (Ví dụ: Sub-agent 1 quét Chương 1-5, Sub-agent 2 quét Chương 6-10).
+- **Chia theo chiều dọc (Theo chuyên môn):** Mỗi Sub-agent chuyên trách một tiêu chuẩn cụ thể cho toàn bộ sách (Ví dụ: Sub-agent 1 chuyên dò ký tự cấm và số, Sub-agent 2 chuyên phân tích Word Count Delta và Semantic Loss).
+
+### Yêu cầu Hoạt động
+1. Master Agent sẽ tập hợp kết quả từ các Sub-agents thông qua tin nhắn (messages).
+2. Dựa trên dữ liệu thu thập được, Master Agent tổng hợp và xuất báo cáo `QC_Report.md` duy nhất.
+
+### Ví dụ về JSON Configuration khi dùng `invoke_subagent`
+```json
+{
+  "subagents": [
+    {
+      "name": "qc_auditor_ch01_05",
+      "instruction": "Bạn là Auditor Sub-agent. Quét thư mục chương 01 đến 05. Kiểm tra ký tự cấm, số sót, tách tiêu đề và Word Count delta. Báo cáo lại các file vi phạm và chi tiết lỗi."
+    },
+    {
+      "name": "qc_auditor_ch06_10",
+      "instruction": "Bạn là Auditor Sub-agent. Quét thư mục chương 06 đến 10. Kiểm tra ký tự cấm, số sót, tách tiêu đề và Word Count delta. Báo cáo lại các file vi phạm và chi tiết lỗi."
+    },
+    {
+      "name": "qc_auditor_ch11_15",
+      "instruction": "Bạn là Auditor Sub-agent. Quét thư mục chương 11 đến 15. Kiểm tra ký tự cấm, số sót, tách tiêu đề và Word Count delta. Báo cáo lại các file vi phạm và chi tiết lỗi."
+    },
+    {
+      "name": "qc_auditor_ch16_20",
+      "instruction": "Bạn là Auditor Sub-agent. Quét thư mục chương 16 đến 20. Kiểm tra ký tự cấm, số sót, tách tiêu đề và Word Count delta. Báo cáo lại các file vi phạm và chi tiết lỗi."
+    }
+  ]
+}
+```
+
+
+==== arf_08_tts_neural_bgm_mixer ====
+---
+name: arf_08_tts_neural_bgm_mixer
+description: Bước 8 - AI can thiệp sinh âm thanh Edge-TTS Neural, tùy biến dọng đọc/tốc độ theo kịch bản, ghép chương, gom nhóm linh hoạt và hòa âm BGM.
+---
+
+# 🎙️ Kỹ Năng 08: TTS Neural & BGM Audio Mixer (AI-Driven)
+
+## 1. Mục Đích & Tổng Quan (Overview)
+Kỹ năng này chịu trách nhiệm chuyển đổi kịch bản sách đã qua kiểm duyệt thành sản phẩm Audiobook hoàn chỉnh. Khác với việc chạy script một cách cứng nhắc, **AI sẽ làm trung tâm của quá trình này**. Hệ thống không chỉ đơn thuần "chạy lệnh", mà AI cần phải:
+1. **Phân tích bối cảnh nội dung:** Đọc thử văn bản để nắm bắt ngữ điệu, thể loại (truyện cảm động, kĩ năng sống, khoa học) nhằm chọn giọng đọc (voice) và tốc độ (rate) tối ưu.
+2. **Tùy chỉnh nhóm thời lượng:** Tự quyết định độ dài của từng tập (ví dụ sách thiếu nhi có thể là 15-20 phút, sách chuyên khảo 35-40 phút) thay vì ép buộc chuẩn 25-35 phút.
+3. **Cấu hình chuẩn hóa linh hoạt:** Tùy thuộc vào sách (VD: chứa nhiều tiếng Anh, thuật ngữ), AI có thể tắt bộ lọc Regex Tiếng Việt cứng nhắc (`--disable_vi_norm`) để tránh làm sai lệch nội dung.
+4. **Hòa âm BGM:** Mặc định sử dụng `D:\Solution\Audio-Book-Refactor\nhac-nen.mp3` nếu người dùng không cung cấp, áp dụng offset tịnh tiến mượt mà.
+
+---
+
+## 2. Trách nhiệm của AI (Quy trình can thiệp chủ động)
+
+Khi người dùng gọi kỹ năng này, **TUYỆT ĐỐI KHÔNG GỌI SCRIPT NGAY**. Bạn (AI) phải thực hiện tuần tự các bước sau:
+
+### Bước 1: Khảo sát nội dung (Content Profiling)
+- Đọc lướt qua 1-2 file kịch bản trong thư mục `input_dir` để hiểu rõ văn phong.
+- Trả lời các câu hỏi:
+  - Đây là thể loại gì? (Cần giọng trầm ấm nam tính, hay giọng nữ truyền cảm?)
+  - Tốc độ đọc thế nào là hợp lý? (Sách kỹ năng: rate `-10%`, Truyện diễn cảm: rate `-15%` đến `-20%`).
+  - Nội dung có chứa từ nước ngoài bị bộ lọc Tiếng Việt làm hỏng không? (Nếu có, chuẩn bị cờ `--disable_vi_norm`).
+
+### Bước 2: Đề xuất tham số & Xin ý kiến (Nếu cần)
+- Tóm tắt cho người dùng biết bạn định chạy với cấu hình nào:
+  - Giọng đọc (Voice): `vi-VN-NamMinhNeural` / `vi-VN-HoaiMyNeural`
+  - Tốc độ (Rate): `-15%`, v.v.
+  - Phân bổ thời gian (Min/Max Duration).
+- Nếu người dùng đã đồng ý từ trước, có thể tiến hành ngay.
+
+### Bước 3: Thực thi Script với cấu hình tùy chỉnh
+- Chạy `audio_mixer_pipeline.py` với các tham số đã tinh chỉnh.
+- Mặc định BGM là `D:\Solution\Audio-Book-Refactor\nhac-nen.mp3`.
+
+---
+
+## 3. Tham Số Dòng Lệnh Mở Rộng (CLI Interface)
+
+| Tham số | Ý nghĩa |
+| :--- | :--- |
+| `--input_dir` | (Bắt buộc) Đường dẫn thư mục sách chứa kịch bản |
+| `--output_dir` | Thư mục lưu âm thanh (mặc định: `[input_dir]/audio_output`) |
+| `--bgm` | Nhạc nền MP3 (mặc định: `D:\Solution\Audio-Book-Refactor\nhac-nen.mp3`) |
+| `--voice` | Mã giọng đọc Edge-TTS (VD: `vi-VN-NamMinhNeural`, `vi-VN-HoaiMyNeural`) |
+| `--rate` | Tốc độ đọc (VD: `-10%`, `+0%`) |
+| `--min_duration` | Thời lượng nhóm tối thiểu tính bằng phút (Mặc định: `25`) |
+| `--max_duration` | Thời lượng nhóm tối đa tính bằng phút (Mặc định: `35`) |
+| `--disable_vi_norm`| Tắt bộ lọc sửa từ dính chữ tiếng Việt (Dùng khi tài liệu có nhiều tiếng Anh/ký tự đặc biệt) |
+| `--bgm_volume` | Âm lượng BGM (mặc định `0.12`) |
+
+---
+
+## 4. Hướng Dẫn Gọi Agent Tự Động (Ví dụ Thực Thi)
+
+Khi Master AI cần xử lý sinh âm thanh, hãy gọi Subagent hoặc chạy trực tiếp lệnh sau, kết hợp các thông số đã tính toán:
+
+```bash
+python .agy/skills/arf_08_tts_neural_bgm_mixer/scripts/audio_mixer_pipeline.py \
+  --input_dir "Kich-ban-clipchamp/Nhung-quy-luat-ve-ban-chat-con-nguoi" \
+  --voice "vi-VN-NamMinhNeural" \
+  --rate "-15%" \
+  --min_duration 30 \
+  --max_duration 45 \
+  --disable_vi_norm
+```
+
+**Lưu ý:** Sự khác biệt của AI so với một script tự động là khả năng **tư duy, đánh giá nội dung và điều chỉnh tham số**. Hãy luôn làm điều đó để tạo ra Audiobook có trải nghiệm nghe tốt nhất!
+
+## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
+
+**Mệnh lệnh Bắt Buộc (Mandatory Directive):**
+Khi Root Agent được triệu gọi để thực thi tiến trình sinh âm thanh (TTS) hoặc chuẩn bị SSML, TUYỆT ĐỐI KHÔNG được tự mình xử lý tuần tự toàn bộ công việc. Thay vào đó, Root Agent PHẢI sử dụng công cụ `invoke_subagent` để khởi tạo đồng thời 4 đến 10 Sub-agents nhằm phân chia và xử lý công việc song song.
+
+**Chiến lược phân công (Delegation Strategy):**
+- **Chia theo chiều ngang (Horizontal / Data Parallel):** Chia nhỏ tập các file kịch bản (ví dụ: mỗi Sub-agent đảm nhận sinh Audio/SSML cho 1-2 chương độc lập).
+- **Chia theo chiều dọc (Vertical / Role-based):** Phân công chuyên sâu theo pipeline (ví dụ: 2 sub-agent phân tích từ vựng & tạo SSML, 5 sub-agent gọi API Edge-TTS song song, 1-2 sub-agent chạy xử lý hậu kỳ âm thanh và mix BGM).
+
+**Ví dụ cấu hình JSON cho `invoke_subagent`:**
+```json
+{
+  "subagents": [
+    {
+      "agent_id": "ssml_prep_worker",
+      "instruction": "Phân tích nội dung Chương 1-5 và chuẩn bị file SSML với nhịp điệu phù hợp."
+    },
+    {
+      "agent_id": "tts_worker_1",
+      "instruction": "Chạy tiến trình Edge-TTS tạo audio cho Chương 1-2 từ file SSML đã chuẩn bị."
+    },
+    {
+      "agent_id": "tts_worker_2",
+      "instruction": "Chạy tiến trình Edge-TTS tạo audio cho Chương 3-5 từ file SSML đã chuẩn bị."
+    },
+    {
+      "agent_id": "audio_mix_worker",
+      "instruction": "Chờ các tts_worker hoàn tất, sau đó ghép nối các file audio và hòa âm với nhạc nền BGM."
+    }
+  ]
+}
+```
+
+

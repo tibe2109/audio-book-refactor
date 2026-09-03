@@ -1,0 +1,6 @@
+Kich-ban-1.txt: ân thành sự cảm thông Quy luật của sự ái kỷ Tất cả chúng ta đều tự nhiên sở hữu công cụ nổi bật nhất để kết nối với mọi người và giành được quyền lực xã hội, sự cảm thông. Khi được vun bồi v
+normalized.txt: ân thành sự cảm thông Quy luật của sự ái kỷ Tất cả chúng ta đều tự nhiên sở hữu công cụ nổi bật nhất để kết nối với mọi người và giành được quyền lực xã hội, sự cảm thông. Khi được vun bồi v
+raw_original.txt: thành sự cảm thông
+Quy luật của sự ái kỷ
+Tất cả chúng ta đều tự nhiên sở hữu công cụ nổi bật nhất để kết nối với mọi
+người và giành được quyền lực xã hội - sự cảm thông. Khi được vun bồi v
