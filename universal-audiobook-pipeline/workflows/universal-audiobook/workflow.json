@@ -1,0 +1,145 @@
+{
+  "$schema": "https://antigravity.google.com/schemas/v2/workflow.json",
+  "name": "universal-audiobook-pipeline",
+  "version": "2.0.0",
+  "title": "Dây Chuyền Sản Xuất Sách Nói Vạn Năng (Universal Audiobook Production Pipeline)",
+  "description": "Dây chuyền tự động hóa khép kín từ Tài liệu gốc (PDF/Text) đến Master Audio phát thanh đa phân cảnh chuẩn mực. Tương thích Antigravity IDE, CLI và Multi-Agent Swarm v2.0.",
+  "author": "Antigravity Engineering Team",
+  "target_platforms": ["antigravity-ide", "antigravity-cli", "antigravity-v2"],
+  "environment": {
+    "python_runtime": ">=3.10",
+    "ffmpeg_required": true,
+    "tts_engine": "edge-tts",
+    "encoding": "utf-8"
+  },
+  "constraints": {
+    "language_output": "vi-VN",
+    "term_preservation": "100% Latinh gốc chuẩn quốc tế",
+    "acronym_spelling": "Phát thanh tách âm có dấu gạch nối (P-M-I, W-B-S, K-P-I)",
+    "audio_part_duration_min": 1500,
+    "audio_part_duration_max": 2100,
+    "audio_part_duration_hard_cap": 2100,
+    "audio_part_hard_cap_description": "TUYỆT ĐỐI KHÔNG CÓ BẤT KỲ FILE FULL HOẶC FINAL NÀO VƯỢT QUÁ 35 PHÚT"
+  },
+  "audio_profiles": {
+    "dual_voice": {
+      "primary_narrator": {
+        "voice": "vi-VN-NamMinhNeural",
+        "gender": "male",
+        "rate": "-10%",
+        "timbre": "Trầm ấm, đĩnh đạc, học thuật, chuẩn phát thanh"
+      },
+      "secondary_terms": {
+        "voice": "en-US-BrianMultilingualNeural",
+        "gender": "male",
+        "rate": "-5%",
+        "timbre": "Bản ngữ chuẩn xác, đồng nhất giới tính và âm vực với giọng chính"
+      },
+      "boundary_buffer_ms": 40,
+      "silence_cutoff_db": -42,
+      "loudnorm_target": -16
+    },
+    "bgm_mastering": {
+      "volume_ducking": 0.10,
+      "crossfade_sec": 3.0,
+      "fade_in_sec": 3.0,
+      "fade_out_sec": 5.0,
+      "sample_rate_hz": 48000,
+      "bitrate_kbps": 192,
+      "channels": 1
+    }
+  },
+  "pipeline_steps": [
+    {
+      "step": 1,
+      "id": "pdf_structure_extractor",
+      "skill": "arf_01_pdf_structure_extractor",
+      "name": "Bóc Tách Cấu Trúc PDF & Làm Sạch Văn Bản Thô",
+      "inputs": ["source.pdf"],
+      "outputs": ["raw_original.txt"],
+      "criteria": "Loại bỏ 100% Header, Footer, số trang in, ranh giới TOC và nối liền Drop-cap gãy dòng."
+    },
+    {
+      "step": 2,
+      "id": "author_style_translator",
+      "skill": "arf_02_author_style_translator",
+      "name": "Chuyển Thể Văn Phong Nhập Vai Tác Giả",
+      "inputs": ["raw_original.txt"],
+      "outputs": ["translated.txt"],
+      "criteria": "Bảo toàn 100% tri thức học thuật, không tóm tắt, diễn ngôn sinh động các bảng biểu/sơ đồ, giữ nguyên thuật ngữ Latinh."
+    },
+    {
+      "step": 3,
+      "id": "text_phonetics_normalizer",
+      "skill": "arf_03_text_phonetics_normalizer",
+      "name": "Chuẩn Hóa Ngữ Âm Học Ngữ Cảnh & Số Tự Nhiên",
+      "inputs": ["translated.txt"],
+      "outputs": ["normalized.txt"],
+      "criteria": "Số hóa 100% chữ số kỹ thuật thành chữ tự nhiên, viết tắt tách âm phát thanh, giữ nguyên từ vựng tiếng Anh chuyên môn."
+    },
+    {
+      "step": 4,
+      "id": "smart_audiobook_rechunker",
+      "skill": "arf_04_smart_audiobook_rechunker",
+      "name": "Phân Rã Kịch Bản Thành Chunks Tối Ưu",
+      "inputs": ["normalized.txt"],
+      "outputs": ["Kich-ban-raw-*.txt"],
+      "criteria": "Chia nhỏ theo ranh giới đoạn văn trọn vẹn, quy mô 2.500 - 3.500 ký tự/chunk, không cắt ngang ý."
+    },
+    {
+      "step": 5,
+      "id": "script_structure_formatter",
+      "skill": "arf_05_script_structure_formatter",
+      "name": "Định Dạng Tiêu Đề & Cấu Trúc Nhịp Thở",
+      "inputs": ["Kich-ban-raw-*.txt"],
+      "outputs": ["Kich-ban-raw-*.txt"],
+      "criteria": "Tiêu đề IN HOA độc lập, chèn marker ngắt nghỉ '. ......' (1.5 - 2.0s) tại ranh giới chuyển ý."
+    },
+    {
+      "step": 6,
+      "id": "llm_script_refiner",
+      "skill": "arf_06_llm_script_refiner",
+      "name": "Tinh Chỉnh Diễn Đọc & Khử Ký Tự Cấm TTS",
+      "inputs": ["Kich-ban-raw-*.txt"],
+      "outputs": ["Kich-ban-*.txt"],
+      "criteria": "Bổ sung dấu phẩy lấy hơi (Breathing Commas), câu <= 30 từ, quét sạch 100% ký tự cấm (), \"\", :, ;, —."
+    },
+    {
+      "step": 7,
+      "id": "audiobook_qc_auditor",
+      "skill": "arf_07_audiobook_qc_auditor",
+      "name": "Kiểm Toán Đối Soát 7 Quality Gates (Cổng Chặn Cứng)",
+      "inputs": ["Kich-ban-*.txt", "raw_original.txt"],
+      "outputs": ["QC_Report.md"],
+      "is_hard_gate": true,
+      "criteria": "100% 7 Gates PASSED. Nếu không đạt, tự động kích hoạt Self-Healing Loop tối đa 3 lần."
+    },
+    {
+      "step": 8,
+      "id": "tts_neural_bgm_mixer",
+      "skill": "arf_08_tts_neural_bgm_mixer",
+      "name": "Thu Âm Song Thanh AI Liền Mạch (Seamless Dual-Voice)",
+      "inputs": ["Kich-ban-*.txt"],
+      "outputs": ["audio_chunks/chunk_*.mp3", ".chunks_duration.json"],
+      "criteria": "Khử dead-gap (-42dB), đệm 40ms, chuẩn EBU R128 (-16 LUFS), tự động retry exponential backoff khi mạng bận."
+    },
+    {
+      "step": 9,
+      "id": "audio_smart_aggregator",
+      "skill": "arf_09_audio_smart_aggregator",
+      "name": "Gom Ghép File Thông Minh Theo Khung [25 - 35 Phút]",
+      "inputs": ["audio_chunks/chunk_*.mp3", ".chunks_duration.json"],
+      "outputs": ["Full_*_Part*.mp3"],
+      "criteria": "Toán học phân bổ cân bằng, mỗi tập 25 - 35 phút (trừ tổng < 25 phút), TUYỆT ĐỐI KHÔNG CÓ FILE > 35 PHÚT."
+    },
+    {
+      "step": 10,
+      "id": "bgm_dynamic_mixer",
+      "skill": "arf_10_bgm_dynamic_mixer",
+      "name": "Hòa Âm Đạo Diễn Đa Phân Cảnh (Dynamic Scene-Scoring)",
+      "inputs": ["Full_*_Part*.mp3", "bgm_audio_library"],
+      "outputs": ["Final_Audio_*_Part*.mp3", "audio_output/Final_Audio_*_Part*.mp3"],
+      "criteria": "3 Scenes nghệ thuật, Acrossfade 3s, Volume Ducking -20dB, Fade-in 3s Part 1, Fade-out 5s Part cuối, lưu bản quyền Master."
+    }
+  ]
+}

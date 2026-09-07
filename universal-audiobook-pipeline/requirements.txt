@@ -1,0 +1,24 @@
+# ==============================================================================
+# Universal Audiobook Production Pipeline - Python Dependencies (Cross-Platform)
+# ==============================================================================
+
+# Core AI Neural Speech Synthesis (Edge TTS)
+edge-tts>=6.1.12
+
+# Audio Metadata & Duration Extraction
+mutagen>=1.47.0
+
+# Document Structure Parsing & PDF Extraction (Multi-column & Visual Analysis)
+pdfplumber>=0.11.0
+pypdf>=4.0.0
+
+# Fallback FFmpeg Engine (Tự động kích hoạt khi hệ thống thiếu binary FFmpeg trên Win/Linux/Mac)
+imageio-ffmpeg>=0.5.1
+
+# Network & Asset Fetching
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Console UI & Progress Visualization
+tqdm>=4.66.0
+colorama>=0.4.6

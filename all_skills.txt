@@ -1,46 +1,46 @@
-==== arf_01_pdf_structure_extractor ====
+﻿==== arf_01_pdf_structure_extractor ====
 ---
 name: arf_01_pdf_structure_extractor
-description: Bước 1 - Bóc tách cấu trúc PDF phức tạp, loại bỏ Header/Footer/TOC và khởi tạo Session Manifest.
+description: BÆ°á»›c 1 - BÃ³c tÃ¡ch cáº¥u trÃºc PDF phá»©c táº¡p, loáº¡i bá» Header/Footer/TOC vÃ  khá»Ÿi táº¡o Session Manifest.
 ---
 
-# Kỹ năng 01: Bóc tách Cấu trúc PDF (PDF Structure Extractor)
+# Ká»¹ nÄƒng 01: BÃ³c tÃ¡ch Cáº¥u trÃºc PDF (PDF Structure Extractor)
 
-Kỹ năng này chịu trách nhiệm phân tích, lọc nhiễu và bóc tách toàn bộ cấu trúc nội dung từ các file sách điện tử định dạng PDF (kể cả PDF có layout phức tạp như 2 cột, header/footer biến đổi, footnote, mục lục dài). Kết quả đầu ra là hệ thống thư mục chương độc lập chứa văn bản gốc bất biến (`raw_original.txt`) kèm file theo dõi phiên làm việc (`.session_manifest.json`).
-
----
-
-## 1. Mục tiêu và Phạm vi
-- **Nhận diện Cấu trúc Vĩ mô (Macro Chapter Architecture):** Luôn ưu tiên phát hiện cấu trúc chương vĩ mô (Lời mở đầu, Chương 1..N, Lời kết) dựa trên dải trang (Page Range) và phân tích Mục lục. Tuyệt đối KHÔNG băm nhỏ văn bản theo các tiểu mục nội dung bên trong chương (như "Đấu trường nội tâm", "Biểu tượng", "Điểm yếu", "Ví dụ...").
-- **Hàn gắn Chữ cái Nghệ thuật (Drop-Cap Healer):** Tự động phát hiện và nối liền các chữ cái Drop-Cap in hoa đơn lẻ đứng đầu dòng bị rớt dòng (`T\nrong` -> `Trong`, `B\nạn` -> `Bạn`, `C\non` -> `Con`, `Đ\niều` -> `Điều`, `M\nột` -> `Một`).
-- **Lọc nhiễu văn bản (Noise Filtering):** Loại bỏ hoàn toàn Header (tiêu đề trang lặp lại), Footer, số trang (Page numbers), dòng chú thích chân trang (Footnotes/Page marks) và trang Mục lục (Table of Contents - TOC).
-- **Xử lý Layout đa dạng:** Hỗ trợ sách 1 cột tiêu chuẩn và sách 2 cột (Multi-column reading order: đọc hết cột 1 từ trên xuống dưới rồi sang cột 2).
-- **Tính Bất biến (Immutability):** File `raw_original.txt` được tạo ra là dữ liệu gốc nguyên bản, dùng làm bằng chứng đối soát (QC Ground Truth) cho toàn bộ quy trình dịch và tạo audio book về sau.
-- **Quản trị Phiên (Session Isolation):** Mọi sách được quản lý theo thư mục định danh `[book_slug]` với file `.session_manifest.json` ghi vết trạng thái từng chương.
+Ká»¹ nÄƒng nÃ y chá»‹u trÃ¡ch nhiá»‡m phÃ¢n tÃ­ch, lá»c nhiá»…u vÃ  bÃ³c tÃ¡ch toÃ n bá»™ cáº¥u trÃºc ná»™i dung tá»« cÃ¡c file sÃ¡ch Ä‘iá»‡n tá»­ Ä‘á»‹nh dáº¡ng PDF (ká»ƒ cáº£ PDF cÃ³ layout phá»©c táº¡p nhÆ° 2 cá»™t, header/footer biáº¿n Ä‘á»•i, footnote, má»¥c lá»¥c dÃ i). Káº¿t quáº£ Ä‘áº§u ra lÃ  há»‡ thá»‘ng thÆ° má»¥c chÆ°Æ¡ng Ä‘á»™c láº­p chá»©a vÄƒn báº£n gá»‘c báº¥t biáº¿n (`raw_original.txt`) kÃ¨m file theo dÃµi phiÃªn lÃ m viá»‡c (`.session_manifest.json`).
 
 ---
 
-## 2. Cấu trúc Thư mục và Định dạng Output
+## 1. Má»¥c tiÃªu vÃ  Pháº¡m vi
+- **Nháº­n diá»‡n Cáº¥u trÃºc VÄ© mÃ´ (Macro Chapter Architecture):** LuÃ´n Æ°u tiÃªn phÃ¡t hiá»‡n cáº¥u trÃºc chÆ°Æ¡ng vÄ© mÃ´ (Lá»i má»Ÿ Ä‘áº§u, ChÆ°Æ¡ng 1..N, Lá»i káº¿t) dá»±a trÃªn dáº£i trang (Page Range) vÃ  phÃ¢n tÃ­ch Má»¥c lá»¥c. Tuyá»‡t Ä‘á»‘i KHÃ”NG bÄƒm nhá» vÄƒn báº£n theo cÃ¡c tiá»ƒu má»¥c ná»™i dung bÃªn trong chÆ°Æ¡ng (nhÆ° "Äáº¥u trÆ°á»ng ná»™i tÃ¢m", "Biá»ƒu tÆ°á»£ng", "Äiá»ƒm yáº¿u", "VÃ­ dá»¥...").
+- **HÃ n gáº¯n Chá»¯ cÃ¡i Nghá»‡ thuáº­t (Drop-Cap Healer):** Tá»± Ä‘á»™ng phÃ¡t hiá»‡n vÃ  ná»‘i liá»n cÃ¡c chá»¯ cÃ¡i Drop-Cap in hoa Ä‘Æ¡n láº» Ä‘á»©ng Ä‘áº§u dÃ²ng bá»‹ rá»›t dÃ²ng (`T\nrong` -> `Trong`, `B\náº¡n` -> `Báº¡n`, `C\non` -> `Con`, `Ä\niá»u` -> `Äiá»u`, `M\ná»™t` -> `Má»™t`).
+- **Lá»c nhiá»…u vÄƒn báº£n (Noise Filtering):** Loáº¡i bá» hoÃ n toÃ n Header (tiÃªu Ä‘á» trang láº·p láº¡i), Footer, sá»‘ trang (Page numbers), dÃ²ng chÃº thÃ­ch chÃ¢n trang (Footnotes/Page marks) vÃ  trang Má»¥c lá»¥c (Table of Contents - TOC).
+- **Xá»­ lÃ½ Layout Ä‘a dáº¡ng:** Há»— trá»£ sÃ¡ch 1 cá»™t tiÃªu chuáº©n vÃ  sÃ¡ch 2 cá»™t (Multi-column reading order: Ä‘á»c háº¿t cá»™t 1 tá»« trÃªn xuá»‘ng dÆ°á»›i rá»“i sang cá»™t 2).
+- **TÃ­nh Báº¥t biáº¿n (Immutability):** File `raw_original.txt` Ä‘Æ°á»£c táº¡o ra lÃ  dá»¯ liá»‡u gá»‘c nguyÃªn báº£n, dÃ¹ng lÃ m báº±ng chá»©ng Ä‘á»‘i soÃ¡t (QC Ground Truth) cho toÃ n bá»™ quy trÃ¬nh dá»‹ch vÃ  táº¡o audio book vá» sau.
+- **Quáº£n trá»‹ PhiÃªn (Session Isolation):** Má»i sÃ¡ch Ä‘Æ°á»£c quáº£n lÃ½ theo thÆ° má»¥c Ä‘á»‹nh danh `[book_slug]` vá»›i file `.session_manifest.json` ghi váº¿t tráº¡ng thÃ¡i tá»«ng chÆ°Æ¡ng.
 
-### 2.1 Cấu trúc cây thư mục đầu ra
+---
+
+## 2. Cáº¥u trÃºc ThÆ° má»¥c vÃ  Äá»‹nh dáº¡ng Output
+
+### 2.1 Cáº¥u trÃºc cÃ¢y thÆ° má»¥c Ä‘áº§u ra
 
 ```
 [output_dir]/[book_slug]/
-├── .session_manifest.json          # File manifest theo dõi trạng thái session của sách
-├── 00-Preface/
-│   └── raw_original.txt           # Nội dung thô của phần Mở đầu (Bất biến)
-├── 01-Intro/
-│   └── raw_original.txt           # Nội dung thô phần Dẫn nhập (Bất biến)
-├── 02-Chuong-01/
-│   └── raw_original.txt           # Nội dung thô Chương 1 (Bất biến)
-├── 03-Chuong-02/
-│   └── raw_original.txt           # Nội dung thô Chương 2 (Bất biến)
-└── ...
+â”œâ”€â”€ .session_manifest.json          # File manifest theo dÃµi tráº¡ng thÃ¡i session cá»§a sÃ¡ch
+â”œâ”€â”€ 00-Preface/
+â”‚   â””â”€â”€ raw_original.txt           # Ná»™i dung thÃ´ cá»§a pháº§n Má»Ÿ Ä‘áº§u (Báº¥t biáº¿n)
+â”œâ”€â”€ 01-Intro/
+â”‚   â””â”€â”€ raw_original.txt           # Ná»™i dung thÃ´ pháº§n Dáº«n nháº­p (Báº¥t biáº¿n)
+â”œâ”€â”€ 02-Chuong-01/
+â”‚   â””â”€â”€ raw_original.txt           # Ná»™i dung thÃ´ ChÆ°Æ¡ng 1 (Báº¥t biáº¿n)
+â”œâ”€â”€ 03-Chuong-02/
+â”‚   â””â”€â”€ raw_original.txt           # Ná»™i dung thÃ´ ChÆ°Æ¡ng 2 (Báº¥t biáº¿n)
+â””â”€â”€ ...
 ```
 
-### 2.2 Quy cách file `.session_manifest.json`
+### 2.2 Quy cÃ¡ch file `.session_manifest.json`
 
-File `.session_manifest.json` được tạo mới hoặc cập nhật sau khi hoàn thành bóc tách:
+File `.session_manifest.json` Ä‘Æ°á»£c táº¡o má»›i hoáº·c cáº­p nháº­t sau khi hoÃ n thÃ nh bÃ³c tÃ¡ch:
 
 ```json
 {
@@ -89,24 +89,24 @@ File `.session_manifest.json` được tạo mới hoặc cập nhật sau khi h
 
 ---
 
-## 3. Hướng dẫn Dành cho AI Agent (Execution Workflow)
+## 3. HÆ°á»›ng dáº«n DÃ nh cho AI Agent (Execution Workflow)
 
-### Bước 1: Tiếp nhận yêu cầu & Thu thập tham số
-Xác định các thông tin cần thiết:
-1. `--pdf_path`: Đường dẫn tuyệt đối tới file PDF.
-2. `--output_dir`: Thư mục gốc lưu trữ kết quả.
-3. `--book_slug`: Slug định danh sách (ví dụ: `eat-that-frog`, `dac-nhan-tam`).
-4. `--session_id`: (Tùy chọn) Mã phiên làm việc, nếu không cung cấp script sẽ tự khởi tạo.
+### BÆ°á»›c 1: Tiáº¿p nháº­n yÃªu cáº§u & Thu tháº­p tham sá»‘
+XÃ¡c Ä‘á»‹nh cÃ¡c thÃ´ng tin cáº§n thiáº¿t:
+1. `--pdf_path`: ÄÆ°á»ng dáº«n tuyá»‡t Ä‘á»‘i tá»›i file PDF.
+2. `--output_dir`: ThÆ° má»¥c gá»‘c lÆ°u trá»¯ káº¿t quáº£.
+3. `--book_slug`: Slug Ä‘á»‹nh danh sÃ¡ch (vÃ­ dá»¥: `eat-that-frog`, `dac-nhan-tam`).
+4. `--session_id`: (TÃ¹y chá»n) MÃ£ phiÃªn lÃ m viá»‡c, náº¿u khÃ´ng cung cáº¥p script sáº½ tá»± khá»Ÿi táº¡o.
 
-### Bước 2: Xử lý Đơn sách hoặc Đa sách (Multi-Agent Dispatching)
-- **Nếu là 1 file PDF:**
-  AI gọi lệnh `run_command` chạy trực tiếp script `extract_structure.py`.
-- **Nếu là thư mục chứa nhiều file PDF hoặc file PDF quá lớn (> 500 trang):**
-  AI kích hoạt `invoke_subagent` để chia nhỏ công việc song song cho từng cuốn sách hoặc từng cụm chương lớn, mỗi subagent làm việc độc lập trong thư mục `[book_slug]` tương ứng.
+### BÆ°á»›c 2: Xá»­ lÃ½ ÄÆ¡n sÃ¡ch hoáº·c Äa sÃ¡ch (Multi-Agent Dispatching)
+- **Náº¿u lÃ  1 file PDF:**
+  AI gá»i lá»‡nh `run_command` cháº¡y trá»±c tiáº¿p script `extract_structure.py`.
+- **Náº¿u lÃ  thÆ° má»¥c chá»©a nhiá»u file PDF hoáº·c file PDF quÃ¡ lá»›n (> 500 trang):**
+  AI kÃ­ch hoáº¡t `invoke_subagent` Ä‘á»ƒ chia nhá» cÃ´ng viá»‡c song song cho tá»«ng cuá»‘n sÃ¡ch hoáº·c tá»«ng cá»¥m chÆ°Æ¡ng lá»›n, má»—i subagent lÃ m viá»‡c Ä‘á»™c láº­p trong thÆ° má»¥c `[book_slug]` tÆ°Æ¡ng á»©ng.
 
-### Bước 3: Chạy Script Python Bóc tách Cấu trúc
+### BÆ°á»›c 3: Cháº¡y Script Python BÃ³c tÃ¡ch Cáº¥u trÃºc
 
-Lệnh thực thi chuẩn:
+Lá»‡nh thá»±c thi chuáº©n:
 ```powershell
 python .agy/skills/01_pdf_structure_extractor/scripts/extract_structure.py `
   --pdf_path "D:\Solution\Audio-Book-Refactor\Docs\Eat That Frog! 21 Great Ways to Stop Procrastinating and Get More Done in Less Time ( PDFDrive ).pdf" `
@@ -114,53 +114,53 @@ python .agy/skills/01_pdf_structure_extractor/scripts/extract_structure.py `
   --book_slug "Eat-that-frog"
 ```
 
-### Bước 4: Kiểm tra tính hợp lệ của Output (Verification)
-Sau khi script hoàn tất:
-1. Đọc nội dung `.session_manifest.json` trong thư mục sách để kiểm tra danh sách chương và trang.
-2. Đảm bảo toàn bộ các thư mục chương đều có file `raw_original.txt` với dung lượng `> 0 bytes`.
-3. Báo cáo kết quả rõ ràng (Tổng số trang, tổng số chương phát hiện được, tổng số ký tự đã bóc tách).
+### BÆ°á»›c 4: Kiá»ƒm tra tÃ­nh há»£p lá»‡ cá»§a Output (Verification)
+Sau khi script hoÃ n táº¥t:
+1. Äá»c ná»™i dung `.session_manifest.json` trong thÆ° má»¥c sÃ¡ch Ä‘á»ƒ kiá»ƒm tra danh sÃ¡ch chÆ°Æ¡ng vÃ  trang.
+2. Äáº£m báº£o toÃ n bá»™ cÃ¡c thÆ° má»¥c chÆ°Æ¡ng Ä‘á»u cÃ³ file `raw_original.txt` vá»›i dung lÆ°á»£ng `> 0 bytes`.
+3. BÃ¡o cÃ¡o káº¿t quáº£ rÃµ rÃ ng (Tá»•ng sá»‘ trang, tá»•ng sá»‘ chÆ°Æ¡ng phÃ¡t hiá»‡n Ä‘Æ°á»£c, tá»•ng sá»‘ kÃ½ tá»± Ä‘Ã£ bÃ³c tÃ¡ch).
 
 ---
 
-## 4. Các Heuristic Xử lý PDF Nâng cao trong Script
+## 4. CÃ¡c Heuristic Xá»­ lÃ½ PDF NÃ¢ng cao trong Script
 
-1. **Bộ lọc Header & Footer theo tần suất và tọa độ:**
-   - Quét qua mẫu 20-30 trang đầu và cuối để tìm các dòng văn bản lặp lại tại vị trí y-top (< 10% chiều cao trang) hoặc y-bottom (> 90% chiều cao trang).
-   - Tự động cắt bỏ các chuỗi này khi ghép văn bản nội dung.
+1. **Bá»™ lá»c Header & Footer theo táº§n suáº¥t vÃ  tá»a Ä‘á»™:**
+   - QuÃ©t qua máº«u 20-30 trang Ä‘áº§u vÃ  cuá»‘i Ä‘á»ƒ tÃ¬m cÃ¡c dÃ²ng vÄƒn báº£n láº·p láº¡i táº¡i vá»‹ trÃ­ y-top (< 10% chiá»u cao trang) hoáº·c y-bottom (> 90% chiá»u cao trang).
+   - Tá»± Ä‘á»™ng cáº¯t bá» cÃ¡c chuá»—i nÃ y khi ghÃ©p vÄƒn báº£n ná»™i dung.
 
-2. **Bộ lọc Số trang (Page Number Regex):**
-   - Loại bỏ các dòng độc lập chỉ chứa chữ số, số La Mã (i, ii, iii, iv, v...), hoặc mẫu `Page X / Page X of Y`.
+2. **Bá»™ lá»c Sá»‘ trang (Page Number Regex):**
+   - Loáº¡i bá» cÃ¡c dÃ²ng Ä‘á»™c láº­p chá»‰ chá»©a chá»¯ sá»‘, sá»‘ La MÃ£ (i, ii, iii, iv, v...), hoáº·c máº«u `Page X / Page X of Y`.
 
-3. **Phát hiện Trang Mục lục (TOC Scanning):**
-   - Quét từ khóa `Contents`, `Table of Contents`, `Mục lục`, kết hợp với mật độ xuất hiện của dấu chấm kéo dài `...` và số trang ở cuối dòng.
-   - Đánh dấu vùng trang TOC để không nhận diện nhầm tiêu đề trong TOC thành chương nội dung.
+3. **PhÃ¡t hiá»‡n Trang Má»¥c lá»¥c (TOC Scanning):**
+   - QuÃ©t tá»« khÃ³a `Contents`, `Table of Contents`, `Má»¥c lá»¥c`, káº¿t há»£p vá»›i máº­t Ä‘á»™ xuáº¥t hiá»‡n cá»§a dáº¥u cháº¥m kÃ©o dÃ i `...` vÃ  sá»‘ trang á»Ÿ cuá»‘i dÃ²ng.
+   - ÄÃ¡nh dáº¥u vÃ¹ng trang TOC Ä‘á»ƒ khÃ´ng nháº­n diá»‡n nháº§m tiÃªu Ä‘á» trong TOC thÃ nh chÆ°Æ¡ng ná»™i dung.
 
-4. **Xử lý Layout 2 cột (Column Flow Detection):**
-   - Phân tích tọa độ x0, x1 của các block văn bản trên trang. Nếu tồn tại khoảng phân cách cột (gutter) rõ rệt ở giữa trang, script tự gom cụm block theo cột trái trước, sau đó nối tiếp cột phải.
+4. **Xá»­ lÃ½ Layout 2 cá»™t (Column Flow Detection):**
+   - PhÃ¢n tÃ­ch tá»a Ä‘á»™ x0, x1 cá»§a cÃ¡c block vÄƒn báº£n trÃªn trang. Náº¿u tá»“n táº¡i khoáº£ng phÃ¢n cÃ¡ch cá»™t (gutter) rÃµ rá»‡t á»Ÿ giá»¯a trang, script tá»± gom cá»¥m block theo cá»™t trÃ¡i trÆ°á»›c, sau Ä‘Ã³ ná»‘i tiáº¿p cá»™t pháº£i.
 
-5. **Phát hiện Ranh giới Chương (Chapter Boundary Rules):**
-   - Tìm kiếm các mẫu nhận diện: `Chapter \d+`, `Chương \d+`, `Part [IVXLCDM\d]+`, `Introduction`, `Preface`, `Conclusion`, `Epilogue`, `Lời mở đầu`, `Kết luận`.
-   - Kết hợp kiểm tra kiểu chữ: Font size lớn hơn font văn bản thân bài (Body text) hoặc dòng chữ in hoa độc lập trên trang mới.
+5. **PhÃ¡t hiá»‡n Ranh giá»›i ChÆ°Æ¡ng (Chapter Boundary Rules):**
+   - TÃ¬m kiáº¿m cÃ¡c máº«u nháº­n diá»‡n: `Chapter \d+`, `ChÆ°Æ¡ng \d+`, `Part [IVXLCDM\d]+`, `Introduction`, `Preface`, `Conclusion`, `Epilogue`, `Lá»i má»Ÿ Ä‘áº§u`, `Káº¿t luáº­n`.
+   - Káº¿t há»£p kiá»ƒm tra kiá»ƒu chá»¯: Font size lá»›n hÆ¡n font vÄƒn báº£n thÃ¢n bÃ i (Body text) hoáº·c dÃ²ng chá»¯ in hoa Ä‘á»™c láº­p trÃªn trang má»›i.
 
 ---
 
-## 5. Hướng Dẫn Kích Hoạt Sub-Agent Theo Từng Chương (Per-Chapter Subagent Spawning)
+## 5. HÆ°á»›ng Dáº«n KÃ­ch Hoáº¡t Sub-Agent Theo Tá»«ng ChÆ°Æ¡ng (Per-Chapter Subagent Spawning)
 
-Khi đối mặt với các tài liệu PDF dài (> 200 trang) hoặc có cấu trúc phức tạp, AI Conductor có thể kích hoạt song song các Sub-agent chuyên trách thẩm tra từng chương bằng lệnh `invoke_subagent`:
+Khi Ä‘á»‘i máº·t vá»›i cÃ¡c tÃ i liá»‡u PDF dÃ i (> 200 trang) hoáº·c cÃ³ cáº¥u trÃºc phá»©c táº¡p, AI Conductor cÃ³ thá»ƒ kÃ­ch hoáº¡t song song cÃ¡c Sub-agent chuyÃªn trÃ¡ch tháº©m tra tá»«ng chÆ°Æ¡ng báº±ng lá»‡nh `invoke_subagent`:
 
 ```python
-# Mẫu kích hoạt Subagent cho từng chương / nhóm chương
+# Máº«u kÃ­ch hoáº¡t Subagent cho tá»«ng chÆ°Æ¡ng / nhÃ³m chÆ°Æ¡ng
 invoke_subagent(
     Subagents=[
         {
             "TypeName": "self",
             "Role": "PDF Structure Verifier [01-quy-luat-01]",
             "Prompt": (
-                "Bạn là Chuyên gia Cấu trúc PDF phụ trách kiểm tra chương '01-quy-luat-01-lam-chu-cai-toi-cam-xuc'.\n"
-                "Nhiệm vụ: Mở file 'raw_original.txt' của chương này, kiểm tra đối soát với PDF gốc để đảm bảo:\n"
-                "1. Không còn sót Header, Footer hay số trang.\n"
-                "2. Các chữ Drop-Cap đầu dòng đã được hàn gắn 100% (ví dụ: 'Trong suốt', 'Bạn thích').\n"
-                "3. Không bị cắt cụt câu ở đầu hoặc cuối chương."
+                "Báº¡n lÃ  ChuyÃªn gia Cáº¥u trÃºc PDF phá»¥ trÃ¡ch kiá»ƒm tra chÆ°Æ¡ng '01-quy-luat-01-lam-chu-cai-toi-cam-xuc'.\n"
+                "Nhiá»‡m vá»¥: Má»Ÿ file 'raw_original.txt' cá»§a chÆ°Æ¡ng nÃ y, kiá»ƒm tra Ä‘á»‘i soÃ¡t vá»›i PDF gá»‘c Ä‘á»ƒ Ä‘áº£m báº£o:\n"
+                "1. KhÃ´ng cÃ²n sÃ³t Header, Footer hay sá»‘ trang.\n"
+                "2. CÃ¡c chá»¯ Drop-Cap Ä‘áº§u dÃ²ng Ä‘Ã£ Ä‘Æ°á»£c hÃ n gáº¯n 100% (vÃ­ dá»¥: 'Trong suá»‘t', 'Báº¡n thÃ­ch').\n"
+                "3. KhÃ´ng bá»‹ cáº¯t cá»¥t cÃ¢u á»Ÿ Ä‘áº§u hoáº·c cuá»‘i chÆ°Æ¡ng."
             )
         }
     ]
@@ -169,102 +169,64 @@ invoke_subagent(
 
 ---
 
-## 6. Chuyển tiếp Quy trình (Next Stage)
+## 6. Chuyá»ƒn tiáº¿p Quy trÃ¬nh (Next Stage)
 
-Sau khi Skill `arf_01_pdf_structure_extractor` hoàn tất, AI chuyển tiếp sang:
-- **Skill 2:** `arf_02_author_style_translator` — Dịch thuật nhập vai tác giả bảo toàn 100% ngữ nghĩa.
-- Dữ liệu đầu vào của Skill tiếp theo luôn lấy trực tiếp từ file `raw_original.txt` của từng chương được liệt kê trong `.session_manifest.json`.
+Sau khi Skill `arf_01_pdf_structure_extractor` hoÃ n táº¥t, AI chuyá»ƒn tiáº¿p sang:
+- **Skill 2:** `arf_02_author_style_translator` â€” Dá»‹ch thuáº­t nháº­p vai tÃ¡c giáº£ báº£o toÃ n 100% ngá»¯ nghÄ©a.
+- Dá»¯ liá»‡u Ä‘áº§u vÃ o cá»§a Skill tiáº¿p theo luÃ´n láº¥y trá»±c tiáº¿p tá»« file `raw_original.txt` cá»§a tá»«ng chÆ°Æ¡ng Ä‘Æ°á»£c liá»‡t kÃª trong `.session_manifest.json`.
 
----
-
-## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
-
-**BẮT BUỘC ĐỐI VỚI ROOT AGENT:** Khi được gọi để thực hiện bóc tách PDF, bạn **KHÔNG ĐƯỢC PHÉP** tự xử lý tuần tự toàn bộ file một mình. Thay vào đó, bạn **PHẢI** sử dụng công cụ `invoke_subagent` để gọi ra từ 4 đến 10 Sub-agents (Parser Agents) nhằm chia sẻ công việc đọc và bóc tách theo dải trang (Page Range) một cách song song.
-
-### Quy tắc Phân rã Công việc (Work Breakdown Rules):
-1. **Chia theo dải trang (Page Chunking):** Phân chia tổng số trang của file PDF thành 4 đến 10 phần. Mỗi Parser Agent sẽ chịu trách nhiệm đọc và trích xuất cấu trúc trên một dải trang cụ thể.
-2. **Tổng hợp (Aggregation):** Root Agent đóng vai trò là Orchestrator, phân phát nhiệm vụ, đợi các Sub-agents hoàn thành công việc rồi tổng hợp kết quả để tạo thành các thư mục chương và file `.session_manifest.json` hoàn chỉnh.
-
-### Ví dụ Cấu hình JSON cho `invoke_subagent`:
-
-```json
-{
-  "Subagents": [
-    {
-      "Role": "Parser Agent - Part 1 (Pages 1-50)",
-      "Prompt": "Bạn là Parser Agent. Hãy phân tích từ trang 1 đến 50 của file 'book.pdf'. Thực hiện bóc tách cấu trúc, lọc nhiễu Header/Footer/TOC và lưu kết quả thô. Dùng công cụ `send_message` báo cáo lại cho tôi khi hoàn tất.",
-      "TypeName": "self"
-    },
-    {
-      "Role": "Parser Agent - Part 2 (Pages 51-100)",
-      "Prompt": "Bạn là Parser Agent. Hãy phân tích từ trang 51 đến 100 của file 'book.pdf'. Thực hiện bóc tách cấu trúc, lọc nhiễu Header/Footer/TOC và lưu kết quả thô. Dùng công cụ `send_message` báo cáo lại cho tôi khi hoàn tất.",
-      "TypeName": "self"
-    },
-    {
-      "Role": "Parser Agent - Part 3 (Pages 101-150)",
-      "Prompt": "Bạn là Parser Agent. Hãy phân tích từ trang 101 đến 150 của file 'book.pdf'. Thực hiện bóc tách cấu trúc, lọc nhiễu Header/Footer/TOC và lưu kết quả thô. Dùng công cụ `send_message` báo cáo lại cho tôi khi hoàn tất.",
-      "TypeName": "self"
-    },
-    {
-      "Role": "Parser Agent - Part 4 (Pages 151-200)",
-      "Prompt": "Bạn là Parser Agent. Hãy phân tích từ trang 151 đến 200 của file 'book.pdf'. Thực hiện bóc tách cấu trúc, lọc nhiễu Header/Footer/TOC và lưu kết quả thô. Dùng công cụ `send_message` báo cáo lại cho tôi khi hoàn tất.",
-      "TypeName": "self"
-    }
-  ]
-}
-```
 
 
 ==== arf_02_author_style_translator ====
 ---
 name: arf_02_author_style_translator
-description: Bước 2 - Dịch thuật AI nhập vai tác giả giữ trọn vẹn văn phong, hỗ trợ Subagent song song.
+description: BÆ°á»›c 2 - Dá»‹ch thuáº­t AI nháº­p vai tÃ¡c giáº£ giá»¯ trá»n váº¹n vÄƒn phong, há»— trá»£ Subagent song song.
 ---
 
-# Kỹ năng: Dịch thuật Nhập vai Tác giả (Author-Style Translator) - Bước 2
+# Ká»¹ nÄƒng: Dá»‹ch thuáº­t Nháº­p vai TÃ¡c giáº£ (Author-Style Translator) - BÆ°á»›c 2
 
-Kỹ năng này chuyên trách thực hiện **Bước 2** trong quy trình sản xuất Audio Book: Chuyển đổi toàn bộ nội dung nguyên tác từ văn bản thô đã bóc tách (`raw_original.txt`) sang bản dịch tiếng Việt hoàn chỉnh (`translated.txt`), nhập vai văn phong tác giả, bảo toàn 100% ngữ nghĩa và cấu trúc để chuẩn bị cho các bước tạo kịch bản TTS tiếp theo.
-
----
-
-## 1. Mục đích Cốt lõi & Nguyên tắc Dịch thuật
-
-### 1.1. Nhập vai trực tiếp Tác giả (Author Persona)
-- AI không chỉ đơn thuần là công cụ dịch từ vựng, mà đóng vai trò là **chính tác giả đang đọc lại và tái hiện tác phẩm của mình bằng tiếng Việt**.
-- Giữ trọn vẹn giọng văn, sắc thái cảm xúc, nhịp điệu diễn đạt và triết lý truyền tải của tác giả (nghiêm cẩn, hài hước, truyền cảm hứng, học thuật, phản tư,...).
-- Chuẩn hóa thuật ngữ chuyên ngành nhất quán xuyên suốt toàn bộ các chương của cuốn sách.
-
-### 1.2. Nguyên tắc "Bảo toàn Tuyệt đối 100%" (Zero Loss & Zero Deviation)
-- **Không tóm tắt (No Summarization):** Mọi ý niệm, câu chuyện, dẫn chứng, số liệu đều phải được chuyển ngữ đầy đủ.
-- **Không bớt xén (No Omission):** Tuyệt đối không lược bỏ các đoạn văn phụ, ví dụ minh họa hoặc lời dẫn nhập.
-- **Không thêm lời bình (No Meta-commentary/Editorializing):** Tuyệt đối không tự ý chèn nhận định cá nhân của AI (như *"Theo tôi...", "Tác giả muốn nói rằng...", "Ghi chú của người dịch..."*).
-- **Giữ nguyên cấu trúc văn bản:** Bảo toàn hệ thống phân cấp Tiêu đề chính, Tiêu đề phụ, Đề mục con, Đoạn văn và Danh sách liệt kê.
+Ká»¹ nÄƒng nÃ y chuyÃªn trÃ¡ch thá»±c hiá»‡n **BÆ°á»›c 2** trong quy trÃ¬nh sáº£n xuáº¥t Audio Book: Chuyá»ƒn Ä‘á»•i toÃ n bá»™ ná»™i dung nguyÃªn tÃ¡c tá»« vÄƒn báº£n thÃ´ Ä‘Ã£ bÃ³c tÃ¡ch (`raw_original.txt`) sang báº£n dá»‹ch tiáº¿ng Viá»‡t hoÃ n chá»‰nh (`translated.txt`), nháº­p vai vÄƒn phong tÃ¡c giáº£, báº£o toÃ n 100% ngá»¯ nghÄ©a vÃ  cáº¥u trÃºc Ä‘á»ƒ chuáº©n bá»‹ cho cÃ¡c bÆ°á»›c táº¡o ká»‹ch báº£n TTS tiáº¿p theo.
 
 ---
 
-## 2. Quản lý Session & Điều phối Subagents
+## 1. Má»¥c Ä‘Ã­ch Cá»‘t lÃµi & NguyÃªn táº¯c Dá»‹ch thuáº­t
 
-Quy trình hoạt động dựa trên cơ chế Session Manifest để đảm bảo tính liên tục, khả năng phục hồi khi gặp sự cố và phân tải xử lý song song mạnh mẽ.
+### 1.1. Nháº­p vai trá»±c tiáº¿p TÃ¡c giáº£ (Author Persona)
+- AI khÃ´ng chá»‰ Ä‘Æ¡n thuáº§n lÃ  cÃ´ng cá»¥ dá»‹ch tá»« vá»±ng, mÃ  Ä‘Ã³ng vai trÃ² lÃ  **chÃ­nh tÃ¡c giáº£ Ä‘ang Ä‘á»c láº¡i vÃ  tÃ¡i hiá»‡n tÃ¡c pháº©m cá»§a mÃ¬nh báº±ng tiáº¿ng Viá»‡t**.
+- Giá»¯ trá»n váº¹n giá»ng vÄƒn, sáº¯c thÃ¡i cáº£m xÃºc, nhá»‹p Ä‘iá»‡u diá»…n Ä‘áº¡t vÃ  triáº¿t lÃ½ truyá»n táº£i cá»§a tÃ¡c giáº£ (nghiÃªm cáº©n, hÃ i hÆ°á»›c, truyá»n cáº£m há»©ng, há»c thuáº­t, pháº£n tÆ°,...).
+- Chuáº©n hÃ³a thuáº­t ngá»¯ chuyÃªn ngÃ nh nháº¥t quÃ¡n xuyÃªn suá»‘t toÃ n bá»™ cÃ¡c chÆ°Æ¡ng cá»§a cuá»‘n sÃ¡ch.
+
+### 1.2. NguyÃªn táº¯c "Báº£o toÃ n Tuyá»‡t Ä‘á»‘i 100%" (Zero Loss & Zero Deviation)
+- **KhÃ´ng tÃ³m táº¯t (No Summarization):** Má»i Ã½ niá»‡m, cÃ¢u chuyá»‡n, dáº«n chá»©ng, sá»‘ liá»‡u Ä‘á»u pháº£i Ä‘Æ°á»£c chuyá»ƒn ngá»¯ Ä‘áº§y Ä‘á»§.
+- **KhÃ´ng bá»›t xÃ©n (No Omission):** Tuyá»‡t Ä‘á»‘i khÃ´ng lÆ°á»£c bá» cÃ¡c Ä‘oáº¡n vÄƒn phá»¥, vÃ­ dá»¥ minh há»a hoáº·c lá»i dáº«n nháº­p.
+- **KhÃ´ng thÃªm lá»i bÃ¬nh (No Meta-commentary/Editorializing):** Tuyá»‡t Ä‘á»‘i khÃ´ng tá»± Ã½ chÃ¨n nháº­n Ä‘á»‹nh cÃ¡ nhÃ¢n cá»§a AI (nhÆ° *"Theo tÃ´i...", "TÃ¡c giáº£ muá»‘n nÃ³i ráº±ng...", "Ghi chÃº cá»§a ngÆ°á»i dá»‹ch..."*).
+- **Giá»¯ nguyÃªn cáº¥u trÃºc vÄƒn báº£n:** Báº£o toÃ n há»‡ thá»‘ng phÃ¢n cáº¥p TiÃªu Ä‘á» chÃ­nh, TiÃªu Ä‘á» phá»¥, Äá» má»¥c con, Äoáº¡n vÄƒn vÃ  Danh sÃ¡ch liá»‡t kÃª.
+
+---
+
+## 2. Quáº£n lÃ½ Session & Äiá»u phá»‘i Subagents
+
+Quy trÃ¬nh hoáº¡t Ä‘á»™ng dá»±a trÃªn cÆ¡ cháº¿ Session Manifest Ä‘á»ƒ Ä‘áº£m báº£o tÃ­nh liÃªn tá»¥c, kháº£ nÄƒng phá»¥c há»“i khi gáº·p sá»± cá»‘ vÃ  phÃ¢n táº£i xá»­ lÃ½ song song máº¡nh máº½.
 
 ```
 [book_slug]/
-├── .session_manifest.json          <-- Quản lý trạng thái và tiến trình toàn sách
-├── 00-gioi-thieu/
-│   ├── raw_original.txt            <-- Input
-│   └── translated.txt              <-- Output của Bước 2
-├── 01-chuong-01/
-│   ├── raw_original.txt
-│   └── translated.txt
-└── ...
+â”œâ”€â”€ .session_manifest.json          <-- Quáº£n lÃ½ tráº¡ng thÃ¡i vÃ  tiáº¿n trÃ¬nh toÃ n sÃ¡ch
+â”œâ”€â”€ 00-gioi-thieu/
+â”‚   â”œâ”€â”€ raw_original.txt            <-- Input
+â”‚   â””â”€â”€ translated.txt              <-- Output cá»§a BÆ°á»›c 2
+â”œâ”€â”€ 01-chuong-01/
+â”‚   â”œâ”€â”€ raw_original.txt
+â”‚   â””â”€â”€ translated.txt
+â””â”€â”€ ...
 ```
 
-### 2.1. Cấu trúc `.session_manifest.json`
-File manifest lưu trữ thông tin meta của phiên dịch thuật:
+### 2.1. Cáº¥u trÃºc `.session_manifest.json`
+File manifest lÆ°u trá»¯ thÃ´ng tin meta cá»§a phiÃªn dá»‹ch thuáº­t:
 ```json
 {
   "session_id": "session_20260816_audiobook_01",
-  "book_title": "Tên Cuốn Sách",
-  "author": "Tên Tác Giả",
+  "book_title": "TÃªn Cuá»‘n SÃ¡ch",
+  "author": "TÃªn TÃ¡c Giáº£",
   "book_slug": "ten-cuon-sach",
   "step_1_status": "completed",
   "step_2_status": "in_progress",
@@ -273,7 +235,7 @@ File manifest lưu trữ thông tin meta của phiên dịch thuật:
   "chapters": [
     {
       "id": "00-gioi-thieu",
-      "title": "Lời giới thiệu",
+      "title": "Lá»i giá»›i thiá»‡u",
       "folder": "00-gioi-thieu",
       "raw_file": "00-gioi-thieu/raw_original.txt",
       "translated_file": "00-gioi-thieu/translated.txt",
@@ -281,7 +243,7 @@ File manifest lưu trữ thông tin meta của phiên dịch thuật:
     },
     {
       "id": "01-chuong-01",
-      "title": "Chương 1",
+      "title": "ChÆ°Æ¡ng 1",
       "folder": "01-chuong-01",
       "raw_file": "01-chuong-01/raw_original.txt",
       "translated_file": "01-chuong-01/translated.txt",
@@ -291,66 +253,66 @@ File manifest lưu trữ thông tin meta của phiên dịch thuật:
 }
 ```
 
-### 2.2. Chiến lược Điều phối Subagent Song Song
-1. **Xác định các chương cần xử lý:** Đọc `.session_manifest.json`, lọc danh sách các chương có `step_2_status` là `"pending"` hoặc `"error"`.
-2. **Kích hoạt Subagents:**
-   - Khi xử lý cuốn sách có nhiều chương, phân bổ mỗi chương (hoặc nhóm 2-3 chương ngắn) cho một Subagent độc lập thực hiện thông qua `invoke_subagent`.
-   - Khi xử lý hàng loạt sách (Batch Books), mỗi Subagent phụ trách riêng một thư mục `[book_slug]`.
-3. **Cập nhật tiến độ nguyên tử (Atomic Manifest Update):**
-   - Trước khi dịch chương: Cập nhật `step_2_status: "in_progress"` cho chương tương ứng trong manifest.
-   - Sau khi tạo xong file `translated.txt`: Cập nhật trạng thái chương thành `"completed"`.
-   - Khi tất cả các chương hoàn tất: Cập nhật trường tổng thể `step_2_status: "completed"` và ghi nhận `step_2_completed_at`.
+### 2.2. Chiáº¿n lÆ°á»£c Äiá»u phá»‘i Subagent Song Song
+1. **XÃ¡c Ä‘á»‹nh cÃ¡c chÆ°Æ¡ng cáº§n xá»­ lÃ½:** Äá»c `.session_manifest.json`, lá»c danh sÃ¡ch cÃ¡c chÆ°Æ¡ng cÃ³ `step_2_status` lÃ  `"pending"` hoáº·c `"error"`.
+2. **KÃ­ch hoáº¡t Subagents:**
+   - Khi xá»­ lÃ½ cuá»‘n sÃ¡ch cÃ³ nhiá»u chÆ°Æ¡ng, phÃ¢n bá»• má»—i chÆ°Æ¡ng (hoáº·c nhÃ³m 2-3 chÆ°Æ¡ng ngáº¯n) cho má»™t Subagent Ä‘á»™c láº­p thá»±c hiá»‡n thÃ´ng qua `invoke_subagent`.
+   - Khi xá»­ lÃ½ hÃ ng loáº¡t sÃ¡ch (Batch Books), má»—i Subagent phá»¥ trÃ¡ch riÃªng má»™t thÆ° má»¥c `[book_slug]`.
+3. **Cáº­p nháº­t tiáº¿n Ä‘á»™ nguyÃªn tá»­ (Atomic Manifest Update):**
+   - TrÆ°á»›c khi dá»‹ch chÆ°Æ¡ng: Cáº­p nháº­t `step_2_status: "in_progress"` cho chÆ°Æ¡ng tÆ°Æ¡ng á»©ng trong manifest.
+   - Sau khi táº¡o xong file `translated.txt`: Cáº­p nháº­t tráº¡ng thÃ¡i chÆ°Æ¡ng thÃ nh `"completed"`.
+   - Khi táº¥t cáº£ cÃ¡c chÆ°Æ¡ng hoÃ n táº¥t: Cáº­p nháº­t trÆ°á»ng tá»•ng thá»ƒ `step_2_status: "completed"` vÃ  ghi nháº­n `step_2_completed_at`.
 
 ---
 
-## 3. Quy trình Triển khai Chuẩn
+## 3. Quy trÃ¬nh Triá»ƒn khai Chuáº©n
 
-### Bước 1: Tiếp nhận và Xác thực Dữ liệu Đầu vào
-- Kiểm tra sự tồn tại của thư mục sách và file `.session_manifest.json`.
-- Kiểm tra các file `raw_original.txt` trong từng thư mục chương. Đảm bảo file gốc không rỗng.
+### BÆ°á»›c 1: Tiáº¿p nháº­n vÃ  XÃ¡c thá»±c Dá»¯ liá»‡u Äáº§u vÃ o
+- Kiá»ƒm tra sá»± tá»“n táº¡i cá»§a thÆ° má»¥c sÃ¡ch vÃ  file `.session_manifest.json`.
+- Kiá»ƒm tra cÃ¡c file `raw_original.txt` trong tá»«ng thÆ° má»¥c chÆ°Æ¡ng. Äáº£m báº£o file gá»‘c khÃ´ng rá»—ng.
 
-### Bước 2: Thiết lập Prompt Nhập vai Tác giả
-Khi thực hiện dịch thuật (qua AI Subagent hoặc tool tự động), sử dụng hệ thống chỉ dẫn sau:
+### BÆ°á»›c 2: Thiáº¿t láº­p Prompt Nháº­p vai TÃ¡c giáº£
+Khi thá»±c hiá»‡n dá»‹ch thuáº­t (qua AI Subagent hoáº·c tool tá»± Ä‘á»™ng), sá»­ dá»¥ng há»‡ thá»‘ng chá»‰ dáº«n sau:
 ```text
-Bạn là [Tác giả], đang trực tiếp đọc lại và chuyển tải trọn vẹn tác phẩm "[Tên sách]" sang tiếng Việt.
-Yêu cầu:
-1. Giữ trọn vẹn phong cách, ngôn từ, thần thái và nhịp điệu của nguyên tác.
-2. Dịch chính xác 100%, không bỏ sót bất kỳ chi tiết, luận điểm, số liệu hay ví dụ nào.
-3. Tuyệt đối KHÔNG tóm tắt, KHÔNG lược dịch, KHÔNG thêm lời bình luận, mở đầu hay kết bài của AI.
-4. Giữ nguyên cấu trúc phân đoạn, tiêu đề chương mục.
-5. Ngôn ngữ tự nhiên, mạch lạc, dễ nghe khi chuyển thành giọng đọc Audio Book.
+Báº¡n lÃ  [TÃ¡c giáº£], Ä‘ang trá»±c tiáº¿p Ä‘á»c láº¡i vÃ  chuyá»ƒn táº£i trá»n váº¹n tÃ¡c pháº©m "[TÃªn sÃ¡ch]" sang tiáº¿ng Viá»‡t.
+YÃªu cáº§u:
+1. Giá»¯ trá»n váº¹n phong cÃ¡ch, ngÃ´n tá»«, tháº§n thÃ¡i vÃ  nhá»‹p Ä‘iá»‡u cá»§a nguyÃªn tÃ¡c.
+2. Dá»‹ch chÃ­nh xÃ¡c 100%, khÃ´ng bá» sÃ³t báº¥t ká»³ chi tiáº¿t, luáº­n Ä‘iá»ƒm, sá»‘ liá»‡u hay vÃ­ dá»¥ nÃ o.
+3. Tuyá»‡t Ä‘á»‘i KHÃ”NG tÃ³m táº¯t, KHÃ”NG lÆ°á»£c dá»‹ch, KHÃ”NG thÃªm lá»i bÃ¬nh luáº­n, má»Ÿ Ä‘áº§u hay káº¿t bÃ i cá»§a AI.
+4. Giá»¯ nguyÃªn cáº¥u trÃºc phÃ¢n Ä‘oáº¡n, tiÃªu Ä‘á» chÆ°Æ¡ng má»¥c.
+5. NgÃ´n ngá»¯ tá»± nhiÃªn, máº¡ch láº¡c, dá»… nghe khi chuyá»ƒn thÃ nh giá»ng Ä‘á»c Audio Book.
 ```
 
-### Bước 3: Dịch thuật & Ghi file Đầu ra
-- Đọc nội dung từ `[chapter_dir]/raw_original.txt`.
-- Chuyển ngữ toàn văn theo chuẩn nhập vai tác giả.
-- Ghi trực tiếp kết quả vào `[chapter_dir]/translated.txt` (sử dụng UTF-8).
+### BÆ°á»›c 3: Dá»‹ch thuáº­t & Ghi file Äáº§u ra
+- Äá»c ná»™i dung tá»« `[chapter_dir]/raw_original.txt`.
+- Chuyá»ƒn ngá»¯ toÃ n vÄƒn theo chuáº©n nháº­p vai tÃ¡c giáº£.
+- Ghi trá»±c tiáº¿p káº¿t quáº£ vÃ o `[chapter_dir]/translated.txt` (sá»­ dá»¥ng UTF-8).
 
-### Bước 4: Đồng bộ Manifest & Báo cáo
-- Ghi nhận trạng thái hoàn thành vào `.session_manifest.json`.
-- Báo cáo kết quả chi tiết cho Agent điều phối hoặc người dùng.
+### BÆ°á»›c 4: Äá»“ng bá»™ Manifest & BÃ¡o cÃ¡o
+- Ghi nháº­n tráº¡ng thÃ¡i hoÃ n thÃ nh vÃ o `.session_manifest.json`.
+- BÃ¡o cÃ¡o káº¿t quáº£ chi tiáº¿t cho Agent Ä‘iá»u phá»‘i hoáº·c ngÆ°á»i dÃ¹ng.
 
 ---
 
-## 4. Hướng Dẫn Kích Hoạt Sub-Agent Dịch Thuật Theo Từng Chương (Per-Chapter Translator Subagent)
+## 4. HÆ°á»›ng Dáº«n KÃ­ch Hoáº¡t Sub-Agent Dá»‹ch Thuáº­t Theo Tá»«ng ChÆ°Æ¡ng (Per-Chapter Translator Subagent)
 
-Để đảm bảo chất lượng dịch thuật cao nhất, AI Conductor phân bổ mỗi chương (hoặc nhóm 2-3 chương) cho một Sub-agent nhập vai độc lập:
+Äá»ƒ Ä‘áº£m báº£o cháº¥t lÆ°á»£ng dá»‹ch thuáº­t cao nháº¥t, AI Conductor phÃ¢n bá»• má»—i chÆ°Æ¡ng (hoáº·c nhÃ³m 2-3 chÆ°Æ¡ng) cho má»™t Sub-agent nháº­p vai Ä‘á»™c láº­p:
 
 ```python
-# Mẫu kích hoạt Subagent dịch thuật chuyên sâu từng chương
+# Máº«u kÃ­ch hoáº¡t Subagent dá»‹ch thuáº­t chuyÃªn sÃ¢u tá»«ng chÆ°Æ¡ng
 invoke_subagent(
     Subagents=[
         {
             "TypeName": "self",
             "Role": "Author Persona Translator [01-quy-luat-01]",
             "Prompt": (
-                "Bạn là Chuyên gia Dịch thuật Văn học cao cấp nhập vai tác giả Robert Greene.\n"
-                "Tác phẩm: 'Những Quy Luật Về Bản Chất Con Người' | Thể loại: Tâm lý học hành vi / Triết học quyền lực.\n"
-                "Nhiệm vụ: Dịch toàn văn file '01-quy-luat-01-lam-chu-cai-toi-cam-xuc/raw_original.txt' sang 'translated.txt'.\n"
-                "Yêu cầu:\n"
-                "1. Dịch trung thành 100%, không tóm tắt, không bớt xén dù một câu chuyện lịch sử hay ẩn dụ.\n"
-                "2. Giữ nguyên văn phong sắc sảo, hùng biện và giọng điệu chiêm nghiệm của tác giả.\n"
-                "3. Viết trực tiếp vào file 'translated.txt' của chương tương ứng."
+                "Báº¡n lÃ  ChuyÃªn gia Dá»‹ch thuáº­t VÄƒn há»c cao cáº¥p nháº­p vai tÃ¡c giáº£ Robert Greene.\n"
+                "TÃ¡c pháº©m: 'Nhá»¯ng Quy Luáº­t Vá» Báº£n Cháº¥t Con NgÆ°á»i' | Thá»ƒ loáº¡i: TÃ¢m lÃ½ há»c hÃ nh vi / Triáº¿t há»c quyá»n lá»±c.\n"
+                "Nhiá»‡m vá»¥: Dá»‹ch toÃ n vÄƒn file '01-quy-luat-01-lam-chu-cai-toi-cam-xuc/raw_original.txt' sang 'translated.txt'.\n"
+                "YÃªu cáº§u:\n"
+                "1. Dá»‹ch trung thÃ nh 100%, khÃ´ng tÃ³m táº¯t, khÃ´ng bá»›t xÃ©n dÃ¹ má»™t cÃ¢u chuyá»‡n lá»‹ch sá»­ hay áº©n dá»¥.\n"
+                "2. Giá»¯ nguyÃªn vÄƒn phong sáº¯c sáº£o, hÃ¹ng biá»‡n vÃ  giá»ng Ä‘iá»‡u chiÃªm nghiá»‡m cá»§a tÃ¡c giáº£.\n"
+                "3. Viáº¿t trá»±c tiáº¿p vÃ o file 'translated.txt' cá»§a chÆ°Æ¡ng tÆ°Æ¡ng á»©ng."
             )
         }
     ]
@@ -359,349 +321,239 @@ invoke_subagent(
 
 ---
 
-## 5. Công cụ Hỗ trợ Dịch Hàng Loạt: `batch_translate.py`
+## 5. CÃ´ng cá»¥ Há»— trá»£ Dá»‹ch HÃ ng Loáº¡t: `batch_translate.py`
 
-Trong thư mục `scripts/`, công cụ `batch_translate.py` được cung cấp sẵn để thực thi CLI tự động:
+Trong thÆ° má»¥c `scripts/`, cÃ´ng cá»¥ `batch_translate.py` Ä‘Æ°á»£c cung cáº¥p sáºµn Ä‘á»ƒ thá»±c thi CLI tá»± Ä‘á»™ng:
 
 ```bash
-# Cú pháp chạy cơ bản:
-python .agy/skills/arf_02_author_style_translator/scripts/batch_translate.py --input_dir "path/to/book_folder" --author "Tên Tác Giả" --book_title "Tên Sách"
+# CÃº phÃ¡p cháº¡y cÆ¡ báº£n:
+python .agy/skills/arf_02_author_style_translator/scripts/batch_translate.py --input_dir "path/to/book_folder" --author "TÃªn TÃ¡c Giáº£" --book_title "TÃªn SÃ¡ch"
 ```
 
-## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
 
-**BẮT BUỘC:** Khi Root Agent được kích hoạt, tuyệt đối KHÔNG ĐƯỢC xử lý tuần tự một mình. Root Agent phải đóng vai trò là Orchestrator và bắt buộc phải gọi công cụ `invoke_subagent` để điều phối từ 4 đến 10 Sub-agents cùng tham gia chia sẻ khối lượng công việc.
 
-Việc phân rã công việc có thể theo một trong hai mô hình:
-1. **Phân rã theo chiều dọc (Theo vai trò chuyên sâu):** Chia các khâu xử lý một chương/đoạn lớn thành các Sub-agents chuyên trách lần lượt: `Context Analyzer` (Phân tích bối cảnh và văn phong), `Raw Translator` (Dịch thô giữ 100% ngữ nghĩa), `Style Polisher` (Chuốt văn phong tác giả), và `QC` (Kiểm tra chất lượng và đảm bảo zero loss).
-2. **Phân rã theo chiều ngang (Theo chương):** Phân chia mỗi chương (hoặc một nhóm chương ngắn) cho một Sub-agent độc lập xử lý song song để tăng tốc độ dịch thuật toàn bộ cuốn sách.
+==== arf_03_text_phonetics_normalizer ====
+---
+name: arf_03_text_phonetics_normalizer
+description: BÆ°á»›c 3 - Chuáº©n hÃ³a ngá»¯ Ã¢m, phiÃªn Ã¢m tÃªn riÃªng quá»‘c táº¿, sá»‘ hÃ³a toÃ n diá»‡n num2words vÃ  khá»­ kÃ½ tá»± cáº¥m TTS.
+---
 
-**Mẫu JSON cấu hình `invoke_subagent` (Phân rã theo chiều dọc):**
+# Ká»¹ nÄƒng 03: Text Phonetics Normalizer (Chuáº©n HÃ³a NgÃ´n Ngá»¯ Há»c & PhiÃªn Ã‚m TTS)
+
+## 1. Tá»•ng Quan & Má»¥c TiÃªu
+
+Ká»¹ nÄƒng `03_text_phonetics_normalizer` chá»‹u trÃ¡ch nhiá»‡m tiáº¿p nháº­n báº£n dá»‹ch thÃ´ tiáº¿ng Viá»‡t (`translated.txt`) tá»« BÆ°á»›c 2, thá»±c hiá»‡n cÃ¡c bÆ°á»›c xá»­ lÃ½ ngÃ´n ngá»¯ há»c chuyÃªn sÃ¢u Ä‘á»ƒ vÄƒn báº£n Ä‘áº¡t Ä‘á»™ tÆ°Æ¡ng thÃ­ch vÃ  tá»± nhiÃªn tá»‘i Ä‘a khi Ä‘Æ°a vÃ o bá»™ Ä‘á»c giá»ng nhÃ¢n táº¡o (TTS Engine nhÆ° Clipchamp, Edge TTS, Azure Speech, ElevenLabs):
+
+1. **PhiÃªn Ã¢m danh tá»« riÃªng & thuáº­t ngá»¯ ngoáº¡i lai:** Chuyá»ƒn Ä‘á»•i tÃªn ngÆ°á»i, Ä‘á»‹a danh, thuáº­t ngá»¯ tiáº¿ng Anh/quá»‘c táº¿ sang phiÃªn Ã¢m tiáº¿ng Viá»‡t gáº§n gÅ©i, giÃºp giá»ng Ä‘á»c TTS Ä‘á»c trÃ´i cháº£y khÃ´ng bá»‹ váº¥p hoáº·c sai Ã¢m (VÃ­ dá»¥: `Peter Drucker` -> `Pi-tá» Äráº¯c-ká»`, `Carl Jung` -> `CÃ¡c Giung`, `Marketing` -> `MÃ¡c-kÃ©t-tinh`).
+2. **Sá»‘ hÃ³a toÃ n diá»‡n sá»‘ thÃ nh chá»¯ (`num2words`):** Chuyá»ƒn Ä‘á»•i má»i Ä‘á»‹nh dáº¡ng sá»‘ (sá»‘ nguyÃªn, sá»‘ tháº­p phÃ¢n, pháº§n trÄƒm `50%` -> `nÄƒm mÆ°Æ¡i pháº§n trÄƒm`, khoáº£ng sá»‘ `5-10 phÃºt` -> `nÄƒm Ä‘áº¿n mÆ°á»i phÃºt`, tiá»n tá»‡, nÄƒm, sá»‘ thá»© tá»±) thÃ nh chá»¯ viáº¿t Ä‘áº§y Ä‘á»§.
+3. **LÃ m sáº¡ch kÃ½ tá»± cáº¥m TTS:** Loáº¡i bá» hoáº·c thay tháº¿ cÃ¡c kÃ½ tá»± gÃ¢y lá»—i phÃ¡t Ã¢m hoáº·c lÃ m Ä‘á»©t gÃ£y giá»ng Ä‘á»c nhÆ° dáº¥u ngoáº·c kÃ©p (`" "`, `â€œâ€`), dáº¥u ngoáº·c Ä‘Æ¡n/vuÃ´ng (`( )`, `[ ]`), dáº¥u hai cháº¥m (`:`), dáº¥u gáº¡ch ngang/gáº¡ch dÃ i (`â€”`, `â€“`, `-`), dáº¥u thÄƒng (`#`), hoa thá»‹ (`*`), v.v. thÃ nh dáº¥u pháº©y (`,`) hoáº·c khoáº£ng tráº¯ng thÃ­ch há»£p nháº±m giá»¯ nhá»‹p thá»Ÿ tá»± nhiÃªn.
+4. **Quáº£n lÃ½ tráº¡ng thÃ¡i Session:** Tá»± Ä‘á»™ng Ä‘á»‹nh vá»‹ thÆ° má»¥c session theo `book_slug`, Ä‘á»c `translated.txt`, xuáº¥t ra `normalized.txt` vÃ  cáº­p nháº­t `step_3_status: "completed"` trong `metadata.json`.
+
+---
+
+## 2. Luá»“ng Xá»­ LÃ½ (Workflow Pipeline)
+
+```mermaid
+flowchart TD
+    A["Input: translated.txt\n(ThÆ° má»¥c Session: [book_slug])"] --> B["1. LÃ m sáº¡ch kÃ½ tá»± cáº¥m TTS\n(&quot;&quot;, (), :, â€”, *, #...)"]
+    B --> C["2. Sá»‘ hÃ³a sá»‘ thÃ nh chá»¯\n(Tá»· lá»‡ %, khoáº£ng sá»‘, sá»‘ tháº­p phÃ¢n, tiá»n tá»‡)"]
+    C --> D["3. PhiÃªn Ã¢m Tiáº¿ng Anh / TÃªn riÃªng\n(Default Dictionary + Custom Dict)"]
+    D --> E["4. Chuáº©n hÃ³a nhá»‹p Ä‘iá»‡u & Dáº¥u cÃ¢u\n(Khoáº£ng tráº¯ng, dáº¥u pháº©y, giá»¯ khoáº£ng láº·ng . ......)"]
+    E --> F["Output: normalized.txt\n(Ghi Ä‘Ã¨ hoáº·c táº¡o má»›i)"]
+    F --> G["Cáº­p nháº­t metadata.json\n(step_3_status = 'completed')"]
+```
+
+---
+
+## 3. Quy Táº¯c Chuáº©n HÃ³a Chi Tiáº¿t
+
+### 3.1. PhiÃªn Ã‚m Danh Tá»« RiÃªng & Thuáº­t Ngá»¯ (Phonetic Mapping)
+- **TÃ¡c giáº£ & NhÃ¢n váº­t:**
+  - `Robert Greene` $\rightarrow$ `RÃ´-bá»›t Gá»-rin`
+  - `Peter Drucker` $\rightarrow$ `Pi-tá» Äráº¯c-ká»`
+  - `Carl Jung` $\rightarrow$ `CÃ¡c Giung`
+  - `Sigmund Freud` $\rightarrow$ `XÃ­ch-mun PhÆ¡-rá»›t`
+  - `Friedrich Nietzsche` $\rightarrow$ `Phri-Ä‘á»-rÃ­ch NÃ­t-chÆ¡`
+  - `Napoleon Bonaparte` $\rightarrow$ `Na-pÃ´-lÃª-Ã´ng BÃ´-na-pÃ¡c`
+  - `Machiavelli` $\rightarrow$ `Ma-ki-a-ve-li`
+  - `Steve Jobs` $\rightarrow$ `Xti-vÆ¡ Dá»‘p`
+  - `Warren Buffett` $\rightarrow$ `Oa-ren BÃ¡p-phÃ©t`
+  - `Elon Musk` $\rightarrow$ `I-lon Má»›t`
+- **Äá»‹a danh & Tá»• chá»©c:**
+  - `New York` $\rightarrow$ `Niu OÃ³c`
+  - `Washington` $\rightarrow$ `Oa-sing-tÆ¡n`
+  - `London` $\rightarrow$ `LuÃ¢n ÄÃ´n`
+  - `Silicon Valley` $\rightarrow$ `Thung lÅ©ng Si-li-con`
+- **Thuáº­t ngá»¯ chuyÃªn ngÃ nh:**
+  - `CEO` $\rightarrow$ `C-E-O` hoáº·c `GiÃ¡m Ä‘á»‘c Ä‘iá»u hÃ nh`
+  - `AI` $\rightarrow$ `A-I` hoáº·c `TrÃ­ tuá»‡ nhÃ¢n táº¡o`
+  - `TTS` $\rightarrow$ `T-T-S`
+  - `Audiobook` / `Audio Book` $\rightarrow$ `SÃ¡ch nÃ³i`
+  - `Podcast` $\rightarrow$ `PÃ³t-cÃ¡t`
+  - `Mindset` $\rightarrow$ `MÃ¢n-xÃ©t` (hoáº·c `TÆ° duy`)
+  - `Feedback` $\rightarrow$ `PhÃ­t-bÃ¡ch` (hoáº·c `Pháº£n há»“i`)
+  - `Marketing` $\rightarrow$ `MÃ¡c-kÃ©t-tinh`
+  - `Online` $\rightarrow$ `On-lai`
+  - `Offline` $\rightarrow$ `á»p-lai`
+  - `Smartphone` $\rightarrow$ `XmÃ¡t-phÃ´n`
+
+> [!TIP]
+> NgÆ°á»i dÃ¹ng cÃ³ thá»ƒ cung cáº¥p thÃªm tá»« Ä‘iá»ƒn tÃ¹y biáº¿n thÃ´ng qua cá» `--custom_dict <path/to/dict.json>`. Há»‡ thá»‘ng sáº½ tá»± Ä‘á»™ng há»£p nháº¥t vÃ  Æ°u tiÃªn tá»« Ä‘iá»ƒn cá»§a ngÆ°á»i dÃ¹ng.
+
+### 3.2. Sá»‘ HÃ³a Sá»‘ ThÃ nh Chá»¯ (Number Normalization)
+- **Khoáº£ng sá»‘:** `5-10 phÃºt` $\rightarrow$ `nÄƒm Ä‘áº¿n mÆ°á»i phÃºt`; `100 - 200 trang` $\rightarrow$ `má»™t trÄƒm Ä‘áº¿n hai trÄƒm trang`.
+- **Pháº§n trÄƒm:** `50%` $\rightarrow$ `nÄƒm mÆ°Æ¡i pháº§n trÄƒm`; `0.5%` $\rightarrow$ `khÃ´ng pháº©y nÄƒm pháº§n trÄƒm`.
+- **Sá»‘ tháº­p phÃ¢n:** `3.14` $\rightarrow$ `ba pháº©y mÆ°á»i bá»‘n`; `1,5 triá»‡u` $\rightarrow$ `má»™t pháº©y nÄƒm triá»‡u`.
+- **Tiá»n tá»‡ & KÃ½ hiá»‡u:** `$100` $\rightarrow$ `má»™t trÄƒm Ä‘Ã´ la`; `50k` $\rightarrow$ `nÄƒm mÆ°Æ¡i nghÃ¬n`; `500.000Ä‘` $\rightarrow$ `nÄƒm trÄƒm nghÃ¬n Ä‘á»“ng`.
+- **Sá»‘ nguyÃªn thÃ´ng thÆ°á»ng:** `1945` $\rightarrow$ `má»™t nghÃ¬n chÃ­n trÄƒm bá»‘n mÆ°Æ¡i lÄƒm` (hoáº·c nÄƒm tÆ°Æ¡ng á»©ng theo ngá»¯ cáº£nh).
+
+### 3.3. Xá»­ LÃ½ KÃ½ Tá»± Cáº¥m & Tinh Chá»‰nh Dáº¥u CÃ¢u
+- **KÃ½ tá»± cáº¥m xÃ³a/thay tháº¿:**
+  - Dáº¥u ngoáº·c kÃ©p `"` `â€œ` `â€` `Â«` `Â»` $\rightarrow$ Loáº¡i bá» hoáº·c thay báº±ng khoáº£ng tráº¯ng.
+  - Dáº¥u ngoáº·c trÃ²n `(` `)` vÃ  ngoáº·c vuÃ´ng `[` `]` $\rightarrow$ Thay báº±ng dáº¥u pháº©y `, ` Ä‘á»ƒ táº¡o nhá»‹p nghá»‰ nháº¹.
+  - Dáº¥u hai cháº¥m `:` vÃ  cháº¥m pháº©y `;` $\rightarrow$ Thay báº±ng dáº¥u pháº©y `, ` hoáº·c cháº¥m `. `.
+  - Dáº¥u gáº¡ch ngang dÃ i `â€”`, gáº¡ch ngang trung bÃ¬nh `â€“` $\rightarrow$ Thay báº±ng dáº¥u pháº©y `, `.
+  - CÃ¡c kÃ½ tá»± markdown `#`, `*`, `_`, `~`, `|`, `\`, `/`, `@`, `^` $\rightarrow$ Loáº¡i bá».
+- **Giá»¯ nhá»‹p Ä‘iá»‡u TTS:**
+  - Giá»¯ láº¡i dáº¥u ngáº¯t cÃ¢u chuáº©n: `.`, `,`, `?`, `!`.
+  - Giá»¯ khoáº£ng láº·ng chuyá»ƒn Ä‘oáº¡n Ä‘áº·c thÃ¹ náº¿u cÃ³: `. ......`
+  - Loáº¡i bá» dáº¥u ba cháº¥m lá»­ng chÃ¨n giá»¯a tá»« (vÃ­ dá»¥: `... con áº¿ch ...` $\rightarrow$ `con áº¿ch`).
+  - Chuáº©n hÃ³a khoáº£ng tráº¯ng: XÃ³a khoáº£ng tráº¯ng trÆ°á»›c dáº¥u cÃ¢u, Ä‘áº£m báº£o sau dáº¥u cÃ¢u cÃ³ Ä‘Ãºng 1 khoáº£ng tráº¯ng, khÃ´ng Ä‘á»ƒ tá»“n táº¡i dáº¥u pháº©y liÃªn tiáº¿p `, ,` $\rightarrow$ `,`.
+
+---
+
+## 4. Giao Diá»‡n DÃ²ng Lá»‡nh (CLI Usage)
+
+Cháº¡y script chuáº©n hÃ³a trá»±c tiáº¿p tá»« terminal:
+
+```bash
+# Cháº¡y vá»›i thÆ° má»¥c session cá»¥ thá»ƒ
+python .agy/skills/03_text_phonetics_normalizer/scripts/normalize_phonetics.py --input_dir "sessions/nhung-quy-luat-ve-ban-chat-con-nguoi"
+
+# Cháº¡y vá»›i custom dictionary vÃ  session_id
+python .agy/skills/03_text_phonetics_normalizer/scripts/normalize_phonetics.py --session_id "nhung-quy-luat-ve-ban-chat-con-nguoi" --custom_dict "config/custom_phonetics.json"
+
+# Chá»‰ Ä‘á»‹nh rÃµ rÃ ng file input vÃ  output
+python .agy/skills/03_text_phonetics_normalizer/scripts/normalize_phonetics.py --input_dir "sessions/book_sample" --input_file "translated.txt" --output_file "normalized.txt"
+```
+
+### CÃ¡c Tham Sá»‘ CLI:
+- `--input_dir`: ÄÆ°á»ng dáº«n tá»›i thÆ° má»¥c session (vÃ­ dá»¥: `sessions/ten-sach`).
+- `--session_id`: TÃªn mÃ£ Ä‘á»‹nh danh cá»§a cuá»‘n sÃ¡ch/session (náº¿u khÃ´ng truyá»n `--input_dir`, script sáº½ tÃ¬m trong `sessions/<session_id>`).
+- `--custom_dict`: ÄÆ°á»ng dáº«n tá»›i file JSON chá»©a tá»« Ä‘iá»ƒn phiÃªn Ã¢m bá»• sung cá»§a ngÆ°á»i dÃ¹ng.
+- `--input_file`: TÃªn file Ä‘áº§u vÃ o (máº·c Ä‘á»‹nh: `translated.txt`).
+- `--output_file`: TÃªn file Ä‘áº§u ra (máº·c Ä‘á»‹nh: `normalized.txt`).
+
+---
+
+## 5. HÆ°á»›ng Dáº«n KÃ­ch Hoáº¡t Sub-Agent Chuáº©n HÃ³a Ngá»¯ Ã‚m Tá»«ng ChÆ°Æ¡ng (Contextual Phonetics Subagent)
+
+Khi cÃ³ cÃ¡c chÆ°Æ¡ng chá»©a nhiá»u thuáº­t ngá»¯ há»c thuáº­t, Ä‘á»‹a danh cá»• hoáº·c tÃªn riÃªng phá»©c táº¡p, kÃ­ch hoáº¡t Sub-agent chuyÃªn trÃ¡ch ngÃ´n ngá»¯ há»c:
+
+```python
+invoke_subagent(
+    Subagents=[
+        {
+            "TypeName": "self",
+            "Role": "Contextual Phonetic Linguist [01-quy-luat-01]",
+            "Prompt": (
+                "Báº¡n lÃ  ChuyÃªn gia NgÃ´n ngá»¯ há»c & PhiÃªn Ã¢m TTS cho chÆ°Æ¡ng '01-quy-luat-01'.\n"
+                "Nhiá»‡m vá»¥: Äá»c hiá»ƒu vÄƒn cáº£nh Ä‘á»ƒ phiÃªn Ã¢m chÃ­nh xÃ¡c danh tá»« riÃªng (Pericles -> PÃª-ri-clÃ©t) vÃ  chuyá»ƒn Ä‘á»•i cÃ¡c con sá»‘/Ä‘Æ¡n vá»‹ Ä‘o lÆ°á»ng trong file 'translated.txt' sang 'normalized.txt'.\n"
+                "Äáº£m báº£o: Khá»­ sáº¡ch kÃ½ tá»± cáº¥m cá»§a TTS (ngoáº·c, nhÃ¡y) mÃ  váº«n giá»¯ nguyÃªn nhá»‹p thá»Ÿ vÃ  cáº¥u trÃºc Ã½ niá»‡m."
+            )
+        }
+    ]
+)
+```
+
+---
+
+## 6. Cáº¥u TrÃºc Session & Tráº¡ng ThÃ¡i Metadata
+
+Khi káº¿t thÃºc xá»­ lÃ½ thÃ nh cÃ´ng, script sáº½ tá»± Ä‘á»™ng cáº­p nháº­t hoáº·c táº¡o má»›i file `.session_manifest.json` trong thÆ° má»¥c session:
 
 ```json
 {
-  "Subagents": [
-    {
-      "TypeName": "self",
-      "Role": "Context Analyzer",
-      "Prompt": "Đọc toàn bộ raw_original.txt, phân tích phong cách tác giả, bối cảnh, thuật ngữ chính và xuất ra bảng hướng dẫn dịch thuật cho chương 1."
-    },
-    {
-      "TypeName": "self",
-      "Role": "Raw Translator",
-      "Prompt": "Dựa trên bản gốc và hướng dẫn của Context Analyzer, hãy dịch thô (Raw translation) nguyên văn chương 1, đảm bảo truyền tải 100% ý nghĩa, không tóm tắt."
-    },
-    {
-      "TypeName": "self",
-      "Role": "Style Polisher",
-      "Prompt": "Nhập vai tác giả, lấy bản dịch thô của Raw Translator và trau chuốt lại văn phong, cảm xúc, ngữ điệu cho phù hợp với nguyên tác tiếng Việt hoàn chỉnh."
-    },
-    {
-      "TypeName": "self",
-      "Role": "QC & Validator",
-      "Prompt": "Đối chiếu bản trau chuốt của Style Polisher với raw_original.txt. Đảm bảo Zero Loss & Zero Deviation, không có ý nào bị thiếu hoặc tự ý thêm vào. Output cuối cùng lưu vào translated.txt."
-    }
-  ]
+  "book_slug": "nhung-quy-luat-ve-ban-chat-con-nguoi",
+  "step_1_status": "completed",
+  "step_2_status": "completed",
+  "step_3_status": "completed"
 }
 ```
+
 
 
 ==== arf_04_smart_audiobook_rechunker ====
 ---
 name: arf_04_smart_audiobook_rechunker
-description: Bước 4 - Rechunk thông minh văn bản thành các chunk chuẩn đệm TTS 2.800–3.000 ký tự (không cắt ngang câu).
+description: BÆ°á»›c 4 - AI phÃ¢n tÃ¡ch ngá»¯ nghÄ©a thÃ nh cÃ¡c chunk ~2500-3000 kÃ½ tá»± (khÃ´ng cáº¯t cá»¥t Ã½).
 ---
 
-# Kỹ năng 04: Phân Đoạn Thông Minh Kịch Bản Audio Book (Bước 4 - Smart Rechunker)
+# Ká»¹ nÄƒng 04: Semantic Rechunker (A.I Quyáº¿t Äá»‹nh)
 
-Kỹ năng này chuyên trách thực hiện **Bước 4** trong quy trình sản xuất Audio Book: Tái phân đoạn (Rechunk) kịch bản thô cấp 1 (`normalized.txt`) thành các file đệm TTS tối ưu (`Kich-ban-raw-1.txt`, `Kich-ban-raw-2.txt`,...) với dung lượng lý tưởng từ **2.800 – 3.000 ký tự**, đáp ứng hoàn hảo giới hạn nạp của các công cụ Text-to-Speech (như Clipchamp, Azure TTS, v.v.).
+**TRIáº¾T LÃ Cá»T LÃ•I:** AI dÃ¹ng tÆ° duy ngÃ´n ngá»¯ Ä‘á»ƒ quyáº¿t Ä‘á»‹nh Ä‘iá»ƒm cáº¯t, Ä‘áº£m báº£o khÃ´ng cáº¯t ngang cÃ¢u, khÃ´ng cáº¯t ngang má»™t Ã½ Ä‘ang máº¡ch láº¡c.
 
----
+## 1. Nhiá»‡m vá»¥ cá»§a AI
+- Root Agent gá»i Sub-agents Ä‘á»c file `normalized.txt` (hoáº·c báº£n dá»‹ch).
+- AI phÃ¢n tÃ­ch vÃ  tÃ¡ch vÄƒn báº£n thÃ nh cÃ¡c tá»‡p `Kich-ban-raw-N.txt` (má»—i tá»‡p ~2500 - 3000 kÃ½ tá»±).
+- Äiá»ƒm cáº¯t pháº£i náº±m á»Ÿ cuá»‘i Ä‘oáº¡n vÄƒn, hoáº·c cuá»‘i cÃ¢u hoÃ n chá»‰nh, khÃ´ng gÃ¢y háº«ng nhá»‹p cho ngÆ°á»i nghe.
 
-## 1. Mục Đích & Tiêu Chuẩn Phân Đoạn
+## 2. Phá»‘i há»£p Script
+- Script chá»‰ Ä‘Æ°á»£c dÃ¹ng Ä‘á»ƒ Ä‘áº¿m sá»‘ lÆ°á»£ng kÃ½ tá»± (Ä‘áº£m báº£o khÃ´ng vÆ°á»£t quÃ¡ giá»›i háº¡n API cá»§a TTS), cÃ²n Ä‘iá»ƒm cáº¯t (split point) pháº£i do AI quyáº¿t Ä‘á»‹nh.
 
-1. **Dung lượng tiêu chuẩn**:
-   - **Tối đa (Max chunk)**: 2.800 – 3.000 ký tự (mặc định 3.000 ký tự).
-   - **Tối thiểu (Min chunk)**: 500 ký tự. Không tạo ra các file con quá ngắn. Nếu file cuối cùng < 500 ký tự, tự động gộp vào file trước đó.
-2. **Thứ tự ưu tiên cắt gọt (Split Priority)**:
-   - **Ưu tiên 1 (Cao nhất)**: Cắt tại ranh giới đoạn văn (`\n\n`).
-   - **Ưu tiên 2**: Nếu đoạn văn quá dài (> max_chunk), cắt tại dấu kết thúc câu (`.`, `!`, `?`).
-   - **Ràng buộc tuyệt đối**: **Tuyệt đối không cắt ngang giữa câu hoặc giữa từ**.
-3. **Bảo toàn dữ liệu (Zero Data Loss)**:
-   - Tổng số ký tự trước và sau khi rechunk phải được đối soát (độ lệch cho phép do chuẩn hóa khoảng trắng $\le 0.05\%$).
-4. **Quy ước tập tin**:
-   - **Đầu vào (Input)**: `normalized.txt` (hoặc các file kịch bản thô trong thư mục chương).
-   - **Đầu ra (Output)**: `Kich-ban-raw-1.txt`, `Kich-ban-raw-2.txt`, `Kich-ban-raw-3.txt`,...
-   - Giữ nguyên `normalized.txt` sau khi rechunk thành công.
-
----
-
-## 2. Quản Lý Phiên Làm Việc (Session State Tracking)
-
-Khi nhận tham số `--session_id`, hệ thống tự động ghi nhận và cập nhật trạng thái:
-- Khóa trạng thái: `step_4_status` = `"IN_PROGRESS"` -> `"COMPLETED"` (hoặc `"FAILED"`).
-- Báo cáo đối soát dung lượng:
-  - `total_chars_before`: Tổng ký tự ban đầu của kịch bản.
-  - `total_chars_after`: Tổng ký tự của toàn bộ các file `Kich-ban-raw-*.txt` đã tạo.
-  - `integrity_rate`: Tỷ lệ bảo toàn dữ liệu (%).
-  - `chapters_processed`: Danh sách các chương và số lượng file sinh ra.
-
-File session được lưu tại `.agy/sessions/<session_id>.json` hoặc `session.json` trong thư mục làm việc.
-
----
-
-## 3. Cấu Trúc Thư Mục Sau Rechunk
-
-```
-[output_dir]/
-└── 02-Chuong-01/
-    ├── raw_original.txt        # Bản gốc từ PDF (bảo lưu)
-    ├── translated.txt          # Bản dịch tiếng Việt (bảo lưu)
-    ├── normalized.txt          # Bản chuẩn hóa ngữ âm (bảo lưu)
-    ├── Kich-ban-raw-1.txt      # Chunk thứ 1 (2.800 - 3.000 ký tự)
-    ├── Kich-ban-raw-2.txt      # Chunk thứ 2 (2.800 - 3.000 ký tự)
-    └── Kich-ban-raw-3.txt      # Chunk thứ 3 (>= 500 ký tự)
-```
-
----
-
-## 4. Hướng Dẫn Vận Hành Cho AI & CLI
-
-AI điều phối quy trình có thể chạy script bằng công cụ `run_command`:
-
-### Chạy cho toàn bộ các chương trong thư mục sách:
-```powershell
-python .agy/skills/04_smart_audiobook_rechunker/scripts/rechunk_smart.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Eat-that-frog" --max_chunk 3000 --min_chunk 500 --session_id "session_001"
-```
-
-### Chạy cho một chương đơn lẻ:
-```powershell
-python .agy/skills/04_smart_audiobook_rechunker/scripts/rechunk_smart.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Eat-that-frog/02-Chuong-01" --max_chunk 3000 --min_chunk 500
-```
-
----
-
-## 5. Hướng Dẫn Kích Hoạt Sub-Agent Phân Đoạn Từng Chương (Semantic Chunking Subagent)
-
-Khi cần tối ưu phân đoạn cho từng chương riêng biệt:
-
-```python
-invoke_subagent(
-    Subagents=[
-        {
-            "TypeName": "self",
-            "Role": "Semantic Chunking Specialist [01-quy-luat-01]",
-            "Prompt": (
-                "Bạn là Chuyên gia Phân đoạn Kịch bản (Smart Rechunker) cho chương '01-quy-luat-01'.\n"
-                "Nhiệm vụ: Phân đoạn 'normalized.txt' thành các file 'Kich-ban-raw-N.txt' từ 2.800-3.000 ký tự theo ranh giới đoạn văn.\n"
-                "Yêu cầu: Bảo toàn 100% nội dung (Zero Data Loss), không cắt ngang câu."
-            )
-        }
-    ]
-)
-```
-
----
-
-## 6. Tiêu Chí Nghiệm Thu (Acceptance Criteria)
-
-1. Mỗi file `Kich-ban-raw-*.txt` có dung lượng $\le 3.000$ ký tự.
-2. Không có file nào có dung lượng $< 500$ ký tự (trừ khi toàn bộ chương sách ngắn hơn 500 ký tự).
-3. Không có câu văn nào bị cắt đứt giữa chừng.
-4. Session cập nhật `step_4_status = "completed"`.
-
----
-
-## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
-
-**Mệnh lệnh Bắt buộc cho Root Agent:**
-Khi được giao nhiệm vụ phân đoạn (rechunk) nhiều chương sách, bạn **tuyệt đối không được xử lý tuần tự một mình**. Bạn phải phân rã công việc theo chiều ngang và gọi đồng thời **từ 4 đến 10 Sub-agents** thông qua công cụ `invoke_subagent` để xử lý song song các chương. Mỗi Sub-agent sẽ chịu trách nhiệm chạy script phân đoạn trên một hoặc một nhóm chương cụ thể để đảm bảo tốc độ và tối ưu context.
-
-**Ví dụ cấu hình JSON cho `invoke_subagent`:**
-```json
-{
-  "Subagents": [
-    {
-      "TypeName": "self",
-      "Role": "Semantic Chunker - Batch 1 (Chương 01-03)",
-      "Prompt": "Áp dụng kỹ năng Smart Audiobook Rechunker để xử lý các chương 01 đến 03. Đảm bảo output 2.800-3.000 ký tự và không cắt ngang câu."
-    },
-    {
-      "TypeName": "self",
-      "Role": "Semantic Chunker - Batch 2 (Chương 04-06)",
-      "Prompt": "Áp dụng kỹ năng Smart Audiobook Rechunker để xử lý các chương 04 đến 06. Đảm bảo output 2.800-3.000 ký tự và không cắt ngang câu."
-    }
-  ]
-}
-```
-Chiến lược này đặc biệt quan trọng để tăng tốc độ phân rã kịch bản với các cuốn audiobook dài hơi, cũng như kiểm soát chất lượng text sau rechunk của từng tiến trình một cách độc lập.
 
 
 ==== arf_05_script_structure_formatter ====
-﻿---
+---
 name: arf_05_script_structure_formatter
-description: Bước 5 - Tách tiêu đề/phụ đề và chèn marker ngắt nghỉ nhịp thở TTS (. ......) sau tiêu đề và cuối đoạn.
+description: BÆ°á»›c 5 - AI chÃ¨n nhá»‹p nghá»‰ (. ......) thÃ´ng minh theo cáº£m nháº­n ngá»¯ nghÄ©a, trÃ¡nh mÃ¡y mÃ³c.
 ---
 
-# Kỹ năng 05: Định dạng Cấu trúc Kịch bản TTS (Script Structure Formatter)
+# Ká»¹ nÄƒng 05: Formatting & Pacing (A.I 100%)
 
-Kỹ năng này chịu trách nhiệm **chuẩn hóa cấu trúc hình thức và nhịp thở của văn bản kịch bản**, giải quyết triệt để lỗi dính tiêu đề (Heading) vào nội dung đoạn văn (Body paragraph), đồng thời phân bổ các điểm ngắt nghỉ chuẩn xác cho công cụ Text-To-Speech (TTS như Clipchamp, Edge TTS, v.v.).
+**TRIáº¾T LÃ Cá»T LÃ•I:** Sá»± khÃ³ chá»‹u nháº¥t cá»§a sÃ¡ch nÃ³i lÃ  ngáº¯t nghá»‰ mÃ¡y mÃ³c. AI pháº£i Ä‘á»c, cáº£m nháº­n ná»™i dung vÃ  Ä‘áº·t Ä‘iá»ƒm ngáº¯t nghá»‰ `. ......` nhÆ° má»™t ngÆ°á»i Ä‘á»c tháº­t Ä‘ang láº¥y hÆ¡i vÃ  truyá»n cáº£m há»©ng.
 
----
+## 1. Nhiá»‡m vá»¥ cá»§a AI
+- TÃ¡ch báº¡ch rÃµ rÃ ng TiÃªu Ä‘á» vÃ  ThÃ¢n bÃ i.
+- ChÃ¨n `. ......` (nghá»‰ 1.5 - 2s) á»Ÿ sau tiÃªu Ä‘á», sau nhá»¯ng luáº­n Ä‘iá»ƒm sÃ¢u sáº¯c cáº§n ngÆ°á»i nghe ngáº«m nghÄ©, hoáº·c sau cÃ¡c Ä‘oáº¡n vÄƒn dÃ i.
+- Tuyá»‡t Ä‘á»‘i KHÃ”NG chÃ¨n bá»«a bÃ£i lÃ m gÃ£y máº¡ch Ã½ nghÄ©a, gÃ¢y hiá»ƒu láº§m ngá»¯ cáº£nh.
+- Root Agent gá»i Sub-agents tá»± Ä‘á»™ng xá»­ lÃ½ trá»±c tiáº¿p trÃªn cÃ¡c file `Kich-ban-raw-N.txt`.
 
-## 1. Mục Đích & Tiêu Chuẩn
-
-1. **Tách Bạch Tiêu Đề & Nội Dung**:
-   - Nhận diện các dòng tiêu đề, chương, phần, mục (Heading 1, 2, 3).
-   - Đảm bảo luôn có khoảng trắng (xuống dòng) rõ ràng giữa tiêu đề và đoạn văn bên dưới.
-2. **Chèn Nhịp Thở Đệm (Breathing Markers)**:
-   - Hệ thống TTS tự động đọc rất nhanh, cần chèn chuỗi marker: `. ......` (1 dấu chấm, 1 dấu cách, 6 dấu chấm) để tạo khoảng lặng ~1.5 - 2 giây.
-   - **Vị trí bắt buộc chèn**: 
-     - Ngay sau mỗi dòng tiêu đề/phụ đề.
-     - Cuối mỗi đoạn văn dài (trước khi sang đoạn mới).
-     - (Tùy chọn) Sau các dấu chấm câu kết thúc ý lớn.
-3. **Bảo toàn nguyên vẹn từ vựng**:
-   - Chỉ điều chỉnh cấu trúc khoảng trắng và chèn chuỗi marker ngắt nghỉ. Tuyệt đối không thay đổi, xóa bớt hay thêm từ vựng vào nội dung chính (Zero Data Loss - Text Content).
-4. **Quy ước tập tin**:
-   - **Đầu vào (Input)**: `Kich-ban-raw-N.txt` (các chunk từ Bước 4).
-   - **Đầu ra (Output)**: Các file `Kich-ban-N.txt` (Kịch bản thô cấp 1, đã chuẩn hóa nhịp thở).
-   - Tự động dọn dẹp các file `Kich-ban-raw-N.txt` cũ.
-
----
-
-## 2. Quản Lý Phiên Làm Việc (Session State Tracking)
-
-Khi nhận tham số `--session_id`, hệ thống tự động ghi nhận và cập nhật trạng thái:
-- Khóa trạng thái: `step_5_status` = `"IN_PROGRESS"` -> `"COMPLETED"` (hoặc `"FAILED"`).
-- Báo cáo định dạng:
-  - Báo cáo số lượng chunk đã được định dạng cấu trúc và chèn nhịp thở.
-  - Số lượng marker `. ......` đã chèn (nếu đo đếm được).
-
-File session được lưu tại `.agy/sessions/<session_id>.json` hoặc `session.json` trong thư mục làm việc.
-
----
-
-## 3. Cấu Trúc Thư Mục Sau Định Dạng
-
-```
-[output_dir]/
-└── 02-Chuong-01/
-    ├── raw_original.txt        # Bản gốc từ PDF (bảo lưu)
-    ├── translated.txt          # Bản dịch tiếng Việt (bảo lưu)
-    ├── normalized.txt          # Bản chuẩn hóa ngữ âm (bảo lưu)
-    ├── Kich-ban-raw-1.txt      # Chunk 1 (Đã định dạng tiêu đề & chèn nhịp thở)
-    ├── Kich-ban-raw-2.txt      # Chunk 2 (Đã định dạng tiêu đề & chèn nhịp thở)
-    └── Kich-ban-raw-3.txt      # Chunk 3 (Đã định dạng tiêu đề & chèn nhịp thở)
-```
-
----
-
-## 4. Hướng Dẫn Vận Hành Cho AI & CLI
-
-AI điều phối quy trình có thể chạy script bằng công cụ `run_command`:
-
-### Chạy cho toàn bộ các chương trong thư mục sách:
-```powershell
-python .agy/skills/05_script_structure_formatter/scripts/format_script_structure.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Eat-that-frog" --session_id "session_001"
-```
-
-### Chạy cho một chương đơn lẻ:
-```powershell
-python .agy/skills/05_script_structure_formatter/scripts/format_script_structure.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Eat-that-frog/02-Chuong-01"
-```
-
----
-
-## 5. Hướng Dẫn Kích Hoạt Sub-Agent Định Dạng Từng Chương (Formatting Subagent)
-
-Khi cần sử dụng LLM để phân tích ngữ cảnh và định dạng cấu trúc một cách thông minh cho từng chương:
-
-```python
-invoke_subagent(
-    Subagents=[
-        {
-            "TypeName": "self",
-            "Role": "Structure Formatting Specialist [01-quy-luat-01]",
-            "Prompt": (
-                "Bạn là Chuyên gia Định dạng Kịch bản TTS (Script Structure Formatter) cho chương '01-quy-luat-01'.\n"
-                "Nhiệm vụ: Duyệt qua tất cả các file 'Kich-ban-raw-N.txt', tách bạch các dòng tiêu đề (Headings) khỏi nội dung đoạn văn, "
-                "và chèn chuỗi marker ngắt nghỉ '. ......' vào cuối mỗi tiêu đề và cuối mỗi đoạn văn lớn. Lưu đè kết quả vào chính file 'Kich-ban-raw-N.txt'.\n"
-                "Yêu cầu: Bảo toàn nguyên vẹn 100% từ vựng của kịch bản, chỉ sửa cấu trúc ngắt dòng và chèn marker."
-            )
-        }
-    ]
-)
-```
-
----
-
-## 6. Tiêu Chí Nghiệm Thu (Acceptance Criteria)
-
-1. Các file `Kich-ban-raw-N.txt` đã được cập nhật với cấu trúc mới và được định dạng chuẩn.
-2. Tiêu đề và nội dung được tách biệt bởi dòng trống (newline).
-3. Các marker nhịp thở `. ......` xuất hiện đúng vị trí cuối tiêu đề và cuối các đoạn văn.
-4. Session cập nhật `step_5_status = "completed"`.
-
----
-
-## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
-
-**Mệnh lệnh Bắt buộc cho Root Agent:**
-Khi được giao nhiệm vụ định dạng cấu trúc kịch bản (Script Structure Formatting) cho nhiều chương sách, bạn **tuyệt đối không được xử lý tuần tự một mình**. Tương tự như quá trình rechunk, bạn phải phân rã công việc theo chiều ngang và gọi đồng thời **từ 4 đến 10 Sub-agents** thông qua công cụ `invoke_subagent` để xử lý song song các chương. Mỗi Sub-agent sẽ chịu trách nhiệm định dạng trên một nhóm chương cụ thể.
-
-**Ví dụ cấu hình JSON cho `invoke_subagent`:**
-```json
-{
-  "Subagents": [
-    {
-      "TypeName": "self",
-      "Role": "Formatter - Batch 1 (Chương 01-03)",
-      "Prompt": "Áp dụng kỹ năng Script Structure Formatter để định dạng cấu trúc và chèn nhịp thở '. ......' cho các chương 01 đến 03. Quét tất cả file 'Kich-ban-raw-N.txt' và lưu đè vào 'Kich-ban-raw-N.txt'."
-    },
-    {
-      "TypeName": "self",
-      "Role": "Formatter - Batch 2 (Chương 04-06)",
-      "Prompt": "Áp dụng kỹ năng Script Structure Formatter để định dạng cấu trúc và chèn nhịp thở '. ......' cho các chương 04 đến 06. Quét tất cả file 'Kich-ban-raw-N.txt' và lưu đè vào 'Kich-ban-raw-N.txt'."
-    }
-  ]
-}
-```
-Việc chia nhỏ quá trình định dạng bằng nhiều agent sẽ giúp tối ưu hóa thời gian xử lý và giảm nguy cơ lỗi context khi làm việc với lượng lớn văn bản.
 
 
 ==== arf_06_llm_script_refiner ====
 ---
 name: arf_06_llm_script_refiner
-description: Bước 6 - Tinh chỉnh diễn đọc và nhịp thở bằng LLM theo Prompt chuẩn TTS, dọn dẹp file tạm.
+description: BÆ°á»›c 6 - Tinh chá»‰nh diá»…n Ä‘á»c vÃ  nhá»‹p thá»Ÿ báº±ng LLM theo Prompt chuáº©n TTS, dá»n dáº¹p file táº¡m.
 ---
 
-# Kỹ năng 06: Tinh chỉnh Kịch bản Diễn Đọc bằng LLM (`06_llm_script_refiner`)
+# Ká»¹ nÄƒng 06: Tinh chá»‰nh Ká»‹ch báº£n Diá»…n Äá»c báº±ng LLM (`06_llm_script_refiner`)
 
-Kỹ năng này chịu trách nhiệm nhận các khối kịch bản thô (`Kich-ban-raw-N.txt`) từ bước Rechunk, áp dụng **Prompt TTS chuẩn** và gọi LLM để biên tập lại câu từ cho phù hợp với giọng đọc tự nhiên (thêm dấu phẩy ngắt hơi, sửa lỗi ngữ pháp, tách tiêu đề dính, chuẩn hóa phiên âm, giữ nguyên marker ngắt nghỉ `. ......`).
-
----
-
-## 1. Mục tiêu & Nguyên tắc Tinh chỉnh
-
-### 1.1 Mục tiêu cốt lõi: AI Voice & Prosody Director
-- Đóng vai trò là **Tổng đạo diễn Diễn đọc Âm thanh**, hiểu sâu sắc ngữ cảnh văn học (Literary Context) và nhịp thở của người đọc thật.
-- Biến đổi văn bản dịch thô/OCR thành kịch bản có ngữ điệu diễn đọc truyền cảm, nhịp nhàng, êm ái, tối ưu cho các bộ Text-To-Speech (TTS như Microsoft Edge TTS, Clipchamp, Azure Neural Voice).
-
-### 1.2 Nguyên tắc tinh chỉnh AI bắt buộc
-1. **Phân tích Ngữ điệu & Cảm xúc (Emotional Tone Analysis):** Nhận diện phân đoạn đang xử lý là triết lý trầm ngâm, câu chuyện lịch sử kịch tính, lời khuyên hành động hay phân tích tâm lý để điều phối nhịp văn phù hợp.
-2. **Bổ sung nhịp thở tự nhiên (Breathing Commas):** Thêm dấu phẩy `,` tại các mệnh đề phụ, sau các liên từ mở đầu (`tuy nhiên,`, `bởi vì,`, `do đó,`), và ở các câu phức dài trên 12 từ để bộ đọc TTS lấy hơi tự nhiên, không bị đọc dồn dập hoặc hụt hơi.
-3. **Phân biệt Lời dẫn chuyện & Lời thoại nhân vật:** Đảm bảo lời trích dẫn danh ngôn hoặc lời thoại được đặt sau dấu phẩy và ngắt nhịp rõ ràng để tạo điểm nhấn âm thanh.
-4. **Giữ nguyên Marker ngắt nghỉ `. ......`:** Tuyệt đối giữ nguyên ký hiệu `. ......` ở cuối mỗi đoạn văn hoặc câu chuyển ý quan trọng. Ký hiệu này giúp TTS ngắt nghỉ 1.5 - 2 giây để người nghe chiêm nghiệm.
-5. **Không tóm tắt / Không lược ý (100% Content Fidelity):** Giữ trọn vẹn 100% nội dung, không rút gọn luận điểm, ví dụ hay số liệu của tác giả.
-6. **Không thêm lời dẫn thoại của AI:** Tuyệt đối không thêm các câu mở đầu/kết bài máy móc như *"Dưới đây là kịch bản"*, *"Chào bạn"*... Chỉ xuất nội dung kịch bản sạch.
+Ká»¹ nÄƒng nÃ y chá»‹u trÃ¡ch nhiá»‡m nháº­n cÃ¡c khá»‘i ká»‹ch báº£n thÃ´ (`Kich-ban-raw-N.txt`) tá»« bÆ°á»›c Rechunk, Ã¡p dá»¥ng **Prompt TTS chuáº©n** vÃ  gá»i LLM Ä‘á»ƒ biÃªn táº­p láº¡i cÃ¢u tá»« cho phÃ¹ há»£p vá»›i giá»ng Ä‘á»c tá»± nhiÃªn (thÃªm dáº¥u pháº©y ngáº¯t hÆ¡i, sá»­a lá»—i ngá»¯ phÃ¡p, tÃ¡ch tiÃªu Ä‘á» dÃ­nh, chuáº©n hÃ³a phiÃªn Ã¢m, giá»¯ nguyÃªn marker ngáº¯t nghá»‰ `. ......`).
 
 ---
 
-## 2. Quản lý Session & Checkpoint (Resume Logic)
+## 1. Má»¥c tiÃªu & NguyÃªn táº¯c Tinh chá»‰nh
 
-Kỹ năng lưu vết quá trình thực thi thông qua tệp `.session_manifest.json` nằm tại thư mục gốc của dự án hoặc thư mục đầu vào.
+### 1.1 Má»¥c tiÃªu cá»‘t lÃµi: AI Voice & Prosody Director
+- ÄÃ³ng vai trÃ² lÃ  **Tá»•ng Ä‘áº¡o diá»…n Diá»…n Ä‘á»c Ã‚m thanh**, hiá»ƒu sÃ¢u sáº¯c ngá»¯ cáº£nh vÄƒn há»c (Literary Context) vÃ  nhá»‹p thá»Ÿ cá»§a ngÆ°á»i Ä‘á»c tháº­t.
+- Biáº¿n Ä‘á»•i vÄƒn báº£n dá»‹ch thÃ´/OCR thÃ nh ká»‹ch báº£n cÃ³ ngá»¯ Ä‘iá»‡u diá»…n Ä‘á»c truyá»n cáº£m, nhá»‹p nhÃ ng, Ãªm Ã¡i, tá»‘i Æ°u cho cÃ¡c bá»™ Text-To-Speech (TTS nhÆ° Microsoft Edge TTS, Clipchamp, Azure Neural Voice).
 
-### 2.1 Cấu trúc Manifest
+### 1.2 NguyÃªn táº¯c tinh chá»‰nh AI báº¯t buá»™c
+1. **PhÃ¢n tÃ­ch Ngá»¯ Ä‘iá»‡u & Cáº£m xÃºc (Emotional Tone Analysis):** Nháº­n diá»‡n phÃ¢n Ä‘oáº¡n Ä‘ang xá»­ lÃ½ lÃ  triáº¿t lÃ½ tráº§m ngÃ¢m, cÃ¢u chuyá»‡n lá»‹ch sá»­ ká»‹ch tÃ­nh, lá»i khuyÃªn hÃ nh Ä‘á»™ng hay phÃ¢n tÃ­ch tÃ¢m lÃ½ Ä‘á»ƒ Ä‘iá»u phá»‘i nhá»‹p vÄƒn phÃ¹ há»£p.
+2. **Bá»• sung nhá»‹p thá»Ÿ tá»± nhiÃªn (Breathing Commas):** ThÃªm dáº¥u pháº©y `,` táº¡i cÃ¡c má»‡nh Ä‘á» phá»¥, sau cÃ¡c liÃªn tá»« má»Ÿ Ä‘áº§u (`tuy nhiÃªn,`, `bá»Ÿi vÃ¬,`, `do Ä‘Ã³,`), vÃ  á»Ÿ cÃ¡c cÃ¢u phá»©c dÃ i trÃªn 12 tá»« Ä‘á»ƒ bá»™ Ä‘á»c TTS láº¥y hÆ¡i tá»± nhiÃªn, khÃ´ng bá»‹ Ä‘á»c dá»“n dáº­p hoáº·c há»¥t hÆ¡i.
+3. **PhÃ¢n biá»‡t Lá»i dáº«n chuyá»‡n & Lá»i thoáº¡i nhÃ¢n váº­t:** Äáº£m báº£o lá»i trÃ­ch dáº«n danh ngÃ´n hoáº·c lá»i thoáº¡i Ä‘Æ°á»£c Ä‘áº·t sau dáº¥u pháº©y vÃ  ngáº¯t nhá»‹p rÃµ rÃ ng Ä‘á»ƒ táº¡o Ä‘iá»ƒm nháº¥n Ã¢m thanh.
+4. **Giá»¯ nguyÃªn Marker ngáº¯t nghá»‰ `. ......`:** Tuyá»‡t Ä‘á»‘i giá»¯ nguyÃªn kÃ½ hiá»‡u `. ......` á»Ÿ cuá»‘i má»—i Ä‘oáº¡n vÄƒn hoáº·c cÃ¢u chuyá»ƒn Ã½ quan trá»ng. KÃ½ hiá»‡u nÃ y giÃºp TTS ngáº¯t nghá»‰ 1.5 - 2 giÃ¢y Ä‘á»ƒ ngÆ°á»i nghe chiÃªm nghiá»‡m.
+5. **KhÃ´ng tÃ³m táº¯t / KhÃ´ng lÆ°á»£c Ã½ (100% Content Fidelity):** Giá»¯ trá»n váº¹n 100% ná»™i dung, khÃ´ng rÃºt gá»n luáº­n Ä‘iá»ƒm, vÃ­ dá»¥ hay sá»‘ liá»‡u cá»§a tÃ¡c giáº£.
+6. **KhÃ´ng thÃªm lá»i dáº«n thoáº¡i cá»§a AI:** Tuyá»‡t Ä‘á»‘i khÃ´ng thÃªm cÃ¡c cÃ¢u má»Ÿ Ä‘áº§u/káº¿t bÃ i mÃ¡y mÃ³c nhÆ° *"DÆ°á»›i Ä‘Ã¢y lÃ  ká»‹ch báº£n"*, *"ChÃ o báº¡n"*... Chá»‰ xuáº¥t ná»™i dung ká»‹ch báº£n sáº¡ch.
+
+---
+
+## 2. Quáº£n lÃ½ Session & Checkpoint (Resume Logic)
+
+Ká»¹ nÄƒng lÆ°u váº¿t quÃ¡ trÃ¬nh thá»±c thi thÃ´ng qua tá»‡p `.session_manifest.json` náº±m táº¡i thÆ° má»¥c gá»‘c cá»§a dá»± Ã¡n hoáº·c thÆ° má»¥c Ä‘áº§u vÃ o.
+
+### 2.1 Cáº¥u trÃºc Manifest
 ```json
 {
   "session_id": "session_20260816_100000",
@@ -722,28 +574,28 @@ Kỹ năng lưu vết quá trình thực thi thông qua tệp `.session_manifest
 }
 ```
 
-### 2.2 Cơ chế Khôi phục (Resume)
-- Trước khi xử lý file `Kich-ban-raw-N.txt`, script sẽ kiểm tra xem file đích `Kich-ban-N.txt` đã tồn tại và có dung lượng hợp lệ (> 50 byte) hay chưa.
-- Nếu đã tồn tại: **Bỏ qua (Skip)** chunk này và ghi nhận vào checkpoint, giúp tiết kiệm token và thời gian khi chạy lại sau sự cố mất kết nối hoặc dừng đột ngột.
-- Khi toàn bộ các chunk trong một chương hoàn thành, cập nhật trạng thái chương thành `"completed"`.
-- Khi toàn bộ các chương hoàn thành, cập nhật `step_6_status` thành `"completed"`.
+### 2.2 CÆ¡ cháº¿ KhÃ´i phá»¥c (Resume)
+- TrÆ°á»›c khi xá»­ lÃ½ file `Kich-ban-raw-N.txt`, script sáº½ kiá»ƒm tra xem file Ä‘Ã­ch `Kich-ban-N.txt` Ä‘Ã£ tá»“n táº¡i vÃ  cÃ³ dung lÆ°á»£ng há»£p lá»‡ (> 50 byte) hay chÆ°a.
+- Náº¿u Ä‘Ã£ tá»“n táº¡i: **Bá» qua (Skip)** chunk nÃ y vÃ  ghi nháº­n vÃ o checkpoint, giÃºp tiáº¿t kiá»‡m token vÃ  thá»i gian khi cháº¡y láº¡i sau sá»± cá»‘ máº¥t káº¿t ná»‘i hoáº·c dá»«ng Ä‘á»™t ngá»™t.
+- Khi toÃ n bá»™ cÃ¡c chunk trong má»™t chÆ°Æ¡ng hoÃ n thÃ nh, cáº­p nháº­t tráº¡ng thÃ¡i chÆ°Æ¡ng thÃ nh `"completed"`.
+- Khi toÃ n bá»™ cÃ¡c chÆ°Æ¡ng hoÃ n thÃ nh, cáº­p nháº­t `step_6_status` thÃ nh `"completed"`.
 
 ---
 
-## 3. Tự Động Dọn Dẹp File Trung Gian (Auto-Cleanup)
+## 3. Tá»± Äá»™ng Dá»n Dáº¹p File Trung Gian (Auto-Cleanup)
 
-Sau khi một chương (hoặc toàn bộ dự án) hoàn thành tinh chỉnh 100%:
-- 🗑️ **Xóa các file thô trung gian:** `Kich-ban-raw-*.txt`
-- 🗑️ **Xóa các file tạm:** `translated.txt` (nếu có)
-- 🔒 **GIỮ LẠI BẮT BUỘC:**
-  - `raw_original.txt`: Bằng chứng văn bản gốc để phục vụ Quality Control (QC).
-  - `Kich-ban-1.txt`, `Kich-ban-2.txt`, ...: Các kịch bản hoàn chỉnh (Final Output).
+Sau khi má»™t chÆ°Æ¡ng (hoáº·c toÃ n bá»™ dá»± Ã¡n) hoÃ n thÃ nh tinh chá»‰nh 100%:
+- ðŸ—‘ï¸ **XÃ³a cÃ¡c file thÃ´ trung gian:** `Kich-ban-raw-*.txt`
+- ðŸ—‘ï¸ **XÃ³a cÃ¡c file táº¡m:** `translated.txt` (náº¿u cÃ³)
+- ðŸ”’ **GIá»® Láº I Báº®T BUá»˜C:**
+  - `raw_original.txt`: Báº±ng chá»©ng vÄƒn báº£n gá»‘c Ä‘á»ƒ phá»¥c vá»¥ Quality Control (QC).
+  - `Kich-ban-1.txt`, `Kich-ban-2.txt`, ...: CÃ¡c ká»‹ch báº£n hoÃ n chá»‰nh (Final Output).
 
 ---
 
-## 4. Hướng Dẫn Kích Hoạt Sub-Agent Biên Kịch Giọng Đọc Từng Chương (Senior Voice Refiner Subagent)
+## 4. HÆ°á»›ng Dáº«n KÃ­ch Hoáº¡t Sub-Agent BiÃªn Ká»‹ch Giá»ng Äá»c Tá»«ng ChÆ°Æ¡ng (Senior Voice Refiner Subagent)
 
-Khi muốn tinh chỉnh sâu sắc ngữ điệu từng chương bằng LLM:
+Khi muá»‘n tinh chá»‰nh sÃ¢u sáº¯c ngá»¯ Ä‘iá»‡u tá»«ng chÆ°Æ¡ng báº±ng LLM:
 
 ```python
 invoke_subagent(
@@ -752,13 +604,13 @@ invoke_subagent(
             "TypeName": "self",
             "Role": "Senior Voice Script Refiner [01-quy-luat-01]",
             "Prompt": (
-                "Bạn là Tổng biên kịch Diễn đọc Giọng nói cho chương '01-quy-luat-01-lam-chu-cai-toi-cam-xuc'.\n"
-                "Tác giả: Robert Greene | Thể loại: Tâm lý học hành vi / Triết học quyền lực.\n"
-                "Nhiệm vụ: Đọc toàn bộ các chunk 'Kich-ban-raw-N.txt' của chương này và tinh chỉnh thành 'Kich-ban-N.txt'.\n"
-                "Yêu cầu:\n"
-                "1. Thêm dấu phẩy lấy hơi tự nhiên ở những câu dài để bộ đọc TTS ngắt giọng êm ái.\n"
-                "2. Bảo toàn 100% nội dung và marker ngắt nghỉ '. ......'.\n"
-                "3. Khử sạch toàn bộ ký tự cấm TTS (ngoặc, nháy) và chuyển chữ số thành chữ viết."
+                "Báº¡n lÃ  Tá»•ng biÃªn ká»‹ch Diá»…n Ä‘á»c Giá»ng nÃ³i cho chÆ°Æ¡ng '01-quy-luat-01-lam-chu-cai-toi-cam-xuc'.\n"
+                "TÃ¡c giáº£: Robert Greene | Thá»ƒ loáº¡i: TÃ¢m lÃ½ há»c hÃ nh vi / Triáº¿t há»c quyá»n lá»±c.\n"
+                "Nhiá»‡m vá»¥: Äá»c toÃ n bá»™ cÃ¡c chunk 'Kich-ban-raw-N.txt' cá»§a chÆ°Æ¡ng nÃ y vÃ  tinh chá»‰nh thÃ nh 'Kich-ban-N.txt'.\n"
+                "YÃªu cáº§u:\n"
+                "1. ThÃªm dáº¥u pháº©y láº¥y hÆ¡i tá»± nhiÃªn á»Ÿ nhá»¯ng cÃ¢u dÃ i Ä‘á»ƒ bá»™ Ä‘á»c TTS ngáº¯t giá»ng Ãªm Ã¡i.\n"
+                "2. Báº£o toÃ n 100% ná»™i dung vÃ  marker ngáº¯t nghá»‰ '. ......'.\n"
+                "3. Khá»­ sáº¡ch toÃ n bá»™ kÃ½ tá»± cáº¥m TTS (ngoáº·c, nhÃ¡y) vÃ  chuyá»ƒn chá»¯ sá»‘ thÃ nh chá»¯ viáº¿t."
             )
         }
     ]
@@ -767,289 +619,298 @@ invoke_subagent(
 
 ---
 
-## 5. Hướng dẫn Sử dụng Script `refine_llm.py`
+## 5. HÆ°á»›ng dáº«n Sá»­ dá»¥ng Script `refine_llm.py`
 
-### 5.1 Vị trí tệp
-- File thực thi: [refine_llm.py](file:///d:/Solution/Audio-Book-Refactor/.agy/skills/arf_06_llm_script_refiner/scripts/refine_llm.py)
+### 5.1 Vá»‹ trÃ­ tá»‡p
+- File thá»±c thi: [refine_llm.py](file:///d:/Solution/Audio-Book-Refactor/.agy/skills/arf_06_llm_script_refiner/scripts/refine_llm.py)
 
-### 5.2 Ví dụ câu lệnh
+### 5.2 VÃ­ dá»¥ cÃ¢u lá»‡nh
 ```bash
 python .agy/skills/arf_06_llm_script_refiner/scripts/refine_llm.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Nhung-quy-luat-ve-ban-chat-con-nguoi" --force
 ```
-
----
-
-## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
-
-**Mệnh lệnh Bắt buộc dành cho Root Agent:**
-Khi được gọi để thực hiện tinh chỉnh script cho một thư mục lớn hoặc một dự án sách nói, Root Agent **KHÔNG ĐƯỢC** tự mình xử lý tuần tự toàn bộ các file `Kich-ban-raw-N.txt`. Do khối lượng dữ liệu lớn và để tận dụng tối đa khả năng xử lý song song, Root Agent phải sử dụng công cụ `invoke_subagent` để gọi từ **5 đến 10 Sub-agents (Refiners)**.
-
-**Chiến lược phân rã (Horizontal Split):**
-- Chia đều danh sách các file cần xử lý (ví dụ: chia theo chương hoặc chia theo dải chunk) cho các Sub-agents.
-- Mỗi Sub-agent chịu trách nhiệm một tập con các file `Kich-ban-raw-N.txt` và lưu thành `Kich-ban-N.txt` tương ứng.
-
-**Ví dụ cấu hình JSON cho `invoke_subagent`:**
-
-```json
-{
-  "Subagents": [
-    {
-      "TypeName": "self",
-      "Role": "Refiner_01",
-      "Prompt": "Bạn là Refiner_01. Hãy đọc và tinh chỉnh các file từ 'Kich-ban-raw-1.txt' đến 'Kich-ban-raw-5.txt' trong thư mục '01-quy-luat-01'. Hãy làm theo các quy tắc Tinh chỉnh bằng LLM đã định nghĩa trong SKILL."
-    },
-    {
-      "TypeName": "self",
-      "Role": "Refiner_02",
-      "Prompt": "Bạn là Refiner_02. Hãy đọc và tinh chỉnh các file từ 'Kich-ban-raw-6.txt' đến 'Kich-ban-raw-10.txt' trong thư mục '01-quy-luat-01'. Hãy làm theo các quy tắc Tinh chỉnh bằng LLM đã định nghĩa trong SKILL."
-    },
-    {
-      "TypeName": "self",
-      "Role": "Refiner_03",
-      "Prompt": "Bạn là Refiner_03. Hãy đọc và tinh chỉnh các file từ 'Kich-ban-raw-11.txt' đến 'Kich-ban-raw-15.txt' trong thư mục '01-quy-luat-01'. Hãy làm theo các quy tắc Tinh chỉnh bằng LLM đã định nghĩa trong SKILL."
-    },
-    {
-      "TypeName": "self",
-      "Role": "Refiner_04",
-      "Prompt": "Bạn là Refiner_04. Hãy đọc và tinh chỉnh các file từ 'Kich-ban-raw-16.txt' đến 'Kich-ban-raw-20.txt' trong thư mục '01-quy-luat-01'. Hãy làm theo các quy tắc Tinh chỉnh bằng LLM đã định nghĩa trong SKILL."
-    },
-    {
-      "TypeName": "self",
-      "Role": "Refiner_05",
-      "Prompt": "Bạn là Refiner_05. Hãy đọc và tinh chỉnh các file từ 'Kich-ban-raw-21.txt' đến 'Kich-ban-raw-25.txt' trong thư mục '01-quy-luat-01'. Hãy làm theo các quy tắc Tinh chỉnh bằng LLM đã định nghĩa trong SKILL."
-    }
-  ]
-}
-```
-
-Sau khi các Sub-agents hoàn thành, Root Agent sẽ tổng hợp trạng thái, kiểm tra các checkpoint và tiến hành dọn dẹp các file trung gian nếu cần thiết.
 
 
 
 ==== arf_07_audiobook_qc_auditor ====
 ---
 name: arf_07_audiobook_qc_auditor
-description: Bước 7 - Kiểm tra QC đa tầng (Regex, số sót, ký tự cấm, tách biệt Tiêu đề - Thân bài, Word Count delta, Red Flag) và xuất báo cáo QC_Report.md.
+description: BÆ°á»›c 7 - Kiá»ƒm tra QC Ä‘a táº§ng (Regex, sá»‘ sÃ³t, kÃ½ tá»± cáº¥m, Word Count delta, Red Flag) vÃ  xuáº¥t bÃ¡o cÃ¡o QC_Report.md.
 ---
 
-# Audiobook QC Auditor (Kiểm Soát Chất Lượng Kịch Bản Sách Nói)
+# Audiobook QC Auditor (Kiá»ƒm SoÃ¡t Cháº¥t LÆ°á»£ng Ká»‹ch Báº£n SÃ¡ch NÃ³i)
 
-Skill **07_audiobook_qc_auditor** đóng vai trò là Trưởng Bộ Phận Thẩm Định & Kiểm Soát Chất Lượng (Quality Control & Quality Assurance) trong pipeline sản xuất Audiobook tự động. Skill này đảm bảo 100% kịch bản đạt tiêu chuẩn nghiêm ngặt về kỹ thuật TTS, không sót chữ số, không chứa ký tự cấm, đúng nhịp nghỉ, tách biệt hoàn toàn Tiêu đề và Thân bài, và không bị AI bớt xén/tóm tắt sai lệch so với bản gốc.
-
----
-
-## 1. Mục Tiêu & Tiêu Chuẩn Thẩm Định
-
-### A. Tiêu chuẩn Kỹ thuật (Technical Format)
-1. **Quy chuẩn tên thư mục chương:**
-   - Chỉ sử dụng chữ cái tiếng Anh không dấu, số, và dấu gạch nối `-` (Regex: `^[a-zA-Z0-9\-]+$`).
-   - Ví dụ hợp lệ: `00-gioi-thieu`, `01-quy-luat-01-lam-chu-cai-toi-cam-xuc`.
-2. **Dung lượng file kịch bản:**
-   - Mỗi file `.txt` không được vượt quá **3000 ký tự** (ngưỡng tối ưu: 2200 - 2800 ký tự để API TTS xử lý ổn định, không bị ngắt timeout).
-   - Không được để file rỗng (0 bytes).
-3. **Ký tự cấm trong kịch bản (Zero Forbidden Characters):**
-   - Tuyệt đối không chứa: Ngoặc kép `""` `“”`, ngoặc đơn `()`, ngoặc vuông `[]`, dấu hai chấm `:`, gạch ngang dài `—` `–`.
-   - Phải thay thế bằng lời dẫn tự nhiên hoặc ngắt câu phù hợp cho giọng đọc.
-4. **Quy tắc phiên âm số (Zero-digit Policy):**
-   - Không được sót lại bất kỳ chữ số tự nhiên nào (`0-9`).
-   - Mọi con số, năm, phần trăm, số tiền, ngày tháng phải được viết hoàn toàn thành chữ tiếng Việt (Ví dụ: `1986` -> `một nghìn chín trăm tám mươi sáu`, `20%` -> `hai mươi phần trăm`).
-5. **Cú pháp nhịp nghỉ & Dấu ba chấm:**
-   - Không dùng `...` tùy tiện gây ngắc ngứ.
-   - Nhịp nghỉ dài giữa các đoạn/tiêu đề phải tuân thủ định dạng chuẩn: `. ......` (chấm, khoảng trắng, 6 chấm).
-6. **Kiểm tra Tách biệt Tiêu đề & Nội dung (Heading-to-Body Separation Check - BẮT BUỘC):**
-   - **Lỗi dính tiêu đề:** Tiêu đề chương, Tiêu đề phụ (Sub-heading), Tên quy luật, hoặc Tên tác giả trích dẫn bị dính liền vào câu văn đầu tiên của phần thân bài mà không có dấu chấm ngắt nghỉ hoặc marker `. ......`.
-   - **Ví dụ vi phạm & Cách khắc phục:**
-     - ❌ **Lỗi:** `Giới thiệu Nếu bạn tình cờ bắt gặp...`  
-       -> ✅ **Đúng:** `Giới thiệu. ...... Nếu bạn tình cờ bắt gặp...`
-     - ❌ **Lỗi:** `Làm chủ cái tôi cảm xúc Quy luật của sự thiếu sáng suốt Bạn thích tưởng tượng rằng...`  
-       -> ✅ **Đúng:** `Làm chủ cái tôi cảm xúc. ...... Quy luật của sự thiếu sáng suốt. ...... Bạn thích tưởng tượng rằng...`
-     - ❌ **Lỗi:** `...mẩu khoáng vật rất đặc biệt., Arthur Schopenhauer Trong suốt đời mình...`  
-       -> ✅ **Đúng:** `...mẩu khoáng vật rất đặc biệt. ...... Arthur Schopenhauer. ...... Trong suốt đời mình...`
-     - ❌ **Lỗi:** `....... Đấu trường nội tâm Một ngày cuối năm...`  
-       -> ✅ **Đúng:** `....... Đấu trường nội tâm. ...... Một ngày cuối năm...`
-   - **Thuật toán phát hiện (Detection Heuristics):**
-     - Quét các từ khóa bắt đầu: `Giới thiệu`, `Lời mở đầu`, `Lời nói đầu`, `Chương \w+`, `Quy luật (của|\d+)`, `Phần \w+`, `Tiểu dẫn`, `Chiến lược`, `Đấu trường nội tâm`, `Chìa khóa dẫn đến`, `Các bước`, v.v. nếu theo sau trực tiếp bởi chữ viết hoa của câu thân bài mà không có dấu chấm/ngắt nghỉ.
-     - Quét cụm từ tiêu đề ngắn (<= 8 từ) đứng đầu file hoặc đứng sau marker `. ......` nhưng không có dấu ngắt trước khi vào câu văn có chủ vị.
-     - Quét trích dẫn tên tác giả đứng sau dấu phẩy/chấm dính liền câu mở đoạn mới: `,\s*([A-ZÀ-Ỹ][a-zà-ỹ\s\-]+)\s+([A-ZÀ-Ỹ][a-zà-ỹ]+)`.
-
-### B. Kiểm Tra Chênh Lệch Số Từ (Word Count Delta)
-- Đối chiếu tổng số từ của toàn bộ file kịch bản trong chương với file nguồn `raw_original.txt`.
-- **Cảnh báo RED FLAG:** Nếu độ lệch số từ $|N_{\text{kịch bản}} - N_{\text{gốc}}| / N_{\text{gốc}} > 30\%$, hệ thống sẽ bật cảnh báo đỏ có nguy cơ bớt xén nội dung (Summarization/Hallucination).
+Skill **07_audiobook_qc_auditor** Ä‘Ã³ng vai trÃ² lÃ  TrÆ°á»Ÿng Bá»™ Pháº­n Tháº©m Äá»‹nh & Kiá»ƒm SoÃ¡t Cháº¥t LÆ°á»£ng (Quality Control & Quality Assurance) trong pipeline sáº£n xuáº¥t Audiobook tá»± Ä‘á»™ng. Skill nÃ y Ä‘áº£m báº£o 100% ká»‹ch báº£n Ä‘áº¡t tiÃªu chuáº©n nghiÃªm ngáº·t vá» ká»¹ thuáº­t TTS, khÃ´ng sÃ³t chá»¯ sá»‘, khÃ´ng chá»©a kÃ½ tá»± cáº¥m, Ä‘Ãºng nhá»‹p nghá»‰, vÃ  khÃ´ng bá»‹ AI bá»›t xÃ©n/tÃ³m táº¯t sai lá»‡ch so vá»›i báº£n gá»‘c.
 
 ---
 
-## 2. Quy Trình AI Semantic Audit (Thẩm Định Viên AI Đọc Đối Chứng Ngữ Nghĩa)
+## 1. Má»¥c TiÃªu & TiÃªu Chuáº©n Tháº©m Äá»‹nh
 
-Khi thẩm định chất lượng hoặc khi phát hiện lỗi dính tiêu đề / cờ **RED FLAG**:
+### A. TiÃªu chuáº©n Ká»¹ thuáº­t (Technical Format)
+1. **Quy chuáº©n tÃªn thÆ° má»¥c chÆ°Æ¡ng:**
+   - Chá»‰ sá»­ dá»¥ng chá»¯ cÃ¡i tiáº¿ng Anh khÃ´ng dáº¥u, sá»‘, vÃ  dáº¥u gáº¡ch ná»‘i `-` (Regex: `^[a-zA-Z0-9\-]+$`).
+   - VÃ­ dá»¥ há»£p lá»‡: `01-Loi-mo-dau`, `Chuong-01-Thau-hieu-tam-ly`.
+2. **Dung lÆ°á»£ng file ká»‹ch báº£n:**
+   - Má»—i file `.txt` khÃ´ng Ä‘Æ°á»£c vÆ°á»£t quÃ¡ **3000 kÃ½ tá»±** (ngÆ°á»¡ng tá»‘i Æ°u: 2200 - 2800 kÃ½ tá»± Ä‘á»ƒ API TTS xá»­ lÃ½ á»•n Ä‘á»‹nh, khÃ´ng bá»‹ ngáº¯t timeout).
+   - KhÃ´ng Ä‘Æ°á»£c Ä‘á»ƒ file rá»—ng (0 bytes).
+3. **KÃ½ tá»± cáº¥m trong ká»‹ch báº£n:**
+   - Tuyá»‡t Ä‘á»‘i khÃ´ng chá»©a: Ngoáº·c kÃ©p `""` `â€œâ€`, ngoáº·c Ä‘Æ¡n `()`, ngoáº·c vuÃ´ng `[]`, dáº¥u hai cháº¥m `:`, gáº¡ch ngang dÃ i `â€”` `â€“`.
+   - Pháº£i thay tháº¿ báº±ng lá»i dáº«n tá»± nhiÃªn hoáº·c ngáº¯t cÃ¢u phÃ¹ há»£p cho giá»ng Ä‘á»c.
+4. **Quy táº¯c phiÃªn Ã¢m sá»‘ (Zero-digit Policy):**
+   - KhÃ´ng Ä‘Æ°á»£c sÃ³t láº¡i báº¥t ká»³ chá»¯ sá»‘ tá»± nhiÃªn nÃ o (`0-9`).
+   - Má»i con sá»‘, nÄƒm, pháº§n trÄƒm, sá»‘ tiá»n, ngÃ y thÃ¡ng pháº£i Ä‘Æ°á»£c viáº¿t hoÃ n toÃ n thÃ nh chá»¯ tiáº¿ng Viá»‡t (VÃ­ dá»¥: `1986` $\to$ `má»™t nghÃ¬n chÃ­n trÄƒm tÃ¡m mÆ°Æ¡i sÃ¡u`, `20%` $\to$ `hai mÆ°Æ¡i pháº§n trÄƒm`).
+5. **CÃº phÃ¡p nhá»‹p nghá»‰ & Dáº¥u ba cháº¥m:**
+   - KhÃ´ng dÃ¹ng `...` tÃ¹y tiá»‡n gÃ¢y ngáº¯c ngá»©.
+   - Nhá»‹p nghá»‰ dÃ i giá»¯a cÃ¡c Ä‘oáº¡n/tiÃªu Ä‘á» pháº£i tuÃ¢n thá»§ Ä‘á»‹nh dáº¡ng chuáº©n: `. ......` (cháº¥m, khoáº£ng tráº¯ng, 6 cháº¥m).
 
-1. **Đọc so sánh song song đa chiều (Parallel Cross-Check):**
-   - Mở đồng thời `raw_original.txt` và các file kịch bản `Kich-ban-N.txt` của chương cần thẩm định.
-   - Đối chiếu từng phân đoạn ý niệm: Tiêu đề chương -> Phụ đề -> Danh ngôn mở đầu -> Luận điểm chính -> Câu chuyện minh họa -> Đúc kết bài học.
-2. **Đánh giá ranh giới phân tách (Boundary Assessment):**
-   - Kiểm tra mọi vị trí chuyển đoạn, tiêu đề phụ xem đã được chèn `. ......` và xuống dòng đúng chuẩn hay chưa.
-3. **Đánh giá tổn thất ngữ nghĩa (Semantic Loss Assessment):**
-   - Kiểm tra xem các câu chuyện, ví dụ minh họa, danh ngôn hay nhân vật lịch sử có bị cắt xén hay không.
-   - **Đạt chuẩn (PASS):** Tách biệt tiêu đề chuẩn xác, bảo toàn 100% ý nghĩa và văn phong tác giả -> AI cấp chứng nhận **Verified 100%** `- [x]`.
-   - **Không đạt (FAIL):** Phát hiện dính tiêu đề vào thân bài hoặc bị lược bỏ đoạn văn -> Kích hoạt sửa lỗi ngay lập tức.
+### B. Kiá»ƒm Tra ChÃªnh Lá»‡ch Sá»‘ Tá»« (Word Count Delta)
+- Äá»‘i chiáº¿u tá»•ng sá»‘ tá»« cá»§a toÃ n bá»™ file ká»‹ch báº£n trong chÆ°Æ¡ng vá»›i file nguá»“n `raw_original.txt`.
+- **Cáº£nh bÃ¡o RED FLAG:** Náº¿u Ä‘á»™ lá»‡ch sá»‘ tá»« $|N_{\text{ká»‹ch báº£n}} - N_{\text{gá»‘c}}| / N_{\text{gá»‘c}} > 30\%$, há»‡ thá»‘ng sáº½ báº­t cáº£nh bÃ¡o Ä‘á» cÃ³ nguy cÆ¡ bá»›t xÃ©n ná»™i dung (Summarization/Hallucination).
 
 ---
 
-## 3. Quy Trình Thực Hiện (Action Steps)
+## 2. Quy TrÃ¬nh AI Semantic Audit (Tháº©m Äá»‹nh ViÃªn AI Äá»c Äá»‘i Chá»©ng Ngá»¯ NghÄ©a)
 
-### Bước 1: Khởi Chạy Pipeline QC
+Khi tháº©m Ä‘á»‹nh cháº¥t lÆ°á»£ng hoáº·c khi script phÃ¡t hiá»‡n cá» **RED FLAG**:
+
+1. **Äá»c so sÃ¡nh song song Ä‘a chiá»u (Parallel Cross-Check):**
+   - Má»Ÿ Ä‘á»“ng thá»i `raw_original.txt` vÃ  cÃ¡c file ká»‹ch báº£n `Kich-ban-N.txt` cá»§a chÆ°Æ¡ng cáº§n tháº©m Ä‘á»‹nh.
+   - Äá»‘i chiáº¿u tá»«ng phÃ¢n Ä‘oáº¡n Ã½ niá»‡m: Má»Ÿ Ä‘áº§u $\to$ Luáº­n Ä‘iá»ƒm chÃ­nh $\to$ CÃ¢u chuyá»‡n minh há»a lá»‹ch sá»­/thá»±c táº¿ $\to$ ÄÃºc káº¿t bÃ i há»c.
+2. **ÄÃ¡nh giÃ¡ tá»•n tháº¥t ngá»¯ nghÄ©a (Semantic Loss Assessment):**
+   - Kiá»ƒm tra xem cÃ¡c cÃ¢u chuyá»‡n, vÃ­ dá»¥ minh há»a, danh ngÃ´n hay nhÃ¢n váº­t lá»‹ch sá»­ cÃ³ bá»‹ cáº¯t xÃ©n hay khÃ´ng.
+   - **Äáº¡t chuáº©n (PASS):** Äá»™ lá»‡ch sá»‘ tá»« do má»Ÿ rá»™ng tá»« ngá»¯ phiÃªn Ã¢m sá»‘ (`300km` $\to$ `ba trÄƒm ki-lÃ´-mÃ©t`), diá»…n giáº£i thuáº­t ngá»¯ tá»± nhiÃªn, hoáº·c bá»• sung liÃªn tá»«/dáº¥u pháº©y láº¥y hÆ¡i cho vÄƒn phong nÃ³i mÃ  váº«n giá»¯ trá»n váº¹n 100% Ã½ $\to$ AI cáº¥p chá»©ng nháº­n **Verified 100%**.
+   - **KhÃ´ng Ä‘áº¡t (FAIL):** PhÃ¡t hiá»‡n bá»‹ lÆ°á»£c bá» Ä‘oáº¡n vÄƒn, tÃ³m táº¯t Ã½ chÃ­nh hoáº·c thay Ä‘á»•i gÃ³c nhÃ¬n tÃ¡c giáº£ $\to$ AI tá»± Ä‘á»™ng kÃ­ch hoáº¡t `arf_06_llm_script_refiner` Ä‘á»ƒ tÃ¡i táº¡o láº¡i phÃ¢n Ä‘oáº¡n Ä‘Ã³ vá»›i chá»‰ thá»‹ cáº¥m tÃ³m táº¯t nghiÃªm ngáº·t.
+3. **ÄÃ¡nh giÃ¡ Äá»™ tá»± nhiÃªn cá»§a Ngá»¯ Ä‘iá»‡u (Prosody Quality):**
+   - AI Ä‘á»c lÆ°á»›t báº±ng giá»ng Ä‘á»c tÆ°á»Ÿng tÆ°á»£ng Ä‘á»ƒ Ä‘Ã¡nh giÃ¡ xem cÃ¢u tá»« cÃ³ bá»‹ váº¥p, tá»« ngá»¯ cÃ³ tá»± nhiÃªn vÃ  Ãªm tai khi phÃ¡t qua loa hay khÃ´ng.
+
+---
+
+## 3. HÆ°á»›ng Dáº«n KÃ­ch Hoáº¡t Sub-Agent Tháº©m Äá»‹nh Ngá»¯ NghÄ©a Tá»«ng ChÆ°Æ¡ng (Semantic Auditor Subagent)
+
+Khi cÃ³ cáº£nh bÃ¡o RED FLAG hoáº·c cáº§n kiá»ƒm chá»©ng Ä‘á»™ sÃ¢u ngá»¯ nghÄ©a cá»§a tá»«ng chÆ°Æ¡ng:
+
+```python
+invoke_subagent(
+    Subagents=[
+        {
+            "TypeName": "self",
+            "Role": "Semantic Ground-Truth Auditor [01-quy-luat-01]",
+            "Prompt": (
+                "Báº¡n lÃ  TrÆ°á»Ÿng ban Tháº©m Ä‘á»‹nh Ngá»¯ nghÄ©a & Kiá»ƒm soÃ¡t Cháº¥t lÆ°á»£ng cho chÆ°Æ¡ng '01-quy-luat-01'.\n"
+                "Nhiá»‡m vá»¥: Má»Ÿ song song '01-quy-luat-01/raw_original.txt' vÃ  toÃ n bá»™ cÃ¡c file 'Kich-ban-N.txt' cá»§a chÆ°Æ¡ng nÃ y.\n"
+                "Tiáº¿n hÃ nh: Äá»c Ä‘á»‘i soÃ¡t Ä‘á»‘i chá»©ng tá»«ng Ä‘oáº¡n Ä‘á»ƒ xÃ¡c nháº­n khÃ´ng cÃ³ báº¥t ká»³ luáº­n Ä‘iá»ƒm hay cÃ¢u chuyá»‡n nÃ o bá»‹ tÃ³m táº¯t hoáº·c bá»›t xÃ©n.\n"
+                "BÃ¡o cÃ¡o: Cung cáº¥p nháº­n xÃ©t tháº©m Ä‘á»‹nh vÃ  xÃ¡c nháº­n cáº¥p quyá»n Ä‘Ã³ng dáº¥u '- [x]' vÃ o QC_Report.md."
+            )
+        }
+    ]
+)
+```
+
+---
+
+## 4. Quy TrÃ¬nh Thá»±c Hiá»‡n (Action Steps)
+
+### BÆ°á»›c 1: Khá»Ÿi Cháº¡y Pipeline QC
 ```powershell
-python .agy/skills/07_audiobook_qc_auditor/scripts/qc_pipeline_v2.py --input_dir "<DUONG_DAN_THU_MUC_SACH>"
+python .agy/skills/arf_07_audiobook_qc_auditor/scripts/qc_pipeline_v2.py --input_dir "<DUONG_DAN_THU_MUC_SACH>"
 ```
 
-### Bước 2: Phân Tích Kết Quả & Báo Cáo
-Đọc file `QC_Report.md` được tạo tại thư mục gốc của sách:
-- **Nếu toàn bộ PASS:** Báo cáo xác nhận danh sách `- [x] <Tên-chương>` đạt chuẩn 100% (Verified 100%).
-- **Nếu PHÁT HIỆN LỖI:** Hệ thống chỉ rõ từng file, từng dòng bị dính tiêu đề để tự động sửa chữa.
+### BÆ°á»›c 2: PhÃ¢n TÃ­ch Káº¿t Quáº£ & BÃ¡o CÃ¡o
+Äá»c file `QC_Report.md` Ä‘Æ°á»£c táº¡o táº¡i thÆ° má»¥c gá»‘c cá»§a sÃ¡ch:
+- **Náº¿u toÃ n bá»™ PASS:** BÃ¡o cÃ¡o xÃ¡c nháº­n danh sÃ¡ch `- [x] <TÃªn-chÆ°Æ¡ng>` Ä‘áº¡t chuáº©n 100% (Verified 100%).
+- **Náº¿u PHÃT HIá»†N Lá»–I:** Há»‡ thá»‘ng kÃ­ch hoáº¡t láº¡i Sub-agent tÆ°Æ¡ng á»©ng Ä‘á»ƒ xá»­ lÃ½ Ä‘Ãºng chÆ°Æ¡ng bá»‹ lá»—i.
 
----
-
-## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
-
-Khi được gọi (thông qua lệnh), Root Agent (Master Agent) **KHÔNG ĐƯỢC** xử lý tuần tự công việc một mình. Bắt buộc phải sử dụng công cụ `invoke_subagent` để gọi từ **4 đến 10 Auditor Sub-agents** nhằm chia sẻ khối lượng công việc kiểm tra (QC) song song. 
-
-### Chiến lược Phân chia Công việc
-Tùy thuộc vào số lượng chương sách, Master Agent có thể phân chia công việc theo một trong hai cách:
-- **Chia theo chiều ngang (Theo tệp/chương):** Mỗi Sub-agent phụ trách kiểm tra QC (Regex, lỗi tách tiêu đề, word count...) cho một cụm chương (Ví dụ: Sub-agent 1 quét Chương 1-5, Sub-agent 2 quét Chương 6-10).
-- **Chia theo chiều dọc (Theo chuyên môn):** Mỗi Sub-agent chuyên trách một tiêu chuẩn cụ thể cho toàn bộ sách (Ví dụ: Sub-agent 1 chuyên dò ký tự cấm và số, Sub-agent 2 chuyên phân tích Word Count Delta và Semantic Loss).
-
-### Yêu cầu Hoạt động
-1. Master Agent sẽ tập hợp kết quả từ các Sub-agents thông qua tin nhắn (messages).
-2. Dựa trên dữ liệu thu thập được, Master Agent tổng hợp và xuất báo cáo `QC_Report.md` duy nhất.
-
-### Ví dụ về JSON Configuration khi dùng `invoke_subagent`
-```json
-{
-  "subagents": [
-    {
-      "name": "qc_auditor_ch01_05",
-      "instruction": "Bạn là Auditor Sub-agent. Quét thư mục chương 01 đến 05. Kiểm tra ký tự cấm, số sót, tách tiêu đề và Word Count delta. Báo cáo lại các file vi phạm và chi tiết lỗi."
-    },
-    {
-      "name": "qc_auditor_ch06_10",
-      "instruction": "Bạn là Auditor Sub-agent. Quét thư mục chương 06 đến 10. Kiểm tra ký tự cấm, số sót, tách tiêu đề và Word Count delta. Báo cáo lại các file vi phạm và chi tiết lỗi."
-    },
-    {
-      "name": "qc_auditor_ch11_15",
-      "instruction": "Bạn là Auditor Sub-agent. Quét thư mục chương 11 đến 15. Kiểm tra ký tự cấm, số sót, tách tiêu đề và Word Count delta. Báo cáo lại các file vi phạm và chi tiết lỗi."
-    },
-    {
-      "name": "qc_auditor_ch16_20",
-      "instruction": "Bạn là Auditor Sub-agent. Quét thư mục chương 16 đến 20. Kiểm tra ký tự cấm, số sót, tách tiêu đề và Word Count delta. Báo cáo lại các file vi phạm và chi tiết lỗi."
-    }
-  ]
-}
-```
 
 
 ==== arf_08_tts_neural_bgm_mixer ====
 ---
 name: arf_08_tts_neural_bgm_mixer
-description: Bước 8 - AI can thiệp sinh âm thanh Edge-TTS Neural, tùy biến dọng đọc/tốc độ theo kịch bản, ghép chương, gom nhóm linh hoạt và hòa âm BGM.
+description: "BÆ°á»›c 8 - ChuyÃªn mÃ´n hÃ³a: A.I phÃ¢n tÃ­ch ngá»¯ Ã¢m, tá»± Ä‘á»™ng chá»n giá»ng Ä‘á»c báº£n xá»© phÃ¹ há»£p cho thuáº­t ngá»¯/ngoáº¡i ngá»¯, Ä‘á»“ng nháº¥t giá»›i tÃ­nh vÃ  hÃ²a sáº¯c vá»›i giá»ng tiáº¿ng Viá»‡t, táº¡o cÃ¡c file audio mini (chunk) liá»n máº¡ch."
 ---
 
-# 🎙️ Kỹ Năng 08: TTS Neural & BGM Audio Mixer (AI-Driven)
+# Ká»¹ nÄƒng 08: Universal AI Multilingual TTS & Seamless Dual-Voice Splicing
 
-## 1. Mục Đích & Tổng Quan (Overview)
-Kỹ năng này chịu trách nhiệm chuyển đổi kịch bản sách đã qua kiểm duyệt thành sản phẩm Audiobook hoàn chỉnh. Khác với việc chạy script một cách cứng nhắc, **AI sẽ làm trung tâm của quá trình này**. Hệ thống không chỉ đơn thuần "chạy lệnh", mà AI cần phải:
-1. **Phân tích bối cảnh nội dung:** Đọc thử văn bản để nắm bắt ngữ điệu, thể loại (truyện cảm động, kĩ năng sống, khoa học) nhằm chọn giọng đọc (voice) và tốc độ (rate) tối ưu.
-2. **Tùy chỉnh nhóm thời lượng:** Tự quyết định độ dài của từng tập (ví dụ sách thiếu nhi có thể là 15-20 phút, sách chuyên khảo 35-40 phút) thay vì ép buộc chuẩn 25-35 phút.
-3. **Cấu hình chuẩn hóa linh hoạt:** Tùy thuộc vào sách (VD: chứa nhiều tiếng Anh, thuật ngữ), AI có thể tắt bộ lọc Regex Tiếng Việt cứng nhắc (`--disable_vi_norm`) để tránh làm sai lệch nội dung.
-4. **Hòa âm BGM:** Mặc định sử dụng `D:\Solution\Audio-Book-Refactor\nhac-nen.mp3` nếu người dùng không cung cấp, áp dụng offset tịnh tiến mượt mà.
+**TRIáº¾T LÃ Cá»T LÃ•I:** AI Ä‘Ã³ng vai trÃ² **Tá»•ng Äáº¡o Diá»…n Ã‚m Thanh Äa NgÃ´n Ngá»¯ (Universal Audio Director)**. KhÃ´ng phá»¥ thuá»™c vÃ o báº¥t ká»³ danh sÃ¡ch tá»« ngá»¯ gÃ¡n cá»©ng nÃ o, AI tá»± Ä‘á»™ng phÃ¢n tÃ­ch cáº¥u trÃºc ngá»¯ Ã¢m há»c (Phonology & Morphology) Ä‘á»ƒ bÃ³c tÃ¡ch chÃ­nh xÃ¡c cÃ¡c thuáº­t ngá»¯, tÃªn khoa há»c, tá»« vá»±ng tiáº¿ng nÆ°á»›c ngoÃ i, Ä‘á»“ng thá»i tá»± Ä‘á»™ng lá»±a chá»n giá»ng Ä‘á»c báº£n ngá»¯ Ä‘á»“ng nháº¥t vá» Giá»›i tÃ­nh (Nam/Ná»¯) vÃ  hÃ²a sáº¯c Ã¢m vá»±c (Timbre & Pitch Matching) Ä‘á»ƒ mang láº¡i tráº£i nghiá»‡m nghe tá»± nhiÃªn nhÆ° má»™t diá»…n giáº£ song ngá»¯ báº£n xá»©.
 
 ---
 
-## 2. Trách nhiệm của AI (Quy trình can thiệp chủ động)
+## 1. CÆ¡ Cháº¿ Nháº­n Diá»‡n NgÃ´n Ngá»¯ & Thuáº­t Ngá»¯ ThÃ´ng Minh (Dynamic Language & Term Detection)
 
-Khi người dùng gọi kỹ năng này, **TUYỆT ĐỐI KHÔNG GỌI SCRIPT NGAY**. Bạn (AI) phải thực hiện tuần tự các bước sau:
+Há»‡ thá»‘ng hoáº¡t Ä‘á»™ng theo nguyÃªn lÃ½ **4 Táº§ng PhÃ¢n TÃ­ch Linh Hoáº¡t (High-Recall Dual-Voice Architecture)**:
 
-### Bước 1: Khảo sát nội dung (Content Profiling)
-- Đọc lướt qua 1-2 file kịch bản trong thư mục `input_dir` để hiểu rõ văn phong.
-- Trả lời các câu hỏi:
-  - Đây là thể loại gì? (Cần giọng trầm ấm nam tính, hay giọng nữ truyền cảm?)
-  - Tốc độ đọc thế nào là hợp lý? (Sách kỹ năng: rate `-10%`, Truyện diễn cảm: rate `-15%` đến `-20%`).
-  - Nội dung có chứa từ nước ngoài bị bộ lọc Tiếng Việt làm hỏng không? (Nếu có, chuẩn bị cờ `--disable_vi_norm`).
+### Táº§ng 1: Bá»™ Lá»c Ngá»¯ Ã‚m Há»c Tiáº¿ng Viá»‡t (Vietnamese Phonetic Safe-Guard)
+- **Báº£o toÃ n tiáº¿ng Viá»‡t tuyá»‡t Ä‘á»‘i:** QuÃ©t cÃ¡c kÃ½ tá»± Ä‘áº·c thÃ¹ mang dáº¥u thanh Ä‘iá»‡u tiáº¿ng Viá»‡t (`Ã , Ã¡, áº£, Ã£, áº¡, Ãª, Ã´, Æ¡, Æ°, Ä‘...`). Báº¥t ká»³ tá»« nÃ o chá»©a cÃ¡c kÃ½ tá»± nÃ y Ä‘á»u Ä‘Æ°á»£c kháº³ng Ä‘á»‹nh 100% lÃ  tiáº¿ng Viá»‡t.
+- **Táº­p Ã¢m tiáº¿t tiáº¿ng Viá»‡t chuáº©n:** Soi chiáº¿u táº­p tá»« tiáº¿ng Viá»‡t khÃ´ng dáº¥u (bao gá»“m cÃ¡c váº§n káº¿t thÃºc báº±ng `ng, nh, c, t, p, m, n`). Náº¿u tá»« náº±m trong cáº¥u trÃºc Ã¢m tiáº¿t tiáº¿ng Viá»‡t vÃ  ngá»¯ cáº£nh xung quanh lÃ  tiáº¿ng Viá»‡t, tá»« Ä‘Ã³ Ä‘Æ°á»£c giao cho giá»ng tiáº¿ng Viá»‡t Ä‘á»c tá»± nhiÃªn.
 
-### Bước 2: Đề xuất tham số & Xin ý kiến (Nếu cần)
-- Tóm tắt cho người dùng biết bạn định chạy với cấu hình nào:
-  - Giọng đọc (Voice): `vi-VN-NamMinhNeural` / `vi-VN-HoaiMyNeural`
-  - Tốc độ (Rate): `-15%`, v.v.
-  - Phân bổ thời gian (Min/Max Duration).
-- Nếu người dùng đã đồng ý từ trước, có thể tiến hành ngay.
+### Táº§ng 2: Nháº­n Diá»‡n NguyÃªn Ã‚m ÄÃ´i & Cáº¥u TrÃºc Äáº·c ThÃ¹ Ngoáº¡i Ngá»¯ (Phonetic & Morphological Engine)
+Tá»± Ä‘á»™ng phÃ¡t hiá»‡n 100% cÃ¡c tá»« ngoáº¡i ngá»¯ (ká»ƒ cáº£ cÃ¡c tá»« ngáº¯n hoáº·c phá»• biáº¿n) thÃ´ng qua:
+1. **NguyÃªn Ã¢m Ä‘Ã´i & tá»• há»£p ngoáº¡i lai (Diphthongs):** Chá»©a cÃ¡c tá»• há»£p nguyÃªn Ã¢m khÃ´ng bao giá» xuáº¥t hiá»‡n trong tiáº¿ng Viá»‡t nhÆ° `ea` (team, lead, feature, reach), `ee` (meet, peer, feedback), `oo` (tool, loop, mood, root), `ou` (input, output, cloud, source), `ei, ey, oy`...
+2. **Phá»¥ Ã¢m kÃ©p (Double Consonants):** Chá»©a cÃ¡c cáº·p phá»¥ Ã¢m láº·p láº¡i nhÆ° `ss` (process, issue), `tt, ll, pp, ff, mm, nn, dd, bb, gg` (offline, buffer, commit, traffic)...
+3. **KÃ½ tá»± ngoáº¡i lai Ä‘áº·c thÃ¹:** Chá»©a `w, W, z, Z, j, J, f, F` (vÃ­ dá»¥: `framework`, `workflow`, `view`, `focus`, `feedback`, `knowledge`, `size`...).
+4. **Tá»« viáº¿t táº¯t quá»‘c táº¿ & TÃ¡ch Ã¢m phÃ¡t thanh (Acronyms):**
+   - Viáº¿t hoa toÃ n bá»™ tá»« 2 kÃ½ tá»± trá»Ÿ lÃªn (`PMI`, `PMBOK`, `ANSI`, `ISO`, `WBS`, `EVM`, `AI`, `PMO`, `PMP`, `KPI`, `OKR`, `SLA`, `DNA`...).
+   - Viáº¿t táº¯t tÃ¡ch Ã¢m cÃ³ gáº¡ch ná»‘i phÃ¡t thanh (`P-M-I`, `W-B-S`, `K-P-I`, `I-T-T-O`, `S-W-O-T`...).
+5. **Cá»¥m phá»¥ Ã¢m Ä‘áº§u & Ä‘uÃ´i chuáº©n quá»‘c táº¿:**
+   - ÄuÃ´i ngoáº¡i ngá»¯: `b, d, f, j, k, l, r, s, v, w, x, z` hoáº·c `(?<!n)g` (chá»¯ `g` khÃ´ng Ä‘á»©ng sau `n`), cÃ¹ng cÃ¡c cá»¥m phá»¥ Ã¢m Ä‘Ã´i `ct, pt, ft, lt, rt, st, sk, sp, mp, nd, nt, nk, rk, lk, rd, ld, rn, rm, lm, sm, ts, ks, ps, ce, ge, se, te, ve, le, re, me, de, pe, be, ke, fe, ze, ne, ue, cy, ty...` (vÃ­ dá»¥: `project`, `standard`, `concept`, `shift`, `management`, `development`, `risk`, `team`, `approach`, `cycle`, `change`, `scope`, `deliverables`, `outcomes`, `adaptive`, `predictive`...).
+   - Äáº§u ngoáº¡i ngá»¯: `str, spr, scr, spl, shr, thr, fl, gl, pl, bl, cl, cr, br, pr, dr, sk, sp, st, sm, sn, sc, sw, wr, kn, ps, rh, sch...` (vÃ­ dá»¥: `strategy`, `process`, `principle`, `practice`, `planning`, `program`, `portfolio`...).
+6. **Háº­u tá»‘ ngoáº¡i ngá»¯ (Suffixes):** `tions, sions, ments, ances, ences, ables, ibles, tives, sives, ships, ings, eds, als, ics, ous, ities, isms, ists, logies, tures, ures, ests, less, ness, oid, ium, eum...` (vÃ­ dá»¥: `stewardship`, `tailoring`, `governance`, `measurement`, `uncertainty`...).
 
-### Bước 3: Thực thi Script với cấu hình tùy chỉnh
-- Chạy `audio_mixer_pipeline.py` với các tham số đã tinh chỉnh.
-- Mặc định BGM là `D:\Solution\Audio-Book-Refactor\nhac-nen.mp3`.
+### Táº§ng 3: Táº­p Tá»« Vá»±ng Quáº£n Trá»‹ & CÃ´ng Nghá»‡ TÃ­ch Há»£p Sáºµn (Built-in Tech & Management Glossary)
+- Tá»± Ä‘á»™ng nháº­n diá»‡n tá»©c thÃ¬ cÃ¡c tá»« ngáº¯n chuyÃªn mÃ´n thÆ°á»ng bá»‹ bá» sÃ³t: `team`, `input`, `output`, `demo`, `data`, `item`, `domain`, `goal`, `lead`, `leader`, `unit`, `portfolio`, `scope`, `risk`, `plan`, `task`, `chart`, `code`, `test`, `user`, `guide`, `role`, `agile`, `scrum`, `sprint`, `kanban`, `pmi`, `pmbok`, `pmo`, `kpi`, `okr`, `swot`, `lean`, `it`, `ai`, `cloud`, `devops`, `api`, `app`, `ui`, `ux`, `qa`, `qc`, `audit`, `roadmap`, `dashboard`, `waterfall`, `hybrid`, `tailoring`...
 
----
-
-## 3. Tham Số Dòng Lệnh Mở Rộng (CLI Interface)
-
-| Tham số | Ý nghĩa |
-| :--- | :--- |
-| `--input_dir` | (Bắt buộc) Đường dẫn thư mục sách chứa kịch bản |
-| `--output_dir` | Thư mục lưu âm thanh (mặc định: `[input_dir]/audio_output`) |
-| `--bgm` | Nhạc nền MP3 (mặc định: `D:\Solution\Audio-Book-Refactor\nhac-nen.mp3`) |
-| `--voice` | Mã giọng đọc Edge-TTS (VD: `vi-VN-NamMinhNeural`, `vi-VN-HoaiMyNeural`) |
-| `--rate` | Tốc độ đọc (VD: `-10%`, `+0%`) |
-| `--min_duration` | Thời lượng nhóm tối thiểu tính bằng phút (Mặc định: `25`) |
-| `--max_duration` | Thời lượng nhóm tối đa tính bằng phút (Mặc định: `35`) |
-| `--disable_vi_norm`| Tắt bộ lọc sửa từ dính chữ tiếng Việt (Dùng khi tài liệu có nhiều tiếng Anh/ký tự đặc biệt) |
-| `--bgm_volume` | Âm lượng BGM (mặc định `0.12`) |
+### Táº§ng 4: Danh Má»¥c TÃ¹y Biáº¿n Theo TÃ¡c Pháº©m (Custom Book Glossary Integration)
+- Tá»± Ä‘á»™ng náº¡p file `custom_phonetics.json`, `pmbok_custom_phonetics.json`, hoáº·c `glossary.json` cÃ³ sáºµn trong thÆ° má»¥c sÃ¡ch Ä‘á»ƒ má»Ÿ rá»™ng chÃ­nh xÃ¡c cÃ¡c thuáº­t ngá»¯ chuyÃªn sÃ¢u riÃªng biá»‡t.
+- **Gom cá»¥m liÃªn káº¿t ngá»¯ cáº£nh (Connector Clustering):** Khi cÃ¡c tá»« ná»‘i/giá»›i tá»« tiáº¿ng Anh (`and, of, for, in, on, at, to, with, the, a, an, by, from, as, or`) káº¹p giá»¯a cÃ¡c tá»« ngoáº¡i ngá»¯, há»‡ thá»‘ng tá»± Ä‘á»™ng gom cáº£ cá»¥m thÃ nh má»™t phÃ¢n Ä‘oáº¡n Ä‘á»ƒ giá»ng Brian Ä‘á»c liá»n máº¡ch, khÃ´ng ngáº¯t vá»¥n.
 
 ---
 
-## 4. Hướng Dẫn Gọi Agent Tự Động (Ví dụ Thực Thi)
+## 2. Ma Tráº­n GhÃ©p Cáº·p Giá»ng Äá»c Äá»“ng Nháº¥t Giá»›i TÃ­nh (Gender Consistency Matrix)
 
-Khi Master AI cần xử lý sinh âm thanh, hãy gọi Subagent hoặc chạy trực tiếp lệnh sau, kết hợp các thông số đã tính toán:
+Äá»ƒ Ä‘áº£m báº£o ngÆ°á»i nghe cÃ³ cáº£m giÃ¡c chá»‰ cÃ³ **Má»˜T ngÆ°á»i diá»…n giáº£ thÃ´ng thÃ¡i duy nháº¥t** Ä‘ang thuyáº¿t minh:
 
-```bash
-python .agy/skills/arf_08_tts_neural_bgm_mixer/scripts/audio_mixer_pipeline.py \
-  --input_dir "Kich-ban-clipchamp/Nhung-quy-luat-ve-ban-chat-con-nguoi" \
-  --voice "vi-VN-NamMinhNeural" \
-  --rate "-15%" \
-  --min_duration 30 \
-  --max_duration 45 \
-  --disable_vi_norm
+```
+                  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+                  â”‚          MA TRáº¬N HÃ’A Sáº®C Äá»’NG NHáº¤T GIá»šI TÃNH             â”‚
+                  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+                                                â”‚
+                 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+                 â–¼                                                             â–¼
+     [ Há»’ SÆ  GIá»ŒNG NAM - MALE PROFILE ]                           [ Há»’ SÆ  GIá»ŒNG Ná»® - FEMALE PROFILE ]
+  Giá»ng chÃ­nh: vi-VN-NamMinhNeural (Rate: -10%)               Giá»ng chÃ­nh: vi-VN-HoaiMyNeural (Rate: -10%)
+  Cháº¥t giá»ng: Tráº§m áº¥m, Ä‘Ä©nh Ä‘áº¡c, há»c thuáº­t                    Cháº¥t giá»ng: Trong tráº»o, truyá»n cáº£m, trang nhÃ£
+                 â”‚                                                             â”‚
+   â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                                 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+   â–¼                           â–¼                                 â–¼                           â–¼
+Tiáº¿ng Anh/Khoa há»c:         CÃ¡c ngoáº¡i ngá»¯ khÃ¡c:               Tiáº¿ng Anh/Khoa há»c:         CÃ¡c ngoáº¡i ngá»¯ khÃ¡c:
+en-US-BrianMultilingual     PhÃ¡p: fr-FR-HenriNeural           en-US-EmmaMultilingual      PhÃ¡p: fr-FR-DeniseNeural
+(Rate: -5%)                 Äá»©c:  de-DE-ConradNeural          (Rate: -5%)                 Äá»©c:  de-DE-KatjaNeural
+                            TBN:  es-ES-AlvaroNeural                                      TBN:  es-ES-ElviraNeural
+                            Nháº­t: ja-JP-KeitaNeural                                       Nháº­t: ja-JP-NanamiNeural
+                            Trung: zh-CN-YunxiNeural                                      Trung: zh-CN-XiaoxiaoNeural
+                 â”‚                                                             â”‚
+   Parametric EQ Harmonization (Nam):                            Parametric EQ Harmonization (Ná»¯):
+   - NÃ¢ng dáº£i tráº§m áº¥m: +2.5dB táº¡i 300Hz                          - NÃ¢ng dáº£i áº¥m: +2.0dB táº¡i 300Hz
+   - Giáº£m chÃ³i gáº¯t: -2.0dB táº¡i 4000Hz                            - LÃ m dá»‹u sibilance: -2.0dB táº¡i 4500Hz
 ```
 
-**Lưu ý:** Sự khác biệt của AI so với một script tự động là khả năng **tư duy, đánh giá nội dung và điều chỉnh tham số**. Hãy luôn làm điều đó để tạo ra Audiobook có trải nghiệm nghe tốt nhất!
+> [!IMPORTANT]
+> **QUY Táº®C Báº¢O TOÃ€N GIá»šI TÃNH Báº¤T BIáº¾N (GENDER INVARIANCE RULE):**
+> - **Tuyá»‡t Ä‘á»‘i khÃ´ng tá»± Ã½ trÃ¡o Ä‘á»•i giá»ng giá»¯a Nam vÃ  Ná»¯:** Náº¿u há»“ sÆ¡ Ä‘Æ°á»£c chá»‰ Ä‘á»‹nh lÃ  `male`, 100% cÃ¡c Ä‘oáº¡n tiáº¿ng Viá»‡t trong toÃ n bá»™ cÃ¡c chÆ°Æ¡ng vÃ  cÃ¡c táº­p sÃ¡ch PHáº¢I lÃ  `vi-VN-NamMinhNeural`. Khi xáº£y ra sá»± cá»‘ ngháº½n máº¡ng hoáº·c retry (láº§n 1 Ä‘áº¿n 7), há»‡ thá»‘ng Ã¡p dá»¥ng cÆ¡ cháº¿ giÃ£n cÃ¡ch lÅ©y tiáº¿n (*Exponential Backoff*) nhÆ°ng **TUYá»†T Äá»I KHÃ”NG chuyá»ƒn sang giá»ng ná»¯ `HoaiMy`**.
+> - TÆ°Æ¡ng tá»±, náº¿u há»“ sÆ¡ lÃ  `female`, toÃ n bá»™ file luÃ´n trung thÃ nh vá»›i `vi-VN-HoaiMyNeural`.
 
-## 🤖 MULTI-AGENT ORCHESTRATION DIRECTIVE
+---
 
-**Mệnh lệnh Bắt Buộc (Mandatory Directive):**
-Khi Root Agent được triệu gọi để thực thi tiến trình sinh âm thanh (TTS) hoặc chuẩn bị SSML, TUYỆT ĐỐI KHÔNG được tự mình xử lý tuần tự toàn bộ công việc. Thay vào đó, Root Agent PHẢI sử dụng công cụ `invoke_subagent` để khởi tạo đồng thời 4 đến 10 Sub-agents nhằm phân chia và xử lý công việc song song.
+## 3. Quy Chuáº©n PhÃ²ng Thu ÄÃ£ Kiá»ƒm Nghiá»‡m (Studio Best Practices)
 
-**Chiến lược phân công (Delegation Strategy):**
-- **Chia theo chiều ngang (Horizontal / Data Parallel):** Chia nhỏ tập các file kịch bản (ví dụ: mỗi Sub-agent đảm nhận sinh Audio/SSML cho 1-2 chương độc lập).
-- **Chia theo chiều dọc (Vertical / Role-based):** Phân công chuyên sâu theo pipeline (ví dụ: 2 sub-agent phân tích từ vựng & tạo SSML, 5 sub-agent gọi API Edge-TTS song song, 1-2 sub-agent chạy xử lý hậu kỳ âm thanh và mix BGM).
+ToÃ n bá»™ cÃ¡c best practices ná»n táº£ng tiáº¿p tá»¥c Ä‘Æ°á»£c báº£o toÃ n nghiÃªm ngáº·t:
+1. **Khá»­ Sáº¡ch Silence Padding (Zero Dead Gap):**
+   - QuÃ©t vÃ  cáº¯t triá»‡t Ä‘á»ƒ khoáº£ng láº·ng nhÃ¢n táº¡o á»Ÿ Ä‘áº§u vÃ  Ä‘uÃ´i má»—i phÃ¢n Ä‘oáº¡n audio báº±ng bá»™ lá»c `silenceremove` (ngÆ°á»¡ng `-42dB`), xÃ³a bá» hoÃ n toÃ n khoáº£ng ngáº¯t cháº¿t gÃ¢y khá»±ng tiáº¿ng.
+2. **Nhá»‹p Thá»Ÿ ÄÃ m Thoáº¡i Tá»± NhiÃªn (Natural Cadence Buffer 40ms):**
+   - Äá»‡m má»™t khoáº£ng chuyá»ƒn kháº©u hÃ¬nh siÃªu nhá» 40 mili-giÃ¢y (`apad=pad_dur=0.04`) giá»¯a tiáº¿ng Viá»‡t vÃ  ngoáº¡i ngá»¯, tÃ¡i hiá»‡n chÃ­nh xÃ¡c nhá»‹p chuyá»ƒn giá»ng tá»± nhiÃªn cá»§a ngÆ°á»i tháº­t.
+3. **Chuáº©n HÃ³a Ã‚m LÆ°á»£ng EBU R128 (-16 LUFS):**
+   - Ãp dá»¥ng bá»™ lá»c `loudnorm=I=-16:TP=-1.5:LRA=11` Ä‘á»ƒ báº£o Ä‘áº£m nÄƒng lÆ°á»£ng Ã¢m thanh giá»¯a cÃ¡c phÃ¢n Ä‘oáº¡n Ä‘á»“ng nháº¥t tuyá»‡t Ä‘á»‘i, khÃ´ng cÃ³ hiá»‡n tÆ°á»£ng chÃªnh lá»‡ch Ã¢m lÆ°á»£ng.
+4. **Bá»™ Äá»‡m Chá»‘ng Ngháº½n & Bá»™ Nhá»› Äá»‡m PhÃ¢n Äoáº¡n (Part-Level Caching & Auto-Backoff):**
+   - Tá»± Ä‘á»™ng lÆ°u cache cÃ¡c phÃ¢n Ä‘oáº¡n con Ä‘Ã£ sinh thÃ nh cÃ´ng; khÃ´ng bao giá» gá»i láº¡i API vÃ´ nghÄ©a khi xáº£y ra sá»± cá»‘ máº¡ng.
+   - CÆ¡ cháº¿ giÃ£n cÃ¡ch lÅ©y tiáº¿n thÃ´ng minh (Exponential Backoff `3.0s * attempt`) khi Microsoft Edge TTS táº¡m thá»i báº­n, Ä‘áº£m báº£o pipeline cháº¡y xuyÃªn suá»‘t tá»›i 100% hoÃ n thÃ nh mÃ  khÃ´ng crash.
 
-**Ví dụ cấu hình JSON cho `invoke_subagent`:**
-```json
-{
-  "subagents": [
-    {
-      "agent_id": "ssml_prep_worker",
-      "instruction": "Phân tích nội dung Chương 1-5 và chuẩn bị file SSML với nhịp điệu phù hợp."
-    },
-    {
-      "agent_id": "tts_worker_1",
-      "instruction": "Chạy tiến trình Edge-TTS tạo audio cho Chương 1-2 từ file SSML đã chuẩn bị."
-    },
-    {
-      "agent_id": "tts_worker_2",
-      "instruction": "Chạy tiến trình Edge-TTS tạo audio cho Chương 3-5 từ file SSML đã chuẩn bị."
-    },
-    {
-      "agent_id": "audio_mix_worker",
-      "instruction": "Chờ các tts_worker hoàn tất, sau đó ghép nối các file audio và hòa âm với nhạc nền BGM."
-    }
-  ]
-}
-```
+---
+
+## 4. RÃ ng Buá»™c & Pháº¡m Vi Ãp Dá»¥ng
+- **TÃ­nh Ä‘á»™c láº­p & Kháº£ chuyá»ƒn:** Module `seamless_dual_voice_splicer.py` Ä‘Æ°á»£c thiáº¿t káº¿ linh hoáº¡t, nháº­n diá»‡n vÄƒn báº£n tá»± Ä‘á»™ng, cÃ³ thá»ƒ tÃ¡i sá»­ dá»¥ng cho má»i chÆ°Æ¡ng, má»i cuá»‘n sÃ¡ch, má»i lÄ©nh vá»±c mÃ  khÃ´ng cáº§n cáº¥u hÃ¬nh thá»§ cÃ´ng láº¡i.
+- **Pháº¡m vi bÆ°á»›c 08:** Chá»‰ phá»¥ trÃ¡ch táº¡o cÃ¡c tá»‡p mini chunk chuáº©n má»±c (`chunk_*.mp3`). KhÃ¢u ghÃ©p ná»‘i thÃ nh file dÃ i thuá»™c BÆ°á»›c 09 vÃ  lá»“ng nháº¡c ná»n thuá»™c BÆ°á»›c 10.
+
+
+
+==== arf_09_audio_smart_aggregator ====
+---
+name: arf_09_audio_smart_aggregator
+description: "BÆ°á»›c 9 - A.I trá»±c tiáº¿p phÃ¢n tÃ­ch cÃ¡c audio ká»‹ch báº£n mini, lÃªn káº¿ hoáº¡ch gá»™p file full (20-30 phÃºt) theo logic tá»‘i Æ°u."
+---
+
+# Ká»¹ nÄƒng 09: Audio Smart Aggregator (PhÃ¢n TÃ­ch & LÃªn Káº¿ Hoáº¡ch Gom File)
+
+**TRIáº¾T LÃ Cá»T LÃ•I:** Tuyá»‡t Ä‘á»‘i khÃ´ng nháº¯m máº¯t gom file bá»«a bÃ£i. A.I pháº£i Ä‘Ã³ng vai trÃ² lÃ  NhÃ  Sáº£n Xuáº¥t (Producer), tá»± mÃ¬nh quÃ©t, tÃ­nh toÃ¡n, vÃ  Ä‘Æ°a ra má»™t "Báº£n Káº¿ Hoáº¡ch" rÃµ rÃ ng trÆ°á»›c khi thá»±c thi.
+
+## 1. TrÃ¬nh tá»± lÃ m viá»‡c cá»§a A.I (Báº¯t buá»™c)
+
+### BÆ°á»›c 1: QuÃ©t & PhÃ¢n TÃ­ch Dá»¯ Liá»‡u
+- A.I sá»­ dá»¥ng cÃ¡c lá»‡nh Terminal hoáº·c tool Ä‘á»c file Ä‘á»ƒ kiá»ƒm tra danh sÃ¡ch cÃ¡c file audio ká»‹ch báº£n mini (vÃ­ dá»¥: `chunk_1.mp3`, `chunk_2.mp3`...) Ä‘Ã£ Ä‘Æ°á»£c táº¡o ra tá»« BÆ°á»›c 8.
+- TÃ­nh toÃ¡n thá»i lÆ°á»£ng (báº±ng cÃ´ng cá»¥ `ffprobe` hoáº·c Æ°á»›c tÃ­nh tá»« sá»‘ chá»¯ cá»§a ká»‹ch báº£n: ~3000 kÃ½ tá»± = 3.5 phÃºt).
+
+### BÆ°á»›c 2: Láº­p Káº¿ Hoáº¡ch Gom NhÃ³m (ToÃ¡n há»c & Logic CÃ¢n Báº±ng)
+- **Má»¥c tiÃªu:** Má»—i file Audio Full pháº£i dÃ i tá»« **25 Ä‘áº¿n 35 phÃºt** vÃ  **KHÃ”NG CÃ“ FILE NÃ€O DÆ¯á»šI 25 PHÃšT** (trá»« phi tá»•ng thá»i lÆ°á»£ng toÃ n chÆ°Æ¡ng nhá» hÆ¡n 25 phÃºt).
+- **Thuáº­t toÃ¡n CÃ¢n Báº±ng (Equitable Distribution):** Tuyá»‡t Ä‘á»‘i KHÃ”NG gá»™p theo kiá»ƒu nhá»“i nhÃ©t (Greedy) dáº«n Ä‘áº¿n táº­p cuá»‘i bá»‹ thá»«a má»™t Ä‘oáº¡n quÃ¡ ngáº¯n (vd: 5-7 phÃºt). A.I pháº£i:
+  1. TÃ­nh Tá»•ng thá»i lÆ°á»£ng toÃ n bá»™ chÆ°Æ¡ng (Total Duration).
+  2. Quyáº¿t Ä‘á»‹nh Sá»‘ táº­p lÃ½ tÆ°á»Ÿng `N = max(1, round(Total Duration / 30 phÃºt))`.
+  3. TÃ­nh thá»i lÆ°á»£ng má»¥c tiÃªu cho má»—i táº­p: `Target = Total Duration / N` (vÃ­ dá»¥: Tá»•ng 86 phÃºt / 3 táº­p = ~28.6 phÃºt/táº­p).
+  4. Gom cÃ¡c chunk sao cho bÃ¡m sÃ¡t target 28.6 phÃºt nÃ y nháº¥t (sáº½ dao Ä‘á»™ng tá»± nhiÃªn quanh má»©c 25 - 35 phÃºt).
+- A.I tá»± váº¡ch ra káº¿ hoáº¡ch ghÃ©p file trÃªn mÃ n hÃ¬nh cho User xem (Báº£ng káº¿ hoáº¡ch). 
+  - *VÃ­ dá»¥:* 
+    - Táº­p 1 (Part 1): Gá»“m chunk 1 Ä‘áº¿n 8 (~28.5 phÃºt).
+    - Táº­p 2 (Part 2): Gá»“m chunk 9 Ä‘áº¿n 15 (~29.1 phÃºt).
+
+### BÆ°á»›c 3: Thá»±c thi
+- Chá»‰ sau khi phÃ¢n tÃ­ch logic vÃ  (tÃ¹y chá»n) Ä‘Æ°á»£c User duyá»‡t qua, A.I má»›i tiáº¿n hÃ nh táº¡o danh sÃ¡ch `concat` vÃ  gá»i lá»‡nh (vÃ­ dá»¥ FFmpeg) Ä‘á»ƒ ná»‘i cÃ¡c file mini thÃ nh `Full_ChapterX_PartY.mp3`.
+
+
+### BÆ°á»›c 4: GiÃ¡m SÃ¡t & Nghiá»‡m Thu (Post-Execution Validation)
+- Tuyá»‡t Ä‘á»‘i khÃ´ng phÃ³ máº·c cho Script. Sau khi Script/cÃ´ng cá»¥ gom file cháº¡y xong, A.I **Báº®T BUá»˜C** pháº£i kiá»ƒm tra láº¡i:
+  - File `Full_ChapterX...mp3` cÃ³ Ä‘Æ°á»£c táº¡o ra khÃ´ng?
+  - Dung lÆ°á»£ng file cÃ³ há»£p lÃ½ khÃ´ng? (TrÃ¡nh lá»—i file rá»—ng hoáº·c lá»—i ná»‘i file há»ng).
+  - BÃ¡o cÃ¡o káº¿t quáº£ trá»±c tiáº¿p cho User Ä‘á»ƒ nghiá»‡m thu.
+
+
+
+==== arf_10_bgm_dynamic_mixer ====
+---
+name: arf_10_bgm_dynamic_mixer
+description: "Bước 10: Bậc thầy Đạo diễn Âm thanh (A.I Music Director). Phân tích sâu kịch bản, lên timeline âm nhạc theo từng phân cảnh, ghép nhạc nghệ thuật và render file final liền mạch."
+---
+
+# BƯỚC 10: ĐẠO DIỄN ÂM THANH A.I (DYNAMIC SCENE-SCORING)
+
+## TRIẾT LÝ CỐT LÕI (CORE PHILOSOPHY)
+- **A.I là Tổng Đạo Diễn:** A.I tuyệt đối KHÔNG được giao phó toàn bộ công việc cho một đoạn script Python tự động (như kiểu FFmpeg loop mù quáng). A.I phải là người **đọc hiểu kịch bản, chia khung cảm xúc, và quyết định bài nhạc nào phát ở phút thứ mấy**. Code Python/FFmpeg chỉ đóng vai trò là "công cụ thực thi" bản phác thảo của A.I.
+- **Sách nói là Nghệ thuật:** Âm nhạc phải bám sát nhịp điệu của nội dung. Vui dùng nhạc vui, triết lý dùng nhạc Focus. Không lặp lại nhàm chán.
+- **Quy tắc Liền mạch (True Seamless):** Các Part cắt lẻ phải nối với nhau hoàn hảo. KHÔNG được dùng Fade-in/Fade-out ở giữa các điểm nối của các Part.
+
+---
+
+## QUY TRÌNH 4 BƯỚC CỦA ĐẠO DIỄN A.I
+
+### Bước 1: Emotional Mapping (Phân tích Cảm xúc theo Phân cảnh)
+- A.I tự động đọc lại các file kịch bản của Chương đang xử lý.
+- A.I phải chia chương đó thành các **Phân cảnh (Scenes)**. 
+  - *Ví dụ:* 
+    - Scene 1 (Mở bài): Khơi gợi vấn đề.
+    - Scene 2 (Kể chuyện): Các ví dụ lịch sử, tâm lý.
+    - Scene 3 (Đúc kết): Bài học, tư duy sâu.
+- A.I tự đưa ra **Tone/Mood Guidelines** cho từng Scene. Bám sát các thể loại tích cực: Focus, Uplifting, Relaxing, Baroque, Ghibli, Traditional. Cấm tuyệt đối nhạc ma mị, rùng rợn, u ám.
+
+### Bước 2: Casting & Nhặt Nhạc (Lấy từ Kho hoặc Tải Mới)
+- A.I quét kho `bgm_audio_library`. Với mỗi Scene, A.I chọn đích danh 1 bài nhạc cụ thể.
+- Nếu bài nhạc quá ngắn, A.I ghi chú sẽ loop nó trong phạm vi của Scene. Nếu nhạc quá dài, A.I ghi chú điểm ngắt.
+- Nếu kho nhạc thiếu, A.I tự gọi `yt-dlp` tải bài mới (sử dụng từ khóa chính xác), convert sang MP3, và nạp vào kho trước khi dùng.
+
+### Bước 3: Lên Sơ đồ Thời gian (Timeline Architect)
+- A.I đo đạc chính xác thời lượng của các file giọng đọc (`Full_ChapterX_PartY.mp3`).
+- A.I vẽ ra một Timeline tổng thể cho cả Chương. 
+  - *Ví dụ:* Tổng chương dài 45 phút. 
+  - Từ phút 0 -> 10: Nhạc A (Scene 1).
+  - Từ phút 10 -> 25: Nhạc B (Scene 2). Giao thoa giữa A và B dùng Crossfade 3 giây.
+  - Từ phút 25 -> 45: Nhạc C (Scene 3).
+
+### Bước 4: Viết Lệnh Thực Thi (Master Execution)
+- Từ Sơ đồ ở Bước 3, A.I tự tay code ra một đoạn script Python sinh lệnh FFmpeg cực kỳ chi tiết (`-filter_complex`).
+- **Quy tắc Bắt buộc khi Render:**
+  - **Volume Ducking:** Nhạc nền phải giảm âm lượng (`volume=0.10` hoặc `0.12`) để tôn giọng đọc.
+  - **Crossfade:** Chuyển bài hát giữa các Scene phải dùng hiệu ứng nối tiếp (`acrossfade`).
+  - **Seamless Part Cut:** Khi xuất ra thành các file `Final_Audio_PartX.mp3`:
+    - Chỉ được Fade-in đúng 3 giây ở điểm bắt đầu của **Part 1**.
+    - Chỉ được Fade-out đúng 5 giây ở điểm kết thúc của **Part Cuối Cùng**.
+    - Các điểm giao cắt giữa Part 1 sang Part 2, Part 2 sang Part 3... **phải cắt thô (Raw cut)**, khớp chính xác thời gian (Offset), tuyệt đối không áp dụng Fade-in/out để đảm bảo tính liên tục khi người nghe phát tự động.
+
+---
+**TÓM LẠI:** Ở bước này, A.I phải trình bày Sơ đồ Cảm xúc và Sơ đồ Thời gian cho User xem trước, sau đó mới tự động viết script thực thi theo đúng Sơ đồ đó.
+
 
 
