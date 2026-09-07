@@ -35,6 +35,10 @@ Khi bạn (AI) vừa được khởi chạy trong thư mục này trên một m�
    - Nếu phát hiện lỗi ký tự cấm, câu dài hoặc sót số trần, AI phải kích hoạt vòng lặp tự chữa lành (**Self-Healing Loop**) để sửa kịch bản trước khi đi tiếp.
 4. **Bảo Toàn Nhất Quán Giới Tính Người Diễn Đọc (Gender Consistency Invariance):**
    - Tuyệt đối giữ nguyên giới tính xuyên suốt toàn bộ các chunks trong chương và các tập sách (Nếu Nam thì 100% Nam Minh, Nữ thì 100% Hoài My). Cấm mọi cơ chế retry tự động tráo đổi sang giọng đối lập khi gặp sự cố mạng.
+5. **Kỷ Luật Quản Lý Tệp Tin & Giữ Vững Thư Mục Gốc (Root Cleanliness & File Hygiene):**
+   - **Tuyệt đối KHÔNG tạo file tạm ở thư mục gốc (Root):** Cấm mọi hành vi tạo script thử nghiệm (.py), file audio nháp (.mp3), file log (.txt) hoặc file cờ không đuôi trực tiếp tại thư mục gốc. Mọi tệp thử nghiệm ngắn hạn phải nằm trong `scratch/` hoặc thư mục riêng của từng chương.
+   - **Tổ chức theo dự án biệt lập:** Dữ liệu sách nằm trong `Kich-ban-clipchamp/<Tên-Sách>/` hoặc `input_books/<Tên-Sách>/`. Từ điển riêng (`custom_phonetics.json` / `pmbok_custom_phonetics.json`) phải đặt bên trong thư mục của cuốn sách đó.
+   - **Tự động dọn dẹp sau khi hoàn thành:** Sau khi Bước 10 xuất xưởng file `Final_Audio_*.mp3` đạt chuẩn, hệ thống tự động dọn sạch các tệp trung gian (`concat_list.txt`, `.chunk_*.txt`, `.raw_part*.txt`) để không gian làm việc luôn gọn gàng và tối ưu bộ nhớ.
 
 ---
 
