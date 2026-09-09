@@ -1,4 +1,4 @@
-﻿---
+---
 name: arf_10_bgm_dynamic_mixer
 description: "Bước 10: Bậc thầy Đạo diễn Âm thanh (A.I Music Director). Phân tích sâu kịch bản, lên timeline âm nhạc theo từng phân cảnh, ghép nhạc nghệ thuật và render file final liền mạch."
 ---
@@ -45,6 +45,9 @@ description: "Bước 10: Bậc thầy Đạo diễn Âm thanh (A.I Music Direct
     - Chỉ được Fade-in đúng 3 giây ở điểm bắt đầu của **Part 1**.
     - Chỉ được Fade-out đúng 5 giây ở điểm kết thúc của **Part Cuối Cùng**.
     - Các điểm giao cắt giữa Part 1 sang Part 2, Part 2 sang Part 3... **phải cắt thô (Raw cut)**, khớp chính xác thời gian (Offset), tuyệt đối không áp dụng Fade-in/out để đảm bảo tính liên tục khi người nghe phát tự động.
+  - **Quy chuẩn Lưu trữ Tập trung Toàn Sách (`Final-[tên-sách]`):**
+    - Toàn bộ các file audio master thành phẩm `Final_Audio_{chap_name}_{PartX}.mp3` (đã hòa âm BGM hoàn chỉnh) **BẮT BUỘC** được lưu tập trung vào thư mục tổng thể của cuốn sách: **`Final-[tên-sách]`** (ví dụ: `Final-ProcessGroupsPracticeGuide`, `Final-Eat-that-frog`).
+    - Tuyệt đối **KHÔNG lưu file Final vào thư mục riêng của từng chương**. Thư mục con của mỗi chương chỉ lưu kịch bản text, báo cáo QC và các file audio mini `audio_chunks/chunk_*.mp3`, giữ không gian làm việc luôn gọn gàng, chuyên nghiệp và sẵn sàng xuất bản.
 
 ---
-**TÓM LẠI:** Ở bước này, A.I phải trình bày Sơ đồ Cảm xúc và Sơ đồ Thời gian cho User xem trước, sau đó mới tự động viết script thực thi theo đúng Sơ đồ đó.
+**TÓM LẠI:** Ở bước này, A.I phải trình bày Sơ đồ Cảm xúc và Sơ đồ Thời gian cho User xem trước, sau đó mới tự động viết script thực thi theo đúng Sơ đồ đó. Xuất file trực tiếp vào thư mục `Final-[tên-sách]`.

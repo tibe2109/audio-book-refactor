@@ -22,6 +22,9 @@ Kỹ năng này chịu trách nhiệm nhận các khối kịch bản thô (`Kic
 4. **Giữ nguyên Marker ngắt nghỉ `. ......`:** Tuyệt đối giữ nguyên ký hiệu `. ......` ở cuối mỗi đoạn văn hoặc câu chuyển ý quan trọng. Ký hiệu này giúp TTS ngắt nghỉ 1.5 - 2 giây để người nghe chiêm nghiệm.
 5. **Không tóm tắt / Không lược ý (100% Content Fidelity):** Giữ trọn vẹn 100% nội dung, không rút gọn luận điểm, ví dụ hay số liệu của tác giả.
 6. **Không thêm lời dẫn thoại của AI:** Tuyệt đối không thêm các câu mở đầu/kết bài máy móc như *"Dưới đây là kịch bản"*, *"Chào bạn"*... Chỉ xuất nội dung kịch bản sạch.
+7. **Biên tập Chống Lặp Thuật Ngữ Ngoại Lai & Giảm Mỏi Thính Giác (Anti-Auditory Fatigue Principle):**
+   - Tuân thủ **Chiến Lược Biên Tập Thuật Ngữ 3 Tầng**: Chỉ giữ nguyên ký tự quốc tế của từ tiếng Anh/Latinh ở câu giới thiệu ban đầu hoặc đầu đề mục mới (Tier 1 & 2) để định vị khái niệm cho người nghe.
+   - Trong toàn bộ phần thân bài diễn giải tiếp theo (Tier 3), AI biên tập viên chủ động chuyển đổi linh hoạt sang tiếng Việt tự nhiên (ví dụ: *Stakeholder* $\to$ *các bên liên quan*, *Project Charter* $\to$ *bản điều lệ dự án*), viết tắt tách âm phát thanh (*P-M-I*, *W-B-S*, *K-P-I*), hoặc dùng đại từ thay thế ngắn gọn (*nhóm này, đối tác này, tài liệu này*). Tuyệt đối tránh việc lặp đi lặp lại từ ngoại ngữ máy móc làm bộ đọc TTS phải đảo giọng liên tục gây gián đoạn cảm xúc của thính giả.
 
 ---
 
@@ -71,7 +74,7 @@ Sau khi một chương (hoặc toàn bộ dự án) hoàn thành tinh chỉnh 10
 
 ## 4. Hướng Dẫn Kích Hoạt Sub-Agent Biên Kịch Giọng Đọc Từng Chương (Senior Voice Refiner Subagent)
 
-Khi muốn tinh chỉnh sâu sắc ngữ điệu từng chương bằng LLM:
+Khi muốn tinh chỉnh sâu sắc ngữ điệu từng chương hoặc tài liệu dài bằng LLM:
 
 ```python
 invoke_subagent(
@@ -83,10 +86,11 @@ invoke_subagent(
                 "Bạn là Tổng biên kịch Diễn đọc Giọng nói cho chương '01-quy-luat-01-lam-chu-cai-toi-cam-xuc'.\n"
                 "Tác giả: Robert Greene | Thể loại: Tâm lý học hành vi / Triết học quyền lực.\n"
                 "Nhiệm vụ: Đọc toàn bộ các chunk 'Kich-ban-raw-N.txt' của chương này và tinh chỉnh thành 'Kich-ban-N.txt'.\n"
-                "Yêu cầu:\n"
+                "Yêu cầu biên tập thính giác:\n"
                 "1. Thêm dấu phẩy lấy hơi tự nhiên ở những câu dài để bộ đọc TTS ngắt giọng êm ái.\n"
-                "2. Bảo toàn 100% nội dung và marker ngắt nghỉ '. ......'.\n"
-                "3. Khử sạch toàn bộ ký tự cấm TTS (ngoặc, nháy) và chuyển chữ số thành chữ viết."
+                "2. Áp dụng Chiến Lược Thuật Ngữ 3 Tầng: Giữ nguyên thuật ngữ tiếng Anh/Latinh ở phần giới thiệu đầu chương hoặc đầu đề mục mới; trong thân bài diễn giải, linh hoạt chuyển ngữ sang tiếng Việt tự nhiên, từ viết tắt tách âm (W-B-S, P-M-I) hoặc đại từ thay thế ngắn gọn để chống lặp từ ngoại ngữ gây mỏi tai người nghe.\n"
+                "3. Bảo toàn 100% nội dung logic và marker ngắt nghỉ '. ......'.\n"
+                "4. Khử sạch toàn bộ ký tự cấm TTS (ngoặc, nháy) và chuyển chữ số thành chữ viết."
             )
         }
     ]

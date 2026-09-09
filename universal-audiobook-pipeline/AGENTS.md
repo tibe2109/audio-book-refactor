@@ -27,9 +27,11 @@ Khi bạn (AI) vừa được khởi chạy trong thư mục này trên một m�
 1. **Khóa Cứng Thời Lượng [25 – 35 phút] (Duration Hard-Cap):**
    - Mọi file Audio Full (Bước 09) và Final Master (Bước 10) phải nằm trong khung **[25 – 35 phút]**.
    - **TUYỆT ĐỐI KHÔNG TẠO RA BẤT KỲ FILE NÀO VƯỢT QUÁ 35 PHÚT**. Nếu nội dung dài, giải thuật toán học sẽ tự động chia đều thành nhiều Parts (Part 1, Part 2...).
-2. **Bảo Toàn Thuật Ngữ & Ngữ Âm Song Thanh (NamMinh x Brian):**
-   - 100% thuật ngữ chuyên ngành tiếng Anh/Latinh (Project Charter, Agile, Stakeholder, Scope Creep...) phải giữ nguyên ký tự quốc tế để giọng `en-US-BrianMultilingualNeural` đọc chuẩn xác. Tuyệt đối không phiên âm bồi thô thiển.
-   - Viết tắt tách âm phát thanh: `P-M-I`, `P-M-B-O-K`, `W-B-S`, `K-P-I`.
+2. **Bảo Toàn Thuật Ngữ & Chiến Lược Biên Tập 3 Tầng (NamMinh x Brian & Anti-Auditory Fatigue):**
+   - **Tầng 1 (Định vị ban đầu):** Thuật ngữ chuyên ngành tiếng Anh/Latinh (Project Charter, Agile, Stakeholder, Scope Creep...) phải giữ nguyên ký tự quốc tế ở lần giới thiệu đầu tiên hoặc đề mục mới để giọng `en-US-BrianMultilingualNeural` đọc chuẩn xác. Tuyệt đối không phiên âm bồi thô thiển.
+   - **Tầng 2 (Nhắc lại có chọn lọc):** Chỉ nhắc lại thuật ngữ ngoại ngữ ở các đề mục lớn (H1/H2) khi thực sự cần thiết để tái định vị ngữ cảnh thính giác.
+   - **Tầng 3 (Biên tập thân bài linh hoạt bằng AI):** Trong thân bài diễn giải, AI biên tập viên chủ động chuyển đổi linh hoạt sang tiếng Việt tự nhiên (*Stakeholder* $\to$ *các bên liên quan*, *Project Charter* $\to$ *bản điều lệ dự án*), dùng từ viết tắt tách âm phát thanh (*P-M-I*, *P-M-B-O-K*, *W-B-S*, *K-P-I*) hoặc đại từ thay thế gần gũi ngắn gọn. Tuyệt đối tránh lặp từ ngoại ngữ liên tục gây đảo giọng TTS và mỏi tai người nghe. Phải do AI trực tiếp thẩm định ngữ cảnh, cấm dùng script cứng thay thế mù quáng. Khi tài liệu dài, kích hoạt Sub-agent chuyên trách.
+   - **Điều phối nhịp điệu thính giác (Ngắt nghỉ điểm nhấn vs. Đọc liền mạch):** Dùng dấu phẩy `, ` tạo nhịp nghỉ nhẹ (~200ms) khi thuật ngữ đi kèm sau tên tiếng Việt giải thích/đề mục để người nghe ghi nhớ; đọc và ghép âm liền mạch 100% không khựng tiếng khi thuật ngữ nằm trong dòng chảy ngữ pháp liên tục (*các Project Manager*, *Tên tôi là Rachel*, *tại Google New York*). 100% tiếng Việt do giọng Việt đọc, 100% tiếng nước ngoài do giọng Brian đọc.
 3. **Cổng Kiểm Toán Không Nhân Nhượng (Hard QC Gate at Step 07):**
    - Chỉ được phép cấp quyền thu âm TTS (Bước 08) khi tệp `QC_Report.md` được thẩm định **100% 7 Gates PASSED**.
    - Nếu phát hiện lỗi ký tự cấm, câu dài hoặc sót số trần, AI phải kích hoạt vòng lặp tự chữa lành (**Self-Healing Loop**) để sửa kịch bản trước khi đi tiếp.
@@ -37,7 +39,7 @@ Khi bạn (AI) vừa được khởi chạy trong thư mục này trên một m�
    - Tuyệt đối giữ nguyên giới tính xuyên suốt toàn bộ các chunks trong chương và các tập sách (Nếu Nam thì 100% Nam Minh, Nữ thì 100% Hoài My). Cấm mọi cơ chế retry tự động tráo đổi sang giọng đối lập khi gặp sự cố mạng.
 5. **Kỷ Luật Quản Lý Tệp Tin & Giữ Vững Thư Mục Gốc (Root Cleanliness & File Hygiene):**
    - **Tuyệt đối KHÔNG tạo file tạm ở thư mục gốc (Root):** Cấm mọi hành vi tạo script thử nghiệm (.py), file audio nháp (.mp3), file log (.txt) hoặc file cờ không đuôi trực tiếp tại thư mục gốc. Mọi tệp thử nghiệm ngắn hạn phải nằm trong `scratch/` hoặc thư mục riêng của từng chương.
-   - **Tổ chức theo dự án biệt lập:** Dữ liệu sách nằm trong `Kich-ban-clipchamp/<Tên-Sách>/` hoặc `input_books/<Tên-Sách>/`. Từ điển riêng (`custom_phonetics.json` / `pmbok_custom_phonetics.json`) phải đặt bên trong thư mục của cuốn sách đó.
+   - **Tổ chức theo dự án biệt lập & Lưu trữ tập trung:** Dữ liệu sách nằm trong `Kich-ban-clipchamp/<Tên-Sách>/` hoặc `input_books/<Tên-Sách>/`. Từ điển riêng (`custom_phonetics.json` / `pmbok_custom_phonetics.json`) phải đặt bên trong thư mục của cuốn sách đó. Toàn bộ file Full (không nhạc) xuất xưởng của các chương được gom tập trung vào thư mục `Full-[tên-sách]/`, và toàn bộ file Final Master (có nhạc) xuất xưởng được gom tập trung vào `Final-[tên-sách]/`. Tuyệt đối KHÔNG lưu file Full hoặc Final vào từng thư mục con của chương.
    - **Tự động dọn dẹp sau khi hoàn thành:** Sau khi Bước 10 xuất xưởng file `Final_Audio_*.mp3` đạt chuẩn, hệ thống tự động dọn sạch các tệp trung gian (`concat_list.txt`, `.chunk_*.txt`, `.raw_part*.txt`) để không gian làm việc luôn gọn gàng và tối ưu bộ nhớ.
 
 ---
@@ -54,8 +56,8 @@ Khi bạn (AI) vừa được khởi chạy trong thư mục này trên một m�
 | **06** | `arf_06_llm_script_refiner` | Câu <= 30 từ, thêm phẩy lấy hơi (Breathing Commas), quét sạch ký tự cấm. | `Kich-ban-*.txt` |
 | **07** | `arf_07_audiobook_qc_auditor` | Kiểm toán 7 Quality Gates. 100% PASSED mới mở khóa bước 08. | `QC_Report.md` |
 | **08** | `arf_08_tts_neural_bgm_mixer` | Thu âm song thanh NamMinh (VN) x Brian (EN), cắt dead-gap, EBU R128. | `audio_chunks/*.mp3` |
-| **09** | `arf_09_audio_smart_aggregator` | Ghép chunk thành tập cân bằng thời lượng [25-35 phút]. Khóa cứng <= 35p. | `Full_*.mp3` |
-| **10** | `arf_10_bgm_dynamic_mixer` | Hòa âm 3 phân cảnh (Baroque 35% -> Focus 40% -> Piano 25%), Ducking -20dB. | `Final_Audio_*.mp3` |
+| **09** | `arf_09_audio_smart_aggregator` | Ghép chunk thành tập cân bằng thời lượng [25-35 phút]. Khóa cứng <= 35p. | `Full-[tên-sách]/Full_*.mp3` |
+| **10** | `arf_10_bgm_dynamic_mixer` | Hòa âm 3 phân cảnh (Baroque 35% -> Focus 40% -> Piano 25%), Ducking -20dB. | `Final-[tên-sách]/Final_Audio_*.mp3` |
 
 ---
 

@@ -74,6 +74,7 @@ flowchart TD
 
 ### 3.3. Xử Lý Ký Tự Cấm & Tinh Chỉnh Dấu Câu
 - **Ký tự cấm xóa/thay thế:**
+  - **Khử sạch biểu tượng icon/bullet (BẮT BUỘC):** Loại bỏ toàn bộ icon và bullet điểm gạch đầu dòng (`▶`, `►`, `▪`, `●`, `★`, `▲`, `◆`, `■`, `✓`, `•`, `–`, `—`, `…` v.v.) bằng Regex `re.sub(r'[▶►▪●★▲◆■✓•–—…|/\\\\]', ' ', text)` trước khi đưa kịch bản vào TTS để tránh làm hỏng âm thanh hoặc sinh ra các đoạn âm thanh rỗng/câm.
   - Dấu ngoặc kép `"` `“` `”` `«` `»` $\rightarrow$ Loại bỏ hoặc thay bằng khoảng trắng.
   - Dấu ngoặc tròn `(` `)` và ngoặc vuông `[` `]` $\rightarrow$ Thay bằng dấu phẩy `, ` để tạo nhịp nghỉ nhẹ.
   - Dấu hai chấm `:` và chấm phẩy `;` $\rightarrow$ Thay bằng dấu phẩy `, ` hoặc chấm `. `.
@@ -84,6 +85,27 @@ flowchart TD
   - Giữ khoảng lặng chuyển đoạn đặc thù nếu có: `. ......`
   - Loại bỏ dấu ba chấm lửng chèn giữa từ (ví dụ: `... con ếch ...` $\rightarrow$ `con ếch`).
   - Chuẩn hóa khoảng trắng: Xóa khoảng trắng trước dấu câu, đảm bảo sau dấu câu có đúng 1 khoảng trắng, không để tồn tại dấu phẩy liên tiếp `, ,` $\rightarrow$ `,`.
+
+### 3.4. Chiến Lược Chuẩn Hóa & Biên Tập Thuật Ngữ Ngoại Lai 3 Tầng (3-Tier Terminology Editorial Strategy)
+Để giải quyết triệt để vấn đề "Mệt mỏi thính giác" (Auditory Fatigue) khi người nghe phải nghe đi nghe lại các từ tiếng Anh/thuật ngữ chuyên ngành quá nhiều lần, hoặc khi hệ thống TTS song thanh phải chuyển đổi giọng đọc (Voice Switching) liên tục gây gián đoạn mạch cảm xúc:
+
+1. **Tầng 1: Định danh ban đầu (First Introduction / Concept Grounding)**
+   - Khi một thuật ngữ ngoại lai, khái niệm cốt lõi xuất hiện lần đầu tiên trong chương: **BẮT BUỘC giữ nguyên ký tự quốc tế** để giọng tiếng Anh chuẩn (`en-US-BrianMultilingualNeural`) phát âm chính xác, đồng thời đi kèm ngay tên gọi hoặc diễn giải tiếng Việt tự nhiên.
+   - *Ví dụ*: *"Các bên liên quan, hay Stakeholder, đóng vai trò sống còn..."*, *"Bản điều lệ dự án, tiếng Anh gọi là Project Charter..."*.
+
+2. **Tầng 2: Nhắc lại có chọn lọc tại đề mục mới (Contextual Anchor at Major Headings)**
+   - Khi chuyển sang một đề mục lớn mới (Tiêu đề Chương, Tiêu đề Phần H1/H2, hoặc sau nhịp nghỉ `. ......` dài): Được phép nhắc lại thuật ngữ gốc 1 lần để tái định vị ngữ cảnh thính giác cho người nghe.
+   - *Ví dụ*: *"Quy trình tiếp theo liên quan mật thiết đến việc quản trị Stakeholder..."*.
+
+3. **Tầng 3: Tinh giản & Việt hóa linh hoạt trong thân bài (In-Body Streamlining & Naturalization)**
+   - Trong toàn bộ các câu văn diễn giải, phân tích, kể chuyện tiếp theo trong đoạn: **AI Biên tập viên chủ động chuyển đổi linh hoạt**, tuyệt đối không để nguyên thuật ngữ tiếng Anh lặp đi lặp lại máy móc:
+     - **Việt hóa tự nhiên:** Thay bằng từ tiếng Việt chuẩn xác (`Stakeholder` $\to$ `các bên liên quan`, `Project Charter` $\to$ `bản điều lệ dự án`, `Scope Creep` $\to$ `phình to phạm vi`).
+     - **Viết tắt tách âm phát thanh:** Sử dụng dạng viết tắt chuẩn âm đọc (`P-M-I`, `W-B-S`, `K-P-I`, `P-M-O`).
+     - **Dùng từ ngữ gần gũi, đại từ thay thế:** Dùng *"nhóm này"*, *"đối tác này"*, *"tài liệu này"*, *"kết quả này"* để câu văn xuôi tai, mềm mại và tự nhiên như lời tâm sự của một chuyên gia.
+
+> [!IMPORTANT]
+> **Quy tắc AI-Native (Cấm dùng Script/Regex cứng thay thế mù quáng):**
+> Việc quyết định khi nào giữ nguyên thuật ngữ, khi nào dịch tiếng Việt và khi nào dùng đại từ thay thế đòi hỏi sự cảm thụ ngữ cảnh thính giác sâu sắc. Phải do AI (LLM / Sub-agent) trực tiếp thẩm định và biên tập. Tuyệt đối không dùng các script `replace()` cứng toàn văn gây phá vỡ ngữ pháp và mất tự nhiên.
 
 ---
 
@@ -111,20 +133,23 @@ python .agy/skills/03_text_phonetics_normalizer/scripts/normalize_phonetics.py -
 
 ---
 
-## 5. Hướng Dẫn Kích Hoạt Sub-Agent Chuẩn Hóa Ngữ Âm Từng Chương (Contextual Phonetics Subagent)
+## 5. Hướng Dẫn Kích Hoạt Sub-Agent Chuẩn Hóa Ngữ Âm & Biên Tập Thuật Ngữ Cho Tài Liệu Dài
 
-Khi có các chương chứa nhiều thuật ngữ học thuật, địa danh cổ hoặc tên riêng phức tạp, kích hoạt Sub-agent chuyên trách ngôn ngữ học:
+Khi tài liệu/chương sách dài (> 5.000 ký tự) hoặc chứa mật độ thuật ngữ học thuật, chuyên ngành dày đặc, AI Orchestrator kích hoạt Sub-agent chuyên trách ngôn ngữ học và biên tập thính giác:
 
 ```python
 invoke_subagent(
     Subagents=[
         {
             "TypeName": "self",
-            "Role": "Contextual Phonetic Linguist [01-quy-luat-01]",
+            "Role": "Contextual Phonetic & Terminology Editor [01-quy-luat-01]",
             "Prompt": (
-                "Bạn là Chuyên gia Ngôn ngữ học & Phiên âm TTS cho chương '01-quy-luat-01'.\n"
-                "Nhiệm vụ: Đọc hiểu văn cảnh để phiên âm chính xác danh từ riêng (Pericles -> Pê-ri-clét) và chuyển đổi các con số/đơn vị đo lường trong file 'translated.txt' sang 'normalized.txt'.\n"
-                "Đảm bảo: Khử sạch ký tự cấm của TTS (ngoặc, nháy) mà vẫn giữ nguyên nhịp thở và cấu trúc ý niệm."
+                "Bạn là Chuyên gia Ngôn ngữ học & Biên tập Kịch bản Phát thanh cho chương '01-quy-luat-01'.\n"
+                "Nhiệm vụ: Đọc văn bản 'translated.txt', chuyển thành 'normalized.txt' và thực hiện:\n"
+                "1. Áp dụng Chiến lược Thuật ngữ 3 Tầng: Giữ nguyên thuật ngữ tiếng Anh/Latinh ở phần giới thiệu ban đầu hoặc đề mục mới; trong thân bài, linh hoạt chuyển ngữ sang tiếng Việt tự nhiên hoặc viết tắt tách âm phát thanh (P-M-I, W-B-S) để tránh lặp từ ngoại ngữ gây mỏi tai người nghe.\n"
+                "2. Phiên âm tên riêng quốc tế và số hóa toàn diện (num2words) các con số/đơn vị đo lường.\n"
+                "3. Khử sạch ký tự cấm TTS (ngoặc, nháy, icon gạch đầu dòng), bảo toàn marker nhịp nghỉ '. ......'.\n"
+                "LƯU Ý: Phân tích ngữ cảnh thông minh, tuyệt đối không dùng lệnh thay thế cứng làm gãy câu."
             )
         }
     ]

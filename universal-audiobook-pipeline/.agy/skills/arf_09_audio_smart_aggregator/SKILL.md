@@ -28,9 +28,15 @@ description: "Bước 9 - A.I trực tiếp phân tích các audio kịch bản 
 ### Bước 3: Thực thi
 - Chỉ sau khi phân tích logic và (tùy chọn) được User duyệt qua, A.I mới tiến hành tạo danh sách `concat` và gọi lệnh (ví dụ FFmpeg) để nối các file mini thành `Full_ChapterX_PartY.mp3`.
 
-
 ### Bước 4: Giám Sát & Nghiệm Thu (Post-Execution Validation)
 - Tuyệt đối không phó mặc cho Script. Sau khi Script/công cụ gom file chạy xong, A.I **BẮT BUỘC** phải kiểm tra lại:
   - File `Full_ChapterX...mp3` có được tạo ra không?
   - Dung lượng file có hợp lý không? (Tránh lỗi file rỗng hoặc lỗi nối file hỏng).
   - Báo cáo kết quả trực tiếp cho User để nghiệm thu.
+
+---
+
+## 2. Quy Chuẩn Lưu Trữ Tập Trung Toàn Sách (`Full-[tên-sách]`)
+
+- **Tên thư mục đích:** Toàn bộ các file audio ghép `Full_{chap_name}_{PartX}.mp3` (bản thu giọng nói thuần khiết, không nhạc nền) của toàn bộ các chương trong sách **BẮT BUỘC** được lưu tập trung vào thư mục tổng thể của cuốn sách có tên: **`Full-[tên-sách]`** (ví dụ: `Full-ProcessGroupsPracticeGuide`, `Full-Eat-that-frog`).
+- **Nghiêm cấm lưu vào thư mục chương con:** Tuyệt đối **KHÔNG lưu file Full vào thư mục riêng của từng chương**. Thư mục con của mỗi chương chỉ lưu kịch bản text, báo cáo QC và các file audio mini `audio_chunks/chunk_*.mp3`. Điều này giúp không gian làm việc luôn tinh gọn, ngăn nắp và dễ dàng kiểm âm toàn bộ các tập sách nói cùng lúc.
