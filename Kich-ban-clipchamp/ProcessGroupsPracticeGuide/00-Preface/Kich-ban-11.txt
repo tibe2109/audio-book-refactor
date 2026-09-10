@@ -1,0 +1,19 @@
+Ví dụ Phân phối Xác suất của Mốc tiến độ Mục tiêu
+Sơ đồ mười-hai mươi hai. Ma trận Đánh giá Mức độ Gắn kết của Stakeholders
+Sơ đồ mười-hai mươi ba. Chỉ số Hiệu suất Cần đạt để Hoàn thành, To-Complete Performance Index - TCPI, 
+Bảng một-một. Các yếu tố dẫn đến việc khởi chạy dự án
+Bảng một-hai. Bảng tổng quan so sánh giữa Portfolios, Programs và Projects
+Bảng một-ba. Mô tả các thành phần cốt lõi
+Bảng một-bốn. Các Nhóm quy trình và Quy trình Quản trị Dự án
+Bảng một-năm. Tài liệu Kinh doanh Dự án
+Bảng một-sáu. Kế hoạch Quản lý Dự án và Tài liệu Dự án
+Bảng hai-một. Ảnh hưởng của Cơ cấu Tổ chức đến Dự án
+Bảng ba-một. So sánh Quản lý Đội ngũ và Lãnh đạo Đội ngũ
+Bảng bốn-một. Các quy trình trong Nhóm quy trình Khởi chạy
+Bảng năm-một. Các quy trình trong Nhóm quy trình Lập kế hoạch
+Bảng sáu-một. Các quy trình trong Nhóm quy trình Thực thi
+Bảng bảy-một. Các quy trình trong Nhóm quy trình Giám sát và Kiểm soát
+Bảng tám-một. Quy trình trong Nhóm quy trình Kết thúc
+Bảng chín-một. Các thành phần của Project Charter và Mô tả Phạm vi Dự án
+Bảng chín-hai. Ví dụ về Định nghĩa Xác suất và Tác động
+Bảng mười-một. Bảng Tóm tắt các Công thức Tính toán Giá trị Thu được, Earned Value Calculations,

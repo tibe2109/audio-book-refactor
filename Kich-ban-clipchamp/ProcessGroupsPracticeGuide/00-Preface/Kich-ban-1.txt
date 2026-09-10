@@ -1,0 +1,23 @@
+LỜI MỞ ĐẦU VÀ MỤC LỤC TỔNG QUAN
+
+LỜI MỞ ĐẦU
+
+Hướng dẫn thực hành này cung cấp các thông tin bổ trợ cho tài liệu dựa trên nguyên tắc, Hướng dẫn về Những Tri thức Cốt lõi trong Quản trị Dự án, P-M-B-O-K® Guide, Xuất bản lần thứ Bảy, một, . Việc áp dụng tài liệu này phụ thuộc vào từng chuyên gia quản trị dự án, tổ chức, mô hình được lựa chọn, và cách thức điều chỉnh may đo, Tailoring, để đạt được kết quả tối ưu nhất cho dự án.
+
+Trong hướng dẫn thực hành này, các quy trình quản trị dự án được tổ chức thành năm Nhóm quy trình, Process Groups, cùng với các yếu tố Đầu vào, Inputs, Công cụ & Kỹ thuật, Tools & Techniques, và Đầu ra, Outputs, được điều chỉnh linh hoạt nhằm đáp ứng nhu cầu của tổ chức, các bên liên quan, Stakeholders, và chính dự án. Các Nhóm quy trình tương tác chặt chẽ với từng giai đoạn trong vòng đời dự án, Project Life Cycle, . Số lượng vòng lặp và sự tương tác giữa các quy trình sẽ biến đổi linh hoạt tùy theo nhu cầu thực tế của từng dự án.
+
+Đối với các tổ chức và chuyên gia quản trị dự án muốn áp dụng phương pháp tiếp cận dựa trên quy trình, hướng dẫn thực hành này sẽ làm rõ khung làm việc cơ bản dựa trên năm Nhóm quy trình Quản trị Dự án, Project Management Process Groups, sau đây,
+
+Khởi chạy, Initiating, . Bao gồm các quy trình được thực hiện để xác định một dự án mới hoặc một giai đoạn mới của dự án hiện tại thông qua việc xin phê duyệt chính thức để bắt đầu dự án hoặc giai đoạn đó.
+
+Lập kế hoạch, Planning, . Bao gồm các quy trình bắt buộc để thiết lập phạm vi dự án, làm rõ các mục tiêu, và xác định chuỗi hành động cần thiết để đạt được các mục tiêu mà dự án hướng tới.
+
+Thực thi, Executing, . Bao gồm các quy trình được thực hiện để hoàn tất toàn bộ công việc đã được xác định trong Kế hoạch Quản lý Dự án, Project Management Plan, nhằm thỏa mãn các yêu cầu của dự án.
+
+Giám sát và Kiểm soát, Monitoring and Controlling, . Bao gồm các quy trình bắt buộc để theo dõi, đánh giá và điều tiết tiến độ cũng như hiệu suất của dự án, nhận diện bất kỳ khu vực nào cần điều chỉnh kế hoạch, và khởi chạy các thay đổi tương ứng.
+
+Kết thúc, Closing, . Bao gồm các quy trình được thực hiện để hoàn thành chính thức hoặc đóng lại dự án, giai đoạn, hoặc hợp đồng.
+
+, một, Các chữ số đặt trong dấu ngoặc vuông đại diện cho danh mục tài liệu tham khảo ở cuối hướng dẫn thực hành này.
+
+MỤC LỤC TỔNG QUAN

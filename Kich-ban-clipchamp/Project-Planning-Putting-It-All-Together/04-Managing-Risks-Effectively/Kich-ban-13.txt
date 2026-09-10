@@ -1,0 +1,16 @@
+Thứ hai, các công cụ Gen A-I có tốc độ tạo nội dung dạng văn bản cực kỳ nhanh chóng. Bạn hãy chủ động thử thách nó tạo ra chính xác những gì bạn muốn, và yêu cầu nó định dạng lại nội dung dưới nhiều hình thức trình bày khác nhau, cho đến khi bạn tìm ra được cách thể hiện tối ưu nhất cho bản thân và toàn đội ngũ.
+
+Tất nhiên, việc có được một danh sách rủi ro dài dằng dặc là rất hữu ích, nhưng danh sách đó có thể không phải lúc nào cũng chứa đựng những mục thực sự phù hợp với dự án hay nhu cầu cụ thể của đội ngũ bạn, và nó hoàn toàn có thể bỏ sót những mảng trọng yếu. Đây chính là lúc bạn cần phải rà soát danh sách một cách cẩn trọng và vận dụng óc phán đoán nghề nghiệp sắc bén của chính mình.
+
+Cuối cùng, khi dự án tiếp tục phát triển và bạn phát hiện thêm những rủi ro mới ngoài thực tế, bạn hoàn toàn có thể quay trở lại trò chuyện với Gemini cùng các thông tin chi tiết này để cùng nhau động não lên phương án giảm thiểu rủi ro.
+
+Cũng giống hệt như con người, trí tuệ nhân tạo tạo sinh không thể tự mình ngăn chặn các rủi ro biến thành những vấn đề làm sụp đổ dự án, nhưng các công cụ như Gemini có thể giúp bạn luôn đi trước một bước trước những hiểm họa tiềm tàng, và năng lực chủ động đón đầu đó chính là phẩm chất cốt tử để trở thành một Project Manager xuất sắc.
+
+XÂY DỰNG KẾ HOẠCH QUẢN TRỊ RỦI RO
+. ......
+
+Bây giờ bạn đã thấu hiểu các lựa chọn để làm dịu nhẹ những rủi ro tiềm ẩn, chúng ta hãy cùng thảo luận về cách ghi chép, lập hồ sơ cho các quyết định quản lý rủi ro đó. Như bạn đã được học xuyên suốt chương trình này, việc lưu trữ hồ sơ tài liệu, tức Documentation, là một phần trách nhiệm tối quan trọng trong vai trò của một Project Manager. Điều này lại càng đặc biệt đúng đắn khi bạn nhận diện các rủi ro và lập ra một kế hoạch hành động để kiểm soát chúng.
+
+Một kế hoạch quản trị rủi ro, Risk Management Plan, là một tài liệu sống chứa đựng toàn bộ thông tin liên quan đến các rủi ro cấp cao cùng các phương án giảm thiểu chi tiết cho từng rủi ro đó. Kế hoạch này giúp đảm bảo rằng tất cả các thành viên trong đội ngũ cùng các bên liên quan đều có một sự thấu hiểu rõ ràng về những trục trặc tiềm ẩn và nắm chắc trong tay phương án xử lý nếu sự cố thực sự nảy sinh.
+
+Quản trị rủi ro là một hoạt động tác nghiệp liên tục mà bạn sẽ tham gia xuyên suốt từ giai đoạn lập kế hoạch cho tới khi kết thúc khâu thực thi dự án. Vì công tác quản lý rủi ro liên tục biến chuyển theo từng bước phát triển của dự án, bản kế hoạch này cần phải được cập nhật định kỳ để bổ sung những rủi ro mới được phát hiện, loại bỏ những rủi ro không còn liên quan, đồng thời, cập nhật bất kỳ thay đổi nào trong các giải pháp ứng phó.

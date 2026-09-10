@@ -1,0 +1,38 @@
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ D
+. ......
+
+Decision tree, tức Cây quyết định, Một lưu đồ trực quan giúp mô phỏng và hình dung những tác động lan tỏa sâu rộng của một quyết sách lên toàn bộ phần còn lại của dự án.
+
+Dependency, tức Mối phụ thuộc công việc, Mối quan hệ ràng buộc giữa hai nhiệm vụ trong dự án, trong đó việc bắt đầu hoặc hoàn thành của nhiệm vụ này phụ thuộc trực tiếp vào việc bắt đầu hoặc kết thúc của nhiệm vụ kia.
+
+Dependency graph, tức Sơ đồ mối phụ thuộc, Bản biểu đồ trực quan mô tả các mối liên kết phụ thuộc chằng chịt trong dòng chảy công việc của dự án.
+
+Direct costs, tức Chi phí trực tiếp, Những khoản chi phí phát sinh trực tiếp và gắn liền độc quyền với việc thực thi các hoạt động của dự án.
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ E
+. ......
+
+Earliest start date, tức Ngày bắt đầu sớm nhất, Trong phương pháp đường găng, đây là thời điểm sớm nhất có thể mà một nhiệm vụ cụ thể hoặc toàn bộ dự án được phép bấm nút bắt đầu.
+
+Earned value management, viết tắt là E-V-M, tức Quản trị giá trị thu được, Một kỹ thuật quản lý dự án chuẩn mực quốc tế, nơi hiệu suất thực tế về ngân sách và tiến độ được giám sát định kỳ một cách khách quan so với kế hoạch cơ sở ban đầu.
+
+Effort estimation, tức Ước tính nỗ lực, Dự báo định lượng về khối lượng công việc thực tế và độ phức tạp cần thiết để hoàn thành một nhiệm vụ.
+
+Empathy, tức Sự thấu cảm, Năng lực tâm lý thấu hiểu, đồng cảm và sẻ chia với những suy nghĩ, cảm xúc và góc nhìn của những người xung quanh.
+
+Ethical trap, tức Cạm bẫy đạo đức, Một tình huống tiến thoái lưỡng nan hoặc áp lực công việc có thể khiến một cá nhân đưa ra những quyết định sai trái, vi phạm chuẩn mực đạo đức nghề nghiệp.
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ F
+. ......
+
+Finish-to-finish, viết tắt là F-F, tức Quan hệ kết thúc đến kết thúc, Mối quan hệ phụ thuộc trong đó nhiệm vụ thứ nhất bắt buộc phải hoàn thành thì nhiệm vụ thứ hai mới có thể hoàn tất.
+
+Finish-to-start, viết tắt là F-S, tức Quan hệ kết thúc đến bắt đầu, Mối quan hệ phụ thuộc phổ biến nhất, trong đó nhiệm vụ thứ nhất bắt buộc phải kết thúc xong xuôi thì nhiệm vụ thứ hai mới được phép bắt đầu.
+
+Fishbone diagram, tức Biểu đồ xương cá, Công cụ trực quan giúp mổ xẻ các nguyên nhân gốc rễ dẫn tới một sự cố hay rủi ro, còn gọi là biểu đồ nguyên nhân và kết quả.
+
+Fixed contract, tức Hợp đồng trọn gói, Loại hợp đồng mà nhà cung cấp sẽ được chi trả một số tiền cố định khi các cột mốc sản phẩm cụ thể được nghiệm thu.
+
+Fixed costs, tức Chi phí cố định, Những khoản chi phí không thay đổi bất kể quy mô công việc hay thời gian triển khai của dự án biến động ra sao.
+
+Fixed start date, tức Ngày bắt đầu cố định, Mốc ngày bất biến bắt buộc công việc phải khởi động để có thể kịp cán đích mục tiêu chung.

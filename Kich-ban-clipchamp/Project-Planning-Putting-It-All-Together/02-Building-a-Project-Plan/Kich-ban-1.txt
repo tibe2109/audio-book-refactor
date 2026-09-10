@@ -1,0 +1,18 @@
+HỌC PHẦN HAI, XÂY DỰNG KẾ HOẠCH DỰ ÁN, BUILDING A PROJECT PLAN
+. ......
+
+GIỚI THIỆU, XÂY DỰNG KẾ HOẠCH DỰ ÁN, INTRODUCTION, BUILDING A PROJECT PLAN
+. ......
+
+Xin chào các bạn, chào mừng bạn đã quay trở lại! Trong học phần trước, chúng ta đã tìm hiểu sâu hơn về Giai đoạn Lập kế hoạch, Planning Phase, giai đoạn thứ hai trong vòng đời dự án. Chúng tôi đã giới thiệu với bạn về Cuộc họp Khởi động Dự án, Kickoff Meeting, buổi gặp gỡ chính thức đầu tiên của toàn bộ đội ngũ dự án. Chúng ta cũng đã thảo luận về các cột mốc, Milestones, các nhiệm vụ, Tasks, và cách thức thiết lập chúng một cách bài bản trong một dự án.
+
+Trong học phần tiếp theo này, chúng tôi sẽ giải thích vì sao việc xây dựng và quản lý một Kế hoạch Dự án, Project Plan, lại mang tính thiết yếu đến vậy. Chúng ta sẽ cùng nhau thảo luận về định nghĩa của một kế hoạch dự án, và tìm hiểu xem một bản kế hoạch thông thường sẽ bao gồm những gì. Điều này bao gồm bản Tiến độ Dự án, Project Schedule, kim chỉ nam đắc lực sẽ dẫn dắt đội ngũ của bạn tiến thẳng về đích đến thành công.
+
+Chúng tôi cũng sẽ chia sẻ với bạn cách thức áp dụng các phương pháp ước tính thời gian để chủ động ngăn ngừa sự thất bại của dự án. Chúng tôi sẽ giới thiệu cho bạn một vài kỹ thuật ước tính thời gian hữu ích giúp bạn xây dựng nên một bản tiến độ dự án chuẩn xác. Cuối cùng, chúng ta sẽ cùng khảo sát các công cụ và những kinh nghiệm thực tiễn tốt nhất, Best Practices, mà bạn có thể vận dụng để thiết lập một kế hoạch dự án vững vàng. Bạn đã sẵn sàng bắt đầu chưa? Hẹn gặp lại bạn ở bài học tiếp theo!
+
+CÁC THÀNH PHẦN CỐT LÕI CỦA MỘT KẾ HOẠCH DỰ ÁN, COMPONENTS OF A PROJECT PLAN
+. ......
+
+Một bản kế hoạch dự án, Project Plan, có thể mang lại giá trị to lớn cho bất kỳ dự án nào, dù quy mô lớn hay nhỏ, bởi vì, nó giúp bạn lưu trữ và hệ thống hóa toàn bộ phạm vi, Scope, các nhiệm vụ, các cột mốc và các hoạt động tổng thể của dự án. Nằm ở vị trí trung tâm của bản kế hoạch dự án chính là Tiến độ Dự án, Project Schedule. Bản tiến độ dự án có thể giúp bạn ước tính khoảng thời gian cần thiết để hoàn thành toàn bộ dự án, đồng thời, mang lại cho toàn đội một công cụ trực quan để theo dõi tiến trình thực tế so với các mục tiêu đã đề ra.
+
+Những gì được đưa vào một bản kế hoạch dự án có thể thay đổi tùy thuộc vào từng doanh nghiệp cụ thể, nhưng hầu hết các bản kế hoạch chuẩn mực đều chứa đựng năm thành phần căn bản sau đây, Nhiệm vụ, Tasks, Cột mốc, Milestones, Con người, People, Tài liệu, Documentation, và Thời gian, Time. Chúng ta hãy cùng phân tích chi tiết từng yếu tố này,

@@ -1,0 +1,11 @@
+HỌC PHẦN ĐẶC BIỆT, KIẾN TẠO TÁC ĐỘNG ĐỘT PHÁ CÙNG TRÍ TUỆ NHÂN TẠO TRONG QUẢN TRỊ DỰ ÁN, DRIVING IMPACT WITH A-I IN PROJECT MANAGEMENT
+. ......
+NÂNG TẦM KỸ NĂNG QUẢN TRỊ DỰ ÁN CÙNG TRÍ TUỆ NHÂN TẠO, BOOST YOUR PROJECT MANAGEMENT SKILLS WITH A-I
+. ......
+Trí tuệ nhân tạo, A-I, đang tạo ra một cuộc cách mạng sâu sắc làm thay đổi hoàn toàn cách chúng ta tiếp cận các công việc thường nhật, trong sự nghiệp lẫn trong cuộc sống. Việc ứng dụng A-I có thể giúp bạn giải quyết các công việc mang tính lặp lại một cách nhanh chóng vượt bậc, đồng thời, giải phóng và trao quyền để bạn dành nhiều thời gian hơn cho những nơi mà bạn có thể tạo ra tác động to lớn nhất.
+
+Hãy thử ngẫm nghĩ về một ngày làm việc điển hình của bạn, Nếu nó cũng giống như những ngày làm việc của tôi, bạn sẽ có hằng hà sa số những việc cần làm, nhưng quỹ thời gian thì dường như không bao giờ là đủ. Sẽ có những ngày mà danh sách việc cần làm, To-do list, của bạn trông như kéo dài vô tận.
+
+Nhưng điều gì sẽ xảy ra nếu như A-I có thể dang tay trợ giúp bạn? Với tư cách là một người đồng nghiệp cùng làm nghề quản lý dự án, tôi có mặt ở đây để chia sẻ với các bạn một vài tình huống thực tế mà bạn chắc chắn sẽ bắt gặp, nơi mà Trí tuệ Nhân tạo Tạo sinh, Generative A-I, hay còn gọi tắt là Gen A-I, có thể giúp bạn làm việc thông minh hơn và với tốc độ nhanh hơn rất nhiều, và tôi sẽ chỉ dẫn cho bạn chính xác cách thức thực hiện điều đó. Bạn sẽ khám phá cách vận dụng Gen A-I để hỗ trợ soạn thảo một Bản Hiến chương Dự án, Project Charter, điều hành những cuộc họp hiệu quả cao, và nhiều điều tuyệt vời hơn thế nữa.
+
+Tên tôi là Ben, hiện là Quản lý Chương trình Cán sự, Staff Program Manager, thuộc đội ngũ Google Cloud. Trong vai trò của mình, tôi đã từng trực tiếp bàn giao rất nhiều dự án tầm cỡ, như việc phát triển các tính năng mạng đám mây, Cloud Networking, và xây dựng chương trình đào tạo tập huấn cho hàng nghìn nhà quản lý chương trình trên toàn tập đoàn Google. Trí tuệ nhân tạo tạo sinh đã giúp tôi làm việc năng suất hơn và sáng tạo hơn bội phần, vì vậy, tôi vô cùng hào hứng được chia sẻ với các bạn cách tôi đang ứng dụng nó mỗi ngày.

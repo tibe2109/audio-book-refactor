@@ -1,0 +1,148 @@
+Closing Process Group
+The process in the Closing Process Group is shown in Table 8-1.
+Table 8-1. Closing Process Group Process
+Closing Processes
+8.1 Close Project or Phase
+The Closing Process Group consists of the process(es) performed to formally complete or close
+a project, phase, or contract. This Process Group verifies that the defined processes are completed
+within all Process Groups to close the project or phase, as appropriate, and formally establishes
+that the project or project phase is complete. The key benefit of this Process Group is that phases,
+projects, and contracts are closed out appropriately. While there is only one process in this Process
+Group, organizations may have their own processes associated with project, phase, or contract
+closure. Therefore, the term Process Group is maintained.
+This Process Group may also address the early closure of the project, for example, aborted
+projects or canceled projects.
+8.1 CLOSE PROJECT OR PHASE
+Close Project or Phase is the process of finalizing all activities for the project, phase, or contract.
+The key benefits of this process are the project or phase information is archived, the planned work
+is completed, and organizational team resources are released to pursue new endeavors.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 8-1. Figure 8-2 presents the data flow diagram for
+the process.
+Close Project or Phase
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Project documents updates
+2. Project management plan 2. Data analysis • Lessons learned register
+• All components • Document analysis 2. Final product, service, or
+3. Project documents • Regression analysis result transition
+• Assumption log • Trend analysis 3. Final report
+• Basis of estimates • Variance analysis 4. Organizational process assets
+• Change log 3. Meetings updates
+• Issue log
+• Lessons learned register
+• Milestone list
+• Project communications
+• Quality control
+measurements
+• Quality reports
+• Requirements
+documentation
+• Risk register
+• Risk report
+4. Accepted deliverables
+5. Business documents
+• Business case
+• Benefits management plan
+6. Agreements
+7. Procurement documentation
+8. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used
+for this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for
+tools and techniques appear in Section 10.
+Figure 8-1. Close Project or Phase: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop
+Project Charter
+• Project Charter
+Project
+Management
+Plan
+Project management plan Customer
+• All components • Final product, service, or
+result transition
+Project
+Documents
+Project
+8.1
+Project documents Close Project documents updates Documents
+• Assumption log Project or • Lessons learned register
+• Basis of estimates
+• Change log Phase
+• Issue log
+• Lessons learned register
+• Milestone list
+• Project communications
+• Quality control measurements
+• Quality reports
+• Requirements documentation Enterprise/
+• Risk register Organization
+• Risk report • Final report
+• Organizational process
+assets updates
+7.3
+Validate
+Scope
+• Accepted deliverables
+5.23
+6.9
+Plan Project Enterprise/
+Conduct
+Procurement Documents Organization
+Procurements
+Management
+• Procurement documentation • Agreements • Business case • Organizational process assets
+• Benefits management plan
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 8-2. Close Project or Phase: Data Flow Diagram
+When closing a project, the project manager reviews the project management plan to ensure
+that all project work is completed and that the project has met its objectives. The activities necessary
+for the administrative closure of the project or phase include, but are not limited to:
+▶ Actions and activities necessary to satisfy completion or exit criteria for the phase or
+project, such as:
+▹
+Make certain that all documents and deliverables are up to date and that all issues
+are resolved.
+▹
+Confirm the delivery and formal acceptance of deliverables by the customer.
+▹
+Ensure that all costs are charged to the project.
+▹
+Close project accounts.
+▹
+Reassign personnel.
+▹
+Deal with the excess project material.
+▹
+Reallocate project facilities, equipment, and other resources.
+▹
+Elaborate the final project reports as required by organizational policies.
+▶ Activities related to the completion of the contractual agreements applicable to the project
+or project phase, such as:
+▹
+Confirm the formal acceptance of the seller’s work.
+▹
+Finalize open claims.
+▹
+Update records to reflect final results.
+▹
+Archive such information for future use.
+▶ Activities needed to:
+▹
+Collect project or phase records.
+▹
+Audit project success or failure.
+▹
+Manage knowledge sharing and transfer.
+▹
+Identify lessons learned.
+▹
+Archive project information for future use by the organization.
+▶ Actions and activities necessary to transfer the project’s products, services, or results to
+the next phase or to production and/or operations.
+▶ Collection of suggestions for improving or updating the policies and procedures of the
+organization and sending them to the appropriate organizational unit.
+▶ Actions and activities to measure stakeholder satisfaction.
+The Close Project or Phase process also establishes the procedures to investigate and document
+the reasons for actions taken when a project is terminated before completion. To successfully achieve
+this, the project manager needs to engage all of the proper stakeholders in the process.

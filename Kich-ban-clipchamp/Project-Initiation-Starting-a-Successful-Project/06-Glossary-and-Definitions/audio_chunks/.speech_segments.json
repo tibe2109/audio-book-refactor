@@ -1,0 +1,982 @@
+{
+  "Kich-ban-1.txt": [
+    {
+      "lang": "vi",
+      "text": "BẢNG THUẬT NGỮ KHÓA HỌC HAI, THUẬT NGỮ VÀ ĐỊNH NGHĨA QUẢN TRỊ DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "COURSE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "HAI",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "GLOSSARY, PROJECT MANAGEMENT TERMS AND DEFINITIONS",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "BẢNG THUẬT NGỮ KHÓA HỌC HAI, THUẬT NGỮ VÀ ĐỊNH NGHĨA QUẢN TRỊ DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "COURSE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "HAI",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "GLOSSARY, PROJECT MANAGEMENT TERMS AND DEFINITIONS",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER A,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "CHỮ CÁI A.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Adoption,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Sự tiếp nhận, Đề cập đến cách thức khách hàng sử dụng và thích ứng với một sản phẩm hoặc dịch vụ mà không gặp bất kỳ trở ngại nào. Asana, Nền tảng quản lý công việc giúp các đội ngũ lập kế hoạch và phối hợp công việc hiệu quả, đặc biệt hữu ích để xây dựng kế hoạch dự án, phân công nhiệm vụ, tự động hóa quy trình làm việc, theo dõi tiến độ và giao tiếp với các bên liên quan.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER B,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "CHỮ CÁI",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "B",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Benchmark,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Điểm chuẩn đối sánh, Một mốc hoặc điểm tham chiếu chuẩn mực được sử dụng để so sánh và đánh giá.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Benefits,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Lợi ích dự án, Những giá trị hoặc lợi ích kỳ vọng mà một dự án sẽ mang lại.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Budget,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Ngân sách, Bản dự toán tổng số tiền cần chi trả để hoàn thành một dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Business case,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Hồ sơ biện giải kinh doanh, Lý do và căn cứ thực tiễn để khởi xướng một dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "C, CHỮ CÁI C.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Collaboration tools,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Công cụ cộng tác, Các công cụ được sử dụng để trao đổi nhanh chóng và hiệu quả với các thành viên trong nhóm về các câu hỏi, ý kiến đóng góp và những chủ đề khác liên quan đến dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Conditional formatting,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Định dạng có điều kiện, Tính năng tự động đổi màu hoặc gắn mã màu cho các ô trong bảng tính dựa trên những điều kiện cụ thể.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Cost-benefit analysis,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Phân tích Chi phí - Lợi ích, Quy trình tổng hợp toàn bộ giá trị kỳ vọng của một dự án, tức các lợi ích thu được, rồi so sánh chúng với các chi phí tài chính bằng tiền mặt.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Customers,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Khách hàng, Những người sẽ nhận được giá trị cụ thể từ một dự án được triển khai và hoàn thành thành công.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "D, CHỮ CÁI D.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Data validation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Xác thực dữ liệu, Tính năng tạo danh sách thả xuống trong các ô của bảng tính nhằm chuẩn hóa và kiểm soát dữ liệu nhập vào.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Deliverable,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Kết quả bàn giao, Một kết quả hữu hình từ dự án, chính là sản phẩm được tạo ra hoặc trình bày khi kết thúc một nhiệm vụ, một sự kiện hoặc một quy trình.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Docs,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Ứng dụng soạn thảo và xử lý văn bản kỹ thuật số trực tuyến của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-2.txt": [
+    {
+      "lang": "en",
+      "text": "LETTER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "E, CHỮ CÁI E.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Engagement,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Mức độ gắn kết, Đề cập đến tần suất hoặc mức độ ý nghĩa trong các tương tác và sự tham gia của khách hàng theo thời gian.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER F,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "CHỮ CÁI",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "F",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Function,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Hàm tính toán, Tính năng khởi tạo các công thức được sử dụng để xử lý dữ liệu và thực hiện các phép tính trong bảng tính.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "G, CHỮ CÁI G.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt chart,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Biểu đồ thanh ngang trực quan hóa các nhiệm vụ của dự án, phân định rõ ràng ai là người chịu trách nhiệm cho từng công việc và thời hạn hoàn thành các nhiệm vụ đó.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "H, CHỮ CÁI H.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Header,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Tiêu đề cột, Ô hoặc các ô trên cùng của một cột trong bảng tính dùng để định danh dữ liệu của cột đó.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "I, CHỮ CÁI I.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Influence,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Mức độ ảnh hưởng, Thước đo quyền lực của một bên liên quan và mức độ tác động từ các hành động của họ đối với kết quả cuối cùng của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Initiation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Giai đoạn Khởi tạo, Giai đoạn đầu tiên trong vòng đời dự án, tiếp theo sau là các giai đoạn lập kế hoạch, thực thi và đóng dự án. In-scope, Trong phạm vi dự án, Các nhiệm vụ được bao gồm trong kế hoạch dự án và đóng góp trực tiếp vào mục tiêu chung của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Intangible benefits,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Lợi ích vô hình, Những giá trị thu được không thể đo lường hoặc định lượng bằng con số cụ thể, chẳng hạn, như sự hài lòng của khách hàng, tinh thần nhân viên hoặc mức độ nhận diện thương hiệu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Intangible costs,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Chi phí vô hình, Những tổn thất khó có thể định lượng bằng tiền, chẳng hạn, như sự suy giảm nhuệ khí của nhân viên hoặc thiệt hại về uy tín thương hiệu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Interest,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Mức độ quan tâm, Đề cập đến mức độ mà các nhu cầu và lợi ích của bên liên quan sẽ bị tác động bởi kết quả của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER K,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "CHỮ CÁI",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "K",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Key results,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Các kết quả then chốt, Phần thành phần trong mô hình",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "O-K-R",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "mô tả các kết quả có thể đo lường được, giúp xác định một cách khách quan thời điểm mục tiêu đã được hoàn thành.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Key stakeholders,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Các bên liên quan trọng yếu, Những người có mức độ ảnh hưởng và mức độ quan tâm cao nhất đối với một dự án, còn được gọi là những nhân vật chủ chốt.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER L,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "CHỮ CÁI",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "L",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Land,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Cán đích dự án, Việc đo lường mức độ thành công của một dự án dựa trên các tiêu chí thành công đã được thiết lập ngay từ khi bắt đầu dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Launch,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Phát hành dự án, Việc bàn giao và chuyển giao kết quả cuối cùng của một dự án tới khách hàng hoặc người dùng cuối.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "M, CHỮ CÁI M.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Materials,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Vật tư, nguyên vật liệu, Các hạng mục vật chất cần thiết để hỗ trợ hoàn thành dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Metrics,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Số liệu đo lường, Dữ liệu được sử dụng để lượng hóa một đối tượng hoặc một chỉ số nào đó, chẳng hạn, như các con số hoặc số liệu thống kê.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-3.txt": [
+    {
+      "lang": "en",
+      "text": "LETTER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "O, CHỮ CÁI O.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Objective,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Mục tiêu, Phần thành phần trong mô hình",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "O-K-R",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "xác định những gì cần phải đạt được và mô tả kết quả mong muốn hướng tới.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Objectives and key results, O-K-R",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "- Mục tiêu và Các kết quả then chốt, Sự kết hợp giữa một mục tiêu định tính và một thước đo định lượng để xác định một kết quả có thể đo lường được.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Out-of-scope,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Ngoài phạm vi dự án, Các nhiệm vụ không nằm trong kế hoạch dự án và không đóng góp trực tiếp vào mục tiêu của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "P, CHỮ CÁI P.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Pivot table,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Bảng tổng hợp động, Một công cụ phân tích cơ bản được sử dụng để tóm tắt dữ liệu và thể hiện mối quan hệ giữa các điểm dữ liệu, giúp việc thấu hiểu thông tin trong bảng tính trở nên dễ dàng hơn.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Power grid,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Lưới quyền lực, Ma trận hai nhân hai được sử dụng để thực hiện phân tích các bên liên quan, thể hiện mức độ quan tâm của bên liên quan đối với dự án so với mức độ ảnh hưởng của họ lên dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Primary stakeholders,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Các bên liên quan trực tiếp, Những người sẽ hưởng lợi trực tiếp từ sự thành công của một dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Productivity tools,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Công cụ nâng cao năng suất, Các công cụ được sử dụng để quản lý các nhiệm vụ của dự án, bao gồm phần mềm soạn thảo văn bản, bảng tính và phần mềm trình chiếu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project charter,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Bản điều lệ dự án, Văn bản chính thức định nghĩa rõ ràng các chi tiết cốt lõi và then chốt của một dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project goal,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Mục tiêu dự án, Kết quả đầu ra mong muốn cần đạt được của một dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Người quản lý dự án, Người chịu trách nhiệm lập kế hoạch, tổ chức và giám sát toàn bộ tiến trình của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project proposal,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đề xuất dự án, Tài liệu được soạn thảo vào thời điểm bắt đầu một dự án, khởi động giai đoạn khởi tạo bằng cách thuyết phục và tác động để doanh nghiệp đồng ý phê duyệt triển khai dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project sponsor,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Nhà tài trợ dự án, Người chịu trách nhiệm giải trình cao nhất đối với dự án và đảm bảo rằng dự án sẽ mang lại những lợi ích kinh doanh như đã thỏa thuận.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER R,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "CHỮ CÁI",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-A-C-I chart,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Ma trận",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-A-C-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Sơ đồ trực quan giúp phân định vai trò và trách nhiệm cho từng cá nhân hoặc đội ngũ nhằm đảm bảo công việc được thực hiện hiệu quả, phân định rõ ai là người trực tiếp thực hiện nhiệm vụ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Responsible,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "ai chịu trách nhiệm giải trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Accountable,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "ai cần tham vấn ý kiến,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Consulted,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và ai cần được cập nhật thông tin,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Informed. Return on investment, R-O-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "- Tỷ suất hoàn vốn đầu tư, Chỉ số tài chính được sử dụng để tính toán mức lợi nhuận thu về từ một khoản đầu tư so với chi phí đã bỏ ra.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Resources,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Nguồn lực dự án, Bao gồm ngân sách, nhân sự, nguyên vật liệu và các yếu tố cần thiết khác để vận hành dự án.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-4.txt": [
+    {
+      "lang": "en",
+      "text": "LETTER S,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "CHỮ CÁI",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scheduling and work management software,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Phần mềm lập lịch và quản lý công việc, Các công cụ được sử dụng để phân công nhiệm vụ cho nhiều thành viên trong nhóm, đồng thời, theo dõi và trực quan hóa tiến độ công việc, đặc biệt hữu ích cho các dự án quy mô lớn với khối lượng công việc đồ sộ và đội ngũ nhân sự đông đảo.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Scope,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Phạm vi dự án, Ranh giới xác định của một dự án, sự thống nhất chung giữa các bên về những hạng mục nào được bao gồm và những hạng mục nào bị loại trừ khỏi dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Scope creep,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Hiện tượng phình to phạm vi, Những thay đổi, sự phát sinh vượt mức và các yếu tố mất kiểm soát làm ảnh hưởng đến phạm vi của dự án tại bất kỳ thời điểm nào sau khi dự án đã bắt đầu triển khai.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Scope management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Quản lý phạm vi, Việc thấu hiểu và đàm phán về cách thức các thay đổi sẽ được đánh giá, phê duyệt và thực hiện trong suốt dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Silo,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Tình trạng cô lập thông tin, Tình huống mà kiến thức chuyên môn và trách nhiệm đối với một nhiệm vụ chỉ tập trung vào một cá nhân duy nhất, gây tắc nghẽn và thiếu sự chia sẻ trong tổ chức.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Secondary stakeholders,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Các bên liên quan gián tiếp, Những người chịu ảnh hưởng gián tiếp từ sự thành công hay thất bại của một dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Slides,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Ứng dụng thuyết trình và trình chiếu kỹ thuật số trực tuyến của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google. S-M-A-R-T goals,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Mục tiêu thông minh",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S-M-A-R-T,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Phương pháp thiết lập và đánh giá mục tiêu, quy định rằng các mục tiêu cần phải cụ thể,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Specific,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đo lường được,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Measurable,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "khả thi,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Attainable,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "phù hợp thực tế,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Relevant,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và có thời hạn xác định,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Time-bound. Spreadsheet,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Bảng tính điện tử, Công cụ được sử dụng để tổ chức, chuyển đổi, trực quan hóa và thao tác dữ liệu, hữu ích cho nhiều tác vụ đa dạng như tạo mốc thời gian, vẽ biểu đồ, quản lý ngân sách và theo dõi nhiệm vụ.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Stakes,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Lợi ích rủi ro, Những phần trọng yếu của một doanh nghiệp, một tình huống hoặc một dự án có thể gặp rủi ro tổn thất nếu có sự cố phát sinh.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Stakeholders,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Các bên liên quan, Bất kỳ ai tham gia vào dự án hoặc có lợi ích gắn liền mật thiết với sự thành công của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Stakeholder analysis,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Phân tích các bên liên quan, Sơ đồ trực quan hóa tất cả các bên liên quan, thể hiện rõ bên nào đang đảm nhận những trách nhiệm cụ thể nào, còn được gọi là lập bản đồ các bên liên quan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "stakeholder mapping.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-5.txt": [
+    {
+      "lang": "en",
+      "text": "Stakeholder",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "buy-in, Sự đồng thuận của các bên liên quan, Quá trình thu hút và gắn kết các bên liên quan vào việc ra quyết định nhằm đạt được sự đồng thuận rộng rãi hơn về định hướng tương lai của tổ chức.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Steering committee,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Ban chỉ đạo dự án, Cơ quan ra quyết định cấp cao nhất trong bất kỳ dự án nào, họ nắm giữ quyền hạn phê duyệt các thay đổi về ngân sách, điều chỉnh tiến độ hoặc mở rộng phạm vi dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Success criteria,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Tiêu chí thành công, Các tiêu chuẩn và thước đo chuẩn mực dùng để đánh giá mức độ thành công của một dự án trong việc đạt được các mục tiêu đã đề ra.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "LETTER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "T, CHỮ CÁI T.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Team members,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Thành viên nhóm dự án, Những người trực tiếp thực hiện các công việc hàng ngày và biến kế hoạch dự án thành hiện thực.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Tools,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Công cụ hỗ trợ, Các phương tiện trợ giúp giúp người quản lý dự án hoặc đội ngũ dễ dàng quản lý nguồn lực và tổ chức sắp xếp công việc.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Triple constraint,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Bộ ba ràng buộc cốt lõi, Sự kết hợp của ba ràng buộc quan trọng và mang tính chi phối nhất trong bất kỳ dự án nào, bao gồm, phạm vi, thời gian và chi phí.",
+      "pause_type": "terminal"
+    }
+  ]
+}

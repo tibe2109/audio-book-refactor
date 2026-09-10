@@ -1,0 +1,22 @@
+Single point of failure, tức Điểm lỗi đơn lẻ, Một rủi ro mang tính chí mạng có tiềm năng gây ra thảm họa làm tê liệt và đình trệ toàn bộ hoạt động của cả dự án.
+
+Slack, tức Khoảng thời gian chậm trễ cho phép, Khoảng thời gian một nhiệm vụ có thể bị trì hoãn so với ngày bắt đầu sớm nhất của nó mà không làm trễ hạn chót của toàn dự án, đồng nghĩa với Float.
+
+Soft skills, tức Kỹ năng mềm, Những phẩm chất cá nhân, kỹ năng giao tiếp và ứng xử giúp con người làm việc hòa hợp và hiệu quả với những người xung quanh.
+
+Sole-supplier sourcing, tức Chỉ định thầu một nhà cung cấp duy nhất, Tình huống doanh nghiệp giới hạn quy trình chào thầu cho một nhà cung cấp duy nhất, loại bỏ hoàn toàn yếu tố cạnh tranh giá.
+
+Start-to-finish, viết tắt là S-F, tức Quan hệ bắt đầu đến kết thúc, Mối quan hệ phụ thuộc trong đó nhiệm vụ thứ nhất bắt buộc phải bắt đầu thì nhiệm vụ thứ hai mới có thể hoàn tất.
+
+Start-to-start, viết tắt là S-S, tức Quan hệ bắt đầu đến bắt đầu, Mối quan hệ phụ thuộc trong đó nhiệm vụ thứ hai không thể bấm nút khởi động chừng nào nhiệm vụ thứ nhất chưa bắt đầu.
+
+Statement of work, viết tắt là S-O-W, tức Bản mô tả phạm vi công việc, Tài liệu pháp lý quy định rõ ràng những sản phẩm, dịch vụ và tiêu chuẩn nghiệm thu mà nhà thầu phải cung cấp cho doanh nghiệp.
+
+Subtasks, tức Các nhiệm vụ con, Những phần việc nhỏ hơn được chia tách từ một đầu việc lớn để dễ dàng quản lý và hoàn thành.
+
+Subject matter expert, viết tắt là S-M-E, tức Chuyên gia chuyên môn sâu, Thành viên có hiểu biết uyên thâm, kinh nghiệm thực chiến dày dạn về một công việc, quy trình, công nghệ hoặc lĩnh vực chuyên biệt.
+
+Summary task, tức Nhiệm vụ tóm tắt, Đề mục lớn ở cấp cao nhất trong kế hoạch dự án dùng để nhóm và bao hàm một tập hợp các nhiệm vụ con bên dưới.
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ T
+. ......

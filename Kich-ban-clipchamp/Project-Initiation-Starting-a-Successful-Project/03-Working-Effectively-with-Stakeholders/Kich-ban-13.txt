@@ -1,0 +1,13 @@
+Bạn sẽ không muốn lãng phí thời gian đi sâu vào các chi tiết vi mô với những bên liên quan chỉ đơn thuần cần một bản tóm tắt tổng quan dự án. Ví dụ, đội ngũ cơ sở vật chất chịu trách nhiệm vận chuyển sản phẩm không hề có nhu cầu nhận các báo cáo cập nhật hàng ngày về biểu giá của nhà cung cấp hay những lỗi kỹ thuật trên trang web. Ở chiều ngược lại, hãy dành thời gian thỏa đáng để cập nhật cho các thành viên chủ chốt thực sự cần thông tin thường xuyên. Đội ngũ bán hàng sẽ cần nắm bắt ngay lập tức những biến động về giá cả và tình trạng nguồn hàng sẵn có, vì vậy, một cuộc họp điểm danh tiến độ hàng tuần sẽ là phương án vô cùng hợp lý trong trường hợp này.
+
+Làm tốt lắm! Bạn vừa hoàn thành bản phân tích các bên liên quan của riêng mình. Trong phần tiếp theo, chúng ta sẽ cùng nhau tìm hiểu một công cụ đắc lực khác, đó là lập ma trận R-A-C-I. Hẹn gặp lại các bạn ở phần sau nhé!
+
+CÁC THÀNH PHẦN CỦA MA TRẬN R-A-C-I, ELEMENTS OF A R-A-C-I CHART
+. ......
+Trong video trước, chúng ta đã thấy bản phân tích các bên liên quan chỉ dẫn cho chúng ta cách tốt nhất để phối hợp nhịp nhàng với các bên liên quan, cũng như thời điểm thích hợp để liên lạc với tất cả những con người khác nhau tham gia vào dự án. Trong video này, chúng ta sẽ cùng khám phá một công cụ vô cùng tiện dụng khác mang tên ma trận phân công trách nhiệm R-A-C-I, R-A-C-I Chart, Responsible, Accountable, Consulted, Informed. Ma trận R-A-C-I giúp xác định rành mạch các vai trò và trách nhiệm cho từng cá nhân hoặc đội nhóm, nhằm bảo đảm công việc được hoàn thành một cách hiệu quả nhất. Nó tạo ra các vai trò rõ ràng và đưa ra định hướng cụ thể cho từng thành viên trong nhóm.
+
+Có bốn mức độ tham gia được quy định trong một ma trận R-A-C-I, tương ứng với bốn chữ cái, Người thực hiện, Responsible, Người chịu trách nhiệm giải trình, Accountable, Người được tham vấn, Consulted, và Người được thông báo, Informed. Chúng ta hãy cùng bóc tách từng vai trò nhé.
+Chữ R - Người thực hiện, Responsible, chỉ những người trực tiếp bắt tay vào làm việc để hoàn thành nhiệm vụ.
+Chữ A - Người chịu trách nhiệm giải trình, Accountable, chỉ cá nhân có trách nhiệm bảo đảm công việc phải được hoàn thành đúng yêu cầu.
+Chữ C - Người được tham vấn, Consulted, bao gồm những người đưa ra ý kiến phản hồi và đóng góp chuyên môn, chẳng hạn, như các chuyên gia đầu ngành hoặc các nhà ra quyết định.
+Và cuối cùng là chữ I - Người được thông báo, Informed, bao gồm những người chỉ cần được biết các quyết định cuối cùng hoặc nắm được thông tin rằng nhiệm vụ đó đã được hoàn thành.

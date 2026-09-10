@@ -1,0 +1,37 @@
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ R
+. ......
+
+Reforecast, tức Tái dự báo ngân sách, Hoạt động lập ra một bản dự toán ngân sách điều chỉnh riêng biệt dựa trên tình hình theo dõi chi tiêu thực tế của dự án.
+
+Request for proposal, viết tắt là R-F-P, tức Yêu cầu đề xuất, Tài liệu chính thức do doanh nghiệp phát hành mô tả chi tiết yêu cầu dự án để mời các nhà thầu gửi hồ sơ giải pháp và báo giá.
+
+Reserve analysis, tức Phân tích dự phòng, Phương pháp kiểm toán, đánh giá định kỳ lượng ngân sách và thời gian dự phòng còn lại của dự án so với các rủi ro còn tiềm ẩn.
+
+Resource cost rate, tức Đơn giá nguồn lực, Chi phí đơn vị để sử dụng một nguồn lực cụ thể, chẳng hạn, như tiền công theo giờ của một chuyên gia hoặc phí thuê thiết bị theo ngày.
+
+Risk, tức Rủi ro, Một biến cố tiềm tàng có khả năng xảy ra trong tương lai và gây ảnh hưởng đến kết quả của dự án.
+
+Risk appetite, tức Khẩu vị rủi ro, Mức độ sẵn lòng chấp nhận những hệ quả và tổn thất tiềm tàng từ rủi ro của một tổ chức hoặc doanh nghiệp.
+
+Risk assessment, tức Đánh giá rủi ro, Giai đoạn trong quy trình quản trị rủi ro nơi các đặc tính về xác suất và mức độ tác động của rủi ro được ước lượng và đo lường.
+
+Risk management, tức Quản trị rủi ro, Toàn bộ tiến trình mang tính hệ thống nhằm nhận diện, đánh giá và áp dụng các giải pháp kiểm soát các rủi ro và sự cố tiềm ẩn của dự án.
+
+Risk management plan, tức Kế hoạch quản trị rủi ro, Một tài liệu sống chứa đựng thông tin về các rủi ro đã nhận diện, các ước tính về xác suất và tác động, cùng các phương án giảm thiểu chi tiết cho từng rủi ro đó.
+
+Risk register, tức Sổ đăng ký rủi ro, Bảng biểu hoặc biểu đồ tổng hợp danh mục toàn bộ các rủi ro của dự án kèm theo các mức xếp hạng và biện pháp kiểm soát.
+
+Root cause, tức Nguyên nhân gốc rễ, Cội nguồn sâu xa ban đầu kích hoạt một tình huống dẫn tới sự xuất hiện của rủi ro.
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ S
+. ......
+
+Schedule, tức Lịch trình tiến độ, Dòng thời gian của dự án, bao gồm ngày bắt đầu, ngày kết thúc và các mốc ngày diễn ra các sự kiện công việc ở giữa.
+
+Schedule performance index, viết tắt là S-P-I, tức Chỉ số hiệu suất tiến độ, Tỷ số giữa tỷ lệ phần trăm công việc thực tế đã hoàn thành so với kế hoạch tiến độ đã cam kết, phản ánh dự án đang chạy nhanh hay chậm hơn kế hoạch.
+
+Schedule variance, viết tắt là S-V, tức Chênh lệch tiến độ, Khoảng chênh lệch giữa khối lượng công việc dự kiến hoàn thành so với khối lượng thực tế đã hoàn tất tại một thời điểm nhất định.
+
+Scope risk, tức Rủi ro phạm vi, Khả năng dự án sẽ không tạo ra được những kết quả đầu ra đúng như đã cam kết trong mục tiêu dự án ban đầu.
+
+Sequential tasks, tức Các nhiệm vụ tuần tự, Những công việc bắt buộc phải được triển khai và hoàn thành theo một trình tự nghiêm ngặt trước sau.

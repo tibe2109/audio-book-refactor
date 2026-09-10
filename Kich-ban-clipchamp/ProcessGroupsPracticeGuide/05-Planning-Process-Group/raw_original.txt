@@ -1,0 +1,1839 @@
+Planning Process Group
+The processes in the Planning Process Group are shown in Table 5-1.
+Table 5-1. Planning Process Group Processes
+Planning Processes
+5.1 Develop Project Management Plan 5.13 Determine Budget
+5.2 Plan Scope Management 5.14 Plan Quality Management
+5.3 Collect Requirements 5.15 Plan Resource Management
+5.4 Define Scope 5.16 Estimate Activity Resources
+5.5 Create WBS 5.17 Plan Communications Management
+5.6 Plan Schedule Management 5.18 Plan Risk Management
+5.7 Define Activities 5.19 Identify Risks
+5.8 Sequence Activities 5.20 Perform Qualitative Risk Analysis
+5.9 Estimate Activity Durations 5.21 Perform Quantitative Risk Analysis
+5.10 Develop Schedule 5.22 Plan Risk Responses
+5.11 Plan Cost Management 5.23 Plan Procurement Management
+5.12 Estimate Costs 5.24 Plan Stakeholder Engagement
+The Planning Process Group consists of those processes that establish the total scope of the
+effort, define and refine the objectives, and develop the course of action required to attain those
+objectives. The processes in the Planning Process Group develop the components of the project
+management plan and the project documents used to carry out the project. The nature of a project
+may require the use of repeated feedback loops for additional analysis. As more project information
+or characteristics are gathered and understood, additional planning will likely be required. Significant
+changes that occur throughout the project life cycle may initiate a need to revisit one or more of the
+planning processes and, possibly, one or both of the Initiating processes. This ongoing refinement
+of the project management plan is called progressive elaboration, indicating that planning and
+documentation are iterative or ongoing activities. The key benefit of this Process Group is to define
+the course of action to successfully complete the project or phase.
+The project management team seeks input and encourages involvement from relevant
+stakeholders while planning the project and developing the project management plan and project
+documents. When the initial planning effort is completed, the approved version of the project
+management plan is considered a baseline. Throughout the project, the Monitoring and Controlling
+processes compare the project performance to the baselines.
+The Planning Process Group project management processes are described in Sections 5.1
+through 5.24.
+5.1 DEVELOP PROJECT MANAGEMENT PLAN
+Develop Project Management Plan is the process of defining, preparing, and coordinating all
+plan components and consolidating them into an integrated project management plan. The key
+benefit of this process is the production of a comprehensive document that defines the basis of all
+project work and how the work will be performed.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-1. Figure 5-2 presents the data flow diagram for
+this process.
+Develop Project Management Plan
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Project management plan
+2. Outputs from other processes 2. Data gathering
+3. Enterprise environmental • Brainstorming
+factors • Checklists
+4. Organizational process assets • Focus groups
+• Interviews
+3. Interpersonal and team skills
+• Conflict management
+• Facilitation
+• Meeting management
+4. Meetings
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-1. Develop Project Management Plan: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop Project
+Charter
+• Project charter
+5.1 Project
+Outputs from Develop Project Management
+Other Processes Mana P g la e n • m Pr e o n je t ct • Project management plan Plan
+charter
+• Any baseline or
+component plan
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-2. Develop Project Management Plan: Data Flow Diagram
+The project management plan defines how the project is
+Projects that exist in the executed, monitored and controlled, and closed. The project
+context of a program or management plan’s content varies depending on the application
+portfolio should develop area and complexity of the project.
+a project management plan that
+The project management plan may be either summary
+is consistent with the program
+level or detailed. Each component plan is described to the
+or portfolio management plan.
+extent required by the specific project. The project management
+For example, if the program
+plan should be robust enough to respond to an ever-changing
+management plan indicates all project environment. This agility may result in more accurate
+changes exceeding a specified information as the project progresses.
+cost need to be reviewed by the
+The project management plan should be baselined;
+change control board (CCB), then
+that is, it is necessary to define at least the project
+this process and cost threshold
+references for scope, time, and cost, so that the project
+need to be defined in the project
+execution can be measured and compared to those
+management plan.
+references and performance can be managed. Before the
+baselines are defined, the project management plan may be
+updated as many times as necessary. No formal process is
+required at that time. But, once it is baselined, it may only
+be changed through the Perform Integrated Change Control
+process. Consequently, change requests will be generated
+and decided upon whenever a change is requested. This
+results in a project management plan that is progressively
+elaborated by controlled and approved updates extending
+through project closure.
+5.2 PLAN SCOPE MANAGEMENT
+Plan Scope Management is the process of creating a scope management plan that documents
+how the project and product scope will be defined, validated, and controlled. The key benefit
+of this process is that it provides guidance and direction on how scope will be managed throughout
+the project.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in in Figure 5-3. Figure 5-4 presents the data flow diagram for
+this process.
+Plan Scope Management
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Scope management plan
+2. Project management plan 2. Data analysis 2. Requirements management
+• Quality management plan • Alternatives analysis plan
+• Project life cycle description 3. Meetings
+• Development approach
+3. Enterprise environmental
+factors
+4. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-3. Plan Scope Management: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop Project
+Charter
+• Project charter
+Project 5.2 Project
+Management Plan Scope Management
+Plan Manage•m Preonjetct • Scope management plan Plan
+charter • Requirements
+management plan
+• Quality management plan
+• Project life cycle description
+• Development approach
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-4. Plan Scope Management: Data Flow Diagram
+The scope management plan is a component of the project or program management plan
+that describes how the scope will be defined, developed, monitored, controlled, and validated. The
+development of the scope management plan and the detailing of the project scope begin with the
+analysis of information contained in the project charter, the latest approved subsidiary plans of the
+project management plan, historical information contained in the organizational process assets,
+and any other relevant enterprise environmental factors.
+5.3 COLLECT REQUIREMENTS
+Collect Requirements is the process of determining, documenting, and managing stakeholder
+needs and requirements to meet objectives. The key benefit of this process is that it provides the
+basis for defining the product scope and project scope.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-5. Figure 5-6 presents the data flow diagram for
+this process.
+Collect Requirements
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Requirements documentation
+2. Project management plan 2. Data gathering 2. Requirements traceability
+• Scope management plan • Brainstorming matrix
+• Requirements management • Interviews
+plan • Focus groups
+• Stakeholder engagement • Questionnaires and
+plan surveys
+3. Project documents • Benchmarking
+• Assumption log 3. Data analysis
+• Lessons learned register • Document analysis
+• Stakeholder register 4. Decision making
+4. Business documents • Voting
+• Business case • Multicriteria decision
+5. Agreements analysis
+6. Enterprise environmental 5. Data representation
+factors • Affinity diagrams
+7. Organizational process assets • Mind mapping
+6. Interpersonal and team skills
+• Nominal group technique
+• Observation/conversation
+• Facilitation
+7. Context diagram
+8. Prototypes
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-5. Collect Requirements: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop
+Project Charter
+• Project charter
+Project
+Management
+Plan
+Project management plan
+• Requirements management plan
+• Scope management plan
+• Stakeholder engagement plan
+Project
+Documents 5.3
+Collect Project
+Requirements • Requirements Documents
+Project documents documentation
+• Assumption log • Requirements
+• Lessons learned register traceability matrix
+• Stakeholder register
+Business
+Documents
+Business documents
+• Business case
+6.9
+Conduct
+Procurements
+• Agreements
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-6. Collect Requirements: Data Flow Diagram
+This practice guide does not specifically address product requirements since those are industry
+specific. Note that Business Analysis for Practitioners: A Practice Guide [3] provides more in-depth
+information about product requirements. A project’s success is directly influenced by active stakeholder
+involvement in the discovery and decomposition of needs into project and product requirements
+and by the care taken in determining, documenting, and managing the requirements of the product,
+service, or result of the project. Requirements include conditions or capabilities that are required
+to be present in a product, service, or result to satisfy an agreement or other formally imposed
+specification. Requirements include the quantified and documented needs and expectations of the
+sponsor, customer, and other stakeholders. These requirements need to be elicited, analyzed, and
+recorded in enough detail to be included in the scope baseline and to be measured once project
+execution begins. Requirements become the foundation of the work breakdown structure (WBS).
+Cost, schedule, quality planning, and procurement are all based on these requirements.
+5.4 DEFINE SCOPE
+Define Scope is the process of developing a detailed description of the project and product.
+The key benefit of this process is that it describes the product, service, or result boundaries and
+acceptance criteria.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-7. Figure 5-8 presents the data flow diagram for
+this process.
+Define Scope
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Project scope statement
+2. Project management plan 2. Data analysis 2. Project documents updates
+• Scope management plan • Alternatives analysis • Assumption log
+3. Project documents 3. Decision making • Requirements
+• Assumption log • Multicriteria decision documentation
+• Requirements analysis • Requirements traceability
+documentation 4. Interpersonal and team skills matrix
+• Risk register • Facilitation • Stakeholder register
+4. Enterprise environmental 5. Product analysis
+factors
+5. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-7. Define Scope: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop Project
+Charter
+• Project charter
+Project
+Management
+Plan
+• Project scope statement
+Project management plan
+• Scope management plan
+5.4 Project
+Define Documents
+Project Scop• eProject Project document updates
+Documents charter • Assumption log
+• Requirements documentation
+• Requirements traceability matrix
+• Stakeholder register
+Project documents
+• Assumption log
+• Requirements documentation
+• Risk register
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-8. Define Scope: Data Flow Diagram
+Since all of the requirements identified in Collect Requirements may not be included in the
+project, the Define Scope process results in the selection of the final project requirements from the
+requirements documentation developed during the Collect Requirements process. It then develops
+a detailed description of the project and product, service, or result.
+The preparation of a detailed project scope statement builds upon the high-level project
+description that is documented during project initiation. During project planning, the project scope
+is defined and described with greater specificity as more information about the project is known.
+Existing risks, assumptions, and constraints are analyzed for completeness and added or updated
+as necessary. The Define Scope process can be highly iterative. In iterative life cycle projects, a
+high-level vision will be developed for the overall project, but the detailed scope is determined one
+iteration at a time, and the detailed planning for the next iteration is carried out as work progresses
+on the current project scope and deliverables.
+5.5 CREATE WBS
+Create WBS is the process of subdividing project deliverables and project work into smaller,
+more manageable components. The key benefit of this process is that it provides a framework
+of what has to be delivered.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-9. Figure 5-10 presents the data flow diagram for
+this process.
+Create WBS
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Scope baseline
+• Scope management plan 2. Decomposition 2. Project documents updates
+2. Project documents • Assumption log
+• Project scope statement • Requirements
+• Requirements documentation
+documentation
+3. Enterprise environmental
+factors
+4. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-9. Create WBS: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan Project
+Management
+Plan
+• Scope baseline
+Project management plan
+• Scope management plan
+5.5
+Create
+WBS• Project
+Project
+charter
+Documents
+Project documents Project
+• Project scope statement
+Documents
+• Requirements documentation
+Project document updates
+• Assumption log
+• Requirements documentation
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-10. Create WBS: Data Flow Diagram
+The WBS is a hierarchical decomposition of the total scope of work to be carried out by the
+project team to accomplish the project objectives and create the required deliverables. The WBS
+organizes and defines the total scope of the project and represents the work specified in the current
+approved project scope statement.
+The planned work is contained within the lowest level of WBS components, which are called work
+packages. A work package can be used to group the activities where work is scheduled and estimated,
+monitored, and controlled. In the context of the WBS, work refers to work products or deliverables that
+are the result of activity and not to the activity itself.
+5.6 PLAN SCHEDULE MANAGEMENT
+Plan Schedule Management is the process of establishing the policies, procedures, and
+documentation for planning, developing, managing, executing, and controlling the project schedule.
+The key benefit of this process is that it provides guidance and direction on how the project schedule
+will be managed throughout the project.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-11. Figure 5-12 presents the data flow diagram for
+this process.
+Plan Schedule Management
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Schedule management plan
+2. Project management plan 2. Data analysis
+• Scope management plan • Alternatives analysis
+• Development approach 3. Meetings
+3. Enterprise environmental
+factors
+4. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-11. Plan Schedule Management: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop Project
+Charter
+• Project charter
+Project 5.6 Project
+Management Plan Schedule Management
+Plan Manage•m Preonjetct • Schedule management plan Plan
+charter
+Project management plan
+• Scope management plan
+• Development approach
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-12. Plan Schedule Management: Data Flow Diagram
+5.7 DEFINE ACTIVITIES
+Define Activities is the process of identifying and documenting the specific actions to be
+performed to produce the project deliverables. The key benefit of this process is that it decomposes
+work packages into schedule activities that provide a basis for estimating, scheduling, executing,
+monitoring, and controlling the project work.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 5-13. Figure 5-14 presents the data flow diagram for this process.
+Define Activities
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Activity list
+• Schedule management plan 2. Decomposition 2. Activity attributes
+• Scope baseline 3. Rolling wave planning 3. Milestone list
+2. Enterprise environmental 4. Meetings 4. Change requests
+factors 5. Project management plan
+3. Organizational process assets updates
+• Schedule baseline
+• Cost baseline
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-13. Define Activities: Inputs, Tools & Techniques, and Outputs
+Project
+Project Documents
+Management • Activity list
+• Activity attributes
+Plan
+• Milestone list
+Project management plan
+• Scope management plan 5.7 7.2
+• Scope baseline Define Perform Integrated
+Activit• iPersoject • Change requests Change Control
+charter
+Enterprise/
+Organization
+Project
+Management
+• Enterprise environmental factors Project management Plan
+• Organizational process assets plan updates
+• Schedule baseline
+• Cost baseline
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-14. Define Activities: Data Flow Diagram
+5.8 SEQUENCE ACTIVITIES
+Sequence Activities is the process of identifying and documenting relationships among the
+project activities. The key benefit of this process is that it defines the logical sequence of work
+to obtain the greatest efficiency given all project constraints.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 5-15. Figure 5-16 presents the data flow diagram for this process.
+Sequence Activities
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Precedence diagramming 1. Project schedule network
+• Schedule management plan method diagrams
+• Scope baseline 2. Dependency determination 2. Project documents updates
+2. Project documents and integration • Activity attributes
+• Activity attributes 3. Leads and lags • Activity list
+• Activity list 4. Project management • Assumption log
+• Assumption log information system • Milestone list
+• Milestone list
+3. Enterprise environmental
+factors
+4. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-15. Sequence Activities: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Schedule management plan
+• Scope baseline
+Project 5.8 Project
+Documents Sequence Documents
+Activities • Project schedule
+network diagrams
+Project documents
+• Activity attributes
+• Activity list
+• Assumption log
+• Milestone list
+Project documents updates
+Enterprise/ • Activity attributes
+• Activity list
+Organization
+• Assumption log
+• Milestone list
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-16. Sequence Activities: Data Flow Diagram
+Every activity except the first and last should be connected to at least one predecessor and at
+least one successor activity with an appropriate logical relationship. Logical relationships should be
+designed to create a realistic project schedule. It may be necessary to use lead or lag time between
+activities to support a realistic and achievable project schedule (see leads and lags in Section 10).
+Sequencing can be performed by using project management software or by using manual or
+automated techniques. The Sequence Activities process concentrates on converting the project
+activities from a list to a diagram to act as a first step to publish the schedule baseline.
+5.9 ESTIMATE ACTIVITY DURATIONS
+Estimate Activity Durations is the process of estimating the number of work periods needed
+to complete individual activities with estimated resources. The key benefit of this process is that it
+provides the amount of time each activity will take to complete.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 5-17. Figure 5-18 presents the data flow diagram for this process.
+Estimate Activity Durations
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Duration estimates
+• Schedule management plan 2. Analogous estimating 2. Basis of estimates
+• Scope baseline 3. Parametric estimating 3. Project documents updates
+2. Project documents 4. Three-point estimating • Activity attributes
+• Activity attributes 5. Bottom-up estimating • Assumption log
+• Activity list 6. Data analysis • Lessons learned register
+• Assumption log • Alternatives analysis
+• Lessons learned register • Reserve analysis
+• Milestone list 7. Decision making
+• Project team assignments • Voting
+• Resource breakdown 8. Meetings
+structure
+• Resource calendars
+• Resource requirements
+• Risk register
+3. Enterprise environmental
+factors
+4. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-17. Estimate Activity Durations: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Schedule management plan
+• Scope baseline
+Project • Duration estimates
+Documents • Basis of estimates
+5.9 Project
+Project documents Estimate Activity Documents
+• Activity attributes Duratio• Pnrsoject
+• Activity list charter
+• Assumption log
+• Lessons learned register
+• Milestone list
+• Project team assignments
+• Resource breakdown structure
+• Resource calendars
+• Resource requirements Project document updates
+• Risk register • Activity attributes
+• Assumption log
+• Lessons learned register
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-18. Estimate Activity Durations: Data Flow Diagram
+Estimating activity durations uses information from the scope of work, required resource
+types or skill levels, estimated resource quantities, and resource calendars. Other factors that may
+influence the duration estimates include constraints imposed on the duration, effort involved, or
+type of resources (e.g., fixed duration, fixed effort or work, fixed number of resources), as well as the
+schedule network analysis technique used. The inputs for the estimates of duration originate from the
+person or gro up on the project team who is most familiar with the nature of the work in the specific
+activity. The duration estimate is progressively elaborated, and the process considers the quality and
+availability of the input data. For example, as more detailed and precise data are available about the
+project engineering and design work, the accuracy and quality of the duration estimates improve.
+The Estimate Activity Durations process requires an estimation of the amount of work effort
+required to complete the activity and the amount of available resources estimated to complete the
+activity. These estimates are used to approximate the number of work periods (activity duration)
+needed to complete the activity using the appropriate project and resource calendars. In many cases,
+the number of resources that are expected to be available to accomplish an activity, along with the
+skill proficiency of those resources, may determine the activity’s duration. A change to a driving
+resource allocated to the activity will usually have an effect on the duration, but this is not a simple
+“straight-line” or linear relationship. Sometimes, the intrinsic nature of the work (i.e., constraints
+imposed on the duration, effort involved, or number of resources) will take a predetermined amount
+of time to complete regardless of the resource allocation (e.g., a 24-hour stress test). Other factors
+for consideration when estimating duration include:
+▶ Law of diminishing returns. When one factor (e.g., resource) used to determine the effort
+required to produce a unit of work is increased while all other factors remain fixed, a point
+will eventually be reached at which additions of that one factor start to yield progressively
+smaller or diminishing increases in output.
+▶ Number of resources. Increasing the number of resources to twice the original number
+of the resources does not always reduce the time by half, as it may increase extra duration
+due to risk, and at some point adding too many resources to the activity may increase
+duration due to knowledge transfer, learning curve, additional coordination, and other
+factors involved.
+▶ Advances in technology. This may also play an important role in determining duration
+estimates. For example, an increase in the output of a manufacturing plant may be
+achieved by procuring the latest advances in technology, which may impact duration and
+resource needs.
+▶ Motivation of staff. The project manager also needs to be aware of Student Syndrome—
+or procrastination—when people start to apply themselves only at the last possible
+moment before the deadline, and Parkinson’s Law where work expands to fill the time
+available for its completion.
+All data and assumptions that support duration estimating are documented for each activity
+duration estimate.
+5.10 DEVELOP SCHEDULE
+Develop Schedule is the process of analyzing activity sequences, durations, resource
+requirements, and schedule constraints to create a schedule model for project execution and
+monitoring and controlling. The key benefit of this process is that it generates a schedule model
+with planned dates for completing project activities.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 5-19. Figure 5-20 presents the data flow diagram for this process.
+Develop Schedule
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Schedule network analysis 1. Schedule baseline
+• Schedule management plan 2. Critical path method 2. Project schedule
+• Scope baseline 3. Resource optimization 3. Schedule data
+2. Project documents 4. Data analysis 4. Project calendars
+• Activity attributes • What-if scenario analysis 5. Change requests
+• Activity list • Simulation 6. Project management plan
+• Assumption log 5. Leads and lags updates
+• Basis of estimates 6. Schedule compression • Schedule management plan
+• Duration estimates 7. Project management • Cost baseline
+• Lessons learned register information system 7. Project documents updates
+• Milestone list 8. Agile release planning • Activity attributes
+• Project schedule network • Assumption log
+diagrams • Duration estimates
+• Project team assignments • Lessons learned register
+• Resource calendars • Resource requirements
+• Resource requirements • Risk register
+• Risk register
+3. Agreements
+4. Enterprise environmental
+factors
+5. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-19. Develop Schedule: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Schedule management plan
+• Scope baseline Project
+Management
+• Schedule baseline Plan
+Project
+Documents
+Project documents
+• Activity attributes Project management plan updates
+• Activity list • Schedule management plan
+• Assumption log • Cost baseline
+• Basis of estimates
+• Duration estimates
+• Lessons learned register 7.2
+• Milestone list 5.10
+Perform
+• Project schedule network diagrams Develop
+• • P R r e o s j o e u ct r c t e e a c m al e a n s d s a ig r n s ments Sched• uPlreoject • Change requests Ch I a n n t g e e g r C a o te n d trol
+charter
+• Resource requirements
+• Risk register
+6.9
+Conduct
+Procurements • Project schedule
+• Schedule data
+• Project calendars
+• Agreements
+Project
+Documents
+Enterprise/ Project documents updates
+Organization • Activity attributes
+• Assumption log
+• Duration estimates
+• Enterprise environmental factors • Lessons learned register
+• Organizational process assets • Resource requirements
+• Risk register
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-20. Develop Schedule: Data Flow Diagram
+Developing an acceptable project schedule is an iterative process. The schedule model is used
+to determine the planned start and finish dates for project activities and milestones based on the
+best available information. Schedule development can require the review and revision of duration
+estimates, resource estimates, and schedule reserves to establish an approved project schedule that
+can serve as a baseline to track progress. Key steps include defining the project milestones, identifying
+and sequencing activities, and estimating durations. Once the activity start and finish dates have been
+determined, it is common to have the project staff assigned to the activities review their assigned
+activities. The staff confirms that the start and finish dates present no conflict with resource calendars
+or assigned activities on other projects or tasks and thus are still valid. The schedule is then analyzed
+to determine conflicts with logical relationships and if resource leveling is required before the schedule
+is approved and baselined. Revising and maintaining the project schedule model to sustain a realistic
+schedule continues throughout the duration of the project.
+For more specific information regarding scheduling, refer to the Practice Standard for Scheduling [8].
+5.11 PLAN COST MANAGEMENT
+Plan Cost Management is the process of defining how the project costs will be estimated,
+budgeted, managed, monitored, and controlled. The key benefit of this process is that it provides
+guidance and direction on how the project costs will be managed throughout the project.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-21. Figure 5-22 presents the data flow diagram for
+this process.
+Plan Cost Management
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Cost management plan
+2. Project management plan 2. Data analysis
+• Schedule management plan • Alternatives analysis
+• Risk management plan 3. Meetings
+3. Enterprise environmental
+factors
+4. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-21. Plan Cost Management: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop Project
+Charter
+• Project charter
+Project 5.11 Project
+Management Plan Cost Management
+Plan Manage•m Preonjetct • Cost management plan Plan
+charter
+Project management plan
+• Schedule management plan
+• Risk management plan
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-22. Plan Cost Management: Data Flow Diagram
+The cost management planning effort occurs early in project planning and sets the framework
+for each of the cost management processes so that performance of the processes will be efficient
+and coordinated. The cost management processes and their associated tools and techniques are
+documented in the cost management plan. The cost management plan is a component of the project
+management plan.
+5.12 ESTIMATE COSTS
+Estimate Costs is the process of developing an approximation of the cost of resources needed
+to complete project work. The key benefit of this process is that it determines the monetary resources
+required for the project.
+This process is performed periodically throughout the project as needed. The inputs, tools and
+techniques, and outputs are shown in Figure 5-23. Figure 5-24 presents the data flow diagram for
+this process.
+Estimate Costs
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Cost estimates
+• Cost management plan 2. Analogous estimating 2. Basis of estimates
+• Quality management plan 3. Parametric estimating 3. Project documents updates
+• Scope baseline 4. Bottom-up estimating • Assumption log
+2. Project documents 5. Three-point estimating • Lessons learned register
+• Lessons learned register 6. Data analysis • Risk register
+• Project schedule • Alternatives analysis
+• Resource requirements • Reserve analysis
+• Risk register • Cost of quality
+3. Enterprise environmental 7. Project management
+factors information system
+4. Organizational process assets 8. Decision making
+• Voting
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-23. Estimate Costs: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Cost estimates
+• Cost management plan
+• Basis of estimates
+• Quality management plan
+• Scope baseline
+Project 5.12 Project
+Documents Estimate Documents
+Costs
+Project documents
+• Lessons learned register
+• Project schedule
+• Resource requirements
+• Risk register
+Project documents updates
+• Assumption log
+Enterprise/ • Lessons learned register
+Organization • Risk register
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-24. Estimate Costs: Data Flow Diagram
+A cost estimate is a quantitative assessment of the likely
+Cost estimates are costs for resources required to complete the activity. It is a
+generally expressed in prediction that is based on the information known at a given
+units of some currency point in time. Cost estimates include the identification and
+(i.e., dollars, euros, yen, etc.), consideration of costing alternatives to initiate and complete
+although in some instances the project. Cost trade-offs and risks should be considered,
+other units of measure, such such as make versus buy, buy versus lease, and the sharing
+as staff hours or staff days, are of resources in order to achieve optimal costs for the project.
+used to facilitate comparisons Cost estimates should be reviewed and refined during
+by eliminating the effects of the course of the project to reflect additional detail as it
+currency fluctuations. becomes available and assumptions are tested. The accuracy
+of a project estimate will increase as the project progresses
+through the project life cycle. For example, a project in the
+start-up phase may have a rough order of magnitude (ROM)
+estimate in the range of −25% to +75%. Later in the project, as
+more information is known, definitive estimates could narrow
+the range of accuracy to −5% to +10%. In some organizations,
+there are guidelines for when such refinements can be made
+and the degree of confidence or accuracy that is expected.
+Costs are estimated for all resources that will be charged
+to the project. This includes but is not limited to labor, materials,
+equipment, services, and facilities, as well as special categories
+such as an inflation allowance, cost of financing, or contingency
+costs. Cost estimates may be presented at the activity level or
+in summary form.
+5.13 DETERMINE BUDGET
+Determine Budget is the process of aggregating the estimated costs of individual activities
+or work packages to establish an authorized cost baseline. The key benefit of this process is that it
+determines the cost baseline against which project performance can be monitored and controlled.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-25. Figure 5-26 presents the data flow diagram for
+this process.
+A project budget includes all of the funds authorized to execute the project. The cost baseline
+is the approved version of the time-phased project budget that includes contingency reserves but
+excludes management reserves.
+Determine Budget
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Cost baseline
+• Cost management plan 2. Cost aggregation 2. Project funding requirements
+• Resource management plan 3. Data analysis 3. Project documents updates
+• Scope baseline • Reserve analysis • Cost estimates
+2. Project documents 4. Historical information review • Project schedule
+• Basis of estimates 5. Funding limit reconciliation • Risk register
+• Cost estimates 6. Financing
+• Project schedule
+• Risk register
+3. Business documents
+• Business case
+• Benefits management plan
+4. Agreements
+5. Enterprise environmental
+factors
+6. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-25. Determine Budget: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Cost management plan
+• Resource management plan
+• Scope baseline
+Project
+Management
+Project • Cost baseline Plan
+Documents
+Project documents
+• Basis of estimates
+• Cost estimates 5.13 7.6
+• Project schedule Determine Control
+• Risk register Budg• ePtroject • Project funding Costs
+charter requirements
+Business
+Documents
+Project
+Documents
+• Business case Project documents updates
+• Benefits management plan • Cost estimates
+• Project schedule
+• Risk register
+6.9
+Conduct
+Procurements
+• Agreements
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-26. Determine Budget: Data Flow Diagram
+5.14 PLAN QUALITY MANAGEMENT
+Plan Quality Management is the process of identifying quality requirements and/or standards for
+the project and its deliverables. This process documents how the project will demonstrate compliance
+with quality requirements and/or standards. The key benefit of this process is that it provides guidance
+and direction on how quality will be managed and verified throughout the project.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-27. Figure 5-28 presents the data flow diagram for
+this process.
+Plan Quality Management
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Quality management plan
+2. Project management plan 2. Data gathering 2. Quality metrics
+• Requirements management • Benchmarking 3. Project management plan
+plan • Brainstorming updates
+• Risk management plan • Interviews • Risk management plan
+• Stakeholder engagement 3. Data analysis • Scope baseline
+plan • Cost-benefit analysis 4. Project documents updates
+• Scope baseline • Cost of quality • Lessons learned register
+3. Project documents 4. Decision making • Requirements traceability
+• Assumption log • Multicriteria decision matrix
+• Requirements analysis • Risk register
+documentation 5. Data representation • Stakeholder register
+• Requirements traceability • Flowcharts
+matrix • Logical data model
+• Risk register • Matrix diagrams
+• Stakeholder register • Mind mapping
+4. Enterprise environmental 6. Test and inspection planning
+factors 7. Meetings
+5. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-27. Plan Quality Management: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop
+Project
+Charter
+• Quality management plan
+• Project charter
+Project
+Management
+Project Plan
+Management
+Plan
+Project management plan
+• Requirements management plan Project management plan updates
+• Risk management plan 5.14 • Risk management plan
+• Stakeholder engagement plan Plan Quality • Scope baseline
+• Scope baseline Management
+• Quality metrics
+Project
+Documents
+Project
+Documents
+Project documents
+• Assumption log
+• Requirements documentation
+• Requirements traceability matrix
+• Risk register
+• Stakeholder register
+Project documents updates
+• Lessons learned register
+• Requirements traceability matrix
+Enterprise/
+• Risk register
+Organization • Stakeholder register
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-28. Plan Quality Management: Data Flow Diagram
+Quality planning should be performed in parallel with the other planning processes. For
+example, changes proposed in the deliverables in order to meet identified quality standards may
+require cost or schedule adjustments and a detailed risk analysis of the impact to plans.
+The quality planning techniques discussed here are those used most frequently on projects.
+There are many others that may be useful on certain projects or in specific application areas.
+5.15 PLAN RESOURCE MANAGEMENT
+Plan Resource Management is the process of defining how to estimate, acquire, manage, and
+use team and physical resources. The key benefit of this process is that it establishes the approach
+and level of management effort needed for managing project resources based on the type and
+complexity of the project.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-29. Figure 5-30 presents the data flow diagram for
+this process.
+Plan Resource Management
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Resource management plan
+2. Project management plan 2. Data representation 2. Team charter
+• Quality management plan • Hierarchical charts 3. Project documents updates
+• Scope baseline • Responsibility assignment • Assumption log
+3. Project documents matrix • Risk register
+• Project schedule • Text-oriented formats
+• Requirements 3. Organizational theory
+documentation 4. Meetings
+• Risk register
+• Stakeholder register
+4. Enterprise environmental
+factors
+5. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-29. Plan Resource Management: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop
+Project
+Charter
+• Project charter
+Project
+Management • Resource management plan
+Plan
+Project
+Management
+Project management plan Plan
+• Quality management plan 5.15
+• Scope baseline Plan
+Resou• rPcroeject
+Manage m cehanrtter
+Project
+Documents
+• Team charter Project
+Documents
+Project documents
+Project documents updates
+• Project schedule
+• Assumption log
+• Requirements documentation
+• Risk register
+• Risk register
+• Stakeholder register
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-30. Plan Resource Management: Data Flow Diagram
+Resource planning is used to determine and identify an
+approach to ensure that sufficient resources are available for Project resources
+the successful completion of the project. Project resources can be obtained from
+may include team members, supplies, materials, equipment, the organization’s
+services, and facilities. Effective resource planning should internal assets or from outside
+consider and plan for the availability of, or competition for, the organization through a
+scarce resources. procurement process. Other
+projects may be competing for
+the same resources required for
+5.16 ESTIMATE ACTIVITY RESOURCES the project at the same time and
+location. This may significantly
+Estimate Activity Resources is the process of estimating
+impact project costs, schedules,
+team resources and the type and quantities of materials,
+risks, quality, and other
+equipment, and supplies necessary to perform project work.
+project areas.
+The key benefit of this process is that it identifies the type,
+quantity, and characteristics of resources required to complete
+the project.
+This process is performed periodically throughout the project
+as needed. The inputs, tools and techniques, and outputs
+are shown in Figure 5-31. Figure 5-32 presents the data flow
+diagram for this process.
+Estimate Activity Resources
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Resource requirements
+• Resource management plan 2. Bottom-up estimating 2. Basis of estimates
+• Scope baseline 3. Analogous estimating 3. Resource breakdown
+2. Project documents 4. Parametric estimating structure
+• Activity attributes 5. Data analysis 4. Project documents updates
+• Activity list • Alternatives analysis • Activity attributes
+• Assumption log 6. Project management • Assumption log
+• Cost estimates information system • Lessons learned register
+• Resource calendars 7. Meetings
+• Risk register
+3. Enterprise environmental
+factors
+4. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-31. Estimate Activity Resources: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Resource management plan
+• Scope baseline
+• Resource requirements
+• Basis of estimates
+• Resource breakdown
+Project
+structure
+Documents
+5.16 Project
+Estimate Activity Documents
+Resour• cPerosject
+Project documents charter
+• Activity attributes
+• Activity list
+• Assumption log
+• Cost estimates
+• Resource calendars
+• Risk register
+Project document updates
+• Activity attributes
+• Assumption log
+• Lessons learned register
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-32. Estimate Activity Resources: Data Flow Diagram
+The Estimate Activity Resources process is closely coordinated with other processes, such as
+the Estimate Costs process. For example:
+▶ A construction project team will need to be familiar with local building codes. Such knowledge
+is often readily available from local sellers. If the internal labor pool lacks experience with
+unusual or specialized construction techniques, the additional cost for a consultant may be
+the most effective way to secure knowledge of the local building codes.
+▶ An automotive design team will need to be familiar with the latest automated assembly
+techniques. The requisite knowledge could be obtained by hiring a consultant, by sending
+a designer to a seminar on robotics, or by including someone from manufacturing as a
+member of the project team.
+5.17 PLAN COMMUNICATIONS MANAGEMENT
+Plan Communications Management is the process of developing an appropriate approach and
+plan for project communications activities based on the information needs of each stakeholder or
+group, available organizational assets, and the needs of the project. The key benefit of this process
+is a documented approach to effectively and efficiently engage stakeholders by presenting relevant
+information in a timely manner.
+This process is performed periodically throughout the project as needed. The inputs, tools and
+techniques, and outputs are shown in Figure 5-33. Figure 5-34 presents the data flow diagram for
+the process.
+Plan Communications Management
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Communications management
+2. Project management plan 2. Communication requirements plan
+• Resource management plan analysis 2. Project management plan
+• Stakeholder engagement 3. Communication technology updates
+plan 4. Communication models • Stakeholder engagement
+3. Project documents 5. Communication methods plan
+• Requirements 6. Interpersonal and team skills 3. Project documents updates
+documentation • Communication styles • Project schedule
+• Stakeholder register assessment • Stakeholder register
+4. Enterprise environmental • Political awareness
+factors • Cultural awareness
+5. Organizational process assets 7. Data representation
+• Stakeholder engagement
+assessment matrix
+8. Meetings
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-33. Plan Communications Management: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop
+Project
+Charter
+• Project charter
+Project
+Management
+Plan
+• Communications management plan
+Project management plan
+• Resource management plan 5.17 Project
+• Stakeholder engagement plan Plan Management
+Communic• Partoijoecnts Plan
+Manage m cehnartter Project management
+plan updates
+Project • Stakeholder
+engagement plan
+Documents
+Project
+Documents
+Project documents
+Project documents updates
+• Requirements documentation
+• Project schedule
+• Stakeholder register
+• Stakeholder register
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-34. Plan Communications Management: Data Flow Diagram
+An effective communications management plan that recognizes the diverse information
+needs of the project’s stakeholders is developed early in the project life cycle. It should be reviewed
+regularly and modified when necessary, when the stakeholder community changes or at the start
+of each new project phase.
+On most projects, communications planning is performed very early, during stakeholder
+identification and project management plan development.
+While all projects share the need to communicate project information, the information needs
+and methods of distribution may vary widely. In addition, the methods of storage, retrieval, and
+ultimate disposition of the project information need to be considered and documented during this
+process. The results of the Plan Communications Management process should be reviewed regularly
+throughout the project and revised as needed to ensure continued applicability
+5.18 PLAN RISK MANAGEMENT
+Plan Risk Management is the process of defining how to conduct risk management activities
+for a project. The key benefit of this process is that it ensures that the degree, type, and visibility
+of risk management are proportionate to both risks and the importance of the project to the
+organization and other stakeholders.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-35. Figure 5-36 presents the data flow diagram for
+this process.
+Plan Risk Management
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Risk management plan
+2. Project management plan 2. Data analysis
+• All components • Stakeholder analysis
+3. Project documents 3. Meetings
+• Stakeholder register
+4. Enterprise environmental
+factors
+5. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-35. Plan Risk Management: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop Project
+Charter
+• Project charter
+Project
+Management
+Plan
+Project management plan
+• All components
+5.18 Project
+Plan Risk Management
+Manage•m Preonjetct • Risk management plan Plan
+charter
+Project
+Documents
+Project documents
+• Stakeholder register
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-36. Plan Risk Management: Data Flow Diagram
+The Plan Risk Management process should begin when a project is conceived and should be
+completed early in the project. It may be necessary to revisit this process later in the project life cycle,
+for example at a major phase change, if the project scope changes significantly, or if a subsequent
+review of risk management effectiveness determines that the Plan Risk Management process
+requires modification.
+5.19 IDENTIFY RISKS
+Identify Risks is the process of identifying individual project risks as well as sources of overall
+project risk and documenting their characteristics. The key benefit of this process is the documentation
+of existing individual project risks and the sources of overall project risk. It also brings together
+information so the project team can respond appropriately to identified risks.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 5-37. Figure 5-38 presents the data flow diagram for this process.
+Identify Risks
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Risk register
+• Requirements management 2. Data gathering 2. Risk report
+plan • Brainstorming 3. Project documents updates
+• Schedule management plan • Checklists • Assumption log
+• Cost management plan • Interviews • Issue log
+• Quality management plan 3. Data analysis • Lessons learned register
+• Resource management plan • Root cause analysis
+• Risk management plan • Assumption and constraint
+• Scope baseline analysis
+• Schedule baseline • SWOT analysis
+• Cost baseline • Document analysis
+2. Project documents 4. Interpersonal and team skills
+• Assumption log • Facilitation
+• Cost estimates 5. Prompt lists
+• Duration estimates 6. Meetings
+• Issue log
+• Lessons learned register
+• Requirements
+documentation
+• Resource requirements
+• Stakeholder register
+3. Agreements
+4. Procurement documentation
+5. Enterprise environmental
+factors
+6. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-37. Identify Risks: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Requirements management plan
+• Schedule management plan
+• Cost management plan
+• Resource management plan
+• Quality management plan
+• Risk management plan
+• Scope baseline
+• Schedule baseline
+• Cost baseline
+Project
+Documents
+Project documents
+• Assumption log
+• Cost estimates 5.19 Project
+• Duration estimates Ident • i P fy roject Documents
+• Issue log Risk s charter • Risk register
+• Lessons learned register
+• Risk report
+• Requirements documentation
+• Resource requirements
+• Stakeholder register Identify Risks is an iterative process, since new individual project risks may emerge as the
+project progresses through its life cycle and the level of overall project risk will also change.
+Project documents updates
+5.23 • Assumption log The frequency of iteration and participation in each risk identification cycle will vary by situation,
+Plan • Issue log
+Procurement • Lessons learned register and this will be defined in the risk management plan.
+Management
+• Procurement documentation
+6.9
+Conduct
+Procurements
+• Agreements
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-38. Identify Risks: Data Flow Diagram
+Identify Risks considers both individual project risks and sources of overall project risk.
+Participants in risk identification activities may include the following: project manager, project team
+members, business analyst, project risk specialist (if assigned), customers, subject matter experts from
+outside the project team, end users, other project managers, operations managers, stakeholders, and
+risk management experts within the organization. While these personnel are often key participants
+for risk identification, all project stakeholders should be encouraged to identify individual project risks.
+It is particularly important to involve the project team so they can develop and maintain a sense
+of ownership and responsibility for identified individual project risks, the level of overall project risk,
+and associated risk response actions.
+When describing and recording individual project risks, a consistent format should be used for
+risk statements to ensure that each risk is understood clearly and unambiguously in order to support
+effective analysis and risk response development. Risk owners for individual project risks may be
+nominated as part of the Identify Risks process and will be confirmed during the Perform Qualitative
+Risk Analysis process. Preliminary risk responses may also be identified and recorded and will be
+reviewed and confirmed as part of the Plan Risk Responses process.
+Identify Risks is an iterative process, since new individual project risks may emerge as the
+project progresses through its life cycle and the level of overall project risk will also change.
+The frequency of iteration and participation in each risk identification cycle will vary by situation,
+and this will be defined in the risk management plan.
+5.20 PERFORM QUALITATIVE RISK ANALYSIS
+Perform Qualitative Risk Analysis is the process of prioritizing individual project risks for
+further analysis or action by assessing their probability of occurrence and impact as well as other
+characteristics. The key benefit of this process is that it focuses efforts on high-priority risks.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 5-39. Figure 5-40 presents the data flow diagram for this process.
+Perform Qualitative Risk Analysis
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Project documents updates
+• Risk management plan 2. Data gathering • Assumption log
+2. Project documents • Interviews • Issue log
+• Assumption log 3. Data analysis • Risk register
+• Risk register • Risk data quality • Risk report
+• Stakeholder register assessment
+3. Enterprise environmental • Risk probability and impact
+factors assessment
+4. Organizational process assets • Assessment of other risk
+parameters
+4. Interpersonal and team skills
+• Facilitation
+5. Risk categorization
+6. Data representation
+• Probability and impact
+matrix
+• Hierarchical charts
+7. Meetings
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-39. Perform Qualitative Risk Analysis: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Risk management plan
+5.20
+Project Perform Project
+Documents Qualita• tPirvoeject Documents
+Risk Ana l ychsaisrter P
+•
+r oAj
+s
+e
+s
+c
+u
+t
+m
+do
+p
+c
+ti
+u
+o
+m
+n
+e
+lo
+n
+g
+ts updates
+• Issue log
+• Risk register
+Project documents • Risk report
+• Assumption log
+• Risk register
+• Stakeholder register
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-40. Perform Qualitative Risk Analysis: Data Flow Diagram
+Perform Qualitative Risk Analysis assesses the priority
+of identified individual project risks using their probability of The Perform Qualitative
+occurrence, the corresponding impact on project objectives Risk Analysis process
+if the risks occur, and other factors. Such assessments are is performed regularly
+subjective as they are based on perceptions of risk by the throughout the project life cycle,
+project team and other stakeholders. Effective assessment as defined in the risk management
+therefore requires explicit identification and management of plan. Often, in an agile
+the risk attitudes of key participants in the Perform Qualitative development environment, the
+Risk Analysis process. Risk perception introduces bias into the
+Perform Qualitative Risk Analysis
+assessment of identified risks, so attention should be paid
+process is conducted before the
+to identifying bias and correcting for it. Where a facilitator
+start of each iteration.
+is used to support the Perform Qualitative Risk Analysis
+process, addressing bias is a key part of the facilitator’s role.
+An evaluation of the quality of the available information on
+individual project risks also helps to clarify the assessment
+of each risk’s importance to the project.
+Perform Qualitative Risk Analysis establishes the relative
+priorities of individual project risks for Plan Risk Responses. It
+identifies a risk owner for each risk who will take responsibility
+for planning an appropriate risk response and ensuring that
+it is implemented. Perform Qualitative Risk Analysis also lays
+the foundation for Perform Quantitative Risk Analysis if this
+process is required.
+5.21 PERFORM QUANTITATIVE RISK ANALYSIS
+Perform Quantitative Risk Analysis is the process of numerically analyzing the combined effect
+of identified individual project risks and other sources of uncertainty on overall project objectives.
+The key benefit of this process is that it quantifies overall project risk exposure, and it can also
+provide additional quantitative risk information to support risk response planning.
+This process is not required for every project, but where it is used, it is performed throughout
+the project. The inputs and outputs are shown in Figure 5-41. Figure 5-42 presents the data flow
+diagram for this process.
+Perform Quantitative Risk Analysis
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Project documents updates
+• Risk management plan 2. Data gathering • Risk report
+• Scope baseline • Interviews
+• Schedule baseline 3. Interpersonal and team skills
+• Cost baseline • Facilitation
+2. Project documents 4. Representations of
+• Assumption log uncertainty
+• Basis of estimates 5. Data analysis
+• Cost estimates • Simulations
+• Cost forecasts • Sensitivity analysis
+• Duration estimates • Decision tree analysis
+• Milestone list • Influence diagrams
+• Resource requirements
+• Risk register
+• Risk report
+• Schedule forecasts
+3. Enterprise environmental
+factors
+4. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-41. Perform Quantitative Risk Analysis: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Risk management plan
+• Scope baseline
+• Schedule baseline
+• Cost baseline
+Project
+Documents
+Project documents 5.21
+• Assumption log Project
+Perform
+• Basis of estimates Documents
+• Cost estimates Quantita• Ptriovjeect
+• Cost forecasts Risk Ana l ychsaisrter P
+•
+r oRj
+i
+e
+s
+c
+k
+t
+r
+d
+e
+o
+p
+c
+o
+u
+rt
+ments updates
+• Duration estimates
+• Milestone list
+• Resource requirements
+• Risk register
+• Risk report
+• Schedule forecasts
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-42. Perform Quantitative Risk Analysis: Data Flow Diagram
+Perform Quantitative Risk Analysis is not required for all projects. Undertaking a robust
+analysis depends on the availability of high-quality data about individual project risks and other
+sources of uncertainty, as well as a sound underlying project baseline for scope, schedule, and cost.
+Quantitative risk analysis usually requires specialized risk software and expertise in the development
+and interpretation of risk models. It also consumes additional time and cost. The use of quantitative
+risk analysis for a project will be specified in the project’s risk management plan. It is most likely
+appropriate for large or complex projects, strategically important projects, projects for which it is a
+contractual requirement, or projects in which a key stakeholder requires it. Quantitative risk analysis
+is the only reliable method to assess overall project risk through evaluating the aggregated effect on
+project outcomes of all individual project risks and other sources of uncertainty.
+Perform Quantitative Risk Analysis uses information on individual project risks that have been
+assessed by the Perform Qualitative Risk Analysis process as having a significant potential to affect
+the project’s objectives.
+Outputs from Perform Quantitative Risk Analysis are used as inputs to the Plan Risk Responses
+process, particularly in recommending responses to the level of overall project risk and key individual
+risks. A quantitative risk analysis may also be undertaken following the Plan Risk Responses process
+to determine the likely effectiveness of planned responses in reducing overall project risk exposure.
+5.22 PLAN RISK RESPONSES
+Plan Risk Responses is the process of developing options, selecting strategies, and agreeing
+on actions to address overall project risk exposure as well as to treat individual project risks. The
+key benefit of this process is that it identifies appropriate ways to address overall project risk and
+individual project risks. This process also allocates resources and inserts activities into project
+documents and the project management plan as needed.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 5-43. Figure 5-44 presents the data flow diagram for this process.
+Plan Risk Responses
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Change requests
+• Resource management plan 2. Data gathering 2. Project management plan
+• Risk management plan • Interviews updates
+• Cost baseline 3. Interpersonal and team skills • Schedule management plan
+2. Project documents • Facilitation • Cost management plan
+• Lessons learned register 4. Strategies for threats • Quality management plan
+• Project schedule 5. Strategies for opportunities • Resource management plan
+• Project team assignments 6. Contingent response • Procurement management
+• Resource calendars strategies plan
+• Risk register 7. Strategies for overall project • Scope baseline
+• Risk report risk • Schedule baseline
+• Stakeholder register 8. Data analysis • Cost baseline
+3. Enterprise environmental • Alternatives analysis 3. Project documents updates
+factors • Cost-benefit analysis • Assumption log
+4. Organizational process assets 9. Decision making • Cost forecasts
+• Multicriteria decision • Lessons learned register
+analysis • Project schedule
+• Project team assignments
+• Risk register
+• Risk report
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-43. Plan Risk Responses: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+7.2
+Perform
+Project management plan Integrated
+• Resource management plan • Change requests Change Control
+• Risk management plan
+• Cost baseline
+5.22 Project
+Project Plan Risk Management
+Documents Respon• sPreosject Project management Plan
+charter plan updates
+• Schedule management plan
+• Cost management plan
+Project documents
+• Quality management plan
+• Lessons learned register
+• Resource management plan
+• Project schedule
+• Procurement management plan
+• Project team assignments
+• Scope baseline
+• Resource calendars
+• Schedule baseline
+• Risk register
+• Cost baseline
+• Risk report
+• Stakeholder register
+Project
+Documents
+Project documents updates
+Enterprise/ • Assumption log
+• Cost forecasts
+Organization
+• Lessons learned register
+• Project schedule
+• Project team assignments
+• Enterprise environmental factors • Risk register
+• Organizational process assets • Risk report
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-44. Plan Risk Responses: Data Flow Diagram
+Effective and appropriate risk responses can minimize individual threats, maximize individual
+opportunities, and reduce overall project risk exposure. Unsuitable risk responses can have
+the converse effect. Once risks have been identified, analyzed, and prioritized, plans should be
+developed by the nominated risk owner for addressing every individual project risk the project team
+considers to be sufficiently important, either because of the threat it poses to the project objectives
+or the opportunity it offers. The project manager should also consider how to respond appropriately
+to the current level of overall project risk.
+Risk responses should be appropriate for the significance of the risk, cost effective in meeting
+the challenge, realistic within the project context, agreed upon by all parties involved, and owned
+by a responsible person. Selecting the optimal risk response from several options is often required.
+The strategy or mix of strategies most likely to be effective should be selected for each risk. Structured
+decision-making techniques may be used to choose the most appropriate response. For large or
+complex projects, it may be appropriate to use a mathematical optimization model or real options
+analysis as a basis for a more robust economic analysis of alternative risk response strategies.
+Specific actions are developed to implement the agreed-upon risk response strategy, including
+primary and backup strategies, as necessary. A contingency plan (or fallback plan) can be developed
+for implementation if the selected strategy turns out not to be fully effective or if an accepted risk
+occurs. Secondary risks should also be identified. Secondary risks are risks that arise as a direct
+result of implementing a risk response. A contingency reserve is often allocated for time or cost.
+If developed, it may include identification of the conditions that trigger its use.
+5.23 PLAN PROCUREMENT MANAGEMENT
+Plan Procurement Management is the process of documenting project procurement decisions,
+specifying the approach, and identifying potential sellers. The key benefit of this process is that it
+determines whether to acquire goods and services from outside the project and, if so, what to acquire
+as well as how and when to acquire it. Goods and services may be procured from other parts of the
+performing organization or from external sources.
+This process is performed once or at predefined points in the project. The inputs, tools and
+techniques, and outputs are shown in Figure 5-45. Figure 5-46 presents the data flow diagram
+for this process.
+Plan Procurement Management
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Procurement management
+2. Business documents 2. Data gathering plan
+• Business case • Market research 2. Procurement strategy
+• Benefits management plan 3. Data analysis 3. Bid documents
+3. Project management plan • Make-or-buy analysis 4. Procurement statement of
+• Scope management plan 4. Source selection analysis work
+• Quality management plan 5. Meetings 5. Source selection criteria
+• Resource management plan 6. Make-or-buy decisions
+• Scope baseline 7. Independent cost estimates
+4. Project documents 8. Change requests
+• Milestone list 9. Project documents updates
+• Project team assignments • Lessons learned register
+• Requirements • Milestone list
+documentation • Requirements
+• Requirements traceability documentation
+matrix • Requirements traceability
+• Resource requirements matrix
+• Risk register • Risk register
+• Stakeholder register • Stakeholder register
+5. Enterprise environmental 10. Organizational process
+factors assets updates
+6. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-45. Plan Procurement Management: Inputs, Tools & Techniques, and Outputs
+4.1
+Project
+Develop
+Management
+Project Charter
+• Procurement management plan Plan
+• Project charter
+Project
+Management Procurement
+Plan Documentation
+• Procurement strategy
+• Procurement statement of work
+• Bid documents
+Project management plan • Make-or-buy decisions
+• Scope management plan • Independent cost estimates
+• Quality management plan
+• Resource management plan 7.2
+• Scope baseline Perform
+Integrated
+• Change requests Change Control
+5.23
+Business
+Plan
+Documents
+Procurement
+Management
+Project
+Business documents
+• Business case • Source selection Documents
+• Benefits management plan criteria
+Project
+Documents Project documents updates
+• Lessons learned register
+• Milestone list
+• Requirements documentation
+Project documents • Requirements traceability matrix
+• Milestone list • Risk register
+• Project team assignments • Stakeholder register
+• Requirements documentation
+Enterprise/
+• Requirements traceability matrix
+Organization
+• Resource requirements • Organizational process assets
+• Risk register updates
+• Stakeholder register
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-46. Plan Procurement Management: Data Flow Diagram
+Defining roles and responsibilities related to procurement
+Typical Steps in the should be done early in the Plan Procurement Management
+Plan Procurement process. The project manager should ensure that the project
+Management Process team is staffed with procurement expertise at the level required
+for the project. Participants in the procurement process
+▶ Prepare the procurement
+may include personnel from the purchasing or procurement
+statement of work (SOW) or
+department as well as personnel from the buying organization’s
+terms of reference (TOR).
+legal department. These responsibilities should be documented
+▶ Prepare a high-level cost in the procurement management plan.
+estimate to determine
+The requirements of the project schedule can significantly
+the budget.
+influence the strategy during the Plan Procurement Management
+▶ Advertise the opportunity. process. Decisions made in developing the procurement
+management plan can also influence the project schedule and
+▶ Identify a short list of
+are integrated with the Develop Schedule process, the Estimate
+qualified sellers.
+Activity Resources process, and make-or-buy decisions.
+▶ Prepare and issue bid
+documents.
+▶ Prepare and submit proposals
+by the seller.
+▶ Conduct a technical
+evaluation of the proposals
+including quality.
+▶ Perform a cost evaluation
+of the proposals.
+▶ Prepare the final combined
+quality and cost evaluation to
+select the winning proposal.
+▶ Finalize negotiations and sign
+contract between the buyer
+and the seller.
+5.24 PLAN STAKEHOLDER ENGAGEMENT
+Plan Stakeholder Engagement is the process of developing approaches to involve project
+stakeholders based on their needs, expectations, interests, and potential impact on the project.
+The key benefit is that it provides an actionable plan to interact effectively with stakeholders.
+This process is performed periodically throughout the project as needed. The inputs, tools and
+techniques, and outputs are shown in Figure 5-47. Figure 5-48 presents the data flow diagram for
+this process.
+Plan Stakeholder Engagement
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Stakeholder engagement
+2. Project management plan 2. Data gathering plan
+• Resource management plan • Benchmarking
+• Communications 3. Data analysis
+management plan • Assumption and constraint
+• Risk management plan analysis
+3. Project documents • Root cause analysis
+• Assumption log 4. Decision making
+• Change log • Prioritization/ranking
+• Issue log 5. Data representation
+• Project schedule • Mind mapping
+• Risk register • Stakeholder engagement
+• Stakeholder register assessment matrix
+4. Agreements 6. Meetings
+5. Enterprise environmental
+factors
+6. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 5-47. Plan Stakeholder Engagement: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Resource management plan
+• Communications management plan
+• Risk management plan
+4.1 Project
+Develop Management
+Project Charter Plan
+• Stakeholder engagement plan
+• Project charter
+5.24
+Project Plan
+Documents Stakeholder
+• Project
+Engagement
+charter
+Project documents
+• Assumption log
+• Change log
+• Issue log
+• Project schedule
+• Risk register
+• Stakeholder register
+6.9
+Conduct
+Procurements
+• Agreements
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 5-48. Plan Stakeholder Engagement: Data Flow Diagram
+An effective plan that recognizes the diverse
+information needs of the project’s stakeholders is developed Situations Requiring
+early in the project life cycle and is reviewed and updated Updates to
+regularly as the stakeholder community changes. The first the Stakeholder
+version of the stakeholder engagement plan is developed Engagement Plan
+after the initial stakeholder community has been identified
+Typical trigger situations requiring
+by the Identify Stakeholder process. The stakeholder
+updates to the plan include, but
+engagement plan is updated regularly to reflect changes
+are not limited to:
+to the stakeholder community.
+▶ The start of a new phase
+of the project;
+▶ Changes to the organizational
+structure or changes within
+the industry;
+▶ New individuals or groups
+become stakeholders, current
+stakeholders are no longer part
+of the stakeholder community,
+or there are changes regarding
+the importance of particular
+stakeholders to the project’s
+success; and
+▶ Outputs of other project
+processes, such as change
+management, risk management,
+or issue management, require
+a review of stakeholder
+engagement strategies.

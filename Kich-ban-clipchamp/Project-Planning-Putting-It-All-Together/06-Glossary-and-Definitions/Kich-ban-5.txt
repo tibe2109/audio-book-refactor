@@ -1,0 +1,35 @@
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ L
+. ......
+
+Latest start date, tức Ngày bắt đầu muộn nhất, Trong phương pháp đường găng, đây là thời điểm muộn nhất mà một nhiệm vụ có thể bắt đầu mà không làm chậm trễ ngày bàn giao cuối cùng của toàn dự án.
+
+Leverage experts, tức Tận dụng chuyên gia, Việc chủ động tham vấn và khai thác những hiểu biết sâu sắc của các chuyên gia đầu ngành để thực thi công việc một cách thông minh và hiệu quả hơn.
+
+Low-level risk, tức Rủi ro cấp thấp, Một rủi ro có mức độ ảnh hưởng nhỏ và xác suất xảy ra thấp, người quản lý dự án có thể cân nhắc linh hoạt việc có cần thông báo cho các bên liên quan hay không.
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ M
+. ......
+
+Management reserves, tức Dự phòng quản lý, Khoản ngân sách được ban lãnh đạo trích lập riêng để ứng phó với những rủi ro hoàn toàn chưa biết, Unknown Risks, nằm ngoài phạm vi đường cơ sở.
+
+Medium-level risk, tức Rủi ro cấp trung bình, Rủi ro có khả năng tác động đáng kể đến dự án, cần được trao đổi trực tiếp và kịp thời với các bên liên quan.
+
+Milestone, tức Cột mốc, Một thời điểm trọng đại trên dòng thời gian của dự án, đánh dấu sự tiến bộ vượt bậc và thường gắn liền với việc hoàn tất một giai đoạn hoặc bàn giao một sản phẩm chủ chốt.
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ N
+. ......
+
+Need-to-know basis, tức Nguyên tắc thực sự cần biết, Chuẩn mực bảo mật thông tin, theo đó chỉ cung cấp đúng những dữ kiện cần thiết cho một cá nhân vào đúng thời điểm họ cần biết, và tuyệt đối không chia sẻ thừa thãi.
+
+Network diagram, tức Sơ đồ mạng lưới, Bản vẽ trực quan mô tả trình tự logic của các nhiệm vụ trong dự án theo đúng trật tự của các mối liên kết phụ thuộc.
+
+Non-disclosure agreement, viết tắt là N-D-A, tức Thỏa thuận bảo mật thông tin, Một văn bản pháp lý ràng buộc các bên phải giữ kín những thông tin bí mật kinh doanh bên trong tổ chức.
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ O
+. ......
+
+Open-ended question, tức Câu hỏi mở, Dạng câu hỏi khuyến khích câu trả lời sâu sắc, gợi mở thông tin, không thể trả lời đơn thuần bằng một từ có hoặc không.
+
+O-P-E-X, tức Chi phí vận hành, Operating Expenses, Toàn bộ các khoản chi phí phát sinh hằng ngày phục vụ cho các hoạt động vận hành thường nhật của doanh nghiệp.
+
+Optimism bias, tức Thiên kiến lạc quan, Khuynh hướng tâm lý con người tin rằng mình ít có khả năng gặp phải những biến cố tiêu cực hơn so với thực tế khách quan.

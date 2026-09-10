@@ -1,0 +1,298 @@
+CHƯƠNG SÁU, BẢNG THUẬT NGỮ VÀ ĐỊNH NGHĨA KHÓA HỌC BA
+. ......
+
+
+BẢNG THUẬT NGỮ QUẢN TRỊ DỰ ÁN, LẬP KẾ HOẠCH TỔNG THỂ
+. ......
+
+Chào mừng bạn đến với bảng tra cứu thuật ngữ chuyên sâu của Khóa học ba, Lập kế hoạch Dự án, Kết nối Toàn diện. Đây là kho tàng định nghĩa chuẩn mực quốc tế giúp bạn củng cố, tra cứu và làm chủ toàn bộ ngôn ngữ chuyên môn của một Project Manager chuyên nghiệp.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ B
+. ......
+
+Backward pass, tức Kỹ thuật duyệt ngược, Phương pháp bắt đầu từ nhiệm vụ hoặc cột mốc cuối cùng của dự án, sau đó đi ngược dần về điểm khởi đầu trên lịch trình để xác định đường tiến độ ngắn nhất và tính toán các khoảng thời gian đệm khả dĩ.
+
+Baseline, tức Đường cơ sở, Mốc giá trị chuẩn, thường là số tiền ngân sách hoặc mốc tiến độ cố định được phê duyệt, dùng làm thước đo chuẩn mực để so sánh xem dự án đang đi đúng hay lệch hướng và đánh giá mức độ thành công chung cuộc.
+
+Baseline a budget, tức Thiết lập đường cơ sở ngân sách, Hành động phê duyệt và cố định một mốc ngân sách tham chiếu làm điểm tựa chuẩn mực, nhằm đo lường, theo dõi và so sánh tiến độ giải ngân thực tế của dự án trong suốt quá trình triển khai.
+
+Bottom-up approach, tức Phương pháp ước tính từ dưới lên, Phương pháp tiếp cận mang tính chi tiết, trong đó bạn bóc tách và tư duy về tất cả các phần việc cấu thành dự án từ đầu đến cuối, lập danh sách tất cả các hạng mục phát sinh chi phí, rồi cộng dồn toàn bộ lại để ra tổng ngân sách.
+
+Budget, tức Ngân sách, Tổng nguồn lực tài chính ước tính cần thiết phải huy động để đạt được các mục tiêu và kết quả đã cam kết của dự án.
+
+Budget pre-allocation, tức Tiền phân bổ ngân sách, Tình huống mà trong đó ngân sách hoặc hạn mức chi tiêu đã được ban lãnh đạo hoặc nhà tài trợ ấn định cứng từ trước khi dự án chính thức bấm nút khởi động.
+
+Budget risk, tức Rủi ro ngân sách, Khả năng chi phí thực tế của dự án sẽ tăng vọt vượt tầm kiểm soát do khâu lập kế hoạch sơ sài hoặc do sự phình to phạm vi công việc.
+
+Buffer, tức Thời gian đệm, Khoảng thời gian dự phòng được cộng thêm vào cuối một nhiệm vụ hoặc cuối toàn bộ dự án, nhằm hấp thụ những sự cố chậm trễ ngoài ý muốn trong quá trình thi công.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ C
+. ......
+
+Capacity, tức Năng lực đáp ứng, Khối lượng công việc tối đa mà các nhân sự hoặc nguồn lực được phân bổ cho dự án có thể hoàn thành một cách hợp lý trong một khoảng thời gian nhất định.
+
+Capacity planning, tức Lập kế hoạch năng lực đáp ứng, Hành động phân bổ nhân lực và tài nguyên vào từng nhiệm vụ cụ thể, đồng thời, đánh giá xem liệu dự án đã huy động đủ nguồn lực cần thiết để hoàn thành công việc đúng hạn định hay chưa.
+
+C-A-P-E-X, tức Chi phí vốn, Capital Expenses, Các khoản chi phí đầu tư tài sản cố định mà doanh nghiệp bỏ ra nhằm tạo ra lợi ích kinh tế lâu dài trong tương lai.
+
+Cash flow, tức Dòng tiền, Sự chuyển dịch, luân chuyển vào và ra của dòng tiền mặt trong một dự án theo từng mốc thời gian.
+
+Cause-and-effect diagram, tức Biểu đồ nguyên nhân và kết quả, Công cụ trực quan thể hiện tất cả các nguyên nhân tiềm ẩn có thể dẫn tới một biến cố hay rủi ro cụ thể, thường được gọi thân thuộc là biểu đồ xương cá, Fishbone Diagram.
+
+Communication, tức Truyền thông, Dòng chảy liên tục của thông tin, bao hàm tất cả những gì được sẻ chia, phương thức thông tin được truyền đi, và đối tượng tiếp nhận thông tin đó.
+
+Communication plan, tức Kế hoạch truyền thông, Bản tài liệu sống giúp định hình, tổ chức quy trình, các kênh giao tiếp và những kỳ vọng về mặt truyền thông xuyên suốt dự án.
+
+Contingency budget, tức Ngân sách dự phòng rủi ro, Khoản tiền được tính toán bổ sung vào dự toán để ứng phó với những biến cố bất ngờ chưa lường trước, vốn chưa được hạch toán trong bảng ước tính chi phí ban đầu.
+
+Contingency reserves, tức Dự phòng rủi ro đã xác định, Khoản tiền dự phòng được bổ sung trực tiếp vào chi phí ước tính của dự án nhằm kiểm soát và xử lý các rủi ro đã được nhận diện trong sổ đăng ký rủi ro.
+
+Cost of quality, tức Chi phí chất lượng, Toàn bộ các chi phí phát sinh để phòng ngừa lỗi, đảm bảo quy trình và kiểm định sản phẩm không gặp sự cố khi bàn giao.
+
+Cost performance index, viết tắt là C-P-I, tức Chỉ số hiệu suất chi phí, Tỷ số toán học giữa giá trị công việc thực tế đã hoàn thành so với chi phí thực tế đã bỏ ra, phản ánh mức độ hiệu quả trong việc sử dụng ngân sách.
+
+Cost variance, viết tắt là C-V, tức Chênh lệch chi phí, Khoảng chênh lệch số học giữa giá trị ngân sách dự kiến phải chi so với số tiền thực tế đã giải ngân cho khối lượng công việc đã hoàn tất tại một thời điểm nhất định.
+
+Critical path, tức Đường găng, Chuỗi các cột mốc và nhiệm vụ bắt buộc phải hoàn thành đúng hạn tuyệt đối để đảm bảo dự án về đích đúng tiến độ cam kết, bất kỳ sự chậm trễ nào trên đường găng đều sẽ làm chậm trễ toàn bộ dự án.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ D
+. ......
+
+Decision tree, tức Cây quyết định, Một lưu đồ trực quan giúp mô phỏng và hình dung những tác động lan tỏa sâu rộng của một quyết sách lên toàn bộ phần còn lại của dự án.
+
+Dependency, tức Mối phụ thuộc công việc, Mối quan hệ ràng buộc giữa hai nhiệm vụ trong dự án, trong đó việc bắt đầu hoặc hoàn thành của nhiệm vụ này phụ thuộc trực tiếp vào việc bắt đầu hoặc kết thúc của nhiệm vụ kia.
+
+Dependency graph, tức Sơ đồ mối phụ thuộc, Bản biểu đồ trực quan mô tả các mối liên kết phụ thuộc chằng chịt trong dòng chảy công việc của dự án.
+
+Direct costs, tức Chi phí trực tiếp, Những khoản chi phí phát sinh trực tiếp và gắn liền độc quyền với việc thực thi các hoạt động của dự án.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ E
+. ......
+
+Earliest start date, tức Ngày bắt đầu sớm nhất, Trong phương pháp đường găng, đây là thời điểm sớm nhất có thể mà một nhiệm vụ cụ thể hoặc toàn bộ dự án được phép bấm nút bắt đầu.
+
+Earned value management, viết tắt là E-V-M, tức Quản trị giá trị thu được, Một kỹ thuật quản lý dự án chuẩn mực quốc tế, nơi hiệu suất thực tế về ngân sách và tiến độ được giám sát định kỳ một cách khách quan so với kế hoạch cơ sở ban đầu.
+
+Effort estimation, tức Ước tính nỗ lực, Dự báo định lượng về khối lượng công việc thực tế và độ phức tạp cần thiết để hoàn thành một nhiệm vụ.
+
+Empathy, tức Sự thấu cảm, Năng lực tâm lý thấu hiểu, đồng cảm và sẻ chia với những suy nghĩ, cảm xúc và góc nhìn của những người xung quanh.
+
+Ethical trap, tức Cạm bẫy đạo đức, Một tình huống tiến thoái lưỡng nan hoặc áp lực công việc có thể khiến một cá nhân đưa ra những quyết định sai trái, vi phạm chuẩn mực đạo đức nghề nghiệp.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ F
+. ......
+
+Finish-to-finish, viết tắt là F-F, tức Quan hệ kết thúc đến kết thúc, Mối quan hệ phụ thuộc trong đó nhiệm vụ thứ nhất bắt buộc phải hoàn thành thì nhiệm vụ thứ hai mới có thể hoàn tất.
+
+Finish-to-start, viết tắt là F-S, tức Quan hệ kết thúc đến bắt đầu, Mối quan hệ phụ thuộc phổ biến nhất, trong đó nhiệm vụ thứ nhất bắt buộc phải kết thúc xong xuôi thì nhiệm vụ thứ hai mới được phép bắt đầu.
+
+Fishbone diagram, tức Biểu đồ xương cá, Công cụ trực quan giúp mổ xẻ các nguyên nhân gốc rễ dẫn tới một sự cố hay rủi ro, còn gọi là biểu đồ nguyên nhân và kết quả.
+
+Fixed contract, tức Hợp đồng trọn gói, Loại hợp đồng mà nhà cung cấp sẽ được chi trả một số tiền cố định khi các cột mốc sản phẩm cụ thể được nghiệm thu.
+
+Fixed costs, tức Chi phí cố định, Những khoản chi phí không thay đổi bất kể quy mô công việc hay thời gian triển khai của dự án biến động ra sao.
+
+Fixed start date, tức Ngày bắt đầu cố định, Mốc ngày bất biến bắt buộc công việc phải khởi động để có thể kịp cán đích mục tiêu chung.
+
+Float, tức Thời gian dự trữ, Khoảng thời gian mà một nhiệm vụ có thể trì hoãn việc bắt đầu mà không làm chậm trễ tiến độ tổng thể của toàn bộ dự án, còn được gọi là Slack.
+
+Forecast, tức Dự báo, Một bản ước tính hoặc dự đoán khoa học về chi phí, nguồn lực hoặc tiến độ trong một khoảng thời gian tương lai.
+
+Forward pass, tức Kỹ thuật duyệt xuôi, Phương pháp tính toán tiến độ bắt đầu từ nhiệm vụ đầu tiên và tiến dần về phía cuối dự án để xác định thời điểm hoàn thành sớm nhất.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ G
+. ......
+
+Gantt chart, tức Biểu đồ Gantt, Biểu đồ thanh ngang trực quan hóa toàn bộ lịch trình và các nhiệm vụ của dự án, thể hiện rõ ràng ai chịu trách nhiệm cho phần việc nào và thời hạn hoàn thành tương ứng.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ H
+. ......
+
+High-level risk, tức Rủi ro cấp cao, Một rủi ro đặc biệt nghiêm trọng có khả năng tàn phá sự thành công của toàn bộ dự án, đòi hỏi phải truyền thông trực tiếp và sâu sát với các bên liên quan để thống nhất kế hoạch ứng phó.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ I
+. ......
+
+Impact, tức Mức độ tác động, Thiệt hại hoặc tổn thất mà một rủi ro có thể gây ra cho dự án nếu nó xảy ra trên thực tế, được đo lường theo ba cấp độ Cao, Trung bình hoặc Thấp.
+
+Indirect costs, tức Chi phí gián tiếp, Những khoản chi phí hỗ trợ vận hành chung không thể quy trực tiếp cho một nhiệm vụ hay dự án đơn lẻ nào, chẳng hạn như tiền thuê mặt bằng hay tiện ích văn phòng.
+
+Inherent risk, tức Rủi ro vốn có, Thước đo mức độ nghiêm trọng nội tại của một rủi ro, được tính toán từ sự kết hợp giữa xác suất xảy ra và mức độ tác động của nó.
+
+Issue, tức Vấn đề phát sinh, Một sự cố thực tế, một rắc rối đã được biết rõ hoặc đang hiện hữu trực tiếp cản trở khả năng hoàn thành công việc của đội ngũ.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ K
+. ......
+
+Kanban board, tức Bảng Kanban, Công cụ trực quan hóa luồng công việc giúp phân loại và quản lý trạng thái các nhiệm vụ qua các cột trực quan như việc cần làm, đang làm và đã hoàn thành.
+
+Kickback, tức Tiền lại quả, hoa hồng đen, Một hành vi tham nhũng bất hợp pháp, trong đó một tỷ lệ phần trăm giá trị hợp đồng được hứa hẹn chi trả ngầm cho người có thẩm quyền để đổi lấy việc trúng thầu.
+
+Knowledge management, tức Quản trị tri thức, Chuẩn mực đảm bảo các dữ liệu, tài liệu và bài học kinh nghiệm của dự án được lưu trữ tập trung, để người khác có thể dễ dàng truy xuất trong tương lai nhằm ra quyết định hoặc dẫn dắt các dự án tương tự.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ L
+. ......
+
+Latest start date, tức Ngày bắt đầu muộn nhất, Trong phương pháp đường găng, đây là thời điểm muộn nhất mà một nhiệm vụ có thể bắt đầu mà không làm chậm trễ ngày bàn giao cuối cùng của toàn dự án.
+
+Leverage experts, tức Tận dụng chuyên gia, Việc chủ động tham vấn và khai thác những hiểu biết sâu sắc của các chuyên gia đầu ngành để thực thi công việc một cách thông minh và hiệu quả hơn.
+
+Low-level risk, tức Rủi ro cấp thấp, Một rủi ro có mức độ ảnh hưởng nhỏ và xác suất xảy ra thấp, người quản lý dự án có thể cân nhắc linh hoạt việc có cần thông báo cho các bên liên quan hay không.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ M
+. ......
+
+Management reserves, tức Dự phòng quản lý, Khoản ngân sách được ban lãnh đạo trích lập riêng để ứng phó với những rủi ro hoàn toàn chưa biết, Unknown Risks, nằm ngoài phạm vi đường cơ sở.
+
+Medium-level risk, tức Rủi ro cấp trung bình, Rủi ro có khả năng tác động đáng kể đến dự án, cần được trao đổi trực tiếp và kịp thời với các bên liên quan.
+
+Milestone, tức Cột mốc, Một thời điểm trọng đại trên dòng thời gian của dự án, đánh dấu sự tiến bộ vượt bậc và thường gắn liền với việc hoàn tất một giai đoạn hoặc bàn giao một sản phẩm chủ chốt.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ N
+. ......
+
+Need-to-know basis, tức Nguyên tắc thực sự cần biết, Chuẩn mực bảo mật thông tin, theo đó chỉ cung cấp đúng những dữ kiện cần thiết cho một cá nhân vào đúng thời điểm họ cần biết, và tuyệt đối không chia sẻ thừa thãi.
+
+Network diagram, tức Sơ đồ mạng lưới, Bản vẽ trực quan mô tả trình tự logic của các nhiệm vụ trong dự án theo đúng trật tự của các mối liên kết phụ thuộc.
+
+Non-disclosure agreement, viết tắt là N-D-A, tức Thỏa thuận bảo mật thông tin, Một văn bản pháp lý ràng buộc các bên phải giữ kín những thông tin bí mật kinh doanh bên trong tổ chức.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ O
+. ......
+
+Open-ended question, tức Câu hỏi mở, Dạng câu hỏi khuyến khích câu trả lời sâu sắc, gợi mở thông tin, không thể trả lời đơn thuần bằng một từ có hoặc không.
+
+O-P-E-X, tức Chi phí vận hành, Operating Expenses, Toàn bộ các khoản chi phí phát sinh hằng ngày phục vụ cho các hoạt động vận hành thường nhật của doanh nghiệp.
+
+Optimism bias, tức Thiên kiến lạc quan, Khuynh hướng tâm lý con người tin rằng mình ít có khả năng gặp phải những biến cố tiêu cực hơn so với thực tế khách quan.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ P
+. ......
+
+Parallel tasks, tức Các nhiệm vụ song song, Những công việc độc lập có thể diễn ra đồng thời, cùng một lúc với các nhiệm vụ khác mà không bị ràng buộc cản trở nhau.
+
+Personally identifiable information, viết tắt là P-I-I, tức Thông tin nhận dạng cá nhân, Bất kỳ dữ liệu nào có thể được sử dụng độc lập hoặc kết hợp để định danh, liên lạc hoặc xác định chính xác một con người, bao gồm địa chỉ email, số điện thoại, địa chỉ nhà, tọa độ định vị, tên đầy đủ và tên người dùng.
+
+Planning fallacy, tức Ngụy biện lập kế hoạch, Xu hướng tâm lý phổ biến của con người khi luôn đánh giá thấp thời gian cần thiết để hoàn thành một công việc, đồng thời, xem nhẹ chi phí và các rủi ro đi kèm.
+
+Planning phase, tức Giai đoạn lập kế hoạch, Giai đoạn thứ hai trong vòng đời dự án, tập trung xây dựng lịch trình tiến độ, dự toán ngân sách và kế hoạch quản trị rủi ro chi tiết.
+
+Probability and impact matrix, tức Ma trận xác suất và tác động, Công cụ trực quan dùng để lượng hóa, phân loại và sắp xếp thứ tự ưu tiên cho các rủi ro của dự án.
+
+Probability, tức Xác suất, Khả năng hoặc mức độ khả thi mà một rủi ro có thể xảy ra trong thực tế.
+
+Procurement, tức Mua sắm đấu thầu, Toàn bộ quy trình tìm kiếm, mua sắm và sở hữu tất cả các nguyên vật liệu, dịch vụ và hàng hóa cần thiết từ các nhà cung cấp bên ngoài để hoàn thành dự án.
+
+Project budget, tức Ngân sách dự án, Tổng nguồn lực tiền tệ ước tính cần thiết để hoàn thành toàn bộ các mục tiêu đề ra của dự án.
+
+Project buffer, tức Thời gian đệm dự án, Khoảng thời gian dự phòng chung được bổ sung vào phần cuối cùng của toàn bộ dự án để chống trượt tiến độ.
+
+Project kick-off meeting, tức Cuộc họp khởi động dự án, Buổi họp chính thức đầu tiên nơi toàn thể đội ngũ quy tụ để thấu suốt tầm nhìn chung, hiểu rõ mục tiêu, phạm vi và nắm vững vai trò cá nhân của từng người.
+
+Project management baseline, viết tắt là P-M-B, tức Đường cơ sở quản lý dự án, Mốc xuất phát điểm cố định được định nghĩa rõ ràng cho dự án, tích hợp cả ba yếu tố phạm vi, ngân sách và lịch trình.
+
+Project plan, tức Kế hoạch dự án, Tài liệu tổng thể ghi nhận phạm vi, nhiệm vụ, cột mốc và mọi hoạt động của dự án, thường bao gồm năm yếu tố cốt lõi, nhiệm vụ, cột mốc, con người, tài liệu và thời gian.
+
+Project task, tức Nhiệm vụ dự án, Một hoạt động công việc cụ thể cần được hoàn thành trong một khoảng thời gian ấn định.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ R
+. ......
+
+Reforecast, tức Tái dự báo ngân sách, Hoạt động lập ra một bản dự toán ngân sách điều chỉnh riêng biệt dựa trên tình hình theo dõi chi tiêu thực tế của dự án.
+
+Request for proposal, viết tắt là R-F-P, tức Yêu cầu đề xuất, Tài liệu chính thức do doanh nghiệp phát hành mô tả chi tiết yêu cầu dự án để mời các nhà thầu gửi hồ sơ giải pháp và báo giá.
+
+Reserve analysis, tức Phân tích dự phòng, Phương pháp kiểm toán, đánh giá định kỳ lượng ngân sách và thời gian dự phòng còn lại của dự án so với các rủi ro còn tiềm ẩn.
+
+Resource cost rate, tức Đơn giá nguồn lực, Chi phí đơn vị để sử dụng một nguồn lực cụ thể, chẳng hạn như tiền công theo giờ của một chuyên gia hoặc phí thuê thiết bị theo ngày.
+
+Risk, tức Rủi ro, Một biến cố tiềm tàng có khả năng xảy ra trong tương lai và gây ảnh hưởng đến kết quả của dự án.
+
+Risk appetite, tức Khẩu vị rủi ro, Mức độ sẵn lòng chấp nhận những hệ quả và tổn thất tiềm tàng từ rủi ro của một tổ chức hoặc doanh nghiệp.
+
+Risk assessment, tức Đánh giá rủi ro, Giai đoạn trong quy trình quản trị rủi ro nơi các đặc tính về xác suất và mức độ tác động của rủi ro được ước lượng và đo lường.
+
+Risk management, tức Quản trị rủi ro, Toàn bộ tiến trình mang tính hệ thống nhằm nhận diện, đánh giá và áp dụng các giải pháp kiểm soát các rủi ro và sự cố tiềm ẩn của dự án.
+
+Risk management plan, tức Kế hoạch quản trị rủi ro, Một tài liệu sống chứa đựng thông tin về các rủi ro đã nhận diện, các ước tính về xác suất và tác động, cùng các phương án giảm thiểu chi tiết cho từng rủi ro đó.
+
+Risk register, tức Sổ đăng ký rủi ro, Bảng biểu hoặc biểu đồ tổng hợp danh mục toàn bộ các rủi ro của dự án kèm theo các mức xếp hạng và biện pháp kiểm soát.
+
+Root cause, tức Nguyên nhân gốc rễ, Cội nguồn sâu xa ban đầu kích hoạt một tình huống dẫn tới sự xuất hiện của rủi ro.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ S
+. ......
+
+Schedule, tức Lịch trình tiến độ, Dòng thời gian của dự án, bao gồm ngày bắt đầu, ngày kết thúc và các mốc ngày diễn ra các sự kiện công việc ở giữa.
+
+Schedule performance index, viết tắt là S-P-I, tức Chỉ số hiệu suất tiến độ, Tỷ số giữa tỷ lệ phần trăm công việc thực tế đã hoàn thành so với kế hoạch tiến độ đã cam kết, phản ánh dự án đang chạy nhanh hay chậm hơn kế hoạch.
+
+Schedule variance, viết tắt là S-V, tức Chênh lệch tiến độ, Khoảng chênh lệch giữa khối lượng công việc dự kiến hoàn thành so với khối lượng thực tế đã hoàn tất tại một thời điểm nhất định.
+
+Scope risk, tức Rủi ro phạm vi, Khả năng dự án sẽ không tạo ra được những kết quả đầu ra đúng như đã cam kết trong mục tiêu dự án ban đầu.
+
+Sequential tasks, tức Các nhiệm vụ tuần tự, Những công việc bắt buộc phải được triển khai và hoàn thành theo một trình tự nghiêm ngặt trước sau.
+
+Single point of failure, tức Điểm lỗi đơn lẻ, Một rủi ro mang tính chí mạng có tiềm năng gây ra thảm họa làm tê liệt và đình trệ toàn bộ hoạt động của cả dự án.
+
+Slack, tức Khoảng thời gian chậm trễ cho phép, Khoảng thời gian một nhiệm vụ có thể bị trì hoãn so với ngày bắt đầu sớm nhất của nó mà không làm trễ hạn chót của toàn dự án, đồng nghĩa với Float.
+
+Soft skills, tức Kỹ năng mềm, Những phẩm chất cá nhân, kỹ năng giao tiếp và ứng xử giúp con người làm việc hòa hợp và hiệu quả với những người xung quanh.
+
+Sole-supplier sourcing, tức Chỉ định thầu một nhà cung cấp duy nhất, Tình huống doanh nghiệp giới hạn quy trình chào thầu cho một nhà cung cấp duy nhất, loại bỏ hoàn toàn yếu tố cạnh tranh giá.
+
+Start-to-finish, viết tắt là S-F, tức Quan hệ bắt đầu đến kết thúc, Mối quan hệ phụ thuộc trong đó nhiệm vụ thứ nhất bắt buộc phải bắt đầu thì nhiệm vụ thứ hai mới có thể hoàn tất.
+
+Start-to-start, viết tắt là S-S, tức Quan hệ bắt đầu đến bắt đầu, Mối quan hệ phụ thuộc trong đó nhiệm vụ thứ hai không thể bấm nút khởi động chừng nào nhiệm vụ thứ nhất chưa bắt đầu.
+
+Statement of work, viết tắt là S-O-W, tức Bản mô tả phạm vi công việc, Tài liệu pháp lý quy định rõ ràng những sản phẩm, dịch vụ và tiêu chuẩn nghiệm thu mà nhà thầu phải cung cấp cho doanh nghiệp.
+
+Subtasks, tức Các nhiệm vụ con, Những phần việc nhỏ hơn được chia tách từ một đầu việc lớn để dễ dàng quản lý và hoàn thành.
+
+Subject matter expert, viết tắt là S-M-E, tức Chuyên gia chuyên môn sâu, Thành viên có hiểu biết uyên thâm, kinh nghiệm thực chiến dày dạn về một công việc, quy trình, công nghệ hoặc lĩnh vực chuyên biệt.
+
+Summary task, tức Nhiệm vụ tóm tắt, Đề mục lớn ở cấp cao nhất trong kế hoạch dự án dùng để nhóm và bao hàm một tập hợp các nhiệm vụ con bên dưới.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ T
+. ......
+
+Task buffer, tức Thời gian đệm cho nhiệm vụ, Khoảng thời gian dự phòng được cộng thêm riêng cho một đầu việc cụ thể.
+
+Time and materials contract, tức Hợp đồng theo thời gian và vật liệu, Hợp đồng được thanh toán định kỳ hằng tháng dựa trên số giờ lao động thực tế cộng với các chi phí phát sinh hợp lý như đi lại và ăn ở.
+
+Time estimation, tức Ước tính thời gian, Dự đoán khoa học về tổng lượng thời gian cần thiết để hoàn thành trọn vẹn một nhiệm vụ.
+
+Time risk, tức Rủi ro thời gian, Khả năng các nhiệm vụ trong dự án sẽ tốn nhiều thời gian hoàn thành hơn so với dự tính ban đầu.
+
+Time-phase a budget, tức Phân bổ ngân sách theo thời gian, Hành động trải đều các khoản mục ngân sách dọc theo dòng thời gian thực tế của dự án.
+
+Total cost of ownership, viết tắt là T-C-O, tức Tổng chi phí sở hữu, Toàn bộ chi phí của một dự án hoặc tài sản, tính từ giai đoạn khởi tạo, mua sắm, vận hành cho đến khi thanh lý kết thúc.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ V
+. ......
+
+Vendors, tức Các nhà cung cấp, Các cá nhân hoặc doanh nghiệp bên ngoài cung cấp hàng hóa, nguyên vật liệu và dịch vụ cho dự án.
+
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ W
+. ......
+
+Work breakdown structure, viết tắt là W-B-S, tức Cấu trúc phân rã công việc, Công cụ quản trị cốt lõi giúp phân cấp và chia nhỏ toàn bộ các cột mốc và nhiệm vụ của dự án theo một hệ thống thứ bậc rõ ràng, theo đúng trình tự cần hoàn thành.

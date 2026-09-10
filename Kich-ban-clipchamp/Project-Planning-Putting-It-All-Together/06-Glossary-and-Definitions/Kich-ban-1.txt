@@ -1,0 +1,26 @@
+CHƯƠNG SÁU, BẢNG THUẬT NGỮ VÀ ĐỊNH NGHĨA KHÓA HỌC BA
+. ......
+
+BẢNG THUẬT NGỮ QUẢN TRỊ DỰ ÁN, LẬP KẾ HOẠCH TỔNG THỂ
+. ......
+
+Chào mừng bạn đến với bảng tra cứu thuật ngữ chuyên sâu của Khóa học ba, Lập kế hoạch Dự án, Kết nối Toàn diện. Đây là kho tàng định nghĩa chuẩn mực quốc tế giúp bạn củng cố, tra cứu và làm chủ toàn bộ ngôn ngữ chuyên môn của một Project Manager chuyên nghiệp.
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ B
+. ......
+
+Backward pass, tức Kỹ thuật duyệt ngược, Phương pháp bắt đầu từ nhiệm vụ hoặc cột mốc cuối cùng của dự án, sau đó đi ngược dần về điểm khởi đầu trên lịch trình để xác định đường tiến độ ngắn nhất và tính toán các khoảng thời gian đệm khả dĩ.
+
+Baseline, tức Đường cơ sở, Mốc giá trị chuẩn, thường là số tiền ngân sách hoặc mốc tiến độ cố định được phê duyệt, dùng làm thước đo chuẩn mực để so sánh xem dự án đang đi đúng hay lệch hướng và đánh giá mức độ thành công chung cuộc.
+
+Baseline a budget, tức Thiết lập đường cơ sở ngân sách, Hành động phê duyệt và cố định một mốc ngân sách tham chiếu làm điểm tựa chuẩn mực, nhằm đo lường, theo dõi và so sánh tiến độ giải ngân thực tế của dự án trong suốt quá trình triển khai.
+
+Bottom-up approach, tức Phương pháp ước tính từ dưới lên, Phương pháp tiếp cận mang tính chi tiết, trong đó bạn bóc tách và tư duy về tất cả các phần việc cấu thành dự án từ đầu đến cuối, lập danh sách tất cả các hạng mục phát sinh chi phí, rồi cộng dồn toàn bộ lại để ra tổng ngân sách.
+
+Budget, tức Ngân sách, Tổng nguồn lực tài chính ước tính cần thiết phải huy động để đạt được các mục tiêu và kết quả đã cam kết của dự án.
+
+Budget pre-allocation, tức Tiền phân bổ ngân sách, Tình huống mà trong đó ngân sách hoặc hạn mức chi tiêu đã được ban lãnh đạo hoặc nhà tài trợ ấn định cứng từ trước khi dự án chính thức bấm nút khởi động.
+
+Budget risk, tức Rủi ro ngân sách, Khả năng chi phí thực tế của dự án sẽ tăng vọt vượt tầm kiểm soát do khâu lập kế hoạch sơ sài hoặc do sự phình to phạm vi công việc.
+
+Buffer, tức Thời gian đệm, Khoảng thời gian dự phòng được cộng thêm vào cuối một nhiệm vụ hoặc cuối toàn bộ dự án, nhằm hấp thụ những sự cố chậm trễ ngoài ý muốn trong quá trình thi công.

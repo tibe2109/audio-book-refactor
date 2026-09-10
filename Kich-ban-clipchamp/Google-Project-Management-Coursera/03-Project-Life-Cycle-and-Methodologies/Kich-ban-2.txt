@@ -1,0 +1,13 @@
+KHÁM PHÁ CÁC GIAI ĐOẠN CỦA VÒNG ĐỜI DỰ ÁN, EXPLORING THE PHASES OF THE PROJECT LIFE CYCLE
+. ......
+Trên thực tế, không có hai dự án nào là hoàn toàn giống hệt nhau, và điều đó đồng nghĩa với việc có vô số cách thức khác nhau để điều phối và quản trị chúng. Mỗi dự án đều mang theo những nhu cầu riêng biệt và những biến số đặc thù tác động trực tiếp đến cách bạn hành động để chinh phục mục tiêu. Có rất nhiều con đường để dẫn dắt một dự án, và không bao giờ tồn tại một công thức duy nhất đúng cho mọi trường hợp.
+
+Hãy hình dung tình huống này, Bạn đang làm quản lý dự án cho một chiến dịch tranh cử chính trị của một ứng viên tại địa phương. Để biến chiến dịch đó thành hiện thực thắng lợi, bạn bắt buộc phải cân não tính toán về các nguồn lực sẵn có, đội ngũ những con người bạn sẽ cùng sát cánh, ngày bầu cử quyết định, và các địa bàn trọng điểm. Bạn cần phải bao quát một khối lượng chi tiết khổng lồ để đưa dự án cán đích thành công. Bởi vì, có quá nhiều biến số có thể tác động lên một dự án, điều cốt tử là bạn phải nắm vững cấu trúc cơ bản của nó. Trong ngành, chúng tôi gọi cấu trúc nền tảng này là Vòng đời Dự án, Project Life Cycle.
+
+Vòng đời dự án chính là chiếc la bàn định hướng tuyệt vời giúp dẫn dắt dự án của bạn đi đúng quỹ đạo, đảm bảo cả bạn và dự án luôn bám sát lộ trình và cập bến chuẩn xác tại cái đích mong đợi. Phần lớn các vòng đời dự án đều bao gồm bốn giai đoạn lớn, mỗi giai đoạn đều chứa đựng một tập hợp các nhiệm vụ và những mối bận tâm đặc thù. Bốn giai đoạn cốt lõi đó là,
+Thứ nhất, Khởi tạo dự án, Initiate the project,
+Thứ hai, Lập kế hoạch, Make a plan,
+Thứ ba, Thực thi và hoàn thành các nhiệm vụ, Execute and complete tasks,
+Thứ tư, Kết thúc và đóng dự án, Close the project.
+
+Hãy cùng bắt đầu với giai đoạn đầu tiên, Khởi tạo dự án, Initiate the project. Đây chính là bệ phóng cho toàn bộ tiến trình dự án của bạn. Trong giai đoạn này, bạn sẽ xác định rõ các mục tiêu dự án, Project Goals, và các kết quả bàn giao then chốt, Deliverables, nhận diện ngân sách dự toán cùng các nguồn lực cần thiết, xác định những nhân sự sẽ tham gia vào dự án, và bao quát mọi chi tiết có thể ảnh hưởng tới sự hoàn thành thắng lợi của dự án. Bạn sẽ tổng hợp và lưu trữ toàn bộ những thông tin này vào một tài liệu tập trung để chứng minh giá trị chiến lược của dự án, và từ đó nhận được sự phê duyệt chính thức từ cấp lãnh đạo để tiến hành triển khai.

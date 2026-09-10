@@ -1,0 +1,10 @@
+Việc đưa vào một thẻ trang tính tổng quan và gắn đường dẫn đến tất cả các tệp tin không phải dạng bảng tính là cực kỳ hữu ích. Đây cũng chính là một không gian lý tưởng để bạn cung cấp một bản mô tả ngắn gọn về dự án, hướng dẫn cách sử dụng trang tính, hoặc nêu rõ những kỳ vọng về mặt truyền thông. Trong ví dụ, minh họa này, thẻ trang tính tổng quan được gọi là bảng điều khiển theo dõi, tức Dashboard, và nó cũng mang cùng một ý nghĩa như vậy. Bạn có thể toàn quyền quyết định cách đặt tên cho bảng điều khiển của riêng mình.
+
+Đó chính là tất cả những gì bạn cần. Giờ đây, mọi tài liệu của bạn đã được tổ chức một cách khoa học, ngăn nắp và bạn đã hoàn toàn sẵn sàng để chứng minh cho tất cả mọi người thấy bạn là một Project Manager tài năng và cừ khôi đến mức nào.
+
+TẦM QUAN TRỌNG CỦA TÀI LIỆU HỒ SƠ DỰ ÁN, CÂU CHUYỆN CỦA DAN
+. ......
+
+Tôi là Dan, và tôi là một Program Manager tại bộ phận Google Research. Với tư cách là một người quản lý chương trình tại khối Nghiên cứu, nhiệm vụ của tôi là làm sao để đảm bảo tất cả các đội ngũ mà tôi làm việc cùng đều có chung một góc nhìn thống nhất và thông suốt. Cho dù đó là các đội ngũ sản phẩm, những người trực tiếp đưa các kết quả nghiên cứu vào ứng dụng thực tế, hay các đội ngũ nghiên cứu thuần túy, những người cần thấu hiểu cách định hình chương trình nghị sự nghiên cứu cho các dự án tương lai. Phần lớn những gì tôi làm hằng ngày chính là truyền thông hiệu quả và nỗ lực kiến tạo nên hệ thống tài liệu hồ sơ chi tiết để tất cả mọi người đều có thể xâu chuỗi và kết nối các dữ kiện lại với nhau.
+
+Một điều mà tôi đã quan sát thấy trong suốt sự nghiệp làm quản lý chương trình của mình là sự sinh sôi nảy nở mất kiểm soát của các loại tài liệu, hay cái mà tôi thường gọi đùa là, chết chìm trong hàng ngàn văn bản, Death by a thousand documents. Vì vậy, việc sở hữu một tài liệu chủ duy nhất, Master Document, nơi bạn tập trung hóa toàn bộ các tài liệu con hoặc các văn bản thứ cấp cần thiết để thực thi dự án trở nên có ý nghĩa sống còn. Khi đó, bạn chỉ cần mở tài liệu chủ đó ra là có thể tìm thấy bất kỳ thứ gì mình cần, ngay cả khi tài liệu đó thực chất đang được lưu trữ ở một nơi nào khác.

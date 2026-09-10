@@ -1,0 +1,274 @@
+{
+  "session_id": "ses_20260908_143104",
+  "book_slug": "ProcessGroupsPracticeGuide",
+  "source_pdf": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Docs/ProcessGroupsPracticeGuide.pdf",
+  "total_pages": 367,
+  "created_at": "2026-09-08T14:31:04.907379",
+  "updated_at": "2026-09-08T14:31:04.907384",
+  "pipeline_stage": "01_structure_extracted",
+  "chapters": [
+    {
+      "index": 0,
+      "folder": "00-Preface",
+      "title": "Preface & Front Matter",
+      "start_page": 6,
+      "end_page": 21,
+      "char_count": 28463,
+      "word_count": 2435,
+      "status": "raw_extracted",
+      "raw_file": "00-Preface/raw_original.txt",
+      "step_2_status": "completed",
+      "translated_file": "00-Preface/translated.txt",
+      "translated_char_count": 19541,
+      "translated_word_count": 3513,
+      "step_3_status": "completed",
+      "normalized_file": "00-Preface/normalized.txt",
+      "normalized_char_count": 21904,
+      "normalized_word_count": 3892,
+      "step_4_status": "completed",
+      "raw_chunks": [
+        {
+          "chunk_index": 1,
+          "filename": "Kich-ban-raw-1.txt",
+          "char_count": 2322,
+          "word_count": 497
+        },
+        {
+          "chunk_index": 2,
+          "filename": "Kich-ban-raw-2.txt",
+          "char_count": 2928,
+          "word_count": 529
+        },
+        {
+          "chunk_index": 3,
+          "filename": "Kich-ban-raw-3.txt",
+          "char_count": 2919,
+          "word_count": 541
+        },
+        {
+          "chunk_index": 4,
+          "filename": "Kich-ban-raw-4.txt",
+          "char_count": 2450,
+          "word_count": 446
+        },
+        {
+          "chunk_index": 5,
+          "filename": "Kich-ban-raw-5.txt",
+          "char_count": 2886,
+          "word_count": 485
+        },
+        {
+          "chunk_index": 6,
+          "filename": "Kich-ban-raw-6.txt",
+          "char_count": 2860,
+          "word_count": 453
+        },
+        {
+          "chunk_index": 7,
+          "filename": "Kich-ban-raw-7.txt",
+          "char_count": 2893,
+          "word_count": 474
+        },
+        {
+          "chunk_index": 8,
+          "filename": "Kich-ban-raw-8.txt",
+          "char_count": 2449,
+          "word_count": 477
+        }
+      ],
+      "step_5_status": "completed",
+      "formatted_scripts": [
+        {
+          "chunk_index": 1,
+          "filename": "Kich-ban-1.txt",
+          "char_count": 2403,
+          "word_count": 513
+        },
+        {
+          "chunk_index": 2,
+          "filename": "Kich-ban-2.txt",
+          "char_count": 3325,
+          "word_count": 601
+        },
+        {
+          "chunk_index": 3,
+          "filename": "Kich-ban-3.txt",
+          "char_count": 3362,
+          "word_count": 621
+        },
+        {
+          "chunk_index": 4,
+          "filename": "Kich-ban-4.txt",
+          "char_count": 2769,
+          "word_count": 502
+        },
+        {
+          "chunk_index": 5,
+          "filename": "Kich-ban-5.txt",
+          "char_count": 2926,
+          "word_count": 485
+        },
+        {
+          "chunk_index": 6,
+          "filename": "Kich-ban-6.txt",
+          "char_count": 2898,
+          "word_count": 453
+        },
+        {
+          "chunk_index": 7,
+          "filename": "Kich-ban-7.txt",
+          "char_count": 2930,
+          "word_count": 474
+        },
+        {
+          "chunk_index": 8,
+          "filename": "Kich-ban-8.txt",
+          "char_count": 2485,
+          "word_count": 477
+        }
+      ],
+      "step_6_status": "completed",
+      "step_7_status": "passed",
+      "step_8_status": "completed",
+      "step_9_status": "completed",
+      "step_10_status": "completed",
+      "status": "completed",
+      "final_master_file": "audio_output/Final_Audio_00-Preface_Part1.mp3",
+      "raw_chunks_cleaned": true
+    },
+    {
+      "index": 1,
+      "folder": "01-Introduction",
+      "title": "Chapter 1: Introduction",
+      "start_page": 22,
+      "end_page": 57,
+      "char_count": 57652,
+      "word_count": 8498,
+      "status": "raw_extracted",
+      "raw_file": "01-Introduction/raw_original.txt"
+    },
+    {
+      "index": 2,
+      "folder": "02-The-Project-Environment",
+      "title": "Chapter 2: The Project Environment",
+      "start_page": 58,
+      "end_page": 71,
+      "char_count": 21224,
+      "word_count": 2977,
+      "status": "raw_extracted",
+      "raw_file": "02-The-Project-Environment/raw_original.txt"
+    },
+    {
+      "index": 3,
+      "folder": "03-Role-of-the-Project-Manager",
+      "title": "Chapter 3: Role of the Project Manager",
+      "start_page": 72,
+      "end_page": 89,
+      "char_count": 27856,
+      "word_count": 4128,
+      "status": "raw_extracted",
+      "raw_file": "03-Role-of-the-Project-Manager/raw_original.txt"
+    },
+    {
+      "index": 4,
+      "folder": "04-Initiating-Process-Group",
+      "title": "Chapter 4: Initiating Process Group",
+      "start_page": 90,
+      "end_page": 97,
+      "char_count": 11163,
+      "word_count": 1690,
+      "status": "raw_extracted",
+      "raw_file": "04-Initiating-Process-Group/raw_original.txt"
+    },
+    {
+      "index": 5,
+      "folder": "05-Planning-Process-Group",
+      "title": "Chapter 5: Planning Process Group",
+      "start_page": 98,
+      "end_page": 153,
+      "char_count": 83353,
+      "word_count": 12484,
+      "status": "raw_extracted",
+      "raw_file": "05-Planning-Process-Group/raw_original.txt"
+    },
+    {
+      "index": 6,
+      "folder": "06-Executing-Process-Group",
+      "title": "Chapter 6: Executing Process Group",
+      "start_page": 154,
+      "end_page": 181,
+      "char_count": 46984,
+      "word_count": 6947,
+      "status": "raw_extracted",
+      "raw_file": "06-Executing-Process-Group/raw_original.txt"
+    },
+    {
+      "index": 7,
+      "folder": "07-Monitoring-and-Controlling-Process-Group",
+      "title": "Chapter 7: Monitoring and Controlling Process Group",
+      "start_page": 182,
+      "end_page": 215,
+      "char_count": 53332,
+      "word_count": 7864,
+      "status": "raw_extracted",
+      "raw_file": "07-Monitoring-and-Controlling-Process-Group/raw_original.txt"
+    },
+    {
+      "index": 8,
+      "folder": "08-Closing-Process-Group",
+      "title": "Chapter 8: Closing Process Group",
+      "start_page": 216,
+      "end_page": 221,
+      "char_count": 5695,
+      "word_count": 878,
+      "status": "raw_extracted",
+      "raw_file": "08-Closing-Process-Group/raw_original.txt"
+    },
+    {
+      "index": 9,
+      "folder": "09-Inputs-and-Outputs",
+      "title": "Chapter 9: Inputs and Outputs",
+      "start_page": 222,
+      "end_page": 265,
+      "char_count": 87518,
+      "word_count": 12910,
+      "status": "raw_extracted",
+      "raw_file": "09-Inputs-and-Outputs/raw_original.txt"
+    },
+    {
+      "index": 10,
+      "folder": "10-Tools-and-Techniques",
+      "title": "Chapter 10: Tools and Techniques",
+      "start_page": 266,
+      "end_page": 335,
+      "char_count": 148173,
+      "word_count": 22548,
+      "status": "raw_extracted",
+      "raw_file": "10-Tools-and-Techniques/raw_original.txt"
+    },
+    {
+      "index": 11,
+      "folder": "11-Glossary",
+      "title": "Glossary & Acronyms",
+      "start_page": 340,
+      "end_page": 367,
+      "char_count": 70471,
+      "word_count": 10336,
+      "status": "raw_extracted",
+      "raw_file": "11-Glossary/raw_original.txt"
+    }
+  ],
+  "metadata": {
+    "extractor_version": "2.0.0",
+    "noise_filtered": {
+      "headers_removed": true,
+      "footers_removed": true,
+      "watermarks_removed": true,
+      "page_numbers_removed": true
+    }
+  },
+  "step_3_status": "completed",
+  "step_4_status": "completed",
+  "step_5_status": "completed",
+  "step_6_status": "completed"
+}

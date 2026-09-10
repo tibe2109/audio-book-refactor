@@ -1,0 +1,29 @@
+Manage Stakeholder Engagement, Data Flow Diagram
+Sơ đồ bảy-một. Monitor and Control Project Work, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-hai. Monitor and Control Project Work, Data Flow Diagram
+Sơ đồ bảy-ba. Perform Integrated Change Control, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-bốn. Perform Integrated Change Control, Data Flow Diagram
+Sơ đồ bảy-năm. Validate Scope, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-sáu. Validate Scope, Data Flow Diagram
+Sơ đồ bảy-bảy. Control Scope, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-tám. Control Scope, Data Flow Diagram
+Sơ đồ bảy-chín. Control Schedule, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-mười. Control Schedule, Data Flow Diagram
+Sơ đồ bảy-mười một. Control Costs, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-mười hai. Control Costs, Data Flow Diagram
+Sơ đồ bảy-mười ba. Control Quality, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-mười bốn. Control Quality, Data Flow Diagram
+Sơ đồ bảy-mười lăm. Control Resources, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-mười sáu. Control Resources, Data Flow Diagram
+Sơ đồ bảy-mười bảy. Monitor Communications, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-mười tám. Monitor Communications, Data Flow Diagram
+Sơ đồ bảy-mười chín. Monitor Risks, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-hai mươi. Monitor Risks, Data Flow Diagram
+Sơ đồ bảy-hai mươi mốt. Control Procurements, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-hai mươi hai. Control Procurements, Data Flow Diagram
+Sơ đồ bảy-hai mươi ba. Monitor Stakeholder Engagement, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bảy-hai mươi bốn. Monitor Stakeholder Engagement, Data Flow Diagram
+Sơ đồ tám-một. Close Project or Phase, Inputs, Tools & Techniques, và Outputs
+Sơ đồ tám-hai. Close Project or Phase, Data Flow Diagram
+Sơ đồ chín-một. Ví dụ về Ma trận Xác suất và Tác động với Hệ thống Tính điểm, Probability and Impact Matrix, 
+Sơ đồ chín-hai.

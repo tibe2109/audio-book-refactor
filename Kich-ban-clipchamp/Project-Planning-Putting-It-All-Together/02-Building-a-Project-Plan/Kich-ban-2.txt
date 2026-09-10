@@ -1,0 +1,12 @@
+Một bản kế hoạch dự án sẽ bao gồm các nhiệm vụ và cột mốc, hai chủ đề cốt lõi mà chúng ta đã thảo luận trước đây. Nhiệm vụ là các hoạt động cụ thể cần phải được hoàn thành trong một khoảng thời gian xác định. Chúng được phân công cho các thành viên khác nhau trong đội ngũ tùy theo vai trò và kỹ năng chuyên môn của họ. Còn các cột mốc là những thời điểm then chốt trong tiến độ nhằm biểu thị bước tiến vượt bậc. Chúng thường đánh dấu sự hoàn thành của một sản phẩm bàn giao, Deliverable, hoặc một giai đoạn nhất định của dự án.
+
+Một bản kế hoạch dự án cũng sẽ bao gồm danh sách những con người làm việc trong đội ngũ cùng vai trò của họ. Điều tối quan trọng là mỗi thành viên trong nhóm phải hiểu sâu sắc vai trò của mình và nắm rõ những nhiệm vụ cụ thể mà họ chịu trách nhiệm hoàn thành. Việc đảm bảo mọi người đều minh bạch về các nhiệm vụ được giao sẽ giải phóng bạn khỏi sự vụ vi mô để tập trung trọn vẹn vào việc quản trị dự án, đồng thời, khơi dậy ý thức trách nhiệm cá nhân cho từng thành viên trong nhóm.
+
+Kế hoạch dự án là nơi lý tưởng để liên kết tới các tài liệu dự án liên quan. Điều này bao gồm những tài liệu như Bản Điều lệ Dự án, Project Charter, bản phân tích các bên liên quan, hoặc biểu đồ R-A-C-I, R-A-C-I Chart, giúp phân định rõ vai trò và trách nhiệm của từng cá nhân. Việc tập hợp tất cả các tài liệu này vào một nơi duy nhất sẽ giúp các thành viên trong nhóm và các bên liên quan dễ dàng tìm kiếm những thông tin quan trọng khi cần thiết.
+
+Cuối cùng, kế hoạch dự án sẽ bao gồm yếu tố thời gian. Đây là nơi bạn vạch ra tiến độ tổng thể của dự án, bao gồm thời điểm bắt đầu và kết thúc của từng nhiệm vụ cùng các cột mốc gắn liền. Bằng cách kết hợp hài hòa cả năm yếu tố này lại với nhau, bạn sẽ tạo ra một bản kế hoạch dự án toàn diện, đóng vai trò như một nguồn chân lý duy nhất, Single Source of Truth, giúp định hướng cho mọi hoạt động của toàn đội.
+
+ƯỚC TÍNH THỜI GIAN THỰC TẾ, MAKING REALISTIC TIME ESTIMATES
+. ......
+
+Với tư cách là người quản lý dự án, bạn không phải là người chịu trách nhiệm trực tiếp tự tay hoàn thành mọi nhiệm vụ. Trách nhiệm thực sự của bạn là nhận diện, hỗ trợ phân công các nhiệm vụ đó, và sau đó ước tính xem chúng sẽ mất bao lâu để hoàn thành. Những ước tính này sẽ kết hợp lại với nhau để định hình nên bản tiến độ tổng thể của toàn bộ dự án. Vậy thì, làm thế nào để bạn ước tính được khoảng thời gian mà một nhiệm vụ nhất định sẽ đòi hỏi? Bạn thực hiện điều này với sự hỗ trợ đắc lực từ chính đội ngũ của mình.

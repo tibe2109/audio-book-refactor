@@ -1,0 +1,13 @@
+Làm việc rất xuất sắc. Hãy cùng nhau điểm lại những nội dung then chốt mà chúng ta đã cùng thảo luận cho đến thời điểm này.
+
+Bạn đã được học về rủi ro, Risk, tức những biến cố tiềm tàng có khả năng xảy ra và tác động trực tiếp đến dự án của bạn. Bạn cũng đã phân biệt rõ ràng sự khác nhau giữa rủi ro và các vấn đề phát sinh, Issue, tức những rắc rối thực tế hiện hữu có thể làm cản trở khả năng hoàn thành một nhiệm vụ cụ thể.
+
+Tôi đã giới thiệu cho bạn về quy trình quản trị rủi ro, Risk Management, một tiến trình mang tính hệ thống nhằm nhận diện các rủi ro và vấn đề tiềm ẩn, đồng thời, đánh giá và áp dụng các giải pháp kịp thời để kiểm soát các tác động tiêu cực của chúng.
+
+Chúng ta đã thảo luận về kỹ thuật động não tập thể, Brainstorming, như một phương pháp hữu hiệu để cùng đội ngũ phát hiện rủi ro. Tôi cũng đã giới thiệu cho bạn các công cụ trực quan đắc lực để nhận diện, đánh giá và lập hồ sơ quản lý rủi ro, chẳng hạn, như ma trận xác suất và tác động, Probability and Impact Matrix, sổ đăng ký rủi ro, Risk Register, và bản kế hoạch quản trị rủi ro, Risk Management Plan.
+
+Cuối cùng, chúng ta đã cùng nhau khẳng định tầm quan trọng sống còn của việc truyền thông cởi mở về rủi ro tới các bên liên quan, nhằm thiết lập kỳ vọng đúng đắn và chứng minh năng lực tổ chức, lập kế hoạch phòng ngừa chu đáo của bạn cho dự án.
+
+Trong phần tiếp theo, chúng ta sẽ bước sang một chủ đề vô cùng quan trọng, công tác lập tài liệu hồ sơ và truyền thông trong dự án.
+
+Hẹn sớm gặp lại bạn.

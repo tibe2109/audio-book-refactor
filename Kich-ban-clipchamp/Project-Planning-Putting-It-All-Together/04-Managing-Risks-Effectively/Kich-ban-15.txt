@@ -1,0 +1,18 @@
+Một khi bạn đã điền đầy đủ thông tin vào bản kế hoạch quản trị rủi ro, bạn sẽ chia sẻ tài liệu này với đội ngũ của mình và các bên liên quan để lắng nghe ý kiến đóng góp từ họ, đồng thời, đảm bảo rằng tất cả mọi người đều đồng thuận và thống nhất với những phương án mà bạn đã đề ra.
+
+Trong phần tiếp theo, chúng ta sẽ đào sâu hơn vào chủ đề giao tiếp và truyền thông về rủi ro với các bên liên quan. Hẹn gặp lại bạn ở bài học tới.
+
+CÁC CHIẾN LƯỢC GIẢM THIỂU RỦI RO
+. ......
+
+Xin chào và chào mừng bạn quay trở lại. Như vậy là bạn đã học được cách nhận diện các rủi ro của dự án và cách đánh giá chúng bằng ma trận xác suất và tác động. Giờ đây, khi bạn đã nắm rõ những rủi ro nào thực sự đòi hỏi sự quan tâm đặc biệt của mình, làm thế nào để bạn quyết định xem mình cần phải làm gì với chúng? Đây chính là lúc kế hoạch giảm thiểu rủi ro, tức Risk Mitigation Planning, phát huy vai trò tối thượng.
+
+Lập kế hoạch giảm thiểu rủi ro là việc tìm kiếm các phương thức thích hợp để loại bỏ hoàn toàn hoặc làm giảm thiểu tối đa sức tàn phá của các rủi ro tiềm tàng đối với dự án của bạn.
+
+Có bốn chiến lược kinh điển để bạn giảm thiểu rủi ro, bạn có thể né tránh rủi ro, Avoid, chấp nhận rủi ro, Accept, giảm thiểu hoặc kiểm soát rủi ro, Reduce or Control, và chuyển giao rủi ro, Transfer. Hãy cùng phân tích chi tiết từng lựa chọn này thông qua ví dụ, dự án Office Green.
+
+Đôi khi, bạn hoàn toàn có thể né tránh rủi ro một cách triệt để, tức Avoid. Chẳng hạn, nếu bạn phát hiện ra một nhà thầu phụ cụ thể mà bạn từng cân nhắc hợp tác cho dự án Office Green lại có tiếng xấu về việc thường xuyên trễ hạn chót, bạn hoàn toàn có thể chọn cách né tránh rủi ro đó bằng cách quyết định thuê một nhà thầu khác uy tín hơn.
+
+Bạn cũng có thể lựa chọn chấp nhận rủi ro, tức Accept, đặc biệt là đối với những rủi ro mà bạn đánh giá là có xác suất xảy ra thấp và mức độ tác động cũng Thấp. Trong tình huống này, bạn chủ động chấp nhận khả năng rủi ro này có thể xảy ra ngoài đời thực. Bạn đồng thuận theo dõi nó trong suốt dự án, và rốt cuộc bạn hoàn toàn cảm thấy ổn thỏa nếu rủi ro đó thực sự xảy đến.
+
+Lấy ví dụ, có thể nhà cung cấp cây cảnh thông báo với bạn rằng một trong những kiểu dáng chậu cây mà bạn đặt hàng hiện đang tạm thời hết hàng trong kho. Nhà cung cấp đoan chắc rằng họ sẽ có đủ thời gian nhập thêm chậu về mà không làm chậm trễ tiến độ chung của dự án, nhưng nếu lô hàng bổ sung đó gặp trục trặc, việc giao hàng cho khách hàng của bạn có thể bị trễ tối đa hai ngày. Thay vì hủy bỏ toàn bộ để bắt đầu lại từ đầu với một nhà cung cấp mới toanh, bạn quyết định rằng việc chấp nhận rủi ro này là hợp lý hơn cả. Dù việc bị chậm trễ hai ngày chẳng phải là điều lý tưởng, nhưng bạn là người linh hoạt và bạn hiểu rằng việc chấp nhận rủi ro này sẽ giúp bạn và đội ngũ tránh được cơn đau đầu khi phải tìm kiếm và tích hợp một nhà cung cấp mới, việc có thể làm bạn mất toi tới hai tuần lễ.

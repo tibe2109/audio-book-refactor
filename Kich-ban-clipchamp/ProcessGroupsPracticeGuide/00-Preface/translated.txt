@@ -1,0 +1,325 @@
+LỜI MỞ ĐẦU VÀ MỤC LỤC TỔNG QUAN
+
+LỜI MỞ ĐẦU
+
+Hướng dẫn thực hành này cung cấp các thông tin bổ trợ cho tài liệu dựa trên nguyên tắc: Hướng dẫn về Những Tri thức Cốt lõi trong Quản trị Dự án (PMBOK® Guide) – Xuất bản lần thứ Bảy [1]. Việc áp dụng tài liệu này phụ thuộc vào từng chuyên gia quản trị dự án, tổ chức, mô hình được lựa chọn, và cách thức điều chỉnh may đo (Tailoring) để đạt được kết quả tối ưu nhất cho dự án.
+
+Trong hướng dẫn thực hành này, các quy trình quản trị dự án được tổ chức thành năm Nhóm quy trình (Process Groups) cùng với các yếu tố Đầu vào (Inputs), Công cụ & Kỹ thuật (Tools & Techniques), và Đầu ra (Outputs) được điều chỉnh linh hoạt nhằm đáp ứng nhu cầu của tổ chức, các bên liên quan (Stakeholders) và chính dự án. Các Nhóm quy trình tương tác chặt chẽ với từng giai đoạn trong vòng đời dự án (Project Life Cycle). Số lượng vòng lặp và sự tương tác giữa các quy trình sẽ biến đổi linh hoạt tùy theo nhu cầu thực tế của từng dự án.
+
+Đối với các tổ chức và chuyên gia quản trị dự án muốn áp dụng phương pháp tiếp cận dựa trên quy trình, hướng dẫn thực hành này sẽ làm rõ khung làm việc cơ bản dựa trên năm Nhóm quy trình Quản trị Dự án (Project Management Process Groups) sau đây:
+
+▶ Khởi chạy (Initiating). Bao gồm các quy trình được thực hiện để xác định một dự án mới hoặc một giai đoạn mới của dự án hiện tại thông qua việc xin phê duyệt chính thức để bắt đầu dự án hoặc giai đoạn đó.
+
+▶ Lập kế hoạch (Planning). Bao gồm các quy trình bắt buộc để thiết lập phạm vi dự án, làm rõ các mục tiêu, và xác định chuỗi hành động cần thiết để đạt được các mục tiêu mà dự án hướng tới.
+
+▶ Thực thi (Executing). Bao gồm các quy trình được thực hiện để hoàn tất toàn bộ công việc đã được xác định trong Kế hoạch Quản lý Dự án (Project Management Plan) nhằm thỏa mãn các yêu cầu của dự án.
+
+▶ Giám sát và Kiểm soát (Monitoring and Controlling). Bao gồm các quy trình bắt buộc để theo dõi, đánh giá và điều tiết tiến độ cũng như hiệu suất của dự án; nhận diện bất kỳ khu vực nào cần điều chỉnh kế hoạch; và khởi chạy các thay đổi tương ứng.
+
+▶ Kết thúc (Closing). Bao gồm các quy trình được thực hiện để hoàn thành chính thức hoặc đóng lại dự án, giai đoạn, hoặc hợp đồng.
+
+[1] Các chữ số đặt trong dấu ngoặc vuông đại diện cho danh mục tài liệu tham khảo ở cuối hướng dẫn thực hành này.
+
+
+MỤC LỤC TỔNG QUAN
+
+1 GIỚI THIỆU TỔNG QUAN (INTRODUCTION)
+. ......
+1.1 Quản trị Dự án (Project Management)
+1.1.1 Tầm quan trọng của Quản trị Dự án (Importance of Project Management)
+1.1.2 Các yếu tố nền tảng (Foundational Elements)
+1.2 Dự án (Projects)
+1.2.1 Dự án thúc đẩy sự thay đổi (Projects Drive Change)
+1.2.2 Dự án tạo tiền đề tạo lập giá trị kinh doanh (Projects Enable Business Value Creation)
+1.2.3 Bối cảnh khởi chạy dự án (Contexts for Project Initiation)
+1.3 Chương trình và Quản trị Chương trình (Programs and Program Management)
+1.4 Danh mục và Quản trị Danh mục (Portfolios and Portfolio Management)
+1.5 Mối quan hệ giữa Portfolios, Programs và Projects (Relationship Among Portfolios, Programs, and Projects)
+1.6 Quản trị Dự án Tổ chức (Organizational Project Management - OPM)
+1.7 Các thành phần và cân nhắc trong dự án (Project Components and Considerations)
+1.7.1 Vòng đời dự án và vòng đời phát triển (Project and Development Life Cycles)
+1.7.2 Giai đoạn dự án (Project Phase)
+1.7.3 Cổng giai đoạn (Phase Gate)
+1.7.4 Các quy trình Quản trị Dự án (Project Management Processes)
+1.7.5 Các Nhóm quy trình Quản trị Dự án (Project Management Process Groups)
+1.8 Dữ liệu và thông tin Quản trị Dự án (Project Management Data and Information)
+1.9 May đo điều chỉnh (Tailoring)
+1.10 Quản trị lợi ích và tài liệu kinh doanh (Benefits Management and Business Documents)
+1.11 Project Charter, Project Management Plan và các tài liệu dự án (Project Charter, Project Management Plan, and Project Documents)
+1.12 Các thước đo thành công của dự án (Project Success Measures)
+
+2 MÔI TRƯỜNG VẬN HÀNH DỰ ÁN (THE PROJECT ENVIRONMENT)
+. ......
+2.1 Các yếu tố môi trường doanh nghiệp (Enterprise Environmental Factors - EEFs)
+2.1.1 EEFs nội bộ tổ chức (EEFs Internal to the Organization)
+2.1.2 EEFs bên ngoài tổ chức (EEFs External to the Organization)
+2.2 Tài sản quy trình tổ chức (Organizational Process Assets - OPAs)
+2.2.1 Kế hoạch, quy trình và tài liệu (Plans, Processes, and Documents)
+2.2.2 Kho tri thức tổ chức (Organizational Knowledge Repositories)
+2.3 Quản trị tổ chức và dự án (Governance)
+2.3.1 Quản trị cấp tổ chức (Organizational Governance)
+2.3.2 Quản trị cấp dự án (Project Governance)
+2.4 Các yếu tố quản trị (Management Elements)
+2.5 Cơ cấu tổ chức (Organizational Structures)
+2.5.1 Các loại cơ cấu tổ chức (Organizational Structure Types)
+2.5.2 Các yếu tố lựa chọn cơ cấu tổ chức (Factors in Organizational Structure Selection)
+2.6 Văn phòng Quản lý Dự án (Project Management Office - PMO)
+
+3 VAI TRÒ CỦA GIÁM ĐỐC DỰ ÁN (ROLE OF THE PROJECT MANAGER)
+. ......
+3.1 Phạm vi ảnh hưởng của Project Manager (The Project Manager's Sphere of Influence)
+3.1.1 Dự án (The Project)
+3.1.2 Tổ chức (The Organization)
+3.1.3 Ngành công nghiệp (The Industry)
+3.1.4 Các Stakeholders của dự án (Project Stakeholders)
+3.2 Năng lực của Project Manager (Project Manager Competences)
+3.2.1 Phương thức làm việc (Ways of Working)
+3.2.2 Nhạy bén kinh doanh (Business Acumen)
+3.2.3 Kỹ năng mềm quyền lực (Power Skills)
+3.3 Phẩm chất và kỹ năng của người lãnh đạo (Qualities and Skills of a Leader)
+3.3.1 Các phong cách lãnh đạo (Leadership Styles)
+3.3.2 So sánh Lãnh đạo và Quản lý (Leadership Compared to Management)
+3.3.3 Chính trị, quyền lực và hoàn thành công việc (Politics, Power, and Getting Things Done)
+3.3.4 Tính cách (Personality)
+3.4 Thực hiện tích hợp (Performing Integration)
+3.4.1 Tích hợp ở cấp độ quy trình (Performing Integration at the Process Level)
+3.4.2 Tích hợp ở cấp độ nhận thức (Integration at the Cognitive Level)
+3.4.3 Tích hợp ở cấp độ bối cảnh (Integration at the Context Level)
+3.4.4 Tích hợp và tính phức tạp (Integration and Complexity)
+
+4 NHÓM QUY TRÌNH KHỞI CHẠY (INITIATING PROCESS GROUP)
+. ......
+4.1 Xây dựng Project Charter (Develop Project Charter)
+4.2 Nhận diện Stakeholders (Identify Stakeholders)
+
+5 NHÓM QUY TRÌNH LẬP KẾ HOẠCH (PLANNING PROCESS GROUP)
+. ......
+5.1 Xây dựng Project Management Plan (Develop Project Management Plan)
+5.2 Lập kế hoạch quản lý phạm vi (Plan Scope Management)
+5.3 Thu thập yêu cầu (Collect Requirements)
+5.4 Xác định phạm vi (Define Scope)
+5.5 Tạo cấu trúc phân chia công việc (Create WBS)
+5.6 Lập kế hoạch quản lý tiến độ (Plan Schedule Management)
+5.7 Xác định các hoạt động (Define Activities)
+5.8 Sắp xếp thứ tự hoạt động (Sequence Activities)
+5.9 Ước tính thời lượng hoạt động (Estimate Activity Durations)
+5.10 Phát triển tiến độ (Develop Schedule)
+5.11 Lập kế hoạch quản lý chi phí (Plan Cost Management)
+5.12 Ước tính chi phí (Estimate Costs)
+5.13 Xác định ngân sách (Determine Budget)
+5.14 Lập kế hoạch quản lý chất lượng (Plan Quality Management)
+5.15 Lập kế hoạch quản lý nguồn lực (Plan Resource Management)
+5.16 Ước tính nguồn lực hoạt động (Estimate Activity Resources)
+5.17 Lập kế hoạch quản lý truyền thông (Plan Communications Management)
+5.18 Lập kế hoạch quản lý rủi ro (Plan Risk Management)
+5.19 Nhận diện rủi ro (Identify Risks)
+5.20 Phân tích rủi ro định tính (Perform Qualitative Risk Analysis)
+5.21 Phân tích rủi ro định lượng (Perform Quantitative Risk Analysis)
+5.22 Lập kế hoạch ứng phó rủi ro (Plan Risk Responses)
+5.23 Lập kế hoạch quản lý mua sắm (Plan Procurement Management)
+5.24 Lập kế hoạch gắn kết Stakeholders (Plan Stakeholder Engagement)
+
+6 NHÓM QUY TRÌNH THỰC THI (EXECUTING PROCESS GROUP)
+. ......
+6.1 Chỉ đạo và quản lý công việc dự án (Direct and Manage Project Work)
+6.2 Quản lý tri thức dự án (Manage Project Knowledge)
+6.3 Quản lý chất lượng (Manage Quality)
+6.4 Huy động nguồn lực (Acquire Resources)
+6.5 Phát triển đội ngũ (Develop Team)
+6.6 Quản lý đội ngũ (Manage Team)
+6.7 Quản lý truyền thông (Manage Communications)
+6.8 Thực thi ứng phó rủi ro (Implement Risk Responses)
+6.9 Tiến hành mua sắm (Conduct Procurements)
+6.10 Quản lý gắn kết Stakeholders (Manage Stakeholder Engagement)
+
+7 NHÓM QUY TRÌNH GIÁM SÁT VÀ KIỂM SOÁT (MONITORING AND CONTROLLING PROCESS GROUP)
+. ......
+7.1 Giám sát và kiểm soát công việc dự án (Monitor and Control Project Work)
+7.2 Thực hiện kiểm soát thay đổi tích hợp (Perform Integrated Change Control)
+7.3 Nghiệm thu phạm vi (Validate Scope)
+7.4 Kiểm soát phạm vi (Control Scope)
+7.5 Kiểm soát tiến độ (Control Schedule)
+7.6 Kiểm soát chi phí (Control Costs)
+7.7 Kiểm soát chất lượng (Control Quality)
+7.8 Kiểm soát nguồn lực (Control Resources)
+7.9 Giám sát truyền thông (Monitor Communications)
+7.10 Giám sát rủi ro (Monitor Risks)
+7.11 Kiểm soát mua sắm (Control Procurements)
+7.12 Giám sát gắn kết Stakeholders (Monitor Stakeholder Engagement)
+
+8 NHÓM QUY TRÌNH KẾT THÚC DỰ ÁN (CLOSING PROCESS GROUP)
+. ......
+8.1 Đóng dự án hoặc giai đoạn (Close Project or Phase)
+
+9 CHI TIẾT CÁC YẾU TỐ ĐẦU VÀO VÀ ĐẦU RA (INPUTS AND OUTPUTS)
+. ......
+10 TỔNG HỢP CÁC CÔNG CỤ VÀ KỸ THUẬT QUẢN TRỊ (TOOLS AND TECHNIQUES)
+. ......
+TÀI LIỆU THAM KHẢO (REFERENCES)
+. ......
+PHỤ LỤC X1 BẢNG GHI NHẬN ĐÓNG GÓP VÀ PHẢN BIỆN (APPENDIX X1 CONTRIBUTORS AND REVIEWERS)
+X1.1 Người phản biện (Reviewers)
+X1.2 Đội ngũ nhân sự PMI (PMI Staff)
+. ......
+PHỤ LỤC THUẬT NGỮ VÀ TỪ VIẾT TẮT CHUẨN QUỐC TẾ (GLOSSARY)
+1. Danh mục bao gồm và loại trừ (Inclusions and Exclusions)
+2. Các từ viết tắt phổ biến (Common Acronyms)
+3. Định nghĩa thuật ngữ (Definitions)
+. ......
+
+DANH SÁCH SƠ ĐỒ VÀ BẢNG BIỂU MINH HỌA (LIST OF FIGURES AND TABLES)
+. ......
+Sơ đồ 1-1. Chuyển đổi trạng thái tổ chức thông qua dự án (Organizational State Transition via a Project)
+Sơ đồ 1-2. Ví dụ về giao tiếp giữa Portfolio, Program và Project Management
+Sơ đồ 1-3. Quản trị Dự án Tổ chức (Organizational Project Management - OPM)
+Sơ đồ 1-4. Mối quan hệ tương hỗ giữa các thành phần cốt lõi trong dự án
+Sơ đồ 1-5. Ví dụ về Quy trình: Inputs, Tools & Techniques, và Outputs (ITTO)
+Sơ đồ 1-6. Luồng dữ liệu, thông tin và báo cáo dự án
+Sơ đồ 1-7. Mối quan hệ tương hỗ giữa Đánh giá nhu cầu và các Tài liệu kinh doanh/Dự án quan trọng
+Sơ đồ 2-1. Các yếu tố ảnh hưởng đến dự án (Project Influences)
+Sơ đồ 3-1. Ví dụ về Phạm vi ảnh hưởng của Project Manager
+Sơ đồ 3-2. Tam giác Năng lực PMI Talent Triangle®
+Sơ đồ 4-1. Ranh giới dự án (Project Boundaries)
+Sơ đồ 4-2. Develop Project Charter: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 4-3. Develop Project Charter: Data Flow Diagram
+Sơ đồ 4-4. Identify Stakeholders: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 4-5. Identify Stakeholders: Data Flow Diagram
+Sơ đồ 5-1. Develop Project Management Plan: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-2. Develop Project Management Plan: Data Flow Diagram
+Sơ đồ 5-3. Plan Scope Management: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-4. Plan Scope Management: Data Flow Diagram
+Sơ đồ 5-5. Collect Requirements: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-6. Collect Requirements: Data Flow Diagram
+Sơ đồ 5-7. Define Scope: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-8. Define Scope: Data Flow Diagram
+Sơ đồ 5-9. Create WBS: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-10. Create WBS: Data Flow Diagram
+Sơ đồ 5-11. Plan Schedule Management: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-12. Plan Schedule Management: Data Flow Diagram
+Sơ đồ 5-13. Define Activities: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-14. Define Activities: Data Flow Diagram
+Sơ đồ 5-15. Sequence Activities: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-16. Sequence Activities: Data Flow Diagram
+Sơ đồ 5-17. Estimate Activity Durations: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-18. Estimate Activity Durations: Data Flow Diagram
+Sơ đồ 5-19. Develop Schedule: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-20. Develop Schedule: Data Flow Diagram
+Sơ đồ 5-21. Plan Cost Management: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-22. Plan Cost Management: Data Flow Diagram
+Sơ đồ 5-23. Estimate Costs: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-24. Estimate Costs: Data Flow Diagram
+Sơ đồ 5-25. Determine Budget: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-26. Determine Budget: Data Flow Diagram
+Sơ đồ 5-27. Plan Quality Management: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-28. Plan Quality Management: Data Flow Diagram
+Sơ đồ 5-29. Plan Resource Management: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-30. Plan Resource Management: Data Flow Diagram
+Sơ đồ 5-31. Estimate Activity Resources: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-32. Estimate Activity Resources: Data Flow Diagram
+Sơ đồ 5-33. Plan Communications Management: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-34. Plan Communications Management: Data Flow Diagram
+Sơ đồ 5-35. Plan Risk Management: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-36. Plan Risk Management: Data Flow Diagram
+Sơ đồ 5-37. Identify Risks: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-38. Identify Risks: Data Flow Diagram
+Sơ đồ 5-39. Perform Qualitative Risk Analysis: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-40. Perform Qualitative Risk Analysis: Data Flow Diagram
+Sơ đồ 5-41. Perform Quantitative Risk Analysis: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-42. Perform Quantitative Risk Analysis: Data Flow Diagram
+Sơ đồ 5-43. Plan Risk Responses: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-44. Plan Risk Responses: Data Flow Diagram
+Sơ đồ 5-45. Plan Procurement Management: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-46. Plan Procurement Management: Data Flow Diagram
+Sơ đồ 5-47. Plan Stakeholder Engagement: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 5-48. Plan Stakeholder Engagement: Data Flow Diagram
+Sơ đồ 6-1. Direct and Manage Project Work: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 6-2. Direct and Manage Project Work: Data Flow Diagram
+Sơ đồ 6-3. Manage Project Knowledge: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 6-4. Manage Project Knowledge: Data Flow Diagram
+Sơ đồ 6-5. Manage Quality: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 6-6. Manage Quality: Data Flow Diagram
+Sơ đồ 6-7. Acquire Resources: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 6-8. Acquire Resources: Data Flow Diagram
+Sơ đồ 6-9. Develop Team: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 6-10. Develop Team: Data Flow Diagram
+Sơ đồ 6-11. Manage Team: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 6-12. Manage Team: Data Flow Diagram
+Sơ đồ 6-13. Manage Communications: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 6-14. Manage Communications: Data Flow Diagram
+Sơ đồ 6-15. Implement Risk Responses: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 6-16. Implement Risk Responses: Data Flow Diagram
+Sơ đồ 6-17. Conduct Procurements: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 6-18. Conduct Procurements: Data Flow Diagram
+Sơ đồ 6-19. Manage Stakeholder Engagement: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 6-20. Manage Stakeholder Engagement: Data Flow Diagram
+Sơ đồ 7-1. Monitor and Control Project Work: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-2. Monitor and Control Project Work: Data Flow Diagram
+Sơ đồ 7-3. Perform Integrated Change Control: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-4. Perform Integrated Change Control: Data Flow Diagram
+Sơ đồ 7-5. Validate Scope: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-6. Validate Scope: Data Flow Diagram
+Sơ đồ 7-7. Control Scope: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-8. Control Scope: Data Flow Diagram
+Sơ đồ 7-9. Control Schedule: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-10. Control Schedule: Data Flow Diagram
+Sơ đồ 7-11. Control Costs: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-12. Control Costs: Data Flow Diagram
+Sơ đồ 7-13. Control Quality: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-14. Control Quality: Data Flow Diagram
+Sơ đồ 7-15. Control Resources: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-16. Control Resources: Data Flow Diagram
+Sơ đồ 7-17. Monitor Communications: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-18. Monitor Communications: Data Flow Diagram
+Sơ đồ 7-19. Monitor Risks: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-20. Monitor Risks: Data Flow Diagram
+Sơ đồ 7-21. Control Procurements: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-22. Control Procurements: Data Flow Diagram
+Sơ đồ 7-23. Monitor Stakeholder Engagement: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 7-24. Monitor Stakeholder Engagement: Data Flow Diagram
+Sơ đồ 8-1. Close Project or Phase: Inputs, Tools & Techniques, và Outputs
+Sơ đồ 8-2. Close Project or Phase: Data Flow Diagram
+Sơ đồ 9-1. Ví dụ về Ma trận Xác suất và Tác động với Hệ thống Tính điểm (Probability and Impact Matrix)
+Sơ đồ 9-2. Đường cơ sở chi phí, Chi phí thực tế và Yêu cầu vốn (Cost Baseline, Expenditures, and Funding Requirements)
+Sơ đồ 9-3. Ví dụ về Sơ đồ Mạng Tiến độ Dự án (Project Schedule Network Diagram)
+Sơ đồ 9-4. Ví dụ về Ma trận Truy xuất Yêu cầu (Requirements Traceability Matrix - RTM)
+Sơ đồ 9-5. Ví dụ Cấu trúc Phân chia Nguồn lực (Resource Breakdown Structure - RBS)
+Sơ đồ 9-6. Trích đoạn Cấu trúc Phân chia Rủi ro Mẫu (Risk Breakdown Structure - RBS)
+Sơ đồ 10-1. Mối quan hệ giữa Tầm nhìn Sản phẩm, Kế hoạch Phát hành và Kế hoạch Vòng lặp (Product Vision, Release Planning, Iteration Planning)
+Sơ đồ 10-2. Sơ đồ Nguyên nhân và Kết quả (Cause-and-Effect Diagram)
+Sơ đồ 10-3. Bảng Kiểm tra dữ liệu (Check Sheets)
+Sơ đồ 10-4. Mô hình Truyền thông Đa văn hóa (Communication Model for Cross-Cultural Communication)
+Sơ đồ 10-5. Chi phí Chất lượng (Cost of Quality - COQ)
+Sơ đồ 10-6. Ví dụ về Phương pháp Đường Găng (Critical Path Method - CPM)
+Sơ đồ 10-7. Ví dụ về Cây Quyết định (Decision Tree)
+Sơ đồ 10-8. Mẫu WBS Phân rã xuống các Gói công việc (Work Packages)
+Sơ đồ 10-9. Mẫu WBS Tổ chức theo Giai đoạn
+Sơ đồ 10-10. Mẫu WBS với các Kết quả Đầu ra Chính (Major Deliverables)
+Sơ đồ 10-11. Mô hình SIPOC
+Sơ đồ 10-12. Biểu đồ Burndown Vòng lặp (Iteration Burndown Chart)
+Sơ đồ 10-13. Ví dụ về Thời gian Dẫn (Lead) và Thời gian Trễ (Lag)
+Sơ đồ 10-14. Sơ đồ Mạng Tiến độ Dự án
+Sơ đồ 10-15. Các loại Mối quan hệ trong Phương pháp Sơ đồ Tiền nhiệm (Precedence Diagramming Method - PDM)
+Sơ đồ 10-16. Ví dụ Ma trận Xác suất và Tác động với Hệ thống Tính điểm
+Sơ đồ 10-17. Cân bằng Nguồn lực (Resource Leveling)
+Sơ đồ 10-18. Mẫu Bảng Phân công Trách nhiệm RACI Chart
+Sơ đồ 10-19. So sánh nén tiến độ (Schedule Compression Comparison)
+Sơ đồ 10-20. Ví dụ Biểu đồ Lốc xoáy (Tornado Diagram)
+Sơ đồ 10-21. Ví dụ Phân phối Xác suất của Mốc tiến độ Mục tiêu
+Sơ đồ 10-22. Ma trận Đánh giá Mức độ Gắn kết của Stakeholders
+Sơ đồ 10-23. Chỉ số Hiệu suất Cần đạt để Hoàn thành (To-Complete Performance Index - TCPI)
+Bảng 1-1. Các yếu tố dẫn đến việc khởi chạy dự án
+Bảng 1-2. Bảng tổng quan so sánh giữa Portfolios, Programs và Projects
+Bảng 1-3. Mô tả các thành phần cốt lõi
+Bảng 1-4. Các Nhóm quy trình và Quy trình Quản trị Dự án
+Bảng 1-5. Tài liệu Kinh doanh Dự án
+Bảng 1-6. Kế hoạch Quản lý Dự án và Tài liệu Dự án
+Bảng 2-1. Ảnh hưởng của Cơ cấu Tổ chức đến Dự án
+Bảng 3-1. So sánh Quản lý Đội ngũ và Lãnh đạo Đội ngũ
+Bảng 4-1. Các quy trình trong Nhóm quy trình Khởi chạy
+Bảng 5-1. Các quy trình trong Nhóm quy trình Lập kế hoạch
+Bảng 6-1. Các quy trình trong Nhóm quy trình Thực thi
+Bảng 7-1. Các quy trình trong Nhóm quy trình Giám sát và Kiểm soát
+Bảng 8-1. Quy trình trong Nhóm quy trình Kết thúc
+Bảng 9-1. Các thành phần của Project Charter và Mô tả Phạm vi Dự án
+Bảng 9-2. Ví dụ về Định nghĩa Xác suất và Tác động
+Bảng 10-1. Bảng Tóm tắt các Công thức Tính toán Giá trị Thu được (Earned Value Calculations)

@@ -1,0 +1,14 @@
+Tài liệu thứ hai là Yêu cầu Đề xuất Báo giá, R-F-P. R-F-P là một tài liệu chính thức phác thảo chi tiết tất cả các yêu cầu của dự án đối với sản phẩm hoặc dịch vụ mà bạn đang tìm kiếm từ các nhà cung cấp bên ngoài. Nó được gửi tới nhiều nhà cung cấp tiềm năng để họ có thể gửi lại bản đề xuất chi tiết về giải pháp kỹ thuật, tiến độ thực hiện và báo giá chi phí. Việc phát hành R-F-P giúp bạn tạo ra một sân chơi đấu thầu công bằng, minh bạch, cho phép bạn so sánh và đánh giá các nhà cung cấp dựa trên cùng một bộ tiêu chuẩn chuẩn mực để chọn ra đối tác xuất sắc nhất.
+
+Tài liệu thứ ba là Bản Tuyên bố Công việc, S-O-W. S-O-W là một văn kiện pháp lý ràng buộc mô tả chi tiết và chính xác tất cả các sản phẩm bàn giao, nhiệm vụ, thời hạn và tiêu chuẩn chất lượng mà nhà cung cấp cam kết sẽ cung ứng cho tổ chức của bạn. Nó đóng vai trò như một bản hợp đồng phụ đi kèm để bảo đảm hai bên có cùng sự thấu hiểu rõ ràng về những gì sẽ được thực hiện.
+
+Hiểu rõ và vận dụng thành thạo bộ ba tài liệu N-D-A, R-F-P và S-O-W sẽ trao cho bạn quyền năng điều hướng quy trình thu mua một cách an toàn, chuyên nghiệp và hiệu quả nhất. Trong bài học tiếp theo, chúng ta sẽ cùng đi sâu vào việc tạo lập một bản S-O-W chuẩn mực. Hẹn gặp lại bạn!
+
+TẠO LẬP MỘT BẢN TUYÊN BỐ CÔNG VIỆC, CREATING A STATEMENT OF WORK
+. ......
+
+Chúng ta hãy tiếp tục tìm hiểu về các tài liệu thiết yếu cần thiết cho một dự án thành công. Sau khi bạn đã gửi yêu cầu đề xuất báo giá, R-F-P, tới các đối tác và bạn đã lựa chọn được nhà cung cấp, khách hàng hoặc nhà thầu mà bạn muốn hợp tác, bạn cũng sẽ gửi cho họ một bản S-O-W hay Bản Tuyên bố Công việc, Statement of Work. Bản tuyên bố công việc là một tài liệu xác lập một cách rành mạch và rõ ràng các sản phẩm và dịch vụ mà một nhà cung cấp hoặc nhà thầu sẽ cung ứng cho tổ chức.
+
+Một bản S-O-W cũng cung cấp bản mô tả chi tiết về các nhu cầu và yêu cầu của phía nhà thầu để họ có thể thực hiện đúng đắn các dịch vụ đã thỏa thuận. Mặc dù S-O-W phản ánh các nhu cầu của khách hàng, nhưng điều quan trọng không kém là nó cũng phải bao hàm đầy đủ các nhu cầu của tổ chức và quyền lợi của nhà cung cấp. Điều tối quan trọng là tất cả các bên liên quan đều phải thấu hiểu sâu sắc những gì được kỳ vọng từ mỗi bên để bàn giao kết quả thành công.
+
+Một bản S-O-W chuẩn mực thường bắt đầu bằng Bối cảnh Dự án, Project Background. Đây là nơi bạn giải thích ngắn gọn về dự án, tại sao dự án được triển khai và mục tiêu lớn mà nó hướng tới. Tiếp theo là Phạm vi Công việc, Scope of Work. Phần này phác thảo chi tiết các công việc cụ thể mà nhà thầu sẽ thực hiện, đồng thời, nêu rõ những gì nằm ngoài phạm vi để ngăn chặn sự hiểu lầm.

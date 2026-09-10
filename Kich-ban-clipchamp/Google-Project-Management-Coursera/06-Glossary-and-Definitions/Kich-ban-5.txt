@@ -1,0 +1,4 @@
+NHÓM CHỮ CÁI M, LETTER M
+. ......
+Matrix Structure, Cấu trúc Ma trận, Một mô hình cấu trúc tổ chức lai ghép được sắp xếp như một ô bàn cờ, Grid, ở đó nhân viên vừa có các cấp trên trực tiếp để báo cáo theo ngành dọc, lại vừa có các bên liên quan đến từ các phòng ban hoặc chương trình dự án khác theo trục ngang.
+Mission, Sứ mệnh, Tuyên bố làm sáng tỏ câu hỏi, tổ chức làm Cái gì, What, phục vụ Ai, Who, và Tại sao tổ chức lại tồn tại, Why.

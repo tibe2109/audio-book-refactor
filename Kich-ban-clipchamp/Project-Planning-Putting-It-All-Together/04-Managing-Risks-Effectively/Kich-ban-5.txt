@@ -1,0 +1,12 @@
+CÁC LOẠI RỦI RO THƯỜNG GẶP
+. ......
+
+Chào bạn, chúng ta lại gặp nhau. Bây giờ, chúng ta hãy cùng thảo luận về một số loại rủi ro phổ biến mà bạn rất có thể sẽ phải lập kế hoạch ứng phó trong quá trình quản lý một dự án thực tế. Mặc dù có vô vàn dạng rủi ro khác nhau có thể tác động đến dự án của bạn, nhưng những nhóm rủi ro lớn nhất và quan trọng nhất mà bạn luôn phải đề cao cảnh giác bao gồm, rủi ro về thời gian, Time Risks, rủi ro về ngân sách, Budget Risks, và rủi ro về phạm vi, Scope Risks. Hãy cùng phân tích chi tiết từng loại một.
+
+Đầu tiên là rủi ro về thời gian, tức Time Risks. Rủi ro thời gian đề cập đến khả năng các nhiệm vụ trong dự án sẽ tốn nhiều thời gian hoàn thành hơn so với dự tính ban đầu. Bạn cần phải luôn theo dõi sát sao rủi ro thời gian bởi vì, trong kinh doanh, thời gian chính là tiền bạc. Việc quản lý thời gian yếu kém có thể làm cạn kiệt ngân sách dự án và làm phật lòng các bên liên quan, tức Stakeholders, do sự chậm trễ dây chuyền.
+
+Tiếp theo là rủi ro về ngân sách, tức Budget Risks. Rủi ro ngân sách nói về khả năng chi phí thực tế của dự án sẽ tăng vọt do khâu lập kế hoạch sơ sài hoặc do sự mở rộng phạm vi công việc một cách thiếu kiểm soát. Bạn phải đặc biệt lưu tâm đến rủi ro ngân sách vì ngân sách chính là thước đo nền tảng để kiểm soát chi phí của toàn bộ dự án. Lấy ví dụ, nếu bạn bội chi, bạn có thể không còn tiền để chi trả cho các nhà cung cấp. Điều này có thể kéo theo những tổn hại nghiêm trọng về mặt uy tín và danh tiếng cho doanh nghiệp của bạn.
+
+Kế tiếp, chúng ta có rủi ro về phạm vi, tức Scope Risks. Rủi ro phạm vi đề cập đến khả năng dự án sẽ không tạo ra được những kết quả đầu ra đúng như đã vạch ra trong mục tiêu ban đầu. Bạn cần phải nhận thức sâu sắc về rủi ro phạm vi, bởi vì, nếu các sản phẩm bàn giao, tức Deliverables, của dự án không được các bên liên quan hoặc khách hàng chấp thuận, thì toàn bộ mục đích tồn tại của cả dự án xem như đổ sông đổ biển.
+
+Bên cạnh ba nhóm rủi ro nội tại kinh điển là thời gian, ngân sách và phạm vi, còn có những loại rủi ro ngoại cảnh khác mà bạn bắt buộc phải nhận biết, gọi là External Risks. Khi nói đến rủi ro ngoại cảnh, chúng ta đang đề cập đến những rủi ro xuất phát từ các yếu tố bên ngoài doanh nghiệp mà bạn gần như có rất ít hoặc hoàn toàn không có quyền kiểm soát. Chẳng hạn, dự án của bạn có thể bị ảnh hưởng bởi một rủi ro môi trường thiên tai, Environmental Risk, như một trận bão lớn quét qua, hoặc một rủi ro pháp lý, Legal Risk, như một sự thay đổi đột ngột trong các quy định và luật định của chính quyền.

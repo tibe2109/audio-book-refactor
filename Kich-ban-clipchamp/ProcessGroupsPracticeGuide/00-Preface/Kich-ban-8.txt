@@ -1,0 +1,29 @@
+Perform Qualitative Risk Analysis, Data Flow Diagram
+Sơ đồ năm-bốn mươi mốt. Perform Quantitative Risk Analysis, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-bốn mươi hai. Perform Quantitative Risk Analysis, Data Flow Diagram
+Sơ đồ năm-bốn mươi ba. Plan Risk Responses, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-bốn mươi bốn. Plan Risk Responses, Data Flow Diagram
+Sơ đồ năm-bốn mươi lăm. Plan Procurement Management, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-bốn mươi sáu. Plan Procurement Management, Data Flow Diagram
+Sơ đồ năm-bốn mươi bảy. Plan Stakeholder Engagement, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-bốn mươi tám. Plan Stakeholder Engagement, Data Flow Diagram
+Sơ đồ sáu-một. Direct and Manage Project Work, Inputs, Tools & Techniques, và Outputs
+Sơ đồ sáu-hai. Direct and Manage Project Work, Data Flow Diagram
+Sơ đồ sáu-ba. Manage Project Knowledge, Inputs, Tools & Techniques, và Outputs
+Sơ đồ sáu-bốn. Manage Project Knowledge, Data Flow Diagram
+Sơ đồ sáu-năm. Manage Quality, Inputs, Tools & Techniques, và Outputs
+Sơ đồ sáu-sáu. Manage Quality, Data Flow Diagram
+Sơ đồ sáu-bảy. Acquire Resources, Inputs, Tools & Techniques, và Outputs
+Sơ đồ sáu-tám. Acquire Resources, Data Flow Diagram
+Sơ đồ sáu-chín. Develop Team, Inputs, Tools & Techniques, và Outputs
+Sơ đồ sáu-mười. Develop Team, Data Flow Diagram
+Sơ đồ sáu-mười một. Manage Team, Inputs, Tools & Techniques, và Outputs
+Sơ đồ sáu-mười hai. Manage Team, Data Flow Diagram
+Sơ đồ sáu-mười ba. Manage Communications, Inputs, Tools & Techniques, và Outputs
+Sơ đồ sáu-mười bốn. Manage Communications, Data Flow Diagram
+Sơ đồ sáu-mười lăm. Implement Risk Responses, Inputs, Tools & Techniques, và Outputs
+Sơ đồ sáu-mười sáu. Implement Risk Responses, Data Flow Diagram
+Sơ đồ sáu-mười bảy. Conduct Procurements, Inputs, Tools & Techniques, và Outputs
+Sơ đồ sáu-mười tám. Conduct Procurements, Data Flow Diagram
+Sơ đồ sáu-mười chín. Manage Stakeholder Engagement, Inputs, Tools & Techniques, và Outputs
+Sơ đồ sáu-hai mươi.

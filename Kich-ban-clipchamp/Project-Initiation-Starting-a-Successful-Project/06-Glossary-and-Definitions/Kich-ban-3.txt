@@ -1,0 +1,23 @@
+LETTER O, CHỮ CÁI O
+. ......
+Objective, Mục tiêu, Phần thành phần trong mô hình O-K-R xác định những gì cần phải đạt được và mô tả kết quả mong muốn hướng tới.
+Objectives and key results, O-K-R - Mục tiêu và Các kết quả then chốt, Sự kết hợp giữa một mục tiêu định tính và một thước đo định lượng để xác định một kết quả có thể đo lường được.
+Out-of-scope, Ngoài phạm vi dự án, Các nhiệm vụ không nằm trong kế hoạch dự án và không đóng góp trực tiếp vào mục tiêu của dự án.
+
+LETTER P, CHỮ CÁI P
+. ......
+Pivot table, Bảng tổng hợp động, Một công cụ phân tích cơ bản được sử dụng để tóm tắt dữ liệu và thể hiện mối quan hệ giữa các điểm dữ liệu, giúp việc thấu hiểu thông tin trong bảng tính trở nên dễ dàng hơn.
+Power grid, Lưới quyền lực, Ma trận hai nhân hai được sử dụng để thực hiện phân tích các bên liên quan, thể hiện mức độ quan tâm của bên liên quan đối với dự án so với mức độ ảnh hưởng của họ lên dự án.
+Primary stakeholders, Các bên liên quan trực tiếp, Những người sẽ hưởng lợi trực tiếp từ sự thành công của một dự án.
+Productivity tools, Công cụ nâng cao năng suất, Các công cụ được sử dụng để quản lý các nhiệm vụ của dự án, bao gồm phần mềm soạn thảo văn bản, bảng tính và phần mềm trình chiếu.
+Project charter, Bản điều lệ dự án, Văn bản chính thức định nghĩa rõ ràng các chi tiết cốt lõi và then chốt của một dự án.
+Project goal, Mục tiêu dự án, Kết quả đầu ra mong muốn cần đạt được của một dự án.
+Project manager, Người quản lý dự án, Người chịu trách nhiệm lập kế hoạch, tổ chức và giám sát toàn bộ tiến trình của dự án.
+Project proposal, Đề xuất dự án, Tài liệu được soạn thảo vào thời điểm bắt đầu một dự án, khởi động giai đoạn khởi tạo bằng cách thuyết phục và tác động để doanh nghiệp đồng ý phê duyệt triển khai dự án.
+Project sponsor, Nhà tài trợ dự án, Người chịu trách nhiệm giải trình cao nhất đối với dự án và đảm bảo rằng dự án sẽ mang lại những lợi ích kinh doanh như đã thỏa thuận.
+
+LETTER R, CHỮ CÁI R
+. ......
+R-A-C-I chart, Ma trận R-A-C-I, Sơ đồ trực quan giúp phân định vai trò và trách nhiệm cho từng cá nhân hoặc đội ngũ nhằm đảm bảo công việc được thực hiện hiệu quả, phân định rõ ai là người trực tiếp thực hiện nhiệm vụ, Responsible, ai chịu trách nhiệm giải trình, Accountable, ai cần tham vấn ý kiến, Consulted, và ai cần được cập nhật thông tin, Informed.
+Return on investment, R-O-I - Tỷ suất hoàn vốn đầu tư, Chỉ số tài chính được sử dụng để tính toán mức lợi nhuận thu về từ một khoản đầu tư so với chi phí đã bỏ ra.
+Resources, Nguồn lực dự án, Bao gồm ngân sách, nhân sự, nguyên vật liệu và các yếu tố cần thiết khác để vận hành dự án.

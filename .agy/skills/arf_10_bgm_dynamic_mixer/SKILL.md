@@ -24,9 +24,11 @@ description: "Bước 10: Bậc thầy Đạo diễn Âm thanh (A.I Music Direct
 - A.I tự đưa ra **Tone/Mood Guidelines** cho từng Scene. Bám sát các thể loại tích cực: Focus, Uplifting, Relaxing, Baroque, Ghibli, Traditional. Cấm tuyệt đối nhạc ma mị, rùng rợn, u ám.
 
 ### Bước 2: Casting & Nhặt Nhạc (Lấy từ Kho hoặc Tải Mới)
-- A.I quét kho `bgm_audio_library`. Với mỗi Scene, A.I chọn đích danh 1 bài nhạc cụ thể.
+- **Vị trí kho nhạc nền:** Thư mục `bgm_audio_library/` tại thư mục gốc của dự án (hoặc tệp mặc định `nhac-nen.mp3` ở root).
+- Người dùng hoặc A.I làm đầy thư viện bằng các file MP3 không lời chất lượng cao (192kbps - 320kbps) theo các phong cách: Baroque, Deep Focus Ambient, Piano Outro, Acoustic thư giãn.
+- A.I quét kho `bgm_audio_library/`. Với mỗi Scene, A.I chọn đích danh 1 bài nhạc cụ thể (hoặc truyền qua cờ `--bgm <file_name>` khi điều phối CLI).
 - Nếu bài nhạc quá ngắn, A.I ghi chú sẽ loop nó trong phạm vi của Scene. Nếu nhạc quá dài, A.I ghi chú điểm ngắt.
-- Nếu kho nhạc thiếu, A.I tự gọi `yt-dlp` tải bài mới (sử dụng từ khóa chính xác), convert sang MP3, và nạp vào kho trước khi dùng.
+- Nếu kho nhạc thiếu, A.I tự gọi `yt-dlp` tải bài mới (sử dụng từ khóa chính xác), convert sang MP3, và nạp vào kho `bgm_audio_library/` trước khi dùng.
 
 ### Bước 3: Lên Sơ đồ Thời gian (Timeline Architect)
 - A.I đo đạc chính xác thời lượng của các file giọng đọc (`Full_ChapterX_PartY.mp3`).

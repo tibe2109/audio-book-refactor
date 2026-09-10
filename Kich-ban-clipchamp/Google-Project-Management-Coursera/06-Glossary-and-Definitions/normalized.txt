@@ -1,0 +1,166 @@
+BẢNG THUẬT NGỮ Khóa học một, THUẬT NGỮ VÀ ĐỊNH NGHĨA QUẢN TRỊ DỰ ÁN, COURSE một GLOSSARY, PROJECT MANAGEMENT TERMS AND DEFINITIONS
+. ......
+
+
+TỔNG HỢP THUẬT NGỮ VÀ ĐỊNH NGHĨA QUẢN TRỊ DỰ ÁN CHUẨN QUỐC TẾ, PROJECT MANAGEMENT TERMS AND DEFINITIONS
+. ......
+
+Chào mừng các bạn đến với phần tổng hợp và tra cứu thuật ngữ chuyên ngành của Khóa học một, Nền tảng Quản trị Dự án. Dưới đây là toàn bộ các khái niệm, định nghĩa và thuật ngữ cốt lõi được sắp xếp khoa học theo thứ tự bảng chữ cái tiếng Anh từ A đến W, giúp các bạn dễ dàng ôn tập, củng cố và ứng dụng chuẩn xác vào thực tế công việc.
+
+
+NHÓM CHỮ CÁI A, LETTER A
+. ......
+
+Agile, Phương pháp Linh hoạt, Một phương pháp tiếp cận quản trị dự án hiện đại, trong đó các giai đoạn của dự án diễn ra gối đầu, chồng lấn lên nhau và các nhiệm vụ được hoàn thành theo từng vòng lặp ngắn hạn nhằm thích ứng nhanh chóng với sự thay đổi.
+Authority, Thẩm quyền, Năng lực và quyền hạn của một cá nhân trong việc đưa ra các quyết định hệ trọng cho dự án có sức ảnh hưởng trực tiếp tới toàn bộ tổ chức.
+
+
+NHÓM CHỮ CÁI B, LETTER B
+. ......
+
+Barrier, Rào cản Vật cản, Bất kỳ yếu tố, sự cố hoặc chướng ngại nào xuất hiện có thể gây cản trở, làm chậm trễ hoặc gián đoạn bước tiến của dự án.
+Buzzword, Từ ngữ xu hướng Thuật ngữ thời thượng, Một từ ngữ hoặc cụm từ trở nên thịnh hành, phổ biến và được nhắc đi nhắc lại nhiều lần trong một giai đoạn hoặc trong một ngành công nghiệp cụ thể.
+
+
+NHÓM CHỮ CÁI C, LETTER C
+. ......
+
+C-Suite, Ban Giám đốc Điều hành Cấp cao, Khái niệm dùng để chỉ tất cả các giám đốc điều hành cấp cao nhất có chữ Chief trong chức danh bên trong một tổ chức, ví dụ như Tổng Giám đốc, C-E-O, Giám đốc Tài chính, C-F-O, Giám đốc Vận hành, C-O-O, hay Giám đốc Công nghệ, C-T-O.
+Change Agent, Tác nhân Thay đổi, Một nhân sự từ bên trong tổ chức đóng vai trò thúc đẩy và hỗ trợ tổ chức chuyển mình thành công, thông qua việc tập trung nâng cao hiệu quả vận hành và phát triển năng lực tổ chức.
+Change Management, Quản trị Sự thay đổi, Quy trình chuyển giao một dự án đã hoàn thành tới tay tổ chức và thuyết phục, đồng hành để mọi người chấp nhận, đưa nó vào áp dụng thực tế trong công việc hàng ngày.
+Classic Structure, Cấu trúc Cổ điển, Một mô hình cấu trúc tổ chức truyền thống vận hành theo thứ bậc báo cáo mệnh lệnh nghiêm ngặt từ trên xuống dưới, Top-down.
+Closing, Giai đoạn Đóng dự án, Giai đoạn cuối cùng trong vòng đời của một dự án, nơi mà những nỗ lực làm việc của các thành viên được tôn vinh, ăn mừng và toàn bộ quá trình vận hành của dự án được đánh giá, chiêm nghiệm rút kinh nghiệm.
+Contract Work, Làm việc theo Hợp đồng Dự án, Công việc được thực hiện cho một công ty bởi các nhân sự không thuộc biên chế chính thức dài hạn, mà ký kết theo từng dự án cụ thể.
+Corporate Governance, Quản trị Doanh nghiệp, Chiếc khung nguyên tắc và cơ chế chỉ đạo giúp một tổ chức định hướng, kiểm soát và đạt được các mục tiêu chiến lược của mình.
+Cross-functional Team, Đội ngũ Đa chức năng, Một nhóm làm việc quy tụ các thành viên sở hữu những bộ kỹ năng đa dạng, đảm trách các vai trò khác nhau và thậm chí có thể trực thuộc các phòng ban độc lập, nhưng tất cả cùng đồng lòng hướng về một mục tiêu duy nhất, sự hoàn thành thắng lợi của dự án.
+Culture Mapping, Lập bản đồ Văn hóa, Một công cụ trực quan hóa văn hóa của công ty, phác họa cách mà các giá trị, chuẩn mực và hành vi của nhân viên có thể bị tác động và biến chuyển bởi sự thay đổi.
+
+
+NHÓM CHỮ CÁI D, LETTER D
+. ......
+
+Delegation, Phân quyền Ủy thác công việc, Việc giao phó và phân bổ các nhiệm vụ cho những cá nhân hoặc nguồn lực có năng lực phù hợp nhất để hoàn thành công việc đó một cách tối ưu.
+Deliverable, Kết quả Bàn giao, Một nhiệm vụ cụ thể, một sản phẩm hữu hình hoặc một kết quả đầu ra rõ ràng cần phải hoàn thành và chuyển giao trong dự án.
+D-M-A-I-C, Một chiến lược cải tiến quy trình vượt trội trong phương pháp Lean Six Sigma, bao gồm năm giai đoạn kinh điển, Xác định, Define, Đo lường, Measure, Phân tích, Analyze, Cải tiến, Improve, và Kiểm soát, Control.
+
+
+NHÓM CHỮ CÁI E, LETTER E
+. ......
+
+Effective Communication, Giao tiếp Hiệu quả, Việc đối thoại và truyền tải thông tin một cách minh bạch, thẳng thắn về các kế hoạch và ý tưởng, đồng thời, đảm bảo thông tin luôn sẵn sàng, dễ dàng tiếp cận cho tất cả các bên liên quan.
+Escalation Paths, Lộ trình Báo cáo Leo thang, Các quy trình và kênh liên lạc được thiết lập sẵn nhằm truyền đạt các rủi ro, sự cố tới đúng những người có thẩm quyền xử lý vào đúng thời điểm thích hợp.
+Executing, Giai đoạn Thực thi, Giai đoạn trực tiếp triển khai và hoàn thành các nhiệm vụ cần thiết nhằm đạt được các mục tiêu đề ra của dự án.
+
+
+NHÓM CHỮ CÁI F, LETTER F
+. ......
+
+Feedback Mechanism, Cơ chế Phản hồi, Một công cụ hoặc phương thức được sử dụng để thu thập các ý kiến đóng góp từ các bên liên quan và người dùng, chẳng hạn như một bảng khảo sát ý kiến.
+Floating Task, Nhiệm vụ Thả nổi Tác vụ Linh hoạt, Một nhiệm vụ mà sự thay đổi về thời gian hoàn thành của nó hoàn toàn không làm ảnh hưởng tới thành công chung của dự án hay làm gián đoạn lịch trình tổng thể.
+Flowchart, Lưu đồ Sơ đồ Quy trình, Một công cụ trực quan hóa giúp phác họa rõ nét từng bước trong tiến trình phát triển và vận hành của một dự án.
+Functional Manager, Quản lý Chức năng, Người đứng đầu lãnh đạo một phòng ban chuyên môn trong một tổ chức chức năng, Cấu trúc Cổ điển.
+Functional Organizations, Tổ chức Chức năng, Một tổ chức được phân chia thành các phòng ban dựa trên chức năng chuyên môn riêng biệt, mô hình này còn được gọi là Tổ chức Cổ điển, Classic Organization.
+
+
+NHÓM CHỮ CÁI G, LETTER G
+. ......
+
+Governance, Cơ chế Quản trị, Khung quản lý tổng thể mà bên trong đó, các quyết định quan trọng được ban hành, đồng thời, trách nhiệm giải trình và nghĩa vụ pháp lý được xác lập rõ ràng.
+
+
+NHÓM CHỮ CÁI I, LETTER I
+. ......
+
+Influencing Without Authority, Tạo ảnh hưởng Không cần Quyền lực Chức danh, Khả năng của một người quản lý dự án trong việc định hướng, dẫn dắt và thúc đẩy đồng đội hoàn thành xuất sắc các nhiệm vụ được giao mà không cần phải hành xử như một người sếp quản lý trực tiếp theo cấp bậc hành chính.
+Initiation, Giai đoạn Khởi tạo, Giai đoạn mở đầu đóng vai trò như bệ phóng cho toàn bộ dự án, tại giai đoạn này, các mục tiêu dự án, kết quả bàn giao, nguồn lực cần thiết, dự toán ngân sách và các nhân sự liên quan sẽ được nhận diện và xác lập.
+Internship, Kỳ Thực tập, Một cơ hội làm việc ngắn hạn tuyệt vời giúp bạn có được những trải nghiệm thực chiến trực tiếp và xây dựng mạng lưới quan hệ trong một ngành nghề cụ thể.
+Interpersonal Skills, Kỹ năng Tương tác Cá nhân, Những hành vi và thái độ được sử dụng để đối thoại, tương tác hiệu quả với người khác, đây là những kỹ năng giúp bạn tạo ảnh hưởng không cần quyền uy, bao gồm, kỹ năng giao tiếp, nghệ thuật đàm phán, hòa giải xung đột và thấu hiểu động lực con người.
+Iterative, Phương pháp Lặp, Cách tiếp cận trong đó các giai đoạn và nhiệm vụ diễn ra gối đầu, chồng lấn hoặc tiến hành đồng thời, với nhau trong khi các phần việc khác vẫn đang tiếp tục được hoàn thiện.
+
+
+NHÓM CHỮ CÁI K, LETTER K
+. ......
+
+Kanban, Một phương pháp tiếp cận thuộc trường phái Agile và là một công cụ trực quan hóa mạnh mẽ cung cấp cái nhìn tức thì về trạng thái của các phần việc đang được tiến hành thông qua việc sử dụng Bảng Kanban, Kanban Boards, hoặc các biểu đồ Kanban.
+
+
+NHÓM CHỮ CÁI L, LETTER L
+. ......
+
+Lean, Phương pháp Tinh gọn, Một phương pháp luận quản trị mà nguyên lý tối thượng là triệt tiêu tối đa mọi sự lãng phí bên trong quy trình vận hành nhằm tối ưu hóa giá trị.
+Lean Six Sigma, Tinh gọn Six Sigma, Sự kết hợp hoàn hảo giữa hai phương pháp luận quản trị dự án cha mẹ là Lean và Six Sigma, thường được ứng dụng cho các dự án có mục tiêu tiết kiệm chi phí, nâng cao chất lượng và tăng tốc độ xử lý của quy trình.
+Linear, Tiếp cận Tuyến tính, Một cấu trúc dự án theo trình tự nghiêm ngặt, trong đó giai đoạn hoặc nhiệm vụ trước bắt buộc phải được hoàn thành dứt điểm một trăm phần trăm thì giai đoạn hoặc nhiệm vụ tiếp theo mới có thể bắt đầu.
+
+
+NHÓM CHỮ CÁI M, LETTER M
+. ......
+
+Matrix Structure, Cấu trúc Ma trận, Một mô hình cấu trúc tổ chức lai ghép được sắp xếp như một ô bàn cờ, Grid, ở đó nhân viên vừa có các cấp trên trực tiếp để báo cáo theo ngành dọc, lại vừa có các bên liên quan đến từ các phòng ban hoặc chương trình dự án khác theo trục ngang.
+Mission, Sứ mệnh, Tuyên bố làm sáng tỏ câu hỏi, tổ chức làm Cái gì, What, phục vụ Ai, Who, và Tại sao tổ chức lại tồn tại, Why.
+
+
+NHÓM CHỮ CÁI O, LETTER O
+. ......
+
+Organizational Culture, Văn hóa Doanh nghiệp Văn hóa Tổ chức, Hệ thống các giá trị chung được toàn thể nhân viên chia sẻ, kết hợp cùng các giá trị, sứ mệnh, bề dày lịch sử và truyền thống của tổ chức, nói cách khác, đó chính là Cá tính hay Bản sắc riêng của công ty.
+Organizational Structure, Cấu trúc Tổ chức, Cách thức một công ty hoặc một tổ chức được sắp xếp, bài trí và phân quyền thứ bậc.
+Ownership, Tinh thần Làm chủ, Trạng thái tâm lý khi con người cảm thấy mình được trao quyền và tự nguyện gánh vác trách nhiệm cao nhất cho sự hoàn thành thắng lợi của các nhiệm vụ được giao.
+
+
+NHÓM CHỮ CÁI P, LETTER P
+. ......
+
+Planning, Giai đoạn Lập kế hoạch, Việc vận dụng các công cụ nâng cao năng suất và thiết lập các quy trình bài bản, kiến tạo và duy trì các bản kế hoạch tổng thể, các mốc thời gian, Timelines, lịch trình chi tiết, Schedules, và các biểu mẫu tài liệu khác để theo dõi tiến độ dự án.
+Program Manager, Quản lý Chương trình, Người quản lý chịu trách nhiệm điều phối và lèo lái nhiều dự án đồng thời, xoay quanh các sản phẩm, đội ngũ hoặc chương trình chiến lược cụ thể của tổ chức.
+Project, Dự án, Một nỗ lực độc nhất vô nhị nhằm tạo ra một tập hợp các kết quả bàn giao duy nhất, là một chuỗi các nhiệm vụ cần được hoàn thành tuần tự hoặc song song để đạt được một kết quả đầu ra mong đợi.
+Project Governance, Quản trị Dự án, Khung cơ chế chỉ đạo và giám sát quy định cách thức các quyết định dự án được ban hành và thực thi.
+Project Life Cycle, Vòng đời Dự án, Cấu trúc nền tảng cơ bản của một dự án, bao gồm bốn giai đoạn cốt lõi, Khởi tạo dự án, Lập kế hoạch, Thực thi và hoàn thành nhiệm vụ, và Đóng dự án.
+Project Management, Quản trị Dự án, Việc áp dụng một cách có hệ thống các kiến thức, kỹ năng, công cụ và kỹ thuật chuyên môn vào các hoạt động của dự án nhằm đáp ứng trọn vẹn các yêu cầu và kỳ vọng đặt ra.
+Project Management Methodology, Phương pháp luận Quản trị Dự án, Một hệ thống các nguyên tắc chỉ đạo và các quy trình chuẩn mực giúp làm chủ và điều phối một dự án xuyên suốt vòng đời của nó.
+Project Management Office - P-M-O, Văn phòng Quản trị Dự án, Một bộ phận chuyên trách bên trong công ty chịu trách nhiệm định hình, chuẩn hóa và duy trì các tiêu chuẩn quản trị dự án đồng bộ trên toàn tổ chức.
+Project Manager, Người Quản lý Dự án, Cá nhân chịu trách nhiệm dẫn dắt dự án từ vạch xuất phát cho tới khi cán đích và đóng vai trò như người dẫn đường tin cậy cho đội ngũ, vận dụng thuần thục các kỹ năng tổ chức bài bản và kỹ năng tương tác cá nhân ở từng bước đi.
+Project Task, Nhiệm vụ Dự án, Một hoạt động cụ thể cần được hoàn thành trong một khoảng thời gian xác định bởi người quản lý dự án, đội ngũ dự án hoặc các bên liên quan.
+
+
+NHÓM CHỮ CÁI R, LETTER R
+. ......
+
+Reporting Chart, Sơ đồ Báo cáo Sơ đồ Tổ chức, Một sơ đồ biểu diễn mối quan hệ thứ bậc giữa các cá nhân và đội nhóm bên trong tổ chức, chỉ rõ từng người hoặc từng nhóm sẽ báo cáo trực tiếp cho ai.
+Resource Availability, Mức độ Sẵn sàng của Nguồn lực, Khả năng nắm bắt và biết cách tiếp cận, huy động nhân sự, trang thiết bị máy móc và ngân sách tài chính cần thiết cho dự án.
+Resources, Nguồn lực, Bất kỳ điều gì cần thiết để hoàn thành dự án, bao gồm con người, trang thiết bị, phần mềm máy tính, các nhà cung ứng bên ngoài, và mặt bằng không gian địa lý.
+Retrospective, Phiên Hồi tưởng Đánh giá Chiêm nghiệm, Một buổi hội thảo hoặc cuộc họp tổng kết cùng đội dự án nhằm ghi nhận các thông lệ tốt nhất và đúc kết những bài học kinh nghiệm sâu sắc để điều hành dự án hiệu quả hơn cho những lần sau.
+Risk, Rủi ro, Một sự kiện tiềm tàng có thể xảy ra trong tương lai và gây ra những tác động tiêu cực hoặc tích cực lên dự án.
+
+
+NHÓM CHỮ CÁI S, LETTER S
+. ......
+
+Scrum, Một khung làm việc linh hoạt thuộc trường phái Agile, tập trung vào việc phát triển các dự án phức tạp thông qua sự cộng tác gắn kết và quy trình lặp đi lặp lại. Công việc được thực hiện bởi các đội ngũ đa chức năng tinh gọn dưới sự dẫn dắt của một Scrum Master, và được chia nhỏ thành các Sprint ngắn với danh sách kết quả bàn giao cụ thể.
+Six Sigma, Một phương pháp luận hướng tới việc giảm thiểu tối đa các biến thiên và sai số bằng cách đảm bảo các quy trình chất lượng nghiêm ngặt luôn được tuân thủ chuẩn xác trong mỗi lần thực hiện.
+Sprint, Một giai đoạn ngắn trong phương pháp quản trị dự án Agile có thời lượng xác định, thường từ một đến bốn tuần, với một danh sách các kết quả bàn giao cụ thể cần hoàn thành.
+Stakeholder, Bên liên quan, Những cá nhân hoặc tập thể quan tâm tới và chịu ảnh hưởng trực tiếp hoặc gián tiếp bởi quá trình thực thi cũng như sự thành bại của dự án.
+Steering Committees, Ban Chỉ đạo Dự án, Một nhóm các nhà lãnh đạo cấp cao chịu trách nhiệm quyết định các ưu tiên chiến lược của tổ chức và giám sát, định hướng lộ trình vận hành chung.
+
+
+NHÓM CHỮ CÁI T, LETTER T
+. ......
+
+Transferable Skill, Kỹ năng có thể Chuyển đổi, Một năng lực hoặc kỹ năng làm việc có thể được vận dụng linh hoạt và hiệu quả qua nhiều công việc, ngành nghề và con đường sự nghiệp khác nhau.
+
+
+NHÓM CHỮ CÁI U, LETTER U
+. ......
+
+Urgency, Tính Cấp bách, Việc giúp các thành viên trong đội ngũ nhận thức sâu sắc rằng dự án là vô cùng hệ trọng, và cùng họ nhận diện rõ những hành động nào bắt buộc phải được triển khai ngay lập tức để thúc đẩy công việc tiến lên.
+
+
+NHÓM CHỮ CÁI V, LETTER V
+. ......
+
+Values, Hệ giá trị Cốt lõi, Những nguyên tắc chỉ đạo phác họa cách mà các nhân viên trong tổ chức được kỳ vọng sẽ hành xử và tương tác với nhau.
+
+
+NHÓM CHỮ CÁI W, LETTER W
+. ......
+
+Waterfall, Phương pháp Thác nước, Một phương pháp luận quản trị dự án truyền thống theo trật tự tuyến tính nghiêm ngặt, trong đó các giai đoạn được sắp xếp nối tiếp nhau tuần tự từ trên xuống dưới.

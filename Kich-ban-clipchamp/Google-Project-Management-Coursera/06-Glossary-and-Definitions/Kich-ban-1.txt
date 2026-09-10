@@ -1,0 +1,10 @@
+BẢNG THUẬT NGỮ KHÓA HỌC MỘT, THUẬT NGỮ VÀ ĐỊNH NGHĨA QUẢN TRỊ DỰ ÁN, COURSE MỘT GLOSSARY, PROJECT MANAGEMENT TERMS AND DEFINITIONS
+. ......
+TỔNG HỢP THUẬT NGỮ VÀ ĐỊNH NGHĨA QUẢN TRỊ DỰ ÁN CHUẨN QUỐC TẾ, PROJECT MANAGEMENT TERMS AND DEFINITIONS
+. ......
+Chào mừng các bạn đến với phần tổng hợp và tra cứu thuật ngữ chuyên ngành của Khóa học một, Nền tảng Quản trị Dự án. Dưới đây là toàn bộ các khái niệm, định nghĩa và thuật ngữ cốt lõi được sắp xếp khoa học theo thứ tự bảng chữ cái tiếng Anh từ A đến W, giúp các bạn dễ dàng ôn tập, củng cố và ứng dụng chuẩn xác vào thực tế công việc.
+
+NHÓM CHỮ CÁI A, LETTER A
+. ......
+Agile, Phương pháp Linh hoạt, Một phương pháp tiếp cận quản trị dự án hiện đại, trong đó các giai đoạn của dự án diễn ra gối đầu, chồng lấn lên nhau và các nhiệm vụ được hoàn thành theo từng vòng lặp ngắn hạn nhằm thích ứng nhanh chóng với sự thay đổi.
+Authority, Thẩm quyền, Năng lực và quyền hạn của một cá nhân trong việc đưa ra các quyết định hệ trọng cho dự án có sức ảnh hưởng trực tiếp tới toàn bộ tổ chức.

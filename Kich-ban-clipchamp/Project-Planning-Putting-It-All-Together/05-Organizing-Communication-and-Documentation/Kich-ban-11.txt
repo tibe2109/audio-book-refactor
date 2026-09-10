@@ -1,0 +1,14 @@
+Nếu bạn chỉ trình bày thông tin theo vỏn vẹn một hoặc hai cách đơn điệu, bạn sẽ đối mặt với rủi ro chỉ thu hút được một vài người trong khi bỏ rơi những người khác. Mục tiêu tối thượng của bạn với tư cách là một Project Manager là tối ưu hóa và tinh gọn các luồng thông tin liên lạc.
+
+Một phương pháp tuyệt vời để tối ưu hóa truyền thông cho tất cả mọi người trong nhóm là gửi một thư điện tử ngắn hoặc một bảng khảo sát nhanh gồm ba câu hỏi cốt lõi, Điều gì đang vận hành tốt trong cách chúng tôi giao tiếp với bạn về dự án? Điều gì đang chưa hiệu quả hoặc chưa thông suốt trong các cuộc trao đổi của chúng ta? Và chúng tôi có thể cải tiến việc truyền thông với bạn ở những điểm nào? Bảng khảo sát này sẽ mang lại cho bạn vô số thông tin giá trị để bạn có thể linh hoạt điều chỉnh phong cách giao tiếp cho tương thích hoàn hảo với từng thành viên.
+
+Kế hoạch truyền thông chứa đựng rất nhiều thông tin quan trọng và có vô số cách khác nhau để thiết lập nó, tùy thuộc vào quy mô đội ngũ và nhu cầu thực tế của dự án. Cho dù bạn chọn hệ thống nào, điều cốt tử nhất vẫn là đảm bảo kế hoạch truyền thông của bạn chỉ rõ, Ai cần tham gia vào luồng thông tin dự án? Những phương thức nào đang được sử dụng để giao tiếp? Vì sao bạn lại giao tiếp? Và bạn giao tiếp với tần suất bao nhiêu lần?
+
+Điều đó khép lại phần thảo luận của chúng ta về cách thức điền thông tin chi tiết vào một bản kế hoạch truyền thông. Trong bài học tiếp theo, tôi sẽ chia sẻ với bạn những chuẩn mực thực hành tốt nhất để lưu trữ và quản lý toàn bộ hệ thống tài liệu hồ sơ mà bạn và đội ngũ sẽ liên tục trao đổi xuyên suốt dự án. Hẹn gặp lại bạn sau ít phút.
+
+GIÁ TRỊ CỦA TÀI LIỆU HỒ SƠ DỰ ÁN
+. ......
+
+Rất vui được gặp lại bạn. Giờ đây, khi bạn đã có mặt ở đây, chúng ta hãy cùng thảo luận về tầm quan trọng của công tác lập tài liệu hồ sơ, Documentation, và cách thức mà tài liệu đóng vai trò như một phương tiện giao tiếp đắc lực để mọi người cùng tham chiếu và đóng góp trí tuệ.
+
+Tôi xin chia sẻ với bạn một ví dụ, thực tế từ chính trải nghiệm của mình. Có lần tôi tham gia điều phối một dự án quy tụ rất nhiều đội ngũ chuyên môn khác nhau, từ đội ngũ đảm bảo chất lượng Q-A, đội kiểm thử, đội thiết kế, đội kỹ thuật đối tác, cho đến các Program Manager. Mỗi đội ngũ đều chịu trách nhiệm cho một tập hợp các sản phẩm bàn giao riêng biệt của họ. Để giữ cho tất cả các đội ngũ luôn có chung một góc nhìn thống nhất, điều tối quan trọng là mọi người phải lưu trữ toàn bộ kế hoạch và báo cáo của mình tại một nơi tập trung duy nhất, Centralized Place. Việc này cho phép bất kỳ thành viên nào trong dự án cũng có thể nhanh chóng tìm thấy tài liệu họ cần ngay tức khắc.

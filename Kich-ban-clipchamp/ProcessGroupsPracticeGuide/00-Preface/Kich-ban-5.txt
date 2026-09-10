@@ -1,0 +1,43 @@
+sáu NHÓM QUY TRÌNH THỰC THI, EXECUTING PROCESS GROUP, 
+. ..một Chỉ đạo và quản lý công việc dự án, Direct and Manage Project Work, 
+sáu phẩy hai Quản lý tri thức dự án, Manage Project Knowledge, 
+sáu phẩy ba Quản lý chất lượng, Manage Quality, 
+sáu phẩy bốn Huy động nguồn lực, Acquire Resources, 
+sáu phẩy năm Phát triển đội ngũ, Develop Team, 
+sáu phẩy sáu Quản lý đội ngũ, Manage Team, 
+sáu phẩy bảy Quản lý truyền thông, Manage Communications, 
+sáu phẩy tám Thực thi ứng phó rủi ro, Implement Risk Responses, 
+sáu phẩy chín Tiến hành mua sắm, Conduct Procurements, 
+sáu phẩy mười Quản lý gắn kết Stakeholders, Manage Stakeholder Engagement,
+
+bảy NHÓM QUY TRÌNH GIÁM SÁT VÀ KIỂM SOÁT, MONITORING AND CONTROLLING PROCESS GROUP, 
+. ..một Giám sát và kiểm soát công việc dự án, Monitor and Control Project Work, 
+bảy phẩy hai Thực hiện kiểm soát thay đổi tích hợp, Perform Integrated Change Control, 
+bảy phẩy ba Nghiệm thu phạm vi, Validate Scope, 
+bảy phẩy bốn Kiểm soát phạm vi, Control Scope, 
+bảy phẩy năm Kiểm soát tiến độ, Control Schedule, 
+bảy phẩy sáu Kiểm soát chi phí, Control Costs, 
+bảy phẩy bảy Kiểm soát chất lượng, Control Quality, 
+bảy phẩy tám Kiểm soát nguồn lực, Control Resources, 
+bảy phẩy chín Giám sát truyền thông, Monitor Communications, 
+bảy phẩy mười Giám sát rủi ro, Monitor Risks, 
+bảy phẩy mười một Kiểm soát mua sắm, Control Procurements, 
+bảy phẩy mười hai Giám sát gắn kết Stakeholders, Monitor Stakeholder Engagement,
+
+tám NHÓM QUY TRÌNH KẾT THÚC DỰ ÁN, CLOSING PROCESS GROUP, 
+. ..một Đóng dự án hoặc giai đoạn, Close Project or Phase,
+
+chín CHI TIẾT CÁC YẾU TỐ ĐẦU VÀO VÀ ĐẦU RA, INPUTS AND OUTPUTS, 
+. . TỔNG HỢP CÁC CÔNG CỤ VÀ KỸ THUẬT QUẢN TRỊ, TOOLS AND TECHNIQUES, 
+. 
+TÀI LIỆU THAM KHẢO, REFERENCES, 
+. 
+PHỤ LỤC X một BẢNG GHI NHẬN ĐÓNG GÓP VÀ PHẢN BIỆN, APPENDIX X một CONTRIBUTORS AND REVIEWERS, 
+X một phẩy một Người phản biện, Reviewers, 
+X một phẩy hai Đội ngũ nhân sự P-M-I, P-M-I Staff, 
+. 
+PHỤ LỤC THUẬT NGỮ VÀ TỪ VIẾT TẮT CHUẨN QUỐC TẾ, GLOSSARY, 
+một. Danh mục bao gồm và loại trừ, Inclusions and Exclusions, 
+hai. Các từ viết tắt phổ biến, Common Acronyms, 
+ba. Định nghĩa thuật ngữ, Definitions, 
+.

@@ -1,0 +1,11 @@
+Từ các phân tích dữ liệu sắc bén đó, bạn đã nắm chắc nguyên nhân gốc rễ và các giải pháp tiềm năng để tiến tới giai đoạn thứ tư, Cải tiến, Improve. Trong thực tế, các nhà quản lý dự án thường hay nóng vội muốn nhảy cóc ngay vào giai đoạn này, nhưng chân lý là mọi sự cải tiến quy trình chỉ nên được thực hiện sau một quá trình phân tích thấu đáo dựa trên dữ liệu. Đây là thời điểm bạn trình bày các phát hiện của mình và bắt tay vào triển khai các cải tiến thực tế. Trong ví dụ, của chúng ta, đó có thể là việc tái cấu trúc và điều chỉnh lại lịch trực của nhân viên để đáp ứng hoàn hảo nhu cầu của khách hàng vào các khung giờ cao điểm.
+
+Và bước cuối cùng của chu trình là Kiểm soát, Control. Bạn đã đưa quy trình và dự án tới một trạng thái vận hành tuyệt vời, và bây giờ là lúc triển khai nó trên diện rộng và giữ vững thành quả đó! Kiểm soát là việc đúc rút những bài học kinh nghiệm từ toàn bộ quá trình trước đó để ban hành các quy trình chuẩn mực và hệ thống tài liệu hướng dẫn mới, đồng thời, liên tục giám sát để công ty không bao giờ bị quay trở lại con đường cũ kỹ, kém hiệu quả trước đây.
+
+Để tóm tắt lại toàn bộ tinh hoa của D-M-A-I-C, bạn có thể ghi nhớ câu thần chú này,
+Xác định, Define, cho bạn biết cần đo lường cái gì,
+Đo lường, Measure, cho bạn biết cần phân tích cái gì,
+Phân tích, Analyze, cho bạn biết cần cải tiến cái gì,
+Và Cải tiến, Improve, cho bạn biết cần kiểm soát cái gì!
+
+Lean Six Sigma và phương pháp D-M-A-I-C là sự lựa chọn hoàn hảo khi mục tiêu dự án là cải tiến quy trình hiện tại nhằm giải quyết những bài toán phức tạp hoặc có rủi ro cao, chẳng hạn, như nâng cao tỷ lệ chuyển đổi bán hàng, hoặc triệt tiêu các điểm nghẽn cổ chai, Bottlenecks, tức là những điểm mà công việc bị ùn ứ, đình trệ trong chu trình. Việc bám sát quy trình D-M-A-I-C giúp ngăn chặn nguy cơ bỏ sót các bước quan trọng và gia tăng tối đa cơ hội thành công của dự án. Đây là một phương pháp giúp đội ngũ của bạn khám phá ra những thông lệ tốt nhất mà khách hàng có thể tiếp tục kế thừa lâu dài về sau, nó dựa trên dữ liệu thực tế và luôn lấy khách hàng hoặc người dùng cuối làm trọng tâm để giải quyết tận gốc rễ vấn đề, xây dựng các giải pháp lâu dài, bền vững cho những thử thách cam go.

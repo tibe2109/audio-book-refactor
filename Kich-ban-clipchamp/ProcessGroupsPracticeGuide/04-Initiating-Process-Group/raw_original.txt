@@ -1,0 +1,222 @@
+Initiating Process Group
+The processes in the Initiating Process Group are shown in Table 4-1.
+Table 4-1. Initiating Process Group Processes
+Initiating Processes
+4.1 Develop Project Charter 4.2 Identify Stakeholders
+These processes define a new project or a new phase of an existing project by obtaining
+authorization to start the project or phase. The purpose of this Process Group is to align stakeholder
+expectations and the project purpose, inform stakeholders of the scope and objectives, and discuss
+how their participation in the project and its associated phases can help to ensure their expectations
+are met. The initial scope is defined and initial financial resources are committed. Stakeholders who
+will interact and influence the overall outcome of the project are identified. The project manager is
+appointed if not already assigned. This information is captured in the project charter and stakeholder
+register. When the project charter is approved, the project is officially authorized, and the project
+manager is authorized to apply organizational resources to the project activities.
+The key benefits of this Process Group are that only projects that are aligned with the
+organization’s strategic objectives are authorized and the business case, benefits, and stakeholders
+are considered from the start of the project. In some organizations, the project manager is involved in
+developing the business case and defining the benefits. In those organizations, the project manager
+generally helps write the project charter; in other organizations, the pre-project work is done by the
+project sponsor, project management office (PMO), portfolio steering committee, or other stakeholder
+group. This practice guide assumes the project has been approved by the sponsor or other governing
+body and the business documents have been reviewed prior to authorizing the project. In most cases,
+business documents originate outside of the project, but are used as inputs to the project.
+Business documents are documents that are generally originated outside of the project but
+are used as inputs to the project. Examples of business documents include the business case and
+Involve Stakeholders
+benefits management plan. Figure 4-1 shows the sponsor and the business documents in relation
+to the Initiating Processes. Involving the sponsors, customers, and other stakeholders during initiation creates a shared
+understanding of success criteria. It also increases the likelihood of deliverable acceptance when
+the project is complete and stakeholder satisfaction throughout the project.
+Project
+Boundaries
+Monitoring &
+Controlling Processes
+End
+Planning Deliverables
+Processes Users
+Business
+Sponsor Initiating Closing
+Documents Processes Processes
+Organiza-
+Project tional
+Executing Records Process
+Processes
+Assets
+Figure 4-1. Project Boundaries
+Projects are often divided into phases. When this is done, information from processes in the
+Initiating Process Group is reexamined to determine if the information is still valid. Revisiting the
+Initiating processes at the start of each phase helps keep the project focused on the business need
+that the project was undertaken to address. The project charter, business documents, and success
+criteria are verified. The influence drivers, expectations, and objectives of the project stakeholders
+are reviewed.
+Involve Stakeholders
+Involving the sponsors, customers, and other stakeholders during initiation creates a shared
+understanding of success criteria. It also increases the likelihood of deliverable acceptance when
+the project is complete and stakeholder satisfaction throughout the project.
+4.1 DEVELOP PROJECT CHARTER
+Develop Project Charter is the process for developing the document that formally authorizes
+the existence of a project and provides the project manager with the authority to apply organizational
+resources to project activities. The key benefits of this process are:
+▶ Provides a direct link between the project and the strategic objectives of the organization,
+▶ Creates a formal record of the project, and
+▶ Shows the organizational commitment to the project.
+This process is performed once or at predefined points in the project. The inputs, tools and techniques,
+and outputs are shown in Figure 4-2. Figure 4-3 presents the data flow diagram for this process.
+Develop Project Charter
+Inputs Tools & Techniques Outputs
+1. Business documents 1. Expert judgment 1. Project charter
+• Business case 2. Data gathering 2. Assumption log
+• Benefits management plan • Brainstorming
+2. Agreements • Focus groups
+3. Enterprise environmental • Interviews
+factors 3. Interpersonal and team skills
+4. Organizational process assets • Conflict management
+• Facilitation
+• Meeting management
+4. Meetings
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 4-2. Develop Project Charter: Inputs, Tools & Techniques, and Outputs
+D B o u cu si m ne e s n s ts Sta I k d e e 4 h n .2 o ti l f d y ers D M ev a e n lo a 5 p g . e 1 P m ro e j n e t ct M P a la n n a 5 g S . e 2 c m op e e nt
+Plan
+5.3
+Collect
+Requirements
+Business documents
+• Business case
+• Benefits management plan
+5.4
+Define Scope
+4.1 • Project charter
+• Agreements
+Develop Project
+Charter
+5.6
+Plan Schedule
+Management
+• Enterprise environmental factors • Assumption log
+• Organizational process assets
+5.11
+Project Plan Cost
+Documents Management
+5.14
+Enterprise/ Plan Quality
+Organization Management
+5.15
+Plan Resource
+Management
+5.24 5.17
+8.1 5.23 5.18
+Plan Plan
+Close Project Plan Procurement Plan Risk
+Stakeholder Communications
+or Phase Management Management
+Engagement Management
+Note: This figure provides the inputs and outputs that may be used for this process. Descriptions for inputs
+and outputs appear in Section 9.
+Figure 4-3. Develop Project Charter: Data Flow Diagram
+The project charter establishes a partnership between the performing and requesting
+organizations. In the case of external projects, a formal contract is typically the preferred way
+to establish an agreement. A project charter may still be used to establish internal agreements
+within an organization to ensure proper delivery under the contract. The approved project charter
+formally initiates the project. A project manager is identified and assigned as early in the project
+as is feasible, preferably while the project charter is being developed and always prior to the
+start of planning. The project charter can be developed by the sponsor or the project manager
+in collaboration with the initiating entity. This collaboration allows the project manager to have a
+better understanding of the project purpose, objectives, and expected benefits. This understanding
+will better allow for efficient resource allocation to project activities. The project charter provides
+the project manager with the authority to plan, execute, and control the project.
+Projects are initiated by an entity external to the project such as a sponsor, program, or project
+management office (PMO), or a portfolio governing body chairperson or authorized representative.
+The project initiator or sponsor should be at a level that is appropriate to procure funding and
+commit resources to the project. Projects are initiated due to internal business needs or external
+influences. These needs or influences often trigger the creation of a needs analysis, feasibility study,
+business case, or description of the situation that the project will address. Chartering a project
+validates alignment of the project to the strategy and ongoing work of the organization. A project
+charter is not considered to be a contract because there is no consideration or money promised
+or exchanged in its creation.
+4.2 IDENTIFY STAKEHOLDERS
+Identify Stakeholders is the process of identifying project stakeholders regularly and analyzing
+and documenting relevant information regarding their interests, involvement, interdependencies,
+influence, and potential impact on project success. The key benefit of this process is that it enables
+the project team to identify the appropriate focus for engagement of each stakeholder or group of
+stakeholders.
+This process is performed periodically throughout the project as needed. The inputs, tools and
+techniques, and outputs are shown in Figure 4-4. Figure 4-5 presents the data flow diagram for
+this process.
+Identify Stakeholders
+Inputs Tools & Techniques Outputs
+1. Project charter 1. Expert judgment 1. Stakeholder register
+2. Business documents 2. Data gathering 2. Change requests
+• Business case • Questionnaires and surveys 3. Project management plan
+• Benefits management plan • Brainstorming updates
+3. Project management plan 3. Data analysis • Requirements management
+• Communications • Stakeholder analysis plan
+management plan • Document analysis • Communications
+• Stakeholder engagement 4. Data representation management plan
+plan • Stakeholder mapping/ • Risk management plan
+4. Project documents representation • Stakeholder engagement
+• Change log 5. Meetings plan
+• Issue log 4. Project documents updates
+• Requirements • Assumption log
+documentation • Issue log
+5. Agreements • Risk register
+6. Enterprise environmental
+factors
+7. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 4-4. Identify Stakeholders: Inputs, Tools & Techniques, and Outputs
+4.1
+Develop
+Project Charter
+• Project charter
+Project
+Management Project
+Plan Management
+Plan
+Project management plan updates
+• Requirements management plan
+Project management plan • Communications management plan
+• Communications management plan • Risk management plan
+• Stakeholder engagement plan • Stakeholder engagement plan
+4.2
+Project
+Identify
+Documents
+Stakeho•l Pdreojresc t • Stakeholder register
+charter
+Project documents
+• Change log Project
+• Issue log
+Documents
+• Requirements documentation Project documents updates
+• Assumption log
+• Issue log
+• Risk register
+Business
+Documents
+7.2
+Perform
+Integrated
+• Business case • Change requests Change Control
+• Benefits management plan
+6.9
+Conduct
+Procurements
+• Agreements
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 4-5. Identify Stakeholders: Data Flow Diagram
+This process frequently occurs for the first time in a project either prior to or at the same time
+the project charter is developed and approved. It is repeated as necessary but should be performed
+at the start of each phase and when a significant change in the project or the organization occurs.
+Each time the identification process is repeated, the project management plan components and
+project documents should be consulted to identify relevant project stakeholders.

@@ -1,0 +1,14 @@
+CÁC CÔNG CỤ HỖ TRỢ NHẬN DIỆN RỦI RO
+. ......
+
+Xin chào và chào mừng bạn quay trở lại. Đến lúc này, hy vọng bạn đã bắt đầu cảm nhận sâu sắc tầm quan trọng của việc lập kế hoạch ứng phó với rủi ro. Ngay cả những dự án trông có vẻ đơn giản nhất cũng đều tiềm ẩn những rủi ro nhất định. Hãy nhớ rằng, những rủi ro đó không bao giờ là lý do để khiến bạn chùn bước hay từ bỏ việc theo đuổi các mục tiêu của dự án. Điều cốt lõi là bạn phải luôn trong tâm thế sẵn sàng.
+
+Bây giờ, chúng ta hãy cùng khám phá các công cụ và kỹ thuật đắc lực mà bạn có thể áp dụng để nhận diện rủi ro một cách bài bản, bao gồm kỹ thuật động não tập thể, tức Brainstorming, và quy trình đánh giá rủi ro, tức Risk Assessment. Động não là một trong những phương pháp hiệu quả nhất để phát hiện rủi ro cùng toàn đội ngũ, bởi nó tạo ra một không gian cởi mở cho mọi người tự do chia sẻ những ý tưởng bất chợt mà không sợ bị phán xét hay chỉ trích.
+
+Với tư cách là một Project Manager, bạn sẽ chịu trách nhiệm triệu tập một nhóm nhân sự cùng nhau ngồi lại để mường tượng ra những rủi ro tiềm ẩn. Lúc này, bạn hãy chuẩn bị sẵn biểu đồ ma trận R-A-C-I của mình để tham khảo xem những ai là người phù hợp nhất cần được mời tham dự buổi họp này. Đúc kết từ kinh nghiệm thực chiến của bản thân, tôi nhận thấy một đội ngũ lý tưởng nhất cho nhiệm vụ này là một nhóm đa dạng, bao gồm các cá nhân đến từ nhiều vai trò, nền tảng chuyên môn và mức độ trải nghiệm khác nhau.
+
+Một đội ngũ đa dạng sẽ mang lại những góc nhìn, kinh nghiệm và bộ kỹ năng phong phú, và chính điều này sẽ giúp bạn nhìn ra những rủi ro mà tự bản thân bạn nếu ngồi một mình sẽ không bao giờ nghĩ tới. Chẳng hạn, một thành viên kỳ cựu trong nhóm có thể đã từng trải qua nhiều dự án lớn và thấu hiểu các cạm bẫy cũ, trong khi một thành viên mới toanh lại có thể mang đến một góc nhìn tươi mới, sắc sảo từ những trải nghiệm trước đây của họ ở các phòng ban khác.
+
+Một công cụ tuyệt vời mà bạn có thể vận dụng đắc lực trong suốt buổi động não chính là biểu đồ nguyên nhân và kết quả, Cause-and-Effect Diagram, đôi khi còn được gọi thân thuộc là biểu đồ xương cá, Fishbone Diagram. Biểu đồ nguyên nhân và kết quả giúp trực quan hóa những căn nguyên có thể dẫn đến một biến cố hay rủi ro cụ thể, và chúng cực kỳ hữu ích trong công tác quản trị rủi ro.
+
+Chẳng hạn, trên sơ đồ xương cá minh họa ở đây, kết quả được liệt kê ở phần đầu cá là sự cố nhà cung cấp giao hàng trễ hạn chót. Đây rõ ràng là một rủi ro lớn đối với dự án của bạn. Phía bên trái, dọc theo các nhánh xương cá, bạn và đội ngũ sẽ cùng nhau động não tìm ra các nhóm nguyên nhân tiềm ẩn có thể dẫn tới kết quả tiêu cực đó, chẳng hạn, như việc phân chia công việc yếu kém hoặc sự thiếu hụt các công cụ theo dõi tiến độ.

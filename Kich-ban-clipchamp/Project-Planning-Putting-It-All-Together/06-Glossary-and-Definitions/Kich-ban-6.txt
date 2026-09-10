@@ -1,0 +1,28 @@
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ P
+. ......
+
+Parallel tasks, tức Các nhiệm vụ song song, Những công việc độc lập có thể diễn ra đồng thời, cùng một lúc với các nhiệm vụ khác mà không bị ràng buộc cản trở nhau.
+
+Personally identifiable information, viết tắt là P-I-I, tức Thông tin nhận dạng cá nhân, Bất kỳ dữ liệu nào có thể được sử dụng độc lập hoặc kết hợp để định danh, liên lạc hoặc xác định chính xác một con người, bao gồm địa chỉ email, số điện thoại, địa chỉ nhà, tọa độ định vị, tên đầy đủ và tên người dùng.
+
+Planning fallacy, tức Ngụy biện lập kế hoạch, Xu hướng tâm lý phổ biến của con người khi luôn đánh giá thấp thời gian cần thiết để hoàn thành một công việc, đồng thời, xem nhẹ chi phí và các rủi ro đi kèm.
+
+Planning phase, tức Giai đoạn lập kế hoạch, Giai đoạn thứ hai trong vòng đời dự án, tập trung xây dựng lịch trình tiến độ, dự toán ngân sách và kế hoạch quản trị rủi ro chi tiết.
+
+Probability and impact matrix, tức Ma trận xác suất và tác động, Công cụ trực quan dùng để lượng hóa, phân loại và sắp xếp thứ tự ưu tiên cho các rủi ro của dự án.
+
+Probability, tức Xác suất, Khả năng hoặc mức độ khả thi mà một rủi ro có thể xảy ra trong thực tế.
+
+Procurement, tức Mua sắm đấu thầu, Toàn bộ quy trình tìm kiếm, mua sắm và sở hữu tất cả các nguyên vật liệu, dịch vụ và hàng hóa cần thiết từ các nhà cung cấp bên ngoài để hoàn thành dự án.
+
+Project budget, tức Ngân sách dự án, Tổng nguồn lực tiền tệ ước tính cần thiết để hoàn thành toàn bộ các mục tiêu đề ra của dự án.
+
+Project buffer, tức Thời gian đệm dự án, Khoảng thời gian dự phòng chung được bổ sung vào phần cuối cùng của toàn bộ dự án để chống trượt tiến độ.
+
+Project kick-off meeting, tức Cuộc họp khởi động dự án, Buổi họp chính thức đầu tiên nơi toàn thể đội ngũ quy tụ để thấu suốt tầm nhìn chung, hiểu rõ mục tiêu, phạm vi và nắm vững vai trò cá nhân của từng người.
+
+Project management baseline, viết tắt là P-M-B, tức Đường cơ sở quản lý dự án, Mốc xuất phát điểm cố định được định nghĩa rõ ràng cho dự án, tích hợp cả ba yếu tố phạm vi, ngân sách và lịch trình.
+
+Project plan, tức Kế hoạch dự án, Tài liệu tổng thể ghi nhận phạm vi, nhiệm vụ, cột mốc và mọi hoạt động của dự án, thường bao gồm năm yếu tố cốt lõi, nhiệm vụ, cột mốc, con người, tài liệu và thời gian.
+
+Project task, tức Nhiệm vụ dự án, Một hoạt động công việc cụ thể cần được hoàn thành trong một khoảng thời gian ấn định.

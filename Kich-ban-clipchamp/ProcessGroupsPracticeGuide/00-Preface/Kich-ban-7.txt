@@ -1,0 +1,28 @@
+Define Activities, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-mười bốn. Define Activities, Data Flow Diagram
+Sơ đồ năm-mười lăm. Sequence Activities, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-mười sáu. Sequence Activities, Data Flow Diagram
+Sơ đồ năm-mười bảy. Estimate Activity Durations, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-mười tám. Estimate Activity Durations, Data Flow Diagram
+Sơ đồ năm-mười chín. Develop Schedule, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-hai mươi. Develop Schedule, Data Flow Diagram
+Sơ đồ năm-hai mươi mốt. Plan Cost Management, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-hai mươi hai. Plan Cost Management, Data Flow Diagram
+Sơ đồ năm-hai mươi ba. Estimate Costs, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-hai mươi bốn. Estimate Costs, Data Flow Diagram
+Sơ đồ năm-hai mươi lăm. Determine Budget, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-hai mươi sáu. Determine Budget, Data Flow Diagram
+Sơ đồ năm-hai mươi bảy. Plan Quality Management, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-hai mươi tám. Plan Quality Management, Data Flow Diagram
+Sơ đồ năm-hai mươi chín. Plan Resource Management, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-ba mươi. Plan Resource Management, Data Flow Diagram
+Sơ đồ năm-ba mươi mốt. Estimate Activity Resources, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-ba mươi hai. Estimate Activity Resources, Data Flow Diagram
+Sơ đồ năm-ba mươi ba. Plan Communications Management, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-ba mươi bốn. Plan Communications Management, Data Flow Diagram
+Sơ đồ năm-ba mươi lăm. Plan Risk Management, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-ba mươi sáu. Plan Risk Management, Data Flow Diagram
+Sơ đồ năm-ba mươi bảy. Identify Risks, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-ba mươi tám. Identify Risks, Data Flow Diagram
+Sơ đồ năm-ba mươi chín. Perform Qualitative Risk Analysis, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-bốn mươi.

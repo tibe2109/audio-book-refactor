@@ -1,0 +1,28 @@
+BẢNG THUẬT NGỮ KHÓA HỌC HAI, THUẬT NGỮ VÀ ĐỊNH NGHĨA QUẢN TRỊ DỰ ÁN, COURSE HAI GLOSSARY, PROJECT MANAGEMENT TERMS AND DEFINITIONS
+. ......
+BẢNG THUẬT NGỮ KHÓA HỌC HAI, THUẬT NGỮ VÀ ĐỊNH NGHĨA QUẢN TRỊ DỰ ÁN, COURSE HAI GLOSSARY, PROJECT MANAGEMENT TERMS AND DEFINITIONS
+. ......
+LETTER A, CHỮ CÁI A
+. ......
+Adoption, Sự tiếp nhận, Đề cập đến cách thức khách hàng sử dụng và thích ứng với một sản phẩm hoặc dịch vụ mà không gặp bất kỳ trở ngại nào.
+Asana, Nền tảng quản lý công việc giúp các đội ngũ lập kế hoạch và phối hợp công việc hiệu quả, đặc biệt hữu ích để xây dựng kế hoạch dự án, phân công nhiệm vụ, tự động hóa quy trình làm việc, theo dõi tiến độ và giao tiếp với các bên liên quan.
+
+LETTER B, CHỮ CÁI B
+. ......
+Benchmark, Điểm chuẩn đối sánh, Một mốc hoặc điểm tham chiếu chuẩn mực được sử dụng để so sánh và đánh giá.
+Benefits, Lợi ích dự án, Những giá trị hoặc lợi ích kỳ vọng mà một dự án sẽ mang lại.
+Budget, Ngân sách, Bản dự toán tổng số tiền cần chi trả để hoàn thành một dự án.
+Business case, Hồ sơ biện giải kinh doanh, Lý do và căn cứ thực tiễn để khởi xướng một dự án.
+
+LETTER C, CHỮ CÁI C
+. ......
+Collaboration tools, Công cụ cộng tác, Các công cụ được sử dụng để trao đổi nhanh chóng và hiệu quả với các thành viên trong nhóm về các câu hỏi, ý kiến đóng góp và những chủ đề khác liên quan đến dự án.
+Conditional formatting, Định dạng có điều kiện, Tính năng tự động đổi màu hoặc gắn mã màu cho các ô trong bảng tính dựa trên những điều kiện cụ thể.
+Cost-benefit analysis, Phân tích Chi phí - Lợi ích, Quy trình tổng hợp toàn bộ giá trị kỳ vọng của một dự án, tức các lợi ích thu được, rồi so sánh chúng với các chi phí tài chính bằng tiền mặt.
+Customers, Khách hàng, Những người sẽ nhận được giá trị cụ thể từ một dự án được triển khai và hoàn thành thành công.
+
+LETTER D, CHỮ CÁI D
+. ......
+Data validation, Xác thực dữ liệu, Tính năng tạo danh sách thả xuống trong các ô của bảng tính nhằm chuẩn hóa và kiểm soát dữ liệu nhập vào.
+Deliverable, Kết quả bàn giao, Một kết quả hữu hình từ dự án, chính là sản phẩm được tạo ra hoặc trình bày khi kết thúc một nhiệm vụ, một sự kiện hoặc một quy trình.
+Docs, Ứng dụng soạn thảo và xử lý văn bản kỹ thuật số trực tuyến của Google.

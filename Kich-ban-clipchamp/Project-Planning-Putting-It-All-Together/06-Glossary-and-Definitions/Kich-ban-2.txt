@@ -1,0 +1,28 @@
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ C
+. ......
+
+Capacity, tức Năng lực đáp ứng, Khối lượng công việc tối đa mà các nhân sự hoặc nguồn lực được phân bổ cho dự án có thể hoàn thành một cách hợp lý trong một khoảng thời gian nhất định.
+
+Capacity planning, tức Lập kế hoạch năng lực đáp ứng, Hành động phân bổ nhân lực và tài nguyên vào từng nhiệm vụ cụ thể, đồng thời, đánh giá xem liệu dự án đã huy động đủ nguồn lực cần thiết để hoàn thành công việc đúng hạn định hay chưa.
+
+C-A-P-E-X, tức Chi phí vốn, Capital Expenses, Các khoản chi phí đầu tư tài sản cố định mà doanh nghiệp bỏ ra nhằm tạo ra lợi ích kinh tế lâu dài trong tương lai.
+
+Cash flow, tức Dòng tiền, Sự chuyển dịch, luân chuyển vào và ra của dòng tiền mặt trong một dự án theo từng mốc thời gian.
+
+Cause-and-effect diagram, tức Biểu đồ nguyên nhân và kết quả, Công cụ trực quan thể hiện tất cả các nguyên nhân tiềm ẩn có thể dẫn tới một biến cố hay rủi ro cụ thể, thường được gọi thân thuộc là biểu đồ xương cá, Fishbone Diagram.
+
+Communication, tức Truyền thông, Dòng chảy liên tục của thông tin, bao hàm tất cả những gì được sẻ chia, phương thức thông tin được truyền đi, và đối tượng tiếp nhận thông tin đó.
+
+Communication plan, tức Kế hoạch truyền thông, Bản tài liệu sống giúp định hình, tổ chức quy trình, các kênh giao tiếp và những kỳ vọng về mặt truyền thông xuyên suốt dự án.
+
+Contingency budget, tức Ngân sách dự phòng rủi ro, Khoản tiền được tính toán bổ sung vào dự toán để ứng phó với những biến cố bất ngờ chưa lường trước, vốn chưa được hạch toán trong bảng ước tính chi phí ban đầu.
+
+Contingency reserves, tức Dự phòng rủi ro đã xác định, Khoản tiền dự phòng được bổ sung trực tiếp vào chi phí ước tính của dự án nhằm kiểm soát và xử lý các rủi ro đã được nhận diện trong sổ đăng ký rủi ro.
+
+Cost of quality, tức Chi phí chất lượng, Toàn bộ các chi phí phát sinh để phòng ngừa lỗi, đảm bảo quy trình và kiểm định sản phẩm không gặp sự cố khi bàn giao.
+
+Cost performance index, viết tắt là C-P-I, tức Chỉ số hiệu suất chi phí, Tỷ số toán học giữa giá trị công việc thực tế đã hoàn thành so với chi phí thực tế đã bỏ ra, phản ánh mức độ hiệu quả trong việc sử dụng ngân sách.
+
+Cost variance, viết tắt là C-V, tức Chênh lệch chi phí, Khoảng chênh lệch số học giữa giá trị ngân sách dự kiến phải chi so với số tiền thực tế đã giải ngân cho khối lượng công việc đã hoàn tất tại một thời điểm nhất định.
+
+Critical path, tức Đường găng, Chuỗi các cột mốc và nhiệm vụ bắt buộc phải hoàn thành đúng hạn tuyệt đối để đảm bảo dự án về đích đúng tiến độ cam kết, bất kỳ sự chậm trễ nào trên đường găng đều sẽ làm chậm trễ toàn bộ dự án.

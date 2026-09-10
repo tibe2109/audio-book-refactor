@@ -1,0 +1,10 @@
+TẠO LẬP CẤU TRÚC PHÂN RÃ CÔNG VIỆC, CREATING A WORK BREAKDOWN STRUCTURE
+. ......
+
+Chúng ta vừa thảo luận về cách thiết lập các cột mốc. Bây giờ, chúng ta sẽ học cách quản lý nhiều nhiệm vụ dẫn tới từng cột mốc đó thông qua việc tạo ra một Cấu trúc Phân rã Công việc. Hãy bắt đầu bằng một định nghĩa chuẩn xác, Cấu trúc Phân rã Công việc, thường được viết tắt là W-B-S, Work Breakdown Structure, là một công cụ giúp sắp xếp các cột mốc và nhiệm vụ của một dự án theo cấu trúc phân cấp, theo đúng thứ tự mà chúng cần phải được hoàn thành. Đây là một công cụ vô cùng hữu ích vì nó giúp chia nhỏ những thách thức đôi khi rất đáng sợ của một dự án thành những phần việc vừa sức và dễ quản lý hơn nhiều.
+
+Những dự án khổng lồ như xuất bản một báo cáo chuyên ngành hay tổ chức một hội nghị tầm cỡ sẽ trở nên bớt choáng ngợp hơn rất nhiều khi khối lượng công việc cần làm được bóc tách từng bước một với một lộ trình rõ ràng từ điểm khởi đầu cho đến khi kết thúc dự án. Chúng ta hãy cùng xem xét một ví dụ, về cấu trúc phân rã công việc cơ bản. Có rất nhiều cách khác nhau để thiết kế một biểu đồ W-B-S, nhưng một cách tiếp cận phổ biến nhất là tạo ra một sơ đồ cây, Tree Diagram, thể hiện các nhiệm vụ của dự án.
+
+Giả sử chúng ta đang xây dựng một W-B-S cho đợt ra mắt trang web của Dự án Plant Pals. Ở tầng cao nhất của sơ đồ là tên của dự án. Tầng thứ hai của sơ đồ sẽ chia nhỏ dự án thành ba cột mốc chính, bao gồm, xin phê duyệt thiết kế, lập trình trang web, và tích hợp phản hồi từ người dùng. Ở tầng thứ ba của biểu đồ, chúng ta có thể thấy mỗi cột mốc đó lại tiếp tục được phân rã chi tiết thành một chuỗi các nhiệm vụ dự án cụ thể.
+
+Lấy ví dụ, các nhiệm vụ được liệt kê bên dưới cột mốc phê duyệt thiết kế sẽ bao gồm, vẽ phác thảo các bản thiết kế ban đầu và thu thập ý kiến phản hồi. Đây là một ví dụ, rất đơn giản về cấu trúc phân rã công việc. Ở đây, chúng ta mới chỉ tạo một W-B-S cho một trang web mới, vốn chỉ là một trong số các sản phẩm bàn giao của Dự án Plant Pals. Hãy nhớ rằng trong các vai trò quản lý dự án tương lai, rất có thể bạn sẽ phải tạo ra một W-B-S bao quát toàn bộ các nhiệm vụ cho trọn vẹn cả một dự án lớn.

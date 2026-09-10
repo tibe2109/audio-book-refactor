@@ -1,0 +1,19 @@
+NHÓM CHỮ CÁI D, LETTER D
+. ......
+Delegation, Phân quyền Ủy thác công việc, Việc giao phó và phân bổ các nhiệm vụ cho những cá nhân hoặc nguồn lực có năng lực phù hợp nhất để hoàn thành công việc đó một cách tối ưu.
+Deliverable, Kết quả Bàn giao, Một nhiệm vụ cụ thể, một sản phẩm hữu hình hoặc một kết quả đầu ra rõ ràng cần phải hoàn thành và chuyển giao trong dự án.
+D-M-A-I-C, Một chiến lược cải tiến quy trình vượt trội trong phương pháp Lean Six Sigma, bao gồm năm giai đoạn kinh điển, Xác định, Define, Đo lường, Measure, Phân tích, Analyze, Cải tiến, Improve, và Kiểm soát, Control.
+
+NHÓM CHỮ CÁI E, LETTER E
+. ......
+Effective Communication, Giao tiếp Hiệu quả, Việc đối thoại và truyền tải thông tin một cách minh bạch, thẳng thắn về các kế hoạch và ý tưởng, đồng thời, đảm bảo thông tin luôn sẵn sàng, dễ dàng tiếp cận cho tất cả các bên liên quan.
+Escalation Paths, Lộ trình Báo cáo Leo thang, Các quy trình và kênh liên lạc được thiết lập sẵn nhằm truyền đạt các rủi ro, sự cố tới đúng những người có thẩm quyền xử lý vào đúng thời điểm thích hợp.
+Executing, Giai đoạn Thực thi, Giai đoạn trực tiếp triển khai và hoàn thành các nhiệm vụ cần thiết nhằm đạt được các mục tiêu đề ra của dự án.
+
+NHÓM CHỮ CÁI F, LETTER F
+. ......
+Feedback Mechanism, Cơ chế Phản hồi, Một công cụ hoặc phương thức được sử dụng để thu thập các ý kiến đóng góp từ các bên liên quan và người dùng, chẳng hạn, như một bảng khảo sát ý kiến.
+Floating Task, Nhiệm vụ Thả nổi Tác vụ Linh hoạt, Một nhiệm vụ mà sự thay đổi về thời gian hoàn thành của nó hoàn toàn không làm ảnh hưởng tới thành công chung của dự án hay làm gián đoạn lịch trình tổng thể.
+Flowchart, Lưu đồ Sơ đồ Quy trình, Một công cụ trực quan hóa giúp phác họa rõ nét từng bước trong tiến trình phát triển và vận hành của một dự án.
+Functional Manager, Quản lý Chức năng, Người đứng đầu lãnh đạo một phòng ban chuyên môn trong một tổ chức chức năng, Cấu trúc Cổ điển.
+Functional Organizations, Tổ chức Chức năng, Một tổ chức được phân chia thành các phòng ban dựa trên chức năng chuyên môn riêng biệt, mô hình này còn được gọi là Tổ chức Cổ điển, Classic Organization.

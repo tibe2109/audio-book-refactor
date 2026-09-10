@@ -1,0 +1,13 @@
+Cũng giống hệt như các bản kế hoạch chuyên môn khác trong dự án, kế hoạch truyền thông của bạn cần phải trả lời thấu đáo những câu hỏi cốt lõi sau, Điều gì cần được truyền thông? Ai là người cần giao tiếp? Khi nào hoạt động truyền thông cần diễn ra? Vì sao và bằng cách nào thông tin được truyền tải? Và những thông tin đã trao đổi sẽ được lưu trữ ở đâu?
+
+Chúng ta hãy cùng nhau mổ xẻ từng câu hỏi này thông qua một bản kế hoạch truyền thông mẫu mà tôi đã xây dựng riêng cho dự án Plant Pals của chúng ta.
+
+Trước hết, kế hoạch truyền thông của bạn phải chỉ rõ bạn đang truyền thông về nội dung gì, hay nói cách khác, là hình thức truyền thông cụ thể. Mục này có thể bao gồm những nội dung như, các báo cáo cập nhật tiến độ, các vấn đề phát sinh cần tháo gỡ, phản hồi đóng góp từ phía người dùng, các buổi trao đổi kiểm tra công việc hằng ngày, và những cuộc họp dự án chuyên biệt khác.
+
+Tiếp theo, bạn cần xác định rõ ràng bạn sẽ giao tiếp với những ai. Đây chính là những đối tượng tiếp nhận thông tin, chẳng hạn, như các bên liên quan chủ chốt, Key Stakeholders, và đội ngũ nòng cốt của dự án, Core Project Team.
+
+Đối với từng hình thức truyền thông cụ thể, bạn cần ghi nhận thời điểm việc giao tiếp diễn ra. Điều này bao gồm tần suất, tức mức độ thường xuyên mà bạn trao đổi thông tin, cùng các mốc ngày giờ trọng yếu như hạn chót hoàn thành hoặc thời điểm diễn ra các cuộc họp quan trọng.
+
+Một điều then chốt bạn cần luôn khắc ghi là, không phải tất cả mọi người đều cần nhận cùng một khối lượng thông tin giống hệt nhau vào cùng một thời điểm. Nói một cách tổng quát, các bên liên quan cấp cao thường sẽ nhận thông tin với tần suất thưa hơn, chẳng hạn, như thông qua một bản thư điện tử tóm tắt tổng quan hằng tháng, hoặc trong các cuộc họp rà soát dự án định kỳ cấp cao. Ngược lại, đội ngũ dự án nòng cốt của bạn sẽ cần tiếp nhận thông tin chi tiết và sâu sát hơn rất nhiều, thông qua các báo cáo cập nhật hằng ngày qua thư điện tử hoặc các buổi gặp mặt kiểm tra tiến độ nhanh qua mạng.
+
+Kế tiếp, bạn cần nêu rõ phương thức truyền tải thông tin, tức bạn sẽ sử dụng công cụ nào để giao tiếp. Đó có thể là thư điện tử, các cuộc gặp mặt trực tiếp, các buổi họp qua mạng, hay một bài thuyết trình báo cáo chính thức.

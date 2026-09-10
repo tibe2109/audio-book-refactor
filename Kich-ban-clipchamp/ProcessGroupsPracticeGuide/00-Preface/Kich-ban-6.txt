@@ -1,0 +1,29 @@
+DANH SÁCH SƠ ĐỒ VÀ BẢNG BIỂU MINH HỌA, LIST OF FIGURES AND TABLES, . ......
+. Sơ đồ một-một. Chuyển đổi trạng thái tổ chức thông qua dự án, Organizational State Transition via a Project, 
+Sơ đồ một-hai. Ví dụ về giao tiếp giữa Portfolio, Program và Project Management
+Sơ đồ một-ba. Quản trị Dự án Tổ chức, Organizational Project Management - OPM, 
+Sơ đồ một-bốn. Mối quan hệ tương hỗ giữa các thành phần cốt lõi trong dự án
+Sơ đồ một-năm. Ví dụ về Quy trình, Inputs, Tools & Techniques, và Outputs, I-T-T-O, 
+Sơ đồ một-sáu. Luồng dữ liệu, thông tin và báo cáo dự án
+Sơ đồ một-bảy. Mối quan hệ tương hỗ giữa Đánh giá nhu cầu và các Tài liệu kinh doanh Dự án quan trọng
+Sơ đồ hai-một. Các yếu tố ảnh hưởng đến dự án, Project Influences, 
+Sơ đồ ba-một. Ví dụ về Phạm vi ảnh hưởng của Project Manager
+Sơ đồ ba-hai. Tam giác Năng lực P-M-I Talent Triangle®
+Sơ đồ bốn-một. Ranh giới dự án, Project Boundaries, 
+Sơ đồ bốn-hai. Develop Project Charter, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bốn-ba. Develop Project Charter, Data Flow Diagram
+Sơ đồ bốn-bốn. Identify Stakeholders, Inputs, Tools & Techniques, và Outputs
+Sơ đồ bốn-năm. Identify Stakeholders, Data Flow Diagram
+Sơ đồ năm-một. Develop Project Management Plan, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-hai. Develop Project Management Plan, Data Flow Diagram
+Sơ đồ năm-ba. Plan Scope Management, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-bốn. Plan Scope Management, Data Flow Diagram
+Sơ đồ năm-năm. Collect Requirements, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-sáu. Collect Requirements, Data Flow Diagram
+Sơ đồ năm-bảy. Define Scope, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-tám. Define Scope, Data Flow Diagram
+Sơ đồ năm-chín. Create W-B-S, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-mười. Create W-B-S, Data Flow Diagram
+Sơ đồ năm-mười một. Plan Schedule Management, Inputs, Tools & Techniques, và Outputs
+Sơ đồ năm-mười hai. Plan Schedule Management, Data Flow Diagram
+Sơ đồ năm-mười ba.

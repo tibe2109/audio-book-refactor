@@ -1,0 +1,12 @@
+Việc cộng thêm thời gian dự phòng vào từng nhiệm vụ đơn lẻ có thể kéo dài tiến độ dự án của bạn một cách không cần thiết, khiến bạn, đội ngũ và các bên liên quan rơi vào một dòng thời gian phi thực tế. Đây chính là lúc Thời gian Dự phòng Dự án, Project Buffers, phát huy tác dụng đắc lực. Dự phòng dự án khác biệt với dự phòng nhiệm vụ ở chỗ nó bổ sung thêm thời gian cho toàn bộ tiến độ tổng thể của dự án. Thay vì thêm dự phòng cho từng nhiệm vụ, bạn có thể cộng thêm một khoảng thời gian dự phòng vào cuối bản tiến độ dự án.
+
+Sau đó, bạn có thể linh hoạt sử dụng khoảng thời gian bổ sung đó, chẳng hạn, như hai đến ba ngày, khi cần thiết xuyên suốt dự án. Ví dụ, nếu một cộng sự bị chậm trễ thời hạn ở một khâu nào đó, dự phòng dự án sẽ tạo cho bạn không gian đệm trong tiến độ tổng thể để bù đắp cho khoảng thời gian đã mất. Cá nhân tôi áp dụng thời gian dự phòng rất thường xuyên trong công việc hàng ngày tại Google. Lấy ví dụ, trong một dự án gần đây tại Google, tôi làm việc cùng một nhân sự mới tuyển dụng, cậu ấy viết mã lập trình rất xuất sắc nhưng lại liên tục bị lỡ thời hạn chót.
+
+Tôi nhận ra rằng cậu ấy đã không dành cho bản thân đủ thời gian dự phòng để thực hiện việc kiểm thử, Testing. Tôi bắt đầu đặt ra các câu hỏi về khối lượng công việc hiện tại và mức độ phức tạp của các nhiệm vụ mà cậu ấy đang gánh vác, và dựa trên những câu trả lời đó, tôi đã thu thập được những hiểu biết sâu sắc về công việc của cậu ấy để xác định nơi tôi cần bổ sung thêm thời gian dự phòng cho các nhiệm vụ. Xét cho cùng, mục tiêu tối thượng của tôi là bảo đảm rằng mình đang thiết lập một dòng thời gian thực tế cho dự án.
+
+Nói cho cùng, nếu bạn đạt được mục tiêu dự án chậm hơn hai tháng so với dự kiến, tổ chức của bạn khó có thể coi đó là một dự án thành công. Ước tính thời gian, ước tính nỗ lực và thời gian dự phòng chính là bộ ba công cụ giúp bạn xây dựng những kế hoạch thực tế nhất để chạm tới đích đến của dự án.
+
+HOẠCH ĐỊNH NĂNG LỰC VÀ ĐƯỜNG GĂNG DỰ ÁN, CAPACITY PLANNING AND THE CRITICAL PATH
+. ......
+
+Chào bạn đã quay trở lại! Chúng ta vừa cùng nhau thảo luận về ước tính thời gian, dự đoán về tổng lượng thời gian cần thiết để hoàn thành một nhiệm vụ, và ước tính nỗ lực, dự đoán về lượng công việc tích cực cần bỏ ra để hoàn tất nhiệm vụ đó. Những kỹ thuật này giúp bạn ước tính được khoảng thời gian cần thiết để hoàn thành một nhiệm vụ. Một khi bạn đã có được những thông tin đó, bước tiếp theo bạn cần xác định là liệu bạn có đủ số lượng nhân sự phù hợp để hoàn thành công việc hay không.

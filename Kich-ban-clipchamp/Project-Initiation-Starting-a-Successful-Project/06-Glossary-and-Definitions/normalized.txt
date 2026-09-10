@@ -1,0 +1,136 @@
+BẢNG THUẬT NGỮ KHÓA HỌC HAI, THUẬT NGỮ VÀ ĐỊNH NGHĨA QUẢN TRỊ DỰ ÁN, COURSE HAI GLOSSARY, PROJECT MANAGEMENT TERMS AND DEFINITIONS
+. ......
+
+
+BẢNG THUẬT NGỮ KHÓA HỌC HAI, THUẬT NGỮ VÀ ĐỊNH NGHĨA QUẢN TRỊ DỰ ÁN, COURSE HAI GLOSSARY, PROJECT MANAGEMENT TERMS AND DEFINITIONS
+. ......
+
+
+LETTER A, CHỮ CÁI A
+. ......
+Adoption, Sự tiếp nhận, Đề cập đến cách thức khách hàng sử dụng và thích ứng với một sản phẩm hoặc dịch vụ mà không gặp bất kỳ trở ngại nào.
+Asana, Nền tảng quản lý công việc giúp các đội ngũ lập kế hoạch và phối hợp công việc hiệu quả, đặc biệt hữu ích để xây dựng kế hoạch dự án, phân công nhiệm vụ, tự động hóa quy trình làm việc, theo dõi tiến độ và giao tiếp với các bên liên quan.
+
+
+LETTER B, CHỮ CÁI B
+. ......
+Benchmark, Điểm chuẩn đối sánh, Một mốc hoặc điểm tham chiếu chuẩn mực được sử dụng để so sánh và đánh giá.
+Benefits, Lợi ích dự án, Những giá trị hoặc lợi ích kỳ vọng mà một dự án sẽ mang lại.
+Budget, Ngân sách, Bản dự toán tổng số tiền cần chi trả để hoàn thành một dự án.
+Business case, Hồ sơ biện giải kinh doanh, Lý do và căn cứ thực tiễn để khởi xướng một dự án.
+
+
+LETTER C, CHỮ CÁI C
+. ......
+Collaboration tools, Công cụ cộng tác, Các công cụ được sử dụng để trao đổi nhanh chóng và hiệu quả với các thành viên trong nhóm về các câu hỏi, ý kiến đóng góp và những chủ đề khác liên quan đến dự án.
+Conditional formatting, Định dạng có điều kiện, Tính năng tự động đổi màu hoặc gắn mã màu cho các ô trong bảng tính dựa trên những điều kiện cụ thể.
+Cost-benefit analysis, Phân tích Chi phí - Lợi ích, Quy trình tổng hợp toàn bộ giá trị kỳ vọng của một dự án, tức các lợi ích thu được, rồi so sánh chúng với các chi phí tài chính bằng tiền mặt.
+Customers, Khách hàng, Những người sẽ nhận được giá trị cụ thể từ một dự án được triển khai và hoàn thành thành công.
+
+
+LETTER D, CHỮ CÁI D
+. ......
+Data validation, Xác thực dữ liệu, Tính năng tạo danh sách thả xuống trong các ô của bảng tính nhằm chuẩn hóa và kiểm soát dữ liệu nhập vào.
+Deliverable, Kết quả bàn giao, Một kết quả hữu hình từ dự án, chính là sản phẩm được tạo ra hoặc trình bày khi kết thúc một nhiệm vụ, một sự kiện hoặc một quy trình.
+Docs, Ứng dụng soạn thảo và xử lý văn bản kỹ thuật số trực tuyến của Google.
+
+
+LETTER E, CHỮ CÁI E
+. ......
+Engagement, Mức độ gắn kết, Đề cập đến tần suất hoặc mức độ ý nghĩa trong các tương tác và sự tham gia của khách hàng theo thời gian.
+
+
+LETTER F, CHỮ CÁI F
+. ......
+Function, Hàm tính toán, Tính năng khởi tạo các công thức được sử dụng để xử lý dữ liệu và thực hiện các phép tính trong bảng tính.
+
+
+LETTER G, CHỮ CÁI G
+. ......
+Gantt chart, Biểu đồ Gantt, Biểu đồ thanh ngang trực quan hóa các nhiệm vụ của dự án, phân định rõ ràng ai là người chịu trách nhiệm cho từng công việc và thời hạn hoàn thành các nhiệm vụ đó.
+
+
+LETTER H, CHỮ CÁI H
+. ......
+Header, Tiêu đề cột, Ô hoặc các ô trên cùng của một cột trong bảng tính dùng để định danh dữ liệu của cột đó.
+
+
+LETTER I, CHỮ CÁI I
+. ......
+Influence, Mức độ ảnh hưởng, Thước đo quyền lực của một bên liên quan và mức độ tác động từ các hành động của họ đối với kết quả cuối cùng của dự án.
+Initiation, Giai đoạn Khởi tạo, Giai đoạn đầu tiên trong vòng đời dự án, tiếp theo sau là các giai đoạn lập kế hoạch, thực thi và đóng dự án.
+In-scope, Trong phạm vi dự án, Các nhiệm vụ được bao gồm trong kế hoạch dự án và đóng góp trực tiếp vào mục tiêu chung của dự án.
+Intangible benefits, Lợi ích vô hình, Những giá trị thu được không thể đo lường hoặc định lượng bằng con số cụ thể, chẳng hạn như sự hài lòng của khách hàng, tinh thần nhân viên hoặc mức độ nhận diện thương hiệu.
+Intangible costs, Chi phí vô hình, Những tổn thất khó có thể định lượng bằng tiền, chẳng hạn như sự suy giảm nhuệ khí của nhân viên hoặc thiệt hại về uy tín thương hiệu.
+Interest, Mức độ quan tâm, Đề cập đến mức độ mà các nhu cầu và lợi ích của bên liên quan sẽ bị tác động bởi kết quả của dự án.
+
+
+LETTER K, CHỮ CÁI K
+. ......
+Key results, Các kết quả then chốt, Phần thành phần trong mô hình O-K-R mô tả các kết quả có thể đo lường được, giúp xác định một cách khách quan thời điểm mục tiêu đã được hoàn thành.
+Key stakeholders, Các bên liên quan trọng yếu, Những người có mức độ ảnh hưởng và mức độ quan tâm cao nhất đối với một dự án, còn được gọi là những nhân vật chủ chốt.
+
+
+LETTER L, CHỮ CÁI L
+. ......
+Land, Cán đích dự án, Việc đo lường mức độ thành công của một dự án dựa trên các tiêu chí thành công đã được thiết lập ngay từ khi bắt đầu dự án.
+Launch, Phát hành dự án, Việc bàn giao và chuyển giao kết quả cuối cùng của một dự án tới khách hàng hoặc người dùng cuối.
+
+
+LETTER M, CHỮ CÁI M
+. ......
+Materials, Vật tư, nguyên vật liệu, Các hạng mục vật chất cần thiết để hỗ trợ hoàn thành dự án.
+Metrics, Số liệu đo lường, Dữ liệu được sử dụng để lượng hóa một đối tượng hoặc một chỉ số nào đó, chẳng hạn như các con số hoặc số liệu thống kê.
+
+
+LETTER O, CHỮ CÁI O
+. ......
+Objective, Mục tiêu, Phần thành phần trong mô hình O-K-R xác định những gì cần phải đạt được và mô tả kết quả mong muốn hướng tới.
+Objectives and key results, O-K-R - Mục tiêu và Các kết quả then chốt, Sự kết hợp giữa một mục tiêu định tính và một thước đo định lượng để xác định một kết quả có thể đo lường được.
+Out-of-scope, Ngoài phạm vi dự án, Các nhiệm vụ không nằm trong kế hoạch dự án và không đóng góp trực tiếp vào mục tiêu của dự án.
+
+
+LETTER P, CHỮ CÁI P
+. ......
+Pivot table, Bảng tổng hợp động, Một công cụ phân tích cơ bản được sử dụng để tóm tắt dữ liệu và thể hiện mối quan hệ giữa các điểm dữ liệu, giúp việc thấu hiểu thông tin trong bảng tính trở nên dễ dàng hơn.
+Power grid, Lưới quyền lực, Ma trận hai nhân hai được sử dụng để thực hiện phân tích các bên liên quan, thể hiện mức độ quan tâm của bên liên quan đối với dự án so với mức độ ảnh hưởng của họ lên dự án.
+Primary stakeholders, Các bên liên quan trực tiếp, Những người sẽ hưởng lợi trực tiếp từ sự thành công của một dự án.
+Productivity tools, Công cụ nâng cao năng suất, Các công cụ được sử dụng để quản lý các nhiệm vụ của dự án, bao gồm phần mềm soạn thảo văn bản, bảng tính và phần mềm trình chiếu.
+Project charter, Bản điều lệ dự án, Văn bản chính thức định nghĩa rõ ràng các chi tiết cốt lõi và then chốt của một dự án.
+Project goal, Mục tiêu dự án, Kết quả đầu ra mong muốn cần đạt được của một dự án.
+Project manager, Người quản lý dự án, Người chịu trách nhiệm lập kế hoạch, tổ chức và giám sát toàn bộ tiến trình của dự án.
+Project proposal, Đề xuất dự án, Tài liệu được soạn thảo vào thời điểm bắt đầu một dự án, khởi động giai đoạn khởi tạo bằng cách thuyết phục và tác động để doanh nghiệp đồng ý phê duyệt triển khai dự án.
+Project sponsor, Nhà tài trợ dự án, Người chịu trách nhiệm giải trình cao nhất đối với dự án và đảm bảo rằng dự án sẽ mang lại những lợi ích kinh doanh như đã thỏa thuận.
+
+
+LETTER R, CHỮ CÁI R
+. ......
+R-A-C-I chart, Ma trận R-A-C-I, Sơ đồ trực quan giúp phân định vai trò và trách nhiệm cho từng cá nhân hoặc đội ngũ nhằm đảm bảo công việc được thực hiện hiệu quả, phân định rõ ai là người trực tiếp thực hiện nhiệm vụ, Responsible, ai chịu trách nhiệm giải trình, Accountable, ai cần tham vấn ý kiến, Consulted, và ai cần được cập nhật thông tin, Informed.
+Return on investment, R-O-I - Tỷ suất hoàn vốn đầu tư, Chỉ số tài chính được sử dụng để tính toán mức lợi nhuận thu về từ một khoản đầu tư so với chi phí đã bỏ ra.
+Resources, Nguồn lực dự án, Bao gồm ngân sách, nhân sự, nguyên vật liệu và các yếu tố cần thiết khác để vận hành dự án.
+
+
+LETTER S, CHỮ CÁI S
+. ......
+Scheduling and work management software, Phần mềm lập lịch và quản lý công việc, Các công cụ được sử dụng để phân công nhiệm vụ cho nhiều thành viên trong nhóm, đồng thời, theo dõi và trực quan hóa tiến độ công việc, đặc biệt hữu ích cho các dự án quy mô lớn với khối lượng công việc đồ sộ và đội ngũ nhân sự đông đảo.
+Scope, Phạm vi dự án, Ranh giới xác định của một dự án, sự thống nhất chung giữa các bên về những hạng mục nào được bao gồm và những hạng mục nào bị loại trừ khỏi dự án.
+Scope creep, Hiện tượng phình to phạm vi, Những thay đổi, sự phát sinh vượt mức và các yếu tố mất kiểm soát làm ảnh hưởng đến phạm vi của dự án tại bất kỳ thời điểm nào sau khi dự án đã bắt đầu triển khai.
+Scope management, Quản lý phạm vi, Việc thấu hiểu và đàm phán về cách thức các thay đổi sẽ được đánh giá, phê duyệt và thực hiện trong suốt dự án.
+Silo, Tình trạng cô lập thông tin, Tình huống mà kiến thức chuyên môn và trách nhiệm đối với một nhiệm vụ chỉ tập trung vào một cá nhân duy nhất, gây tắc nghẽn và thiếu sự chia sẻ trong tổ chức.
+Secondary stakeholders, Các bên liên quan gián tiếp, Những người chịu ảnh hưởng gián tiếp từ sự thành công hay thất bại của một dự án.
+Slides, Ứng dụng thuyết trình và trình chiếu kỹ thuật số trực tuyến của Google.
+S-M-A-R-T goals, Mục tiêu thông minh S-M-A-R-T, Phương pháp thiết lập và đánh giá mục tiêu, quy định rằng các mục tiêu cần phải cụ thể, Specific, đo lường được, Measurable, khả thi, Attainable, phù hợp thực tế, Relevant, và có thời hạn xác định, Time-bound.
+Spreadsheet, Bảng tính điện tử, Công cụ được sử dụng để tổ chức, chuyển đổi, trực quan hóa và thao tác dữ liệu, hữu ích cho nhiều tác vụ đa dạng như tạo mốc thời gian, vẽ biểu đồ, quản lý ngân sách và theo dõi nhiệm vụ.
+Stakes, Lợi ích rủi ro, Những phần trọng yếu của một doanh nghiệp, một tình huống hoặc một dự án có thể gặp rủi ro tổn thất nếu có sự cố phát sinh.
+Stakeholders, Các bên liên quan, Bất kỳ ai tham gia vào dự án hoặc có lợi ích gắn liền mật thiết với sự thành công của dự án.
+Stakeholder analysis, Phân tích các bên liên quan, Sơ đồ trực quan hóa tất cả các bên liên quan, thể hiện rõ bên nào đang đảm nhận những trách nhiệm cụ thể nào, còn được gọi là lập bản đồ các bên liên quan, stakeholder mapping.
+Stakeholder buy-in, Sự đồng thuận của các bên liên quan, Quá trình thu hút và gắn kết các bên liên quan vào việc ra quyết định nhằm đạt được sự đồng thuận rộng rãi hơn về định hướng tương lai của tổ chức.
+Steering committee, Ban chỉ đạo dự án, Cơ quan ra quyết định cấp cao nhất trong bất kỳ dự án nào, họ nắm giữ quyền hạn phê duyệt các thay đổi về ngân sách, điều chỉnh tiến độ hoặc mở rộng phạm vi dự án.
+Success criteria, Tiêu chí thành công, Các tiêu chuẩn và thước đo chuẩn mực dùng để đánh giá mức độ thành công của một dự án trong việc đạt được các mục tiêu đã đề ra.
+
+
+LETTER T, CHỮ CÁI T
+. ......
+Team members, Thành viên nhóm dự án, Những người trực tiếp thực hiện các công việc hàng ngày và biến kế hoạch dự án thành hiện thực.
+Tools, Công cụ hỗ trợ, Các phương tiện trợ giúp giúp người quản lý dự án hoặc đội ngũ dễ dàng quản lý nguồn lực và tổ chức sắp xếp công việc.
+Triple constraint, Bộ ba ràng buộc cốt lõi, Sự kết hợp của ba ràng buộc quan trọng và mang tính chi phối nhất trong bất kỳ dự án nào, bao gồm, phạm vi, thời gian và chi phí.

@@ -1,0 +1,21 @@
+Task buffer, tức Thời gian đệm cho nhiệm vụ, Khoảng thời gian dự phòng được cộng thêm riêng cho một đầu việc cụ thể.
+
+Time and materials contract, tức Hợp đồng theo thời gian và vật liệu, Hợp đồng được thanh toán định kỳ hằng tháng dựa trên số giờ lao động thực tế cộng với các chi phí phát sinh hợp lý như đi lại và ăn ở.
+
+Time estimation, tức Ước tính thời gian, Dự đoán khoa học về tổng lượng thời gian cần thiết để hoàn thành trọn vẹn một nhiệm vụ.
+
+Time risk, tức Rủi ro thời gian, Khả năng các nhiệm vụ trong dự án sẽ tốn nhiều thời gian hoàn thành hơn so với dự tính ban đầu.
+
+Time-phase a budget, tức Phân bổ ngân sách theo thời gian, Hành động trải đều các khoản mục ngân sách dọc theo dòng thời gian thực tế của dự án.
+
+Total cost of ownership, viết tắt là T-C-O, tức Tổng chi phí sở hữu, Toàn bộ chi phí của một dự án hoặc tài sản, tính từ giai đoạn khởi tạo, mua sắm, vận hành cho đến khi thanh lý kết thúc.
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ V
+. ......
+
+Vendors, tức Các nhà cung cấp, Các cá nhân hoặc doanh nghiệp bên ngoài cung cấp hàng hóa, nguyên vật liệu và dịch vụ cho dự án.
+
+CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ W
+. ......
+
+Work breakdown structure, viết tắt là W-B-S, tức Cấu trúc phân rã công việc, Công cụ quản trị cốt lõi giúp phân cấp và chia nhỏ toàn bộ các cột mốc và nhiệm vụ của dự án theo một hệ thống thứ bậc rõ ràng, theo đúng trình tự cần hoàn thành.

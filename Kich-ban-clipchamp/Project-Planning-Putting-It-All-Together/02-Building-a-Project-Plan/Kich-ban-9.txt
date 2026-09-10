@@ -1,0 +1,12 @@
+Bạn cũng cần xác định xem nhiệm vụ nào có Ngày Bắt đầu Cố định, Fixed Start Date, tức là ngày bắt buộc phải khởi động để kịp tiến độ. Xác định điều này giúp bảo đảm bạn sẽ có đủ người sẵn sàng đúng lúc. Ví dụ, nếu hợp đồng ghi rõ giao một trăm cây cảnh vào một ngày cụ thể, thì việc đi lấy cây có ngày bắt đầu cố định là một ngày trước đó. Ngược lại, một số nhiệm vụ có Ngày Bắt đầu Sớm nhất, Earliest Start Date, thời điểm sớm nhất có thể bắt đầu sau khi các điều kiện tiên quyết như hợp đồng hay đơn đặt hàng đã hoàn tất.
+
+Một kinh nghiệm thực tiễn quan trọng khác trong hoạch định năng lực và xây dựng đường găng là xác định xem nhiệm vụ có Thời gian Dự trữ, Float, hay còn gọi là Slack, hay không. Thời gian dự trữ đề cập đến khoảng thời gian bạn có thể trì hoãn bắt đầu một nhiệm vụ mà không làm ảnh hưởng đến tiến độ chung của toàn bộ dự án. Các nhiệm vụ nằm trên đường găng bắt buộc phải có thời gian dự trữ bằng không, Zero Float, nghĩa là không có chỗ cho bất kỳ sự chậm trễ nào, trong khi các nhiệm vụ có thời gian dự trữ thì không thuộc về đường găng.
+
+Nắm vững khái niệm về năng lực, hoạch định năng lực và đường găng sẽ giúp bạn kiểm soát tiến độ một cách bậc thầy. Trong bài học tiếp theo, chúng ta sẽ tiếp tục tìm hiểu cách đưa ra các ước tính khả thi trong kế hoạch dự án và cách các kỹ năng mềm giúp nâng cao hiệu quả làm việc của đội ngũ. Hẹn gặp lại bạn!
+
+THU THẬP ƯỚC TÍNH THỜI GIAN CHUẨN XÁC TỪ ĐỘI NGŨ, GETTING ACCURATE TIME ESTIMATES FROM YOUR TEAM
+. ......
+
+Chào bạn đã quay trở lại! Bạn đã sẵn sàng tiếp tục chưa? Ước tính thời gian, ước tính nỗ lực và hoạch định năng lực đều là những kỹ thuật đắc lực để xây dựng tiến độ dự án. Nhưng nằm ở trung tâm của tất cả các hoạt động lập kế hoạch này chính là Đội ngũ của bạn. Xuyên suốt quy trình lập tiến độ, bạn sẽ làm việc trực tiếp với các cộng sự để thu thập các ước tính, và bạn luôn phải cân nhắc năng lực của từng người khi xây dựng bản kế hoạch.
+
+Việc thu hút các cộng sự tham gia vào giai đoạn này là hoàn toàn hợp lý. Xét cho cùng, người được giao phó một nhiệm vụ cụ thể chính là người hiểu rõ nhất nhiệm vụ đó sẽ mất bao lâu để hoàn thành, cũng như nắm rõ nhất năng lực thực tế của bản thân để gánh vác công việc. Tuy nhiên, những cuộc trao đổi này luôn là một cuộc thảo luận hai chiều, và bạn sẽ cần phải vận dụng tối đa các Kỹ năng Mềm, Soft Skills, của mình để có được những ước tính chuẩn xác nhất từ đội ngũ.

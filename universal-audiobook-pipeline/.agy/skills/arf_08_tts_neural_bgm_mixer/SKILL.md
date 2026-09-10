@@ -65,10 +65,43 @@ Hệ thống hoạt động theo nguyên lý **4 Tầng Phân Tích Linh Hoạt 
 3. **Thời gian chờ streaming động (Dynamic Streaming Timeout):**
    - Thiết lập thời gian timeout linh hoạt `max(60.0, len(text) * 0.08 + 30.0)` giây, xóa bỏ hoàn toàn hiện tượng timeout giả khi tổng hợp các đoạn văn tiếng Việt dài trên 1.000 ký tự.
 
+### Tầng 5: Cơ Chế Phân Luồng Ngắt Nghỉ Điểm Nhấn vs. Đọc Liền Mạch Ngữ Pháp (Dynamic Contextual Prosody)
+
+Hệ thống điều phối nhịp điệu thính giác dựa trên sự phân loại thông minh của AI:
+
+1. **Trường Hợp 1: Ngắt Nghỉ Điểm Nhấn Thính Giác (Contextual Anchoring & Emphasis Pause):**
+   - **Dấu hiệu nhận biết:** Khi thuật ngữ/từ tiếng nước ngoài đứng ngay sau phần tiếng Việt giải thích, danh xưng tiếng Việt tương đương, hoặc sau các tiêu đề/đề mục lớn.
+   - **Kỹ thuật phát thanh:** Bắt buộc có dấu phẩy `, ` để tạo một nhịp dừng vi mô (micro-pause 200ms - 250ms). Nhịp nghỉ này giúp tai người nghe kịp tiếp nhận ý niệm bằng tiếng Việt trước, sau đó đón nhận phát âm chuẩn quốc tế từ giọng Brian để ghi nhớ sâu sắc.
+   - **Ví dụ chuẩn:**
+     - `"TRỞ THÀNH MỘT NGƯỜI QUẢN LÝ DỰ ÁN HIỆU QUẢ, BECOMING AN EFFECTIVE PROJECT MANAGER"`
+     - `"TRỞ THÀNH MỘT NGƯỜI QUẢN LÝ DỰ ÁN HIỆU QUẢ, INTRODUCTION, BECOMING AN EFFECTIVE PROJECT MANAGER"`
+     - `"Người quản lý dự án, Project Manager"`
+     - `"Các bên liên quan, Stakeholder"`
+   - **Cơ chế âm thanh:** Giữ nguyên dấu phẩy `, `, gọt đuôi âm nhẹ nhàng `-50dB`, đệm khoảng nghỉ chuẩn phát thanh 220ms (`apad=pad_dur=0.22`), tạo nhịp thở tự nhiên.
+
+2. **Trường Hợp 2: Đọc Liền Mạch Ngữ Pháp Tự Nhiên (Seamless Grammatical Continuity & Soft Voice Handoff):**
+   - **Dấu hiệu nhận biết:** Khi tiếng nước ngoài, tên riêng, thuật ngữ, từ viết tắt đóng vai trò là một thành phần ngữ pháp (chủ ngữ, vị ngữ, bổ ngữ, cụm giới từ) nằm trong dòng chảy liên tục của câu văn.
+   - **Kỹ thuật phát thanh:** Đọc và ghép âm **liền mạch 100%, mềm mại, không ngắt quãng hay gây giật cục**.
+   - **Ví dụ chuẩn:**
+     - `"các Project Manager thường tuân thủ một quy trình chặt chẽ"` ("các" nối êm ái sang "Project Manager")
+     - `"Tên tôi là Rachel"` ("Tên tôi là" nối mượt sang "Rachel")
+     - `"tại văn phòng Google New York"` ("tại văn phòng" nối sang "Google New York")
+     - `"Google đã tuyển dụng tôi"` ("Google" nối mượt sang "đã tuyển dụng tôi")
+     - `"quen biết ở khu Lower East Side"`
+     - `"Một quán bar nhỏ"` ("Một quán" nối mềm mại sang "bar", rồi sang "nhỏ")
+    - **Cơ chế âm thanh mềm mại (Studio Smooth Coarticulation):**
+      - Tuyệt đối **KHÔNG cưỡng ép chèn dấu chấm kết câu giả (`.`)** vào các phân đoạn tiếp diễn câu; giữ nguyên ngữ điệu bằng phẳng/tiếp diễn tự nhiên (continuation pitch).
+      - **Bảo toàn 100% đuôi âm tiếng Việt:** Nới rộng ngưỡng lọc xuống **`-50dB`** (`start_threshold=-50dB`), giữ trọn vẹn toàn bộ độ ngân tàn tự nhiên (acoustic decay tail) của các âm tiết tiếng Việt cuối, tuyệt đối không bị cắt hụt âm.
+      - **Vùng đệm chuyển giao tự nhiên 80ms (Coarticulation Cushion):** Bổ sung đúng **`80ms`** (`apad=pad_dur=0.08`) giữa tiếng Việt và tiếng Anh trong cùng câu. Đây chính là khoảng thời gian sinh học tự nhiên khi người thật khép mở khẩu hình để chuyển đổi giữa hai ngôn ngữ, giúp hai giọng đọc giao thoa **mượt mà êm ái, xóa bỏ triệt để hiện tượng giật cục**.
+      - Bộ lọc FFmpeg hoàn chỉnh: `areverse,silenceremove=start_periods=1:start_duration=0.05:start_threshold=-50dB,areverse,apad=pad_dur=0.08`.
+
+3. **Nguyên Tắc Bất Biến Về Phân Phối Giọng Đọc (Strict Dual-Voice Invariance):**
+   - Dù ở Trường hợp 1 hay Trường hợp 2: **100% nội dung tiếng Việt luôn do giọng Việt (`vi-VN-NamMinhNeural` / `vi-VN-HoaiMyNeural`) đọc**, và **100% ngoại ngữ, tên riêng, từ viết tắt luôn do giọng quốc tế (`en-US-BrianMultilingualNeural` / `en-US-EmmaMultilingual`) đọc**.
+   - Phân đoạn và nhãn nhịp điệu (`pause_type: "emphasis"` vs `"seamless"`) phải do AI phân tích cú pháp và cảm thụ ngữ cảnh trực tiếp xác định, cấm dùng script thay thế mù quáng.
 
 ---
 
-## 2. Ma Trận Ghép Cặp Giọng Đọc Đồng Nhất Giới Tính (Gender Consistency Matrix)
+## 2. Ma Trận Ghép Cặp Giọng Đọc & Thang Tốc Độ Linh Hoạt (Adaptive Gender & Prosody Matrix)
 
 Để đảm bảo người nghe có cảm giác chỉ có **MỘT người diễn giả thông thái duy nhất** đang thuyết minh:
 
@@ -87,15 +120,27 @@ Hệ thống hoạt động theo nguyên lý **4 Tầng Phân Tích Linh Hoạt 
    ▼                           ▼                                 ▼                           ▼
 Tiếng Anh/Khoa học:         Các ngoại ngữ khác:               Tiếng Anh/Khoa học:         Các ngoại ngữ khác:
 en-US-BrianMultilingual     Pháp: fr-FR-HenriNeural           en-US-EmmaMultilingual      Pháp: fr-FR-DeniseNeural
-(Rate: -5%)                 Đức:  de-DE-ConradNeural          (Rate: -5%)                 Đức:  de-DE-KatjaNeural
-                            TBN:  es-ES-AlvaroNeural                                      TBN:  es-ES-ElviraNeural
-                            Nhật: ja-JP-KeitaNeural                                       Nhật: ja-JP-NanamiNeural
-                            Trung: zh-CN-YunxiNeural                                      Trung: zh-CN-XiaoxiaoNeural
+(Thang tốc độ linh hoạt     Đức:  de-DE-ConradNeural          (Thang tốc độ linh hoạt     Đức:  de-DE-KatjaNeural
+ theo độ dài phân đoạn):     TBN:  es-ES-AlvaroNeural          theo độ dài phân đoạn):     TBN:  es-ES-ElviraNeural
+ • 1 từ / Viết tắt: -18%    Nhật: ja-JP-KeitaNeural            • 1 từ / Viết tắt: -18%    Nhật: ja-JP-NanamiNeural
+ • 2 - 3 từ:        -15%    Trung: zh-CN-YunxiNeural           • 2 - 3 từ:        -15%    Trung: zh-CN-XiaoxiaoNeural
+ • >= 4 từ:         -12%                                       • >= 4 từ:         -12%
                  │                                                             │
    Parametric EQ Harmonization (Nam):                            Parametric EQ Harmonization (Nữ):
    - Nâng dải trầm ấm: +2.5dB tại 300Hz                          - Nâng dải ấm: +2.0dB tại 300Hz
    - Giảm chói gắt: -2.0dB tại 4000Hz                            - Làm dịu sibilance: -2.0dB tại 4500Hz
 ```
+
+### 🎯 Quy Tắc Thang Tốc Độ Linh Hoạt Theo Độ Dài (Dynamic Length-Adaptive Speed Ladder):
+- **Cực ngắn / Đơn từ / Viết tắt (1 từ hoặc ký tự nối: `P-M-I`, `W-B-S`, `A-I`, `bar`, `role`, `scope`...):**
+  - **Tốc độ:** **`-18%`**.
+  - **Mục đích:** Từng âm tiết, chữ cái và nguyên âm ngắn có đủ độ ngân tròn vành rõ chữ, ngăn chặn 100% hiện tượng nuốt âm hoặc lướt qua quá nhanh.
+- **Cụm từ vừa (2 – 3 từ: `Project Manager`, `Sprint Backlog`, `Google New York`...):**
+  - **Tốc độ:** **`-15%`**.
+  - **Mục đích:** Nhịp điệu đĩnh đạc, cân bằng, chuyển ngữ tự nhiên và thanh thoát.
+- **Đoạn dài / Tiêu đề nhiều từ ($\ge 4$ từ: `BECOMING AN EFFECTIVE PROJECT MANAGER`...):**
+  - **Tốc độ:** **`-12%`**.
+  - **Mục đích:** Mạch lạc, năng động, giữ vững dòng chảy hứng khởi, không gây ì ạch hay buồn ngủ.
 
 > [!IMPORTANT]
 > **QUY TẮC BẢO TOÀN GIỚI TÍNH BẤT BIẾN (GENDER INVARIANCE RULE):**
@@ -107,10 +152,11 @@ en-US-BrianMultilingual     Pháp: fr-FR-HenriNeural           en-US-EmmaMultili
 ## 3. Quy Chuẩn Phòng Thu Đã Kiểm Nghiệm (Studio Best Practices)
 
 Toàn bộ các best practices nền tảng tiếp tục được bảo toàn nghiêm ngặt:
-1. **Khử Sạch Silence Padding (Zero Dead Gap):**
-   - Quét và cắt triệt để khoảng lặng nhân tạo ở đầu và đuôi mỗi phân đoạn audio bằng bộ lọc `silenceremove` (ngưỡng `-42dB`), xóa bỏ hoàn toàn khoảng ngắt chết gây khựng tiếng.
-2. **Nhịp Thở Đàm Thoại Tự Nhiên (Natural Cadence Buffer 40ms):**
-   - Đệm một khoảng chuyển khẩu hình siêu nhỏ 40 mili-giây (`apad=pad_dur=0.04`) giữa tiếng Việt và ngoại ngữ, tái hiện chính xác nhịp chuyển giọng tự nhiên của người thật.
+1. **Khử Silence An Toàn & Bảo Toàn Đuôi Âm (-50dB):**
+   - Quét và cắt khoảng lặng bằng bộ lọc `silenceremove` với ngưỡng `-50dB`, bảo toàn 100% độ ngân tự nhiên của âm cuối tiếng Việt trước khi chuyển ngữ.
+2. **Vùng Đệm Chuyển Giao Mềm Mại (Coarticulation Cushion 80ms & Micro-Pause 220ms):**
+   - Đệm `80ms` (`apad=pad_dur=0.08`) cho các đoạn đọc liền mạch trong câu để chuyển giao êm như lụa.
+   - Đệm `220ms` (`apad=pad_dur=0.22`) cho các đoạn có dấu phẩy hoặc tiêu đề nhấn mạnh.
 3. **Chuẩn Hóa Âm Lượng EBU R128 (-16 LUFS):**
    - Áp dụng bộ lọc `loudnorm=I=-16:TP=-1.5:LRA=11` để bảo đảm năng lượng âm thanh giữa các phân đoạn đồng nhất tuyệt đối, không có hiện tượng chênh lệch âm lượng.
 4. **Bộ Đệm Chống Nghẽn & Bộ Nhớ Đệm Phân Đoạn (Part-Level Caching & Auto-Backoff):**

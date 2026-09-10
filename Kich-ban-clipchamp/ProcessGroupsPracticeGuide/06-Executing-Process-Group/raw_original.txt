@@ -1,0 +1,961 @@
+Executing Process Group
+The processes in the Executing Process Group are shown in Table 6-1.
+Table 6-1. Executing Process Group Processes
+Executing Processes
+6.1 Direct and Manage Project Work 6.6 Manage Team
+6.2 Manage Project Knowledge 6.7 Manage Communications
+6.3 Manage Quality 6.8 Implement Risk Responses
+6.4 Acquire Resources 6.9 Conduct Procurements
+6.5 Develop Team 6.10 Manage Stakeholder Engagement
+The Executing Process Group consists of those processes performed to complete the
+work defined in the project management plan to satisfy the project requirements. This Process
+Group involves coordinating resources, managing stakeholder engagement, and integrating and
+performing the activities of the project in accordance with the project management plan. The
+key benefit of this Process Group is that the work needed to meet the project requirements and
+objectives is performed according to plan. A large portion of the project budget, resources, and time
+is expended in performing the Executing Process Group processes. The processes in the Executing
+Process Group may generate change requests. If approved, the change requests may trigger one
+or more Planning processes that result in a modified management plan, project documents, and
+possibly new baselines. The Executing Process Group includes the project management processes
+identified in Sections 6.1 through 6.10.
+6.1 DIRECT AND MANAGE PROJECT WORK
+Direct and Manage Project Work is the process of leading and performing the work defined
+in the project management plan and implementing approved changes to achieve the project’s
+objectives. The key benefit of this process is that it provides overall management of the project work
+and deliverables, thus improving the probability of project success.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 6-1. Figure 6-2 presents the data flow diagram for this process.
+Direct and Manage Project Work
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Deliverables
+• Any component 2. Project management 2. Work performance data
+2. Project documents information system 3. Issue log
+• Change log 3. Meetings 4. Change requests
+• Lessons learned register 5. Project management plan
+• Milestone list updates
+• Project communications • Any component
+• Project schedule 6. Project documents updates
+• Requirements traceability • Activity list
+matrix • Assumption log
+• Risk register • Lessons learned register
+• Risk report • Requirements
+3. Approved change requests documentation
+4. Enterprise environmental • Risk register
+factors • Stakeholder register
+5. Organizational process assets 7. Organizational process assets
+updates
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 6-1. Direct and Manage Project Work: Inputs, Tools & Techniques, and Outputs
+Project
+6.2
+Management
+Manage Project
+Plan
+• Deliverables Knowledge
+Project management plan
+• Any component 7.2
+Perform
+Integrated
+• Change requests Change Control
+• Deliverables
+7.7
+Control
+• Deliverables Quality
+Project
+Management
+Plan
+Project management plan updates
+• Any component
+6.1
+Project Direct and
+Documents Manage
+• Issue log
+Project Work
+Project documents
+• Change log • Work performance data Project
+• Lessons learned register Documents
+• Milestone list Project documents updates
+• Project communications • Activity list
+• Project schedule • Assumption log
+• Requirements traceability • Lessons learned register
+matrix • Requirements documentation
+• Risk register • Risk register
+• Risk report • Stakeholder register
+7.3 7.4
+Enterprise/
+Validate Control
+Organization
+7.2 Scope Scope • Organizational process
+Perform assets updates
+Integrated
+Change Control
+• Approved change requests
+7.5 7.6 7.7 7.8
+Control Control Control Control
+Schedule Costs Quality Resources
+Enterprise/
+Organization
+7.12
+7.9 7.10 7.11
+Monitor
+Monitor Monitor Control
+• Enterprise environmental factors Communications Risks Procurements Stakeholder
+• Organizational process assets Engagement
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 6-2. Direct and Manage Project Work: Data Flow Diagram
+Direct and Manage Project Work involves executing the planned project activities to complete
+project deliverables and accomplish established objectives. Available resources are allocated, their
+efficient use is managed, and changes in project plans stemming from analyzing work performance
+data and information are carried out. The Direct and Manage Project Work process is directly affected
+by the project application area. Deliverables are produced as outputs from processes performed to
+accomplish the project work as planned and scheduled in the project management plan.
+The project manager, along with the project management team, directs the performance of
+the planned project activities and manages the various technical and organizational interfaces that
+exist in the project. Direct and Manage Project Work also requires review of the impact of all project
+changes and the implementation of approved changes: corrective action, preventive action, and/or
+defect repair.
+During project execution, the work performance data are collected and communicated to the
+applicable controlling processes for analysis. Work performance data analysis provides information
+about the completion status of deliverables and other relevant details about project performance.
+The work performance data will also be used as an input to the Monitoring and Controlling Process
+Group. Work performance data can also be used as feedback into lessons learned to improve the
+performance of future work packages.
+6.2 MANAGE PROJECT KNOWLEDGE
+Manage Project Knowledge is the process of using existing knowledge and creating new
+knowledge to achieve the project’s objectives and contribute to organizational learning. The key
+benefits of this process are that prior organizational knowledge is leveraged to produce or improve
+the project outcomes, and knowledge created by the project is available to support organizational
+operations and future projects or phases.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 6-3. Figure 6-4 presents the data flow diagram for this process.
+Manage Project Knowledge
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Lessons learned register
+• All components 2. Knowledge management 2. Project management plan
+2. Project documents 3. Information management updates
+• Lessons learned register 4. Interpersonal and team skills • Any component
+• Project team assignments • Active listening 3. Organizational process assets
+• Resource breakdown • Facilitation updates
+structure • Leadership
+• Stakeholder register • Networking
+3. Deliverables • Political awareness
+4. Enterprise environmental
+factors
+5. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 6-3. Manage Project Knowledge: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management
+plan updates
+• Any component
+Project
+Management
+Plan
+Project
+Project management plan Documents
+• All components • Lessons learned
+register
+6.2
+Project Manage Enterprise/
+Documents Project Organization
+Knowle • d P g ro e ject • Organizational process
+charter assets updates
+Project documents
+• Lessons learned register
+• Project team assignments
+• Resource breakdown structure
+• Stakeholder register
+Create an Atmosphere of Trust
+6.1
+Direct and
+From an organizational perspective, knowledge management is about making sure the skills,
+Manage
+Project Work experience, and expertise of the project team and other stakeholders are used before, during, and
+after the project. Because knowledge resides in the minds of people and people cannot be forced
+• Deliverables
+to share what they know (or to pay attention to others’ knowledge), the most important part of
+Enterprise/ knowledge management is creating an atmosphere of trust so that people are motivated to share
+Organization
+their knowledge. Even the best knowledge management tools and techniques will not work if
+people are not motivated to share what they know or to pay attention to what others know. In
+• Enterprise environmental factors
+• Organizational process assets
+practice, knowledge is shared using a mixture of knowledge management tools and techniques
+(interactions between people) and information management tools and techniques (in which
+Note: This figure provides the inputs and outputs that may be used for this process. people codify part of their explicit knowledge by documenting it so it can be shared).
+Descriptions for inputs and outputs appear in Section 9.
+Figure 6-4. Manage Project Knowledge: Data Flow Diagram
+Knowledge is commonly split into “explicit” (knowledge that can be readily codified using
+words, pictures, and numbers) and “tacit” (knowledge that is personal and difficult to express,
+such as beliefs, insights, experience, and “know-how”). Knowledge management is concerned with
+managing both tacit and explicit knowledge for two purposes: reusing existing knowledge and
+creating new knowledge. The key activities that underpin both purposes are knowledge sharing and
+knowledge integration (of knowledge from different domains, contextual knowledge, and project
+management knowledge).
+It is a common misconception that managing knowledge involves just documenting it so it
+can be shared. Another common misconception is that managing knowledge involves just obtaining
+lessons learned at the end of the project in order to use it in the future projects. Only codified
+explicit knowledge can be shared in this way. But codified explicit knowledge lacks context and is
+open to different interpretations, so even though it can easily be shared, it isn’t always understood or
+applied in the right way. Tacit knowledge has context built in but is very difficult to codify. It resides
+in the minds of individual experts or in social groups and situations, and is normally shared through
+conversations and interactions between people.
+Create an Atmosphere of Trust
+From an organizational perspective, knowledge management is about making sure the skills,
+experience, and expertise of the project team and other stakeholders are used before, during, and
+after the project. Because knowledge resides in the minds of people and people cannot be forced
+to share what they know (or to pay attention to others’ knowledge), the most important part of
+knowledge management is creating an atmosphere of trust so that people are motivated to share
+their knowledge. Even the best knowledge management tools and techniques will not work if
+people are not motivated to share what they know or to pay attention to what others know. In
+practice, knowledge is shared using a mixture of knowledge management tools and techniques
+(interactions between people) and information management tools and techniques (in which
+people codify part of their explicit knowledge by documenting it so it can be shared).
+6.3 MANAGE QUALITY
+Manage Quality is the process of translating the quality management plan into executable quality
+activities that incorporate the organization’s quality policies into the project. The key benefits of this
+process are that it increases the probability of meeting the quality objectives as well as identifying
+ineffective processes and causes of poor quality. Manage Quality uses the data and results from the
+Control Quality process to reflect the overall quality status of the project to the stakeholders.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 6-5. Figure 6-6 presents the data flow diagram for this process.
+Manage Quality
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Data gathering 1. Quality reports
+• Quality management plan • Checklists 2. Test and evaluation
+2. Project documents 2. Data analysis documents
+• Lessons learned register • Alternatives analysis 3. Change requests
+• Quality control • Document analysis 4. Project management plan
+measurements • Process analysis updates
+• Quality metrics • Root cause analysis • Quality management plan
+• Risk report 3. Decision making • Scope baseline
+3. Organizational process assets • Multicriteria decision • Schedule baseline
+analysis • Cost baseline
+4. Data representation 5. Project documents updates
+• Affinity diagrams • Issue log
+• Cause-and-effect diagrams • Lessons learned register
+• Flowcharts • Risk register
+• Histograms
+• Matrix diagrams
+• Scatter diagrams
+5. Audits
+6. Design for X
+7. Problem solving
+8. Quality improvement methods
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 6-5. Manage Quality: Inputs, Tools & Techniques, and Outputs
+7.2
+Perform
+Integrated
+• Change requests
+Change Control
+Project
+Management Project
+Plan Management
+Project management plan updates Plan
+• Quality management plan
+• Scope baseline
+Project management plan • Schedule baseline
+• Quality management plan • Cost baseline
+6.3
+Project Manage Project
+Documents Quali • t P y c ro h j a e r c t t er • Quality reports Documents
+• Test and evaluation
+documents
+Project documents
+• Lessons learned register
+• Quality control measurements
+• Quality metrics Project documents updates
+• Risk report • Issue log
+• Lessons learned register
+• Risk register
+Enterprise/
+Organization
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 6-6. Manage Quality: Data Flow Diagram
+Manage Quality is sometimes called quality assurance, although Manage Quality has a
+broader definition than quality assurance as it is used in non-project work. In project management,
+the focus of quality assurance is on the processes used in the project. Quality assurance is
+about using project processes effectively. It involves following and meeting standards to assure
+stakeholders that the final product will meet their needs, expectations, and requirements. Manage
+Quality includes all the quality assurance activities and is also concerned with the product design
+aspects and process improvements. Manage Quality work will fall under the conformance work
+category in the cost of quality framework.
+The Manage Quality process implements a set of planned
+In agile projects, and systematic acts and processes defined within the project’s
+quality management quality management plan that helps to:
+is performed by all
+▶ Design an optimal and mature product by implementing specific
+team members throughout the
+design guidelines that address specific aspects of the product,
+project. In traditional projects,
+▶ Build confidence that a future output will be completed in a manner
+quality management is often
+that meets the specified requirements and expectations through
+the responsibility of specific
+quality assurance tools and techniques such as quality audits and
+team members.
+failure analysis,
+▶ Confirm that the quality processes are used and that their use
+meets the quality objectives of the project, and
+▶ Improve the efficiency and effectiveness of processes and
+activities to achieve better results and performance and enhance
+stakeholders’ satisfaction.
+The project manager and project team may use the organization’s quality assurance department, or
+other organizational functions, to execute some of the Manage Quality activities such as failure analysis, design
+of experiments, and quality improvement. Quality assurance departments usually have cross-organizational
+experience in using quality tools and techniques and are a good resource for the project.
+Manage Quality is Considered the Work of Everybody
+The project manager, the project team, the project sponsor, the management of the performing
+organization, and even the customer are all involved in this process. These roles have
+responsibilities for managing quality in the project, though the roles differ in size and effort.
+The level of participation in the quality management effort may differ between industries and
+project management styles.
+6.4 ACQUIRE RESOURCES
+Acquire Resources is the process of obtaining team members, facilities, equipment, materials,
+supplies, and other resources necessary to complete project work. The key benefit of this process is
+that it outlines and guides the selection of resources and assigns them to their respective activities.
+This process is performed periodically throughout the project as needed. The inputs, tools and
+techniques, and outputs are shown in Figure 6-7. Figure 6-8 presents the data flow diagram for this
+process.
+Acquire Resources
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Decision making 1. Physical resource
+• Resource management plan • Multicriteria decision assignments
+• Procurement management analysis 2. Project team assignments
+plan 2. Interpersonal and team skills 3. Resource calendars
+• Cost baseline • Negotiation 4. Change requests
+2. Project documents 3. Pre-assignment 5. Project management plan
+• Project schedule 4. Virtual teams updates
+• Resource calendars • Resource management plan
+• Resource requirements • Cost baseline
+• Stakeholder register 6. Project documents updates
+3. Enterprise environmental • Lessons learned register
+factors • Project schedule
+4. Organizational process assets • Resource breakdown
+structure
+• Resource requirements
+• Risk register
+Manage Quality is Considered the Work of Everybody
+• Stakeholder register
+7. Enterprise environmental
+The project manager, the project team, the project sponsor, the management of the performing factors updates
+organization, and even the customer are all involved in this process. These roles have 8. Organizational process assets
+updates
+responsibilities for managing quality in the project, though the roles differ in size and effort.
+The level of participation in the quality management effort may differ between industries and
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+project management styles.
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 6-7. Acquire Resources: Inputs, Tools & Techniques, and Outputs
+7.2
+Project
+Perform
+Management
+Integrated
+Plan
+• Change requests Change Control
+Project management plan
+• Resource management plan
+• Procurement management plan Project
+• Cost baseline Management
+Plan
+Project management plan updates
+6.4
+Do P c r u o m je e c n t ts R A es c o q u u r • i c r P e e ro s ject • • R C e o s s o t u b r a c s e e m lin a e nagement plan
+charter
+Project documents • Physical resource assignments
+• Project schedule • Project team assignments Project
+• Resource calendars • Resource calendars Documents
+• Resource requirements
+• Stakeholder register
+Project documents updates
+• Lessons learned register
+• Project schedule
+• Resource breakdown structure
+• Resource requirements
+• Risk register
+• Stakeholder register
+Enterprise/ Enterprise/
+Organization Organization
+• Enterprise environmental factors updates
+• Organizational process assets updates
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 6-8. Acquire Resources: Data Flow Diagram
+The resources needed for a project can be internal or external to the project-performing
+organization. Internal resources are acquired (assigned) from functional or resource managers.
+External resources are acquired through the procurement processes.
+The project management team may or may not have direct control over resource selection
+because of collective bargaining agreements, use of subcontractor personnel, a matrix project
+environment, internal or external reporting relationships, or other reasons. It is important that the
+following factors are considered during the process of acquiring the project resources:
+▶ The project manager or project team should effectively negotiate and influence others
+who are in a position to provide the required team and physical resources for the project.
+▶ Failure to acquire the necessary resources for the project may affect project schedules,
+budgets, customer satisfaction, quality, and risks. Insufficient resources or capabilities
+decrease the probability of success and, in a worst-case scenario, could result in project
+cancellation.
+▶ If the team resources are not available due to constraints such as economic factors or
+assignment to other projects, the project manager or project team may be required to
+assign alternative resources, perhaps with different competencies or costs. Alternative
+resources are allowed provided there is no violation of legal, regulatory, mandatory,
+or other specific criteria.
+These factors should be considered and accounted for in the planning stages of the project.
+The project manager or project management team will be required to document the impact of the
+unavailability of required resources in the project schedule, project budget, project risks, project
+quality, training plans, and other project management plans.
+6.5 DEVELOP TEAM
+Develop Team is the process of improving competencies, team member interaction, and
+the overall team environment to enhance project performance. The key benefit of this process is
+that it results in improved teamwork, enhanced interpersonal skills and competencies, motivated
+employees, reduced attrition, and improved overall project performance.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 6-9. Figure 6-10 presents the data flow diagram for this process.
+Develop Team
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Colocation 1. Team performance
+• Resource management plan 2. Virtual teams assessments
+2. Project documents 3. Communication technology 2. Change requests
+• Lessons learned register 4. Conflict management 3. Project management plan
+• Project schedule • Influencing updates
+• Project team assignments • Motivation • Resource management plan
+• Resource calendars • Negotiation 4. Project documents updates
+• Team charter • Team building • Lessons learned register
+3. Enterprise environmental 5. Recognition and rewards • Project schedule
+factors 6. Training • Project team assignments
+4. Organizational process assets 7. Individual and team • Resource calendars
+assessments • Team charter
+8. Meetings 5. Enterprise environmental
+factors updates
+6. Organizational process assets
+updates
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 6-9. Develop Team: Inputs, Tools & Techniques, and Outputs
+6.6
+Manage
+• Team performance assessments Team
+7.2
+Project
+Perform
+Management
+Integrated
+Plan • Change requests Change Control
+Project management plan
+• Resource management plan
+Project
+Management
+Plan
+6.5 Project management plan updates
+Do P c r u o m je e c n t ts D T e e v a e m l • o P p roject • Resource management plan
+charter
+Project documents
+• Lessons learned register Project
+• Project schedule Documents
+• Project team assignments
+• Resource calendars
+• Team charter Project documents updates
+• Lessons learned register
+• Project schedule
+• Project team assignments
+• Resource calendars
+• Team charter
+Enterprise/ Enterprise/
+Organization Organization
+• Enterprise environmental factors updates
+• Organizational process assets updates
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 6-10. Develop Team: Data Flow Diagram
+Project managers require the skills to identify, build, maintain, motivate, lead, and inspire
+project teams to achieve high team performance and meet the project’s objectives. Teamwork is a
+critical factor for project success. Developing effective project teams is one of the project manager’s
+primary responsibilities.
+High-Performing Teams
+Project managers should create an environment that facilitates teamwork and continually
+motivates the team by providing challenges and opportunities, providing timely feedback and
+support as needed, and recognizing and rewarding good performance. High team performance
+can be achieved by employing these behaviors:
+▶ Use open and effective communication.
+▶ Create team-building opportunities.
+▶ Develop trust among team members.
+▶ Manage conflicts in a constructive manner.
+▶ Encourage collaborative problem solving.
+▶ Encourage collaborative decision making.
+Project managers operate in a global environment and work on projects characterized by cultural
+diversity. Team members often have diverse industry experience, communicate in multiple languages,
+and sometimes work with a “team language” or cultural norm that may be different from their native
+one. The project management team should capitalize on cultural differences, focus on developing
+and sustaining the project team throughout the project life cycle, and promote working together
+interdependently in a climate of mutual trust. Developing the project team improves the people skills,
+technical competencies, and overall team environment and project performance. It requires clear,
+timely, effective, and efficient communication between team members throughout the life of the
+project. Objectives of developing a project team include but are not limited to:
+▶ Improve the knowledge and skills of team members to increase their ability to complete
+project deliverables, while lowering costs, reducing schedules, and improving quality.
+▶ Improve feelings of trust and agreement among team members to raise morale, lower
+conflict, and increase teamwork.
+▶ Create a dynamic, cohesive, and collaborative team culture to: (1) improve individual and
+team productivity, team spirit, and cooperation; and (2) allow cross-training and mentoring
+High-Performing Teams
+between team members to share knowledge and expertise.
+Project managers should create an environment that facilitates teamwork and continually
+▶ Empower the team to participate in decision making and take ownership of the provided
+motivates the team by providing challenges and opportunities, providing timely feedback and
+solutions to improve team productivity for more effective and efficient results.
+support as needed, and recognizing and rewarding good performance. High team performance
+can be achieved by employing these behaviors:
+One of the models used to describe team development is the Tuckman ladder, which includes
+▶ Use open and effective communication. five stages of development that teams may go through. Although it is common for these stages to
+occur in order, it is not uncommon for a team to get stuck in a particular stage or regress to an earlier
+▶ Create team-building opportunities.
+stage. Projects with team members who worked together in the past might skip a stage.
+▶ Develop trust among team members.
+▶ Forming. This phase is where the team members meet and learn about the project and
+▶ Manage conflicts in a constructive manner. their formal roles and responsibilities. Team members tend to be independent and not as
+open in this phase.
+▶ Encourage collaborative problem solving.
+▶ Storming. During this phase, the team begins to address the project work, technical decisions,
+▶ Encourage collaborative decision making.
+and the project management approach. If team members are not collaborative or open to
+differing ideas and perspectives, the environment can become counterproductive.
+▶ Norming. In this phase, team members begin to work together and adjust their work habits
+and behaviors to support the team. The team members learn to trust each other.
+▶ Performing. Teams that reach the performing stage function as a well-organized unit. They
+are interdependent and work through issues smoothly and effectively.
+▶ Adjourning. In this phase, the team completes the work and moves on from the project.
+This typically occurs when staff is released from the project as deliverables are completed
+or as part of the Close Project or Phase process.
+The duration of a particular stage depends upon team dynamics, team size, and team leadership.
+Project managers should have a good understanding of team dynamics in order to move their team
+members through all stages in an effective manner.
+6.6 MANAGE TEAM
+A project manager
+needs to be sensitive Manage Team is the process of tracking team member
+to both the willingness performance, providing feedback, resolving issues, and
+and the ability of team members managing team changes to optimize project performance.
+to perform their work and The key benefit of this process is that it influences team
+adjust their management and behavior, manages conflict, and resolves issues.
+leadership styles accordingly.
+This process is performed throughout the project. The inputs,
+Team members with low-skill tools and techniques, and outputs are shown in Figure 6-11.
+abilities will require more Figure 6-12 presents the data flow diagram for this process.
+intensive oversight than those
+Managing a project team requires a variety of manage-
+who have demonstrated ability
+ment and leadership skills for fostering teamwork and
+and experience.
+integrating the efforts of team members to create high-performance
+teams. Team management involves a combination of skills with
+special emphasis on communication, conflict management,
+negotiation, and leadership. Project managers should provide
+challenging assignments to team members and give recognition
+for high performance.
+Manage Team
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Interpersonal and team skills 1. Change requests
+• Resource management plan • Conflict management 2. Project management plan
+2. Project documents • Decision making updates
+• Issue log • Emotional intelligence • Resource management plan
+• Lessons learned register • Influencing • Schedule baseline
+• Project team assignments • Leadership • Cost baseline
+• Team charter 2. Project management 3. Project documents updates
+3. Work performance reports information system • Issue log
+4. Team performance • Lessons learned register
+assessments • Project team assignments
+5. Enterprise environmental 4. Enterprise environmental
+factors factors updates
+6. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 6-11. Manage Team: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan 7.2
+• Resource management plan Perform
+Integrated
+• Change requests Change Control
+Project
+Documents
+Project
+Management
+Project documents
+• Issue log Project management plan updates Plan
+• Lessons learned register • Resource management plan
+• Project team assignments • Schedule baseline
+• Team charter • Cost baseline
+7.1
+Monitor and 6.6 Project
+Control Mana • g P e roject Documents
+Team
+Project Work charter Project documents updates
+• Issue log
+• Lessons learned register
+• Work performance reports • Project team assignments
+6.5
+Develop Enterprise/
+Team Organization
+• Enterprise environmental factors updates
+• Team performance assessments
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 6-12. Manage Team: Data Flow Diagram
+6.7 MANAGE COMMUNICATIONS
+Manage Communications is the process of ensuring timely and appropriate collection, creation,
+distribution, storage, retrieval, management, monitoring, and the ultimate disposition of project
+information. The key benefit of this process is that it enables an efficient and effective information
+flow between the project team and the stakeholders.
+The Manage Communications process identifies all aspects of effective communication,
+including choice of appropriate technologies, methods, and techniques. In addition, it should allow
+for flexibility in the communications activities, allowing adjustments in the methods and techniques
+to accommodate the changing needs of stakeholders and the project.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 6-13. Figure 6-14 presents the data flow diagram for this process.
+Manage Communications
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Communication technology 1. Project communications
+• Resource management plan 2. Communication methods 2. Project management plan
+• Communications 3. Communication skills updates
+management plan • Communication competence • Communications
+• Stakeholder engagement • Feedback management plan
+plan • Nonverbal • Stakeholder engagement
+2. Project documents • Presentations plan
+• Change log 4. Project management 3. Project documents updates
+• Issue log information system • Issue log
+• Lessons learned register 5. Project reporting • Lessons learned register
+• Quality report 6. Interpersonal and team skills • Project schedule
+• Risk report • Active listening • Risk register
+• Stakeholder register • Conflict management • Stakeholder register
+3. Work performance reports • Cultural awareness 4. Organizational process
+4. Enterprise environmental • Meeting management assets updates
+factors • Networking
+5. Organizational process assets • Political awareness
+7. Meetings
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 6-13. Manage Communications: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan • Project communications
+• Resource management plan
+• Communications management plan
+• Stakeholder engagement plan
+Project
+Documents
+Project documents updates
+Project
+• Issue log
+Documents • Lessons learned register
+• Project schedule
+• Risk register
+• Stakeholder register
+Project documents
+• Change log
+• • I L s e s s u s e o n lo s g learned register 6.7 Project
+• Quality report Mana• gPeroject Management
+• Risk report Communic a cthiaorntesr Project management Plan
+• Stakeholder register plan updates
+• Communications
+management plan
+7.1 • Stakeholder
+Monitor and engagement plan
+Control
+Project Work
+Enterprise/
+Organization
+• Work performance reports • Organizational process
+assets updates
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 6-14. Manage Communications: Data Flow Diagram
+This process goes beyond the distribution of relevant information and seeks to ensure that
+the information being communicated to project stakeholders has been appropriately generated and
+formatted and received by the intended audience. It also provides opportunities for stakeholders to
+make requests for further information, clarification, and discussion. Techniques and considerations
+for effective communications management include but are not limited to:
+▶ Sender-receiver models. Incorporate feedback loops to provide opportunities for interaction/
+participation and remove barriers to effective communication.
+▶ Choice of media. Make decisions about the application of communications artifacts to
+meet specific project needs, such as when to communicate in writing versus orally, when to
+prepare an informal memo versus a formal report, and when to use push/pull options and
+the choice of appropriate technology.
+▶ Writing style. Use active versus passive voice, sentence structure, and word choice in the
+appropriate manner.
+▶ Meeting management. Prepare an agenda, invite essential participants, and ensure they
+attend. Deal with conflicts within the meeting or those conflicts that result from inadequate
+follow-up of minutes and actions or attendance of the wrong people.
+▶ Presentations. Be aware of the impact of body language and design of visual aids.
+▶ Facilitation. Build consensus and overcome obstacles, such as difficult group dynamics,
+and maintain interest and enthusiasm among group members.
+▶ Active listening. Listen actively by acknowledging, clarifying and confirming, understanding,
+and removing barriers that adversely affect comprehension.
+6.8 IMPLEMENT RISK RESPONSES
+Implement Risk Responses is the process of implementing agreed-upon risk response plans.
+The key benefit of this process is that it ensures that agreed-upon risk responses are executed as
+planned in order to address overall project risk exposure, minimize individual project threats, and
+maximize individual project opportunities.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 6-15. Figure 6-16 presents the data flow diagram for this process.
+Implement Risk Responses
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Change requests
+• Risk management plan 2. Interpersonal and team skills 2. Project documents updates
+2. Project documents • Influencing • Issue log
+• Lessons learned register 3. Project management • Lessons learned register
+• Risk register information system • Project team assignments
+• Risk report • Risk register
+3. Organizational process assets • Risk report
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 6-15. Implement Risk Responses: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+7.2
+Plan
+Perform
+Integrated
+• Change requests Change Control
+Project management plan
+• Risk management plan
+6.8
+Project
+Implement
+Documents
+Risk Res•p Poronjseects
+charter
+Project documents
+• Lessons learned register
+• Risk register
+• Risk report Project
+Documents
+Project documents updates
+• Lessons learned register
+Enterprise/
+• Issue log
+Organization
+• Project team assignments
+• Risk register
+• Risk report
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 6-16. Implement Risk Responses: Data Flow Diagram
+Proper attention to the Implement Risk Responses
+Only when risk owners process will ensure that agreed-upon risk responses are
+give the required level actually executed. A common problem is that project teams
+of effort to implement spend time and effort to identify and analyze risks and
+the agreed-upon responses develop risk responses, then risk responses are agreed upon
+will the overall risk exposure of and documented in the risk register and risk report, but no
+the project and individual threats action is taken to manage the risk.
+and opportunities be managed
+proactively.
+6.9 CONDUCT PROCUREMENTS
+Conduct Procurements is the process of obtaining seller
+responses, selecting a seller, and awarding a contract. The key
+benefit of this process is that it selects a qualified seller and
+implements the legal agreement for delivery. The end results
+of the process are the established agreements, including
+formal contracts.
+This process is performed periodically throughout the
+project as needed. The inputs, tools and techniques, and
+outputs are shown in Figure 6-17. Figure 6-18 presents the
+data flow diagram for this process.
+Conduct Procurements
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Selected sellers
+• Scope management plan 2. Advertising 2. Agreements
+• Requirements management 3. Bidder conferences 3. Change requests
+plan 4. Data analysis 4. Project management plan
+• Communications • Proposal evaluation updates
+management plan 5. Interpersonal and team skills • Requirements management
+• Risk management plan • Negotiation plan
+• Procurement management • Quality management plan
+plan • Communications
+• Configuration management management plan
+plan • Risk management plan
+• Cost baseline • Procurement management
+2. Project documents plan
+• Lessons learned register • Scope baseline
+• Project schedule • Schedule baseline
+• Requirements • Cost baseline
+documentation 5. Project documents updates
+• Risk register • Lessons learned register
+• Stakeholder register • Requirements
+3. Procurement documentation documentation
+4. Seller proposals • Requirements traceability
+5. Enterprise environmental matrix
+factors • Resource calendars
+6. Organizational process assets • Risk register
+• Stakeholder register
+6. Organizational process assets
+updates
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 6-17. Conduct Procurements: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+7.11
+Control
+Project management plan Procurements
+• Scope management plan • Selected sellers
+• Requirements management plan
+• Communications management plan
+• Risk management plan
+• Procurement management plan 7.2
+• Configuration management plan Perform
+• Cost baseline Integrated
+• Change requests Change Control
+Project
+Documents
+Project
+Management
+Project documents Project management Plan
+• Lessons learned register plan updates
+• Project schedule • Requirements
+• Requirements documentation management plan
+• Risk register • Quality management plan
+• Stakeholder register • Communications management plan
+• Risk management plan
+• Procurement management plan
+Procurement 6.9 • Scope baseline
+Conduct • Schedule baseline
+Documentation
+Procurem• Peronjetcst • Cost baseline
+charter
+Project
+Documents
+Project documents
+Enterprise/ updates
+Organization • Agreements • Lessons learned register
+• Requirements documentation
+• Requirements traceability matrix
+• Enterprise environmental factors • Resource calendars
+• Organizational process assets • Risk register
+• Stakeholder register
+Enterprise/
+Sellers Organization
+• Organizational
+process assets
+updates
+• Seller proposals
+4.1 5.24
+Develop Plan
+Project Charter Stakeholder
+Engagement
+4.2 7.1
+Identify Monitor and
+Stakeholders Control
+Project Work
+5.10 7.8
+Develop Control
+Schedule Resources
+5.13 7.11
+Determine Control
+Budget Procurements
+5.19 8.1
+Identify Close
+Risks Project or Phase
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 6-18. Conduct Procurements: Data Flow Diagram
+6.10 MANAGE STAKEHOLDER ENGAGEMENT
+Manage Stakeholder Engagement is the process of communicating and working with stakeholders
+to meet their needs and expectations, address issues, and foster appropriate stakeholder involvement.
+The key benefit of this process is that it allows the project manager to increase support and minimize
+resistance from stakeholders.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 6-19. Figure 6-20 presents the data flow diagram for this process.
+Manage Stakeholder Engagement
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Change requests
+• Communications 2. Communication skills 2. Project management plan
+management plan • Feedback updates
+• Risk management plan 3. Interpersonal and team skills • Communications
+• Stakeholder engagement • Conflict management management plan
+plan • Cultural awareness • Stakeholder engagement
+• Change management plan • Negotiation plan
+2. Project documents • Observation/conversation 3. Project documents updates
+• Change log • Political awareness • Change log
+• Issue log 4. Ground rules • Issue log
+• Lessons learned register 5. Meetings • Lessons learned register
+• Stakeholder register • Stakeholder register
+3. Enterprise environmental
+factors
+4. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 6-19. Manage Stakeholder Engagement: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project
+Management
+Project management plan Plan
+• Communications management plan Project management plan updates
+• Risk management plan • Communications management plan
+• Stakeholder engagement plan • Stakeholder engagement plan
+• Change management plan
+6.10
+Project Manage Project
+Documents Stakeholder Documents
+Engagem • Pr e o n je t ct Project documents updates
+charter • Change log
+• Issue log
+Project documents • Lessons learned register
+• Change log • Stakeholder register
+• Issue log
+• Lessons learned register 7.2
+• Stakeholder register Perform
+Integrated
+• Change requests Change Control
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 6-20. Manage Stakeholder Engagement: Data Flow Diagram
+Manage Stakeholder Engagement involves activities such as:
+▶ Engage stakeholders at appropriate project stages to obtain, confirm, or maintain their
+continued commitment to the success of the project.
+▶ Manage stakeholder expectations through negotiation and communication.
+▶ Address any risks or potential concerns related to stakeholder management and anticipate
+future issues that may be raised by stakeholders.
+▶ Clarify and resolve issues that have been identified.
+Managing stakeholder engagement helps to ensure that stakeholders clearly understand the
+project goals, objectives, benefits, and risks for the project, as well as how their contribution will
+enhance project success.

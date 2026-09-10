@@ -1,0 +1,949 @@
+{
+  "Kich-ban-1.txt": [
+    {
+      "lang": "vi",
+      "text": "HỌC PHẦN ĐẶC BIỆT, KIẾN TẠO TÁC ĐỘNG ĐỘT PHÁ CÙNG TRÍ TUỆ NHÂN TẠO TRONG QUẢN TRỊ DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "DRIVING IMPACT WITH A-I IN PROJECT MANAGEMENT",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "NÂNG TẦM KỸ NĂNG QUẢN TRỊ DỰ ÁN CÙNG TRÍ TUỆ NHÂN TẠO,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "BOOST YOUR PROJECT MANAGEMENT SKILLS WITH A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Trí tuệ nhân tạo,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "A-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đang tạo ra một cuộc cách mạng sâu sắc làm thay đổi hoàn toàn cách chúng ta tiếp cận các công việc thường nhật, trong sự nghiệp lẫn trong cuộc sống. Việc ứng dụng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "có thể giúp bạn giải quyết các công việc mang tính lặp lại một cách nhanh chóng vượt bậc, đồng thời, giải phóng và trao quyền để bạn dành nhiều thời gian hơn cho những nơi mà bạn có thể tạo ra tác động to lớn nhất. Hãy thử ngẫm nghĩ về một ngày làm việc điển hình của bạn, Nếu nó cũng giống như những ngày làm việc của tôi, bạn sẽ có hằng hà sa số những việc cần làm, nhưng quỹ thời gian thì dường như không bao giờ là đủ. Sẽ có những ngày mà danh sách việc cần làm, To-do",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "list,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "của bạn trông như kéo dài vô tận. Nhưng điều gì sẽ xảy ra nếu như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "có thể dang tay trợ giúp bạn? Với tư cách là một người đồng nghiệp cùng làm nghề quản lý dự án, tôi có mặt ở đây để chia sẻ với các bạn một vài tình huống thực tế mà bạn chắc chắn sẽ bắt gặp, nơi mà Trí tuệ Nhân tạo Tạo sinh,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Generative A-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hay còn gọi tắt là Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "có thể giúp bạn làm việc thông minh hơn và với tốc độ nhanh hơn rất nhiều, và tôi sẽ chỉ dẫn cho bạn chính xác cách thức thực hiện điều đó. Bạn sẽ khám phá cách vận dụng Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "để hỗ trợ soạn thảo một Bản Hiến chương Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Charter,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "điều hành những cuộc họp hiệu quả cao, và nhiều điều tuyệt vời hơn thế nữa. Tên tôi là Ben, hiện là Quản lý Chương trình Cán sự,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Staff Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "thuộc đội ngũ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Cloud.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong vai trò của mình, tôi đã từng trực tiếp bàn giao rất nhiều dự án tầm cỡ, như việc phát triển các tính năng mạng đám mây,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Cloud Networking,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và xây dựng chương trình đào tạo tập huấn cho hàng nghìn nhà quản lý chương trình trên toàn tập đoàn",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trí tuệ nhân tạo tạo sinh đã giúp tôi làm việc năng suất hơn và sáng tạo hơn bội phần, vì vậy, tôi vô cùng hào hứng được chia sẻ với các bạn cách tôi đang ứng dụng nó mỗi ngày.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-2.txt": [
+    {
+      "lang": "vi",
+      "text": "Để khai phóng tối đa sức mạnh của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "điều tối quan trọng là bạn phải biết cách viết một câu lệnh tương tác,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Prompt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "thật sự hiệu quả. Một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Prompt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "chính là thông tin đầu vào mà bạn cung cấp cho mô hình Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "nhằm khơi gợi một phản hồi chuẩn xác theo ý muốn. Một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "prompt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "xuất sắc luôn tuân theo một khung phương pháp luận giản dị gồm năm yếu tố, Nhiệm vụ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Task,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Ngữ cảnh,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Context,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Tài liệu tham khảo,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "References,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đánh giá,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Evaluate,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và Tinh chỉnh lặp lại,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Iterate,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "T-C-R-E-I.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nếu có lúc nào đó bạn lỡ quên mất các bước, hãy chỉ cần nhớ câu thần chú bằng tiếng Anh,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Thoughtfully Create Really Excellent Inputs,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nghĩa là Hãy Trăn Trở Kiến Tạo Những Dữ Liệu Đầu Vào Thực Sự Xuất Sắc! Mắt xích đầu tiên là Nhiệm vụ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Task.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bạn thực sự muốn mô hình",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "làm điều gì cho mình? Nghe rất đơn giản và trực diện, đúng không nào? Chúng ta có thể bóc tách Nhiệm vụ thành hai thành tố, Hình tượng hóa vai diễn,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Persona,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và Định dạng đầu ra,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Format. Persona",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "dùng để chỉ việc bạn muốn công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đóng vai chuyên gia trong lĩnh vực nào để khai thác vốn tri thức từ đó. Bạn có thể yêu cầu công cụ hóa thân thành một chuyên gia viết diễn văn chuyên nghiệp, hoặc một giám đốc tiếp thị kỳ cựu với mười lăm năm kinh nghiệm thực chiến, hoặc bạn có thể yêu cầu nó tạo ra sản phẩm hướng tới một đối tượng người nghe cụ thể, chẳng hạn, như khách hàng hay chính người sếp của bạn. Bạn có thể mô tả chi tiết bao nhiêu tùy thích khi gán một vai diễn",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Persona",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cho nhiệm vụ của mình. Còn",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Format",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "dùng để chỉ hình thức bạn muốn câu trả lời xuất hiện, dưới dạng một danh sách gạch đầu dòng, các câu văn ngắn gọn súc tích, hay một bảng biểu đối sánh số liệu. Tiếp theo là Ngữ cảnh,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Context.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là những chi tiết, dữ kiện thiết yếu giúp công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thấu hiểu tường tận những gì bạn thực sự cần từ nó. Đây chính là điểm khác biệt một trời một vực giữa việc bạn viết, Hãy gợi ý cho tôi vài ý tưởng quà sinh nhật giá dưới ba mươi đô la với việc bạn viết, Hãy gợi ý cho tôi năm ý tưởng quà sinh nhật độc đáo. Ngân sách của tôi là ba mươi đô la. Món quà này dành tặng cho một người bạn hai mươi chín tuổi rất đam mê các môn thể thao mùa đông và gần đây vừa chuyển từ trượt ván tuyết,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Snowboarding,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "sang trượt tuyết bằng ván trượt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Skiing.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-3.txt": [
+    {
+      "lang": "vi",
+      "text": "Yếu tố thứ ba là Tài liệu tham khảo,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "References,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đôi khi bạn sẽ cung cấp thêm các ví dụ, hay tài liệu đối chiếu để công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "sử dụng trong quá trình tạo ra sản phẩm. Bạn vừa yêu cầu công cụ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "gợi ý quà sinh nhật đúng không? Nếu bạn cung cấp thêm danh sách những món quà sinh nhật bạn từng tặng rất thành công trong quá khứ làm tài liệu tham khảo, thì công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "sẽ có thể mang lại cho bạn một kết quả hữu ích và trúng đích hơn rất nhiều. Hãy nhớ rằng không phải lúc nào chúng ta cũng có sẵn những tài liệu tham khảo rõ ràng cho những gì mình cần, nhất là khi bạn đang làm việc trên những ý tưởng trừu tượng hoặc đang tìm kiếm nguồn cảm hứng mới mẻ. Bản chất của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Prompting",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là sự rõ ràng, mạch lạc và cụ thể trong từng chỉ dẫn. Hãy sử dụng ngôn ngữ tự nhiên, hãy viết như thể bạn đang trò chuyện trực tiếp với một con người thực sự, và hãy diễn đạt các ý niệm một cách trọn vẹn, gãy gọn. Được rồi, như vậy là bạn đã đưa đầy đủ Nhiệm vụ, Ngữ cảnh và Tài liệu tham khảo vào trong",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "prompt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của mình. Một khi đã nhận được câu trả lời đầu ra, đã đến lúc bước sang khâu Đánh giá,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Evaluate.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hãy tự hỏi bản thân xem liệu thông tin đầu vào bạn cung cấp đã mang lại kết quả đầu ra đúng như bạn mong đợi hay chưa. Điều này dẫn chúng ta đến mắt xích cuối cùng của khung phương pháp, Tinh chỉnh lặp lại,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Iterate.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nếu sau khi đánh giá kết quả và nhận thấy mình chưa nhận được chính xác điều mình cần, bạn hoàn toàn có thể thử lại bằng cách bổ sung thêm thông tin chi tiết hoặc điều chỉnh lại các câu từ trong",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "prompt.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây chính là một kỹ năng cốt lõi của nghệ thuật giao tiếp hiệu quả với",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một lưu ý thêm về khung phương pháp này, Có rất nhiều cách thức khác nhau để xây dựng một câu lệnh hiệu quả. Hãy nhớ rằng, việc bắt đầu bằng một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "prompt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đơn giản là hoàn toàn bình thường, và đôi khi bấy nhiêu thôi cũng đã đủ để giải quyết vấn đề. Tuy nhiên, nếu bạn muốn mở khóa toàn bộ tiềm năng đích thực của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bí mật ở đây hoàn toàn không phải là phép thuật nhiệm màu, Bí mật nằm ở những câu lệnh xuất sắc! Hãy luôn ghi nhớ nguyên lý",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Thoughtfully Create Really Excellent Inputs,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Kiến tạo dữ liệu đầu vào xuất sắc, và bạn sẽ được tận mắt chứng kiến phép màu xảy ra.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-4.txt": [
+    {
+      "lang": "vi",
+      "text": "Khi chúng ta cùng nhau khám phá cách ứng dụng Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "vào quản trị dự án, hãy luôn khắc sâu trong tâm trí rằng, Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "phát huy sức mạnh tối thượng khi nó được sử dụng như một công cụ bổ trợ cho những kỹ năng và năng lực độc nhất vô nhị của con người chúng ta. Bạn phải luôn sử dụng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "một cách có trách nhiệm thông qua việc áp dụng phương pháp tiếp cận Con người kiểm soát chu trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Human-in-the-loop. Gen A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là một trợ thủ đắc lực giúp bạn giải quyết nhiệm vụ, nhưng nó bắt buộc phải có sự tham gia điều phối của con người. Không có một công cụ máy móc nào sở hữu được chiều sâu trải nghiệm, tri thức thực chiến và kỹ năng tương tác cảm xúc như con người chúng ta. Đó là lý do vì sao phương pháp",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Human-in-the-loop",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là chìa khóa vàng để sử dụng Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "một cách có trách nhiệm, Nó kết hợp nhuần nhuyễn giữa trí tuệ nhân tạo và trí tuệ con người để huấn luyện, sử dụng, kiểm chứng và hoàn thiện kết quả. Về mặt thực hành, điều này có nghĩa là bạn phải luôn thận trọng và có ý thức về những gì mình nạp vào công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đồng thời, luôn thẩm định, kiểm chứng nghiêm ngặt những gì được xuất xưởng ra ngoài. Khi làm việc với các công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hãy cân nhắc thật kỹ lưỡng xem liệu bạn có đang sử dụng các thông tin mật, nhạy cảm của doanh nghiệp để thực hiện tác vụ hay không, và hãy luôn tham vấn các quy định, chính sách bảo mật của tổ chức trước tiên. Ngay cả khi bạn sử dụng các công cụ này ngoài giờ làm việc cho việc cá nhân, bạn cũng nên tránh nhập các dữ liệu cá nhân hay thông tin bí mật, và luôn kiểm tra xem dữ liệu bạn nhập vào có thể bị hệ thống sử dụng vào mục đích gì. Một điều cuối cùng, Hiện có rất nhiều công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đa dạng ngoài kia. Tôi sẽ minh họa cách viết câu lệnh bằng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Gemini,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nhưng tất cả các kỹ thuật và thông lệ tốt nhất mà bạn học được hôm nay đều có thể áp dụng mượt mà cho bất kỳ công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "nào khác, từ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "ChatGPT, Microsoft Copilot",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cho tới",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Anthropic Claude.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nếu bạn là một người đang khao khát bước chân vào nghề quản trị dự án, niềm đam mê của bạn có thể nằm ở việc dẫn dắt các đội ngũ, chinh phục các thử thách cam go và bàn giao những dự án thành công rực rỡ. Nhưng đặc biệt trong các dự án phức tạp, bạn rất dễ bị chậm lại bởi các tác vụ hành chính rườm rà, các thủ tục giấy tờ tài liệu, hay việc phải chạy đôn chạy đáo đôn đốc tiến độ. Trí tuệ nhân tạo tạo sinh đang thay đổi hoàn toàn cách chúng ta tiếp cận những trách nhiệm này, cho phép các nhà quản lý dự án dành trọn thời gian và tâm trí cho việc đưa ra các quyết định mang tính chiến lược, bảo chứng cho thành công toàn diện của dự án và của cả đội ngũ. Vì vậy, chúng ta hãy cùng bắt đầu ngay thôi!.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-5.txt": [
+    {
+      "lang": "vi",
+      "text": "KIẾN TẠO TÁC ĐỘNG ĐỘT PHÁ CÙNG",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "TẠI NƠI LÀM VIỆC, CÂU CHUYỆN CỦA BEN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "BEN'S STORY",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chào tất cả các bạn! Tên tôi là Ben, hiện là Quản lý Chương trình Cán sự,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Staff Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Phần thưởng tuyệt vời nhất trong công việc của tôi chính là được cùng những đội ngũ xuất sắc giải quyết các bài toán hóc búa, phức tạp. Trí tuệ nhân tạo,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "A-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là một bước chuyển mình mang tầm vóc lịch sử đối với mọi điều chúng ta sẽ làm trong tương lai. Điều cốt tử là chúng ta phải chủ động đi trước đón đầu, học hỏi xem",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "có thể làm được những gì và những gì nó không thể làm được, thấu suốt một cách sâu sắc rằng, ồ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cực kỳ tuyệt vời cho tác vụ chuyên biệt này, nhưng nó sẽ hoàn toàn không phù hợp ở chỗ kia. Và việc nắm chắc năng lực thực sự của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "sẽ giúp bạn, với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "trở nên thành công vượt trội hơn rất nhiều. Có vô vàn công việc bạn làm mỗi ngày trên cương vị người quản lý dự án mà",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "có thể giúp nâng tầm vị thế của bạn lên một đẳng cấp mới. Và điều kỳ diệu nhất về",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là nó có thể tinh chỉnh và mài giũa khả năng giao tiếp của bạn một cách phi thường. Tôi sử dụng nó liên tục, Chẳng hạn, khi phải soạn thảo những bức thư điện tử phức tạp hoặc các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "gửi lên các lãnh đạo điều hành cấp cao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Executive emails,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tôi thường dùng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "để kiểm tra chéo, rà soát lại văn phong hoặc gợi ý những cách diễn đạt sắc sảo, gãy gọn hơn, và điều đó khiến cho những gì tôi chuyển giao trở nên xuất sắc hơn gấp bội. Khi tôi gặp bế tắc trước một vấn đề hóc búa và cố gắng tìm kiếm lối thoát, tôi thường nảy ra rất nhiều ý tưởng hỗn độn nhưng chúng dường như chưa thực sự ăn khớp, hoặc tôi cảm thấy cần có ai đó để cùng trò chuyện bóc tách. Vào những thời điểm mà các đồng đội của tôi không có mặt ở đó để trao đổi, điều tuyệt vời là tôi có thể tìm đến",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I!.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi quẳng tất cả những suy nghĩ đó cho",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và bảo rằng, Tôi đang có những ý tưởng này, đây là bài toán thực tế, và đây là điều tôi đang nỗ lực giải quyết. Và",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "lập tức phản hồi với hàng chục góc nhìn đầy thú vị mà từ đó tôi có thể tổng hợp, cộng hưởng thành giải pháp mình cần và kiến tạo nên một kết quả vượt bậc.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-6.txt": [
+    {
+      "lang": "vi",
+      "text": "Một trải nghiệm vô cùng thú vị mà tôi từng ứng dụng Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là khi tôi chuẩn bị cho phần thuyết trình về chương trình của mình, Đâu là từ khóa đắt giá nhất? Đâu là bản thuyết trình thang máy ngắn gọn,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Elevator Pitch,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "sắc bén nhất, và làm thế nào để tôi trình bày nó một cách thuyết phục nhất? Trước đó, tôi có cả một đống từ ngữ và hàng loạt đoạn văn mô tả dài dòng về chương trình. Tôi bị ngợp và cảm thấy rất khó khăn để cô đọng nó lại. Thế là tôi nạp toàn bộ khối dữ liệu đó vào cỗ máy",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và ra lệnh, Hãy tóm lược toàn bộ nội dung này thành duy nhất một câu văn, tạo cho tôi một bản",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "elevator pitch",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tràn đầy năng lượng, đảm bảo thu hút sự chú ý ngay lập tức nhưng tuyệt đối không được bỏ sót các thông tin trọng yếu! Cỗ máy đã phản hồi cho tôi nhiều phương án mẫu khác nhau, tôi đã chọn lọc, tinh chỉnh lại một phương án trong số đó, và kết quả là tôi có được một bài thuyết trình thang máy cực kỳ sắc sảo, cô đọng mà tôi có thể tự tin sử dụng trước mọi đội ngũ mỗi khi giới thiệu về chương trình của mình. Đối với bất kỳ ai đang bắt đầu bước vào hành trình ứng dụng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "trong quản trị dự án, tôi xin gửi gắm tới các bạn ba lời khuyên tâm huyết sau đây. Thứ nhất, hãy thỏa sức thử nghiệm,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Feel free to experiment.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hãy mạnh dạn thử nghiệm những điều mới mẻ, thử các công cụ khác nhau, thử các hướng tiếp cận khác nhau, thử nghiệm các kỹ thuật viết",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "prompt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đa dạng. Bạn sẽ phải kinh ngạc trước những khám phá kỳ diệu mà mình tìm thấy dọc đường. Đôi khi chúng có thể chưa hiệu quả ngay, nhưng sẽ có những lúc chúng hoạt động tốt hơn ngoài sức tưởng tượng của bạn rất nhiều! Thứ hai, hãy luôn đảm bảo sự an toàn,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Make sure you're being safe.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hãy cẩn trọng cả về nội dung dữ liệu bạn đưa vào lẫn các phương pháp kiểm chứng bạn áp dụng. Hãy đảm bảo bạn luôn làm điều đúng đắn, đưa đúng dữ liệu phù hợp vào và thẩm định cẩn trọng kết quả đầu ra. Và điều thứ ba là, hãy chủ động đối chiếu, trao đổi kinh nghiệm với những người xung quanh,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Compare notes with others.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bạn sẽ phải ngạc nhiên trước khối lượng kiến thức khổng lồ mà bạn có thể học hỏi được từ chính những đồng nghiệp cũng đang mày mò thử nghiệm",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và họ cũng sẽ học hỏi được vô vàn điều bổ ích từ bạn, từ đó tất cả sẽ cùng nhau bồi đắp và cộng hưởng trên vốn kinh nghiệm của nhau. Trí tuệ nhân tạo là một bước ngoặt vĩ đại cho bất kỳ ai làm kinh doanh, và đối với những người làm quản trị dự án thì điều đó lại càng đúng đắn hơn bao giờ hết.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "không chỉ là một trợ thủ đắc lực trong công việc thường nhật, mà còn là một người bạn đồng hành tuyệt vời giúp bạn khai phá và làm đòn bẩy cho những góc nhìn sâu sắc mới mẻ mà bạn chưa từng nghĩ tới trước đây!.",
+      "pause_type": "terminal"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Hãy luôn ghi nhớ nguyên tắc vàng, chỉ chia sẻ thông tin trên cơ sở thực sự cần biết, Need-to-know Basis. Nhiệm vụ của bạn là phải cung cấp đúng thông tin, vào đúng thời điểm, cho đúng đối tượng.
+
+Hãy để tôi chỉ cho bạn một ví dụ, cụ thể. Trong bản kế hoạch truyền thông mẫu này, một trong những tài nguyên được lưu trữ là các bảng khảo sát phản hồi của người dùng. Tài nguyên này chứa đựng dữ liệu thô thu thập được từ các bài khảo sát do người dùng thử nghiệm của dự án Plant Pals gửi về, đồng nghĩa với việc nó chứa đựng các thông tin nhận dạng cá nhân, tức Personally Identifiable Information, viết tắt là P-I-I.
+
+Thông tin P-I-I là bất kỳ dữ liệu nào có khả năng làm lộ diện danh tính thực của một con người, chẳng hạn, như tên tài khoản, mật khẩu, số điện thoại, địa chỉ thư điện tử, họ và tên đầy đủ, hoặc bất kỳ dữ liệu cá nhân nào tương tự. Chính vì lý do đó, bạn chỉ được phép chia sẻ tài nguyên này cho những thành viên trong đội ngũ dự án đã được phê duyệt chính thức để tiếp cận mức độ thông tin này. Nếu bất kỳ ai khác cố tình mở tệp tài liệu đó ra, hệ thống sẽ lập tức cảnh báo rằng họ bắt buộc phải gửi yêu cầu cấp quyền truy cập.
+
+Nếu bạn thực sự cần chia sẻ kết quả của những cuộc khảo sát này cho toàn thể công ty, những số liệu đó hoàn toàn có thể được trực quan hóa dưới dạng biểu đồ, đồ thị số liệu, hoặc được tóm tắt tổng hợp trong một bản báo cáo cô đọng mà không kèm theo bất kỳ mẩu dữ liệu nhận dạng cá nhân P-I-I nào. Sau đó, bạn có thể tự tin chia sẻ bản báo cáo sạch đó cho đội ngũ rộng lớn hơn.
+
+Giờ đây, bạn đã có một sự thấu hiểu sâu sắc hơn về tầm quan trọng mang tính nền tảng của tài liệu hồ sơ đối với quản lý dự án. Trong phần tiếp theo, chúng ta sẽ học cách tốt nhất để kết nối toàn bộ bản kế hoạch lại với nhau và giữ cho mọi thứ luôn ngăn nắp, khoa học. Hẹn gặp lại bạn sau ít phút.
+
+TỔ CHỨC SẮP XẾP TÀI LIỆU HỒ SƠ DỰ ÁN
+. ......
+
+Chào bạn, chúng ta lại gặp nhau. Cho đến thời điểm này của khóa học, bạn đã tự tay điền đầy đủ hoặc tạo lập nên nhiều nguồn tài nguyên lập kế hoạch dự án vô cùng quan trọng, từ bản kế hoạch dự án tổng thể, bảng ngân sách, biểu đồ ma trận R-A-C-I, kế hoạch quản trị rủi ro, và bây giờ là một bản kế hoạch truyền thông chi tiết. Chúng ta cũng đã thảo luận sâu sắc về tầm quan trọng của việc sắp xếp ngăn nắp các luồng giao tiếp và đảm bảo quyền truy cập dễ dàng, chuẩn mực vào các tài liệu dự án.
+
+Bây giờ, tôi sẽ chỉ cho bạn một phương pháp trực quan để bạn có thể tổ chức, quy tụ toàn bộ thông tin dự án của mình về một vị trí tập trung duy nhất. Bạn hoàn toàn có thể áp dụng linh hoạt những kỹ thuật nền tảng này cho hầu như bất kỳ trường phái hay hệ thống quản trị dự án nào trong thực tế.

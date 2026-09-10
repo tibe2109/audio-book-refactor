@@ -1,0 +1,14 @@
+Một phương thức khác để đối phó với rủi ro là giảm thiểu hoặc kiểm soát nó, tức Reduce or Control. Về phần cá nhân tôi, tôi rất thích sử dụng cây quyết định, tức Decision Tree, khi xây dựng các phương án giảm thiểu rủi ro. Cây quyết định là một lưu đồ trực quan giúp bạn hình dung được những tác động lan tỏa rộng lớn hơn của một quyết định lên toàn bộ phần còn lại của dự án.
+
+Chẳng hạn, bạn quyết định vẫn thuê nhà thầu phụ có tiếng hay trễ hạn ban nãy vì bạn biết rằng chất lượng tay nghề chuyên môn của họ là cực kỳ xuất sắc. Trong trường hợp này, bạn có thể vẽ một lưu đồ nhanh để trực quan hóa rủi ro và các lựa chọn tiềm năng để kiểm soát nó, chẳng hạn, như kiểm tra tiến độ với nhà thầu hằng ngày qua thư điện tử hoặc thông qua các cuộc họp giao ban trực tiếp. Cuối cùng, bạn có thể chọn giải pháp tổ chức các cuộc họp giao ban hằng ngày với nhóm làm việc của nhà thầu để đảm bảo họ luôn bám sát các đầu việc được giao.
+
+Cuối cùng, bạn có thể lựa chọn chuyển giao rủi ro, tức Transfer. Ví dụ, bạn nhận thấy rằng việc tự mình gieo trồng và chăm sóc cây cảnh ngay tại chỗ ở văn phòng Office Green là quá mạo hiểm, do nguy cơ thời tiết khắc nghiệt hoặc sâu bọ phá hoại có thể làm hư hại sản phẩm. Thay vào đó, bạn đưa ra quyết định chuyển giao rủi ro này cho một bên hoặc nhiều bên thứ ba khác. Bằng cách thuê ngoài khâu ươm trồng cây cho các nhà vườn chuyên nghiệp tại địa phương, bạn nắm trong tay quyền năng đổi sang nhà vườn khác nếu có vấn đề về chất lượng cây trồng. Khi bạn chuyển giao rủi ro, bạn sẽ không phải gánh chịu nguy cơ bị mất mát thời gian, tài nguyên và tiền bạc của chính mình.
+
+Tóm lại, bốn chiến lược kinh điển để giảm thiểu rủi ro là, né tránh, Avoid, chấp nhận, Accept, giảm thiểu hoặc kiểm soát, Reduce or Control, và chuyển giao, Transfer. Việc vận dụng linh hoạt một trong bốn chiến lược này sẽ giúp bạn làm chủ các rủi ro trong dự án một cách vô cùng hiệu quả.
+
+Trong phần tiếp theo, chúng ta sẽ thảo luận về cách ghi nhận các rủi ro này vào kế hoạch quản trị rủi ro.
+
+TRUYỀN THÔNG VỀ RỦI RO VỚI CÁC BÊN LIÊN QUAN
+. ......
+
+Xin chào bạn. Như bạn đã được học trong các bài học vừa qua, việc nhận diện và đánh giá rủi ro là một phần tối quan trọng của quy trình lập kế hoạch dự án. Những hoạt động này giúp làm sáng tỏ những rủi ro trọng yếu nhất đối với bạn và toàn đội ngũ, đồng thời, đảm bảo rằng tất cả mọi người đều đồng lòng về những rủi ro nào cần phải tập trung lên phương án đối phó. Nhưng chỉ dừng lại ở việc bạn và đồng đội nhận thức được những rủi ro lớn nhất của dự án thôi là chưa đủ. Bạn còn bắt buộc phải truyền thông, giao tiếp về những rủi ro này tới các bên liên quan, tức Stakeholders, của dự án, cho dù là thông qua tài liệu hồ sơ, thư điện tử, các cuộc họp trực tiếp hay bất kỳ hình thức giao tiếp nào khác mà bạn thấy phù hợp.

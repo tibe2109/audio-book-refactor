@@ -12,7 +12,6 @@ __pycache__/
 
 # AI agent & IDE directories
 .qodo/
-.gemini/
 .idea/
 .vscode/
 *.swp
@@ -20,8 +19,6 @@ __pycache__/
 
 # Temporary and log files
 *.log
-/Kich-ban-clipchamp
-/Kich-ban-clipchamp
 *.py
 
 # Exclude temporary large media files and bgm library
@@ -29,3 +26,4 @@ bgm_audio_library/
 test*.mp3
 s_*.mp3
 *.webm
+*.mp3

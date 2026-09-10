@@ -1,0 +1,1265 @@
+Inputs and Outputs
+All of the inputs and outputs in this section appear in alphabetical order; therefore, no sections
+numbers are assigned.
+Accepted deliverables. Products, results, or capabilities produced by a project and validated by the
+project customer or sponsors as meeting their specified acceptance criteria.
+The authorized stakeholder who signs off and approves the deliverables should get involved early
+on in the process and provide feedback regarding the quality of the deliverables so that the team
+can assess quality, performance, and recommend necessary changes.
+Activity attributes. Activity attributes are multiple attributes associated with each schedule activity
+that can be included within the activity list. Activity attributes include activity codes, predecessor
+activities, successor activities, logical relationships, leads and lags, resource requirements, imposed
+dates, constraints, and assumptions.
+Activity attributes extend the description of the activity by identifying multiple components associated
+with each activity. The components for each activity evolve over time. During the initial stages of
+the project, they include the unique activity identifier (ID), WBS ID, and activity label or name. When
+completed, they may include activity descriptions, predecessor activities, successor activities, logical
+relationships, leads and lags, resource requirements, imposed dates, constraints, and assumptions.
+Activity attributes can be used to identify the place where the work needs to be performed, the
+project calendar the activity is assigned to, and the type of effort involved. Activity attributes are used
+for schedule development and for selecting, ordering, and sorting the planned schedule activities in
+various ways within reports.
+Activity list. A documented tabulation of schedule activities that shows the activity description, activity
+identifier, and a sufficiently detailed scope of work description so project team members understand
+what work is to be performed.
+Agreements. Any document or communication that defines the initial intentions of a project. This
+can take the form of a contract, service-level agreement, memorandum of understanding (MOU),
+letters of agreement, verbal agreement, purchase order, email, etc.
+Agreements can be simple or complex. A complex project may involve multiple contracts
+simultaneously or in sequence. Agreements must comply with local, national, and international
+laws regarding contracts.
+All components (of the project management plan). All components of the project management
+plan are an input to this process. These components can be found in Table 1-6 of this practice guide.
+Any component (of the project management plan). Any component of the project management
+plan is an input to this process. These components can be found in Table 1-6 of this practice guide.
+Approved change requests. Change requests processed according to the change management
+plan by the project manager, change control board, or other designated person are either approved,
+deferred, or rejected.
+Approved change requests are implemented via the Direct and Manage Project Work process. Deferred
+or rejected change requests are communicated to the person or group requesting the change.
+The dispositions of all change requests are recorded in the change log as a project document update.
+See also change requests.
+Assumption log. A project document used to record all assumptions and constraints throughout
+the project life cycle. New assumptions and constraints may be added, and the status of existing
+assumptions and constraints may be updated or closed out.
+High-level (strategic and operational) constraints are normally identified in the business case before
+the project is initiated and then flow into the project charter. Lower-level activity and task assumptions
+are generated throughout the project, such as defining technical specifications, estimates, schedule
+activities, risks, etc. The assumption log is used to record all assumptions and constraints throughout
+the project life cycle.
+Basis of estimates. Supporting documentation outlining the details used in establishing project
+estimates such as assumptions, constraints, level of detail, ranges, and confidence levels.
+Regardless of the level of detail, the basis of estimates should provide a clear and complete under-
+standing of how an estimate was derived. Documentation may include how the basis of estimate was
+developed, assumptions made, known constraints, range of possible estimates (e.g., ±10%), confi-
+dence level of the final estimate, and individual project risks influencing this estimate.
+Benefits management plan. The documented explanation defining the processes for creating,
+maximizing, and sustaining the benefits provided by a project or program.
+The benefits management plan is the document that describes how and when the benefits of the
+project will be delivered and the mechanisms that should be in place to measure those benefits.
+A project benefit is an outcome of actions, behaviors, products, services, or results that provides
+value to the sponsoring organization as well as to the project’s intended beneficiaries. Development
+of the plan begins early in the project life cycle with the definition of the target benefits. The plan
+describes key elements of the benefits and may include the following:
+▶ Target benefits. The expected tangible and intangible value to be gained by the
+implementation of the project; financial value is expressed as net present value (NPV).
+▶ Strategic alignment. The alignment of the project to the business strategies of the
+organization.
+▶ Time frame for realizing benefits. The length of time to realize benefits, for example,
+short-term, long-term, ongoing, or by phase.
+▶ Benefits owner. The person accountable for monitoring, recording, and reporting
+realized benefits throughout the time frame established in the plan.
+▶ Metrics. The direct and indirect measures used to determine benefits realized.
+▶ Assumptions. The factors expected to be in place or to be in evidence.
+▶ Risks. Those risks pertaining to realization of benefit.
+The data and information that are documented in the business case and needs assessment are used to
+develop the benefits management plan. The benefits management plan and the project management
+plan include a description of how the business value resulting from the project becomes part of the
+organization’s ongoing operations, including the metrics to be used. The metrics provide verification
+of the business value and validation of the project’s success.
+Development and maintenance of the benefits management plan is an iterative activity. It complements
+the business case, project charter, and project management plan. The project manager works with the
+sponsor to ensure that the project charter, project management plan, and benefits management plan
+remain in alignment throughout the life cycle of the project.
+Both the business case and the benefits management plan are developed prior to the project
+being initiated. Additionally, both documents are referenced after the project has been completed.
+Therefore, they are considered business documents rather than project documents or components
+of the project management plan. As appropriate, these business documents may be inputs to some
+of the processes involved in managing the project, such as developing the project charter.
+Bid documents. Bid documents are used to solicit proposals from prospective sellers. Terms such
+as bid, tender, or quotation are generally used when the seller selection decision is based on price
+(as when buying commercial or standard items), while a term such as proposal is generally used
+when other considerations such as technical capability or technical approach are the most important.
+Specific procurement terminology used may vary by industry and location of the procurement.
+Depending on the goods or services needed, the bidding documents can include a request for
+information, request for quotation, request for proposal, or other appropriate documents. The
+conditions involving their use are presented below:
+▶ Request for information (RFI). An RFI is used when more information on the goods
+and services to be acquired is needed from the sellers. It will typically be followed by an
+RFQ or RFP.
+▶ Request for quotation (RFQ). An RFQ is commonly used when more information is needed
+on how vendors would satisfy the requirements and/or how much it will cost.
+▶ Request for proposal (RFP). An RFP is used when there is a problem in the project and the
+solution is not easy to determine. This is the most formal of the “request for” documents
+and has strict procurement rules for content, time line, and seller responses.
+The buyer structures bid documents to facilitate both an accurate and complete response from
+each prospective seller and an easy evaluation of the responses. These documents include a
+description of the desired form of the response, the relevant procurement statement of work
+(SOW), and any required contractual provisions.
+The complexity and level of detail of the bid documents should be consistent with the value of,
+and risks associated with, the planned procurement. Bid documents are required to be sufficiently
+detailed to ensure consistent, appropriate responses, but flexible enough to allow consideration of
+any seller suggestions for better ways to satisfy the same requirements.
+Business case. A documented economic feasibility study used to establish the validity of the benefits
+of a selected component lacking sufficient definition and that is used as a basis for the authorization
+of further project management activities.
+The business case lists the objectives and reasons for project initiation. It helps measure the project
+success at the end of the project against the project objectives. The business case is a project
+business document that is used throughout the project life cycle. The business case may be used
+before project initiation and may result in a go/no-go decision for the project.
+Both the business case and the benefits management plan are developed prior to the project
+being initiated. Additionally, both documents are referenced after the project has been completed.
+Therefore, they are considered business documents rather than project documents or components
+of the project management plan. As appropriate, these business documents may be inputs to some
+of the processes involved in managing the project, such as developing the project charter.
+Business documents. The business case and benefits management plan contain information about
+the project’s objectives and how the project will contribute to the business goals. Although both
+documents are developed prior to the project, they are reviewed periodically.
+In some organizations, the business case and benefits management plan are maintained at the
+program level. The project sponsor is generally accountable for the development and maintenance
+of the project business case document. The project manager is responsible for providing
+recommendations and oversight to keep the project business case, project management plan,
+project charter, and project benefits management plan success measures in alignment with one
+another and with the goals and objectives of the organization.
+Change log. A comprehensive list of changes submitted during the project, which includes the
+current status. The disposition of all change requests is recorded in the change log as a project
+document update.
+Change management plan. A component of the project management plan that establishes the
+change control board (CCB), documents the extent of its authority, and describes how the change
+control system will be implemented.
+The change management plan provides the direction for managing the change control process and
+documents the roles and responsibilities of the CCB.
+Change requests. A change request is a formal proposal to modify any document, deliverable,
+or baseline. Change requests may be initiated internally or externally to the project.
+When issues are found while project work is being performed, change requests are submitted to
+modify project policies or procedures, project or product scope, project cost or budget, project
+schedule, or the quality of the project or product results. Change requests may include corrective
+action, preventive action, defect repair, or updates that reflect modified or additional ideas or content.
+Other change requests cover the needed preventive or corrective actions to eliminate or minimize
+a negative impact later in the project.
+Any stakeholder may request a change. Change requests are processed for review and disposition
+through the Perform Integrated Change Control process.
+Closed procurements. The buyer, usually through its authorized procurement administrator,
+provides the seller with formal written notice that the contract has been completed. Requirements
+for formal procurement closure are usually defined in the terms and conditions of the contract and
+are included in the procurement management plan. Typically, all deliverables should have been
+provided on time and meet technical and quality requirements, there should be no outstanding
+claims or invoices, and all final payments should have been made. The project management team
+should have approved all deliverables prior to closure.
+Communications management plan. The communications management plan is a component of
+the project management plan and describes how project communications will be planned, structured,
+implemented, and monitored for effectiveness. The plan contains the following information:
+▶ Stakeholder communication requirements;
+▶ Information to be communicated, including language, format, content, and level of detail;
+▶ Escalation processes;
+▶ Reason for the distribution of that information;
+▶ Time frame and frequency for the distribution of required information and receipt
+of acknowledgment or response, if applicable;
+▶ Person responsible for communicating the information;
+▶ Person responsible for authorizing release of confidential information;
+▶ Person or groups who will receive the information, including information about their needs,
+requirements, and expectations;
+▶ Methods or technologies used to convey the information, such as memos, email, press
+releases, or social media;
+▶ Resources allocated for communication activities, including time and budget;
+▶ Method for updating and refining the communications management plan as the project
+progresses and develops, such as when the stakeholder community changes as the project
+moves through different phases;
+▶ Glossary of common terminology;
+▶ Flowcharts of the information flow in the project, workflows with possible sequence
+of authorization, list of reports, meeting plans, etc.; and
+▶ Constraints derived from specific legislation or regulation, technology, organizational
+policies, etc.
+The communications management plan can include guidelines and templates for project status
+meetings, project team meetings, virtual meetings, and email messages. The use of a project
+website and project management software can be included if these are to be used in the project.
+Configuration management plan. A component of the project management plan that describes
+how to identify and account for project artifacts under configuration control, and how to record and
+report changes to them.
+The plan describes how information will be recorded and updated so that the product, service, or result
+remains consistent and/or operative. As a general rule, each project’s configuration management plan
+should define which project artifacts need to be placed under configuration control. Any change in a
+configuration element should be formally controlled and will require a change request.
+Cost baseline. The approved version of the time-phased project budget, excluding any management
+reserves, which can be changed only through formal change control procedures and is used as a
+basis for comparison to actual results.
+Cost estimates. A cost estimate is a quantitative assessment of the likely costs for resources required
+to complete the activity. It is a prediction that is based on the information known at a given point in
+time. Cost estimates include the identification and consideration of costing alternatives to initiate and
+complete the project. Cost trade-offs and risks should be considered, such as make versus buy, buy
+versus lease, and the sharing of resources in order to achieve optimal costs for the project.
+Cost estimates are generally expressed in units of some currency (i.e., dollars, euros, yen, etc.). In
+some instances, other units of measure, such as staff hours or staff days, may be used to facilitate
+comparisons by eliminating the effects of currency fluctuations.
+Cost estimates should be reviewed and refined during the course of the project to reflect additional
+details as they become available and assumptions are tested. The accuracy of a project estimate will
+increase as the project progresses through the project life cycle.
+Costs are estimated for all resources that will be charged to the project. This includes but is not
+limited to labor, materials, equipment, services, and facilities, as well as special categories such as an
+inflation allowance, cost of financing, or contingency costs. Cost estimates may be presented at the
+activity level or in summary form.
+Cost forecasts. Based on the project’s past performance, cost forecasts are used to determine if the
+project is within defined tolerance ranges for budget and to identify any necessary change requests.
+Either a calculated estimate at completion (EAC) value or a bottom-up EAC value is documented and
+communicated to stakeholders.
+Cost management plan. A component of a project or program management plan that describes
+how costs will be planned, structured, and controlled. The cost management processes and their
+associated tools and techniques are documented in the cost management plan.
+For example, the cost management plan can establish the following:
+▶ Units of measure. Each unit used in measurements (such as staff hours, staff days, or
+weeks for time measures; meters, liters, tons, kilometers, or cubic yards for quantity
+measures; or lump sum in currency form) is defined for each of the resources.
+▶ Level of precision. This is the degree to which cost estimates will be rounded up or
+down (e.g., US$995.59 to US$1,000), based on the scope of the activities and magnitude
+of the project.
+▶ Level of accuracy. The acceptable range (e.g., ±10%) used in determining realistic cost
+estimates is specified and may include an amount for contingencies.
+▶ Organizational procedures links. The work breakdown structure (WBS) (Section 5.5)
+provides the framework for the cost management plan, allowing for consistency with
+the estimates, budgets, and control of costs. The WBS component used for project cost
+accounting is called the control account. Each control account is assigned a unique code or
+account number(s) that links directly to the performing organization’s accounting system.
+▶ Control thresholds. Variance thresholds for monitoring cost performance may be
+specified to indicate an agreed-upon amount of variation to be allowed before some action
+needs to be taken. Thresholds are typically expressed as percentage deviations from the
+baseline plan.
+▶ Rules of performance measurement. Earned value management (EVM) rules
+of performance measurement are set. For example, the cost management plan may:
+▹
+Define the points in the WBS at which measurement of control accounts will be performed;
+▹
+Establish the EVM techniques (e.g., weighted milestones, fixed-formula, percent
+complete, etc.) to be employed; and
+▹
+Specify tracking methodologies and the EVM computation equations for calculating
+projected estimate at completion (EAC) forecasts to provide a validity check on the
+bottom-up EAC.
+▶ Reporting formats. The formats and frequency for the various cost reports are defined.
+▶ Additional details. Additional details about cost management activities include but are
+not limited to:
+▹
+Description of strategic funding choices,
+▹
+Procedure to account for fluctuations in currency exchange rates, and
+▹
+Procedure for project cost recording.
+For more specific information regarding earned value management, refer to The Standard for Earned
+Value Management [9].
+Deliverables. Unique and verifiable products, results, or capabilities to perform a service that is
+required to be produced to complete a process, phase, or project.
+Projects are undertaken to fulfill objectives by producing deliverables. Deliverables may be tangible
+or intangible.
+Development approach. The development approach defines whether a predictive, adaptive, or
+hybrid development approach will be used.
+Duration estimates. Duration estimates are quantitative assessments of the likely number of time
+periods that are required to complete an activity, phase, or project. Duration estimates do not include
+any lags. Duration estimates may include some indication of the range of possible results. For example:
+▶ A range of 2 weeks ± 2 days, which indicates that the activity will take at least 8 days and
+not more than 12 (assuming a 5-day work week); or
+▶ A 15% probability of exceeding 3 weeks, which indicates a high probability—85%—that the
+activity will take 3 weeks or less.
+Enterprise environmental factors (EEFs). Conditions, not under the immediate control of the
+team, that influence, constrain, or direct the project, program, or portfolio. These conditions can
+be internal and/or external to the organization. EEFs are considered as inputs to many project
+management processes, specifically for most planning processes. These factors may enhance or
+constrain project management options. In addition, these factors may have a positive or negative
+influence on the outcome.
+▶ EEFs internal to the organization:
+▹
+Organizational culture, structure, and governance. Examples include vision, mission,
+values, beliefs, cultural norms, leadership style, hierarchy and authority relationships,
+organizational style, ethics, code of conduct, policies, and procedures.
+▹
+Geographic distribution of facilities and resources. Examples include factory locations
+and virtual teams.
+▹
+Infrastructure. Examples include existing facilities, equipment, organizational telecom-
+munications channels, information technology hardware, availability, and capacity.
+▹
+Information technology software. Examples include scheduling software tools,
+configuration management systems, web interfaces to other online automated
+systems, and work authorization systems.
+▹
+Resource availability. Examples include contracting and purchasing constraints,
+approved providers and subcontractors, and collaboration agreements.
+▹
+Employee capability. Examples include existing human resources expertise, skills,
+competencies, and specialized knowledge.
+▶ EEFs external to the organization:
+▹
+Marketplace conditions. Examples include competitors, market share brand recognition,
+and trademarks.
+▹
+Social and cultural influences and issues. Examples include political climate, codes
+of conduct, ethics, and perceptions.
+▹
+Legal restrictions. Examples include country or local laws and regulations related to
+security, data protection, business conduct, employment, and procurement.
+▹
+Commercial databases. Examples include benchmarking results, standardized cost
+estimating data, industry risk study information, and risk databases.
+▹
+Academic research. Examples include industry studies, publications, and
+benchmarking results.
+▹
+Government or industry standards. Examples include regulatory agency regulations and
+standards related to products, production, environment, quality, and workmanship.
+▹
+Financial considerations. Examples include currency exchange rates, interest rates,
+inflation rates, tariffs, and geographic location.
+▹
+Physical environmental elements. Examples include working conditions, weather,
+and constraints.
+Final product, service, or result transition. A product, service, or result, once delivered by the
+project, may be handed over to a different group or organization that will operate, maintain, and
+support it throughout its life cycle.
+This output refers to this transition of the final product, service, or result that the project was
+authorized to produce (or in the case of phase closure, the intermediate product, service, or result
+of that phase) from one team to another.
+Final report. A summary of project performance, which can include information such as:
+▶ Summary-level description of the project or phase.
+▶ Scope objectives, the criteria used to evaluate the scope, and evidence that the completion
+criteria were met.
+▶ Quality objectives, the criteria used to evaluate the project and product quality, the verification
+and actual milestone delivery dates, and reasons for variances.
+▶ Cost objectives, including the acceptable cost range, actual costs, and reasons for any
+variances.
+▶ Summary of the validation information for the final product, service, or result.
+▶ Schedule objectives, including whether results achieved the benefits that the project was
+undertaken to address. If the benefits are not met at the close of the project, indicate the
+degree to which they were achieved and estimate for future benefits realization.
+▶ Summary of how the final product, service, or result achieved the business needs identified
+in the business plan. If the business needs are not met at the close of the project, indicate
+the degree to which they were achieved and estimate for when the business needs will be
+met in the future.
+▶ Summary of any risks or issues encountered on the project and how they were addressed.
+Independent cost estimates. For large procurements, a procuring organization may elect to
+either prepare its own independent estimate or have a cost estimate prepared by an outside
+professional estimator to serve as a benchmark on proposed responses. Significant differences in
+cost estimates can be an indication that the procurement statement of work (SOW) was deficient
+or ambiguous, or that the prospective sellers either misunderstood or failed to respond fully to
+the procurement SOW.
+Issue log. A project document where information about issues is recorded and monitored.
+Lessons learned register. A project document used to record knowledge gained during a project
+so that it can be used in the current project and entered into the lessons learned repository.
+The lessons learned register can include the category and description of the situation. It may also
+include the impact, recommendations, and proposed actions associated with the situation. The
+lessons learned register records challenges, problems, realized risks and opportunities, or other
+content as appropriate.
+The lessons learned register is created as an output of the Manage Project Knowledge process early in
+the project. Thereafter it is used as an input and updated as an output in many processes throughout
+the project. The persons or teams involved in the work are also involved in capturing the lessons
+learned. Knowledge can be documented using videos, pictures, audios, or other suitable means that
+ensure the efficiency of the lessons captured.
+At the end of a project or phase, the information is transferred to an organizational process asset
+called a lessons learned repository.
+Make-or-buy decisions. Make-or-buy decisions are made regarding the external purchase or internal
+manufacture of a product. A make-or-buy analysis results in a decision as to whether particular work
+can best be accomplished by the project team or needs to be purchased from outside sources.
+Milestone list. A milestone list identifies all project milestones and indicates whether the
+milestone is mandatory, such as those required by contract, or optional, such as those based on
+historical information. Milestones have zero duration because they represent a significant point or
+event in a project.
+Organizational process assets (OPAs). The plans, processes, documents, templates, and knowledge
+repositories specific to and used by the performing organization. These assets influence the
+management of the project.
+OPAs include any artifact, practice, or knowledge from any or all of the performing organizations
+involved in the project that can be used to execute or govern the project. The OPAs also include
+the organization’s lessons learned from previous projects and historical information. OPAs may
+include completed schedules, risk data, and earned value data. OPAs are inputs to many project
+management processes. Since OPAs are internal to the organization, the project team members may
+be able to update and add to the organizational process assets as necessary throughout the project.
+They may be grouped into two categories:
+▶ Processes, documents, and templates. Generally, assets in this category are not updated
+as part of the project work. Processes, documents, and templates are usually established
+by the project management office (PMO) or another function outside of the project. These
+can be updated only by following the appropriate organizational policies associated with
+updating these assets. Some organizations encourage the team to tailor templates, life
+cycles, and checklists for the project. In these instances, the project management team
+should tailor those assets to meet the needs of the project.
+▶ Organizational knowledge repositories. Assets in this category are updated throughout
+the project with project information. For example, information on financial performance,
+lessons learned, performance metrics and issues, and defects are continually updated
+throughout the project.
+Organizational process assets updates. Any organizational process asset can be updated as a result
+of a process. Updates include plans, processes, and knowledge repositories specific to and used by the
+performing organization.
+Outputs from other processes. Outputs from other processes are integrated to create the project
+management plan. Subsidiary plans and baselines that are an output from other processes are inputs
+to this process. In addition, changes to these documents may necessitate updates to the project
+management plan.
+Performance measurement baseline (PMB). An integrated scope, schedule, and cost plan for the
+project work used for comparison to manage, measure, and control project performance.
+Physical resource assignments. This documentation records the material, equipment, supplies,
+locations, and other physical resources that will be used during the project. It describes the expected
+resource utilization and whether the resource is internal to the organization or outsourced. Physical
+resource assignments are dynamic and subject to change due to availability, the project, organization,
+environment, or other factors.
+Pre-assignment. When physical or team resources for a project are determined in advance, they
+are considered pre-assigned. This situation can occur if the project is the result of specific resources
+being identified as part of a competitive proposal or if the project is dependent upon the expertise
+of particular persons. Pre-assignment might also include the team members who have already
+been assigned in Develop Project Charter Process or other processes before the initial resource
+management plan has been completed.
+Probability and impact matrix. A probability and impact matrix is a grid for mapping the probability
+of each risk occurrence and its impact on project objectives if that risk occurs. This matrix specifies
+combinations of probability and impact that allow individual project risks to be divided into priority
+groups (see Figure 9-1). Risks can be prioritized for further analysis and planning of risk responses
+based on their probability and impacts. The probability of occurrence for each individual project risk
+is assessed as well as its impact on one or more project objectives if it does occur, using definitions
+of probability and impact for the project as specified in the risk management plan. Individual project
+risks are assigned to a priority level based on the combination of their assessed probability and
+impact, using a probability and impact matrix.
+An organization can assess a risk separately for each objective (e.g., cost, time, and scope) by having
+a separate probability and impact matrix for each. Alternatively, it may develop ways to determine
+one overall priority level for each risk, either by combining assessments for different objectives, or by
+taking the highest priority level regardless of which objective is affected.
+Procurement documentation. All documents used in signing, executing, and closing an agreement.
+Procurement documentation may include documents predating the project. Procurement docu-
+mentation contains complete supporting records for administration of the procurement processes.
+Procurement documentation includes the statement of work, payment information, contractor work
+performance information, plans, drawings, and other correspondence.
+Procurement documentation updates. Procurement documentation that may be updated
+includes the contract with all supporting schedules, requested unapproved contract changes, and
+approved change requests. Procurement documentation also includes any seller-developed technical
+documentation and other work performance information such as deliverables, seller performance
+reports and warranties, financial documents including invoices and payment records, and the results
+of contract-related inspections.
+Procurement management plan. A component of the project or program management plan
+that describes how a project team will acquire goods and services from outside of the performing
+organization.
+ytilibaborP
+Probability
+Threats Opportunities
+Very High Very High
+0.90 0.05 0.09 0.18 0.36 0.72 0.72 0.36 0.18 0.09 0.05 0.90
+High High
+0.70 0.04 0.07 0.14 0.28 0.56 0.56 0.28 0.14 0.07 0.04 0.70
+Medium Medium
+0.50 0.03 0.05 0.10 0.20 0.40 0.40 0.20 0.10 0.05 0.03 0.50
+Low Low
+0.30 0.02 0.03 0.06 0.12 0.24 0.24 0.12 0.06 0.03 0.02 0.30
+Very Low Very Low
+0.10 0.01 0.01 0.02 0.04 0.08 0.08 0.04 0.02 0.01 0.01 0.10
+Very Low Low Moderate High Very High Very High High Moderate Low Very Low
+0.05 0.10 0.20 0.40 0.80 0.80 0.40 0.20 0.10 0.05
+Negative Impact Positive Impact
+Figure 9-1. Example Probability and Impact Matrix with Scoring Scheme
+The procurement management plan contains the activities to be undertaken during the procurement
+process. It should document whether international competitive bidding, national competitive bidding,
+local bidding, etc., should be done. If the project is financed externally, the sources and availability of
+funding should be aligned with the procurement management plan and the project schedule.
+The procurement management plan can include guidance for:
+▶ How procurement will be coordinated with other project aspects, such as project schedule
+development and control processes;
+▶ Timetable of key procurement activities;
+▶ Procurement metrics to be used to manage contracts;
+▶ Stakeholder roles and responsibilities related to procurement, including authority and
+constraints of the project team when the performing organization has a procurement
+department;
+▶ Constraints and assumptions that could affect planned procurements;
+▶ Legal jurisdiction and the currency in which payments will be made;
+▶ Determination of whether independent estimates will be used and whether they are
+needed as evaluation criteria;
+▶ Risk management issues including identifying requirements for performance bonds
+or insurance contracts to mitigate some forms of project risk; and
+▶ Prequalified sellers, if any, to be used.
+A procurement management plan can be formal or informal, can be highly detailed or broadly
+framed, and is based upon the needs of each project.
+Procurement statement of work. The statement of work (SOW) for each procurement is
+developed from the project scope baseline and defines only that portion of the project scope that
+is to be included within the related contract. The SOW describes the procurement item in sufficient
+detail to allow prospective sellers to determine if they are capable of providing the products,
+services, or results. Sufficient detail can vary based on the nature of the item, the needs of the
+buyer, or the expected contract form. Information included in a SOW can include specifications,
+quantity desired, quality levels, performance data, period of performance, work location, and
+other requirements.
+The procurement SOW should be clear, complete, and concise. It includes a description of any
+collateral services required, such as performance reporting or post-project operational support
+for the procured item. The SOW can be revised as required as it moves through the procurement
+process until incorporated into a signed agreement.
+The phrase terms of reference (TOR) is sometimes used when contracting for services. Similar to the
+procurement SOW, a TOR typically includes these elements:
+▶ Tasks the contractor is required to perform as well as specified coordination requirements;
+▶ Standards the contractor will fulfill that are applicable to the project;
+▶ Data that need to be submitted for approval;
+▶ Detailed list of all data and services that will be provided to the contractor by the buyer for
+use in performing the contract, if applicable; and
+▶ Definition of the schedule for initial submission and the review/approval time required.
+Procurement strategy. Once the make-or-buy analysis is complete and the decision is made to
+acquire from outside the project, a procurement strategy should be identified. The objective of
+the procurement strategy is to determine the project delivery method, the type of legally binding
+agreement(s), and how the procurement will advance through the procurement phases.
+▶ Delivery methods. Delivery methods are different for professional services versus
+construction projects.
+▹
+For professional services, delivery methods include: buyer/services provider with no
+subcontracting, buyer/services provider with subcontracting allowed, joint venture
+between buyer and services provider, and buyer/services provider acts as the
+representative.
+▹
+For industrial or commercial construction, project delivery methods include but are not
+limited to: turnkey, design build (DB), design bid build (DBB), design build operate
+(DBO), build own operate transfer (BOOT), and others.
+▶ Contract payment types. Contract payment types are separate from the project delivery
+methods and are coordinated with the buying organization’s internal financial systems.
+They include but are not limited to these contract types plus variations: lump sum, firm
+fixed price, cost plus fixed fee, cost plus award fees, cost plus incentive fees, time and
+materials, target cost, and others.
+▹
+Fixed-price contracts are suitable when the type of work is predictable and the
+requirements are well defined and not likely to change.
+▹
+Cost plus contracts are suitable when the work is evolving, likely to change,
+or not well defined.
+▹
+Incentives and awards may be used to align the objectives of buyer and seller.
+▶ Procurement phases. The procurement strategy can also include information on
+procurement phases. Information may include:
+▹
+Sequencing or phasing of the procurement, a description of each phase and the
+specific objectives of each phase;
+▹
+Procurement performance indicators and milestones to be used in monitoring;
+▹
+Criteria for moving from phase to phase;
+▹
+Monitoring and evaluation plan for tracking progress; and
+▹
+Process for knowledge transfer for use in subsequent phases.
+Project calendars. A project calendar identifies working days and shifts that are available for
+scheduled activities. It distinguishes time periods in days or parts of days that are available to
+complete scheduled activities from time periods that are not available for work. A schedule model
+may require more than one project calendar to allow for different work periods for some activities
+to calculate the project schedule. Project calendars may be updated.
+Project charter. A document issued by the project initiator or sponsor that formally authorizes the
+existence of a project and provides the project manager with the authority to apply organizational
+resources to project activities.
+Project communications. Project communications artifacts may include but are not limited to:
+performance reports, deliverable status, schedule progress, cost incurred, presentations, and other
+information required by stakeholders.
+Project documents. The documentation created throughout the five Process Groups to initiate,
+plan, execute, manage and control, close, and deliver the project. There are 33 project documents
+listed in Table 1-6 of this practice guide. Examples include change log, issue log, project schedule,
+project scope statement, requirements documentation, risk register, and stakeholder register.
+Project documents updates. The documentation that is updated throughout the five Process
+Groups to initiate, plan, execute, manage and control, close, and deliver the project. There are
+33 project documents listed in Table 1-6 of this practice guide. Examples include change log, issue
+log, project schedule, project scope statement, requirements documentation, risk register, and
+stakeholder register.
+Project funding requirements. Total funding requirements and periodic funding requirements
+(e.g., quarterly, annually) are derived from the cost baseline. The cost baseline includes projected
+expenditures plus anticipated liabilities. Funding often occurs in incremental amounts, and may
+not be evenly distributed, which appear as steps in Figure 9-2. The total funds required are those
+included in the cost baseline plus management reserves, if any. Funding requirements may include
+the source(s) of the funding. The budget at completion (BAC) is the sum of all budgets established for
+the work to be performed.
+Project Budget
+Management Reserve
+BAC
+Funding Requirements
+Expenditures
+Cost Baseline
+Time
+Project life cycle description. The project life cycle determines the series of phases that a project
+passes through from its inception to the end of the project.
+Project management plan. The document that describes how the project will be executed, monitored
+and controlled, and closed.
+seulaV
+evitalumuC
+Figure 9-2. Cost Baseline, Expenditures, and Funding Requirements
+Project management plan updates. Updates to the document that describes how the project is being
+executed, monitored and controlled, and closed.
+Project schedule. A schedule model output that presents linked activities with planned dates,
+durations, milestones, and resources. The detailed project schedule should be flexible throughout
+the project to adjust for the knowledge gained, increased understanding of the risks, and value-
+added activities.
+Project schedule network diagrams. A project schedule network diagram is a graphical
+representation of the logical relationships, also referred to as dependencies, among the project
+schedule activities. Figure 9-3 illustrates a project schedule network diagram. A project schedule
+network diagram is produced manually or by using project management software. It can include
+full project details or have one or more summary activities. A summary narrative can accompany
+the diagram and describe the basic approach used to sequence the activities. Any unusual activity
+sequences within the network should be fully described within the narrative.
+Activities that have multiple predecessor activities indicate a path convergence. Activities that have
+multiple successor activities indicate a path divergence. Activities with divergence and convergence
+are at greater risk as they are affected by multiple activities or can affect multiple activities. Activity
+I is called a path convergence, as it has more than one predecessor, while activity K is called a path
+divergence, as it has more than one successor.
+A B
+SS
+C D E
+FS + 15
+Begin H F G End
+SS + 10
+I J
+FF
+K L
+Figure 9-3. Example of Project Schedule Network Diagram
+Project scope statement. The project scope statement includes the description of the project
+scope, major deliverables, and exclusions. The project scope statement documents the entire
+scope, including project and product scope. It describes the project’s deliverables in detail. It also
+provides a common understanding of the project scope among project stakeholders. It may contain
+explicit scope exclusions that can assist in managing stakeholder expectations. It enables the
+project team to perform more detailed planning, guides the project team’s work during execution,
+and provides the baseline for evaluating whether requests for changes or additional work are
+contained within or outside the project’s boundaries.
+The degree and level of detail to which the project scope statement defines the work that will be
+performed and the work that is excluded, can help determine how well the project management
+team can control the overall project scope. The detailed project scope statement, either directly
+or by reference to other documents, includes the following:
+▶ Product scope description. Progressively elaborates the characteristics of the product,
+service, or result described in the project charter and requirements documentation.
+▶ Deliverables. Any unique and verifiable product, result, or capability to perform a service
+that is required to be produced to complete a process, phase, or project. Deliverables also
+include ancillary results, such as project management reports and documentation. These
+deliverables may be described at a summary level or in great detail.
+▶ Acceptance criteria. A set of conditions that is required to be met before deliverables
+are accepted.
+▶ Project exclusions. Identifies what is excluded from the project. Explicitly stating what
+is out of scope for the project helps manage stakeholders’ expectations and can reduce
+scope creep.
+Although the project charter and the project scope statement are sometimes perceived as containing
+a certain degree of redundancy, they are different in the level of detail contained in each. The project
+charter contains high-level information, while the project scope statement contains a detailed
+description of the scope components. These components are progressively elaborated throughout
+the project. Table 9-1 describes some of the key elements for each document.
+Table 9-1. Elements of the Project Charter and Project Scope Statement
+Project Charter Project Scope Statement
+Project purpose Project scope description (progressively
+elaborated)
+Measurable project objectives and related
+success criteria Project deliverables
+High-level requirements Acceptance criteria
+High-level project description, boundaries, Project exclusions
+and key deliverables
+Overall project risk
+Summary milestone schedule
+Preapproved financial resources
+Key stakeholder list
+Project approval requirements (i.e., what
+constitutes success, who decides the
+project is successful, who signs off on the
+project)
+Project exit criteria (i.e., what are the
+conditions to be met in order to close or
+to cancel the project or phase)
+Assigned project manager, responsibility,
+and authority level
+Name and authority of the sponsor or
+other person(s) authorizing the project
+charter
+Project team assignments. A document containing a record of the team members and their roles and
+responsibilities for the project. This documentation can include a project team directory and names
+inserted into the project management plan, such as the project organization charts and schedules.
+Quality control measurements. The documented results of the Control Quality process activities.
+The measurements should be captured in the format specified in the quality management plan.
+Quality management plan. The quality management plan is a component of the project
+management plan and describes how applicable policies, procedures, and guidelines will be
+implemented to achieve the quality objectives. It describes the activities and resources necessary
+for the project management team to achieve the quality objectives set for the project. The quality
+management plan may be formal or informal, detailed or broadly framed. The style and detail of the
+quality management plan are determined by the requirements of the project. It should be reviewed
+early in the project to ensure that decisions are based on accurate information. The benefits of this
+review can include a sharper focus on the project’s value proposition, reductions in costs, and less
+frequent schedule overruns that are caused by rework.
+The quality management plan may include but is not limited to the following components:
+▶ Quality standards that will be used by the project,
+▶ Quality objectives of the project,
+▶ Quality roles and responsibilities,
+▶ Project deliverables and processes subject to quality review,
+▶ Quality control and quality management activities planned for the project,
+▶ Quality tools that will be used for the project, and
+▶ Major procedures relevant for the project, such as dealing with nonconformance,
+corrective actions procedures, and continuous improvement procedures.
+Quality metrics. A quality metric specifically describes a project or product attribute and how
+the Control Quality process will verify compliance to it. Some examples of quality metrics include
+percentage of tasks completed on time, cost performance measured by a cost performance index
+(CPI), failure rate, number of defects identified per day, total downtime per month, errors found per
+line of code, customer satisfaction scores, and percentage of requirements covered by the test plan
+as a measure of test coverage.
+Quality report. A project document that includes quality management issues, recommendations
+for corrective actions, and a summary of findings from quality control activities. It may include
+recommendations for process, project, and product improvements.
+Quality reports can be graphical, numerical, or qualitative. The information provided can
+be used by other processes and departments to take corrective actions in order to achieve the
+expected quality. Information presented in the quality reports may include all quality management
+issues escalated by the team; recommendations for process, project, and product improvements;
+corrective actions recommendations (including rework, defect/bugs repair, 100% inspection, and
+more); and the summary of findings from the Control Quality process.
+Requirements documentation. A description of how individual requirements meet the business
+need for the project.
+Requirements may start out at a high level and become progressively more detailed as more
+information about the requirements becomes known. Before being baselined, requirements need
+to be unambiguous (measurable and testable), traceable, complete, consistent, and acceptable to
+key stakeholders. The format of the requirements document may range from a simple document
+listing all of the requirements categorized by stakeholder and priority, to more elaborate forms
+containing an executive summary, detailed descriptions, and attachments.
+Many organizations categorize requirements into different types, such as business and technical
+solutions. Business solutions refer to stakeholder needs and technical solutions determine how those
+needs will be implemented. Requirements can be grouped into classifications allowing for further
+refinement and detail as the requirements are elaborated. These classifications include:
+▶ Business requirements. These describe the higher-level needs of the organization as
+a whole, such as business issues or opportunities, and reasons why a project has been
+undertaken.
+▶ Stakeholder requirements. These describe the needs of a stakeholder or stakeholder group.
+▶ Solution requirements. These describe features, functions, and characteristics of the
+product, service, or result that will meet the business and stakeholder requirements.
+Solution requirements are further grouped into functional and nonfunctional
+requirements:
+▹
+Functional requirements. Functional requirements describe the behaviors of the product.
+Examples include actions, processes, data, and interactions that the product should
+execute.
+▹
+Nonfunctional requirements. Nonfunctional requirements supplement functional
+requirements and describe the environmental conditions or qualities required for the
+product to be effective. Examples include reliability, security, performance, safety, level
+of service, supportability, retention/purge, etc.
+▶ Transition and readiness requirements. These describe temporary capabilities, such
+as data conversion and training requirements, needed to transition from the current as-is
+state to the desired future state.
+▶ Project requirements. These describe the actions, processes, or other conditions the project
+needs to meet. Examples include milestone dates, contractual obligations, constraints, etc.
+▶ Quality requirements. These capture any condition or criteria needed to validate the
+successful completion of a project deliverable or fulfillment of other project requirements.
+Examples include tests, certifications, validations, etc.
+Requirements management plan. The requirements management plan is a component of the
+project management plan and describes how project and product requirements will be analyzed,
+documented, and managed. According to Business Analysis for Practitioners: A Practice Guide [3], some
+organizations refer to it as a business analysis plan. Components of the requirements management
+plan can include but are not limited to:
+▶ How requirements activities will be planned, tracked, and reported;
+▶ Configuration management activities, such as:
+▹
+How changes will be initiated;
+▹
+How impacts will be analyzed;
+▹
+How changes will be traced, tracked, and reported; and
+▹
+Authorization levels required to approve these changes.
+▶ Requirements prioritization process;
+▶ Metrics that will be used and the rationale for using them; and
+▶ Traceability structure that reflects the requirement attributes captured on the
+traceability matrix.
+Requirements traceability matrix. The requirements traceability matrix is a grid that links
+product requirements from their origin to the deliverables that satisfy them. The implementation
+of a requirements traceability matrix helps to ensure that each requirement adds business value
+by linking it to the business and project objectives. It provides a means to track requirements
+throughout the project life cycle, helping to ensure that requirements approved in the requirements
+documentation are delivered at the end of the project. Finally, it provides a structure for managing
+changes to the product scope.
+Tracing requirements includes but is not limited to:
+▶ Business needs, opportunities, goals, and objectives;
+▶ Project objectives;
+▶ Project scope and WBS deliverables;
+▶ Product design;
+▶ Product development;
+▶ Test strategy and test scenarios; and
+▶ High-level requirements to more detailed requirements.
+Attributes associated with each requirement can be recorded in the requirements traceability
+matrix. These attributes help to define key information about the requirement. Typical attributes
+used in the requirements traceability matrix may include: a unique identifier, a textual description
+of the requirement, the rationale for inclusion, owner, source, priority, version, current status
+(e.g., active, cancelled, deferred, added, approved, assigned, completed), and status date. Additional
+attributes to ensure that the requirement has met stakeholders’ satisfaction may include stability,
+complexity, and acceptance criteria. Figure 9-4 provides an example of a requirements traceability
+matrix with its associated attributes.
+Resource breakdown structure. A hierarchical representation of resources by category and type.
+Examples of resource categories include but are not limited to labor, material, equipment, and
+supplies. Resource types may include the skill level, grade level, required certifications, or other
+information as appropriate to the project. See Figure 9-5 for an example.
+Requirements Traceability Matrix
+Project Name:
+Cost Center:
+Project Description:
+Business Needs,
+Associate Project WBS Product Product Test
+ID Requirements Description Opportunities,
+ID Objectives Deliverables Design Development Cases
+Goals, Objectives
+1.0
+1.1
+1.2
+1.2.1
+2.0
+002 2.1
+2.1.1
+3.0
+003 3.1
+3.2
+004 4.0
+005 5.0
+Figure 9-4. Example of a Requirements Traceability Matrix
+Project
+Personnel Material Equipment
+Role Role Role Material Material Equipment Equipment
+1 2 3 1 2 1 2
+Level Level Grade
+1 2 2
+Figure 9-5. Sample Resource Breakdown Structure
+Resource calendars. A resource calendar identifies the working days, shifts, start and end of normal
+business hours, weekends, and public holidays when each specific resource is available. Information
+on which resources (such as team resource, equipment, and material) are potentially available during
+a planned activity period is used for estimating resource utilization. Resource calendars also specify
+when, and for how long, identified team and physical resources will be available during the project.
+This information may be at the activity or project level. This includes consideration of attributes such
+as resource experience and/or skill level, as well as various geographical locations.
+Resource management plan. The resource management plan is a component of the project
+management plan that provides guidance on how project resources should be categorized, allocated,
+managed, and released. It may be divided between the team management plan and physical resource
+management plan according to the specifics of the project. The resource management plan may
+include but is not limited to:
+▶ Identification of resources. Methods for identifying and quantifying team and physical
+resources needed.
+▶ Acquiring resources. Guidance on how to acquire team and physical resources for the project.
+▶ Roles and responsibilities:
+▹
+Role. The function assumed by, or assigned to, a person in the project. Examples of
+project roles are civil engineer, business analyst, and testing coordinator.
+▹
+Authority. The right to apply project resources, make decisions, sign approvals, accept
+deliverables, and influence others to carry out the work of the project. Examples of
+decisions that need clear authority include the selection of a method for completing
+an activity, quality acceptance criteria, and how to respond to project variances. Team
+members operate best when their individual levels of authority match their individual
+responsibilities.
+▹
+Responsibility. The assigned duties and work that a project team member is expected
+to perform in order to complete the project’s activities.
+▹
+Competence. The skill and capacity required to complete assigned activities within the
+project constraints. If project team members do not possess required competencies,
+performance can be jeopardized. When such mismatches are identified, proactive
+responses such as training, hiring, schedule changes, or scope changes are initiated.
+▶ Project organization charts. A project organization chart is a graphic display of project
+team members and their reporting relationships. It can be formal or informal, highly
+detailed or broadly framed, based on the needs of the project. For example, the project
+organization chart for a 3,000-person disaster response team will have greater detail than
+a project organization chart for an internal, 20-person project.
+▶ Project team resource management. Guidance on how project team resources should
+be defined, staffed, managed, and eventually released.
+▶ Training. Training strategies for team members.
+▶ Team development. Methods for developing the project team.
+▶ Resource control. Methods for ensuring adequate physical resources are available as
+needed and that the acquisition of physical resources is optimized for project needs.
+Includes information on managing inventory, equipment, and supplies throughout the
+project life cycle.
+▶ Recognition plan. Which recognition and rewards will be given to team members, and
+when they will be given.
+Resource requirements. Resource requirements identify the types and quantities of resources
+required for each work package or activity in a work package and can be aggregated to determine the
+estimated resources for each work package, each WBS branch, and the entire project. The amount of
+detail and the level of specificity of the resource requirement descriptions can vary by application area.
+The resource requirements’ documentation can include assumptions that were made in determining
+which types of resources are applied, their availability, and what quantities are needed.
+Risk register. A repository in which outputs of risk processes are recorded. The risk register captures
+details of identified individual project risks. Record the results of the following processes in the risk
+register as these processes are conducted throughout the project:
+▶ Perform Qualitative Risk Analysis,
+▶ Plan Risk Responses,
+▶ Implement Risk Responses, and
+▶ Monitor Risks.
+The risk register may contain limited or extensive risk information depending on project variables
+such as size and complexity.
+When the Identify Risks process is performed, the content of the risk register may include but is not
+limited to:
+▶ List of identified risks. Each individual project risk is given a unique identifier in the risk
+register. Identified risks are described in as much detail as required to ensure unambiguous
+understanding. A structured risk statement may be used to distinguish risks from their
+cause(s) and their effect(s).
+▶ Potential risk owners. Where a potential risk owner has been identified during the Identify
+Risks process, the risk owner is recorded in the risk register. This will be confirmed during
+the Perform Qualitative Risk Analysis process.
+▶ List of potential risk responses. Where a potential risk response has been identified
+during the Identify Risks process, it is recorded in the risk register. This will be confirmed
+during the Plan Risk Responses process.
+Additional data may be recorded for each identified risk, depending on the risk register format
+specified in the risk management plan. This may include:
+▶ Short risk title,
+▶ Risk category,
+▶ Current risk status,
+▶ One or more causes,
+▶ One or more effects on objectives,
+▶ Risk triggers (events or conditions that indicate that a risk is about to occur),
+▶ WBS reference of affected activities, and
+▶ Timing information (when risk was identified, when risk might occur, when risk may no
+longer be relevant, and the deadline for taking action).
+Risk management plan. The risk management plan is a component of the project management
+plan and describes how risk management activities will be structured and performed. The risk
+management plan may include some or all of the following elements:
+▶ Risk strategy. Describes the general approach to managing risk on this project.
+▶ Methodology. Defines the specific approaches, tools, and data sources that will be used
+to perform risk management on the project.
+▶ Roles and responsibilities. Defines the lead, support, and risk management team
+members for each type of activity described in the risk management plan and clarifies
+their responsibilities.
+▶ Funding. Identifies the funds needed to perform activities related to the management
+of risk. Establishes protocols for the application of contingency and management reserves.
+▶ Timing. Defines when and how often the risk processes will be performed throughout
+the project life cycle and establishes risk management activities for inclusion into the
+project schedule.
+▶ Risk categories. Provide a means for grouping individual project risks. A common way to
+structure risk categories is with a risk breakdown structure (RBS), which is a hierarchical
+representation of potential sources of risk (see example in Figure 9-6). An RBS helps the
+project team consider the full range of sources from which individual project risks may
+arise. This can be useful when identifying risks or when categorizing identified risks. The
+organization may have a generic RBS to be used for all projects, or there may be several RBS
+frameworks for different types of projects, or the project may develop a tailored RBS. Where
+an RBS is not used, an organization may use a custom risk categorization framework, which
+may take the form of a simple list of categories or a structure based on project objectives.
+RBS LEVEL 0 RBS LEVEL 1 RBS LEVEL 2
+1.1 Scope definition
+1.2 Requirements definition
+1.3 Estimates, assumptions, and constraints
+1. TECHNICAL RISK 1.4 Technical processes
+1.5 Technology
+1.6 Technical interfaces
+Etc.
+2.1 Project management
+2.2 Program/portfolio management
+2.3 Operations management
+2. MANAGEMENT RISK 2.4 Organization
+2.5 Resourcing
+2.6 Communication
+0. ALL SOURCES OF Etc.
+PROJECT RISK
+3.1 Contractual terms and conditions
+3.2 Internal procurement
+3.3 Suppliers and vendors
+3. COMMERCIAL RISK 3.4 Subcontracts
+3.5 Client/customer stability
+3.6 Partnerships and joint ventures
+Etc.
+4.1 Legislation
+4.2 Exchange rates
+4.3 Site/facilities
+4. EXTERNAL RISK 4.4 Environmental/weather
+4.5 Competition
+4.6 Regulatory
+Etc.
+Figure 9-6. Excerpt from Sample Risk Breakdown Structure (RBS)
+▶ Stakeholder risk appetite. The risk appetites of key stakeholders on the project are
+recorded in the risk management plan, as they inform the details of the Plan Risk
+Management process. Stakeholder risk appetite should be expressed as measurable risk
+thresholds around each project objective. These thresholds will determine the acceptable
+level of overall project risk exposure, and they are also used to inform the definitions of
+probability and impacts to be used when assessing and prioritizing individual project risks.
+▶ Definitions of risk probability and impacts. Definitions of risk probability and impact
+levels are specific to the project context and reflect the risk appetite and thresholds of
+the organization and key stakeholders. The project may generate specific definitions of
+probability and impact levels, or it may start with general definitions provided by the
+organization. The number of levels reflects the degree of detail required for the risk
+process, with more levels used for a more detailed risk approach (typically five levels), and
+fewer for a simple process (usually three). Table 9-2 provides an example of definitions
+of probability and impacts against three project objectives. These scales can be used to
+evaluate both threats and opportunities by interpreting the impact definitions as negative
+for threats (delay, additional cost, and performance shortfall) and positive for opportunities
+(reduced time or cost, and performance enhancement).
+Table 9-2. Example of Definitions for Probability and Impacts
++/– IMPACT ON PROJECT OBJECTIVES
+SCALE PROBABILITY
+TIME COST QUALITY
+Very High >70% >6 months >$5M Very significant impact on overall functionality
+High 51-70% 3-6 months $1M-$5M Significant impact on overall functionality
+Medium 31-50% 1-3 months $501K-$1M Some impact in key functional areas
+Low 11-30% 1-4 weeks $100K-$500K Minor impact on overall functionality
+Very Low 1-10% 1 week <$100K Minor impact on secondary functions
+Nil <1% No change No change No change in functionality
+Risk report. The risk report presents information on sources of overall project risk, together with
+summary information on identified individual project risks. The risk report is developed progressively
+throughout the risk processes. Include the results of the following processes in the risk report as
+these processes are completed:
+▶ Perform Qualitative Risk Analysis,
+▶ Perform Quantitative Risk Analysis,
+▶ Plan Risk Responses,
+▶ Implement Risk Responses, and
+▶ Monitor Risks.
+When the Identify Risks process is completed, information in the risk report may include but is not
+limited to:
+▶ Sources of overall project risk, indicating which are the most important drivers of overall
+project risk exposure; and
+▶ Summary information on identified individual project risks, such as number of identified
+threats and opportunities, distribution of risks across risk categories, metrics and trends, etc.
+Additional information may be included in the risk report, depending on the reporting requirements
+specified in the risk management plan.
+Schedule baseline. The approved version of a schedule model that can be changed only through
+formal change control procedures and is used as the basis for comparison to actual results. It is
+accepted and approved by the appropriate stakeholders as the schedule baseline with baseline start
+dates and baseline finish dates. During monitoring and controlling, the approved baseline dates are
+compared to the actual start and finish dates to determine if variances have occurred. The schedule
+baseline is a component of the project management plan.
+Schedule data. The schedule data for the project schedule model is the collection of information
+for describing and controlling the schedule. The schedule data includes, at a minimum, the schedule
+milestones, schedule activities, activity attributes, and documentation of all identified assumptions
+and constraints. The amount of additional data varies by application area. Information frequently
+supplied as supporting detail includes but is not limited to:
+▶ Resource requirements by time period, often in the form of a resource histogram;
+▶ Alternative schedules, such as best case or worst case, not resource-leveled or resource-
+leveled, or with or without imposed dates; and
+▶ Applied schedule reserves.
+Schedule data could also include such items as resource histograms, cashflow projections, order and
+delivery schedules, or other relevant information.
+Schedule forecasts. Estimates or predictions of conditions and events in the project’s future based
+on information and knowledge available at the time the schedule is calculated. Forecasts are updated
+and reissued based on work performance information provided as the project is executed. The
+information is based on the project’s past performance and expected future performance based on
+corrective or preventive actions. This can include earned value performance indicators, as well as
+schedule reserve information that could impact the project in the future.
+Schedule management plan. A component of the project or program management plan that
+establishes the criteria and the activities for developing, monitoring, and controlling the schedule.
+The schedule management plan may be formal or informal, highly detailed or broadly framed based
+on the needs of the project, and it includes appropriate control thresholds.
+The schedule management plan can establish the following:
+▶ Project schedule model development. The scheduling methodology and the scheduling
+tool to be used in the development of the project schedule model are specified.
+▶ Release and iteration length. When using an adaptive life cycle, the timeboxed periods
+for releases, waves, and iterations are specified. Timeboxed periods are durations during
+which the team works steadily toward completion of a goal. Timeboxing helps to minimize
+scope creep as it forces the teams to process essential features first, then other features
+when time permits.
+▶ Level of accuracy. The level of accuracy specifies the acceptable range used in determining
+realistic activity duration estimates and may include an amount for contingencies.
+▶ Units of measure. Each unit of measurement (such as staff hours, staff days, or weeks for
+time measures, or meters, liters, tons, kilometers, or cubic yards for quantity measures)
+is defined for each of the resources.
+▶ Organizational procedures links. The work breakdown structure (WBS) provides the
+framework for the schedule management plan, allowing for consistency with the estimates
+and resulting schedules.
+▶ Project schedule model maintenance. The process used to update the status and record
+progress of the project in the schedule model during the execution of the project is defined.
+▶ Control thresholds. Variance thresholds for monitoring schedule performance may be
+specified to indicate an agreed-upon amount of variation to be allowed before some action
+needs to be taken. Thresholds are typically expressed as percentage deviations from the
+parameters established in the baseline plan.
+▶ Rules of performance measurement. Earned value management (EVM) rules or other
+physical measurement rules of performance measurement are set. For example, the
+schedule management plan may specify:
+▹
+Rules for establishing percent complete,
+▹
+EVM techniques (e.g., baselines, fixed-formula, percent complete, etc.) to be
+employed (for more specific information, refer to the Standard for Earned Value
+Management [9]), and
+▹
+Schedule performance measurements, such as schedule variance (SV) and schedule
+performance index (SPI), used to assess the magnitude of variation to the original
+schedule baseline.
+▶ Reporting formats. The formats and frequency for the various schedule reports are defined.
+Scope baseline. The approved version of a scope statement, work breakdown structure (WBS), and
+its associated WBS dictionary, which can be changed using formal change control procedures and is
+used as a basis for comparison to actual results. It is a component of the project management plan.
+Components of the scope baseline include:
+▶ Project scope statement. The project scope statement includes the description of the
+project scope, major deliverables, and exclusions.
+▶ WBS. The WBS is a hierarchical decomposition of the total scope of work to be carried
+out by the project team to accomplish the project objectives and create the required
+deliverables. Each descending level of the WBS represents an increasingly detailed
+definition of the project work.
+▹
+Work package. The lowest level of the WBS is a work package with a unique identifier.
+These identifiers provide a structure for hierarchical summation of costs, schedule,
+and resource information and form a code of accounts. Each work package is part of
+a control account. A control account is a management control point where the scope,
+budget, and schedule are integrated and compared to the earned value for performance
+measurement. A control account has two or more work packages, though each work
+package is associated with a single control account.
+▹
+Planning package. A control account may include one or more planning packages. A
+planning package is a WBS component below the control account and above the work
+package with known work content but without detailed schedule activities.
+▶ WBS dictionary. The WBS dictionary is a document that provides detailed deliverable,
+activity, and scheduling information about each component in the WBS. The WBS dictionary
+is a document that supports the WBS. Most of the information included in the WBS
+dictionary is created by other processes and added to this document at a later stage.
+Information in the WBS dictionary may include but is not limited to:
+▹
+Code of account identifier,
+▹
+Description of work,
+▹
+Assumptions and constraints,
+▹
+Responsible organization,
+▹
+Schedule milestones,
+▹
+Associated schedule activities,
+▹
+Resources required,
+▹
+Cost estimates,
+▹
+Quality requirements,
+▹
+Acceptance criteria,
+▹
+Technical references, and
+▹
+Agreement information.
+Scope management plan. The scope management plan is a component of the project management
+plan and describes how the scope will be defined, developed, monitored, controlled, and validated.
+The components of a scope management plan include:
+▶ Process for preparing a project scope statement,
+▶ Process that enables the creation of the work breakdown structure (WBS) from the detailed
+project scope statement,
+▶ Process that establishes how the scope baseline will be approved and maintained, and
+▶ Process that specifies how formal acceptance of the completed project deliverables will
+be obtained.
+The scope management plan can be formal or informal, broadly framed or highly detailed, based on
+the needs of the project.
+Selected sellers. The selected sellers are those who have been judged to be in a competitive range
+based on the outcome of the proposal or bid evaluation. Final approval of complex, high-value, high-
+risk procurements will generally require organizational senior management approval prior to award.
+Seller proposals. Seller proposals are prepared in response to a bid document package and form
+the basic information that will be used by an evaluation body to select one or more successful
+bidders (sellers). If the seller is going to submit a price proposal, good practice is to require that
+it be separate from the technical proposal. The evaluation body reviews each submitted proposal
+according to the source selection criteria and selects the seller that can best satisfy the buying
+organization’s requirements.
+Source selection criteria. In choosing evaluation criteria, the buyer seeks to ensure that the
+proposal selected will offer the best quality for the services required. The source selection criteria
+may include but are not limited to:
+▶ Capability and capacity;
+▶ Product cost and life cycle cost;
+▶ Delivery dates;
+▶ Technical expertise and approach;
+▶ Specific relevant experience;
+▶ Adequacy of the proposed approach and work plan in responding to the SOW;
+▶ Key staff’s qualifications, availability, and competence;
+▶ Financial stability of the firm;
+▶ Management experience; and
+▶ Suitability of the knowledge transfer program, including training.
+For international projects, evaluation criteria may include “local content” requirements, for example,
+participation by nationals among proposed key staff.
+The specific criteria may be a numerical score, color-code, or a written description of how well the seller
+satisfies the buying organization’s needs. The criteria will be part of a weighting system that can be
+used to select a single seller that will be asked to sign a contract and establish a negotiating sequence
+by ranking all of the proposals by the weighted evaluation scores assigned to each proposal.
+Stakeholder engagement plan. The stakeholder engagement plan is a component of the project
+management plan that identifies the strategies and actions required to promote productive
+involvement of stakeholders in decision making and execution. It can be formal or informal and highly
+detailed or broadly framed, based on the needs of the project and the expectations of stakeholders.
+The stakeholder engagement plan may include but is not limited to specific strategies or approaches
+for engaging with individuals or groups of stakeholders.
+Stakeholder register. A project document including the identification, assessment, and classification
+of project stakeholders. This document contains information about identified stakeholders that
+includes but is not limited to:
+▶ Identification information. Name, organizational position, location and contact details,
+and role on the project.
+▶ Assessment information. Major requirements, expectations, potential for influencing
+project outcomes, and the phase of the project life cycle where the stakeholder has the
+most influence or impact.
+▶ Stakeholder classification. Internal/external, impact/influence/power/interest, upward/
+downward/outward/sideward, or any other classification model chosen by the project
+manager.
+Team charter. The team charter is a document that establishes the team values, agreements, and
+operating guidelines for the team. The team charter may include but is not limited to:
+▶ Team values,
+▶ Communication guidelines,
+▶ Decision-making criteria and process,
+▶ Conflict resolution process,
+▶ Meeting guidelines, and
+▶ Team agreements.
+The team charter establishes clear expectations regarding acceptable behavior by project team
+members. Early commitment to clear guidelines decreases misunderstandings and increases
+productivity. Discussing areas such as codes of conduct, communication, decision making, and
+meeting etiquette allows team members to discover values that are important to one another. The
+team charter works best when the team develops it, or at least has an opportunity to contribute to
+it. All project team members share responsibility for ensuring the rules documented in the team
+charter are followed. The team charter can be reviewed and updated periodically to ensure a
+continued understanding of the team ground rules and to orient and integrate new team members.
+Team performance assessments. As project team development efforts such as training, team
+building, and colocation are implemented, the project management team makes formal or informal
+assessments of the project team’s effectiveness. Effective team development strategies and activities
+are expected to increase the team’s performance, which increases the likelihood of meeting project
+objectives.
+The evaluation of a team’s effectiveness may include indicators such as:
+▶ Improvements in skills that allow individuals to perform assignments more effectively,
+▶ Improvements in competencies that help team members perform better as a team,
+▶ Reduced staff turnover rate, and
+▶ Increased team cohesiveness where team members share information and experiences
+openly and help each other to improve the overall project performance.
+As a result of conducting an evaluation of the team’s overall performance, the project management
+team can identify the specific training, coaching, mentoring, assistance, or changes required to
+improve the team’s performance. This should also include identifying the appropriate or required
+resources necessary to achieve and implement the improvements identified in the assessment.
+Test and evaluation documents. Project documents that describe the activities used to determine if
+the product meets the quality objectives stated in the quality management plan. Test and evaluation
+documents can be created based on industry needs and the organization’s templates. They are
+used to evaluate the achievement of the quality objectives. These documents may include dedicated
+checklists and detailed requirements traceability matrices as part of the document.
+Verified deliverables. Completed project deliverables that have been checked and confirmed for
+correctness through the Control Quality process. A goal of the Control Quality process is to determine
+the correctness of deliverables. The results of performing the Control Quality process are verified
+deliverables that become an input to the Validate Scope process for formalized acceptance. If there
+were any change requests or improvements related to the deliverables, they may be changed,
+inspected, and reverified.
+Virtual teams. Groups of people with a shared goal who fulfill their roles with little or no time spent
+meeting face to face.
+The use of virtual teams creates new possibilities when acquiring project team members. Virtual
+teams can be defined as groups of people with a shared goal who fulfill their roles with little or no
+time spent meeting face to face. The availability of communication technology such as email, audio
+conferencing, social media, web-based meetings, and videoconferencing has made virtual teams
+feasible. The virtual team model makes it possible to:
+▶ Form teams of people from the same organization who live in widespread geographic areas;
+▶ Add special expertise to a project team even though the expert is not in the same
+geographic area;
+▶ Incorporate employees who work from home offices;
+▶ Form teams of people who work different shifts, hours, or days;
+▶ Include people with mobility limitations or disabilities;
+▶ Move forward with projects that would have been held or canceled due to travel
+expenses; and
+▶ Save the expense of offices and all physical equipment needed for employees.
+The use of virtual teams can bring benefits such as the use of more skilled resources, reduced costs,
+less travel and relocation expenses, and the proximity of team members to suppliers, customers, or
+other key stakeholders. Virtual teams can use technology to create an online team environment where
+the team can store files, use conversations threads to discuss issues, and keep a team calendar.
+Communication planning becomes increasingly important in a virtual team environment. Additional
+time may be needed to set clear expectations, facilitate communications, develop protocols for
+resolving conflicts, include people in decision making, understand cultural differences, and share
+credit in successes.
+Work performance data. The raw observations and measurements identified during activities
+being performed to carry out the project work. Data are often viewed as the lowest level of detail
+from which information is derived by other processes. Data are gathered through work execution
+and passed to the controlling processes for further analysis.
+Examples of work performance data include work completed, key performance indicators (KPIs),
+technical performance measures, actual start and finish dates of schedule activities, story points
+completed, deliverables status, schedule progress, number of change requests, number of defects,
+actual costs incurred, actual durations, etc.
+Work performance information. The performance data collected from controlling processes,
+analyzed in comparison with project management plan components, project documents, and other
+work performance information.
+To become work performance information, the work performance data are compared with the
+project management plan components, project documents, and other project variables. This
+comparison helps to indicate how the project is performing.
+Specific work performance metrics for scope, schedule, budget, and quality are defined at the start
+of the project as part of the project management plan. Performance data are collected during the
+project and compared to the plan and other variables to provide a context for work performance.
+For example, work performance data on cost may include funds that have been expended. However,
+to be useful, that data should be compared to the budget, the work that was performed, the resources
+used to accomplish the work, and the funding schedule. This additional information provides the
+context to determine if the project is on budget or if there is a variance. It also indicates the degree of
+variance from the plan, and by comparing it to the variance thresholds in the project management plan
+it can indicate if preventive or corrective action is required. Interpreting work performance data and the
+additional information provides a sound foundation for making project decisions.
+Work performance reports. The physical or electronic representation of work performance information
+compiled in project documents, which is intended to generate decisions, actions, or awareness. They
+are circulated to project stakeholders through the communication processes as defined in the project
+communications management plan.
+Examples of work performance reports include status reports and progress reports. Work performance
+reports may contain earned value graphs and information, trend lines and forecasts, reserve burndown
+charts, defect histograms, contract performance information, and risk summaries. They can be
+presented as dashboards, heat reports, stoplight charts, or other representations useful for creating
+awareness and generating decisions and actions.

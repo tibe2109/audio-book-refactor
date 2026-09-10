@@ -1,0 +1,39 @@
+LETTER E, CHỮ CÁI E
+. ......
+Engagement, Mức độ gắn kết, Đề cập đến tần suất hoặc mức độ ý nghĩa trong các tương tác và sự tham gia của khách hàng theo thời gian.
+
+LETTER F, CHỮ CÁI F
+. ......
+Function, Hàm tính toán, Tính năng khởi tạo các công thức được sử dụng để xử lý dữ liệu và thực hiện các phép tính trong bảng tính.
+
+LETTER G, CHỮ CÁI G
+. ......
+Gantt chart, Biểu đồ Gantt, Biểu đồ thanh ngang trực quan hóa các nhiệm vụ của dự án, phân định rõ ràng ai là người chịu trách nhiệm cho từng công việc và thời hạn hoàn thành các nhiệm vụ đó.
+
+LETTER H, CHỮ CÁI H
+. ......
+Header, Tiêu đề cột, Ô hoặc các ô trên cùng của một cột trong bảng tính dùng để định danh dữ liệu của cột đó.
+
+LETTER I, CHỮ CÁI I
+. ......
+Influence, Mức độ ảnh hưởng, Thước đo quyền lực của một bên liên quan và mức độ tác động từ các hành động của họ đối với kết quả cuối cùng của dự án.
+Initiation, Giai đoạn Khởi tạo, Giai đoạn đầu tiên trong vòng đời dự án, tiếp theo sau là các giai đoạn lập kế hoạch, thực thi và đóng dự án.
+In-scope, Trong phạm vi dự án, Các nhiệm vụ được bao gồm trong kế hoạch dự án và đóng góp trực tiếp vào mục tiêu chung của dự án.
+Intangible benefits, Lợi ích vô hình, Những giá trị thu được không thể đo lường hoặc định lượng bằng con số cụ thể, chẳng hạn, như sự hài lòng của khách hàng, tinh thần nhân viên hoặc mức độ nhận diện thương hiệu.
+Intangible costs, Chi phí vô hình, Những tổn thất khó có thể định lượng bằng tiền, chẳng hạn, như sự suy giảm nhuệ khí của nhân viên hoặc thiệt hại về uy tín thương hiệu.
+Interest, Mức độ quan tâm, Đề cập đến mức độ mà các nhu cầu và lợi ích của bên liên quan sẽ bị tác động bởi kết quả của dự án.
+
+LETTER K, CHỮ CÁI K
+. ......
+Key results, Các kết quả then chốt, Phần thành phần trong mô hình O-K-R mô tả các kết quả có thể đo lường được, giúp xác định một cách khách quan thời điểm mục tiêu đã được hoàn thành.
+Key stakeholders, Các bên liên quan trọng yếu, Những người có mức độ ảnh hưởng và mức độ quan tâm cao nhất đối với một dự án, còn được gọi là những nhân vật chủ chốt.
+
+LETTER L, CHỮ CÁI L
+. ......
+Land, Cán đích dự án, Việc đo lường mức độ thành công của một dự án dựa trên các tiêu chí thành công đã được thiết lập ngay từ khi bắt đầu dự án.
+Launch, Phát hành dự án, Việc bàn giao và chuyển giao kết quả cuối cùng của một dự án tới khách hàng hoặc người dùng cuối.
+
+LETTER M, CHỮ CÁI M
+. ......
+Materials, Vật tư, nguyên vật liệu, Các hạng mục vật chất cần thiết để hỗ trợ hoàn thành dự án.
+Metrics, Số liệu đo lường, Dữ liệu được sử dụng để lượng hóa một đối tượng hoặc một chỉ số nào đó, chẳng hạn, như các con số hoặc số liệu thống kê.

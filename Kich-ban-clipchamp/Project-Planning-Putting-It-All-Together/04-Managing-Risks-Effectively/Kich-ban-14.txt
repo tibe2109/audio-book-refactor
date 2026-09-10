@@ -1,0 +1,13 @@
+Hãy cùng xem xét một ví dụ, thực tế về một bản kế hoạch quản trị rủi ro tương tự như mẫu tài liệu mà chúng tôi đôi khi vẫn sử dụng tại Google.
+
+Ở phần đầu của tài liệu, chúng tôi ghi rõ tên công ty, và ngay bên dưới là tên chính thức của dự án. Chúng tôi cũng nêu rõ tên tác giả biên soạn tài liệu để bất kỳ ai khi đọc bản kế hoạch cũng biết chính xác mình cần liên hệ với ai nếu có bất kỳ thắc mắc hay câu hỏi nào. Biểu mẫu này cũng dành riêng một vị trí để ghi nhận trạng thái hiện thời của tài liệu. Trong quá trình bạn đang xây dựng kế hoạch, bạn có thể để trạng thái là đang tiến hành, In Progress. Khi bản kế hoạch đã được hoàn thiện đầy đủ, bạn có thể chuyển trạng thái sang bản chính thức, Final.
+
+Chúng tôi cũng đưa vào những thông tin chi tiết vô cùng hữu ích như ngày tài liệu được tạo lập và thời điểm tài liệu được cập nhật lần gần đây nhất. Những chi tiết này thoạt nhìn có vẻ nhỏ nhặt, nhưng việc đưa chúng vào là một chuẩn mực thực hành tốt nhất trong nghề. Lý do là vì sự minh bạch về mặt thời gian sẽ mang lại cho các bên liên quan một cảm nhận rõ ràng về độ mới và độ tin cậy của tài liệu.
+
+Bên dưới những thông tin hành chính này là phần mục tiêu của tài liệu. Tại đây, chúng tôi ghi rõ rằng mục tiêu của bản kế hoạch là vạch ra các phương án giảm thiểu rủi ro cho dự án Plant Pals. Tiếp theo đó, chúng tôi bổ sung một bản tóm tắt điều hành, Executive Summary, của dự án. Bản tóm tắt điều hành cần đưa ra một phần giới thiệu ngắn gọn về các điều kiện vận hành bình thường của dự án, đồng thời, phác thảo tổng quan về các rủi ro tiềm tàng có thể đe dọa đến dự án.
+
+Và bây giờ là đến phần cốt lõi quan trọng nhất, các rủi ro cụ thể và cách thức chúng ta sẽ kiểm soát chúng ra sao. Tài liệu này cũng tích hợp sẵn cuốn sổ đăng ký rủi ro, Risk Register, mà bạn đã được làm quen ở bài học trước, tức bảng biểu tổng hợp danh sách các rủi ro tiềm ẩn. Tại đây, chúng tôi đã vạch ra một trong những rủi ro lớn của dự án Plant Pals, đó là nguy cơ nhà cung cấp bị trễ hạn chót bàn giao hàng. Chúng tôi đã xếp rủi ro này ở mức xếp hạng rủi ro vốn có Trung bình. Hãy nhớ lại rằng, rủi ro vốn có chính là thước đo mức độ nghiêm trọng của rủi ro được tính toán dựa trên xác suất xảy ra và mức độ tác động của nó.
+
+Một kế hoạch giảm thiểu cụ thể cũng được đính kèm trực tiếp cho rủi ro này, đó là tổ chức các cuộc họp giao ban hằng ngày với nhà cung cấp để hỗ trợ họ luôn bám sát tiến độ công việc.
+
+Xuống đến phần phụ lục ở cuối tài liệu, bạn sẽ tìm thấy các biểu đồ xác suất và tác động cũng như ma trận xác suất và tác động mà chúng ta sử dụng để lượng hóa các rủi ro.

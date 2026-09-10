@@ -1,0 +1,16 @@
+CHƯƠNG BỐN, QUẢN TRỊ RỦI RO HIỆU QUẢ
+. ......
+
+LỜI MỞ ĐẦU, QUẢN TRỊ RỦI RO HIỆU QUẢ
+. ......
+
+Chào mừng bạn đã quay trở lại. Ở các phần trước, chúng ta đã cùng nhau tìm hiểu về việc quản lý chi phí và ngân sách dự án. Chúng ta đã thảo luận về các thành phần cấu thành nên ngân sách, quy trình lập ngân sách diễn ra như thế nào, cũng như cách theo dõi và ước lượng chi phí một cách chuẩn xác. Bạn cũng đã nắm vững quy trình mua sắm và ký kết hợp đồng với các nhà cung cấp.
+
+Ngay sau đây, chúng ta sẽ bước vào một chủ đề then chốt, quản trị rủi ro, tức Risk Management, và lý do vì sao việc này lại mang tính quyết định để ngăn ngừa dự án rơi vào thất bại. Việc biết cách lường trước, dự báo và làm dịu nhẹ, hay trong chuyên môn gọi là giảm thiểu rủi ro, tức Mitigate, chính là chiếc chìa khóa vạn năng giúp bạn giữ cho dự án luôn đi đúng quỹ đạo dự kiến.
+
+Trong chương này, bạn sẽ học cách định nghĩa, xâu chuỗi các khái niệm cốt lõi về quản trị rủi ro và giải thích được cách mà việc quản lý rủi ro bảo vệ dự án khỏi những bờ vực đổ vỡ. Bạn cũng sẽ nhận diện các loại rủi ro điển hình, học cách đo lường mức độ tác động của chúng đối với dự án, đồng thời, biết cách giao tiếp và giải quyết triệt để các rủi ro đã được nhận diện thông qua một kế hoạch giảm thiểu rủi ro bài bản. Bạn đã sẵn sàng để bắt đầu chưa? Rất tuyệt vời. Hãy cùng tôi bước vào bài học tiếp theo.
+
+TẦM QUAN TRỌNG CỦA QUẢN TRỊ RỦI RO
+. ......
+
+Hãy thử nhớ lại một lần nào đó trong cuộc sống khi bạn từng quản lý một kế hoạch hay dự án cụ thể. Đó có thể là một công việc chuyên môn ở công ty, chẳng hạn, như lập lịch trình làm việc theo ca cho nhân viên, hoặc cũng có thể là một dự án cá nhân, như lên kế hoạch tổ chức một buổi tiệc họp mặt gia đình. Bây giờ, bạn hãy tự hỏi mình câu này, Liệu mọi thứ lúc đó có diễn ra hoàn toàn đúng một trăm phần trăm theo kế hoạch định sẵn hay không? Nếu phải đoán, tôi dám cá rằng chắc chắn đã có ít nhất một trở ngại hay phát sinh ngoài ý muốn mà bạn phải đích thân xử lý. Lý do rất đơn giản, không có bất kỳ dự án nào trong thực tế lại diễn ra suôn sẻ một trăm phần trăm đúng như dự tính trên giấy, ngay cả khi những dự án đó được dẫn dắt bởi những Project Manager dày dạn kinh nghiệm nhất hành tinh.

@@ -1,0 +1,9 @@
+Trải qua nhiều thập kỷ phát triển, ngành quản trị dự án đã đúc kết nên rất nhiều phương pháp luận đa dạng để các Project Manager có thể tự do lựa chọn công cụ điều hành hiệu quả nhất. Tại Google, chúng tôi áp dụng một cách tiếp cận lai ghép, Hybrid approach, Chúng tôi linh hoạt pha trộn và kết hợp các tinh hoa từ những phương pháp khác nhau tùy thuộc vào tính chất đặc thù của từng dự án. Các nhà quản lý dự án tại Google luôn được khuyến khích tùy biến phong cách của mình sao cho phù hợp và mang lại hiệu quả cao nhất cho dự án và đội ngũ của họ.
+
+Các bạn đã bắt đầu nhận ra những hướng tiếp cận khác nhau có thể mang lại lợi ích ra sao cho các dự án mà bạn sẽ đảm nhận chưa? Chẳng mấy chốc, bạn sẽ trở thành một chuyên gia thực thụ trong việc lựa chọn hoặc kết hợp các phương pháp luận để may đo chuẩn xác cho từng dự án của mình. Tiếp theo đây, chúng ta sẽ cùng khám phá những phương pháp quản trị dự án nổi tiếng và được ứng dụng rộng rãi nhất trên thế giới để bổ sung vào kho vũ khí nghề nghiệp của bạn!
+
+TỔNG QUAN VỀ THÁC NƯỚC VÀ LINH HOẠT, OVERVIEW OF WATERFALL AND AGILE
+. ......
+Hai trong số những phương pháp luận quản trị dự án phổ biến và lừng danh nhất hiện nay chính là Mô hình Thác nước, Waterfall, và Phương pháp Linh hoạt, Agile. Mỗi phương pháp này đều sở hữu một bề dày lịch sử phong phú và đầy chiều sâu. Trên thực tế, bạn hoàn toàn có thể theo học một chương trình chứng chỉ chuyên sâu trọn vẹn chỉ để nghiên cứu riêng về một trong hai phương pháp này. Bạn sẽ có cơ hội tìm hiểu sâu hơn về Waterfall và Agile trong các học phần chuyên đề tiếp theo của chương trình chứng chỉ này.
+
+Hiện tại, tôi sẽ giới thiệu ngắn gọn và cung cấp cho bạn những ví dụ, trực quan minh họa cách mà các loại hình dự án khác nhau có thể gặt hái thành công vượt bậc hoặc trở nên dễ dàng điều phối hơn khi bạn biết chọn đúng phương pháp.

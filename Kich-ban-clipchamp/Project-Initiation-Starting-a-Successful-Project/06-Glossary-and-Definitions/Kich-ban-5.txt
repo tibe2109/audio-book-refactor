@@ -1,0 +1,7 @@
+Stakeholder buy-in, Sự đồng thuận của các bên liên quan, Quá trình thu hút và gắn kết các bên liên quan vào việc ra quyết định nhằm đạt được sự đồng thuận rộng rãi hơn về định hướng tương lai của tổ chức. Steering committee, Ban chỉ đạo dự án, Cơ quan ra quyết định cấp cao nhất trong bất kỳ dự án nào, họ nắm giữ quyền hạn phê duyệt các thay đổi về ngân sách, điều chỉnh tiến độ hoặc mở rộng phạm vi dự án. Success criteria, Tiêu chí thành công, Các tiêu chuẩn và thước đo chuẩn mực dùng để đánh giá mức độ thành công của một dự án trong việc đạt được các mục tiêu đã đề ra.
+
+LETTER T, CHỮ CÁI T
+. ......
+Team members, Thành viên nhóm dự án, Những người trực tiếp thực hiện các công việc hàng ngày và biến kế hoạch dự án thành hiện thực.
+Tools, Công cụ hỗ trợ, Các phương tiện trợ giúp giúp người quản lý dự án hoặc đội ngũ dễ dàng quản lý nguồn lực và tổ chức sắp xếp công việc.
+Triple constraint, Bộ ba ràng buộc cốt lõi, Sự kết hợp của ba ràng buộc quan trọng và mang tính chi phối nhất trong bất kỳ dự án nào, bao gồm, phạm vi, thời gian và chi phí.

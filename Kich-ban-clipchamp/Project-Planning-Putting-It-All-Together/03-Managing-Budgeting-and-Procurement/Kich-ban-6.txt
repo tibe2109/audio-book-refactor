@@ -1,0 +1,12 @@
+Bên cạnh đó, Chi phí Chất lượng, Cost of Quality, đề cập đến tất cả các chi phí phát sinh để ngăn ngừa các vấn đề xảy ra với sản phẩm, quy trình hoặc nhiệm vụ. Chi phí chất lượng bao gồm, Chi phí Phòng ngừa, Prevention Costs, Chi phí Đánh giá Thẩm định, Appraisal Costs, Chi phí Thất bại Nội bộ, Internal Failure Costs, và Chi phí Thất bại Bên ngoài, External Failure Costs.
+
+Một khi bạn đã áp dụng đầy đủ các yếu tố này, tỷ lệ chi phí tài nguyên, phân tích dự phòng, ngân sách dự phòng đối phó rủi ro và chi phí chất lượng, vào ngân sách của mình, bạn có thể ước tính được dự án của mình có thể tốn bao nhiêu chi phí. Hãy nhớ rằng, ngân sách của bạn rất có thể sẽ thay đổi, việc bắt đầu bằng một ước tính ban đầu là một phương thức để bảo đảm bạn ít nhất đang đi đúng hướng, và việc ngân sách thay đổi là điều hoàn toàn bình thường, đó là lý do tại sao chúng ta liên tục rà soát và tái dự báo. Hy vọng bạn đã bắt đầu nhận ra khung sườn để tạo lập một bản ngân sách. Trong bài học tiếp theo, chúng ta sẽ bắt đầu ghép nối các mảnh ghép ngân sách lại với nhau. Hẹn sớm gặp lại bạn!
+
+TẠO LẬP MỘT NGÂN SÁCH DỰ ÁN, CREATING A PROJECT BUDGET
+. ......
+
+Bây giờ khi chúng ta đã hiểu về việc lập ngân sách, hãy cùng khám phá xem tất cả các mảnh ghép phối hợp với nhau như thế nào. Đến lúc này, chúng ta đều biết rằng ngân sách dự án giúp kiểm soát chi phí xuyên suốt toàn bộ thời gian của dự án. Chúng giúp các nhà quản lý dự án xác lập các mục tiêu chính của dự án và duy trì chúng trong một khuôn khổ hợp lý để bảo đảm dự án mang lại hiệu quả tài chính cho doanh nghiệp. Vậy đâu là cách tốt nhất để bắt đầu xây dựng một ngân sách dự án?
+
+Khi bạn đi sâu hơn vào quy trình, bạn sẽ nhận thấy có nhiều nguồn tài nguyên và chiến thuật khác nhau mà bạn có thể áp dụng để bảo đảm mình không ước tính quá cao hoặc quá thấp. Bạn sẽ vận dụng các kỹ thuật như, nghiên cứu dữ liệu lịch sử, tận dụng chuyên gia, phương pháp tiếp cận từ dưới lên, Bottom-up Approach, xác nhận độ chuẩn xác, và thiết lập đường cơ sở, Baseline.
+
+Trước hết, bạn luôn có thể rà soát lại các dự án tương tự trong quá khứ để có được hình dung rõ ràng về những gì dự án của mình có thể đòi hỏi. Chúng tôi gọi đó là việc Tham khảo Dữ liệu Lịch sử, Historical Data. Bằng cách này, bạn có thể tìm hiểu xem những người quản lý dự án tiền nhiệm đã làm đúng điều gì và mắc phải sai lầm ở đâu. Bạn càng tích lũy được nhiều kinh nghiệm trong vai trò Project Manager, bạn càng có nhiều dữ liệu lịch sử để đối chiếu, và các ước tính của bạn sẽ ngày càng trở nên chuẩn xác hơn.

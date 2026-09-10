@@ -1,0 +1,1176 @@
+Monitoring and
+Controlling Process Group
+The processes in the Monitoring and Controlling Process Group are shown in Table 7-1.
+Table 7-1. Monitoring and Controlling Process Group Processes
+Monitoring and Controlling Processes
+7.1 Monitor and Control Project Work 7.7 Control Quality
+7.2 Perform Integrated Change Control 7.8 Control Resources
+7.3 Validate Scope 7.9 Monitor Communications
+7.4 Control Scope 7.10 Monitor Risks
+7.5 Control Schedule 7.11 Control Procurements
+7.6 Control Costs 7.12 Monitor Stakeholder Engagement
+The Monitoring and Controlling Process Group consists of those processes required to track,
+review, and regulate the progress and performance of the project; identify any areas in which
+changes to the plan are required; and initiate the corresponding changes. Monitoring is collecting
+project performance data, producing performance measures, and reporting and disseminating
+performance information. Controlling is comparing actual performance with planned performance,
+analyzing variances, assessing trends to effect process improvements, evaluating possible
+alternatives, and recommending appropriate corrective action as needed.
+The key benefit of this Process Group is that project performance is measured and analyzed
+at regular intervals, appropriate events, or when exception conditions occur in order to identify and
+correct variances from the project management plan. The Monitoring and Controlling Process Group
+also involves the following activities:
+▶ Evaluate change requests and decide on the appropriate response.
+▶ Recommend corrective or preventive action in anticipation of possible problems.
+▶ Monitor the ongoing project activities against the project management plan and project
+baselines.
+▶ Influence the factors that could circumvent the change control process so only approved
+changes are implemented.
+Continuous monitoring provides the project team and other stakeholders with insight into the
+status of the project and identifies any areas that require additional attention. The Monitoring and
+Controlling Process Group monitors and controls the work being done within each Process Group,
+each life cycle phase, and the project as a whole. The Monitoring and Controlling Process Group
+includes the project management processes identified in Sections 7.1 through 7.12.
+7.1 MONITOR AND CONTROL PROJECT WORK
+Monitor and Control Project Work is the process of tracking, reviewing, and reporting the
+overall progress to meet the performance objectives defined in the project management plan. The
+key benefits of this process are that it allows stakeholders to understand the current state of the
+project, to recognize the actions taken to address any performance issues, and to have visibility into
+the future project status with cost and schedule forecasts.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 7-1. Figure 7-2 presents the data flow diagram for this process.
+Monitor and Control Project Work
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Work performance reports
+• Any component 2. Data analysis 2. Change requests
+2. Project documents • Alternatives analysis 3. Project management plan
+• Assumption log • Cost-benefit analysis updates
+• Basis of estimates • Earned value analysis • Any component
+• Cost forecasts • Root cause analysis 4. Project documents updates
+• Issue log • Trend analysis • Cost forecasts
+• Lessons learned register • Variance analysis • Issue log
+• Milestone list 3. Decision making • Lessons learned register
+• Quality reports • Voting • Risk register
+• Risk register 4. Meetings • Schedule forecasts
+• Risk report
+• Schedule forecasts
+3. Work performance information
+4. Agreements
+5. Enterprise environmental
+factors
+6. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 7-1. Monitor and Control Project Work: Inputs, Tools & Techniques, and Outputs
+7.2
+Perform
+Integrated
+Project • • C W h o a rk n g p e e r r f e o q r u m e a s n ts ce reports Change Control
+Management
+Plan
+6.6
+Manage
+Project management plan • Work performance reports Team
+• Any component
+Project 6.7
+Documents Manage
+• Work performance reports Communications
+Project documents
+• Assumption log
+• Basis of estimates 7.10
+• Cost forecasts Monitor
+• Issue log
+• Lessons learned register • Work performance reports Risks
+• Milestone list
+• Quality reports
+• Risk register
+• Risk report
+Project
+• Schedule forecasts
+Management
+Project management Plan
+7.1 plan updates
+6.9 Monitor and • Any component
+Conduct Control
+Procurements • Project
+Project Work
+charter
+Project
+• Agreements Documents
+Project documents updates
+• Cost forecasts
+• Issue log
+• Lessons learned register
+• Risk register
+• Schedule forecasts
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+• Work performance information
+7.3 7.4
+Validate Control
+Scope Scope
+7.5 7.6 7.7 7.8
+Control Control Control Control
+Schedule Costs Quality Resources
+7.12
+7.9 7.10 7.11
+Monitor
+Monitor Monitor Control
+Stakeholder
+Communications Risks Procurements
+Engagement
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-2. Monitor and Control Project Work: Data Flow Diagram
+Monitoring is an aspect of project management performed throughout the project. Monitoring
+includes collecting, measuring, and assessing measurements and trends to effect process improve-
+ments. Continuous monitoring gives the project management team insight into the health of the
+project and identifies any areas that may require special attention. Control includes determining
+corrective or preventive actions or replanning and following up on action plans to determine whether
+the actions taken resolved the performance issue. The Monitor and Control Project Work process
+is concerned with:
+▶ Comparing actual project performance against the project management plan;
+▶ Assessing performance periodically to determine whether any corrective or preventive
+actions are indicated, and then recommending those actions as necessary;
+▶ Checking the status of individual project risks;
+▶ Maintaining an accurate, timely information base concerning the project’s product(s) and
+their associated documentation through project completion;
+▶ Providing information to support status reporting, progress measurement, and forecasting;
+▶ Providing forecasts to update current cost and current schedule information;
+▶ Monitoring implementation of approved changes as they occur;
+▶ Providing appropriate reporting on project progress and status to program management
+when the project is part of an overall program; and
+▶ Ensuring that the project stays aligned with the business needs.
+7.2 PERFORM INTEGRATED CHANGE CONTROL
+Perform Integrated Change Control is the process of reviewing all change requests; approving
+changes and managing changes to deliverables, project documents, and the project management
+plan; and communicating the decisions. This process reviews all requests for changes to project
+documents, deliverables, or the project management plan and determines the resolution of the
+change requests. The key benefit of this process is that it allows for documented changes within the
+project to be considered in an integrated manner while addressing overall project risk, which often
+arises from changes made without consideration of the overall project objectives or plans.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 7-3. Figure 7-4 presents the data flow diagram for this process.
+Perform Integrated Change Control
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Approved change requests
+• Change management plan 2. Change control tools 2. Project management plan
+• Configuration management 3. Data analysis updates
+plan • Alternatives analysis • Any component
+• Scope baseline • Cost-benefit analysis 3. Project documents updates
+• Schedule baseline 4. Decision making • Change log
+• Cost baseline • Voting
+2. Project documents • Autocratic decision making
+• Basis of estimates • Multicriteria decision
+• Change log analysis
+• Requirements traceability 5. Meetings
+matrix
+• Risk report
+3. Work performance reports
+4. Change requests
+5. Enterprise environmental
+factors
+6. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 7-3. Perform Integrated Change Control: Inputs, Tools & Techniques, and Outputs
+Project Enterprise/ 6.1
+Management Organization Direct and
+Plan Manage
+• Approved change requests Project Work
+• Enterprise
+environmental
+Project management plan factors
+• Change management plan • Organizational
+• Configuration management plan process assets 7.7
+• Scope baseline Control
+• Schedule baseline • Approved change requests Quality
+• Cost baseline
+Project
+7.11
+Documents
+Control
+• Approved change requests Procurements
+Project documents
+• Basis of estimates
+• Change log
+Project
+• Requirements traceability matrix
+• Risk report Management
+Project management Plan
+7.1 7.2 plan updates
+• Any component
+Monitor and Perform
+Control Integrated
+Project Work Change Control
+Project
+• Work performance reports Documents
+• Change requests Project documents updates
+• Change log
+• Change requests
+6.1
+4.2 Direct and 6.8 7.5 7.10
+Identify Manage Implement Risk Control Monitor
+Stakeholders Project Work Responses Schedule Risks
+5.7 6.3 6.9 7.6 7.11
+Define Manage Conduct Control Control
+Activities Quality Procurements Costs Procurements
+5.10 6.4 6.10 7.7 7.12
+Develop Acquire Manage Control Monitor
+Shedule Resources Stakeholder Quality Stakeholder
+Engagement Engagement
+5.22 6.5 7.3 7.8
+Plan Risk Develop Validate Control
+Responses Team Scope Resources
+5.23 6.6 7.4 7.9
+Plan Procurement Manage Control Monitor
+Management Team Scope Communications
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-4. Perform Integrated Change Control: Data Flow Diagram
+The Perform Integrated Change Control process is conducted from project start through
+completion and is the ultimate responsibility of the project manager. Change requests can impact
+the project scope and the product scope, as well as any project management plan component or
+any project document. Changes may be requested by any stakeholder involved with the project
+and may occur at any time throughout the project life cycle. The applied level of change control is
+dependent upon the application area, complexity of the specific project, contract requirements,
+and the context and environment in which the project is performed.
+Before the baselines are established, changes are not required to be formally controlled by
+the Perform Integrated Change Control process. Once the project is baselined, change requests go
+through this process. As a general rule, each project’s configuration management plan should define
+which project artifacts need to be placed under configuration control. Any change in a configuration
+element should be formally controlled and will require a change request.
+Although changes may be initiated verbally, they should be recorded in written form
+and entered into the change management and/or configuration management system. Change
+requests may require information on estimated schedule impacts and estimated cost impacts
+prior to approval. Whenever a change request may impact any of the project baselines, a formal
+integrated change control process is always required. Every documented change request needs to
+be either approved, deferred, or rejected by a responsible individual, usually the project sponsor
+or project manager. The responsible individual will be identified in the project management plan
+or by organizational procedures. When required, the Perform Integrated Change Control process
+includes a change control board (CCB), which is a formally chartered group responsible for
+reviewing, evaluating, approving, deferring, or rejecting changes to the project and for recording
+and communicating such decisions.
+Approved change requests can require new or revised cost estimates, activity sequences,
+schedule dates, resource requirements, and/or analysis of risk response alternatives. These
+changes can require adjustments to the project management plan and other project documents.
+Customer or sponsor approval may be required for certain change requests after CCB approval,
+unless they are part of the CCB.
+7.3 VALIDATE SCOPE
+Validate Scope is the process of formalizing acceptance of the completed project deliverables.
+The key benefit of this process is that it brings objectivity to the acceptance process and increases the
+probability of final product, service, or result acceptance by validating each deliverable.
+This process is performed periodically throughout the project as needed. The inputs, tools and
+techniques, and outputs are shown in Figure 7-5. Figure 7-6 presents the data flow diagram for
+this process.
+Validate Scope
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Inspection 1. Accepted deliverables
+• Scope management plan 2. Decision making 2. Work performance
+• Requirements management • Voting information
+plan 3. Change requests
+• Scope baseline 4. Project document updates
+2. Project documents • Lessons learned register
+• Lessons learned register • Requirements
+• Quality reports documentation
+• Requirements • Requirements traceability
+documentation matrix
+• Requirements traceability
+matrix
+3. Verified deliverables
+4. Work performance data
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 7-5. Validate Scope: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Scope management plan
+• Requirements management plan 8.1
+• Scope baseline Close Project
+• Accepted or Phase
+deliverables
+6.1
+Direct and
+Manage
+Project Execution
+7.2
+• Work performance data 7.3 Perform
+Validate
+Integrated
+Scope • Change Change Control
+requests
+7.7
+Control
+Quality
+7.1
+Monitor and
+• Verified deliverables
+Control
+• Work Project Work
+performance
+information
+Project
+Documents
+Project
+Project documents updates Documents
+Project documents • Lessons learned register
+• Lessons learned register • Requirements
+• Quality report documentation
+• Requirements documentation • Requirements traceability
+• Requirements traceability matrix matrix
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-6. Validate Scope: Data Flow Diagram
+The verified deliverables obtained from the Control Quality process are reviewed with the
+customer or sponsor to ensure they are completed satisfactorily and have received formal acceptance
+of the deliverables by the customer or sponsor. In this process, the outputs obtained as a result of the
+Planning processes for scope, such as the requirements documentation or the scope baseline, as well
+as the work performance data obtained from the Executing processes, are the basis for performing
+the validation and for final acceptance.
+The Validate Scope process is primarily concerned with acceptance of the deliverables while
+the Control Quality process is primarily concerned with correctness of the deliverables and meeting
+the quality requirements specified for the deliverables. Control Quality is generally performed before
+Validate Scope, although the two processes may be performed in parallel.
+7.4 CONTROL SCOPE
+Control Scope is the process of monitoring the status of the project and product scope and
+managing changes to the scope baseline. The key benefit of this process is that the scope baseline is
+maintained throughout the project.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 7-7. Figure 7-8 presents the data flow diagram for this process.
+Control Scope
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Data analysis 1. Work performance
+• Scope management plan • Variance analysis information
+• Requirements management • Trend analysis 2. Change requests
+plan 3. Project management plan
+• Change management plan updates
+• Configuration management • Scope management plan
+plan • Scope baseline
+• Scope baseline • Schedule baseline
+• Performance measurement • Cost baseline
+baseline • Performance measurement
+2. Project documents baseline
+• Lessons learned register 4. Project documents updates
+• Requirements • Lessons learned register
+documentation • Requirements
+• Requirements traceability documentation
+matrix • Requirements traceability
+3. Work performance data matrix
+4. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 7-7. Control Scope: Inputs, Tools & Techniques, and Outputs
+Project 7.1
+Management Monitor and
+Plan Control
+• Work performance information Project Work
+Project management plan
+• Scope management plan
+7.2
+• Requirements management plan
+• Change management plan Perform
+• Configuration management plan Integrated
+• Scope baseline • Change requests Change Control
+• Performance measurement
+baseline
+Project
+Project
+Management
+Documents
+Plan
+Project management
+plan updates
+7.4 • Scope management plan
+Project documents Control • Scope baseline
+• Lessons learned register Scope • Schedule baseline
+• Requirements documentation • Cost baseline
+• Requirements traceability matrix • Performance
+measurement
+baseline
+6.1 Project
+Direct and Documents
+Manage Project documents
+Project Work updates
+• Lessons learned register
+• Requirements documentation
+• Work performance data • Requirements traceability matrix
+Enterprise/
+Organization
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-8. Control Scope: Data Flow Diagram
+Controlling the project scope ensures all requested changes and recommended corrective
+or preventive actions are processed through the Perform Integrated Change Control process
+(see Section 7.2). Control Scope is also used to manage the actual changes when they occur and
+is integrated with the other control processes. The uncontrolled expansion to product or project
+scope without adjustments to time, cost, and resources is referred to as scope creep. Change is
+inevitable; therefore, some type of change control process is mandatory for every project.
+7.5 CONTROL SCHEDULE
+Control Schedule is the process of monitoring the status of the project to update the project
+schedule and managing changes to the schedule baseline. The key benefit of this process is that the
+schedule baseline is maintained throughout the project.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 7-9. Figure 7-10 presents the data flow diagram for this process.
+Control Schedule
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Data analysis 1. Work performance
+• Schedule management plan • Earned value analysis information
+• Schedule baseline • Iteration burndown chart 2. Schedule forecasts
+• Scope baseline • Performance reviews 3. Change requests
+• Performance measurement • Trend analysis 4. Project management plan
+baseline • Variance analysis updates
+2. Project documents • What-if scenario analysis • Schedule management plan
+• Lessons learned register 2. Critical path method • Schedule baseline
+• Project calendars 3. Project management • Cost baseline
+• Project schedule information system • Performance measurement
+• Resource calendars 4. Resource optimization baseline
+• Schedule data 5. Leads and lags 5. Project documents updates
+3. Work performance data 6. Schedule compression • Assumption log
+4. Organizational process assets • Basis of estimates
+• Lessons learned register
+• Project schedule
+• Resource calendars
+• Risk register
+• Schedule data
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 7-9. Control Schedule: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+7.1
+Monitor and
+Control
+Project management plan
+• Schedule management plan • Work performance information Project Work
+• Schedule baseline
+• Scope baseline
+• Performance measurement baseline
+7.2
+Perform
+Integrated
+Project • Change requests Change Control
+Documents
+Project documents 7.5 Project
+• Lessons learned register Control Management
+• • P P r r o o j j e e c c t t c sc a h le e n d d u a le rs Schedu• Pleroject Project management Plan
+• Resource calendars charter plan updates
+• Schedule data • Schedule management
+plan
+• Schedule baseline
+• Cost baseline
+6.1 • Performance
+Direct and measurement baseline
+Manage
+Project Work
+Project
+• Schedule forecasts
+Documents
+• Work performance data
+Project documents
+updates
+Enterprise/ • Assumption log
+Organization • Basis of estimates
+• Lessons learned register
+• Project schedule
+• Organizational process assets • Resource calendars
+• Risk register
+• Schedule data
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-10. Control Schedule: Data Flow Diagram
+Updating the schedule model requires knowing the actual performance to date. Any change to
+the schedule baseline can only be approved through the Perform Integrated Change Control process
+(Section 7.2). Control Schedule, as a component of the Perform Integrated Change Control process,
+is concerned with:
+▶ Determining the current status of the project schedule,
+▶ Influencing the factors that create schedule changes,
+▶ Reconsidering necessary schedule reserves,
+▶ Determining if the project schedule has changed, and
+▶ Managing the actual changes as they occur.
+When an agile approach is used, Control Schedule is concerned with:
+▶ Determining the current status of the project schedule by comparing the total amount
+of work delivered and accepted against the estimates of work completed for the elapsed
+time cycle;
+▶ Conducting retrospectives (scheduled reviews to record lessons learned) for correcting
+processes and improving, if required;
+▶ Reprioritizing the remaining work plan (backlog);
+▶ Determining the rate at which the deliverables are produced, validated, and accepted
+(velocity) in the given time per iteration (agreed-upon work cycle duration, typically
+2 weeks or 1 month);
+▶ Determining that the project schedule has changed; and
+▶ Managing the actual changes as they occur.
+When work is being contracted, regular and milestone status updates from contractors and
+suppliers are a means of ensuring the work is progressing as agreed upon to ensure the schedule is
+under control. Scheduled status reviews and walkthroughs should be done to ensure the contractor
+reports are accurate and complete.
+7.6 CONTROL COSTS
+Control Costs is the process of monitoring the status of the project to update the project costs
+and managing changes to the cost baseline. The key benefit of this process is that the cost baseline
+is maintained throughout the project.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 7-11. Figure 7-12 presents the data flow diagram for this process.
+Control Costs
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Work performance
+• Cost management plan 2. Data analysis information
+• Cost baseline • Earned value analysis 2. Cost forecasts
+• Performance measurement • Variance analysis 3. Change requests
+baseline • Trend analysis 4. Project management plan
+2. Project documents • Reserve analysis updates
+• Lessons learned register 3. To-complete performance • Cost management plan
+3. Project funding requirements index • Cost baseline
+4. Work performance data 4. Project management • Performance measurement
+5. Organizational process assets information system baseline
+5. Project documents updates
+• Assumption log
+• Basis of estimates
+• Cost estimates
+• Lessons learned register
+• Risk register
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 7-11. Control Costs: Inputs, Tools & Techniques, and Outputs
+Project
+7.1
+Management
+Monitor and
+Plan
+Control
+• Work performance information
+Project Work
+Project management plan
+• Cost management plan
+• Cost baseline 7.2
+• Performance measurement baseline Perform
+Integrated
+• Change requests
+Change Control
+Project
+Documents
+7.6 Project
+Control Management
+• Lessons learned register Costs Project management Plan
+plan updates
+• Cost management plan
+• Cost baseline
+5.13 • Performance measurement baseline
+Determine
+Budget
+• Cost forecasts
+• Project funding requirements
+6.1
+Project
+Direct and
+Documents
+Manage Project documents updates
+Project Work • Assumption log
+• Basis of estimates
+• Cost estimates
+• Work performance data
+• Lessons learned register
+• Risk register
+Enterprise/
+Organization
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-12. Control Costs: Data Flow Diagram
+Updating the budget requires knowledge of the actual costs spent to date. Any increase
+to the authorized budget can only be approved through the Perform Integrated Change Control
+process (Section 7.2). Monitoring the expenditure of funds without regard to the value of work being
+accomplished for such expenditures has little value to the project, other than to track the outflow of
+funds. Much of the effort of cost control involves analyzing the relationship between the consumption
+of project funds and the work being accomplished for such expenditures. The key to effective cost
+control is the management of the approved cost baseline.
+Project cost control includes:
+▶ Influencing the factors that create changes to the authorized cost baseline;
+▶ Ensuring that all change requests are acted on in a timely manner;
+▶ Managing the actual changes when and as they occur;
+▶ Ensuring that cost expenditures do not exceed the authorized funding by period, by WBS
+component, by activity, and in total for the project;
+▶ Monitoring cost performance to isolate and understand variances from the approved
+cost baseline;
+▶ Monitoring work performance against funds expended;
+▶ Preventing unapproved changes from being included in the reported cost or resource
+usage;
+▶ Informing appropriate stakeholders of all approved changes and associated cost; and
+▶ Bringing expected cost overruns within acceptable limits.
+7.7 CONTROL QUALITY
+Control Quality is the process of monitoring and recording results of executing the quality
+management activities in order to assess performance and ensure the project outputs are complete,
+correct, and meet customer expectations. The key benefit of this process is verifying that project
+deliverables and work meet the requirements specified by key stakeholders for final acceptance. The
+Control Quality process determines if the project outputs do what they were intended to do. Those
+outputs need to comply with all applicable standards, requirements, regulations, and specifications.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 7-13. Figure 7-14 presents the data flow diagram for this process.
+Control Quality
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Data gathering 1. Quality control measurements
+• Quality management plan • Checklists 2. Verified deliverables
+2. Project documents • Check sheets 3. Work performance
+• Lessons learned register • Statistical sampling information
+• Quality metrics • Questionnaires and surveys 4. Change requests
+• Test and evaluation 2. Data analysis 5. Project management plan
+documents • Performance reviews updates
+3. Approved change requests • Root cause analysis • Quality management plan
+4. Deliverables 3. Inspection 6. Project documents updates
+5. Work performance data 4. Testing/product evaluations • Issue log
+6. Enterprise environmental 5. Data representation • Lessons learned register
+factors • Cause-and-effect diagrams • Risk register
+7. Organizational process assets • Control charts • Test and evaluation
+• Histogram documents
+• Scatter diagrams
+6. Meetings
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used for
+this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for tools
+and techniques appear in Section 10.
+Figure 7-13. Control Quality: Inputs, Tools & Techniques, and Outputs
+Project 7.1
+Management Monitor and
+Plan • Work performance information Control
+Project Work
+Project management plan
+• Quality management plan
+7.2
+Perform
+Integrated
+Project • Change requests Change Control
+Documents
+Project documents 7.7 7.3
+• Lessons learned register Control Validate
+• Quality metrics Quality • Verified deliverables Scope
+• Test and evaluation documents
+6.1
+Direct and
+Manage Project
+Project Work Management
+Project management plan updates Plan
+• Deliverables • Quality management plan
+• Work performance data
+7.2 • Quality control measurements
+Perform
+Integrated
+Change Control Project
+Documents
+Project documents updates
+• Approved change requests • Issue log
+• Lessons learned register
+• Risk register
+• Test and evaluation documents
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-14. Control Quality: Data Flow Diagram
+The Control Quality process is performed to measure the completeness, compliance, and
+fitness for use of a product or service prior to user acceptance and final delivery. This is done by
+measuring all steps, attributes, and variables used to verify conformance or compliance to the
+specifications stated during the planning stage.
+Quality control should be performed throughout the project to formally demonstrate, with
+reliable data, that the sponsor’s and/or customer’s acceptance criteria have been met.
+The level of effort to control quality and the degree of implementation may differ between
+industries and project management styles. For example, in the pharmaceutical, health, transportation,
+and nuclear industries, there may be stricter quality control procedures compared to other industries,
+and the effort needed to meet the standards may be extensive. In agile projects, the Control Quality
+activities may be performed by all team members throughout the project life cycle. In predictive
+(waterfall) model-based projects, the quality control activities are performed at specific times
+toward the end of the project or phase by specified team members.
+7.8 CONTROL RESOURCES
+Control Resources is the process of ensuring that the physical resources assigned and allocated
+to the project are available as planned, as well as monitoring the planned versus actual utilization of
+resources and taking corrective action as necessary. The key benefit of this process is ensuring that
+the assigned resources are available to the project at the right time and in the right place and are
+released when no longer needed.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 7-15. Figure 7-16 presents the data flow diagram for this process.
+Control Resources
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Data analysis 1. Work performance
+• Resource management plan • Alternatives analysis information
+2. Project documents • Cost-benefit analysis 2. Change requests
+• Issue log • Performance reviews 3. Project management plan
+• Lessons learned register • Trend analysis updates
+• Physical resource 2. Problem solving • Resource management plan
+assignments 3. Interpersonal and team skills • Schedule baseline
+• Project schedule • Negotiation • Cost baseline
+• Resource breakdown • Influencing 4. Project documents updates
+structure 4. Project management • Assumption log
+• Resource requirements information system • Issue log
+• Risk register • Lessons learned register
+3. Work performance data • Physical resource
+4. Agreements assignments
+5. Organizational process assets • Resource breakdown
+structure
+• Risk register
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used
+for this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for
+tools and techniques appear in Section 10.
+Figure 7-15. Control Resources: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan 7.1
+• Resource management plan Monitor and
+Control
+• Work performance information Project Work
+Project
+Documents
+7.2
+Perform
+Project documents Integrated
+• Issue log • Change requests Change Control
+• Lessons learned register
+• Physical resource assignments
+• Project schedule
+• Resource breakdown structure
+• Resource requirements
+• Risk register
+7.8
+Control
+6.1 Resources
+Direct and
+Manage
+Project Work Project
+Management
+Plan
+• Work performance data Project management plan updates
+• Resource management plan
+• Schedule baseline
+• Cost baseline
+6.9
+Conduct
+Procurements
+Project
+Documents
+Project documents updates
+• Agreements • Assumption log
+• Issue log
+• Lessons learned register
+• Physical resource assignments
+Enterprise/ • Resource breakdown structure
+Organization • Risk register
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-16. Control Resources: Data Flow Diagram
+The Control Resources process should be performed continuously in all project phases and
+throughout the project life cycle. The resources needed for the project should be assigned and
+released at the right time, right place, and in the right amount for the project to continue without
+delays. The Control Resources process is concerned with physical resources such as equipment,
+materials, facilities, and infrastructure. Team members are addressed in the Manage Team process.
+Updating resource allocation requires knowing what actual
+resources have been used to date and what is still needed. This The Control Resources
+is done mainly by reviewing the performance usage to date. techniques discussed
+Control Resources is concerned with: here are those used
+most frequently on projects.
+▶ Monitoring resource expenditures,
+There are many others that may
+▶ Identifying and dealing with resource shortage/
+be useful on certain projects or in
+surplus in a timely manner,
+some application areas.
+▶ Ensuring that resources are used and released
+according to the plan and project needs,
+▶ Informing appropriate stakeholders if any issues
+arise with relevant resources,
+▶ Influencing the factors that can create resource
+utilization changes, and
+▶ Managing the actual changes as they occur.
+Any changes needed to the schedule or cost baselines
+can be approved only through the Perform Integrated Change
+Control process (Section 7.2).
+7.9 MONITOR COMMUNICATIONS
+Monitor Communications is the process of ensuring the information needs of the project and
+its stakeholders are met. The key benefit of this process is the optimal information flow as defined
+in the communications management plan and the stakeholder engagement plan.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs are
+shown in Figure 7-17. Figure 7-18 presents the data flow diagram for this process.
+Monitor Communications
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Work performance
+• Resource management plan 2. Project management information
+• Communications information system 2. Change requests
+management plan 3. Data representation 3. Project management plan
+• Stakeholder engagement • Stakeholder engagement updates
+plan assessment matrix • Communications
+2. Project documents 4. Interpersonal and team skills management plan
+• Issue log • Observation/conversation • Stakeholder engagement
+• Lessons learned register 5. Meetings plan
+• Project communications 4. Project documents updates
+3. Work performance data • Issue log
+4. Enterprise environmental • Lessons learned register
+factors • Stakeholder register
+5. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used
+for this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for
+tools and techniques appear in Section 10.
+Figure 7-17. Monitor Communications: Inputs, Tools & Techniques, and Outputs
+Project
+Management 7.1
+Plan Monitor and
+• Work performance information Control
+Project Work
+Project management plan
+• Resource management plan
+• Communications management plan
+• Stakeholder engagement plan 7.2
+Perform
+Integrated
+• Change requests Change Control
+Project
+Documents
+Project documents 7.9 Project
+• Issue log Monitor Management
+• Lessons learned register Communications Plan
+Project management
+• Project communications
+plan updates
+• Communications
+management plan
+6.1 • Stakeholder
+Direct and engagement plan
+Manage
+Project
+Project Work
+Documents
+Project documents updates:
+• Work performance reports • Issue log
+• Lessons learned register
+• Stakeholder register
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-18. Monitor Communications: Data Flow Diagram
+Monitor Communications determines if the planned communications artifacts and activities have
+had the desired effect of increasing or maintaining stakeholders’ support for the project’s deliverables
+and expected outcomes. The impact and consequences of project communications should be carefully
+evaluated and monitored to ensure that the right message with the right content (the same meaning
+for sender and receiver) is delivered to the right audience, through the right channel, and at the right
+time. Monitor Communications may require a variety of methods, such as customer satisfaction
+surveys, collecting lessons learned, observations of the team, reviewing data from the issue log, or
+evaluating changes in the stakeholder engagement assessment matrix (refer to data representation
+in Section 10, Figure 10-22).
+The Monitor Communications process can trigger an iteration of the Plan Communications
+Management and/or Manage Communications processes to improve the effectiveness of communi-
+cation through additional and possibly amended communications plans and activities. Such iterations
+illustrate the continuous nature of the communications management processes. Issues or key perfor-
+mance indicators, risks, or conflicts may trigger an immediate revision.
+7.10 MONITOR RISKS
+Monitor Risks is the process of monitoring the implementation of agreed-upon risk response
+plans, tracking identified risks, identifying and analyzing new risks, and evaluating risk process
+effectiveness throughout the project. The key benefit of this process is that it enables project decisions
+to be based on current information about overall project risk exposure and individual project risks.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 7-19. Figure 7-20 presents the data flow diagram for this process.
+Monitor Risks
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Data analysis 1. Work performance
+• Risk management plan • Technical performance information
+2. Project documents analysis 2. Change requests
+• Issue log • Reserve analysis 3. Project management plan
+• Lessons learned register 2. Audits updates
+• Risk register 3. Meetings • Any component
+• Risk report 4. Project documents updates
+3. Work performance data • Assumption log
+4. Work performance reports • Issue log
+• Lessons learned register
+• Risk register
+• Risk report
+5. Organizational process assets
+updates
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used
+for this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for
+tools and techniques appear in Section 10.
+Figure 7-19. Monitor Risks: Inputs, Tools & Techniques, and Outputs
+Project 7.1
+Management Monitor and
+Plan Control
+• Work Project Work
+performance
+information
+Project management plan
+• Risk management plan
+7.2
+Perform
+Integrated
+Project • Change Change Control
+Documents requests
+Project documents
+• Issue log 7.10 Project
+• Lessons learned register Monitor Management
+• Risk register Plan
+• Risk report Risks Project management
+plan updates
+• Any component
+6.1
+Direct and
+Manage Project
+Project Work Documents
+Project documents
+updates
+• Work performance data
+• Assumption log
+• Issue log
+• Lessons learned register
+7.1 • Risk register
+Monitor and • Risk report
+Control
+Project Work Enterprise/
+Organization
+• Organizational process
+• Work performance reports assets updates
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-20. Monitor Risks: Data Flow Diagram
+In order to ensure that the project team and key stakeholders are aware of the current level
+of risk exposure, project work should be continuously monitored for new, changing, and outdated
+individual project risks and for changes in the level of overall project risk by applying the Monitor
+Risks process. The Monitor Risks process uses the performance information generated during
+project execution to determine if:
+▶ Implemented risk responses are effective,
+▶ Level of overall project risk has changed,
+▶ Status of identified individual project risks has changed,
+▶ New individual project risks have arisen,
+▶ Risk management approach is still appropriate,
+▶ Project assumptions are still valid,
+▶ Risk management policies and procedures are being followed,
+▶ Contingency reserves for cost or schedule require modification, and
+▶ Project strategy is still valid.
+7.11 CONTROL PROCUREMENTS
+Control Procurements is the process of managing procurement relationships, monitoring
+contract performance and making changes and corrections as appropriate, and closing out contracts.
+The key benefit of this process is that it ensures that both the seller’s and buyer’s performance meet
+the project’s requirements according to the terms of the legal agreement.
+This process is performed throughout the project as needed. The inputs, tools and techniques, and
+outputs are shown in Figure 7-21. Figure 7-22 presents the data flow diagram for this process.
+Control Procurements
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Expert judgment 1. Closed procurements
+• Requirements management 2. Claims administration 2. Work performance
+plan 3. Data analysis information
+• Risk management plan • Performance reviews 3. Procurement documentation
+• Procurement management • Earned value analysis updates
+plan • Trend analysis 4. Change requests
+• Change management plan 4. Inspection 5. Project management plan
+• Schedule baseline 5. Audits updates
+2. Project documents • Risk management plan
+• Assumption log • Procurement management
+• Lessons learned register plan
+• Milestone list • Schedule baseline
+• Quality reports • Cost baseline
+• Requirements 6. Project documents updates
+documentation • Lessons learned register
+• Requirements traceability • Resource requirements
+matrix • Requirements traceability
+• Risk register matrix
+• Stakeholder register • Risk register
+3. Agreements • Stakeholder register
+4. Procurement documentation 7. Organizational process assets
+5. Approved change requests updates
+6. Work performance data
+7. Enterprise environmental
+factors
+8. Organizational process assets
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used
+for this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for
+tools and techniques appear in Section 10.
+Figure 7-21. Control Procurements: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+Plan
+Project management plan
+• Requirements management plan
+• Risk management plan
+• Procurement management plan Procurement
+• Change management plan Documentation
+• Schedule baseline • Closed procurements
+• Procurement documentation updates
+Project
+Documents 7.1
+Monitor and
+Control
+• Work performance information Project Work
+Project documents
+• Assumption log
+• Lessons learned register
+• Milestone list 7.2
+• Quality reports Perform
+• Requirements documentation
+Integrated
+• Requirements traceability matrix • Change requests Change Control
+• Risk register
+• Stakeholder register
+Examples of Procurement Administrative Activities
+7.2
+7.11 Project Activities may include:
+Perform
+Control Management
+Integrated
+Procurements Plan
+Change Control ▶ Collection of data and management of project records, including maintenance of detailed
+• Approved change requests records of physical and financial performance and establishment of measurable procurement
+Project management plan updates
+• Risk management plan performance indicators;
+• Procurement management plan
+6.1
+• Schedule baseline
+Direct and • Cost baseline ▶ Refinement of procurement plans and schedules;
+Manage
+Project Work Project
+▶ Setup for gathering, analyzing, and reporting procurement-related project data and preparation
+Documents
+• Work performance data Project documents updates of periodic reports to the organization;
+• Lessons learned register
+• Resource requirements
+5.23 • Requirements traceability matrix ▶ Monitoring the procurement environment so that implementation can be facilitated
+Plan • Risk register
+Procurement • Stakeholder register or adjustments made; and
+Management
+▶ Payment of invoices.
+• Procurement documentation Enterprise/
+Organization
+• Organizational process
+6.9 assets updates
+Conduct
+Procurements
+• Agreements
+Enterprise/
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-22. Control Procurements: Data Flow Diagram
+Both the buyer and the seller administer the procurement contract for similar purposes.
+Each is required to ensure that both parties meet their contractual obligations and that their own
+legal rights are protected. The legal nature of the relationship makes it imperative that the project
+management team is aware of the implications of actions taken when controlling any procurement.
+On larger projects with multiple providers, a key aspect of contract administration is managing
+communication among the various providers.
+Because of the legal aspect, many organizations treat contract administration as an organizational
+function that is separate from the project. While a procurement administrator may be on the project
+team, this individual typically reports to a supervisor from a different department.
+Control Procurements includes application of the appropriate project management processes
+to the contractual relationship(s) and integration of the outputs from these processes into the overall
+management of the project. This integration often occurs at multiple levels when there are multiple
+sellers and multiple products, services, or results involved.
+Examples of Procurement Administrative Activities
+Activities may include:
+▶ Collection of data and management of project records, including maintenance of detailed
+records of physical and financial performance and establishment of measurable procurement
+performance indicators;
+▶ Refinement of procurement plans and schedules;
+▶ Setup for gathering, analyzing, and reporting procurement-related project data and preparation
+of periodic reports to the organization;
+▶ Monitoring the procurement environment so that implementation can be facilitated
+or adjustments made; and
+▶ Payment of invoices.
+The quality of the controls, including the independence and credibility of procurement audits,
+is critical to the reliability of the procurement system. The organization’s code of ethics, its legal
+counsel, and external legal advisory arrangements, including any ongoing anti-corruption initiatives,
+can contribute to proper procurement controls.
+Control Procurements has a financial management component that involves monitoring
+payments to the seller. This ensures that payment terms defined within the contract are met and
+that compensation is linked to the seller’s progress as defined in the contract. A principal concern
+when making payments is to ensure there is a close relationship of payments made to the work
+accomplished. A contract that requires payments linked to project outputs and deliverables, rather
+than inputs such as labor hours, has better controls.
+Agreements can be amended at any time prior to contract closure by mutual consent in
+accordance with the change control terms of the agreement. Such amendments are typically
+captured in writing.
+7.12 MONITOR STAKEHOLDER ENGAGEMENT
+Monitor Stakeholder Engagement is the process of monitoring project stakeholder
+relationships and tailoring strategies for engaging stakeholders through the modification of
+engagement strategies and plans. The key benefit of this process is that it maintains or increases
+the efficiency and effectiveness of stakeholder engagement activities as the project evolves and its
+environment changes.
+This process is performed throughout the project. The inputs, tools and techniques, and outputs
+are shown in Figure 7-23. Figure 7-24 presents the data flow diagram for this process.
+Monitor Stakeholder Engagement
+Inputs Tools & Techniques Outputs
+1. Project management plan 1. Data analysis 1. Work performance
+• Resource management plan • Alternatives analysis information
+• Communications • Root cause analysis 2. Change requests
+management plan • Stakeholder analysis 3. Project management plan
+• Stakeholder engagement 2. Decision making updates
+plan • Multicriteria decision • Resource management plan
+2. Project documents analysis • Communications
+• Issue log • Voting management plan
+• Lessons learned register 3. Data representation • Stakeholder engagement
+• Project communications • Stakeholder engagement plan
+• Risk register assessment matrix 4. Project documents updates
+• Stakeholder register 4. Communication skills • Issue log
+3. Work performance data • Feedback • Lessons learned register
+4. Enterprise environmental • Presentations • Risk register
+factors 5. Interpersonal and team skills • Stakeholder register
+5. Organizational process assets • Active listening
+• Cultural awareness
+• Leadership
+• Networking
+• Political awareness
+6. Meetings
+Note: This figure provides the inputs, tools and techniques, and outputs that may be used
+for this process. Descriptions for inputs and outputs appear in Section 9. Descriptions for
+tools and techniques appear in Section 10.
+Figure 7-23. Monitor Stakeholder Engagement: Inputs, Tools & Techniques, and Outputs
+Project
+Management
+7.1
+Plan
+Monitor and
+Control
+• Work performance information Project Work
+Project management plan
+• Resource management plan
+• Communications management plan
+• Stakeholder engagement plan
+7.2
+Perform
+Integrated
+Project • Change requests
+Change Control
+Documents
+P • r o I j s e s c u t e d l o o c g uments 7.12 Project
+• Lessons learned register Monitor Management
+• Project communications Stakeholder Plan
+• Risk register Engagement Project management
+• Stakeholder register plan updates
+• Resource management
+plan
+• Communications management plan
+6.1 • Stakeholder engagement plan
+Direct and
+Manage
+Project Work
+Project
+Documents
+• Work performance data
+Project documents updates
+• Issue log
+• Lessons learned register
+• Risk register
+Enterprise/ • Stakeholder register
+Organization
+• Enterprise environmental factors
+• Organizational process assets
+Note: This figure provides the inputs and outputs that may be used for this process.
+Descriptions for inputs and outputs appear in Section 9.
+Figure 7-24. Monitor Stakeholder Engagement: Data Flow Diagram

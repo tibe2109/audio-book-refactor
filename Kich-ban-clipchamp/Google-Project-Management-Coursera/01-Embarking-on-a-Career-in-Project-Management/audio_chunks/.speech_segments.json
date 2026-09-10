@@ -1,0 +1,1680 @@
+{
+  "Kich-ban-1.txt": [
+    {
+      "lang": "vi",
+      "text": "HỌC PHẦN MỘT, KHỞI ĐẦU SỰ NGHIỆP QUẢN TRỊ DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "EMBARKING ON A CAREER IN PROJECT MANAGEMENT",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "QUẢN TRỊ DỰ ÁN LÀ GÌ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "WHAT IS PROJECT MANAGEMENT?.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Chào các bạn, rất vui được gặp lại các bạn! Chúng ta hãy cùng nhau tiếp tục hành trình khám phá. Trong phần này, chúng ta sẽ cùng định nghĩa thế nào là một dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tìm hiểu bản chất của quản trị dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và giải mã những giá trị cốt lõi mà công việc này mang lại cho một tổ chức. Trước hết, hãy cùng xác định chính xác một dự án là gì. Một dự án là một nỗ lực độc nhất vô nhị,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Unique endeavor,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và thông thường nó luôn tạo ra một tập hợp các kết quả bàn giao mang tính duy nhất,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Unique deliverables.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Dự án cũng mang tính chất tạm thời,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Temporary pursuit,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "có nghĩa là nó luôn có một điểm khởi đầu và một thời điểm kết thúc rõ ràng. Nói một cách dễ hiểu hơn, một dự án chính là một chuỗi các nhiệm vụ cần được hoàn thành tuần tự hoặc song song nhằm đạt được một kết quả đầu ra mong muốn. Để chạm tới kết quả kỳ vọng ấy, chúng ta luôn cần đến sự phối hợp nhịp nhàng giữa các cá nhân cùng một bản kế hoạch được tính toán tỉ mỉ, cẩn trọng, giúp cho dự án luôn đi đúng lộ trình và nằm trong giới hạn ngân sách. Đó chính là mảnh đất mà quản trị dự án phát huy tối đa sức mạnh. Quản trị dự án là yếu tố mang tính sống còn quyết định sự thành bại của mọi dự án, từ những dự án nhỏ gọn cho đến các đại dự án tầm cỡ. Vì vậy, chúng ta hãy cùng bóc tách nó qua ba lăng kính, Cái gì,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "What,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Tại sao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Why,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và Bằng cách nào,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "How.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Vậy chính xác quản trị dự án là gì? Tại sao quản trị dự án lại là một bộ phận không thể thiếu trong cấu trúc của một tổ chức, và nó đóng vai trò then chốt như thế nào đối với thành công của một dự án? Như tôi vừa đề cập, quản trị dự án chính là việc áp dụng một cách có hệ thống các kiến thức, kỹ năng, công cụ và kỹ thuật chuyên môn vào các hoạt động của dự án nhằm đáp ứng trọn vẹn các yêu cầu đặt ra và đạt được kết quả mong đợi. Quản trị dự án mang lại giá trị to lớn cho doanh nghiệp bởi vì, nó bảo đảm chắc chắn rằng dự án sẽ mang lại những kết quả đúng như kỳ vọng, vừa kịp tiến độ về mặt thời gian, lại vừa nằm trong tầm kiểm soát của ngân sách được cấp phép.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-2.txt": [
+    {
+      "lang": "vi",
+      "text": "Để các bạn dễ hình dung điều tôi muốn nói, tôi xin chia sẻ một ví dụ, thực tế rất sinh động về quản trị dự án. Hãy tưởng tượng một học khu ký kết một thỏa thuận hợp tác với một công ty y tế từ xa,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Telehealth,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nhằm đảm bảo các em học sinh không phải nghỉ học khi gặp vấn đề sức khỏe nhẹ, và thỏa thuận này sẽ được triển khai hoàn tất trước khi năm học hiện tại khép lại. Nhờ đó, các em học sinh giờ đây có thể tương tác trực tiếp với bác sĩ thông qua máy tính bảng, điện thoại thông minh hoặc máy tính xách tay ngay tại phòng y tế của trường. Quá trình đưa toàn bộ công nghệ này vào quy trình hoạt động thường nhật của các trường học chính là một dự án, nó có một mục tiêu kết quả rõ ràng, có ngày bắt đầu và ngày hoàn thành xác định. Vậy một dự án như thế được quản trị ra sao? Rõ ràng, dự án này bao gồm rất nhiều nhiệm vụ khác nhau, và mỗi nhiệm vụ đều phải được lên kế hoạch cẩn trọng, được theo dõi sát sao hoặc điều phối liên tục để toàn bộ dự án có thể cán đích thành công. Chẳng hạn, để khởi động, bạn có thể tổ chức các buổi tập huấn chuyên sâu cho đội ngũ giáo viên và nhân viên nhà trường để họ làm quen với công nghệ mới, hiểu rõ các quy chế và quy trình vận hành. Bạn cần lập ngân sách dự trù cho máy tính bảng, máy tính và các thiết bị chuyên dụng quan trọng phục vụ cho các buổi khám bệnh ảo. Đồng thời, bạn phải duy trì các kênh liên lạc thông suốt, chặt chẽ giữa đội ngũ bác sĩ, phía công ty",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Telehealth",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và cán bộ nhân viên nhà trường, cùng rất nhiều đầu mối công việc liên quan khác. Để có thể đưa giải pháp này đi vào vận hành thực tế tại các trường học một cách suôn sẻ, tất cả những phần việc kể trên bắt buộc phải được triển khai đồng bộ và hoàn hảo. Và đó chính là quản trị dự án. Các bạn thấy đấy, vai trò của nó thực sự vô cùng quan trọng đối với sự phát triển và thành công bền vững của một tổ chức, phải không nào? Ngày càng có nhiều doanh nghiệp và tập đoàn nhận ra rằng quản trị dự án bài bản có thể giúp họ tiết kiệm được những khoản tiền khổng lồ và vô vàn thời gian quý báu. Ngược lại, việc quản trị dự án yếu kém có thể dẫn tới sự lãng phí lên tới hàng nghìn tỷ đô la mỗi năm cho các tổ chức trên toàn cầu. Cụ thể hơn theo các số liệu thống kê, quản trị dự án kém cỏi khiến bốn mươi tám phần trăm dự án bị trễ hạn bàn giao, bốn mươi ba phần trăm dự án bị vượt ngân sách dự toán, và ba mươi mốt phần trăm dự án hoàn toàn thất bại trong việc đáp ứng các mục tiêu chiến lược của tổ chức.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-3.txt": [
+    {
+      "lang": "vi",
+      "text": "Là một tập đoàn công nghệ toàn cầu phục vụ hàng tỷ người dùng với vô số nhu cầu và cộng đồng đa dạng, không có gì đáng ngạc nhiên khi quản trị dự án là một phần cốt lõi trong",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "DNA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tuy nhiên, tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "rất nhiều người làm công tác quản trị dự án thường được gọi với chức danh là Quản lý Chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bởi vì, họ phải điều phối và quản trị nhiều dự án đồng thời, xoay quanh các sản phẩm, đội nhóm hoặc chương trình chiến lược cụ thể. Có tới hàng nghìn chuyên gia tại đây đang ngày đêm làm công việc giữ cho các dự án và chương trình vận hành trơn tru. Những con người như tôi chẳng hạn, Tôi là một Quản lý Chương trình Đổi mới Có trách nhiệm,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Responsible Innovation Program Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đội ngũ của tôi chịu trách nhiệm đảm bảo rằng mọi công nghệ chúng tôi tạo ra, mọi nghiên cứu chúng tôi theo đuổi và mọi ấn phẩm học thuật chúng tôi công bố đều phải tuân thủ nghiêm ngặt các nguyên tắc về trí tuệ nhân tạo,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "A-I Principles,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi trực tiếp đánh giá quy trình phát triển của từng loại hình công nghệ này, đồng thời, đề xuất những sáng kiến giúp",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tiếp tục đổi mới một cách có trách nhiệm nhằm đạt được các mục tiêu chung của toàn tổ chức. Như vậy, công việc thường nhật của tôi tạo ra giá trị trực tiếp cho",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thông qua các khía cạnh cốt lõi của quản trị dự án mà chúng ta vừa bàn tới, lập kế hoạch và tổ chức, quản trị nhiệm vụ, lập ngân sách và kiểm soát chi phí. Hy vọng rằng qua phần mở đầu này, các bạn đã có một cái nhìn sâu sắc và trực quan hơn về thế nào là một dự án, quản trị dự án là gì, tại sao quản trị dự án lại là một mảnh ghép thiết yếu trong mọi doanh nghiệp, và nó đóng vai trò then chốt ra sao trong việc đưa dự án tới bến bờ thành công. Tiếp theo đây, chúng ta sẽ cùng nhau tìm hiểu chi tiết hơn về công việc hàng ngày của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "NGƯỜI QUẢN LÝ DỰ ÁN LÀM NHỮNG GÌ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "WHAT DOES A PROJECT MANAGER DO?.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Chào các bạn, chúng ta đã nắm được khái niệm quản trị dự án và tầm quan trọng sống còn của nó đối với các tổ chức. Bây giờ, hãy cùng khám phá xem một người quản lý dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "thực sự làm những công việc gì trong đời sống công sở mỗi ngày. Một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thường tuân theo một quy trình bao gồm các mắt xích, lập kế hoạch và tổ chức, quản trị các nhiệm vụ, lập ngân sách, kiểm soát chi phí và xử lý các biến số phát sinh. Bất kỳ hành động nào họ thực hiện cũng đều quy về một mục đích tối thượng, đảm bảo dự án được hoàn thành đúng thời hạn cam kết và nằm trọn trong ngân sách cho phép.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-4.txt": [
+    {
+      "lang": "vi",
+      "text": "Xét trên bình diện rộng lớn hơn, người quản lý dự án còn phải đảm bảo rằng kết quả đầu ra của dự án sẽ đem lại giá trị thực tế cho công ty. Một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "có thể tạo ra giá trị theo rất nhiều phương thức khác nhau. Đó có thể là việc kiến tạo một dịch vụ hoàn toàn mới cho khách hàng, hoặc cải tiến một dịch vụ hiện có để nó bám sát hơn với nhu cầu thực tế của người dùng. Cho dù nhiệm vụ cụ thể là gì đi nữa, một dự án thành công luôn luôn phải mang lại giá trị gia tăng. Và nhiệm vụ cao cả của người quản lý dự án là đảm bảo dự án đó vừa có giá trị, vừa gặt hái thành công trọn vẹn. Có thể bạn đang tự hỏi, Nếu tôi trở thành một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "làm thế nào để tôi có thể tạo ra giá trị cho tổ chức mỗi ngày? Một ngày làm việc điển hình của người quản lý dự án sẽ diễn ra như thế nào? Trên thực tế, trách nhiệm của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "có thể biến hóa rất linh hoạt, tùy thuộc vào tính chất dự án, ngành nghề hoạt động và quy mô công ty nơi họ cống hiến. Bạn đang điều phối việc xây dựng một tòa cao ốc mới? Bạn đang quản lý việc phát triển một sản phẩm năng lượng tái tạo trong một công ty khởi nghiệp công nghệ? Hay bạn đang tự mình gây dựng một công ty tổ chức sự kiện riêng? Mỗi kịch bản sẽ đặt ra những công việc hoàn toàn khác biệt, nhưng dưới đây là bức tranh toàn cảnh về những gì thường diễn ra trong một ngày làm việc tiêu chuẩn. Trách nhiệm hàng ngày của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "luôn xoay quanh một số khía cạnh nền tảng sau. Thứ nhất là Lập kế hoạch và Tổ chức,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Planning and Organizing.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một ví dụ, sinh động cho công việc này là việc thu thập các yêu cầu,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Requirements,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "từ các thành viên trong nhóm hoặc từ khách hàng. Điều này có nghĩa là bạn phải làm rõ chính xác dự án của mình đang nỗ lực đạt được điều gì. Bạn có thể tổ chức một cuộc họp khởi động dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Kickoff meeting,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc gửi bảng khảo sát chi tiết. Từ nền tảng đó, bạn sẽ bắt tay vào việc xây dựng các kế hoạch dự án chi tiết,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project plans.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Việc thiết lập kế hoạch dự án là một phần cốt lõi của quản trị, nó giúp định hình nhịp điệu cho toàn dự án, giữ cho mọi người luôn theo kịp tốc độ và đồng thuận về mặt định hướng, đồng thời, thúc đẩy các phần việc liên tục tiến lên phía trước. Điều đó dẫn chúng ta đến khía cạnh thứ hai, Quản trị các Nhiệm vụ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Managing Tasks.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một khi dự án đã chính thức khởi động và đi vào guồng quay, người quản lý dự án sẽ giúp điều phối và quản trị các nhiệm vụ cho từng thành viên trong nhóm, đồng thời, thông báo các mốc tiến độ then chốt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Milestones,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tới toàn thể đội ngũ hoặc khách hàng. Việc này giúp các thành viên trong nhóm cũng như khách hàng luôn nắm bắt kịp thời diễn biến và tình trạng hiện tại của dự án.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-5.txt": [
+    {
+      "lang": "vi",
+      "text": "Khía cạnh thứ ba là Lập ngân sách, Kiểm soát Chi phí và Quản trị các yếu tố rủi ro liên quan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Budgeting and Controlling Costs.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Quản lý ngân sách và giám sát chặt chẽ các khoản chi là một trách nhiệm vô cùng quen thuộc mà mọi",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đều phải tinh thông để giữ cho dự án không bị vỡ kế hoạch tài chính. Đây thực sự là một công việc toàn thời gian đòi hỏi sự tập trung cao độ, bởi vì, bản kế hoạch mà bạn đã dày công xây dựng và quản trị hoàn toàn có thể thay đổi bất cứ lúc nào do thực tế biến động, kéo theo những chi phí phát sinh ngoài dự kiến. Và đó chỉ mới là một vài gạch đầu dòng tiêu biểu trong vô vàn công việc. Tôi có thể kể cho các bạn nghe hàng ngày trời không hết. Nhưng điều quan trọng nhất bạn cần thấu hiểu về công việc thường nhật của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là, Bạn sẽ liên tục vận dụng các công cụ, kỹ thuật và phương pháp luận khác nhau trong từng ngày làm việc. Sẽ không bao giờ có một khoảnh khắc nào tẻ nhạt hay đơn điệu cả. Cá nhân tôi, điều tôi yêu thích nhất khi làm một người quản lý dự án là được tận mắt chứng kiến sự trưởng thành và thành hình của dự án từ vạch xuất phát cho tới đích đến cuối cùng. Cảm giác được tạo ra một điều gì đó từ con số không, gây dựng từng viên gạch từ dưới nền móng đi lên, thực sự là một trải nghiệm vô cùng đặc biệt và mang lại sự thỏa nguyện sâu sắc. Trên cương vị của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bạn sẽ ứng dụng rất nhiều kỹ năng đa dạng mỗi ngày. Điều thú vị là rất nhiều trong số những kỹ năng này có thể bạn đã sở hữu từ trước mà chưa hề nhận ra, và chúng ta sẽ cùng nhau mổ xẻ kỹ hơn về điều này ngay sau đây. Hẹn gặp lại các bạn! CÁC KỸ NĂNG QUẢN TRỊ DỰ ÁN CÓ THỂ CHUYỂN ĐỔI,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "TRANSFERABLE PROJECT MANAGEMENT SKILLS",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Chào mừng các bạn đã quay trở lại. Hãy cùng đi thẳng vào vấn đề và khám phá những kỹ năng đa dạng mà bạn sẽ sử dụng. Đã bao giờ bạn được giao trọng trách lên kế hoạch cho một bữa tiệc sinh nhật bất ngờ dành cho người thân yêu chưa? Đó thường là một trải nghiệm đi kèm rất nhiều áp lực và trách nhiệm nặng nề, nhưng khi bạn tổ chức thành công, cảm giác mang lại thực sự tuyệt vời khôn tả. Cảm giác ấy vẫn trọn vẹn ngay cả khi có một vài sự cố nho nhỏ xảy ra trong quá trình thực hiện, chẳng hạn, như nhân vật chính về nhà sớm hơn dự kiến và suýt chút nữa làm hỏng điều bất ngờ. Nhưng nếu cuối cùng bạn đã khiến một ai đó cảm thấy mình được trân trọng và hạnh phúc trong ngày sinh nhật, thì chắc chắn bạn vừa hoàn thành xuất sắc một dự án thực thụ.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-6.txt": [
+    {
+      "lang": "vi",
+      "text": "Khi bạn tìm kiếm và lựa chọn địa điểm tổ chức, gửi thiệp mời tới từng vị khách, và tính toán ngân sách dựa trên số lượng người tham dự, bạn thực chất đã và đang vận dụng một loạt các kỹ năng quản trị dự án cốt lõi, như lập kế hoạch và tổ chức, quản trị nhiệm vụ, lập ngân sách và kiểm soát chi phí, cùng nhiều kỹ năng khác. Hoặc giả sử bạn chưa từng tổ chức một bữa tiệc nào như vậy, thì liệu bạn đã từng làm việc trong ngành bán lẻ hoặc ngành dịch vụ bao giờ chưa? Nếu có, bạn cũng đã tích lũy được những kinh nghiệm vô cùng quý giá có thể chuyển đổi mượt mà sang lĩnh vực quản trị dự án. Lấy ví dụ, bạn từng chịu trách nhiệm sắp xếp và điều phối lịch làm việc cho nhiều nhân viên trong ca. Để làm được điều đó, bạn phải lên kế hoạch và sắp xếp xem phong cách làm việc của những nhân viên nào sẽ bổ trợ tốt cho nhau để tạo ra năng suất cao nhất. Bạn cũng phải bảo đảm rằng mọi đầu việc và trách nhiệm đều có người phụ trách trong suốt ca làm việc. Hơn thế nữa, bạn cần phải nắm rất rõ thời gian biểu và mức độ sẵn sàng của từng nhân sự. Nghe vẫn chưa thấy quen thuộc ư? Vậy thì bạn đã từng phải chuyển nhà đi xa vì một công việc mới và phải tự mình lên kế hoạch cho một cuộc đại chuyển dọn chưa? Để có thể chuyển toàn bộ đồ đạc của mình tới nơi ở mới một cách an toàn và thuận lợi, có thể bạn đã phải liên hệ nhờ bạn bè và người thân tới hỗ trợ. Bạn đã phải tính toán ngân sách và tối ưu chi phí cho các đơn vị vận chuyển, mua thùng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "carton",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đựng đồ, và các khoản phí phát sinh khác. Có lẽ bạn đã đóng gói đồ đạc lần lượt từng phòng một và dán nhãn cẩn thận lên từng chiếc thùng để khi tới nơi ở mới, bạn biết chính xác trong thùng có những gì. Bạn đã phải điều phối và quản trị tất cả các tác vụ đó cùng một lúc. Chắc chắn trong suốt cuộc đời mình, bạn đã từng xử lý rất nhiều công việc tương tự như thế. Khi bước vào hành trình học tập quản trị dự án, bạn sẽ học cách mài giũa và nâng tầm những kỹ năng vốn có đó, để bạn đủ tự tin và năng lực đứng ra gánh vác những nhiệm vụ lớn lao hơn, phức tạp hơn rất nhiều. Những khả năng đã từng giúp bạn hoàn thành các dự án cá nhân trong quá khứ chính là những điểm sáng đắt giá để bạn làm nổi bật bản thân khi ứng tuyển vị trí",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tương lai.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-7.txt": [
+    {
+      "lang": "vi",
+      "text": "Vì vậy, hãy nhớ mang những ví dụ, chân thực này vào các buổi phỏng vấn tuyển dụng để chứng minh năng lực thực chiến của bạn. Chẳng hạn, khi nhà tuyển dụng đặt ra những câu hỏi kinh điển như, Hãy kể cho tôi nghe về một lần bạn phải xoay xở và xử lý nhiều nhiệm vụ cùng một lúc, hoặc Hãy chia sẻ về một tình huống bạn phải thuyết phục hoặc tạo ảnh hưởng lên một khách hàng hay một đồng đội. Việc bạn đưa ra được những minh chứng cụ thể thể hiện kỹ năng quản trị thời gian và năng lực lãnh đạo từ chính đời sống thường nhật cũng như từ các môi trường làm việc trước đây sẽ tạo nên sức thuyết phục vô cùng lớn. Các bạn đã bắt đầu liên tưởng đến những kỹ năng mình đang nắm giữ và có thể áp dụng ngay vào vai trò quản lý dự án trong tương lai chưa? Quá tuyệt vời! Trong phần tiếp theo, chúng ta sẽ cùng tìm hiểu về những loại hình vị trí quản trị dự án mà bạn hoàn toàn đủ năng lực đảm nhận sau khi hoàn thành chương trình này, đồng thời, thảo luận cách bắt đầu khai phá các cơ hội việc làm rộng mở đang đón chờ bạn. Hẹn gặp lại các bạn trong ít phút nữa! CON ĐƯỜNG TRỞ THÀNH NGƯỜI QUẢN LÝ DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "PATH TO BECOMING A PROJECT MANAGER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chào tất cả mọi người, tôi tên là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "X.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Vâng, đúng vậy, chỉ duy nhất một chữ cái",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "X.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tôi hiện là Quản lý Chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "thuộc bộ phận Đổi mới Có trách nhiệm,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Responsible Innovation.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Phần lớn chúng ta, trong đời sống thường nhật, đều đang vô tình vận dụng các nguyên lý quản lý chương trình. Khi bạn chỉ còn vỏn vẹn vài tiếng đồng hồ trong một ngày và phải cân nhắc xem, liệu mình nên dọn dẹp nhà cửa hay đi siêu thị mua thực phẩm? Mỗi công việc đó sẽ tiêu tốn bao nhiêu thời gian? Những tính toán đó thực chất chính là các yếu tố và biến thể khác nhau của quản trị chương trình và quản trị dự án. Con đường dẫn tôi đến với nghề",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "khá khác biệt và phi truyền thống. Tôi không hề tốt nghiệp từ một trường đại học danh giá nào cả. Trên thực tế, tôi từng bỏ dở trung học và sau đó cũng bỏ dở cả đại học. Do đó, chứng chỉ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "G-E-D,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bằng tương đương tốt nghiệp trung học phổ thông, là văn bằng học thuật cao nhất mà tôi có. Sau khi rời trường trung học, tôi tự mày mò học lập trình. Tôi đã xây dựng rất nhiều trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "khác nhau, nhưng rồi tôi nhận ra rằng mình vẫn thiếu những kỹ năng về trách nhiệm để trở thành một người trưởng thành thực sự chững chạc. Vì vậy, tôi quyết định gia nhập quân đội.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-8.txt": [
+    {
+      "lang": "vi",
+      "text": "Sau tám năm phục vụ trong Quân đội Hoa Kỳ, tôi đã đi khắp thế giới và tham gia xây dựng các ứng dụng phần mềm cho những tập đoàn công nghệ khổng lồ cũng như các chính phủ trên toàn cầu. Khi bước chân vào",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tôi nhận ra mình vẫn có thể làm công việc kỹ thuật, nhưng như thế thì tôi cũng chỉ đang khai thác lại những kỹ năng sẵn có. Vậy làm thế nào để tôi có thể phát triển bản thân hơn nữa, bằng cách lĩnh hội những kỹ năng hoàn toàn mới? Đó chính là thời điểm tôi biết đến vai trò Quản lý Chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Vị trí",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thực sự vô cùng hấp dẫn bởi vì, nó biến hóa rất đa dạng tùy thuộc vào đội ngũ mà bạn trực thuộc. Nếu bạn làm",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "trong mảng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Cloud,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "công việc của bạn sẽ trông rất khác so với khi bạn làm",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "YouTube.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Sự chuyển đổi và đổi mới đó, việc thoát khỏi cảnh phải ngồi cặm cụi gõ mã lệnh suốt ngày trước màn hình máy tính, là điều cực kỳ cuốn hút đối với tôi. Một số kỹ năng lớn nhất từ quá khứ và kinh nghiệm sống đã giúp tôi trở thành một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "giúp tôi hoàn tất cú chuyển mình từ một người từng bị các quản lý dự án và chương trình điều phối, để rồi chính mình trở thành một người điều phối thực thụ, đó là việc biết nhận trách nhiệm nhiều hơn trong đời sống cá nhân. Có vô vàn điều tôi muốn học hỏi trong cuộc đời này. Tôi bắt đầu rèn luyện bằng cách tự lập thời gian biểu kỷ luật để luyện tập các loại nhạc cụ khác nhau, ví dụ, như đàn ghi-ta",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bass.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Ở mỗi vị trí công việc trước đây, bất cứ khi nào làm việc cùng một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager hay Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tôi đều chủ động trao đổi và hỏi họ lý do vì sao họ lại lựa chọn phương án xử lý như vậy. Tôi là một người không thực sự học giỏi qua sách vở, như các bạn có thể đoán được từ quá khứ bỏ học của tôi. Vì vậy, tôi luôn tìm kiếm những người sẵn lòng chỉ dẫn và giải thích cặn kẽ bản chất vấn đề cho tôi, bởi đó chính là cách tôi tiếp thu kiến thức tốt nhất. Tôi có xu hướng học thông qua vận động và trải nghiệm thực tế,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Kinetic learner,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi vừa làm vừa học. Nghề quản trị chương trình đối với tôi như một tiếng gọi tự nhiên. Không phải vì tôi thích chạy lăng xăng khắp nơi và chỉ tay năm ngón bảo mọi người phải làm gì, mà bởi vì, tôi có một niềm đam mê cháy bỏng trong việc kết nối mọi người lại với nhau, giúp tất cả cùng nhìn về một hướng và đồng lòng tiến tới một mục tiêu chung. Dù đó là việc thuyết phục hội bạn thân cùng đi ăn tại quán đồ chay yêu thích ở trung tâm",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Los Angeles",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tới bốn lần một tuần, hay là việc gắn kết mọi người lại để hóa giải bất đồng, cùng nhau phát triển một ý tưởng và hợp tác trong các dự án tay trái ngoài giờ.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-9.txt": [
+    {
+      "lang": "vi",
+      "text": "Những kỹ năng mà bạn vẫn dùng hàng ngày để quản lý chu toàn các đầu việc cá nhân hoàn toàn có thể ứng dụng vào quản trị chương trình và quản trị dự án một cách rất tự nhiên. Bạn chỉ cần có ý thức và chủ động hơn với chúng một chút, và tất nhiên, sẽ có thêm nhiều thủ tục giấy tờ văn bản cần xử lý hơn mà thôi. CON ĐƯỜNG TRỞ THÀNH NGƯỜI QUẢN LÝ DỰ ÁN, CÂU CHUYỆN CỦA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "JUANNE, JUANNE'S STORY",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi tên là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "JuAnne,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hiện là Quản lý Chương trình Cấp cao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Senior Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi là người Mỹ gốc Hoa thuộc thế hệ thứ nhất. Gia đình tôi nhập cư vào Hoa Kỳ khi tôi còn khá nhỏ. Cha mẹ tôi đã phải làm việc vô cùng vất vả trong suốt những năm tháng tôi lớn lên, và tôi thường phải ở nhà một mình, về cơ bản là phải tự lập chăm sóc bản thân, từ việc tự lên thực đơn các bữa ăn, tự giác làm bài tập về nhà cho đến việc quán xuyến các công việc vặt trong gia đình. Tôi cảm nhận rằng một phần kỹ năng quản trị chương trình của mình đã được ươm mầm từ chính lối sống ngăn nắp, việc luôn phải giữ cho mọi thứ trong cuộc sống của mình thật trật tự và có tổ chức suốt thời thơ ấu. Con đường đưa tôi đến với nghề quản lý dự án thực sự bắt đầu từ vị trí Chuyên viên Phân tích Hệ thống Kinh doanh,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Business Systems Analyst.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Khi đó, công việc của tôi là thu thập và viết các tài liệu yêu cầu,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Requirements,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cho khách hàng, sau đó chuyển dịch chúng thành các tài liệu kỹ thuật chi tiết để các kỹ sư công nghệ có thể triển khai xây dựng hệ thống. Thông qua chính quy trình làm việc cọ xát đó, tôi dần chuyển hóa thành một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "lúc nào không hay. Tôi bắt đầu đứng ra quản trị tiến độ thời gian,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Timelines,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "phân bổ và theo dõi các nhiệm vụ, hiểu rõ từng mắt xích vận hành và nắm bắt được những ai cần phải tham gia vào dự án. Cứ như vậy, bạn đã có một người quản lý dự án hoàn chỉnh. Tôi nghĩ điều thú vị nhất khi làm một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "chính là việc được làm việc với con người. Bạn có cơ hội tiếp xúc với rất nhiều kiểu người khác nhau, với vô vàn cá tính muôn màu muôn vẻ. Đôi khi bạn được đi công tác tới nhiều vùng đất để gặp gỡ họ, nhưng ngay cả khi không đi xa, chỉ riêng việc gặp gỡ những con người mới, thấu hiểu cách chúng ta tương tác, cách con người đối thoại và cư xử với nhau đã là một điều vô cùng kỳ diệu. Tôi tin rằng nếu bạn biết cách xây dựng mối quan hệ, tập trung vào kết nối giữa người với người, và thực sự thấu hiểu phong cách của họ, hiểu họ xuất phát từ góc nhìn nào và họ đang có những trăn trở gì, điều đó sẽ giúp mối quan hệ công việc của bạn trở nên êm đẹp và hiệu quả hơn rất nhiều. Bạn có thể giao tiếp với họ theo đúng phong cách phù hợp nhất. Bạn có thể làm việc với họ theo cách thức mà họ dễ đón nhận nhất, và điều đó chắc chắn sẽ nâng tầm dự án lên một nấc thang thành công mới về mọi mặt.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-10.txt": [
+    {
+      "lang": "vi",
+      "text": "HÀNH TRÌNH TRỞ THÀNH NGƯỜI QUẢN LÝ DỰ ÁN CỦA TÔI, CÂU CHUYỆN CỦA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "RACHEL, RACHEL'S STORY",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Tên tôi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Rachel,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hiện là Quản lý Chương trình Cấp cao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Senior Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tại văn phòng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google New York. Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đã tuyển dụng tôi trực tiếp từ một quán",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bar",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "ở khu",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "East Village",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cách đây khoảng mười hai năm. Trong suốt gần ba năm, một nhóm kỹ sư Vận hành và Đảm bảo Độ tin cậy Hệ thống,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "NY Ops",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S-R-E,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thường xuyên ghé uống tại quán",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bar",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "nơi tôi làm việc. Cũng giống như bao vị khách khác tại quầy",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bar,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "họ thường tâm sự và xin lời khuyên từ người pha chế. Tôi đã lắng nghe, đưa ra những lời khuyên chân thành và giúp họ vượt qua rất nhiều khúc mắc trong công việc lẫn cuộc sống, và rồi chúng tôi trở thành những người bạn thân thiết. Tôi thực sự ngưỡng mộ họ, họ là những người vô cùng thông minh, duyên dáng, uống rượu rất cừ và tiền tip cũng rất hào phóng. Đến một thời điểm, tôi khao khát tìm kiếm một ngã rẽ mới cho cuộc đời mình. Tôi đã phải đứng sau quầy",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bar",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thâu đêm suốt sáng suốt một thời gian dài, và rồi một cơ hội mở ra khi đội ngũ của họ tuyển dụng một vị trí hành chính,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Admin role.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Thế là tôi gia nhập",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "vào năm hai nghìn không trăm linh tám. Ban đầu, họ tuyển tôi vào vị trí Quản trị viên,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Administrator,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cho bộ phận Vận hành và Kỹ thuật Độ tin cậy Hệ thống,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Site Reliability and Engineering Ops,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tại thành phố",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "New York.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Sau khoảng hai năm gắn bó, tôi chính thức chuyển ngạch sang làm Quản lý Chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Management.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Quy trình tuyển dụng của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "ngày nay đã mang tính quy chuẩn và truyền thống hơn nhiều, nhưng những kỹ năng tôi đã dày công tôi luyện trong những năm tháng làm",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bartender",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "vẫn luôn là kim chỉ nam soi sáng công việc thường nhật của tôi. Một bác",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bartender",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "già thông thái mà tôi từng quen biết ở khu",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Lower East Side",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đã từng nói với tôi một câu thấm thía, Một quán",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bar",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thực chất chỉ là một căn phòng kê đầy bàn ghế và có thêm một chút bia, và một phòng họp công sở cũng y hệt như vậy, cũng chỉ là một căn phòng đầy bàn và ghế. Người ta bước chân vào quán",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bar",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cũng giống như khi bước chân vào một phòng họp, họ luôn mong muốn khi bước ra, tâm trạng và cảm xúc của mình sẽ được biến chuyển thành một điều gì đó tốt đẹp hơn. Trên cương vị một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "sứ mệnh của tôi là giúp mọi người trải qua trọn vẹn tiến trình đó, một trải nghiệm mang tính thẩm mỹ khi cùng nhau ngồi lại trong một cuộc họp, cùng nhau đưa ra những quyết định quan trọng và cùng nhau đi đến những kết luận đồng thuận. Điều đó tương đồng đến kinh ngạc với công việc pha chế và giúp cho khách hàng có một buổi tối tuyệt vời hơn.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-11.txt": [
+    {
+      "lang": "vi",
+      "text": "Vai trò",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của tôi bắt đầu khi một người dám đặt niềm tin và chấp nhận rủi ro vì tôi. Người cộng sự phụ trách kỹ thuật đã chủ động chọn tôi từ nhóm nhân sự hành chính, bởi vì, anh ấy thấu hiểu rằng tôi có năng lực xây dựng một cộng đồng gắn kết bền chặt giữa những kỹ sư công nghệ này. Khi bạn làm việc trong một quán",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bar,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bạn phải trò chuyện với bất kỳ ai bước chân qua cánh cửa. Bất cứ ai bước vào cũng đều là khách hàng của bạn. Bạn phải tinh tế nắm bắt họ muốn gì, họ muốn uống loại đồ uống nào, liệu họ có thể tiếp tục uống nữa hay không, hay họ đã uống đủ rồi, cùng rất nhiều sắc thái tâm lý khác. Khi bạn làm việc cùng một chuyên gia đầu ngành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Subject Matter Expert,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "một kỹ sư phần mềm, một nhà thiết kế sản phẩm hay một chuyên gia trải nghiệm người dùng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "U-X Designer,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mọi chuyện cũng diễn ra hoàn toàn tương tự. Bạn phải có khả năng đối thoại cởi mở với bất kỳ kỹ sư nào trong nhóm của mình, với bất kỳ Quản lý Sản phẩm,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Product Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nào mà bạn cần phối hợp, và bạn phải thấu hiểu những nhu cầu đặc thù của họ. Quản trị chương trình không đơn thuần chỉ là câu chuyện về quy trình hay những tài liệu và biểu mẫu,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Artifacts,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mà bạn tạo ra, bản chất sâu xa của nó nằm ở cách bạn kết nối và thấu cảm giữa người với người. Việc nhận thức rõ những bài học bạn đã đúc kết được từ các ngóc ngách khác nhau trong cuộc sống, dù đó là từ một quầy",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "bar",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "nhộn nhịp hay từ một trường mỹ thuật, chính là những trải nghiệm quý báu bạn mang vào công việc để tạo nên bản sắc độc nhất cho riêng mình. Kỹ năng lắng nghe và đối thoại, năng lực hạ nhiệt xung đột hay sự nhạy bén nắm bắt những điều người khác thực sự cần, đó chính là những phẩm chất làm nên một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "vĩ đại. TÌM KIẾM VỊ TRÍ QUẢN TRỊ DỰ ÁN HOÀN HẢO,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "FINDING THE PERFECT PROJECT MANAGEMENT ROLE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Chào các bạn, chúng ta hãy cùng nhau thảo luận về cách thức tìm kiếm một công việc phù hợp trong lĩnh vực quản trị dự án. Không có gì phải giấu giếm, hành trình tìm việc đôi khi thực sự là một thử thách cam go. Ngay cả những bản tin tuyển dụng chi tiết và cụ thể nhất đôi khi cũng khiến bạn phải băn khoăn tự hỏi, rốt cuộc công ty này đang thực sự tìm kiếm điều gì ở một ứng viên? Đừng quá lo lắng, tất cả chúng ta ai cũng từng trải qua giai đoạn hoang mang như vậy, và chúng tôi ở đây để đồng hành giúp bạn bóc tách những thuật ngữ chuyên ngành và xua tan những bối rối ban đầu.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-12.txt": [
+    {
+      "lang": "vi",
+      "text": "Càng đọc nhiều bản tin tuyển dụng, bạn sẽ càng bắt gặp nhiều từ ngữ thông dụng mang tính xu hướng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Buzzwords,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "được lặp đi lặp lại, những cụm từ như lấy dữ liệu làm định hướng, Data-driven, có tinh thần đồng đội,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Team player,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hay chủ động tiên phong,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Self-starter.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Việc thấu hiểu tường tận tất cả những thuật ngữ này trong các bản mô tả công việc sẽ giúp bạn nhanh chóng xác định xem liệu công việc đó có thực sự dành cho mình hay không. Từ đầu đến giờ, chúng ta thường nhắc tới quản trị dự án như một chức danh cụ thể, nhưng trên thực tế, rất nhiều công ty lại liệt kê nó như một kỹ năng chuyên môn. Và đây là một tin vui dành cho bạn, Bạn sẽ sớm đủ tiêu chuẩn để ứng tuyển vào một vị trí Quản lý Dự án chính danh, đồng thời, cũng hoàn toàn đủ năng lực cho bất kỳ vị trí nào yêu cầu quản trị dự án như một kỹ năng làm việc thiết yếu. Thậm chí còn có một tin tuyệt vời hơn nữa, Nếu bạn đã nắm vững kỹ năng quản trị các dự án, bạn cũng sẽ đủ điều kiện đảm nhận các vị trí Quản lý Chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc các vai trò Vận hành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Operations,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đòi hỏi bạn phải điều phối toàn diện một hệ thống khép kín hoặc một phòng ban, bởi lẽ tất cả các vị trí này đều đòi hỏi cùng một bộ kỹ năng nền tảng. Bây giờ, chúng ta hãy cùng điểm qua các loại hình công việc khác nhau có thể ứng dụng tối đa bộ kỹ năng quản trị dự án của bạn. Khi bắt tay vào hành trình săn việc, hãy giữ cho mình một tư duy mở rộng và linh hoạt. Như tôi vừa chia sẻ, bạn tuyệt đối không cần phải tự giới hạn bản thân trong duy nhất chức danh",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Còn có rất nhiều chức danh hấp dẫn khác mà bạn hoàn toàn đủ năng lực đảm nhận. Bạn sẽ biết được công việc nào thực sự phù hợp với mình thông qua việc đọc kỹ bản mô tả công việc,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Job Description,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "vì vậy, hãy chủ động thả một mẻ lưới rộng lớn. Tùy thuộc vào lĩnh vực chuyên môn bạn lựa chọn, bạn có thể bắt gặp các chức danh như Quản lý Vận hành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Operations Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Quản lý Chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Chuyên viên Vận hành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Operations Associate,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc Trợ lý Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Assistant.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tất cả những vị trí này đều có thể là mảnh ghép hoàn hảo cho bộ kỹ năng của bạn. Chẳng hạn, hãy tưởng tượng bạn đang lướt qua một trang tuyển dụng để tìm các vị trí quản lý dự án thì bất ngờ nhìn thấy một cơ hội ứng tuyển vị trí Quản lý Vận hành Cộng đồng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Community Operations Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cho một thành phố nhỏ. Chức danh công việc không hề có từ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nhưng khi đọc kỹ, bạn nhận thấy các chức năng công việc hoàn toàn trùng khớp với bộ kỹ năng của mình, và số năm kinh nghiệm bạn có cũng đáp ứng trọn vẹn yêu cầu tuyển dụng. Bản mô tả công việc có thể liệt kê một danh sách các kỹ năng đòi hỏi như, năng lực quản trị tổ chức, kỹ năng lập kế hoạch và giao tiếp xuất sắc, cùng khả năng lập và theo dõi ngân sách tài chính.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-13.txt": [
+    {
+      "lang": "vi",
+      "text": "Nghe rất quen thuộc phải không nào? Thậm chí bạn sẽ nhận ra rằng các trách nhiệm công việc được nêu trong đó y hệt như những bài học mà bạn đã được thực hành trong khóa học này, như việc lập báo cáo tình trạng dự án hàng tháng, hỗ trợ triển khai các công nghệ mới cần thiết, theo dõi các kế hoạch công việc và các chỉ số đo lường hiệu suất,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Performance Metrics,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hỗ trợ các thành viên khác trong đội ngũ vận hành đối với các dự án được giao, và đảm bảo phản hồi kịp thời các yêu cầu cung cấp thông tin. Những nhiệm vụ này ăn khớp gần như hoàn hảo với bộ kỹ năng quản trị dự án của bạn, và trên thị trường lao động còn có vô số những bản tin tuyển dụng tương tự như thế. Điều đó chẳng phải quá tuyệt vời sao? Những kỹ năng tạo nên nghề quản trị dự án hiện diện trong muôn vàn vai trò và nghề nghiệp khác nhau. Dù tin hay không, tất cả chúng ta trong quá khứ đều đã từng làm việc cùng hoặc học hỏi từ một người quản lý dự án xuất sắc. Bạn có đoán được đó là ai không? Chính là những người thầy, người cô của bạn đấy! Hãy ngẫm nghĩ mà xem. Mọi công việc để trở thành một người giáo viên đều đòi hỏi kỹ năng quản trị dự án thuần thục, từ việc thiết kế một giáo trình học tập phù hợp và tiếp cận được với những học sinh có nhu cầu đặc biệt, quản lý ngân sách lớp học, giao tiếp khéo léo với phụ huynh, trưởng bộ môn hay ban giám hiệu nhà trường, cho đến việc xây dựng các quy trình giúp lớp học vận hành nền nếp, hiệu quả, cùng rất nhiều việc khác. Ví dụ, khi tôi bước vào buổi phỏng vấn đầu tiên tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tôi đã làm nổi bật kinh nghiệm của mình với tư cách là người sáng lập kiêm cố vấn cho một câu lạc bộ lãnh đạo sinh viên. Tôi đã kể cho hội đồng tuyển dụng nghe về cách tôi tập hợp và dẫn dắt một đội ngũ gồm hai mươi bạn sinh viên để lên kế hoạch và tổ chức các sự kiện lớn, từ các chiến dịch gây quỹ, các buổi giao lưu cộng đồng cho tới các hội thảo học thuật phục vụ cho hơn ba trăm sinh viên trong suốt năm học. Nhìn lại chặng đường đó, chính bản thân tôi cũng cảm thấy ngạc nhiên vì mình đã tích lũy được khối lượng kinh nghiệm quản trị dự án thực chiến dồi dào đến vậy.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-14.txt": [
+    {
+      "lang": "vi",
+      "text": "Giờ đây, tôi tin chắc rằng khi nhìn lại những trải nghiệm trong quá khứ của chính mình, các bạn cũng sẽ có chung một cảm nhận tự hào như thế. Một điều quan trọng nữa tôi muốn đặc biệt nhấn mạnh chính là Kỹ năng Xây dựng Mạng lưới Quan hệ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Networking. Networking",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là việc bạn chủ động gặp gỡ, giao lưu với những người khác trong môi trường chuyên nghiệp với mục tiêu học hỏi, chia sẻ tri thức và kiến tạo các mối quan hệ hợp tác kinh doanh mới. Điều này đóng một vai trò vô cùng to lớn trong hành trình tìm kiếm việc làm, do đó, đây là một công cụ đắc lực mà bạn nên bắt đầu học hỏi và hoàn thiện ngay từ hôm nay. Những kỹ năng bạn lĩnh hội được tại đây sẽ trang bị cho bạn hành trang vững chắc để tự tin chinh phục mọi công việc quản trị dự án. Nắm vững nghệ thuật tìm việc sẽ giúp bạn dễ dàng kết nối những kỹ năng quý báu đó với những cơ hội nghề nghiệp tuyệt vời nhất dành riêng cho bạn. TỪ CHỨNG CHỈ ĐẾN THÀNH CÔNG TRONG SỰ NGHIỆP,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "FROM CERTIFICATE TO CAREER SUCCESS",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Chào mừng các bạn đã quay trở lại. Bây giờ, khi bạn đã có một sự thấu hiểu toàn diện về những công việc mà một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đảm trách, chúng ta hãy cùng tập trung vào các loại hình công việc cụ thể mà bạn hoàn toàn đủ năng lực ứng tuyển sau khi hoàn thành chương trình chứng chỉ này. Để bắt đầu, tôi có một câu hỏi thú vị dành cho bạn, Theo bạn, hiện đang có khoảng bao nhiêu vị trí tuyển dụng mở dành cho các nhà quản lý dự án trên thị trường? Gợi ý nhỏ nhé, Câu trả lời là một con số khổng lồ ngoài sức tưởng tượng. Nhu cầu tuyển dụng các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đang ở mức cực kỳ cao. Vào năm hai nghìn không trăm mười bảy, một nghiên cứu quy mô của Viện Quản trị Dự án Hoa Kỳ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Management Institute",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "P-M-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đã chỉ ra rằng tính đến năm hai nghìn không trăm hai mươi bảy, các nhà tuyển dụng trên toàn cầu sẽ cần tới tám mươi bảy phẩy bảy triệu nhân sự để lấp đầy các vị trí công việc liên quan mật thiết đến quản trị dự án. Cũng theo báo cáo nghiên cứu uy tín đó, những ngành công nghiệp ghi nhận tốc độ tăng trưởng nhân lực quản trị dự án mạnh mẽ nhất bao gồm, sản xuất và xây dựng, dịch vụ thông tin và xuất bản, quản lý và dịch vụ chuyên nghiệp, tài chính và bảo hiểm, các ngành dịch vụ tiện ích công cộng, cùng ngành dầu khí và năng lượng. Quản trị dự án đóng vai trò là đòn bẩy then chốt thúc đẩy sự phát triển thần tốc của tất cả các ngành công nghiệp mũi nhọn này.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-15.txt": [
+    {
+      "lang": "vi",
+      "text": "Trong một số ngành nghề đặc thù, bạn sẽ thấy chức danh",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thường được gắn liền với một từ khóa định danh cụ thể của ngành đó. Ví dụ, như, Quản lý Dự án Xây dựng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Construction Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Quản lý Dự án Công nghệ Thông tin,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "IT Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hay Quản lý Dự án Kỹ thuật,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Engineering Project Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đừng lo lắng! Tất cả những vị trí này về bản chất vẫn là công việc của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chỉ là chúng được áp dụng vào bối cảnh chuyên biệt của từng ngành nghề mà thôi. Và một điều cốt tử bạn cần luôn ghi nhớ là, Những kỹ năng bạn học được trong một ngành hoàn toàn có thể chuyển giao và ứng dụng hiệu quả sang một ngành nghề khác. Những dự án mới đang liên tục mọc lên mỗi ngày như nấm sau mưa. Xuyên suốt mọi lĩnh vực, chúng ta đều nhận thấy các công nghệ mới không ngừng được đưa vào ứng dụng, kéo theo sự thay đổi sâu sắc của các quy trình làm việc, và từ đó làm bùng nổ nhu cầu cấp thiết phải quản trị và điều phối các quy trình mới đó. Do đó, tất cả các công ty thuộc mọi quy mô đều đang ráo riết tìm kiếm những nhân sự tài năng như bạn, những người có bản lĩnh tiếp nhận và giải quyết trọn vẹn các dự án từ khi manh nha cho tới lúc về đích, giúp tổ chức vượt qua những giai đoạn chuyển mình đó một cách vững vàng. Đến thời điểm này, có thể bạn đã nhận ra rằng mình vốn dĩ đã sở hữu sẵn một số kỹ năng quan trọng, như khả năng tổ chức hay lên kế hoạch cho một sự kiện, kỹ năng giải quyết vấn đề linh hoạt, hay thậm chí là năng lực quản lý chi tiêu ngân sách, và bạn vẫn đang vận dụng chúng rất hiệu quả trong cuộc sống thường nhật. Hãy dành chút thời gian chiêm nghiệm lại những kỹ năng chúng ta đã thảo luận và tự hỏi bản thân, Đâu là những khía cạnh trong quản trị dự án khiến bạn cảm thấy hứng thú và cuốn hút nhất? Dù bạn có thể chưa có ngay câu trả lời rõ ràng lúc này, việc liên tục suy ngẫm về những điều này sẽ là chiếc la bàn định hướng giúp bạn tìm ra những vị trí công việc lý tưởng nhất về sau. Trong quá trình tiếp tục đồng hành cùng chương trình học này, hãy cố gắng ghi chép và theo dõi xem những bài học, những hoạt động nào bạn đặc biệt yêu thích, và những phần nào bạn cảm thấy ít hào hứng hơn. Điều này sẽ giúp bạn thu hẹp phạm vi lựa chọn một cách sắc bén khi bạn bắt đầu tra cứu các bảng tin tuyển dụng sau này.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-16.txt": [
+    {
+      "lang": "vi",
+      "text": "Vẻ đẹp diệu kỳ của nghề quản trị dự án nằm ở chỗ, bạn không nhất thiết phải là một chuyên gia kỹ thuật uyên bác trong một lĩnh vực hẹp, điều bạn cần nhất là năng lực quản trị và dẫn dắt các dự án đi tới thành công. Bạn hoàn toàn có thể trở thành một người quản lý dự án xây dựng hoặc công nghệ, hoặc bạn có thể bước chân vào ngành y tế chăm sóc sức khỏe để làm công tác quản lý trải nghiệm bệnh nhân. Bạn cũng có thể dấn thân vào lĩnh vực năng lượng với tư cách là một người quản lý dự án môi trường. Những khả năng mở ra trước mắt bạn gần như là vô tận. Một điều cũng phấn khích không kém là cuối cùng bạn có thể đảm nhận một chức danh nghe hoàn toàn khác lạ. Chẳng hạn, có những vị trí công việc đòi hỏi bạn phải điều phối một chuỗi các dự án gối đầu liên tục, và trong ngành, người ta thường gọi đó là các chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Programs,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc công tác vận hành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Operations.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong trường hợp đó, chức danh công việc có thể không gọi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mà mang một cái tên trường tồn hơn như Quản lý Vận hành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Operations Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hay Quản lý Chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Những chức vụ khác rất phù hợp với bạn có thể kể đến như, Trợ lý Vận hành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Operations Assistant,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Trợ lý Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Assistant,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Điều phối viên Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Coordinator,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hay Trợ lý Chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Assistant.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Xét về mặt nhiệm vụ chuyên môn, trách nhiệm cụ thể của bạn sẽ thay đổi tùy thuộc vào mô hình tổ chức mà bạn đầu quân. Chẳng hạn, khối lượng công việc và các đầu việc cụ thể tại một công ty truyền thông tiếp thị nhỏ chắc chắn sẽ rất khác so với môi trường của một tập đoàn công nghệ như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bạn cũng cần ghi nhớ rằng khi thế giới không ngừng đổi thay và phát triển, các ngành công nghiệp cùng các cơ hội nghề nghiệp bên trong đó cũng chuyển mình theo từng ngày. Vì vậy, hãy luôn giữ cho mình một tầm nhìn rộng mở, bạn sẽ ngày càng khám phá ra nhiều công việc hấp dẫn mà bản thân hoàn toàn đủ năng lực đảm đương.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-17.txt": [
+    {
+      "lang": "vi",
+      "text": "Bên cạnh các công việc quản trị dự án toàn thời gian truyền thống, còn có rất nhiều ngã rẽ và con đường sự nghiệp thú vị khác để bạn cân nhắc. Các chương trình thực tập,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Internships,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đôi khi là một điểm xuất phát vô cùng lý tưởng. Thực tập là một phương thức ngắn hạn tuyệt vời giúp bạn có được những trải nghiệm thực chiến trực tiếp trong ngành. Hơn thế nữa, thực tập là đòn bẩy mạnh mẽ giúp làm đẹp hồ sơ ứng tuyển,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "CV,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và tạo nên sự khác biệt vượt trội cho bạn so với các ứng viên khác. Một trong những lợi ích sống còn của thực tập là bạn vừa tích lũy được kinh nghiệm làm việc thực tế, lại vừa có cơ hội xây dựng mạng lưới quan hệ với những nhân sự kỳ cựu trong ngành. Đó thực sự là một phương án đôi bên cùng có lợi. Dù một số vị trí thực tập trong ngành có thể không mang tên",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "trên danh nghĩa, nhưng rất nhiều kỹ năng trong đó có tính chuyển đổi tương hỗ rất cao. Ví dụ, một vị trí Thực tập sinh Quản lý Sự kiện,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Events Manager Intern,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoàn toàn có thể trở thành bước đệm hoàn hảo đưa bạn lên chức danh Quản lý Dự án chính thức sau này. Thực tập có thể không phù hợp với điều kiện sinh hoạt của tất cả mọi người, nhưng nếu hoàn cảnh cho phép, đó là một lựa chọn tuyệt vời không nên bỏ qua. Một con đường khác bạn có thể lựa chọn là làm việc theo hợp đồng dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Contract work.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Làm việc cho các công ty dưới dạng chuyên gia hợp đồng có nghĩa là bạn sẽ đồng hành cùng họ theo từng dự án cụ thể, thay vì là một nhân viên biên chế chính thức dài hạn. Hình thức làm việc này là một cách tuyệt vời để bạn đặt chân vào các doanh nghiệp lớn và nhanh chóng xây dựng hồ sơ năng lực thực chiến,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Portfolio,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "ấn tượng cho riêng mình. Ngoài ra, nó mang lại cho bạn sự linh hoạt tuyệt đối để thử sức với nhiều dự án khác nhau cùng một lúc, tùy thuộc vào mức độ cam kết thời gian mà công việc đó đòi hỏi. Một ưu điểm nổi bật khác của hình thức làm việc theo hợp đồng là nó cho phép bạn trải nghiệm và khám phá nhiều loại hình công ty và văn hóa làm việc đa dạng. Vì đây là một vị trí tạm thời, bạn có thể tự do tìm hiểu xem môi trường doanh nghiệp nào là nơi phù hợp nhất với phong cách của mình, Bạn thích làm việc trong một đội ngũ tinh gọn hay một tập thể quy mô lớn? Bạn say mê những loại hình dự án đặc thù nào? Và nếu bạn tìm thấy một tiếng nói chung ăn ý giữa bản thân và tổ chức, vị trí hợp đồng đó hoàn toàn có thể mở toang cánh cửa dẫn thẳng tới một bản hợp đồng lao động chính thức dài hạn.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-18.txt": [
+    {
+      "lang": "vi",
+      "text": "Khi các bạn tiếp tục vững bước tiến lên trong khóa học này, hãy luôn trăn trở suy nghĩ về hình mẫu công việc mà bạn khao khát theo đuổi sau khi chúng ta hoàn tất chương trình tại đây. Mỗi kiến thức mới, mỗi chủ đề mới mà bạn khám phá sẽ đưa bạn tiến gần hơn một bước tới vị trí công việc đầu tiên trong ngành quản trị dự án, và đưa bạn tới gần hơn nơi mà bạn hằng mong muốn thuộc về. Trong bài học tiếp theo, chúng ta sẽ cùng học cách nhận diện và tìm kiếm những chức danh công việc phù hợp nhất với một người quản lý dự án. Hẹn gặp lại các bạn! TỔNG KẾT ÔN TẬP, KHỞI ĐẦU SỰ NGHIỆP QUẢN TRỊ DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "REVIEW, EMBARKING ON A CAREER IN PROJECT MANAGEMENT",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Và cứ như thế, các bạn đã hoàn thành xuất sắc học phần đầu tiên! Xin nhiệt liệt chúc mừng các bạn đã chạm tới cột mốc vô cùng quan trọng và đầy tự hào này. Các bạn đang tiến thêm một bước vững chắc trên con đường trở thành một ngôi sao sáng trong làng quản trị dự án. Chúng ta hãy cùng nhau điểm lại những khái niệm cốt lõi mà chúng ta đã cùng nhau lĩnh hội suốt chặng đường vừa qua. Chúng ta đã mở đầu bằng việc thảo luận sâu sắc về bản chất của quản trị dự án, đó là việc vận dụng có hệ thống các kiến thức, kỹ năng, công cụ và kỹ thuật chuyên môn nhằm đáp ứng toàn diện các yêu cầu của dự án và đạt được kết quả mong đợi cuối cùng. Sau đó, chúng ta đã thấu hiểu rằng quản trị dự án hiện diện sống động trong hầu hết mọi ngành nghề và mọi tổ chức doanh nghiệp. Vì vậy, các bạn đang theo đuổi một chương trình chứng chỉ vô cùng hữu ích, đa năng và có tính ứng dụng thực tiễn cực kỳ cao. Chúng ta cũng đã giải mã chính xác thế nào là một dự án, Đó là một nỗ lực độc nhất vô nhị và mang tính chất tạm thời, được lên kế hoạch một cách cẩn trọng, tỉ mỉ nhằm chinh phục một mục tiêu cụ thể. Đến thời điểm này, hy vọng các bạn đã nằm lòng một nguyên lý rằng, Mọi dự án đều luôn bị giới hạn và định hình bởi một khung thời gian xác định, một mức chi phí ngân sách cụ thể, một phạm vi công việc rõ ràng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Scope,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và các nguồn lực tận tụy được phân bổ riêng. Chúng ta đã cùng nhau bao quát những khái niệm nền tảng rộng lớn và các thuật ngữ the chốt giúp bạn vững bước trở thành một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thành công, đồng thời, trang bị phương pháp tìm kiếm việc làm hiệu quả khi thời khắc chín muồi gõ cửa. Chúng ta cũng đã thảo luận cách chuyển hóa những trải nghiệm thực tế trong quá khứ thành những luận điểm thuyết phục mạnh mẽ trong các buổi phỏng vấn tuyển dụng, lý giải vì sao bạn sẽ là một người quản lý dự án xuất sắc. Chúng ta đã phân tích cách bạn có thể chuyển giao những kỹ năng từ công việc cũ sang vai trò quản trị dự án mới, và cách điều đó tạo nên dấu ấn khác biệt vượt trội cho riêng bạn.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-19.txt": [
+    {
+      "lang": "vi",
+      "text": "Mọi việc trong đời sống, từ việc sắp xếp chu toàn một danh sách việc cần làm, To-do",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "list,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cho tới việc tính toán chi tiêu cho một bữa tiệc sinh nhật của người thân, đều chứng minh rằng rất có thể bạn đã nắm trong tay những tố chất tuyệt vời để trở thành một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "phi thường. Nhưng nếu bạn cảm thấy mình chưa có những kỹ năng đó thì cũng đừng bận tâm lo lắng, Chúng ta đang bắt đầu xây dựng lại mọi thứ từ con số không tại khóa học này. Đến khi hoàn thành toàn bộ chương trình, bạn sẽ không chỉ nắm vững các kỹ năng chuyên môn sâu sắc, mà còn có đủ sự tự tin, vốn hiểu biết thực chiến và tầm nhìn rộng mở để tìm kiếm cho mình vị trí công việc mơ ước. Cho dù đó là công việc làm theo hợp đồng dự án, các cơ hội thực tập đắt giá, hay các vị trí quản lý dự án chính thức, bạn đều sẽ biết chính xác điều gì là phù hợp nhất với năng lực và đam mê của bản thân. Và trong suốt chặng đường phía trước, tôi tha thiết khuyến khích các bạn hãy luôn không ngừng trăn trở về hình mẫu công việc mà bạn mong muốn cống hiến trong tương lai. Và đừng bao giờ quên một tin vui vô cùng phấn khởi mà chúng ta đã được biết về nghề quản trị dự án, Hầu như bất kỳ doanh nghiệp nào cũng đều đang khát khao cần đến những người quản lý dự án tài ba. Vị trí này luôn có nhu cầu tuyển dụng cực kỳ lớn, và cơn khát nhân lực ấy vẫn đang không ngừng gia tăng mạnh mẽ từng ngày trên toàn thế giới. Thật tuyệt vời! Chúng ta đã cùng nhau đi qua một khối lượng kiến thức khổng lồ và sâu sắc, nhưng những điều tuyệt diệu đó mới chỉ là lớp bề mặt của một đại dương tri thức bao la. Tôi thực lòng hy vọng các bạn đã cảm nhận trọn vẹn niềm say mê với khóa học cho đến lúc này, bởi vì, những chặng đường tiếp theo sẽ còn hấp dẫn và bùng nổ hơn thế rất nhiều. Ngay sau đây, các bạn sẽ bước vào bài kiểm tra đánh giá có chấm điểm đầu tiên, và tôi tin chắc một trăm phần trăm rằng các bạn sẽ vượt qua nó với số điểm tuyệt đối. Hãy nhớ rằng, hãy dành thời gian thư thả, giữ tâm thế thật thoải mái, và hãy luôn tin tưởng vào chính bản thân mình. Bạn hoàn toàn có đủ năng lực để làm chủ điều này! Đừng quên rằng bạn luôn có thể xem lại các phần ghi chú, đọc lại các tài liệu tham khảo hoặc xem lại các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "bài giảng bất cứ lúc nào nếu cảm thấy chưa chắc chắn về một câu trả lời. Chúc các bạn gặt hái thật nhiều thành công, và tôi sẽ sớm gặp lại các bạn trong những bài học tiếp theo!.",
+      "pause_type": "terminal"
+    }
+  ]
+}

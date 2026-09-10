@@ -1,0 +1,13 @@
+HỌC PHẦN BA, QUẢN LÝ NGÂN SÁCH VÀ THU MUA, MANAGING BUDGETING AND PROCUREMENT
+. ......
+
+GIỚI THIỆU, QUẢN LÝ NGÂN SÁCH VÀ THU MUA, INTRODUCTION, MANAGING BUDGETING AND PROCUREMENT
+. ......
+
+Chào mừng bạn đã quay trở lại! Trước đó, chúng ta đã cùng nhau tìm hiểu về việc tạo lập và quản lý một kế hoạch dự án cũng như vận dụng các phương pháp ước tính thời gian để chủ động ngăn ngừa nguy cơ thất bại của dự án. Trong học phần sắp tới này, chúng ta sẽ chuyển hướng thảo luận sang cơ chế vận hành bên trong của một Ngân sách Dự án, Project Budget. Chúng ta hãy cùng bàn về tiền bạc! Như đã đề cập trước đây, rất nhiều kỹ năng quản trị dự án có thể giao thoa với những kỹ năng thông thường mà bạn vốn dĩ đã áp dụng trong đời sống hàng ngày, và bạn có thể đã có sẵn một số kinh nghiệm lập ngân sách cho bản thân.
+
+Thế nhưng, việc lập ngân sách trong thế giới quản trị dự án là một quy trình phức tạp hơn nhiều, liên quan đến nhiều bên tham gia cùng hệ thống tài liệu chặt chẽ. Tôi sẽ hướng dẫn bạn cách tạo lập và quản lý một ngân sách dự án trong môi trường thực tế. Chúng ta sẽ thảo luận về rất nhiều thành phần cấu thành nên ngân sách và cách thức các bên liên quan, Stakeholders, đóng vai trò như thế nào trong quy trình lập ngân sách. Bạn cũng sẽ tìm hiểu về tầm quan trọng của Thu mua, Procurement, trong quản trị dự án. Nếu bạn vẫn chưa nắm rõ thuật ngữ này mang ý nghĩa gì, đừng quá lo lắng. Bạn sẽ sớm thấu hiểu khái niệm đó một cách sâu sắc.
+
+Bạn cũng sẽ được học về quản lý nhà cung cấp, Vendor Management, và quy trình thu mua trong cả môi trường phương pháp luận Linh hoạt, Agile, lẫn phương pháp luận Truyền thống, Traditional Waterfall. Sẽ có một số khái niệm mới xoay quanh hệ thống tài liệu pháp lý và hợp đồng được giới thiệu xuyên suốt, chẳng hạn, như Thỏa thuận Bảo mật Thông tin, N-D-A, Yêu cầu Đề xuất Báo giá, R-F-P, và Bản Tuyên bố Công việc, S-O-W. Bạn sẽ nhận ra rằng các Project Manager nói thành thạo ngôn ngữ của các từ viết tắt, và bạn cũng sẽ sớm thành thạo như vậy. Tôi sẽ giải thích tường tận từng từ viết tắt này ở các bài học sắp tới.
+
+Chúng tôi cũng sẽ chia sẻ với bạn về vai trò to lớn của đội ngũ pháp chế và đạo đức nghề nghiệp trong quá trình thu mua. Tôi xin bật mí trước cho bạn, Đó là một vai trò vô cùng hệ trọng. Việc bắt tay vào một dự án mới, tìm kiếm nguồn cung ứng nguyên vật liệu và hợp tác với các nhà cung cấp bên ngoài sẽ mở ra cho bạn một góc nhìn hoàn toàn mới về cách thức vận hành thực sự của một dự án. Bạn đã sẵn sàng khám phá thế giới ngân sách chưa? Hãy cùng bắt đầu ngay thôi!

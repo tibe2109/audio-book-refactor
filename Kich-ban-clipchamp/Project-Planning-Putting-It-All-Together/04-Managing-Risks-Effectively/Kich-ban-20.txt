@@ -1,0 +1,8 @@
+Khi tôi bắt đầu xem xét kỹ lưỡng các bản thiết kế mô phỏng và nghiền ngẫm chúng, tôi nhận ra rằng trong tâm trí mình, thật khó để tôi có thể dung hòa và nói rằng, Được rồi, đây là những gì chúng ta đang làm hôm nay, và đây là những gì sẽ thay đổi trong tương lai. Mọi thứ không hề rõ ràng đối với tôi. Bản thân tôi ít thiên về thị giác mà thiên về một người thích các bảng tính số liệu, chi tiết hóa từng dữ kiện. Vì vậy, tôi tự nhủ, Nếu chính mình đang gặp khó khăn trong việc đối chiếu giữa bản thiết kế trực quan và thực tế triển khai hiện tại, thì biết đâu những người khác cũng đang gặp phải khúc mắc y hệt như vậy.
+
+Và nếu những người khác cũng bối rối, thì rất có thể các kỹ sư lập trình của chúng tôi cũng đang rơi vào tình cảnh hoang mang tương tự. Quả đúng như dự đoán, khi tôi triệu tập một cuộc họp chung, chỉ trong vòng vỏn vẹn năm phút đầu tiên, chúng tôi đã bắt đầu nhận ra sự khác biệt rất lớn trong cách hiểu của từng bên về những gì chúng tôi phải làm. Hóa ra hai đội ngũ đã và đang triển khai công việc theo hai hướng hoàn toàn trệch nhau trên cùng một con đường. Nếu không sớm phát hiện ra, chúng tôi sẽ không bao giờ biết được điều đó cho tới tận phút chót của dự án, và khi ấy thì mọi chuyện đã quá muộn màng.
+
+Tôi thực sự đam mê công việc quản lý chương trình. Tôi yêu cảm giác được dấn thân vào một vấn đề hóc búa, được giao phó một bài toán còn đầy mơ hồ và chưa hề được suy tính thấu đáo, nơi đang tồn tại một điểm nghẽn nhức nhối khổng lồ, để rồi chính tay mình cùng đội ngũ tìm ra giải pháp tháo gỡ triệt để cho vấn đề đó.
+
+TỔNG KẾT, QUẢN TRỊ RỦI RO HIỆU QUẢ
+. ......

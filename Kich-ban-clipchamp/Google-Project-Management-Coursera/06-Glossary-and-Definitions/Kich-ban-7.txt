@@ -1,0 +1,19 @@
+NHÓM CHỮ CÁI R, LETTER R
+. ......
+Reporting Chart, Sơ đồ Báo cáo Sơ đồ Tổ chức, Một sơ đồ biểu diễn mối quan hệ thứ bậc giữa các cá nhân và đội nhóm bên trong tổ chức, chỉ rõ từng người hoặc từng nhóm sẽ báo cáo trực tiếp cho ai.
+Resource Availability, Mức độ Sẵn sàng của Nguồn lực, Khả năng nắm bắt và biết cách tiếp cận, huy động nhân sự, trang thiết bị máy móc và ngân sách tài chính cần thiết cho dự án.
+Resources, Nguồn lực, Bất kỳ điều gì cần thiết để hoàn thành dự án, bao gồm con người, trang thiết bị, phần mềm máy tính, các nhà cung ứng bên ngoài, và mặt bằng không gian địa lý.
+Retrospective, Phiên Hồi tưởng Đánh giá Chiêm nghiệm, Một buổi hội thảo hoặc cuộc họp tổng kết cùng đội dự án nhằm ghi nhận các thông lệ tốt nhất và đúc kết những bài học kinh nghiệm sâu sắc để điều hành dự án hiệu quả hơn cho những lần sau.
+Risk, Rủi ro, Một sự kiện tiềm tàng có thể xảy ra trong tương lai và gây ra những tác động tiêu cực hoặc tích cực lên dự án.
+
+NHÓM CHỮ CÁI S, LETTER S
+. ......
+Scrum, Một khung làm việc linh hoạt thuộc trường phái Agile, tập trung vào việc phát triển các dự án phức tạp thông qua sự cộng tác gắn kết và quy trình lặp đi lặp lại. Công việc được thực hiện bởi các đội ngũ đa chức năng tinh gọn dưới sự dẫn dắt của một Scrum Master, và được chia nhỏ thành các Sprint ngắn với danh sách kết quả bàn giao cụ thể.
+Six Sigma, Một phương pháp luận hướng tới việc giảm thiểu tối đa các biến thiên và sai số bằng cách đảm bảo các quy trình chất lượng nghiêm ngặt luôn được tuân thủ chuẩn xác trong mỗi lần thực hiện.
+Sprint, Một giai đoạn ngắn trong phương pháp quản trị dự án Agile có thời lượng xác định, thường từ một đến bốn tuần, với một danh sách các kết quả bàn giao cụ thể cần hoàn thành.
+Stakeholder, Bên liên quan, Những cá nhân hoặc tập thể quan tâm tới và chịu ảnh hưởng trực tiếp hoặc gián tiếp bởi quá trình thực thi cũng như sự thành bại của dự án.
+Steering Committees, Ban Chỉ đạo Dự án, Một nhóm các nhà lãnh đạo cấp cao chịu trách nhiệm quyết định các ưu tiên chiến lược của tổ chức và giám sát, định hướng lộ trình vận hành chung.
+
+NHÓM CHỮ CÁI T, LETTER T
+. ......
+Transferable Skill, Kỹ năng có thể Chuyển đổi, Một năng lực hoặc kỹ năng làm việc có thể được vận dụng linh hoạt và hiệu quả qua nhiều công việc, ngành nghề và con đường sự nghiệp khác nhau.

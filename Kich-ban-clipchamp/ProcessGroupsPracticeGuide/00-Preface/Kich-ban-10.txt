@@ -1,0 +1,26 @@
+Đường cơ sở chi phí, Chi phí thực tế và Yêu cầu vốn, Cost Baseline, Expenditures, and Funding Requirements, 
+Sơ đồ chín-ba. Ví dụ về Sơ đồ Mạng Tiến độ Dự án, Project Schedule Network Diagram, 
+Sơ đồ chín-bốn. Ví dụ về Ma trận Truy xuất Yêu cầu, Requirements Traceability Matrix - RTM, 
+Sơ đồ chín-năm. Ví dụ Cấu trúc Phân chia Nguồn lực, Resource Breakdown Structure - RBS, 
+Sơ đồ chín-sáu. Trích đoạn Cấu trúc Phân chia Rủi ro Mẫu, Risk Breakdown Structure - RBS, 
+Sơ đồ mười-một. Mối quan hệ giữa Tầm nhìn Sản phẩm, Kế hoạch Phát hành và Kế hoạch Vòng lặp, Product Vision, Release Planning, Iteration Planning, 
+Sơ đồ mười-hai. Sơ đồ Nguyên nhân và Kết quả, Cause-and-Effect Diagram, 
+Sơ đồ mười-ba. Bảng Kiểm tra dữ liệu, Check Sheets, 
+Sơ đồ mười-bốn. Mô hình Truyền thông Đa văn hóa, Communication Model for Cross-Cultural Communication, 
+Sơ đồ mười-năm. Chi phí Chất lượng, Cost of Quality - COQ, 
+Sơ đồ mười-sáu. Ví dụ về Phương pháp Đường Găng, Critical Path Method - CPM, 
+Sơ đồ mười-bảy. Ví dụ về Cây Quyết định, Decision Tree, 
+Sơ đồ mười-tám. Mẫu W-B-S Phân rã xuống các Gói công việc, Work Packages, 
+Sơ đồ mười-chín. Mẫu W-B-S Tổ chức theo Giai đoạn
+Sơ đồ mười-mười. Mẫu W-B-S với các Kết quả Đầu ra Chính, Major Deliverables, 
+Sơ đồ mười-mười một. Mô hình SIPOC
+Sơ đồ mười-mười hai. Biểu đồ Burndown Vòng lặp, Iteration Burndown Chart, 
+Sơ đồ mười-mười ba. Ví dụ về Thời gian Dẫn, Lead, và Thời gian Trễ, Lag, 
+Sơ đồ mười-mười bốn. Sơ đồ Mạng Tiến độ Dự án
+Sơ đồ mười-mười lăm. Các loại Mối quan hệ trong Phương pháp Sơ đồ Tiền nhiệm, Precedence Diagramming Method - PDM, 
+Sơ đồ mười-mười sáu. Ví dụ Ma trận Xác suất và Tác động với Hệ thống Tính điểm
+Sơ đồ mười-mười bảy. Cân bằng Nguồn lực, Resource Leveling, 
+Sơ đồ mười-mười tám. Mẫu Bảng Phân công Trách nhiệm RACI Chart
+Sơ đồ mười-mười chín. So sánh nén tiến độ, Schedule Compression Comparison, 
+Sơ đồ mười-hai mươi. Ví dụ Biểu đồ Lốc xoáy, Tornado Diagram, 
+Sơ đồ mười-hai mươi mốt.

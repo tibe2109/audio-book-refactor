@@ -1,0 +1,13 @@
+HỌC PHẦN BỐN, VẬN DỤNG NGUỒN LỰC, TÀI LIỆU VÀ CÔNG CỤ ĐỂ DỰ ÁN THÀNH CÔNG, UTILIZING RESOURCES, DOCUMENTATION, AND TOOLS FOR PROJECT SUCCESS
+. ......
+LỜI MỞ ĐẦU, TẬN DỤNG NGUỒN LỰC VÀ CÔNG CỤ ĐỂ DỰ ÁN THÀNH CÔNG, INTRODUCTION, UTILIZING RESOURCES AND TOOLS FOR PROJECT SUCCESS
+. ......
+Chào mừng các bạn đã quay trở lại, và xin chúc mừng các bạn đã hoàn thành xuất sắc bài đánh giá có chấm điểm vừa qua! Trong học phần trước, các bạn đã được tìm hiểu toàn diện về các vai trò cũng như trách nhiệm trong dự án, đồng thời, chúng tôi cũng đã giới thiệu với các bạn một số công cụ mà các bạn có thể sử dụng nhằm bảo đảm tính trách nhiệm giải trình của toàn đội ngũ, chẳng hạn, như phân tích các bên liên quan, Stakeholder Analysis, và biểu đồ R-A-C-I, R-A-C-I Chart.
+
+Trong học phần tiếp theo này, chúng ta sẽ cùng nhau bàn luận về các công cụ quản trị dự án, Project Management Tools, nguồn lực dự án, Project Resources, cùng với giá trị cốt lõi của tài liệu dự án, Project Documentation. Khi khép lại học phần này, các bạn sẽ thấu hiểu tường tận những loại hình nguồn lực sẵn có cho một người quản lý dự án, các bạn sẽ có đủ năng lực để hệ thống hóa và ghi nhận thông tin vào một bản điều lệ dự án chính thức, Project Charter, đồng thời, các bạn sẽ có thể tự tin so sánh và vận dụng linh hoạt nhiều công cụ quản trị dự án khác nhau vào thực tế công việc.
+
+Các bạn đã sẵn sàng bắt tay vào hành trình này chưa? Hãy cùng gặp tôi trong video tiếp theo nhé!
+
+CÁC NGUỒN LỰC THIẾT YẾU CỦA DỰ ÁN, ESSENTIAL PROJECT RESOURCES
+. ......
+Cho đến thời điểm hiện tại, các bạn đã nắm vững cách thức xác định các mục tiêu và phạm vi của dự án, cũng như cách nhận diện đúng những bên liên quan phù hợp cho một dự án. Bây giờ là thời điểm chín muồi để chúng ta bổ sung thêm một thành tố then chốt khác, nguồn lực dự án, Project Resources. Trên cương vị của một người quản lý dự án, việc thấu hiểu sâu sắc các nhu cầu về nguồn lực chính là điều kiện tiên quyết để bạn hiện thực hóa các mục tiêu đã đề ra. Vì vậy, ngay trong giai đoạn khởi tạo, Initiation Phase, điều tối quan trọng là bạn phải tự đặt ra cho mình câu hỏi, đâu là những thứ chúng ta vẫn còn cần phải thu thập và chuẩn bị để có thể hoàn thành trọn vẹn dự án của mình?

@@ -1,0 +1,13 @@
+HỌC PHẦN MỘT, KHỞI ĐỘNG GIAI ĐOẠN LẬP KẾ HOẠCH, BEGINNING THE PLANNING PHASE
+. ......
+
+GIỚI THIỆU VỀ KHÓA HỌC BA, INTRODUCTION TO COURSE BA
+. ......
+
+Xin chào các bạn! Chào mừng bạn đã đến với khóa học mang tên Lập kế hoạch, Kết nối tất cả các mảnh ghép, Planning, Putting It All Together. Nếu bạn đã hoàn thành các khóa học trước của chúng tôi, bạn đã có một nền tảng tuyệt vời về những gì cần thiết để khởi động một dự án và mở ra giai đoạn lập kế hoạch. Trước khi chúng ta bắt đầu, cho phép tôi được tự giới thiệu đôi nét về bản thân. Tôi tên là Rowena, và tôi sẽ là người đồng hành hướng dẫn bạn xuyên suốt khóa học này. Tôi hiện đang làm việc với tư cách là một Senior Program Manager tại Google Cloud, phụ trách nhiều dự án đa dạng khác nhau.
+
+Tôi chủ yếu tập trung vào việc cải tiến hệ thống và nâng cao năng suất cho đội ngũ của mình, bao gồm khoảng một trăm nhân viên toàn thời gian và hơn ba trăm đối tác nhà thầu trên khắp thế giới. Một số dự án quy mô lớn nhất mà tôi tham gia quản lý có tầm ảnh hưởng trực tiếp đến bộ phận bán hàng của Google Cloud và các nhóm hỗ trợ bán hàng toàn cầu, với quy mô lên tới hàng nghìn người. Thế nhưng, tôi không bắt đầu sự nghiệp bằng việc xây dựng các giải pháp cho hàng nghìn người tại một tập đoàn toàn cầu như thế này.
+
+Năm mười bảy tuổi, tôi rời ghế nhà trường mà không có tấm bằng đại học và cũng chẳng hề có một kế hoạch rõ ràng nào cho tương lai. Trước khi gia nhập Google, tôi từng làm việc trong ngành bán lẻ, ngành dịch vụ nhà hàng khách sạn, và thậm chí từng là thành viên phi hành đoàn trong ngành hàng không. Khi bước chân vào thế giới doanh nghiệp, tôi đã nhận ra một điều, Các quy trình làm việc ở đây cũng lộn xộn chẳng khác nào những nhà kho chứa hàng của các cửa hàng bán lẻ mà tôi từng làm việc trước đó. Có quá nhiều điểm cần được cải thiện. Tôi nhận thức được rằng bất kỳ doanh nghiệp nào cũng có những nét phức tạp riêng, và luôn luôn có cơ hội để chúng ta thiết lập lại trật tự một cách bài bản.
+
+Vì vậy, tôi bắt đầu suy nghĩ về các phương thức để tự động hóa những công việc thường nhật của mình. Tôi gửi email chia sẻ ý tưởng cho người quản lý và các đồng nghiệp, phối hợp làm việc với các phòng ban trên toàn công ty, cùng nhau động não tìm kiếm giải pháp cho các vấn đề, điều phối các buổi đào tạo cho cộng sự, và làm rất nhiều việc khác nữa. Đó chính là khoảnh khắc mọi thứ trở nên rõ ràng hơn bao giờ hết, Hóa ra tôi đang làm công việc quản trị dự án. Sau đó, tôi chuyển sang một vị trí tập trung hoàn toàn vào quản lý chương trình, Program Management, tại trụ sở chính của Google ở Mountain View, California.
