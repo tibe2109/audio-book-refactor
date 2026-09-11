@@ -6,8 +6,8 @@
   "source_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Docs/Project Planning: Putting It All Together",
   "total_chapters": 6,
   "created_at": "2026-09-10T10:08:26.819345",
-  "updated_at": "2026-09-10T04:06:27.141378+00:00",
-  "pipeline_stage": "07_qc_audited",
+  "updated_at": "2026-09-10T04:23:25.094077+00:00",
+  "pipeline_stage": "10_bgm_mastered",
   "step_1_status": "completed",
   "chapters": [
     {
@@ -17,7 +17,7 @@
       "items_count": 11,
       "char_count": 40144,
       "word_count": 6921,
-      "status": "qc_passed",
+      "status": "bgm_mastered",
       "raw_file": "01-Beginning-the-Planning-Phase/raw_original.txt",
       "step_2_status": "completed",
       "translated_file": "01-Beginning-the-Planning-Phase/translated.txt",
@@ -115,7 +115,84 @@
         2545
       ],
       "qc_passed": true,
-      "step_7_audited": true
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 20,
+      "audio_chunks_dir": "01-Beginning-the-Planning-Phase/audio_chunks",
+      "total_audio_duration_seconds": 3063.38,
+      "total_audio_duration_minutes": 51.06,
+      "speech_segments_manifest": "01-Beginning-the-Planning-Phase/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 2,
+      "full_audio_files": [
+        "Full_01-Beginning-the-Planning-Phase_Part1.mp3",
+        "Full_01-Beginning-the-Planning-Phase_Part2.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_01-Beginning-the-Planning-Phase_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_01-Beginning-the-Planning-Phase_Part1.mp3",
+          "duration_seconds": 1534.78,
+          "duration_minutes": 25.58,
+          "file_size_mb": 35.13,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3",
+            "chunk_9.mp3",
+            "chunk_10.mp3"
+          ]
+        },
+        {
+          "part_index": 2,
+          "file_name": "Full_01-Beginning-the-Planning-Phase_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_01-Beginning-the-Planning-Phase_Part2.mp3",
+          "duration_seconds": 1528.58,
+          "duration_minutes": 25.48,
+          "file_size_mb": 34.99,
+          "chunks": [
+            "chunk_11.mp3",
+            "chunk_12.mp3",
+            "chunk_13.mp3",
+            "chunk_14.mp3",
+            "chunk_15.mp3",
+            "chunk_16.mp3",
+            "chunk_17.mp3",
+            "chunk_18.mp3",
+            "chunk_19.mp3",
+            "chunk_20.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_01-Beginning-the-Planning-Phase_Part1.mp3",
+        "Final_Audio_01-Beginning-the-Planning-Phase_Part2.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_01-Beginning-the-Planning-Phase_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_01-Beginning-the-Planning-Phase_Part1.mp3",
+          "duration_seconds": 1534.78,
+          "duration_minutes": 25.58,
+          "file_size_mb": 35.13
+        },
+        {
+          "part_index": 2,
+          "file_name": "Final_Audio_01-Beginning-the-Planning-Phase_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_01-Beginning-the-Planning-Phase_Part2.mp3",
+          "duration_seconds": 1528.58,
+          "duration_minutes": 25.48,
+          "file_size_mb": 34.99
+        }
+      ]
     },
     {
       "index": 1,
@@ -124,7 +201,7 @@
       "items_count": 9,
       "char_count": 38423,
       "word_count": 6637,
-      "status": "qc_passed",
+      "status": "bgm_mastered",
       "raw_file": "02-Building-a-Project-Plan/raw_original.txt",
       "step_2_status": "completed",
       "translated_file": "02-Building-a-Project-Plan/translated.txt",
@@ -206,7 +283,80 @@
         2970
       ],
       "qc_passed": true,
-      "step_7_audited": true
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 16,
+      "audio_chunks_dir": "02-Building-a-Project-Plan/audio_chunks",
+      "total_audio_duration_seconds": 2453.06,
+      "total_audio_duration_minutes": 40.88,
+      "speech_segments_manifest": "02-Building-a-Project-Plan/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 2,
+      "full_audio_files": [
+        "Full_02-Building-a-Project-Plan_Part1.mp3",
+        "Full_02-Building-a-Project-Plan_Part2.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_02-Building-a-Project-Plan_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_02-Building-a-Project-Plan_Part1.mp3",
+          "duration_seconds": 1181.4,
+          "duration_minutes": 19.69,
+          "file_size_mb": 27.04,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3"
+          ]
+        },
+        {
+          "part_index": 2,
+          "file_name": "Full_02-Building-a-Project-Plan_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_02-Building-a-Project-Plan_Part2.mp3",
+          "duration_seconds": 1271.66,
+          "duration_minutes": 21.19,
+          "file_size_mb": 29.11,
+          "chunks": [
+            "chunk_9.mp3",
+            "chunk_10.mp3",
+            "chunk_11.mp3",
+            "chunk_12.mp3",
+            "chunk_13.mp3",
+            "chunk_14.mp3",
+            "chunk_15.mp3",
+            "chunk_16.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_02-Building-a-Project-Plan_Part1.mp3",
+        "Final_Audio_02-Building-a-Project-Plan_Part2.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_02-Building-a-Project-Plan_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_02-Building-a-Project-Plan_Part1.mp3",
+          "duration_seconds": 1181.4,
+          "duration_minutes": 19.69,
+          "file_size_mb": 27.04
+        },
+        {
+          "part_index": 2,
+          "file_name": "Final_Audio_02-Building-a-Project-Plan_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_02-Building-a-Project-Plan_Part2.mp3",
+          "duration_seconds": 1271.66,
+          "duration_minutes": 21.19,
+          "file_size_mb": 29.11
+        }
+      ]
     },
     {
       "index": 2,
@@ -215,7 +365,7 @@
       "items_count": 12,
       "char_count": 48784,
       "word_count": 8066,
-      "status": "qc_passed",
+      "status": "bgm_mastered",
       "raw_file": "03-Managing-Budgeting-and-Procurement/raw_original.txt",
       "step_2_status": "completed",
       "translated_file": "03-Managing-Budgeting-and-Procurement/translated.txt",
@@ -313,7 +463,84 @@
         1303
       ],
       "qc_passed": true,
-      "step_7_audited": true
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 20,
+      "audio_chunks_dir": "03-Managing-Budgeting-and-Procurement/audio_chunks",
+      "total_audio_duration_seconds": 3123.81,
+      "total_audio_duration_minutes": 52.06,
+      "speech_segments_manifest": "03-Managing-Budgeting-and-Procurement/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 2,
+      "full_audio_files": [
+        "Full_03-Managing-Budgeting-and-Procurement_Part1.mp3",
+        "Full_03-Managing-Budgeting-and-Procurement_Part2.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_03-Managing-Budgeting-and-Procurement_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_03-Managing-Budgeting-and-Procurement_Part1.mp3",
+          "duration_seconds": 1621.1,
+          "duration_minutes": 27.02,
+          "file_size_mb": 37.1,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3",
+            "chunk_9.mp3",
+            "chunk_10.mp3"
+          ]
+        },
+        {
+          "part_index": 2,
+          "file_name": "Full_03-Managing-Budgeting-and-Procurement_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_03-Managing-Budgeting-and-Procurement_Part2.mp3",
+          "duration_seconds": 1502.71,
+          "duration_minutes": 25.05,
+          "file_size_mb": 34.39,
+          "chunks": [
+            "chunk_11.mp3",
+            "chunk_12.mp3",
+            "chunk_13.mp3",
+            "chunk_14.mp3",
+            "chunk_15.mp3",
+            "chunk_16.mp3",
+            "chunk_17.mp3",
+            "chunk_18.mp3",
+            "chunk_19.mp3",
+            "chunk_20.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_03-Managing-Budgeting-and-Procurement_Part1.mp3",
+        "Final_Audio_03-Managing-Budgeting-and-Procurement_Part2.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_03-Managing-Budgeting-and-Procurement_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_03-Managing-Budgeting-and-Procurement_Part1.mp3",
+          "duration_seconds": 1621.1,
+          "duration_minutes": 27.02,
+          "file_size_mb": 37.1
+        },
+        {
+          "part_index": 2,
+          "file_name": "Final_Audio_03-Managing-Budgeting-and-Procurement_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_03-Managing-Budgeting-and-Procurement_Part2.mp3",
+          "duration_seconds": 1502.71,
+          "duration_minutes": 25.05,
+          "file_size_mb": 34.39
+        }
+      ]
     },
     {
       "index": 3,
@@ -322,7 +549,7 @@
       "items_count": 10,
       "char_count": 36163,
       "word_count": 6232,
-      "status": "qc_passed",
+      "status": "bgm_mastered",
       "raw_file": "04-Managing-Risks-Effectively/raw_original.txt",
       "step_2_status": "completed",
       "translated_file": "04-Managing-Risks-Effectively/translated.txt",
@@ -424,7 +651,85 @@
         1491
       ],
       "qc_passed": true,
-      "step_7_audited": true
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 21,
+      "audio_chunks_dir": "04-Managing-Risks-Effectively/audio_chunks",
+      "total_audio_duration_seconds": 3194.7,
+      "total_audio_duration_minutes": 53.24,
+      "speech_segments_manifest": "04-Managing-Risks-Effectively/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 2,
+      "full_audio_files": [
+        "Full_04-Managing-Risks-Effectively_Part1.mp3",
+        "Full_04-Managing-Risks-Effectively_Part2.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_04-Managing-Risks-Effectively_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_04-Managing-Risks-Effectively_Part1.mp3",
+          "duration_seconds": 1540.87,
+          "duration_minutes": 25.68,
+          "file_size_mb": 35.27,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3",
+            "chunk_9.mp3",
+            "chunk_10.mp3"
+          ]
+        },
+        {
+          "part_index": 2,
+          "file_name": "Full_04-Managing-Risks-Effectively_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_04-Managing-Risks-Effectively_Part2.mp3",
+          "duration_seconds": 1653.84,
+          "duration_minutes": 27.56,
+          "file_size_mb": 37.85,
+          "chunks": [
+            "chunk_11.mp3",
+            "chunk_12.mp3",
+            "chunk_13.mp3",
+            "chunk_14.mp3",
+            "chunk_15.mp3",
+            "chunk_16.mp3",
+            "chunk_17.mp3",
+            "chunk_18.mp3",
+            "chunk_19.mp3",
+            "chunk_20.mp3",
+            "chunk_21.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_04-Managing-Risks-Effectively_Part1.mp3",
+        "Final_Audio_04-Managing-Risks-Effectively_Part2.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_04-Managing-Risks-Effectively_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_04-Managing-Risks-Effectively_Part1.mp3",
+          "duration_seconds": 1540.87,
+          "duration_minutes": 25.68,
+          "file_size_mb": 35.27
+        },
+        {
+          "part_index": 2,
+          "file_name": "Final_Audio_04-Managing-Risks-Effectively_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_04-Managing-Risks-Effectively_Part2.mp3",
+          "duration_seconds": 1653.84,
+          "duration_minutes": 27.56,
+          "file_size_mb": 37.85
+        }
+      ]
     },
     {
       "index": 4,
@@ -433,7 +738,7 @@
       "items_count": 9,
       "char_count": 35190,
       "word_count": 5966,
-      "status": "qc_passed",
+      "status": "bgm_mastered",
       "raw_file": "05-Organizing-Communication-and-Documentation/raw_original.txt",
       "step_2_status": "completed",
       "translated_file": "05-Organizing-Communication-and-Documentation/translated.txt",
@@ -535,7 +840,85 @@
         2103
       ],
       "qc_passed": true,
-      "step_7_audited": true
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 21,
+      "audio_chunks_dir": "05-Organizing-Communication-and-Documentation/audio_chunks",
+      "total_audio_duration_seconds": 3140.48,
+      "total_audio_duration_minutes": 52.34,
+      "speech_segments_manifest": "05-Organizing-Communication-and-Documentation/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 2,
+      "full_audio_files": [
+        "Full_05-Organizing-Communication-and-Documentation_Part1.mp3",
+        "Full_05-Organizing-Communication-and-Documentation_Part2.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_05-Organizing-Communication-and-Documentation_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_05-Organizing-Communication-and-Documentation_Part1.mp3",
+          "duration_seconds": 1525.7,
+          "duration_minutes": 25.43,
+          "file_size_mb": 34.92,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3",
+            "chunk_9.mp3",
+            "chunk_10.mp3"
+          ]
+        },
+        {
+          "part_index": 2,
+          "file_name": "Full_05-Organizing-Communication-and-Documentation_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_05-Organizing-Communication-and-Documentation_Part2.mp3",
+          "duration_seconds": 1614.77,
+          "duration_minutes": 26.91,
+          "file_size_mb": 36.96,
+          "chunks": [
+            "chunk_11.mp3",
+            "chunk_12.mp3",
+            "chunk_13.mp3",
+            "chunk_14.mp3",
+            "chunk_15.mp3",
+            "chunk_16.mp3",
+            "chunk_17.mp3",
+            "chunk_18.mp3",
+            "chunk_19.mp3",
+            "chunk_20.mp3",
+            "chunk_21.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_05-Organizing-Communication-and-Documentation_Part1.mp3",
+        "Final_Audio_05-Organizing-Communication-and-Documentation_Part2.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_05-Organizing-Communication-and-Documentation_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_05-Organizing-Communication-and-Documentation_Part1.mp3",
+          "duration_seconds": 1525.7,
+          "duration_minutes": 25.43,
+          "file_size_mb": 34.92
+        },
+        {
+          "part_index": 2,
+          "file_name": "Final_Audio_05-Organizing-Communication-and-Documentation_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_05-Organizing-Communication-and-Documentation_Part2.mp3",
+          "duration_seconds": 1614.77,
+          "duration_minutes": 26.91,
+          "file_size_mb": 36.96
+        }
+      ]
     },
     {
       "index": 5,
@@ -544,7 +927,7 @@
       "items_count": 1,
       "char_count": 12342,
       "word_count": 2019,
-      "status": "qc_passed",
+      "status": "bgm_mastered",
       "raw_file": "06-Glossary-and-Definitions/raw_original.txt",
       "step_2_status": "completed",
       "translated_file": "06-Glossary-and-Definitions/translated.txt",
@@ -600,7 +983,53 @@
         1376
       ],
       "qc_passed": true,
-      "step_7_audited": true
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 9,
+      "audio_chunks_dir": "06-Glossary-and-Definitions/audio_chunks",
+      "total_audio_duration_seconds": 1255.63,
+      "total_audio_duration_minutes": 20.93,
+      "speech_segments_manifest": "06-Glossary-and-Definitions/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_06-Glossary-and-Definitions_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_06-Glossary-and-Definitions_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Full-Project-Planning-Putting-It-All-Together/Full_06-Glossary-and-Definitions_Part1.mp3",
+          "duration_seconds": 1255.63,
+          "duration_minutes": 20.93,
+          "file_size_mb": 28.74,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3",
+            "chunk_9.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_06-Glossary-and-Definitions_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_06-Glossary-and-Definitions_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Project-Planning-Putting-It-All-Together/Final-Project-Planning-Putting-It-All-Together/Final_Audio_06-Glossary-and-Definitions_Part1.mp3",
+          "duration_seconds": 1255.63,
+          "duration_minutes": 20.93,
+          "file_size_mb": 28.74
+        }
+      ]
     }
   ],
   "metadata": {
@@ -625,6 +1054,11 @@
   "step_6_status": "completed",
   "step_6_completed_at": "2026-09-10T04:06:22.034676+00:00",
   "step_7_status": "completed",
-  "step_7_completed_at": "2026-09-10T04:06:27.141372+00:00",
-  "qc_all_passed": true
+  "step_7_completed_at": "2026-09-10T04:23:25.094070+00:00",
+  "qc_all_passed": true,
+  "step_8_status": "completed",
+  "full_output_folder": "Full-Project-Planning-Putting-It-All-Together",
+  "step_9_status": "completed",
+  "final_output_folder": "Final-Project-Planning-Putting-It-All-Together",
+  "step_10_status": "completed"
 }

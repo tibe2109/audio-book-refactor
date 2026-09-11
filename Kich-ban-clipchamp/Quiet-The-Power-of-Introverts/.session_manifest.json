@@ -1,0 +1,958 @@
+{
+  "session_id": "ses_20260911_091655",
+  "book_slug": "Quiet-The-Power-of-Introverts",
+  "source_pdf": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Docs/Quiet- The Power of Introverts in a World That Can't Stop Talking - Susan Cain.pdf",
+  "total_pages": 356,
+  "created_at": "2026-09-11T09:16:55.998735",
+  "updated_at": "2026-09-11T03:30:58.869739+00:00",
+  "pipeline_stage": "10_bgm_mastered",
+  "chapters": [
+    {
+      "index": 0,
+      "folder": "00-Author-Note",
+      "title": "Author's Note",
+      "start_page": 12,
+      "end_page": 12,
+      "char_count": 1711,
+      "word_count": 297,
+      "status": "bgm_mastered",
+      "raw_file": "00-Author-Note/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 1,
+      "audio_chunks_dir": "00-Author-Note/audio_chunks",
+      "total_audio_duration_seconds": 153.38,
+      "total_audio_duration_minutes": 2.56,
+      "speech_segments_manifest": "00-Author-Note/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_00-Author-Note_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_00-Author-Note_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_00-Author-Note_Part1.mp3",
+          "duration_seconds": 153.38,
+          "duration_minutes": 2.56,
+          "file_size_mb": 3.51,
+          "chunks": [
+            "chunk_1.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_00-Author-Note_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_00-Author-Note_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_00-Author-Note_Part1.mp3",
+          "duration_seconds": 153.38,
+          "duration_minutes": 2.56,
+          "file_size_mb": 3.51
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "folder": "01-Introduction",
+      "title": "Introduction: The North and South of Temperament",
+      "start_page": 13,
+      "end_page": 28,
+      "char_count": 31959,
+      "word_count": 5281,
+      "status": "bgm_mastered",
+      "raw_file": "01-Introduction/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 19,
+      "audio_chunks_dir": "01-Introduction/audio_chunks",
+      "total_audio_duration_seconds": 2660.77,
+      "total_audio_duration_minutes": 44.35,
+      "speech_segments_manifest": "01-Introduction/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 2,
+      "full_audio_files": [
+        "Full_01-Introduction_Part1.mp3",
+        "Full_01-Introduction_Part2.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_01-Introduction_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_01-Introduction_Part1.mp3",
+          "duration_seconds": 1278.24,
+          "duration_minutes": 21.3,
+          "file_size_mb": 29.26,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3",
+            "chunk_9.mp3"
+          ]
+        },
+        {
+          "part_index": 2,
+          "file_name": "Full_01-Introduction_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_01-Introduction_Part2.mp3",
+          "duration_seconds": 1382.52,
+          "duration_minutes": 23.04,
+          "file_size_mb": 31.64,
+          "chunks": [
+            "chunk_10.mp3",
+            "chunk_11.mp3",
+            "chunk_12.mp3",
+            "chunk_13.mp3",
+            "chunk_14.mp3",
+            "chunk_15.mp3",
+            "chunk_17.mp3",
+            "chunk_18.mp3",
+            "chunk_19.mp3",
+            "chunk_20.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_01-Introduction_Part1.mp3",
+        "Final_Audio_01-Introduction_Part2.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_01-Introduction_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_01-Introduction_Part1.mp3",
+          "duration_seconds": 1278.24,
+          "duration_minutes": 21.3,
+          "file_size_mb": 29.26
+        },
+        {
+          "part_index": 2,
+          "file_name": "Final_Audio_01-Introduction_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_01-Introduction_Part2.mp3",
+          "duration_seconds": 1382.52,
+          "duration_minutes": 23.04,
+          "file_size_mb": 31.64
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "folder": "02-Chapter-01",
+      "title": "Part One - Chapter 1: The Rise of the Mighty Likeable Fellow",
+      "start_page": 29,
+      "end_page": 45,
+      "char_count": 31121,
+      "word_count": 5019,
+      "status": "bgm_mastered",
+      "raw_file": "02-Chapter-01/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 18,
+      "audio_chunks_dir": "02-Chapter-01/audio_chunks",
+      "total_audio_duration_seconds": 2689.04,
+      "total_audio_duration_minutes": 44.82,
+      "speech_segments_manifest": "02-Chapter-01/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 2,
+      "full_audio_files": [
+        "Full_02-Chapter-01_Part1.mp3",
+        "Full_02-Chapter-01_Part2.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_02-Chapter-01_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_02-Chapter-01_Part1.mp3",
+          "duration_seconds": 1348.49,
+          "duration_minutes": 22.47,
+          "file_size_mb": 30.87,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3",
+            "chunk_9.mp3"
+          ]
+        },
+        {
+          "part_index": 2,
+          "file_name": "Full_02-Chapter-01_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_02-Chapter-01_Part2.mp3",
+          "duration_seconds": 1340.57,
+          "duration_minutes": 22.34,
+          "file_size_mb": 30.68,
+          "chunks": [
+            "chunk_10.mp3",
+            "chunk_11.mp3",
+            "chunk_12.mp3",
+            "chunk_13.mp3",
+            "chunk_14.mp3",
+            "chunk_15.mp3",
+            "chunk_16.mp3",
+            "chunk_17.mp3",
+            "chunk_18.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_02-Chapter-01_Part1.mp3",
+        "Final_Audio_02-Chapter-01_Part2.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_02-Chapter-01_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_02-Chapter-01_Part1.mp3",
+          "duration_seconds": 1348.49,
+          "duration_minutes": 22.47,
+          "file_size_mb": 30.87
+        },
+        {
+          "part_index": 2,
+          "file_name": "Final_Audio_02-Chapter-01_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_02-Chapter-01_Part2.mp3",
+          "duration_seconds": 1340.57,
+          "duration_minutes": 22.34,
+          "file_size_mb": 30.68
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "folder": "03-Chapter-02",
+      "title": "Chapter 2: The Myth of Charismatic Leadership",
+      "start_page": 46,
+      "end_page": 84,
+      "char_count": 79855,
+      "word_count": 13489,
+      "status": "bgm_mastered",
+      "raw_file": "03-Chapter-02/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 19,
+      "audio_chunks_dir": "03-Chapter-02/audio_chunks",
+      "total_audio_duration_seconds": 2729.56,
+      "total_audio_duration_minutes": 45.49,
+      "speech_segments_manifest": "03-Chapter-02/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 2,
+      "full_audio_files": [
+        "Full_03-Chapter-02_Part1.mp3",
+        "Full_03-Chapter-02_Part2.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_03-Chapter-02_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_03-Chapter-02_Part1.mp3",
+          "duration_seconds": 1437.94,
+          "duration_minutes": 23.97,
+          "file_size_mb": 32.91,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3",
+            "chunk_9.mp3"
+          ]
+        },
+        {
+          "part_index": 2,
+          "file_name": "Full_03-Chapter-02_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_03-Chapter-02_Part2.mp3",
+          "duration_seconds": 1291.63,
+          "duration_minutes": 21.53,
+          "file_size_mb": 29.56,
+          "chunks": [
+            "chunk_10.mp3",
+            "chunk_11.mp3",
+            "chunk_12.mp3",
+            "chunk_13.mp3",
+            "chunk_14.mp3",
+            "chunk_15.mp3",
+            "chunk_16.mp3",
+            "chunk_17.mp3",
+            "chunk_18.mp3",
+            "chunk_19.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_03-Chapter-02_Part1.mp3",
+        "Final_Audio_03-Chapter-02_Part2.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_03-Chapter-02_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_03-Chapter-02_Part1.mp3",
+          "duration_seconds": 1437.94,
+          "duration_minutes": 23.97,
+          "file_size_mb": 32.91
+        },
+        {
+          "part_index": 2,
+          "file_name": "Final_Audio_03-Chapter-02_Part2.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_03-Chapter-02_Part2.mp3",
+          "duration_seconds": 1291.63,
+          "duration_minutes": 21.53,
+          "file_size_mb": 29.56
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "folder": "04-Chapter-03",
+      "title": "Chapter 3: When Collaboration Kills Creativity",
+      "start_page": 85,
+      "end_page": 110,
+      "char_count": 53011,
+      "word_count": 8582,
+      "status": "bgm_mastered",
+      "raw_file": "04-Chapter-03/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 11,
+      "audio_chunks_dir": "04-Chapter-03/audio_chunks",
+      "total_audio_duration_seconds": 1766.75,
+      "total_audio_duration_minutes": 29.45,
+      "speech_segments_manifest": "04-Chapter-03/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_04-Chapter-03_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_04-Chapter-03_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_04-Chapter-03_Part1.mp3",
+          "duration_seconds": 1766.76,
+          "duration_minutes": 29.45,
+          "file_size_mb": 40.44,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3",
+            "chunk_9.mp3",
+            "chunk_10.mp3",
+            "chunk_11.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_04-Chapter-03_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_04-Chapter-03_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_04-Chapter-03_Part1.mp3",
+          "duration_seconds": 1766.76,
+          "duration_minutes": 29.45,
+          "file_size_mb": 40.44
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "folder": "05-Chapter-04",
+      "title": "Part Two - Chapter 4: Is Temperament Destiny?",
+      "start_page": 111,
+      "end_page": 130,
+      "char_count": 38854,
+      "word_count": 6316,
+      "status": "bgm_mastered",
+      "raw_file": "05-Chapter-04/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 10,
+      "audio_chunks_dir": "05-Chapter-04/audio_chunks",
+      "total_audio_duration_seconds": 1420.91,
+      "total_audio_duration_minutes": 23.68,
+      "speech_segments_manifest": "05-Chapter-04/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_05-Chapter-04_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_05-Chapter-04_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_05-Chapter-04_Part1.mp3",
+          "duration_seconds": 1459.03,
+          "duration_minutes": 24.32,
+          "file_size_mb": 33.4,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3",
+            "chunk_8.mp3",
+            "chunk_9.mp3",
+            "chunk_10.mp3",
+            "chunk_11.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_05-Chapter-04_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_05-Chapter-04_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_05-Chapter-04_Part1.mp3",
+          "duration_seconds": 1459.03,
+          "duration_minutes": 24.32,
+          "file_size_mb": 33.4
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "folder": "06-Chapter-05",
+      "title": "Chapter 5: Beyond Temperament",
+      "start_page": 131,
+      "end_page": 146,
+      "char_count": 32130,
+      "word_count": 5338,
+      "status": "bgm_mastered",
+      "raw_file": "06-Chapter-05/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 7,
+      "audio_chunks_dir": "06-Chapter-05/audio_chunks",
+      "total_audio_duration_seconds": 1061.1,
+      "total_audio_duration_minutes": 17.68,
+      "speech_segments_manifest": "06-Chapter-05/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_06-Chapter-05_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_06-Chapter-05_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_06-Chapter-05_Part1.mp3",
+          "duration_seconds": 1061.11,
+          "duration_minutes": 17.69,
+          "file_size_mb": 24.29,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3",
+            "chunk_7.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_06-Chapter-05_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_06-Chapter-05_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_06-Chapter-05_Part1.mp3",
+          "duration_seconds": 1061.11,
+          "duration_minutes": 17.69,
+          "file_size_mb": 24.29
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "folder": "07-Chapter-06",
+      "title": "Chapter 6: Franklin Was A Politician, But Eleanor Spoke Out of Conscience",
+      "start_page": 147,
+      "end_page": 172,
+      "char_count": 54403,
+      "word_count": 9013,
+      "status": "bgm_mastered",
+      "raw_file": "07-Chapter-06/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 6,
+      "audio_chunks_dir": "07-Chapter-06/audio_chunks",
+      "total_audio_duration_seconds": 929.67,
+      "total_audio_duration_minutes": 15.49,
+      "speech_segments_manifest": "07-Chapter-06/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_07-Chapter-06_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_07-Chapter-06_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_07-Chapter-06_Part1.mp3",
+          "duration_seconds": 929.69,
+          "duration_minutes": 15.49,
+          "file_size_mb": 21.28,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_07-Chapter-06_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_07-Chapter-06_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_07-Chapter-06_Part1.mp3",
+          "duration_seconds": 929.69,
+          "duration_minutes": 15.49,
+          "file_size_mb": 21.28
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "folder": "08-Chapter-07",
+      "title": "Chapter 7: Why Did Wall Street Crash and Warren Buffett Prosper?",
+      "start_page": 173,
+      "end_page": 197,
+      "char_count": 50249,
+      "word_count": 8293,
+      "status": "bgm_mastered",
+      "raw_file": "08-Chapter-07/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 5,
+      "audio_chunks_dir": "08-Chapter-07/audio_chunks",
+      "total_audio_duration_seconds": 687.69,
+      "total_audio_duration_minutes": 11.46,
+      "speech_segments_manifest": "08-Chapter-07/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_08-Chapter-07_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_08-Chapter-07_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_08-Chapter-07_Part1.mp3",
+          "duration_seconds": 687.7,
+          "duration_minutes": 11.46,
+          "file_size_mb": 15.74,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3",
+            "chunk_6.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_08-Chapter-07_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_08-Chapter-07_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_08-Chapter-07_Part1.mp3",
+          "duration_seconds": 687.7,
+          "duration_minutes": 11.46,
+          "file_size_mb": 15.74
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "folder": "09-Chapter-08",
+      "title": "Part Three - Chapter 8: Soft Power: Asian-Americans and the Extrovert Ideal",
+      "start_page": 198,
+      "end_page": 222,
+      "char_count": 48185,
+      "word_count": 7995,
+      "status": "bgm_mastered",
+      "raw_file": "09-Chapter-08/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 5,
+      "audio_chunks_dir": "09-Chapter-08/audio_chunks",
+      "total_audio_duration_seconds": 699.96,
+      "total_audio_duration_minutes": 11.67,
+      "speech_segments_manifest": "09-Chapter-08/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_09-Chapter-08_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_09-Chapter-08_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_09-Chapter-08_Part1.mp3",
+          "duration_seconds": 699.96,
+          "duration_minutes": 11.67,
+          "file_size_mb": 16.02,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3",
+            "chunk_5.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_09-Chapter-08_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_09-Chapter-08_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_09-Chapter-08_Part1.mp3",
+          "duration_seconds": 699.96,
+          "duration_minutes": 11.67,
+          "file_size_mb": 16.02
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "folder": "10-Chapter-09",
+      "title": "Part Four - Chapter 9: When Should You Act More Extroverted?",
+      "start_page": 223,
+      "end_page": 244,
+      "char_count": 42159,
+      "word_count": 7140,
+      "status": "bgm_mastered",
+      "raw_file": "10-Chapter-09/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 4,
+      "audio_chunks_dir": "10-Chapter-09/audio_chunks",
+      "total_audio_duration_seconds": 537.82,
+      "total_audio_duration_minutes": 8.96,
+      "speech_segments_manifest": "10-Chapter-09/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_10-Chapter-09_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_10-Chapter-09_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_10-Chapter-09_Part1.mp3",
+          "duration_seconds": 537.82,
+          "duration_minutes": 8.96,
+          "file_size_mb": 12.31,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_10-Chapter-09_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_10-Chapter-09_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_10-Chapter-09_Part1.mp3",
+          "duration_seconds": 537.82,
+          "duration_minutes": 8.96,
+          "file_size_mb": 12.31
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "folder": "11-Chapter-10",
+      "title": "Chapter 10: The Communication Gap",
+      "start_page": 245,
+      "end_page": 263,
+      "char_count": 37345,
+      "word_count": 6257,
+      "status": "bgm_mastered",
+      "raw_file": "11-Chapter-10/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 4,
+      "audio_chunks_dir": "11-Chapter-10/audio_chunks",
+      "total_audio_duration_seconds": 605.18,
+      "total_audio_duration_minutes": 10.09,
+      "speech_segments_manifest": "11-Chapter-10/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_11-Chapter-10_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_11-Chapter-10_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_11-Chapter-10_Part1.mp3",
+          "duration_seconds": 605.18,
+          "duration_minutes": 10.09,
+          "file_size_mb": 13.85,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_11-Chapter-10_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_11-Chapter-10_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_11-Chapter-10_Part1.mp3",
+          "duration_seconds": 605.18,
+          "duration_minutes": 10.09,
+          "file_size_mb": 13.85
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "folder": "12-Chapter-11",
+      "title": "Chapter 11: On Cobblers and Generals",
+      "start_page": 264,
+      "end_page": 288,
+      "char_count": 51049,
+      "word_count": 8849,
+      "status": "bgm_mastered",
+      "raw_file": "12-Chapter-11/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 3,
+      "audio_chunks_dir": "12-Chapter-11/audio_chunks",
+      "total_audio_duration_seconds": 450.89,
+      "total_audio_duration_minutes": 7.51,
+      "speech_segments_manifest": "12-Chapter-11/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_12-Chapter-11_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_12-Chapter-11_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_12-Chapter-11_Part1.mp3",
+          "duration_seconds": 450.89,
+          "duration_minutes": 7.51,
+          "file_size_mb": 10.32,
+          "chunks": [
+            "chunk_2.mp3",
+            "chunk_3.mp3",
+            "chunk_4.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_12-Chapter-11_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_12-Chapter-11_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_12-Chapter-11_Part1.mp3",
+          "duration_seconds": 450.89,
+          "duration_minutes": 7.51,
+          "file_size_mb": 10.32
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "folder": "13-Conclusion",
+      "title": "Conclusion: Wonderland",
+      "start_page": 289,
+      "end_page": 291,
+      "char_count": 5481,
+      "word_count": 918,
+      "status": "bgm_mastered",
+      "raw_file": "13-Conclusion/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 3,
+      "audio_chunks_dir": "13-Conclusion/audio_chunks",
+      "total_audio_duration_seconds": 507.45,
+      "total_audio_duration_minutes": 8.46,
+      "speech_segments_manifest": "13-Conclusion/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_13-Conclusion_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_13-Conclusion_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_13-Conclusion_Part1.mp3",
+          "duration_seconds": 507.46,
+          "duration_minutes": 8.46,
+          "file_size_mb": 11.62,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_13-Conclusion_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_13-Conclusion_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_13-Conclusion_Part1.mp3",
+          "duration_seconds": 507.46,
+          "duration_minutes": 8.46,
+          "file_size_mb": 11.62
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "folder": "14-Note-on-Introvert-Extrovert",
+      "title": "A Note on the Words Introvert and Extrovert",
+      "start_page": 294,
+      "end_page": 296,
+      "char_count": 5378,
+      "word_count": 786,
+      "status": "bgm_mastered",
+      "raw_file": "14-Note-on-Introvert-Extrovert/raw_original.txt",
+      "qc_passed": true,
+      "step_7_audited": true,
+      "step_8_status": "completed",
+      "total_audio_chunks": 3,
+      "audio_chunks_dir": "14-Note-on-Introvert-Extrovert/audio_chunks",
+      "total_audio_duration_seconds": 445.61,
+      "total_audio_duration_minutes": 7.43,
+      "speech_segments_manifest": "14-Note-on-Introvert-Extrovert/audio_chunks/.speech_segments.json",
+      "step_9_status": "completed",
+      "total_full_parts": 1,
+      "full_audio_files": [
+        "Full_14-Note-on-Introvert-Extrovert_Part1.mp3"
+      ],
+      "full_parts_details": [
+        {
+          "part_index": 1,
+          "file_name": "Full_14-Note-on-Introvert-Extrovert_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Full-Quiet-The-Power-of-Introverts/Full_14-Note-on-Introvert-Extrovert_Part1.mp3",
+          "duration_seconds": 445.61,
+          "duration_minutes": 7.43,
+          "file_size_mb": 10.2,
+          "chunks": [
+            "chunk_1.mp3",
+            "chunk_2.mp3",
+            "chunk_3.mp3"
+          ]
+        }
+      ],
+      "step_10_status": "completed",
+      "final_master_files": [
+        "Final_Audio_14-Note-on-Introvert-Extrovert_Part1.mp3"
+      ],
+      "final_master_details": [
+        {
+          "part_index": 1,
+          "file_name": "Final_Audio_14-Note-on-Introvert-Extrovert_Part1.mp3",
+          "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Quiet-The-Power-of-Introverts/Final-Quiet-The-Power-of-Introverts/Final_Audio_14-Note-on-Introvert-Extrovert_Part1.mp3",
+          "duration_seconds": 445.61,
+          "duration_minutes": 7.43,
+          "file_size_mb": 10.2
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "extractor_version": "2.2.0",
+    "source_type": "single_pdf_book",
+    "noise_filtered": {
+      "headers_removed": true,
+      "footers_removed": true,
+      "watermarks_removed": true,
+      "page_numbers_removed": true
+    }
+  },
+  "step_7_status": "completed",
+  "step_7_completed_at": "2026-09-11T03:30:58.869732+00:00",
+  "qc_all_passed": true,
+  "full_output_folder": "Full-Quiet-The-Power-of-Introverts",
+  "step_9_status": "completed",
+  "final_output_folder": "Final-Quiet-The-Power-of-Introverts",
+  "step_10_status": "completed",
+  "step_8_status": "completed"
+}

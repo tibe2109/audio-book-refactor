@@ -1,0 +1,784 @@
+{
+  "Kich-ban-1.txt": [
+    {
+      "lang": "vi",
+      "text": "CHƯƠNG BẢY, VÌ SAO PHỐ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "WALL",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "SỤP ĐỔ VÀ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "WARREN BUFFETT",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "PHỒN THỊNH,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "WHY DID WALL STREET CRASH AND WARREN BUFFETT PROSPER?.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "SỰ KHÁC BIỆT TRONG CÁCH TƯ DUY VÀ XỬ LÝ DOPAMINE GIỮA NGƯỜI HƯỚNG NỘI VÀ HƯỚNG NGOẠI,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "HOW INTROVERTS AND EXTROVERTS THINK AND PROCESS",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "DOPAMINE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "DIFFERENTLY",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Tocqueville",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "nhận thấy rằng cuộc sống đầy hành động và quyết định liên tục, bắt nguồn từ tính cách dân chủ và thực dụng của đời sống Mỹ, đã đặt ưu tiên cao vào những thói quen tư duy nhanh chóng, quyết định chớp nhoáng và việc nắm bắt cơ hội ngay lập tức, và tất cả những hoạt động này không hề thuận lợi cho sự thận trọng, sự đào sâu hay sự chính xác trong tư duy. Lời của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Richard Hofstadter.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "TIẾN SĨ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "JANICE DORN",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "VÀ BI KỊCH MẤT HẾT TÀI SẢN CỦA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "ALAN",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "NĂM HAI NGHÌN KHÔNG TRĂM LINH TÁM,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "DR JANICE DORN AND THE WALL STREET TRADER",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Ngay sau bảy giờ ba mươi phút sáng ngày mười một tháng mười hai năm hai nghìn không trăm lẻ tám, năm diễn ra cuộc đại khủng hoảng tài chính toàn cầu, chuông điện thoại của Tiến sĩ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Janice Dorn",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "reo vang. Thị trường chứng khoán Phố",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Wall",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại Bờ Đông nước Mỹ vừa mở cửa cho một phiên giao dịch đẫm máu tiếp theo, Giá nhà đất lao dốc không phanh, thị trường tín dụng đóng băng hoàn toàn, và tập đoàn sản xuất xe hơi khổng lồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "General Motors,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "thường gọi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "G-M,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đang đứng trên bờ vực phá sản. Tiến sĩ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Dorn",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "nhận cuộc gọi ngay trong phòng ngủ của mình. Bà là một người phụ nữ sở hữu học vị tiến sĩ giải phẫu thần kinh, đồng thời, là một bác sĩ tâm thần học lâm sàng và là một nhà giao dịch tương lai kỳ cựu trên thị trường vàng. Với tư cách là một bác sĩ tâm thần tài chính, bà đã từng tư vấn tâm lý cho khoảng sáu trăm nhà đầu tư Phố",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Wall.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đầu dây bên kia là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Alan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "một người đàn ông sáu mươi tuổi đến từ vùng Trung Tây nước Mỹ, chăm chỉ, trung thực và sở hữu tính cách xởi lởi, tự tin của một người hướng ngoại điển hình. Nhưng ẩn sau sự niềm nở gượng gạo, giọng nói của ông run rẩy vì tuyệt vọng.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Alan",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và vợ đã làm việc cật lực suốt cả cuộc đời và dành dụm được một triệu đô la làm quỹ hưu trí. Thế nhưng bốn tháng trước, dù không hề có chút kinh nghiệm nào về thị trường chứng khoán, ông đã nảy ra ý định dùng một trăm nghìn đô la để mua bắt đáy cổ phiếu của tập đoàn",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "G-M,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "dựa trên tin tức rằng chính phủ Mỹ có thể sẽ giải cứu ngành công nghiệp ô tô. Ông đinh ninh rằng đây là một canh bạc không thể thua. Sau khi giao dịch hoàn tất, truyền thông lại đưa tin rằng gói cứu trợ có thể sẽ không diễn ra. Cổ phiếu",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "G-M",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "lao dốc. Nhưng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Alan",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "không bán tháo, ông bị mê hoặc bởi viễn cảnh mình sẽ thắng lớn. Cảm giác hưng phấn ấy chân thực đến mức ông như nếm được vị ngọt ngào của nó trên đầu lưỡi. Ông tiếp tục giữ cổ phiếu. Giá lại giảm sâu, giảm nữa, cho đến khi ông phải cắt lỗ trong cay đắng.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-2.txt": [
+    {
+      "lang": "vi",
+      "text": "Thế nhưng thảm kịch tồi tệ nhất vẫn còn ở phía sau, Khi bản tin tiếp theo gợi ý rằng gói cứu trợ lại có cơ hội được thông qua,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Alan",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "lại bị cuốn vào cơn lốc hưng phấn. Ông dốc cạn toàn bộ chín trăm nghìn đô la còn lại trong tài khoản dưỡng già của hai vợ chồng để mua lại cổ phiếu",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "G-M",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "với mức giá cao hơn. Và rồi cổ phiếu lại tiếp tục rơi tự do.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Alan",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đã mất sạch toàn bộ tài sản tích cóp cả một đời chỉ sau vài tuần ngắn ngủi. CƠN SAY PHẦN THƯỞNG VÀ CHẤT DẪN TRUYỀN THẦN KINH DOPAMINE,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "REWARD SENSITIVITY AND",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "THE DOPAMINE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "RUSH",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Hành vi tự sát về mặt tài chính của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Alan",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "không phải là một sự điên rồ ngẫu nhiên, nó được thúc đẩy bởi một hiện tượng tâm lý học thần kinh mà các nhà khoa học gọi là tính nhạy cảm với phần thưởng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "reward sensitivity.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một người nhạy cảm với phần thưởng là người có động lực thôi thúc tột bậc để săn đuổi các phần thưởng, tiền bạc, danh vọng, địa vị xã hội hay sự phấn khích tột cùng. Khi nhìn thấy cơ hội giành được một món hời lớn, não bộ của họ bùng nổ một trạng thái hưng phấn ngây ngất mà chúng ta có thể gọi là cơn say hưng phấn,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "buzz.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong trạng thái này, họ cảm thấy mình tràn đầy năng lượng, dũng mãnh và bất khả chiến bại. Cơn say hưng phấn ấy được chi phối trực tiếp bởi một hóa chất kỳ diệu bên trong não bộ mang tên dopamine. Dopamine là chất dẫn truyền thần kinh phần thưởng, được tiết ra khi chúng ta mong đợi và săn lùng những phần thưởng quý giá. Các nghiên cứu khoa học hiện đại chỉ ra rằng người hướng nội và người hướng ngoại có cấu trúc thụ thể dopamine hoàn toàn khác nhau. Người hướng ngoại có mạng lưới thụ thể dopamine nhạy cảm và dễ hưng phấn hơn rất nhiều. Họ dễ dàng bị kích hoạt bởi những kích thích hứa hẹn mang lại phần thưởng lớn, và khi dopamine tràn ngập não bộ, vùng vỏ não trước trán chịu trách nhiệm về tư duy lý tính và đánh giá rủi ro bị lu mờ tạm thời. Họ lao về phía trước như một cỗ xe không phanh, phớt lờ mọi tín hiệu đèn đỏ cảnh báo nguy hiểm. Ngược lại, người hướng nội có ngưỡng phản ứng dopamine điềm tĩnh hơn. Họ ít bị lóa mắt bởi những viễn cảnh làm giàu nhanh chóng hay những lời hứa hẹn hào nhoáng. Hệ thần kinh của họ hoạt động dựa nhiều hơn vào chất dẫn truyền thần kinh acetylcholine, một hóa chất mang lại cảm giác thỏa mãn sâu sắc khi con người đọc sách, suy ngẫm tĩnh lặng và tập trung giải quyết các vấn đề phức tạp.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-3.txt": [
+    {
+      "lang": "vi",
+      "text": "THÍ NGHIỆM TẠI ĐẠI HỌC",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "STANFORD",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "VÀ TÂM LÝ HỌC THẦN KINH KINH TẾ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "NEUROECONOMICS AT STANFORD UNIVERSITY",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Sự khác biệt sinh học này đã được chứng minh một cách vô cùng sống động qua các thí nghiệm của Giáo sư Camelia Kuhnen và Giáo sư",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Brian Knutson",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại Đại học",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Stanford",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "danh tiếng. Các nhà nghiên cứu đã cho các tình nguyện viên tham gia một trò chơi đầu tư tài chính trong khi nằm bên trong máy quét",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "f-M-R-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "để theo dõi những biến đổi trong từng mili-giây của não bộ. Khi các nhà đầu tư nhìn thấy cơ hội kiếm được những khoản lợi nhuận khổng lồ nhưng đi kèm với rủi ro cao, máy quét ghi nhận sự bùng nổ hoạt động tại vùng thể vân bụng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "nucleus accumbens,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "trung tâm thụ thể dopamine của não bộ. Những người có sự kích hoạt thể vân bụng mạnh mẽ nhất chính là những người liên tục đưa ra những quyết định đầu tư liều lĩnh, mù quáng và dễ bị tổn thất nặng nề nhất. Ngược lại, khi các đối tượng đối mặt với các nguy cơ thua lỗ hoặc nhận diện rủi ro tiềm ẩn, máy quét ghi nhận sự kích hoạt mạnh mẽ tại vùng vỏ não thùy đảo trước,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "anterior",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "insula, cơ quan chịu trách nhiệm về cảm giác lo âu, ghê sợ và cảnh giác trước nguy hiểm. Những người có hoạt động vỏ não thùy đảo mạnh mẽ thường là những người biết dừng lại đúng lúc, cân nhắc kỹ lưỡng và bảo toàn vốn đầu tư của mình. Giáo sư Kuhnen nhận định rằng sự kết hợp giữa các biến thể gen điều hòa dopamine như gen D-R-D-bốn và gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S-E-R-T",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "giải thích vì sao một số cá nhân luôn có xu hướng đánh bạc liều lĩnh trên thị trường tài chính, trong khi những người khác lại vô cùng thận trọng. Và cuộc khủng hoảng tài chính năm hai nghìn không trăm lẻ tám thực chất chính là đỉnh điểm của một nền văn hóa Phố",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Wall",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "do những người hướng ngoại bị say dopamine thống trị, nơi những kẻ liều lĩnh được tung hô là những anh hùng tài chính, trong khi những tiếng nói cảnh báo thận trọng bị coi là yếu đuối và nhát gan. THÍ NGHIỆM ĐÈN ĐỎ CỦA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "JOSEPH NEWMAN",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "VÀ NGHỆ THUẬT BIẾT DỪNG LẠI,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "JOSEPH NEWMAN'S CARD PLAYING PARADIGM",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Mối quan hệ giữa tính cách và khả năng nhận diện sai lầm đã được làm sáng tỏ qua các nghiên cứu đột phá của nhà tâm lý học",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Joseph Newman",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại Đại học",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Wisconsin.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Giáo sư",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Newman",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thiết kế một trò chơi điện tử đơn giản trên máy tính, Các tình nguyện viên được yêu cầu bấm một nút mỗi khi một lá bài xuất hiện trên màn hình. Nếu lá bài thắng, họ nhận được một khoản tiền thưởng, nếu lá bài thua, họ bị phạt tiền. Ban đầu, tỷ lệ thắng là rất cao, nhưng dần dần, tỷ lệ bài thua xuất hiện ngày càng nhiều hơn. Kết quả thí nghiệm cho thấy sự khác biệt vô cùng sâu sắc giữa hai nhóm tính cách.",
+      "pause_type": "emphasis"
+    }
+  ],
+  "Kich-ban-4.txt": [
+    {
+      "lang": "vi",
+      "text": "Những người hướng nội, khi bắt đầu nhận thấy các lá bài phạt xuất hiện, lập tức có xu hướng dừng lại vài giây trước khi bấm nút cho lượt tiếp theo. Trong khoảng thời gian ngập ngừng ngắn ngủi ấy, họ xử lý thông tin phản hồi từ môi trường, nhận ra rằng quy luật trò chơi đã thay đổi và kịp thời rút lui để bảo toàn số tiền thắng được. Ngược lại, những người hướng ngoại lại làm điều hoàn toàn trái ngược, Thay vì dừng lại để quan sát, họ lại bấm nút nhanh hơn và mạnh hơn. Khi bị phạt tiền, thay vì thận trọng, họ lại càng trở nên hưng phấn và nôn nóng muốn gỡ gạc lại phần thưởng vừa mất, giống hệt như một con thiêu thân lao vào ngọn lửa. Giáo sư",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Newman",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "giải thích rằng, Người hướng ngoại có xu hướng phản ứng theo quán tính phần thưởng. Một khi họ đã đặt mục tiêu vào phần thưởng, họ khó có thể kiềm chế hành vi của mình ngay cả khi tín hiệu cảnh báo nguy hiểm đang nhấp nháy đỏ rực ngay trước mắt. Khả năng biết dừng lại để suy ngẫm,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "pause to reflect,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chính là một trong những thế mạnh trí tuệ vĩ đại nhất của người hướng nội. Đó là lý do vì sao người hướng nội ít khi bị vấp ngã bởi những cạm bẫy mà người khác giăng ra. THẢM KỊCH",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "ENRON",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "VÀ SỐ PHẬN CỦA NGƯỜI CẢNH BÁO",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "VINCENT",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "KAMINSKI,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "THE SAGA OF ENRON AND VINCENT",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "KAMINSKI , Một ví dụ, bi tráng cho thấy điều gì sẽ xảy ra khi một tổ chức bị chi phối bởi những người say dopamine chính là vụ sụp đổ của tập đoàn năng lượng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Enron",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "vào năm hai nghìn không trăm lẻ một. Trước khi phá sản,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Enron",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "được tạp chí",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Fortune",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "bình chọn là công ty sáng tạo nhất nước Mỹ trong sáu năm liên tiếp. Ban lãnh đạo của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Enron,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đứng đầu là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Jeffrey Skilling",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Lou",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Pai, là những hiện thân tột cùng của phong cách hướng ngoại hung hãn, họ thích lái những chiếc xe thể thao phân khối lớn, tham gia những chuyến thám hiểm sa mạc mạo hiểm, và tự hào về một nền văn hóa công ty cá lớn nuốt cá bé, nơi các nhân viên bị đánh giá và sa thải không thương tiếc nếu không mang lại những con số tăng trưởng chóng mặt. Người duy nhất dám đứng lên cảnh báo về sự lừa dối tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Enron",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là một người đàn ông gốc Ba Lan trầm lặng tên là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Vincent",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Kaminski, giám đốc nghiên cứu rủi ro định lượng của tập đoàn. Kaminski là một học giả uyên bác với bằng tiến sĩ kinh tế, một người hướng nội điềm đạm, khiêm nhường và luôn làm việc dựa trên các mô hình toán học chặt chẽ. Khi nhóm của ông phát hiện ra các giao dịch mờ ám ngoài bảng cân đối kế toán do Giám đốc Tài chính",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Andrew Fastow",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "dựng lên, Kaminski đã nhận ra ngay rằng đây là một quả bom nợ khổng lồ có thể phá hủy hoàn toàn tập đoàn.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-5.txt": [
+    {
+      "lang": "vi",
+      "text": "Ông đã kiên quyết từ chối ký tên phê duyệt các giao dịch này và trực tiếp cảnh báo ban điều hành. Nhưng thay vì lắng nghe lời khuyên sáng suốt của vị chuyên gia thận trọng, các lãnh đạo",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Enron",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đã nổi trận lôi đình, đe dọa sa thải ông và tước bỏ quyền kiểm soát rủi ro của nhóm ông để chuyển cho những kẻ sẵn sàng làm giả số liệu. Vài tháng sau đó,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Enron",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "sụp đổ hoàn toàn trong vụ bê bối gian lận tài chính lớn nhất lịch sử nước Mỹ thời bấy giờ. Lời cảnh báo trong sự cô độc của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Vincent",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Kaminski đã trở thành một tượng đài bi thương cho sự mù quáng của lòng tham vô độ. BÍ QUYẾT ĐẦU TƯ CỦA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "WARREN BUFFETT,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "SỨC MẠNH CỦA BẢNG ĐIỂM NỘI TÂM,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "WARREN BUFFETT AND THE INNER SCORECARD",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Trái ngược hoàn toàn với văn hóa đốt tiền điên cuồng của Phố",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Wall hay Enron,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "câu chuyện thành công của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Warren Buffett,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "một trong những nhà đầu tư vĩ đại nhất và giàu có nhất trong lịch sử nhân loại, chính là minh chứng hùng hồn nhất cho sức mạnh của tư duy hướng nội.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Warren Buffett",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "không sống tại thủ đô tài chính",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "New York",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "hoa lệ hay Thung lũng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Silicon",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thời thượng, ông vẫn sống giản dị trong chính ngôi nhà mà ông đã mua từ năm một nghìn chín trăm năm mươi tám tại thành phố",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Omaha, bang Nebraska.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-6.txt": [
+    {
+      "lang": "vi",
+      "text": "Phong cách làm việc hàng ngày của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Buffett",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là hiện thân trọn vẹn của Luyện tập Cố ý trong sự cô độc tĩnh lặng, Ông dành tới tám mươi phần trăm thời gian mỗi ngày chỉ để ngồi một mình trong phòng làm việc, đọc hàng trăm trang báo cáo tài chính thường niên của các doanh nghiệp và suy ngẫm sâu sắc mà không hề có sự can thiệp của bất kỳ cố vấn hay trợ lý nào. Ông không bao giờ để máy tính trong văn phòng, không xem các bản tin tài chính giật gân trên truyền hình, và hoàn toàn miễn nhiễm trước những cơn sốt giá ngắn hạn của thị trường. Triết lý đầu tư huyền thoại của ông được gói gọn trong một nguyên tắc giản dị nhưng vô cùng sâu sắc, Hãy sợ hãi khi người khác tham lam, và hãy tham lam khi người khác sợ hãi.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Buffett",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "phân biệt rạch ròi giữa hai khái niệm, Bảng điểm bên ngoài,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Outer Scorecard,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và Bảng điểm nội tâm,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Inner Scorecard.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bảng điểm bên ngoài là cách thức đánh giá của đám đông, Bạn có mặc đồ hiệu không? Bạn có xuất hiện trên truyền hình không? Người khác nghĩ gì về bạn? Đây là chiếc bẫy khiến những người hướng ngoại dễ dàng đánh mất chính mình để chạy theo sự tán thưởng của xã hội. Ngược lại, Bảng điểm nội tâm là sự tự đo lường bằng chính các tiêu chuẩn đạo đức và nguyên tắc sâu kín của bản thân, Liệu bạn có làm điều đúng đắn khi không có ai nhìn thấy không? Quyết định của bạn có dựa trên giá trị nội tại đích thực không? Chính việc kiên định sống và đầu tư theo Bảng điểm nội tâm đã giúp",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Warren Buffett",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "giữ được sự bình thản tuyệt đối khi thị trường hưng phấn tột độ trong cơn sốt bong bóng công nghệ thập niên một nghìn chín trăm chín mươi, và giúp ông thâu tóm được những doanh nghiệp tuyệt vời với mức giá rẻ như cho khi toàn bộ Phố",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Wall",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "rơi vào cơn hoảng loạn tột cùng năm hai nghìn không trăm lẻ tám. Sự thịnh vượng bền vững của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Warren Buffett",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là minh chứng bất hủ cho thấy, Trong một thế giới luôn ồn ào và vội vã, những người biết kiên nhẫn suy nghĩ độc lập, biết làm chủ lòng tham và hành động bằng sự cẩn trọng trầm lặng chính là những người sẽ bước lên đỉnh vinh quang cuối cùng.",
+      "pause_type": "terminal"
+    }
+  ]
+}

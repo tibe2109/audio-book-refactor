@@ -1,0 +1,1439 @@
+{
+  "Kich-ban-1.txt": [
+    {
+      "lang": "vi",
+      "text": "CHƯƠNG BỐN, QUẢN TRỊ RỦI RO HIỆU QUẢ , LỜI MỞ ĐẦU, QUẢN TRỊ RỦI RO HIỆU QUẢ , Chào mừng bạn đã quay trở lại. Ở các phần trước, chúng ta đã cùng nhau tìm hiểu về việc quản lý chi phí và ngân sách dự án. Chúng ta đã thảo luận về các thành phần cấu thành nên ngân sách, quy trình lập ngân sách diễn ra như thế nào, cũng như cách theo dõi và ước lượng chi phí một cách chuẩn xác. Bạn cũng đã nắm vững quy trình mua sắm và ký kết hợp đồng với các nhà cung cấp. Ngay sau đây, chúng ta sẽ bước vào một chủ đề then chốt, quản trị rủi ro, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và lý do vì sao việc này lại mang tính quyết định để ngăn ngừa dự án rơi vào thất bại. Việc biết cách lường trước, dự báo và làm dịu nhẹ, hay trong chuyên môn gọi là giảm thiểu rủi ro, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Mitigate,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chính là chiếc chìa khóa vạn năng giúp bạn giữ cho dự án luôn đi đúng quỹ đạo dự kiến. Trong chương này, bạn sẽ học cách định nghĩa, xâu chuỗi các khái niệm cốt lõi về quản trị rủi ro và giải thích được cách mà việc quản lý rủi ro bảo vệ dự án khỏi những bờ vực đổ vỡ. Bạn cũng sẽ nhận diện các loại rủi ro điển hình, học cách đo lường mức độ tác động của chúng đối với dự án, đồng thời, biết cách giao tiếp và giải quyết triệt để các rủi ro đã được nhận diện thông qua một kế hoạch giảm thiểu rủi ro bài bản. Bạn đã sẵn sàng để bắt đầu chưa? Rất tuyệt vời. Hãy cùng tôi bước vào bài học tiếp theo. TẦM QUAN TRỌNG CỦA QUẢN TRỊ RỦI RO , Hãy thử nhớ lại một lần nào đó trong cuộc sống khi bạn từng quản lý một kế hoạch hay dự án cụ thể. Đó có thể là một công việc chuyên môn ở công ty, chẳng hạn, như lập lịch trình làm việc theo ca cho nhân viên, hoặc cũng có thể là một dự án cá nhân, như lên kế hoạch tổ chức một buổi tiệc họp mặt gia đình. Bây giờ, bạn hãy tự hỏi mình câu này, Liệu mọi thứ lúc đó có diễn ra hoàn toàn đúng một trăm phần trăm theo kế hoạch định sẵn hay không? Nếu phải đoán, tôi dám cá rằng chắc chắn đã có ít nhất một trở ngại hay phát sinh ngoài ý muốn mà bạn phải đích thân xử lý. Lý do rất đơn giản, không có bất kỳ dự án nào trong thực tế lại diễn ra suôn sẻ một trăm phần trăm đúng như dự tính trên giấy, ngay cả khi những dự án đó được dẫn dắt bởi những",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "dày dạn kinh nghiệm nhất hành tinh.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-2.txt": [
+    {
+      "lang": "vi",
+      "text": "Có thể bạn đã lên kế hoạch phân ca cho nhân viên một cách vô cùng hoàn hảo, thế rồi đùng một cái, một nhân sự bị cảm cúm đột xuất, buộc bạn phải cuống cuồng sắp xếp lại toàn bộ lịch trình vào phút chót. Hoặc biết đâu, ngay khi các thành viên trong dòng họ vừa tấp nập kéo đến buổi tiệc mừng, bạn mới bàng hoàng nhận ra mình đã quên khuấy việc mua đá lạnh để ướp mát đồ uống. Bạn thấy đấy, những chuyện ngoài ý muốn như vậy vẫn luôn xảy ra hằng ngày. Như chúng tôi đã chia sẻ với bạn từ trước, sự linh hoạt, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Flexibility,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là một kỹ năng sống còn của người làm nghề quản lý dự án. Do bản chất vốn dĩ của mọi dự án, và cũng chính là bản chất của cuộc sống thực tế, việc bạn sớm nhận diện và chủ động lập kế hoạch ứng phó với các rủi ro tiềm ẩn có thể tác động đến dự án là điều tối quan trọng. Bây giờ, chúng ta hãy cùng nhau làm rõ xem một rủi ro, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "thực chất là gì. Một rủi ro là một sự kiện tiềm tàng có thể xảy ra trong tương lai và có khả năng gây ảnh hưởng đến dự án của bạn. Khi bạn tư duy về rủi ro trong bối cảnh quản lý dự án, bạn hãy luôn nhớ rằng chúng là những giả định mang tính khả biến. Nói cách khác, đây không phải là những sự kiện chắc chắn một trăm phần trăm sẽ xảy ra, nhưng bởi vì, luôn có một xác suất tiềm ẩn nào đó khiến chúng có thể ập đến, trách nhiệm tối cao của bạn với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là phải nhận diện từ sớm và lập sẵn phương án dự phòng cho những rủi ro đó. Tiếp theo, chúng ta hãy phân biệt khái niệm này với vấn đề phát sinh, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Issue.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Issue",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là một sự cố thực tế, một rắc rối đã được biết rõ hoặc đang hiện hữu trực tiếp làm ảnh hưởng đến khả năng hoàn thành công việc của đội ngũ. Vậy điểm khác biệt mấu chốt giữa rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và vấn đề phát sinh,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Issue,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là gì? Bạn hãy hình dung thật đơn giản như thế này, rủi ro là một biến cố có tiềm năng xảy ra trong tương lai. Nếu sự kiện đó thực sự diễn ra ngoài đời thực, thì lúc này rủi ro sẽ chính thức biến thành một vấn đề phát sinh, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Issue.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nói theo ngôn ngữ thường nhật, rủi ro chính là những câu hỏi giả định lớn, chuyện gì sẽ xảy ra nếu, còn vấn đề phát sinh chính là những sự việc đang trực tiếp gây đau đầu và ảnh hưởng tức thì đến dự án của bạn ngay trong hiện tại.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-3.txt": [
+    {
+      "lang": "vi",
+      "text": "Rõ ràng là cả rủi ro lẫn các vấn đề phát sinh đều có thể đe dọa nghiêm trọng đến sự thành bại của dự án. Cách mà bạn kiểm soát, điều phối và xử lý những rủi ro đó được gọi là quản trị rủi ro, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Management.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Quản trị rủi ro là một quy trình mang tính hệ thống nhằm nhận diện và đánh giá các rủi ro cùng vấn đề tiềm ẩn có thể tác động đến dự án. Đây tuyệt đối không phải là một bài tập làm một lần rồi bỏ xó, trái lại, đó là một hoạt động liên tục mà bạn phải duy trì đều đặn suốt vòng đời dự án để chủ động ứng phó với các rủi ro tiềm tàng. Quản trị rủi ro là một phần xương sống của giai đoạn lập kế hoạch, bởi nó mang lại cho bạn một tầm nhìn thấu suốt về những gì có nguy cơ đi chệch hướng trong dự án của mình. Quy trình này cũng chỉ rõ cho bạn biết mình cần phải tham vấn ý kiến của những ai khi rủi ro đó xuất hiện. Nó giúp bạn xác định phương thức tối ưu để giảm thiểu rủi ro tiềm tàng đó, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Mitigate.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bằng cách này, nếu hoặc khi có sự cố xảy ra, bạn đã nắm trong tay một kế hoạch tác chiến rõ ràng và sẵn sàng kích hoạt ngay lập tức. Việc chủ động đi trước một bước và lên phương án từ sớm chính là việc nhìn thấu các rủi ro tiềm ẩn và tìm ra giải pháp tháo gỡ từ trước. Nhờ đó, bạn sẽ mang lại cho dự án của mình cơ hội chiến thắng và thành công cao hơn rất nhiều. Nếu bạn lơ là, không thực hiện quản trị rủi ro một cách thực chất, dự án của bạn sẽ phải đối mặt với những hậu quả vô cùng nặng nề. Thứ nhất, nếu bạn không tính toán trước, bạn có thể đẩy dự án vào hiểm cảnh không đạt được mục tiêu đề ra, bị vỡ tiến độ, hoặc không đáp ứng được các tiêu chí thành công đã cam kết. Lấy ví dụ, nếu mục tiêu của bạn là xuất bản một báo cáo nghiên cứu thị trường chuyên sâu, nhưng chuyên viên phân tích chủ chốt lại bất ngờ nộp đơn xin nghỉ việc ngay giữa chừng dự án, bạn gần như chắc chắn sẽ bị trễ hạn chót nếu không có sẵn một phương án nhân sự dự phòng thay thế ngay lập tức. Thêm vào đó, khi bạn thất bại trong việc lường trước các rủi ro, bạn cũng đồng thời, tước đi cơ hội tư duy về những con đường chuyển hướng linh hoạt khác để dự án vẫn có thể cán đích mục tiêu ban đầu. Ngay cả khi một sự cố nghiêm trọng nổ ra, thường không chỉ có duy nhất một con đường cứng nhắc để đạt được mục tiêu dự án, và thành công có thể đến dưới nhiều hình thái khác nhau. Quản trị rủi ro giúp bạn thấu hiểu kế hoạch của mình đang linh hoạt hay cứng nhắc đến mức độ nào, từ đó đưa ra những điều chỉnh kịp thời và cần thiết. Ví dụ, nếu dự án của bạn đòi hỏi một lượng hàng hóa rất lớn được vận chuyển đến, việc bạn chuẩn bị sẵn một nhà cung cấp dự phòng đáng tin cậy đồng nghĩa với việc bạn có thể nhanh chóng chuyển hướng nguồn hàng nếu nhà cung cấp chính bất ngờ gặp sự cố không thể đáp ứng đơn hàng.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-4.txt": [
+    {
+      "lang": "vi",
+      "text": "Cuối cùng, các rủi ro có thể tác động đến dự án theo vô vàn cách thức khó lường mà bạn khó lòng tiên đoán hết được. Chẳng hạn, một nhà cung ứng mà bạn đã ký hợp đồng có thể không còn đủ lượng hàng tồn kho để đáp ứng nhu cầu thu mua đột xuất của bạn, hoặc ngân sách dự án có thể bị cắt giảm bất ngờ từ ban lãnh đạo cấp cao. Quy trình quản trị rủi ro giúp giảm thiểu tối đa sức tàn phá của những biến cố bất ngờ đó, giải phóng nguồn lực quý giá để đội ngũ có thể tập trung toàn lực vào những hoạt động mang lại giá trị thiết thực nhất cho dự án. Hãy thử hình dung công tác quản trị rủi ro trong bối cảnh dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại công ty",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "một dịch vụ mới chuyên cung cấp các chậu cây cảnh để bàn nhỏ nhắn, dễ chăm sóc cho khách hàng văn phòng. Một rủi ro dự án tiềm ẩn rõ ràng là khả năng trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "giới thiệu dịch vụ mới này không kịp hoàn thiện và phát hành đúng ngày khai trương. Một rủi ro tiềm ẩn khác có thể là sự thiếu hụt chuỗi cung ứng cây trồng. Bạn sẽ xoay xở ra sao nếu nhà cung ứng cây bất ngờ cạn kiệt nguồn xương rồng và dương xỉ mà bạn đang rất cần? Để chuẩn bị sẵn sàng cho những rủi ro tiềm tàng này, bạn sẽ cần phải động não suy nghĩ về các biện pháp làm dịu nhẹ, giải quyết các khúc mắc này trước khi chúng kịp xảy ra ngoài đời thực, hoặc bạn sẽ xử lý tình huống ra sao nếu chúng thực sự biến thành vấn đề phát sinh. Hy vọng rằng những điều phiền toái đó sẽ không xảy ra, nhưng nếu chúng thực sự ập đến, bạn đã hoàn toàn trong tư thế chủ động ứng phó. Tôi cũng muốn đặc biệt nhấn mạnh rằng, chắc chắn sẽ có những vấn đề nảy sinh trong suốt dự án mà bạn không hề hoặc không thể lường trước được, và điều đó là hoàn toàn bình thường trong thực tế. Khi những thời khắc khó khăn đó xuất hiện, điều cốt yếu là bạn phải giữ được sự bình tĩnh, truy tìm chính xác nguyên nhân gốc rễ của vấn đề, và cùng đội ngũ đưa ra giải pháp khắc phục triệt để. Quản trị rủi ro là một chủ đề có ý nghĩa nền tảng mà mọi",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đều phải thấu suốt. Việc chủ động nhận diện rủi ro và các vấn đề phát sinh sẽ trang bị cho bạn năng lực làm chủ những điều chưa biết. Nó cũng mang lại tác động vô cùng tích cực cho chính bản thân bạn với tư cách là người điều phối dự án, bởi vì, bạn sẽ luôn cảm thấy tự tin hơn, bớt căng thẳng hơn, và vững vàng hơn trong mọi quyết sách nếu sự cố thực sự xảy ra. Trong phần tiếp theo, chúng ta sẽ cùng nhau khám phá những phương thức cụ thể để nhận diện các loại rủi ro. Hẹn gặp lại bạn ở bài học tới.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-5.txt": [
+    {
+      "lang": "vi",
+      "text": "CÁC LOẠI RỦI RO THƯỜNG GẶP , Chào bạn, chúng ta lại gặp nhau. Bây giờ, chúng ta hãy cùng thảo luận về một số loại rủi ro phổ biến mà bạn rất có thể sẽ phải lập kế hoạch ứng phó trong quá trình quản lý một dự án thực tế. Mặc dù có vô vàn dạng rủi ro khác nhau có thể tác động đến dự án của bạn, nhưng những nhóm rủi ro lớn nhất và quan trọng nhất mà bạn luôn phải đề cao cảnh giác bao gồm, rủi ro về thời gian,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Time Risks,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "rủi ro về ngân sách,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Budget Risks,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và rủi ro về phạm vi,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Scope Risks.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hãy cùng phân tích chi tiết từng loại một. Đầu tiên là rủi ro về thời gian, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Time Risks.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Rủi ro thời gian đề cập đến khả năng các nhiệm vụ trong dự án sẽ tốn nhiều thời gian hoàn thành hơn so với dự tính ban đầu. Bạn cần phải luôn theo dõi sát sao rủi ro thời gian bởi vì, trong kinh doanh, thời gian chính là tiền bạc. Việc quản lý thời gian yếu kém có thể làm cạn kiệt ngân sách dự án và làm phật lòng các bên liên quan, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Stakeholders,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "do sự chậm trễ dây chuyền. Tiếp theo là rủi ro về ngân sách, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Budget Risks.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Rủi ro ngân sách nói về khả năng chi phí thực tế của dự án sẽ tăng vọt do khâu lập kế hoạch sơ sài hoặc do sự mở rộng phạm vi công việc một cách thiếu kiểm soát. Bạn phải đặc biệt lưu tâm đến rủi ro ngân sách vì ngân sách chính là thước đo nền tảng để kiểm soát chi phí của toàn bộ dự án. Lấy ví dụ, nếu bạn bội chi, bạn có thể không còn tiền để chi trả cho các nhà cung cấp. Điều này có thể kéo theo những tổn hại nghiêm trọng về mặt uy tín và danh tiếng cho doanh nghiệp của bạn. Kế tiếp, chúng ta có rủi ro về phạm vi, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scope Risks.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Rủi ro phạm vi đề cập đến khả năng dự án sẽ không tạo ra được những kết quả đầu ra đúng như đã vạch ra trong mục tiêu ban đầu. Bạn cần phải nhận thức sâu sắc về rủi ro phạm vi, bởi vì, nếu các sản phẩm bàn giao, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Deliverables,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "của dự án không được các bên liên quan hoặc khách hàng chấp thuận, thì toàn bộ mục đích tồn tại của cả dự án xem như đổ sông đổ biển. Bên cạnh ba nhóm rủi ro nội tại kinh điển là thời gian, ngân sách và phạm vi, còn có những loại rủi ro ngoại cảnh khác mà bạn bắt buộc phải nhận biết, gọi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "External Risks.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Khi nói đến rủi ro ngoại cảnh, chúng ta đang đề cập đến những rủi ro xuất phát từ các yếu tố bên ngoài doanh nghiệp mà bạn gần như có rất ít hoặc hoàn toàn không có quyền kiểm soát. Chẳng hạn, dự án của bạn có thể bị ảnh hưởng bởi một rủi ro môi trường thiên tai,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Environmental Risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "như một trận bão lớn quét qua, hoặc một rủi ro pháp lý,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Legal Risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "như một sự thay đổi đột ngột trong các quy định và luật định của chính quyền.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-6.txt": [
+    {
+      "lang": "vi",
+      "text": "Và một điều quan trọng nữa bạn cần biết là các loại rủi ro trong thực tế là vô cùng phong phú và bất tận. Sẽ không bao giờ có một đơn thuốc vạn năng duy nhất chỉ bảo cho bạn cách nhận diện và giải quyết tất cả mọi rủi ro có thể xảy ra trên đời. Nhưng nếu bạn có trong tay một kế hoạch ứng phó chu đáo, bạn sẽ luôn ở vào vị thế vững vàng nhất để đón nhận và xử lý bất kỳ biến cố nào ập tới. Bây giờ, chúng ta hãy cùng phân tích một dạng rủi ro đặc thù vô cùng nguy hiểm được gọi là điểm lỗi đơn lẻ, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Single Point of Failure.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một điểm lỗi đơn lẻ là một rủi ro mang tính chí mạng, có tiềm năng gây ra thảm họa và làm đình trệ toàn bộ guồng máy công việc trên khắp dự án. Đây là những rủi ro có sức mạnh làm tê liệt cả đội ngũ ngay tức khắc, đồng nghĩa với việc không một ai có thể tiếp tục tiến hành phần việc của mình cho đến khi nút thắt đó được giải quyết triệt để. Chẳng hạn, trong tình huống dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại công ty",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của chúng ta, một điểm lỗi đơn lẻ có thể là sự cố mất điện toàn diện làm sập luôn máy chủ cơ sở dữ liệu nội bộ, nơi lưu trữ từng mẩu thông tin và tài liệu của cả dự án. Cho đến khi cơ sở dữ liệu đó được phục hồi và vận hành trở lại, toàn bộ đội ngũ của bạn sẽ hoàn toàn bị mù thông tin và không thể truy cập bất kỳ dữ liệu nào cần thiết để thực hiện công việc hằng ngày của họ. Kết quả là, cả nhóm sẽ rơi vào tình trạng đóng băng, không thể hoàn thành bất kỳ nhiệm vụ nào được giao. Để làm dịu nhẹ rủi ro thảm khốc này, bạn có thể dự trù ngân sách cho một dịch vụ lưu trữ đám mây độc lập đóng vai trò sao lưu dự phòng cho toàn bộ hồ sơ, tài liệu và dữ liệu dự án. Với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bạn bắt buộc phải sớm nhận diện và giám sát chặt chẽ các điểm lỗi đơn lẻ tiềm tàng trong dự án của mình, bởi chúng có sức tàn phá khủng khiếp đối với tiến độ, ngân sách và phạm vi của dự án. Một nguồn rủi ro lớn khác mà bạn phải luôn để mắt tới chính là các mối phụ thuộc công việc, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Dependencies.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một mối phụ thuộc là mối quan hệ ràng buộc giữa hai nhiệm vụ trong dự án, trong đó việc bắt đầu hoặc kết thúc của nhiệm vụ này phụ thuộc hoàn toàn vào việc bắt đầu hoặc hoàn thành của nhiệm vụ kia. Nói cách khác, các mối phụ thuộc chính là những mắt xích vô hình liên kết chặt chẽ nhiệm vụ này với nhiệm vụ khác. Một mối phụ thuộc bắt buộc phải được giải quyết xong xuôi trước khi một nhiệm vụ có thể hoàn tất, hoặc trước khi một nhiệm vụ kế tiếp được phép bắt đầu.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-7.txt": [
+    {
+      "lang": "vi",
+      "text": "Chính vì các mối phụ thuộc đóng vai trò là những mắt xích liên kết công việc, chúng thường là một ổ rủi ro tiềm ẩn khổng lồ cho dự án. Hãy tưởng tượng bạn giao cho một đồng nghiệp nhiệm vụ tìm kiếm và ký hợp đồng với một nhà cung cấp cây xanh địa phương. Chừng nào người đồng nghiệp đó chưa ký xong hợp đồng với nhà cung cấp, đội ngũ của bạn tuyệt đối không thể tiến hành đặt mua bất kỳ chậu cây nào. Đó chính là một mối phụ thuộc. Và đây là lúc rủi ro bắt đầu xuất hiện. Nếu người đồng nghiệp đó không kịp hoàn thành việc ký hợp đồng đúng thời hạn cam kết, rồi sau đó lại xin nghỉ phép đi du lịch cả tuần lễ, điều này có thể làm chậm trễ toàn bộ mốc thời gian của dự án. Tình huống này quả thực chẳng dễ chịu chút nào, đúng không? Nếu bạn không chủ động lập kế hoạch quản lý các mối phụ thuộc, bạn sẽ tự đẩy dự án vào nguy cơ bội chi ngân sách, vỡ tiến độ hoặc làm méo mó kết quả đầu ra. Để ngăn chặn những sự cố tương tự xảy ra, bạn có thể chủ động đề nghị các thành viên trong nhóm chia sẻ kế hoạch nghỉ phép hoặc lịch công tác vắng mặt của họ với bạn ngay từ khi khởi động dự án. Việc này giúp bạn luôn nắm chắc lịch trình làm việc của từng người, đảm bảo luôn có sẵn các phương án nhân sự dự phòng để giữ vững tiến độ chung. Trong thực tế, có hai loại mối phụ thuộc chính, mối phụ thuộc nội bộ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Internal Dependencies,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và mối phụ thuộc bên ngoài,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "External Dependencies.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Mối phụ thuộc nội bộ đề cập đến những mối quan hệ công việc bên trong phạm vi dự án mà bạn và đội ngũ có toàn quyền kiểm soát và điều phối. Ví dụ, bạn cần phải có được sự phê duyệt chính thức cho bản thiết kế giao diện",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "website",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "trước khi đội ngũ lập trình viên có thể bắt tay vào viết mã. Ngược lại, mối phụ thuộc bên ngoài là những ràng buộc nằm ngoài tầm kiểm soát của bạn và đội ngũ. Lấy ví dụ, trang trại nơi nhà cung cấp cây giống của bạn hợp tác có thể phải hứng chịu một mùa mưa ít bất thường trong năm nay, đồng nghĩa với việc sản lượng cây giống của họ sẽ bị sụt giảm nghiêm trọng và họ có ít cây để giao cho bạn hơn. Có vô vàn loại rủi ro đa dạng có thể tác động đến dự án của bạn, từ rủi ro thời gian, rủi ro ngân sách, cho đến rủi ro phạm vi. Nhưng bạn hãy ghi nhớ điều này, không có bất kỳ dự án nào là hoàn toàn sạch bóng rủi ro. Và với một sự chuẩn bị kỹ lưỡng, một kế hoạch cẩn trọng ngay từ đầu, bạn hoàn toàn có thể làm hết sức mình để ngăn chặn các rủi ro đó biến thành thảm họa. Trong bài học tiếp theo, chúng ta sẽ thảo luận về cách làm dịu nhẹ rủi ro. Hẹn gặp lại bạn ở đó.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-8.txt": [
+    {
+      "lang": "vi",
+      "text": "CÁC CÔNG CỤ HỖ TRỢ NHẬN DIỆN RỦI RO , Xin chào và chào mừng bạn quay trở lại. Đến lúc này, hy vọng bạn đã bắt đầu cảm nhận sâu sắc tầm quan trọng của việc lập kế hoạch ứng phó với rủi ro. Ngay cả những dự án trông có vẻ đơn giản nhất cũng đều tiềm ẩn những rủi ro nhất định. Hãy nhớ rằng, những rủi ro đó không bao giờ là lý do để khiến bạn chùn bước hay từ bỏ việc theo đuổi các mục tiêu của dự án. Điều cốt lõi là bạn phải luôn trong tâm thế sẵn sàng. Bây giờ, chúng ta hãy cùng khám phá các công cụ và kỹ thuật đắc lực mà bạn có thể áp dụng để nhận diện rủi ro một cách bài bản, bao gồm kỹ thuật động não tập thể, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Brainstorming,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và quy trình đánh giá rủi ro, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Assessment.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Động não là một trong những phương pháp hiệu quả nhất để phát hiện rủi ro cùng toàn đội ngũ, bởi nó tạo ra một không gian cởi mở cho mọi người tự do chia sẻ những ý tưởng bất chợt mà không sợ bị phán xét hay chỉ trích. Với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bạn sẽ chịu trách nhiệm triệu tập một nhóm nhân sự cùng nhau ngồi lại để mường tượng ra những rủi ro tiềm ẩn. Lúc này, bạn hãy chuẩn bị sẵn biểu đồ ma trận",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-A-C-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của mình để tham khảo xem những ai là người phù hợp nhất cần được mời tham dự buổi họp này. Đúc kết từ kinh nghiệm thực chiến của bản thân, tôi nhận thấy một đội ngũ lý tưởng nhất cho nhiệm vụ này là một nhóm đa dạng, bao gồm các cá nhân đến từ nhiều vai trò, nền tảng chuyên môn và mức độ trải nghiệm khác nhau. Một đội ngũ đa dạng sẽ mang lại những góc nhìn, kinh nghiệm và bộ kỹ năng phong phú, và chính điều này sẽ giúp bạn nhìn ra những rủi ro mà tự bản thân bạn nếu ngồi một mình sẽ không bao giờ nghĩ tới. Chẳng hạn, một thành viên kỳ cựu trong nhóm có thể đã từng trải qua nhiều dự án lớn và thấu hiểu các cạm bẫy cũ, trong khi một thành viên mới toanh lại có thể mang đến một góc nhìn tươi mới, sắc sảo từ những trải nghiệm trước đây của họ ở các phòng ban khác. Một công cụ tuyệt vời mà bạn có thể vận dụng đắc lực trong suốt buổi động não chính là biểu đồ nguyên nhân và kết quả,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Cause-and-Effect Diagram,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đôi khi còn được gọi thân thuộc là biểu đồ xương cá,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Fishbone Diagram.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Biểu đồ nguyên nhân và kết quả giúp trực quan hóa những căn nguyên có thể dẫn đến một biến cố hay rủi ro cụ thể, và chúng cực kỳ hữu ích trong công tác quản trị rủi ro. Chẳng hạn, trên sơ đồ xương cá minh họa ở đây, kết quả được liệt kê ở phần đầu cá là sự cố nhà cung cấp giao hàng trễ hạn chót. Đây rõ ràng là một rủi ro lớn đối với dự án của bạn. Phía bên trái, dọc theo các nhánh xương cá, bạn và đội ngũ sẽ cùng nhau động não tìm ra các nhóm nguyên nhân tiềm ẩn có thể dẫn tới kết quả tiêu cực đó, chẳng hạn, như việc phân chia công việc yếu kém hoặc sự thiếu hụt các công cụ theo dõi tiến độ.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-9.txt": [
+    {
+      "lang": "vi",
+      "text": "Nói cách khác, biểu đồ nguyên nhân và kết quả giúp nhận diện toàn bộ các con đường có thể khiến mọi việc đi chệch hướng, bằng cách xác định một rủi ro tiềm tàng đóng vai trò là kết quả, sau đó lần ngược lại phía sau để mổ xẻ tất cả các nguyên nhân có thể kích hoạt rủi ro đó. Bằng cách phân loại và tiếp tục bẻ nhỏ chúng thành các nguyên nhân sâu xa hơn, bạn có thể dễ dàng khoanh vùng những điểm nóng có nguy cơ dẫn tới sự cố, chẳng hạn, như việc chi tiêu vượt ngân sách hoặc để hiện tượng phình phạm vi,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Scope Creep,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tàn phá tiến độ dự án. Xin được nhắc lại một chút, hiện tượng phình phạm vi,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Scope Creep,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đề cập đến những thay đổi, sự phát sinh thêm và những yếu tố ngoài tầm kiểm soát làm phình to phạm vi ban đầu của dự án tại bất kỳ thời điểm nào sau khi dự án đã chính thức bấm nút khởi động. Trong suốt những buổi thảo luận động não này, bạn có thể sẽ nhận thấy danh sách các rủi ro tiềm ẩn được liệt kê ra là khá dài, và điều đó hoàn toàn bình thường. Thực tế phũ phàng là bạn và đội ngũ không thể nào cáng đáng hay giải quyết hết sạch sành sanh mọi vấn đề li ti có thể xuất hiện trong suốt dự án. Vậy làm thế nào để bạn quyết định xem mình nên dồn tâm sức vào những rủi ro nào? Trước hết, bạn hãy tập hợp toàn bộ các kết quả thu được từ buổi động não vào một cuốn sổ đăng ký rủi ro, gọi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Register.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Sổ đăng ký rủi ro là một bảng biểu hoặc biểu đồ chứa danh mục các rủi ro đã được nhận diện. Tiếp theo, bạn sẽ áp dụng một kỹ thuật đánh giá rủi ro chuyên nghiệp, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Assessment.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đánh giá rủi ro là giai đoạn trong quy trình quản trị rủi ro, nơi các đặc tính của từng rủi ro được ước lượng và đo lường một cách định lượng hoặc định tính. Khi nói đến đặc tính của rủi ro, chúng ta chủ yếu đề cập đến hai yếu tố cốt tử, khả năng rủi ro đó xảy ra trong thực tế, tức xác suất, và mức độ tác động tiềm tàng của nó đối với sự thành bại của dự án. Chúng ta sẽ quay trở lại mổ xẻ điểm này ngay sau đây. Có một vài cách thức khác nhau để đánh giá rủi ro, nhưng một phương pháp kinh điển mà chúng ta sẽ tập trung đào sâu chính là xây dựng một ma trận xác suất và tác động, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Probability and Impact Matrix.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Cá nhân tôi vô cùng yêu thích kỹ thuật này và luôn áp dụng nó liên tục trong công việc thực tế của mình tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Như tôi đã đề cập ban nãy, bạn cần phải đánh giá khả năng rủi ro sẽ xảy ra và mức độ ảnh hưởng của nó. Ma trận này sẽ giúp bạn thực hiện chính xác điều đó.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-10.txt": [
+    {
+      "lang": "vi",
+      "text": "Để xây dựng một ma trận xác suất và tác động, trước hết bạn cần phải xem xét đến mức độ tác động,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Impact.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tác động đề cập đến mức độ thiệt hại hay tổn thất mà một rủi ro có thể gây ra cho dự án nếu nó thực sự xảy ra. Mức độ tác động thường được lượng hóa trên một thang đo gồm ba mức, Cao, Trung bình và Thấp. Mức độ Cao đồng nghĩa với việc nếu rủi ro này xảy ra, nó sẽ làm thay đổi căn bản, làm đảo lộn hoặc tàn phá dự án. Mức độ Thấp có nghĩa là nếu rủi ro xảy ra, nó chỉ gây ra một ảnh hưởng nhỏ không đáng kể và gần như không có khả năng làm trật bánh dự án. Song song với đó, bạn cũng cần phải tính đến xác suất xảy ra,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Probability.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Xác suất là khả năng hay mức độ khả thi mà một rủi ro sẽ xuất hiện trên thực tế. Chúng ta cũng đo lường xác suất theo thang ba bậc, Cao, Trung bình và Thấp. Trong trường hợp này, xác suất Cao có nghĩa là khả năng sự cố này xảy ra là rất lớn. Ngược lại, xác suất Thấp có nghĩa là bạn nhận diện được đây là một rủi ro có thể xảy ra về mặt lý thuyết, nhưng khả năng nó thực sự xuất hiện ngoài đời là rất mong manh. Khi hai yếu tố này kết hợp lại với nhau trên ma trận, chúng sẽ quyết định mức xếp hạng rủi ro vốn có, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Inherent Risk Rating.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Rủi ro vốn có,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Inherent Risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là thước đo mức độ nghiêm trọng của một rủi ro được tính toán dựa trên sự kết hợp giữa xác suất và mức độ tác động của nó. Việc đo lường rủi ro vốn có mang lại cho chúng ta một phương pháp luận chuẩn xác để thấu hiểu và phân loại rủi ro. Mức xếp hạng rủi ro vốn có cũng được chia thành ba cấp độ, Cao, Trung bình và Thấp. Về cơ bản, nếu một rủi ro có tác động Thấp và xác suất xảy ra cũng Thấp, nó sẽ nhận mức xếp hạng rủi ro vốn có Thấp. Đây chính là những dạng rủi ro nhỏ mà bạn không cần phải quá bận tâm hay tốn quá nhiều nguồn lực để lo lắng. Tuy nhiên, nếu một rủi ro có mức độ tác động Cao và xác suất xảy ra cũng ở mức Cao, thì nó sẽ mang một mức xếp hạng rủi ro vốn có rất Cao. Những rủi ro từ mức Trung bình đến Cao chính là nhóm rủi ro nguy hiểm mà bạn bắt buộc phải dồn trọng tâm chú ý và phải xây dựng các kế hoạch giảm thiểu rủi ro chi tiết, bài bản để kiểm soát chúng. Khi bạn xây dựng một ma trận xác suất và tác động, điều tối quan trọng là phải đảm bảo ma trận này tuân thủ các nguyên tắc thiết kế dễ tiếp cận,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Accessibility Guidelines,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "có cấu trúc thông tin và định dạng trực quan mà bất kỳ ai trong dự án cũng có thể đọc hiểu một cách nhanh chóng và dễ dàng. Một cách hữu hiệu để làm điều này là kết hợp cả màu sắc lẫn các hình khối hoặc nhãn chữ rõ ràng để truyền tải các cấp độ rủi ro khác nhau. Bạn có thể tìm hiểu thêm về các quy chuẩn truyền thông dễ tiếp cận này trong tài nguyên của khóa học.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-11.txt": [
+    {
+      "lang": "vi",
+      "text": "Cách thức bạn nhìn nhận và xử lý từng rủi ro cụ thể cũng sẽ phụ thuộc rất lớn vào khẩu vị rủi ro của tổ chức, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Appetite.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Khẩu vị rủi ro đề cập đến mức độ sẵn sàng của một doanh nghiệp hay tổ chức trong việc chấp nhận những hệ quả tiềm tàng mà một rủi ro có thể mang lại. Bản thân bạn, đội ngũ của bạn và các bên liên quan có thể có những mức độ chấp nhận rủi ro hoàn toàn khác nhau đối với từng tình huống. Chúng ta sẽ bàn sâu hơn về việc khẩu vị rủi ro tác động như thế nào đến chiến lược làm dịu rủi ro ở ngay phần sau. Rõ ràng, một số rủi ro cấp độ thấp chỉ dẫn đến những sự chậm trễ nhỏ nhặt sẽ dễ được chấp nhận hơn rất nhiều so với những rủi ro cấp độ cao có khả năng đánh sập hoàn toàn dự án. Một khi bạn đã hoàn tất quy trình đánh giá rủi ro, bạn sẽ quay lại cập nhật sổ đăng ký rủi ro của mình để gắn các mức xếp hạng Cao, Trung bình và Thấp cho từng rủi ro cụ thể mà bạn đã xác định cho dự án. Rất tuyệt vời. Bây giờ, khi chúng ta đã nắm vững cách nhận diện và đánh giá rủi ro, chúng ta sẽ chuyển sang bài học tiếp theo để cùng tìm hiểu sâu hơn về những tình huống rủi ro thực tế mà bạn sẽ thường xuyên chạm trán trong sự nghiệp quản lý dự án của mình. Hẹn gặp lại bạn ở đó. NHẬN DIỆN RỦI RO DỰ ÁN TIỀM NĂNG BẰNG TRÍ TUỆ NHÂN TẠO TẠO SINH , Chắc chắn bạn sẽ không ngạc nhiên khi biết rằng bất kỳ dự án nào trên đời cũng đều tiềm ẩn những rủi ro, tức những sự kiện có khả năng xảy ra và tác động trực tiếp đến kết quả chung cuộc của dự án. Một rủi ro có thể tạo ra tác động tích cực hoặc tiêu cực đối với một hoặc nhiều mục tiêu cốt lõi của dự án, chẳng hạn, như phạm vi, tiến độ, chi phí hoặc chất lượng. Trong bất kỳ dự án nào, bạn sẽ không bao giờ có thể xóa bỏ hoàn toàn một trăm phần trăm mọi rủi ro, nhưng với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bạn sẽ ở vào một vị thế thuận lợi và chủ động hơn rất nhiều nếu bạn nhìn rõ rủi ro nào đang rình rập và rủi ro nào cần được ưu tiên xử lý trước để sớm vạch ra phương án giảm thiểu thích đáng. Bản điều lệ dự án ban đầu của bạn, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Charter,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "có thể chỉ liệt kê được một vài rủi ro sơ khai nhất. Một công cụ trí tuệ nhân tạo tạo sinh, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Generative A-I, hay Gen A-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "như ứng dụng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gemini",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "hoàn toàn có thể giúp bạn tạo ra một danh mục rủi ro tiềm ẩn chi tiết và toàn diện hơn rất nhiều, giúp bạn có được sự chuẩn bị chu đáo nhất của một người làm quản lý.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-12.txt": [
+    {
+      "lang": "vi",
+      "text": "Đối với ví dụ, thực hành này, hãy tưởng tượng chúng ta đang đảm nhận việc xây dựng một ứng dụng chăm sóc sức khỏe toàn diện dành cho thú cưng, cụ thể là loài chó, gọi là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Dog Wellness App.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Chúng ta sẽ thiết lập ngữ cảnh cho",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gemini",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "bằng cách nhập vào một kịch bản dự án kèm theo một vài thông tin chi tiết. Hãy thử nhập một câu lệnh nhắc, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Prompt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "có nội dung như sau, Tôi là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đang giám sát quá trình phát triển một ứng dụng chăm sóc sức khỏe cho chó. Công ty chúng tôi là một doanh nghiệp quy mô vừa, chuyên cung cấp các dịch vụ dắt chó đi dạo, huấn luyện thú cưng và bán các vật phẩm phụ kiện cho vật nuôi. Xin hãy xem xét các thông tin chi tiết về dự án sau đây và giúp tôi nhận diện những rủi ro lớn nhất có thể ảnh hưởng nghiêm trọng đến tiến độ thời gian hoặc ngân sách của dự án. Bây giờ, chúng ta hãy cung cấp thật nhiều bối cảnh cụ thể về dự án của mình. Chúng ta có thể sao chép và dán trực tiếp thông tin từ bản điều lệ dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Charter,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "vào cửa sổ trò chuyện. Bạn cũng nên lưu ý rằng một số công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cao cấp hơn, chẳng hạn, như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gemini Advanced,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cho phép bạn tải thẳng tệp tài liệu lên hệ thống. Điều này đồng nghĩa với việc bạn có thể tải nguyên cả tệp",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Charter",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "trực tiếp vào công cụ thay vì phải mất công sao chép và dán từng đoạn như tôi vừa thao tác. A ha! Hãy cùng quan sát kết quả đầu ra được tạo bởi",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gemini.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Thật là phấn khích khi nhận được một danh sách rủi ro tiềm ẩn phong phú và chi tiết đến thế này. Có những rủi ro rất sắc sảo mà tự bản thân tôi có lẽ cũng chưa nghĩ tới ngay lúc đầu. Tuy nhiên, cùng lúc đó, bạn cũng sẽ thấy một vài rủi ro được liệt kê còn khá chung chung và có thể chưa thực sự bám sát thực tế nếu như ban nãy chúng ta không cung cấp đủ chi tiết sâu sắc về dự án cho",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gemini.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nói một cách tổng quát, bạn càng cung cấp được nhiều thông tin và bối cảnh cụ thể trong câu lệnh nhắc",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Prompt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của mình, các công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "sẽ càng làm việc hiệu quả và cho ra kết quả sát thực tế hơn. Lấy ví dụ, chúng ta có thể thử bổ sung thêm vào câu lệnh những chi tiết về các rủi ro mà chúng ta từng vấp phải trong các dự án trước đây, hoặc những rủi ro mà đội ngũ đã bước đầu nhận diện được cho dự án này, rồi xem xem liệu",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gemini",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "có cải thiện và nâng cao chất lượng phản hồi hay không. Dưới đây là một vài lưu ý quan trọng bạn cần ghi nhớ khi sử dụng một công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "để hỗ trợ phát hiện các rủi ro tiềm ẩn. Thứ nhất, các công cụ trí tuệ nhân tạo tạo sinh cực kỳ xuất sắc trong việc hỗ trợ các phiên thảo luận động não,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Brainstorming.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một cách tuyệt vời để bạn tận dụng sức mạnh của nó là không chỉ yêu cầu nó gợi ý những việc giúp dự án vận hành mượt mà hơn, mà hãy chủ động hỏi nó xem những điều gì có nguy cơ đổ vỡ hoặc đi chệch hướng.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-13.txt": [
+    {
+      "lang": "vi",
+      "text": "Thứ hai, các công cụ Gen",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "A-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "có tốc độ tạo nội dung dạng văn bản cực kỳ nhanh chóng. Bạn hãy chủ động thử thách nó tạo ra chính xác những gì bạn muốn, và yêu cầu nó định dạng lại nội dung dưới nhiều hình thức trình bày khác nhau, cho đến khi bạn tìm ra được cách thể hiện tối ưu nhất cho bản thân và toàn đội ngũ. Tất nhiên, việc có được một danh sách rủi ro dài dằng dặc là rất hữu ích, nhưng danh sách đó có thể không phải lúc nào cũng chứa đựng những mục thực sự phù hợp với dự án hay nhu cầu cụ thể của đội ngũ bạn, và nó hoàn toàn có thể bỏ sót những mảng trọng yếu. Đây chính là lúc bạn cần phải rà soát danh sách một cách cẩn trọng và vận dụng óc phán đoán nghề nghiệp sắc bén của chính mình. Cuối cùng, khi dự án tiếp tục phát triển và bạn phát hiện thêm những rủi ro mới ngoài thực tế, bạn hoàn toàn có thể quay trở lại trò chuyện với",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gemini",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cùng các thông tin chi tiết này để cùng nhau động não lên phương án giảm thiểu rủi ro. Cũng giống hệt như con người, trí tuệ nhân tạo tạo sinh không thể tự mình ngăn chặn các rủi ro biến thành những vấn đề làm sụp đổ dự án, nhưng các công cụ như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gemini",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "có thể giúp bạn luôn đi trước một bước trước những hiểm họa tiềm tàng, và năng lực chủ động đón đầu đó chính là phẩm chất cốt tử để trở thành một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "xuất sắc. XÂY DỰNG KẾ HOẠCH QUẢN TRỊ RỦI RO , Bây giờ bạn đã thấu hiểu các lựa chọn để làm dịu nhẹ những rủi ro tiềm ẩn, chúng ta hãy cùng thảo luận về cách ghi chép, lập hồ sơ cho các quyết định quản lý rủi ro đó. Như bạn đã được học xuyên suốt chương trình này, việc lưu trữ hồ sơ tài liệu, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Documentation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là một phần trách nhiệm tối quan trọng trong vai trò của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Điều này lại càng đặc biệt đúng đắn khi bạn nhận diện các rủi ro và lập ra một kế hoạch hành động để kiểm soát chúng. Một kế hoạch quản trị rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Management Plan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là một tài liệu sống chứa đựng toàn bộ thông tin liên quan đến các rủi ro cấp cao cùng các phương án giảm thiểu chi tiết cho từng rủi ro đó. Kế hoạch này giúp đảm bảo rằng tất cả các thành viên trong đội ngũ cùng các bên liên quan đều có một sự thấu hiểu rõ ràng về những trục trặc tiềm ẩn và nắm chắc trong tay phương án xử lý nếu sự cố thực sự nảy sinh. Quản trị rủi ro là một hoạt động tác nghiệp liên tục mà bạn sẽ tham gia xuyên suốt từ giai đoạn lập kế hoạch cho tới khi kết thúc khâu thực thi dự án. Vì công tác quản lý rủi ro liên tục biến chuyển theo từng bước phát triển của dự án, bản kế hoạch này cần phải được cập nhật định kỳ để bổ sung những rủi ro mới được phát hiện, loại bỏ những rủi ro không còn liên quan, đồng thời, cập nhật bất kỳ thay đổi nào trong các giải pháp ứng phó.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-14.txt": [
+    {
+      "lang": "vi",
+      "text": "Hãy cùng xem xét một ví dụ, thực tế về một bản kế hoạch quản trị rủi ro tương tự như mẫu tài liệu mà chúng tôi đôi khi vẫn sử dụng tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Ở phần đầu của tài liệu, chúng tôi ghi rõ tên công ty, và ngay bên dưới là tên chính thức của dự án. Chúng tôi cũng nêu rõ tên tác giả biên soạn tài liệu để bất kỳ ai khi đọc bản kế hoạch cũng biết chính xác mình cần liên hệ với ai nếu có bất kỳ thắc mắc hay câu hỏi nào. Biểu mẫu này cũng dành riêng một vị trí để ghi nhận trạng thái hiện thời của tài liệu. Trong quá trình bạn đang xây dựng kế hoạch, bạn có thể để trạng thái là đang tiến hành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "In Progress.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Khi bản kế hoạch đã được hoàn thiện đầy đủ, bạn có thể chuyển trạng thái sang bản chính thức,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Final.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Chúng tôi cũng đưa vào những thông tin chi tiết vô cùng hữu ích như ngày tài liệu được tạo lập và thời điểm tài liệu được cập nhật lần gần đây nhất. Những chi tiết này thoạt nhìn có vẻ nhỏ nhặt, nhưng việc đưa chúng vào là một chuẩn mực thực hành tốt nhất trong nghề. Lý do là vì sự minh bạch về mặt thời gian sẽ mang lại cho các bên liên quan một cảm nhận rõ ràng về độ mới và độ tin cậy của tài liệu. Bên dưới những thông tin hành chính này là phần mục tiêu của tài liệu. Tại đây, chúng tôi ghi rõ rằng mục tiêu của bản kế hoạch là vạch ra các phương án giảm thiểu rủi ro cho dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tiếp theo đó, chúng tôi bổ sung một bản tóm tắt điều hành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Executive Summary,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "của dự án. Bản tóm tắt điều hành cần đưa ra một phần giới thiệu ngắn gọn về các điều kiện vận hành bình thường của dự án, đồng thời, phác thảo tổng quan về các rủi ro tiềm tàng có thể đe dọa đến dự án. Và bây giờ là đến phần cốt lõi quan trọng nhất, các rủi ro cụ thể và cách thức chúng ta sẽ kiểm soát chúng ra sao. Tài liệu này cũng tích hợp sẵn cuốn sổ đăng ký rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Register,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mà bạn đã được làm quen ở bài học trước, tức bảng biểu tổng hợp danh sách các rủi ro tiềm ẩn. Tại đây, chúng tôi đã vạch ra một trong những rủi ro lớn của dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đó là nguy cơ nhà cung cấp bị trễ hạn chót bàn giao hàng. Chúng tôi đã xếp rủi ro này ở mức xếp hạng rủi ro vốn có Trung bình. Hãy nhớ lại rằng, rủi ro vốn có chính là thước đo mức độ nghiêm trọng của rủi ro được tính toán dựa trên xác suất xảy ra và mức độ tác động của nó. Một kế hoạch giảm thiểu cụ thể cũng được đính kèm trực tiếp cho rủi ro này, đó là tổ chức các cuộc họp giao ban hằng ngày với nhà cung cấp để hỗ trợ họ luôn bám sát tiến độ công việc. Xuống đến phần phụ lục ở cuối tài liệu, bạn sẽ tìm thấy các biểu đồ xác suất và tác động cũng như ma trận xác suất và tác động mà chúng ta sử dụng để lượng hóa các rủi ro.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-15.txt": [
+    {
+      "lang": "vi",
+      "text": "Một khi bạn đã điền đầy đủ thông tin vào bản kế hoạch quản trị rủi ro, bạn sẽ chia sẻ tài liệu này với đội ngũ của mình và các bên liên quan để lắng nghe ý kiến đóng góp từ họ, đồng thời, đảm bảo rằng tất cả mọi người đều đồng thuận và thống nhất với những phương án mà bạn đã đề ra. Trong phần tiếp theo, chúng ta sẽ đào sâu hơn vào chủ đề giao tiếp và truyền thông về rủi ro với các bên liên quan. Hẹn gặp lại bạn ở bài học tới. CÁC CHIẾN LƯỢC GIẢM THIỂU RỦI RO , Xin chào và chào mừng bạn quay trở lại. Như vậy là bạn đã học được cách nhận diện các rủi ro của dự án và cách đánh giá chúng bằng ma trận xác suất và tác động. Giờ đây, khi bạn đã nắm rõ những rủi ro nào thực sự đòi hỏi sự quan tâm đặc biệt của mình, làm thế nào để bạn quyết định xem mình cần phải làm gì với chúng? Đây chính là lúc kế hoạch giảm thiểu rủi ro, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Mitigation Planning,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "phát huy vai trò tối thượng. Lập kế hoạch giảm thiểu rủi ro là việc tìm kiếm các phương thức thích hợp để loại bỏ hoàn toàn hoặc làm giảm thiểu tối đa sức tàn phá của các rủi ro tiềm tàng đối với dự án của bạn. Có bốn chiến lược kinh điển để bạn giảm thiểu rủi ro, bạn có thể né tránh rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Avoid,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chấp nhận rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Accept,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "giảm thiểu hoặc kiểm soát rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Reduce or Control,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và chuyển giao rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Transfer.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hãy cùng phân tích chi tiết từng lựa chọn này thông qua ví dụ, dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đôi khi, bạn hoàn toàn có thể né tránh rủi ro một cách triệt để, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Avoid.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Chẳng hạn, nếu bạn phát hiện ra một nhà thầu phụ cụ thể mà bạn từng cân nhắc hợp tác cho dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "lại có tiếng xấu về việc thường xuyên trễ hạn chót, bạn hoàn toàn có thể chọn cách né tránh rủi ro đó bằng cách quyết định thuê một nhà thầu khác uy tín hơn. Bạn cũng có thể lựa chọn chấp nhận rủi ro, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Accept,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đặc biệt là đối với những rủi ro mà bạn đánh giá là có xác suất xảy ra thấp và mức độ tác động cũng Thấp. Trong tình huống này, bạn chủ động chấp nhận khả năng rủi ro này có thể xảy ra ngoài đời thực. Bạn đồng thuận theo dõi nó trong suốt dự án, và rốt cuộc bạn hoàn toàn cảm thấy ổn thỏa nếu rủi ro đó thực sự xảy đến. Lấy ví dụ, có thể nhà cung cấp cây cảnh thông báo với bạn rằng một trong những kiểu dáng chậu cây mà bạn đặt hàng hiện đang tạm thời hết hàng trong kho. Nhà cung cấp đoan chắc rằng họ sẽ có đủ thời gian nhập thêm chậu về mà không làm chậm trễ tiến độ chung của dự án, nhưng nếu lô hàng bổ sung đó gặp trục trặc, việc giao hàng cho khách hàng của bạn có thể bị trễ tối đa hai ngày. Thay vì hủy bỏ toàn bộ để bắt đầu lại từ đầu với một nhà cung cấp mới toanh, bạn quyết định rằng việc chấp nhận rủi ro này là hợp lý hơn cả. Dù việc bị chậm trễ hai ngày chẳng phải là điều lý tưởng, nhưng bạn là người linh hoạt và bạn hiểu rằng việc chấp nhận rủi ro này sẽ giúp bạn và đội ngũ tránh được cơn đau đầu khi phải tìm kiếm và tích hợp một nhà cung cấp mới, việc có thể làm bạn mất toi tới hai tuần lễ.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-16.txt": [
+    {
+      "lang": "vi",
+      "text": "Một phương thức khác để đối phó với rủi ro là giảm thiểu hoặc kiểm soát nó, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Reduce or Control.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Về phần cá nhân tôi, tôi rất thích sử dụng cây quyết định, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Decision Tree,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "khi xây dựng các phương án giảm thiểu rủi ro. Cây quyết định là một lưu đồ trực quan giúp bạn hình dung được những tác động lan tỏa rộng lớn hơn của một quyết định lên toàn bộ phần còn lại của dự án. Chẳng hạn, bạn quyết định vẫn thuê nhà thầu phụ có tiếng hay trễ hạn ban nãy vì bạn biết rằng chất lượng tay nghề chuyên môn của họ là cực kỳ xuất sắc. Trong trường hợp này, bạn có thể vẽ một lưu đồ nhanh để trực quan hóa rủi ro và các lựa chọn tiềm năng để kiểm soát nó, chẳng hạn, như kiểm tra tiến độ với nhà thầu hằng ngày qua thư điện tử hoặc thông qua các cuộc họp giao ban trực tiếp. Cuối cùng, bạn có thể chọn giải pháp tổ chức các cuộc họp giao ban hằng ngày với nhóm làm việc của nhà thầu để đảm bảo họ luôn bám sát các đầu việc được giao. Cuối cùng, bạn có thể lựa chọn chuyển giao rủi ro, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Transfer.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Ví dụ, bạn nhận thấy rằng việc tự mình gieo trồng và chăm sóc cây cảnh ngay tại chỗ ở văn phòng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là quá mạo hiểm, do nguy cơ thời tiết khắc nghiệt hoặc sâu bọ phá hoại có thể làm hư hại sản phẩm. Thay vào đó, bạn đưa ra quyết định chuyển giao rủi ro này cho một bên hoặc nhiều bên thứ ba khác. Bằng cách thuê ngoài khâu ươm trồng cây cho các nhà vườn chuyên nghiệp tại địa phương, bạn nắm trong tay quyền năng đổi sang nhà vườn khác nếu có vấn đề về chất lượng cây trồng. Khi bạn chuyển giao rủi ro, bạn sẽ không phải gánh chịu nguy cơ bị mất mát thời gian, tài nguyên và tiền bạc của chính mình. Tóm lại, bốn chiến lược kinh điển để giảm thiểu rủi ro là, né tránh,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Avoid,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chấp nhận,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Accept,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "giảm thiểu hoặc kiểm soát,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Reduce or Control,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và chuyển giao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Transfer.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Việc vận dụng linh hoạt một trong bốn chiến lược này sẽ giúp bạn làm chủ các rủi ro trong dự án một cách vô cùng hiệu quả. Trong phần tiếp theo, chúng ta sẽ thảo luận về cách ghi nhận các rủi ro này vào kế hoạch quản trị rủi ro. TRUYỀN THÔNG VỀ RỦI RO VỚI CÁC BÊN LIÊN QUAN , Xin chào bạn. Như bạn đã được học trong các bài học vừa qua, việc nhận diện và đánh giá rủi ro là một phần tối quan trọng của quy trình lập kế hoạch dự án. Những hoạt động này giúp làm sáng tỏ những rủi ro trọng yếu nhất đối với bạn và toàn đội ngũ, đồng thời, đảm bảo rằng tất cả mọi người đều đồng lòng về những rủi ro nào cần phải tập trung lên phương án đối phó. Nhưng chỉ dừng lại ở việc bạn và đồng đội nhận thức được những rủi ro lớn nhất của dự án thôi là chưa đủ. Bạn còn bắt buộc phải truyền thông, giao tiếp về những rủi ro này tới các bên liên quan, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Stakeholders,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "của dự án, cho dù là thông qua tài liệu hồ sơ, thư điện tử, các cuộc họp trực tiếp hay bất kỳ hình thức giao tiếp nào khác mà bạn thấy phù hợp.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-17.txt": [
+    {
+      "lang": "vi",
+      "text": "Các bên liên quan của bạn cần phải được thông tin đầy đủ về các rủi ro mà dự án đang phải đối mặt, bởi vì, nếu bạn giấu nhẹm hoặc không nói cho họ biết về các rủi ro hệ trọng, họ sẽ không có đủ sự chuẩn bị để dang tay giúp đỡ bạn khi một vấn đề thực sự nổ ra. Chẳng hạn, họ có thể không kịp cấp thêm ngân sách nếu bạn bất ngờ cần đến, hoặc không thể bổ sung thêm nhân sự nếu tình hình trở nên cấp bách. Tệ hại hơn nữa, các bên liên quan có thể rơi vào thế hoàn toàn bị động và bất ngờ trước một sự cố. Những cú sốc tiêu cực ngoài ý muốn như vậy có thể làm xói mòn nghiêm trọng niềm tin mà họ dành cho bạn với tư cách là người thuyền trưởng dẫn dắt dự án. Họ chắc chắn sẽ chất vấn liệu bạn có từng lường trước khả năng rủi ro này sẽ xảy ra hay không, và họ sẽ tự hỏi vì sao bạn không chia sẻ thông tin cảnh báo này với họ sớm hơn. Đó chính là lý do vì sao việc giao tiếp sớm và thường xuyên với các bên liên quan về các rủi ro cấp độ Trung bình và Cao là điều tối quan trọng. Việc này giúp thiết lập kỳ vọng rõ ràng với các bên liên quan về những gì có thể đón đợi họ trong giai đoạn thực thi dự án, đồng thời, chứng minh cho họ thấy rằng bạn đã chủ động đi trước một bước để lên kế hoạch phòng ngừa và giảm thiểu những rủi ro đó nếu chúng thực sự nảy sinh. Nó cũng mang lại cho bạn cơ hội vàng để gợi ý những cách thức mà các bên liên quan có thể hỗ trợ bạn nếu rủi ro biến thành sự thật. Vậy bạn nên truyền thông về rủi ro tới các bên liên quan như thế nào trong suốt giai đoạn lập kế hoạch? Điều đó hoàn toàn phụ thuộc vào mức độ nghiêm trọng của rủi ro đã được xác định. Đối với các rủi ro cấp độ Thấp, một hình thức đơn giản như gửi thư điện tử định kỳ là đã đủ. Chẳng hạn, khi gửi bản cập nhật kế hoạch hằng tuần cho một bên liên quan, bạn có thể liệt kê một vài rủi ro cấp độ thấp có liên quan mật thiết đến mối quan tâm của họ, và giải thích ngắn gọn cách bạn sẽ xử lý các rủi ro đó nếu chúng xuất hiện. Đối với các rủi ro cấp độ Trung bình, bạn nên nâng cấp phương thức giao tiếp lên thành một thư điện tử trao đổi trực tiếp giữa cá nhân bạn và bên liên quan đó. Trong thư, bạn hãy phác thảo rủi ro với nhiều thông tin cụ thể hơn, kèm theo lời giải thích chi tiết về kế hoạch hành động của bạn để giảm thiểu rủi ro. Bạn cũng có thể chèn đường dẫn liên kết đến bản kế hoạch quản trị rủi ro để cung cấp cho họ thêm ngữ cảnh đầy đủ. Bạn thậm chí có thể gắn thêm từ khẩn cấp,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Urgent,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "trên dòng tiêu đề thư để nhấn mạnh tầm quan trọng của thông điệp.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-18.txt": [
+    {
+      "lang": "vi",
+      "text": "Bản chất nguy hiểm của các rủi ro cấp độ Cao đòi hỏi một phương thức giao tiếp trực diện, thấu đáo và sâu sát nhất. Khi bạn có cuộc họp trực tiếp với các bên liên quan để rà soát kế hoạch dự án, bạn nên đưa hẳn một mục riêng vào chương trình nghị sự để thuyết trình về các rủi ro nghiêm trọng cùng kế hoạch giảm thiểu tương ứng của mình. Bạn cũng có thể tận dụng thời gian quý báu này để lắng nghe phản hồi về kế hoạch quản trị rủi ro, và xin ý kiến đóng góp quý báu từ các bên liên quan về cách xử lý những rủi ro cấp cao này. Các bên liên quan của bạn có thể đã từng có kinh nghiệm thực chiến dày dạn trong việc đối phó với những rủi ro tương tự, và họ có thể hiến kế cho bạn những chiến lược thông minh mà trước đó bạn chưa từng nghĩ tới. Truyền thông về rủi ro là một phần công việc chiếm tỷ trọng rất lớn trong vai trò của tôi tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tôi liên tục phải viết thư điện tử và thuyết trình báo cáo về tình trạng tiến độ các dự án của mình, thường xuyên với mục tiêu cốt lõi là chia sẻ những rủi ro đã nhận diện cùng các phương án giảm thiểu rủi ro đã chuẩn bị. Khi thảo luận cởi mở về các kế hoạch này với các bên liên quan, chúng tôi thường cùng nhau phát hiện ra những rủi ro tiềm ẩn khác mà thậm chí bản thân tôi trước đó chưa hề mường tượng ra. Chẳng hạn, trong một cuộc họp gần đây, tôi đang thuyết trình về một sản phẩm tiềm năng mới cho một bên liên quan thuộc một phòng ban khác. Trong buổi họp, vị bên liên quan đó đã thẳng thắn nêu lên mối lo ngại rằng giải pháp của tôi có thể tạo ra những rủi ro về mặt thời gian và tài nguyên, gây tác động tiêu cực đến đội ngũ của họ. Cuộc trao đổi cởi mở này đã mang lại cho tôi những góc nhìn sâu sắc hơn về các rủi ro tiềm tàng của chính các đồng nghiệp, cũng như thấu hiểu sâu hơn nhu cầu của người dùng sản phẩm. Điều đó giúp tôi nhận ra rằng mình cần phải lập tức đề xuất với các nhà tài trợ dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Sponsors,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "để xin bổ sung thêm ngân sách và nguồn lực cần thiết. Việc chủ động thảo luận các kế hoạch của bạn với các bên liên quan luôn là một quyết định sáng suốt, bởi họ có thể sở hữu một lăng kính quan sát hoàn toàn khác biệt. Tóm lại, việc truyền thông về rủi ro tới các bên liên quan là vô cùng cần thiết để họ có thể sẵn sàng hỗ trợ bạn khi có biến cố xảy ra, và bạn hãy luôn nhớ điều chỉnh phong cách giao tiếp cho tương thích với mức độ nghiêm trọng của từng rủi ro. Trong phần tiếp theo, chúng ta sẽ cùng nhau tổng kết lại toàn bộ những nội dung đã học. Hẹn gặp lại bạn ở đó.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-19.txt": [
+    {
+      "lang": "vi",
+      "text": "QUẢN TRỊ RỦI RO TẠI",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "GOOGLE,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "CÂU CHUYỆN CỦA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "AJI",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Tên tôi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Aji,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và tôi là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Senior Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Quản lý chương trình, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "trải rộng trên rất nhiều ngành nghề và lĩnh vực ứng dụng khác nhau. Về bản chất cốt lõi nhất, công việc của chúng tôi là mang lại trật tự cho sự hỗn loạn. Tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cá nhân tôi phụ trách việc ra mắt các sản phẩm mới. Tôi cũng phát triển các quy trình và thủ tục vận hành mới cho các đội ngũ. Tôi làm việc xuyên suốt qua nhiều mảng chức năng khác nhau, đó có thể là khối kỹ thuật lập trình, khối thiết kế trải nghiệm người dùng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "U-X,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hay thậm chí là khối nhân sự",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "People Ops,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "để cùng chung tay đưa các sản phẩm ra thị trường. Đối với tôi, quản trị rủi ro đồng nghĩa với việc nhìn xa trông rộng về phía trước và nỗ lực đón đầu các vấn đề tiềm ẩn. Tôi thích ví von công việc này giống như việc bạn đang ở trên một con tàu lớn vượt đại dương, và bạn chính là người đứng ở mũi tàu chăm chú quan sát về phía chân trời xa xăm để đảm bảo con tàu không đâm phải bất kỳ tảng đá ngầm nào, đúng không nào? Phần lớn các dự án của chúng tôi, tôi muốn nói là hầu hết, ít nhất là theo kinh nghiệm thực tế của tôi, không bao giờ vận hành một cách cô lập trong một ốc đảo riêng rẽ. Luôn luôn có những mối phụ thuộc công việc chằng chịt, và luôn có các đội ngũ khác đang trông cậy vào năng lực thực thi của bạn. Vì vậy, việc giải trừ rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "De-risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nhìn xa về phía trước, kiểm soát chặt chẽ các rủi ro đó và giao tiếp mạch lạc với các bên liên quan phù hợp là điều tối quan trọng để đảm bảo bạn luôn giữ trọn các cam kết đã đưa ra. Tôi tin rằng bước đầu tiên luôn là nhận diện vấn đề, quy tụ đúng người đúng việc, để bạn có được một danh mục rủi ro toàn diện và chuẩn xác. Từ nền tảng đó, bạn sẽ cùng mọi người tìm cách quản lý và giải quyết các trục trặc đó. Và tôi xin nhắc lại, đây có thể và bắt buộc phải là một nỗ lực hợp tác tập thể vô cùng gắn kết, đúng không? Bởi vì, mỗi một người trong đội ngũ của bạn đều cần phải có cùng một mức độ gắn bó và tâm huyết như nhau để đảm bảo dự án được thực thi thắng lợi. Hiện tại tôi đang trực tiếp điều phối một dự án. Trong dự án này, sau khi chúng tôi đã xác định xong chiến lược tổng thể và định hình rõ trạng thái đích mà chúng tôi mong muốn đạt được dưới góc độ chiến lược sản phẩm, bước đi tiếp theo là tạo ra những bản thiết kế mô phỏng giao diện, cái mà chúng tôi gọi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "U-X mocks",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "U-X designs.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Về cơ bản, đó chính là những hình ảnh trực quan thể hiện trạng thái cuối cùng của sản phẩm sẽ trông như thế nào, trạng thái lý tưởng nhất của chúng tôi dưới dạng đồ họa thị giác. Với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nhiệm vụ của tôi là phải lùi lại một bước, quan sát toàn cảnh và tự hỏi, Liệu đâu là những bãi mìn tiềm ẩn? Điều gì có nguy cơ đổ vỡ ở đây?.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-20.txt": [
+    {
+      "lang": "vi",
+      "text": "Khi tôi bắt đầu xem xét kỹ lưỡng các bản thiết kế mô phỏng và nghiền ngẫm chúng, tôi nhận ra rằng trong tâm trí mình, thật khó để tôi có thể dung hòa và nói rằng, Được rồi, đây là những gì chúng ta đang làm hôm nay, và đây là những gì sẽ thay đổi trong tương lai. Mọi thứ không hề rõ ràng đối với tôi. Bản thân tôi ít thiên về thị giác mà thiên về một người thích các bảng tính số liệu, chi tiết hóa từng dữ kiện. Vì vậy, tôi tự nhủ, Nếu chính mình đang gặp khó khăn trong việc đối chiếu giữa bản thiết kế trực quan và thực tế triển khai hiện tại, thì biết đâu những người khác cũng đang gặp phải khúc mắc y hệt như vậy. Và nếu những người khác cũng bối rối, thì rất có thể các kỹ sư lập trình của chúng tôi cũng đang rơi vào tình cảnh hoang mang tương tự. Quả đúng như dự đoán, khi tôi triệu tập một cuộc họp chung, chỉ trong vòng vỏn vẹn năm phút đầu tiên, chúng tôi đã bắt đầu nhận ra sự khác biệt rất lớn trong cách hiểu của từng bên về những gì chúng tôi phải làm. Hóa ra hai đội ngũ đã và đang triển khai công việc theo hai hướng hoàn toàn trệch nhau trên cùng một con đường. Nếu không sớm phát hiện ra, chúng tôi sẽ không bao giờ biết được điều đó cho tới tận phút chót của dự án, và khi ấy thì mọi chuyện đã quá muộn màng. Tôi thực sự đam mê công việc quản lý chương trình. Tôi yêu cảm giác được dấn thân vào một vấn đề hóc búa, được giao phó một bài toán còn đầy mơ hồ và chưa hề được suy tính thấu đáo, nơi đang tồn tại một điểm nghẽn nhức nhối khổng lồ, để rồi chính tay mình cùng đội ngũ tìm ra giải pháp tháo gỡ triệt để cho vấn đề đó. TỔNG KẾT, QUẢN TRỊ RỦI RO HIỆU QUẢ.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-21.txt": [
+    {
+      "lang": "vi",
+      "text": "Làm việc rất xuất sắc. Hãy cùng nhau điểm lại những nội dung then chốt mà chúng ta đã cùng thảo luận cho đến thời điểm này. Bạn đã được học về rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức những biến cố tiềm tàng có khả năng xảy ra và tác động trực tiếp đến dự án của bạn. Bạn cũng đã phân biệt rõ ràng sự khác nhau giữa rủi ro và các vấn đề phát sinh,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Issue,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức những rắc rối thực tế hiện hữu có thể làm cản trở khả năng hoàn thành một nhiệm vụ cụ thể. Tôi đã giới thiệu cho bạn về quy trình quản trị rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "một tiến trình mang tính hệ thống nhằm nhận diện các rủi ro và vấn đề tiềm ẩn, đồng thời, đánh giá và áp dụng các giải pháp kịp thời để kiểm soát các tác động tiêu cực của chúng. Chúng ta đã thảo luận về kỹ thuật động não tập thể,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Brainstorming,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "như một phương pháp hữu hiệu để cùng đội ngũ phát hiện rủi ro. Tôi cũng đã giới thiệu cho bạn các công cụ trực quan đắc lực để nhận diện, đánh giá và lập hồ sơ quản lý rủi ro, chẳng hạn, như ma trận xác suất và tác động,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Probability and Impact Matrix,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "sổ đăng ký rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Register,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và bản kế hoạch quản trị rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Management Plan.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Cuối cùng, chúng ta đã cùng nhau khẳng định tầm quan trọng sống còn của việc truyền thông cởi mở về rủi ro tới các bên liên quan, nhằm thiết lập kỳ vọng đúng đắn và chứng minh năng lực tổ chức, lập kế hoạch phòng ngừa chu đáo của bạn cho dự án. Trong phần tiếp theo, chúng ta sẽ bước sang một chủ đề vô cùng quan trọng, công tác lập tài liệu hồ sơ và truyền thông trong dự án. Hẹn sớm gặp lại bạn.",
+      "pause_type": "terminal"
+    }
+  ]
+}

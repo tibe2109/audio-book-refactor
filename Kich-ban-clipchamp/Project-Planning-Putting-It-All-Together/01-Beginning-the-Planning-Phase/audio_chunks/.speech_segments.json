@@ -1,0 +1,1842 @@
+{
+  "Kich-ban-1.txt": [
+    {
+      "lang": "vi",
+      "text": "HỌC PHẦN MỘT, KHỞI ĐỘNG GIAI ĐOẠN LẬP KẾ HOẠCH,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "BEGINNING THE PLANNING PHASE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "GIỚI THIỆU VỀ KHÓA HỌC BA,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "INTRODUCTION TO COURSE BA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chào các bạn! Chào mừng bạn đã đến với khóa học mang tên Lập kế hoạch, Kết nối tất cả các mảnh ghép,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Planning, Putting It All Together.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nếu bạn đã hoàn thành các khóa học trước của chúng tôi, bạn đã có một nền tảng tuyệt vời về những gì cần thiết để khởi động một dự án và mở ra giai đoạn lập kế hoạch. Trước khi chúng ta bắt đầu, cho phép tôi được tự giới thiệu đôi nét về bản thân. Tôi tên là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Rowena,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và tôi sẽ là người đồng hành hướng dẫn bạn xuyên suốt khóa học này. Tôi hiện đang làm việc với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Senior Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Cloud,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "phụ trách nhiều dự án đa dạng khác nhau. Tôi chủ yếu tập trung vào việc cải tiến hệ thống và nâng cao năng suất cho đội ngũ của mình, bao gồm khoảng một trăm nhân viên toàn thời gian và hơn ba trăm đối tác nhà thầu trên khắp thế giới. Một số dự án quy mô lớn nhất mà tôi tham gia quản lý có tầm ảnh hưởng trực tiếp đến bộ phận bán hàng của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Cloud",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và các nhóm hỗ trợ bán hàng toàn cầu, với quy mô lên tới hàng nghìn người. Thế nhưng, tôi không bắt đầu sự nghiệp bằng việc xây dựng các giải pháp cho hàng nghìn người tại một tập đoàn toàn cầu như thế này. Năm mười bảy tuổi, tôi rời ghế nhà trường mà không có tấm bằng đại học và cũng chẳng hề có một kế hoạch rõ ràng nào cho tương lai. Trước khi gia nhập",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tôi từng làm việc trong ngành bán lẻ, ngành dịch vụ nhà hàng khách sạn, và thậm chí từng là thành viên phi hành đoàn trong ngành hàng không. Khi bước chân vào thế giới doanh nghiệp, tôi đã nhận ra một điều, Các quy trình làm việc ở đây cũng lộn xộn chẳng khác nào những nhà kho chứa hàng của các cửa hàng bán lẻ mà tôi từng làm việc trước đó. Có quá nhiều điểm cần được cải thiện. Tôi nhận thức được rằng bất kỳ doanh nghiệp nào cũng có những nét phức tạp riêng, và luôn luôn có cơ hội để chúng ta thiết lập lại trật tự một cách bài bản. Vì vậy, tôi bắt đầu suy nghĩ về các phương thức để tự động hóa những công việc thường nhật của mình. Tôi gửi",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "chia sẻ ý tưởng cho người quản lý và các đồng nghiệp, phối hợp làm việc với các phòng ban trên toàn công ty, cùng nhau động não tìm kiếm giải pháp cho các vấn đề, điều phối các buổi đào tạo cho cộng sự, và làm rất nhiều việc khác nữa. Đó chính là khoảnh khắc mọi thứ trở nên rõ ràng hơn bao giờ hết, Hóa ra tôi đang làm công việc quản trị dự án. Sau đó, tôi chuyển sang một vị trí tập trung hoàn toàn vào quản lý chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tại trụ sở chính của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Mountain View, California.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-2.txt": [
+    {
+      "lang": "vi",
+      "text": "Trong buổi phỏng vấn xin việc, tôi đã tập trung chia sẻ những ví dụ, thực tế về cách tôi vận dụng các kỹ năng chuyển đổi,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "transferable skills,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "từ những vai trò công việc trước đây, cũng như cách tôi có thể tận dụng tối đa vốn kiến thức và trải nghiệm đã tích lũy được. Bốn năm sau, tôi đang ở đây và vô cùng hào hứng được đồng hành cùng bạn trên hành trình học tập đầy ý nghĩa này. Nhìn từ bên ngoài, các tập đoàn đa quốc gia tầm cỡ có vẻ như luôn nắm giữ mọi bí quyết vận hành hoàn hảo. Nhưng trên thực tế, luôn luôn có chỗ cho những quy trình mới mẻ, và bạn hoàn toàn có thể sở hữu những kỹ năng cùng góc nhìn sâu sắc từ chính các trải nghiệm trong quá khứ để đóng góp giá trị cho công việc. Vì vậy, hãy kiên trì tiếp bước, bạn đang đi hoàn toàn đúng hướng. Khóa học này tập trung chuyên sâu vào giai đoạn lập kế hoạch,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Planning Phase.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi sẽ chia sẻ với bạn các công cụ và kỹ thuật cần thiết để hoàn thành xuất sắc giai đoạn này. Trước hết, tôi sẽ hướng dẫn bạn cách khởi động giai đoạn lập kế hoạch. Sau đó, chúng ta sẽ cùng nhau khám phá tầm quan trọng của việc thiết lập và đạt được các cột mốc,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Milestones.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đối với mỗi cột mốc, sẽ có một tập hợp các nhiệm vụ cần hoàn thành, do đó, tôi sẽ hướng dẫn bạn một số mẹo hữu ích để phân chia và phân bổ khối lượng công việc một cách hợp lý. Tiếp theo, chúng ta sẽ thảo luận về ngân sách dự án và cách thức vận hành của quy trình lập ngân sách tổng thể. Chúng ta sẽ tìm hiểu về các cá nhân hoặc tổ chức bên ngoài doanh nghiệp có thể đóng vai trò quyết định trong việc định hình ngân sách, đồng thời, phân tích tầm quan trọng của việc lập hồ sơ tài liệu đầy đủ cho ngân sách dự án. Sau đó, chúng ta sẽ bàn về các loại rủi ro khác nhau cùng những tác động tiềm ẩn mà chúng có thể gây ra cho dự án. Chẳng có điều gì trên đời luôn diễn ra hoàn toàn theo đúng kế hoạch, nhưng quản trị rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chính là phương thức tối ưu nhất để đảm bảo bạn luôn biết trước điều gì có thể xảy ra ngoài ý muốn và cách bạn sẽ xử lý nó ra sao. Điều này bao gồm việc thông báo các rủi ro tiềm ẩn tới Các bên liên quan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Stakeholders,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "xây dựng kế hoạch giảm thiểu rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Mitigation Plan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và liên tục theo dõi sát sao những rủi ro đó để đảm bảo chúng không làm đình trệ dự án của bạn. Cuối cùng nhưng không kém phần quan trọng, hệ thống tài liệu dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Documentation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chính là sợi dây kết nối tất cả các mảnh ghép lại với nhau. Việc lưu trữ tài liệu và tổ chức các kế hoạch dự án một cách ngăn nắp không chỉ giúp ích cho cá nhân bạn, mà còn giúp tất cả những người tham gia nắm rõ trách nhiệm của mình. Tài liệu dự án cũng mở ra cho các bên liên quan một lăng kính rõ nét để theo dõi sát sao tiến trình phát triển của dự án.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-3.txt": [
+    {
+      "lang": "vi",
+      "text": "Điều đó luôn đóng vai trò sống còn đối với sự thành công trong các dự án của chính tôi tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và tôi rất vui mừng được cùng bạn khám phá chủ đề này. Bạn đã sẵn sàng bắt đầu chưa? Hẹn gặp lại bạn ở bài học tiếp theo! LỢI ÍCH CỦA VIỆC LẬP KẾ HOẠCH DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "THE BENEFITS OF PROJECT PLANNING",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Chào bạn đã quay trở lại! Trong khóa học trước, bạn đã tìm hiểu về Giai đoạn Khởi động Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Initiation Phase.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong giai đoạn khởi động, người quản lý dự án sẽ thu thập toàn bộ các thông tin sơ bộ cần thiết để xin phê duyệt từ các bên liên quan và lên kế hoạch cho dự án. Có một vài điều then chốt cần phải diễn ra trong khoảng thời gian này. Đầu tiên, người quản lý dự án được bổ nhiệm chính thức, và đó chính là bạn! Tiếp theo, các mục tiêu của dự án cần phải được phê duyệt, cùng với phạm vi của dự án và các sản phẩm bàn giao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Deliverables.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một số nhân sự sẽ được phân công tham gia vào dự án, và bạn sẽ nắm bắt rõ ràng vai trò cùng trách nhiệm riêng biệt của từng cá nhân. Bạn cũng sẽ cần sự ký duyệt đồng thuận của các bên liên quan trên Bản Điều lệ Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Charter.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nếu tất cả các tiêu chí này đã được đáp ứng đầy đủ, thì bạn đã sẵn sàng để bước vào giai đoạn lập kế hoạch. Lập kế hoạch là một phần tối quan trọng để bảo đảm sự thành công của một dự án, vì vậy, chúng ta hãy cùng dành thời gian thảo luận xem tại sao nó lại quan trọng đến thế. Lập kế hoạch đóng vai trò thiết yếu đối với bất kỳ dự án nào, dù quy mô lớn hay nhỏ. Trong quá trình lập kế hoạch dự án, bạn cùng các thành viên khác trong đội ngũ sẽ xác định các quy trình và luồng công việc cần thiết để đạt được các mục tiêu, đồng thời, cùng nhau phác thảo các ý tưởng về cách thức biến dự án thành một thành công rực rỡ. Trong khi lập kế hoạch, bạn có thể tham khảo từ kinh nghiệm của các dự án trước đây, nhưng đừng ngần ngại tư duy về những cách làm mới mẻ để đạt được kết quả. Mỗi dự án đều có những nét đặc thù riêng biệt, vì vậy, các phương pháp tiếp cận mới mẻ và khác biệt đôi khi lại chính là điều bạn đang tìm kiếm. Việc lập kế hoạch mang lại vô số lợi ích thiết thực. Như chúng ta đã thảo luận, lập kế hoạch giúp bạn vẽ nên một bản đồ lộ trình toàn diện cho dự án. Nó giúp bạn thấu hiểu sâu sắc toàn bộ công việc cần phải làm để đạt được mục tiêu đề ra. Lập kế hoạch cũng giúp điều phối các nỗ lực và tiến độ thời gian với các nhóm chức năng khác, các nhà thầu và các nhà cung cấp bên ngoài. Một lợi ích to lớn khác của việc lập kế hoạch là nó tạo cho bạn khoảng thời gian quý báu để nhận diện và chuẩn bị ứng phó với những rủi ro có thể tác động tiêu cực đến dự án của bạn. Những rủi ro đó có thể bao gồm sự chậm trễ trong tiến độ, sự rời đi của một thành viên nòng cốt trong nhóm, hoặc sự thay đổi định hướng dự án từ một bên liên quan chủ chốt.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-4.txt": [
+    {
+      "lang": "vi",
+      "text": "Lập kế hoạch cũng trao cho bạn cơ hội để cùng nhau động não tìm ra các phương án giảm thiểu hoặc xử lý triệt để những rủi ro đó. Bên cạnh đó, còn có những lợi ích ít hiển hiện hơn nhưng không kém phần giá trị. Chẳng hạn, giai đoạn lập kế hoạch có thể giúp bạn đạt được sự đồng thuận và cam kết ủng hộ, Buy-in, từ các thành viên nòng cốt trong đội ngũ dự án. Có được sự ủng hộ đồng nghĩa với việc bạn đã nhận được sự tin tưởng và hậu thuẫn vững chắc của họ đối với kế hoạch của mình. Lập kế hoạch cũng chứng minh cho các bên liên quan thấy rằng đội ngũ dự án đang làm việc rất cẩn trọng khi bắt đầu dự án bằng một bản kế hoạch chi tiết, bài bản. Thế nhưng, một trong những lợi ích to lớn nhất của việc lập kế hoạch chính là tinh thần đồng đội,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Teamwork,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "yếu tố then chốt sẽ giúp bạn đưa dự án cán đích thành công. Bằng cách cùng nhau làm việc trong giai đoạn lập kế hoạch, các cá nhân được giao phó nhiệm vụ trong dự án có thể gắn kết thành một khối thống nhất và vững mạnh vào thời điểm kế hoạch hoàn tất và công việc thực thi chuẩn bị bắt đầu. Việc cùng nhau lập kế hoạch tạo nên sự thấu hiểu chung giữa tất cả các bên tham gia vào dự án. Để tóm lược lại, việc lập kế hoạch mang lại vô vàn lợi ích, từ việc giúp đội ngũ thấu hiểu khối lượng công việc cần làm để đạt mục tiêu, cho tới việc cung cấp một bản kế hoạch minh bạch cho các bên liên quan. Bây giờ, khi bạn đã hiểu rõ hơn về lập kế hoạch, chúng ta sẽ cùng tìm hiểu cách khởi động giai đoạn lập kế hoạch trong bài học tiếp theo. Hẹn gặp lại bạn! KHỞI ĐỘNG GIAI ĐOẠN LẬP KẾ HOẠCH,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "LAUNCHING THE PLANNING PHASE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chào các bạn. Trong bài học trước, chúng ta đã cùng nhau thảo luận về tầm quan trọng của việc lập kế hoạch. Bây giờ, chúng ta hãy đi sâu vào chi tiết về cách thức khởi động Giai đoạn Lập kế hoạch,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Planning Phase.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Như bạn đã biết từ trước, lập kế hoạch là giai đoạn thứ hai trong vòng đời dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Life Cycle.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây có thể là một khoảng thời gian đầy thách thức đối với người quản lý dự án vì có quá nhiều điều cần phải cân nhắc. Tuy nhiên, điều quan trọng bạn cần ghi nhớ là các kế hoạch dự án không nhất thiết phải đạt đến độ hoàn hảo tuyệt đối ngay từ lần soạn thảo đầu tiên.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-5.txt": [
+    {
+      "lang": "vi",
+      "text": "Và ngay cả khi bạn đã hoàn thành xuất sắc bản kế hoạch của mình trong lần đầu tiên, thì kế hoạch đó gần như chắc chắn vẫn sẽ thay đổi khi dự án bắt đầu tiến triển. Giai đoạn lập kế hoạch có thể khác nhau tùy theo từng dự án cụ thể, nhưng nhìn chung, có ba cấu phần cốt lõi luôn được giải quyết trong giai đoạn này, Tiến độ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Schedule,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Ngân sách,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Budget,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và Kế hoạch Quản trị Rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Management Plan.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Chúng ta sẽ thảo luận chi tiết hơn về từng cấu phần này ở phần sau của khóa học. Nhưng ngay lúc này, đây là những thông tin tổng quan để bạn hiểu được vì sao ba yếu tố này lại mang tính chất quyết định đối với việc lập kế hoạch. Chúng ta hãy bắt đầu với Tiến độ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Schedule.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tiến độ về cơ bản chính là dòng thời gian,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Timeline,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "của dự án. Nó bao gồm ngày bắt đầu, ngày kết thúc, và thời điểm diễn ra các sự kiện quan trọng ở giữa chặng đường. Bạn sẽ áp dụng các kỹ thuật ước tính thời gian để xác định những mốc ngày tháng này. Chúng ta hãy cùng hình dung về việc lập tiến độ thông qua dự án ví dụ, tại công ty",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin nhắc lại, bạn là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "phụ trách chính cho dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "một dịch vụ mới chuyên cung cấp các chậu cây cảnh để bàn cho những khách hàng cao cấp. Bạn đặt mục tiêu ra mắt dịch vụ này vào cuối năm, vì vậy, giai đoạn lập kế hoạch cho nỗ lực này cần phải bao gồm một loạt các mốc thời gian quan trọng. Những mốc thời gian đó có thể bao gồm thời điểm bạn gửi yêu cầu báo giá tới các nhà cung cấp cây xanh. Chúng cũng có thể bao gồm ngày bạn tổ chức buổi họp khởi động với các chuyên viên thiết kế đồ họa và đội ngũ lập trình viên phụ trách xây dựng trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "mới cho dịch vụ. Nó cũng cần phải bao gồm những mốc thời gian trọng yếu trong giai đoạn thực thi dự án, chẳng hạn, như khi nào cây xanh cần phải sẵn sàng để vận chuyển, hoặc khi nào giao diện trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "mới phải được phê duyệt, và bạn sẽ cần đưa vào ngày mục tiêu chính thức ra mắt dịch vụ ra thị trường. Một phần quan trọng khác của giai đoạn lập kế hoạch là việc thiết lập Ngân sách,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Budget.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Ngân sách sẽ phản ánh toàn bộ tổng chi phí cần thiết để hoàn thành dự án. Tổng chi phí này cần phải được bóc tách chi tiết để xác định xem cần phải chi tiêu bao nhiêu tiền cho từng hạng mục khác nhau của dự án. Đối với dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "ngân sách sẽ cần phải bao gồm các chi phí như chi phí thiết kế và phát triển trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chi phí thuê nhà cung cấp cây xanh, cùng rất nhiều khoản mục khác nữa.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-6.txt": [
+    {
+      "lang": "vi",
+      "text": "Thành phần thứ ba của giai đoạn lập kế hoạch là Quản trị Rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nghĩa là chủ động tìm kiếm các vấn đề tiềm ẩn có thể nảy sinh và lên phương án chuẩn bị từ sớm để giảm thiểu những rủi ro đó. Chúng ta phải thừa nhận một thực tế rằng, Rủi ro là điều không thể tránh khỏi trong bất kỳ dự án nào. Nhưng điều hoàn toàn có thể kiểm soát được chính là cách thức rủi ro đó tác động tới dự án của bạn. Một kế hoạch dự án tốt đồng nghĩa với việc chủ động rà soát những điểm nghẽn nơi sự cố có thể phát sinh. Tiến độ có thể bị chệch hướng ở đâu? Ngân sách có thể vượt quá ước tính ở những khâu nào? Bạn sẽ làm việc chặt chẽ với đội ngũ của mình để cùng nhau trả lời những câu hỏi này và xây dựng một kế hoạch quản trị rủi ro dựa trên tất cả những gì bạn khám phá được. Hãy quay trở lại ví dụ, về",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong khi hoàn thiện bản tiến độ ban đầu, bạn có thể nhận ra rằng các ước tính thời gian từ đội ngũ lập trình viên sẽ đẩy ngày hoàn thành vượt xa ngày ra mắt dự kiến. Để kiểm soát rủi ro đó, bạn có thể cân nhắc cắt giảm hoặc điều chỉnh phạm vi dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Scope,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "để vẫn kịp đáp ứng thời hạn chót, hoặc thậm chí đàm phán một ngày ra mắt mới với các bên liên quan. Đó là hai ví dụ, đơn giản minh họa cho cách bạn có thể giảm thiểu một rủi ro về mặt tiến độ. Tóm lại, bạn sẽ dành trọn giai đoạn lập kế hoạch để xây dựng tiến độ, thiết lập ngân sách và chuẩn bị kế hoạch quản trị rủi ro, nhưng trước hết bạn cần phải tập hợp và gắn kết toàn bộ đội ngũ lại với nhau. Tiếp theo, chúng ta sẽ cùng thảo luận về Cuộc họp Khởi động Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Kick-off Meeting,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nơi dự án thực sự chính thức bắt đầu lăn bánh. Hẹn gặp lại bạn ở bài học đó! ĐIỀU PHỐI CUỘC HỌP KHỞI ĐỘNG DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "FACILITATING A PROJECT KICK-OFF MEETING",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Chào mừng bạn đã quay trở lại! Trong bài học này, bạn sẽ học cách tổ chức một cuộc họp khởi động,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Kickoff Meeting,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "khi bạn đã sẵn sàng chuyển mình sang chế độ lập kế hoạch. Việc lên lịch cho một cuộc họp đóng vai trò như điểm khởi đầu chính thức cho công tác lập kế hoạch dự án là vô cùng quan trọng. Có thể bạn đang tự hỏi, Cuộc họp khởi động là gì và nó khác biệt như thế nào so với các loại cuộc họp khác? Đó là một câu hỏi rất hay. Cuộc họp khởi động dự án là buổi gặp gỡ đầu tiên mà toàn bộ đội ngũ dự án tề tựu đông đủ để cùng nhau thống nhất một tầm nhìn chung, đạt được sự thấu hiểu đồng thuận về các mục tiêu và phạm vi của dự án, đồng thời, giúp mỗi cá nhân nắm vững vai trò riêng biệt của mình trong nhóm.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-7.txt": [
+    {
+      "lang": "vi",
+      "text": "Vậy thì ai sẽ là người được mời tham dự cuộc họp khởi động này? Đó chính là các thành viên trong nhóm đã được xác định trong biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-A-C-I, R-A-C-I Chart,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "được tạo lập từ giai đoạn khởi động. Xin nhắc lại, biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-A-C-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "giúp phân định rõ vai trò và trách nhiệm cho từng cá nhân hoặc đội ngũ nhằm bảo đảm công việc được triển khai một cách hiệu quả nhất. Trong cuộc họp khởi động, các thành viên sẽ hiểu sâu hơn về cách họ đóng góp vào dự án và thấu hiểu cách thức toàn đội sẽ phối hợp nhịp nhàng với nhau để chạm tới các mục tiêu chung. Bạn cũng nên gửi lời mời tới Các bên liên quan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Stakeholders,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và Nhà tài trợ Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Sponsor,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tham dự cuộc họp, để họ có cơ hội nắm bắt bản kế hoạch tổng thể của dự án, chia sẻ góc nhìn của mình, và bạn có thể đảm bảo rằng tất cả mọi người đều đang cùng chung một nhịp đập. Lúc này, bạn có thể thắc mắc, Tại sao tôi lại cần một cuộc họp khởi động? Chẳng phải đội ngũ của tôi có thể nắm bắt mọi thông tin cần thiết chỉ từ bản điều lệ dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Charter,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hay sao? Chúng tôi hoàn toàn hiểu được suy nghĩ đó. Các cuộc họp đôi khi có thể tiêu tốn nhiều thời gian, và chắc chắn có những trường hợp chỉ cần một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "ngắn gọn hay một tin nhắn nhanh cho đồng nghiệp là đã đủ. Thế nhưng, khi bạn chính thức khởi động một dự án, đặc biệt là các dự án quy mô lớn với nhiều người cùng tham gia, việc trực tiếp gặp gỡ là vô cùng hệ trọng để xác lập một tầm nhìn chung, thống nhất về phạm vi công việc, và xây dựng sự gắn kết đồng đội. Đây cũng là dịp để các cộng sự đặt câu hỏi và đưa ra những góc nhìn sâu sắc, đồng thời, là thời điểm vàng để bạn thiết lập những kỳ vọng rõ ràng với toàn đội về cách thức mỗi người sẽ đóng góp riêng lẻ vào thành quả chung. Bây giờ, chúng ta hãy cùng bàn về cách lập kế hoạch và điều hành một cuộc họp khởi động. Có rất nhiều biểu mẫu chương trình họp khởi động sẵn có trên mạng, nhưng đa phần đều tuân theo một cấu trúc tương tự nhau và kéo dài trong khoảng một giờ đồng hồ. Hãy nhớ rằng đây chỉ là một gợi ý tham khảo, và bạn hoàn toàn có thể linh hoạt phân bổ nhiều hay ít thời gian hơn cho từng nội dung tùy theo nhu cầu thực tế của dự án và đội ngũ. Đa phần các cuộc họp bắt đầu bằng phần giới thiệu ngắn gọn. Bạn có thể dành ra khoảng mười phút để tất cả mọi người trong nhóm tự giới thiệu bản thân cùng vai trò của mình, và nếu thời gian cho phép, có thể chia sẻ thêm một điều thú vị nho nhỏ để tạo bầu không khí thân mật, cởi mở.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-8.txt": [
+    {
+      "lang": "vi",
+      "text": "Sau đó, bạn có thể dành khoảng năm phút tiếp theo để chia sẻ bối cảnh chung, Dự án này khởi nguồn từ đâu và tại sao doanh nghiệp lại quyết định triển khai nó. Tiếp theo, hãy dành khoảng hai mươi phút để thảo luận chi tiết về phạm vi của dự án. Đây là thời điểm tuyệt vời để rà soát lại các mục tiêu của dự án và làm rõ các sản phẩm bàn giao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Deliverables,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mà đội ngũ của bạn sẽ cùng nhau tạo ra. Bạn cũng có thể tận dụng thời lượng này để cùng thống nhất về các vai trò trong biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-A-C-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "mà bạn đã xác định trước đó, giúp các thành viên thấu hiểu công việc của họ sẽ tác động như thế nào đến sự thành bại của dự án. Sau đó, hãy dành ra khoảng mười lăm phút để thảo luận về các câu hỏi và giải đáp thắc mắc. Đây là cơ hội quý báu để các thành viên trong nhóm và các bên liên quan cất lên tiếng nói, chia sẻ những băn khoăn hay đóng góp các ý kiến mang tính xây dựng. Cuối cùng, hãy dành khoảng mười phút cuối để tóm lược lại các bước tiếp theo cần triển khai ngay sau cuộc họp. Bạn có thể chỉ định rõ ai sẽ chịu trách nhiệm cho những hành động cụ thể nào và thời hạn hoàn thành ra sao. Trong một số trường hợp, việc ghi âm hoặc ghi hình lại cuộc họp này có thể rất hữu ích để những người tham dự có thể xem lại khi cần, đặc biệt nếu bạn quản lý một đội ngũ đông thành viên hoặc làm việc từ xa phân tán khắp nơi. Bạn chỉ cần lưu ý xin phép trước sự đồng thuận của tất cả mọi người trước khi bấm nút ghi âm. Sau cuộc họp, đừng quên gửi một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tổng kết cho toàn bộ nhóm, tóm lược lại những điểm mấu chốt, các kết quả đạt được từ cuộc họp, cũng như danh sách các công việc cần làm,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Action Items,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "được giao phó cho từng cá nhân. Trong",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tổng kết, bạn cũng nên khuyến khích mọi người chủ động liên hệ nếu họ có thêm bất kỳ thắc mắc nào khác. Mặc dù có rất nhiều việc cần chuẩn bị cho một cuộc họp khởi động, nhưng hãy nhớ rằng đây là một khoảnh khắc vô cùng hào hứng đối với toàn đội và đặc biệt là với bạn trong vai trò một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tất cả những suy tư cẩn trọng và nỗ lực bền bỉ mà bạn đã dồn vào trong suốt giai đoạn khởi động giờ đây đang hội tụ lại để đặt nền móng vững chắc cho dự án của bạn. Trong bài học tiếp theo, chúng ta sẽ cùng tìm hiểu về các cột mốc, các nhiệm vụ, và sự khác biệt rõ rệt giữa chúng. Hẹn gặp lại bạn ở",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tiếp theo!.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-9.txt": [
+    {
+      "lang": "vi",
+      "text": "HIỂU RÕ VỀ NHIỆM VỤ VÀ CỘT MỐC,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "UNDERSTANDING TASKS AND MILESTONES",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Chào bạn đã quay trở lại! Như chúng ta đã thảo luận xuyên suốt chương trình đào tạo này, người quản lý dự án chịu trách nhiệm phân chia công việc cho đội ngũ và liên tục theo dõi sát sao tiến độ phát triển của dự án. Khi bàn về việc phân chia công việc, chúng ta sẽ sử dụng một vài thuật ngữ cốt lõi, Cột mốc Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Milestones,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và Nhiệm vụ Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Tasks.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Chúng ta hãy cùng bóc tách chi tiết từng khái niệm này. Cột mốc dự án là một thời điểm quan trọng trong tiến độ dự án nhằm đánh dấu bước tiến và thường biểu thị sự hoàn thành của một sản phẩm bàn giao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Deliverable,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc một giai đoạn nhất định của dự án. Đây chính là những trạm kiểm soát,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Checkpoints,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mang tính bước ngoặt trong dự án của bạn, và việc theo dõi chúng sát sao sẽ giúp bảo đảm rằng dự án của bạn đang bám sát tiến độ để chạm tới các mục tiêu đề ra. Lấy ví dụ, một cột mốc có thể là việc hoàn thành bản dự thảo đầu tiên của một báo cáo nghiên cứu, và mục tiêu cuối cùng là xuất bản chính thức báo cáo đó. Một ví dụ, khác về cột mốc là việc nhận được chữ ký phê duyệt chính thức từ khách hàng đối với một sản phẩm bàn giao trọng yếu. Bây giờ, chúng ta hãy thảo luận xem các cột mốc khác biệt như thế nào so với các nhiệm vụ trong dự án. Một nhiệm vụ dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Task,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là một hoạt động cụ thể cần phải được hoàn thành trong một khoảng thời gian xác định. Khối lượng công việc khổng lồ của một dự án sẽ được chia nhỏ thành nhiều nhiệm vụ khác nhau. Để đạt được một cột mốc, bạn và đội ngũ của mình phải hoàn thành rất nhiều nhiệm vụ gộp lại. Chẳng hạn, nếu cột mốc là hoàn thành bản dự thảo đầu tiên của báo cáo, thì các nhiệm vụ cần làm để đi đến cột mốc đó có thể bao gồm, tuyển dụng một cây bút viết nội dung, tiến hành nghiên cứu dữ liệu, và soạn thảo các chương mục khác nhau của báo cáo. Chúng ta hãy hình dung về cột mốc và nhiệm vụ trong bối cảnh của Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại công ty",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một trong những sản phẩm bàn giao của dự án là ra mắt trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cho dịch vụ mới, nơi khách hàng có thể đặt mua cây cảnh và nhận dịch vụ hỗ trợ khách hàng. Một số cột mốc dẫn lối tới ngày ra mắt trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "sẽ bao gồm, nhận được sự phê duyệt về thiết kế trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và tích hợp các phản hồi thu được từ quá trình thử nghiệm người dùng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "User Testing.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-10.txt": [
+    {
+      "lang": "vi",
+      "text": "Để đạt được những cột mốc đó, đội ngũ của bạn cần phải hoàn thành nhiều nhiệm vụ dự án khác nhau. Lấy ví dụ, để chạm tới cột mốc phê duyệt thiết kế, chuyên viên thiết kế trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của bạn sẽ cần phải tạo ra các bản vẽ phác thảo ban đầu,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Mockups,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cho giao diện đề xuất. Bạn sẽ cần rà soát lại các bản thiết kế đó, và chuyên viên thiết kế sẽ cần chỉnh sửa theo các ý kiến phản hồi của bạn. Mỗi một hạng mục công việc này chính là một nhiệm vụ dự án, và bạn sẽ không thể chạm tới cột mốc nếu các nhiệm vụ đó chưa được hoàn tất. Để tổng kết lại, Cột mốc là những thời điểm then chốt trong tiến độ dự án, còn nhiệm vụ dự án là những hoạt động cụ thể cần được hoàn thành trong một khoảng thời gian nhất định để giúp bạn đạt được những cột mốc đó. Cột mốc và nhiệm vụ luôn có mối quan hệ gắn bó hữu cơ với nhau. Các nhiệm vụ tích lũy từng bước để nâng tầm lên thành các cột mốc, và các cột mốc đóng vai trò sống còn trong việc theo dõi, kiểm soát dự án. Bây giờ, khi bạn đã hiểu rõ về cột mốc, nhiệm vụ dự án và sự khác biệt giữa chúng, chúng ta sẽ cùng tìm hiểu sâu hơn về tầm quan trọng của các cột mốc trong",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tiếp theo. Hẹn gặp lại bạn! TẦM QUAN TRỌNG CỦA VIỆC THIẾT LẬP CỘT MỐC,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "THE IMPORTANCE OF SETTING MILESTONES",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Rất vui được gặp lại bạn! Bạn vừa nắm được rằng cột mốc,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Milestone,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là một điểm dừng quan trọng trong tiến độ dự án nhằm làm nổi bật bước tiến và thường đánh dấu sự hoàn thành của một sản phẩm bàn giao hoặc một giai đoạn trong dự án. Nhưng bây giờ, chúng ta hãy cùng bàn luận xem tại sao việc thiết lập các cột mốc trong dự án lại đóng vai trò tối quan trọng đến như vậy. Mặc dù bạn có thể cảm thấy rất muốn nhanh chóng lập một danh sách những việc cần làm, To-do",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "List,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "rồi lao ngay vào thực hiện dự án, nhưng điều thực sự cần thiết là bạn phải dành thời gian và tâm sức để bóc tách dự án của mình ra thành từng mảnh ghép nhỏ một cách bài bản. Dưới đây là những lý do giải thích vì sao, Thứ nhất, việc thiết lập các cột mốc mang lại cho bạn một cái nhìn sâu sắc và rõ ràng về tổng khối lượng công việc mà dự án đòi hỏi. Hành động thiết lập cột mốc buộc bạn phải chia nhỏ dự án thành những phần việc vừa sức và dễ quản lý hơn. Bạn càng đi sâu bóc tách, bạn càng nhìn nhận rõ ràng hơn về lượng công việc thực tế cần phải hoàn thành để chạm tới các mục tiêu dự án. Thoạt nhìn lướt qua, việc ra mắt một trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "mới có vẻ rất đơn giản, nhưng trên thực tế nó có thể đòi hỏi khối lượng công việc lớn hơn rất nhiều so với những gì bạn mường tượng.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-11.txt": [
+    {
+      "lang": "vi",
+      "text": "Nếu bạn chia nhỏ sản phẩm bàn giao đó thành các cột mốc, và chia các cột mốc đó thành các nhiệm vụ cụ thể, bạn sẽ có được cảm nhận chuẩn xác hơn về quy mô thực sự của công việc cần làm. Điều này sẽ giúp bạn điều phối khối lượng công việc của dự án một cách hiệu quả hơn rất nhiều. Một lý do thứ hai khiến các cột mốc trở nên tuyệt vời là chúng giúp dự án của bạn luôn bám sát đúng lộ trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "On Track.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Khi thiết lập một cột mốc, bạn gán cho nó những thời hạn chót,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Deadlines,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "rõ ràng về thời điểm các sản phẩm bàn giao cụ thể cần phải được hoàn tất. Sau đó, khi bước vào giai đoạn thực thi dự án, bạn có thể nhìn lại những mốc thời hạn này để đảm bảo rằng dự án đang tiến triển với tốc độ phù hợp. Lý do thứ ba bạn cần thiết lập cột mốc là chúng giúp bạn sớm phát hiện ra những khu vực mà bạn có thể cần phải điều chỉnh lại phạm vi,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Scope,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tiến độ thời gian,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Timelines,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc nguồn lực,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Resources,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "để hoàn thành mục tiêu. Chẳng hạn, nếu bạn nhận ra rằng để đạt được một cột mốc sẽ đòi hỏi nhiều nhiệm vụ hơn so với dự tính ban đầu, bạn có thể xin phép các bên liên quan thu hẹp phạm vi dự án lại và cắt giảm bớt số lượng nhiệm vụ không cần thiết. Và cuối cùng, còn một lý do then chốt nữa khiến các cột mốc trở nên đặc biệt quan trọng, Việc thực sự chinh phục được các cột mốc sẽ tiếp thêm nguồn động lực to lớn cho đội ngũ của bạn và minh chứng rõ ràng cho bước tiến thực tế trước mắt các bên liên quan. Đối với những dự án quy mô lớn kéo dài trong nhiều tháng ròng, bạn sẽ luôn muốn duy trì ngọn lửa nhiệt huyết của toàn đội ở mức cao nhất. Một cột mốc biểu thị sự hoàn tất của một khối lượng công việc trọng yếu và mang lại khoảnh khắc ăn mừng xứng đáng cho đội ngũ, ngay cả khi chặng đường phía trước vẫn còn nhiều thử thách. Các cột mốc cũng đóng vai trò như những điểm điểm danh, Check-in",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Points,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tuyệt vời để làm nổi bật tiến độ công việc trước các bên liên quan. Nó trao cho họ cơ hội được tận mắt chứng kiến những thành quả đã hoàn thành tính đến thời điểm hiện tại, đồng thời, giúp họ yên tâm rằng mọi thứ vẫn đang đi đúng quỹ đạo và đáp ứng đầy đủ các tiêu chuẩn kỳ vọng. Điều quan trọng nữa cần ghi nhớ là các cột mốc phải được hoàn thành đúng hạn và theo đúng trình tự tuần tự, bởi vì, thông thường, việc bước sang cột mốc tiếp theo phụ thuộc hoàn toàn vào việc hoàn thành cột mốc trước đó.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-12.txt": [
+    {
+      "lang": "vi",
+      "text": "Hãy suy ngẫm về điều này trong bối cảnh Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại công ty",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Như chúng ta đã thảo luận, để ra mắt một trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cho dịch vụ cây xanh mới, có một vài cột mốc bạn bắt buộc phải chinh phục, chẳng hạn, như được phê duyệt thiết kế trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoàn tất việc lập trình trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và tích hợp phản hồi từ người dùng thử nghiệm. Những cột mốc này bắt buộc phải diễn ra theo đúng thứ tự đó. Lý do rất đơn giản, Đội ngũ lập trình không thể bắt tay vào xây dựng trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "nếu bản thiết kế chưa được các bên liên quan ký duyệt, và bạn cũng không thể nào thu thập phản hồi từ người dùng thử nghiệm nếu trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "chưa được lập trình xong để họ trải nghiệm. Vì vậy, chúng ta đều biết việc đạt được các cột mốc theo đúng thứ tự tuần tự là tối quan trọng, nhưng việc hoàn thành chúng đúng thời hạn cũng mang tính sống còn không kém. Nếu đội ngũ bị lỡ hẹn hoàn thành một sản phẩm bàn giao gắn liền với một cột mốc cụ thể, điều đó có thể làm đảo lộn toàn bộ tiến độ dự án, đồng nghĩa với việc các thành viên trong nhóm có thể phải làm thêm giờ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Overtime,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc phải bổ sung thêm nhân lực để bắt kịp tiến độ. Lấy ví dụ, nếu bạn cần nhận được sự phê duyệt của các bên liên quan về thiết kế trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "trước ngày thứ Sáu nhưng chuyên viên thiết kế vẫn chưa hoàn tất bản vẽ, bạn có thể phải chờ sang tận tuần sau mới xin được phê duyệt. Điều này sẽ làm trì hoãn thời điểm bắt đầu của giai đoạn lập trình, khiến đội ngũ kỹ thuật có ít thời gian hơn để xây dựng trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tệ hơn nữa, sự chậm trễ này có thể ảnh hưởng trực tiếp đến ngân sách dự án nếu việc hoàn thành sản phẩm bàn giao này gắn liền với đợt thanh toán từ phía khách hàng. Nếu bạn lỡ thời hạn chót, bạn sẽ bị chậm nhận khoản thanh toán đó, thậm chí còn đối mặt với rủi ro đánh mất hoàn toàn khoản tiền thanh toán. Mặc dù thời hạn chót đôi khi có thể linh hoạt điều chỉnh, nhưng bạn cần đặc biệt cẩn trọng với những cột mốc mà thời hạn là bất khả thương lượng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Non-negotiable.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Vậy là xong! Hy vọng rằng bạn đã hiểu sâu sắc lý do vì sao các cột mốc lại quan trọng đối với bất kỳ dự án nào. Trong bài học tiếp theo, chúng ta sẽ cùng thảo luận về các bước cụ thể để thiết lập cột mốc cho dự án của bạn. Hẹn gặp lại bạn ở đó!.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-13.txt": [
+    {
+      "lang": "vi",
+      "text": "CÁCH THIẾT LẬP CỘT MỐC DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "HOW TO SET MILESTONES",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Chào mừng bạn đã quay trở lại! Bây giờ bạn đã hiểu tại sao việc thiết lập các cột mốc lại mang tính quyết định đến vậy, chúng ta hãy cùng nhau tìm hiểu cách thức thiết lập cột mốc cho dự án của mình. Bước đầu tiên để thiết lập một cột mốc là nhìn nhận và đánh giá dự án dưới một bức tranh tổng thể. Sẽ rất hữu ích nếu bạn nhìn lại Bản Điều lệ Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Charter,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "để nhắc nhở bản thân về mục tiêu cốt lõi của dự án. Sau đó, hãy lập một danh sách tất cả những gì đội ngũ của bạn cần phải làm để hiện thực hóa mục tiêu đó. Những hạng mục lớn mang tính biểu thị cho bước tiến quan trọng chính là các cột mốc của bạn. Đó là những thời điểm then chốt trong tiến độ dự án đánh dấu sự hoàn tất của một sản phẩm bàn giao hoặc một giai đoạn của dự án. Những hạng mục nhỏ hơn, chẳng hạn, như bất kỳ công việc nào mà các bên liên quan không cần phải trực tiếp rà soát, chính là các nhiệm vụ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Tasks.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bạn sẽ lên kế hoạch chi tiết cho các nhiệm vụ này một khi bạn đã phân tách chúng rạch ròi ra khỏi các cột mốc. Bây giờ, chúng ta hãy cùng quay trở lại ví dụ, về",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một trong những sản phẩm bàn giao của dự án là một trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "mới. Và như chúng ta đã xác định từ trước, một số cột mốc xuyên suốt kịch bản trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "bao gồm, xin phê duyệt thiết kế trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoàn thành lập trình trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và tích hợp các phản hồi của người dùng. Việc phác thảo các bản vẽ thiết kế sơ bộ hoặc xây dựng một trang đích,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Landing Page,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là những đầu việc nhỏ hơn trong danh sách của bạn, vì vậy, chúng được xếp vào nhóm nhiệm vụ. Hãy luôn nhớ rằng một số dự án có thể có rất nhiều cột mốc, trong khi những dự án khác có thể chỉ cần hai hoặc ba cột mốc. Không hề có một con số chuẩn mực duy nhất nào về số lượng cột mốc cần thiết lập, con số này sẽ thay đổi linh hoạt tùy thuộc vào từng dự án cụ thể. Một khi bạn đã xác định được các cột mốc của mình, bước tiếp theo là gán cho mỗi cột mốc một thời hạn chót,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Deadline,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cụ thể. Khi bạn xác định thời hạn chót cho các cột mốc của mình, hãy suy nghĩ về thời gian bạn cần để hoàn thành công việc và những nguồn lực bạn có trong tay. Ví dụ, Bạn có hai hay mười người để giúp bạn hoàn thành công việc của dự án? Liệu các thành viên trong nhóm của bạn có thể dành toàn bộ thời gian của họ cho dự án này, hay họ còn phải gánh vác những trách nhiệm khác nữa? Hãy cân nhắc những câu hỏi này khi bạn ước tính thời gian cần thiết để đạt được từng cột mốc.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-14.txt": [
+    {
+      "lang": "vi",
+      "text": "Khi ấn định thời hạn cho các cột mốc, việc tham khảo ý kiến của các thành viên trong nhóm cũng là một ý kiến vô cùng sáng suốt. Đội ngũ của bạn có thể có kinh nghiệm thực tế sâu sắc về việc các nhiệm vụ nhất định thường mất bao lâu để hoàn thành. Họ cũng có thể thông báo cho bạn biết nếu họ có kế hoạch nghỉ phép hoặc các cam kết công việc khác có thể ảnh hưởng đến tiến độ. Việc trao đổi với đội ngũ của bạn sẽ giúp bạn đưa ra những ước tính thời gian thực tế hơn rất nhiều. Sau khi đã xác định được các cột mốc và gán thời hạn chót cho chúng, bước tiếp theo là trình bày các cột mốc đó trước các bên liên quan và xin sự phê duyệt chính thức. Bạn có thể làm điều này bằng cách tổ chức một cuộc họp ngắn hoặc gửi cho họ một bản tóm tắt qua",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hãy chuẩn bị sẵn sàng để giải thích lý do tại sao bạn chọn những cột mốc đó và cách thức chúng dẫn dắt dự án tới thành công. Các bên liên quan có thể có những phản hồi hoặc yêu cầu điều chỉnh, vì vậy, hãy giữ một tinh thần cởi mở và linh hoạt để tinh chỉnh lại các cột mốc nếu cần thiết. Một khi các cột mốc của bạn đã được các bên liên quan thông qua, đã đến lúc bạn đưa chúng vào một công cụ quản lý dự án để theo dõi tiến độ một cách trực quan. Việc có một nơi tập trung để xem xét tất cả các cột mốc và thời hạn chót sẽ giúp bạn cùng đội ngũ luôn nắm bắt rõ ràng về vị trí hiện tại của dự án và những gì sắp diễn ra tiếp theo. Và cuối cùng, đừng quên theo dõi và cập nhật tiến độ các cột mốc một cách thường xuyên. Khi bạn đạt được một cột mốc, hãy dành một khoảnh khắc để ghi nhận thành quả đó với đội ngũ của bạn! Điều này giúp duy trì năng lượng tích cực và sự gắn kết cho mọi người. Nếu bạn nhận thấy mình có nguy cơ bị chậm tiến độ ở một cột mốc nào đó, hãy chủ động tìm hiểu nguyên nhân và đưa ra các giải pháp khắc phục càng sớm càng tốt. Tóm lại, để thiết lập các cột mốc, bạn cần, đánh giá dự án tổng thể, xác định các hạng mục lớn mang tính bước ngoặt, gán thời hạn chót thực tế, xin phê duyệt từ các bên liên quan, đưa vào công cụ theo dõi, và liên tục giám sát tiến độ. Tiếp theo, chúng ta sẽ học cách bóc tách các cột mốc này thành những nhiệm vụ chi tiết thông qua một công cụ đắc lực gọi là Cấu trúc Phân rã Công việc,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Work Breakdown Structure.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hẹn gặp lại bạn ở bài học tới!.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-15.txt": [
+    {
+      "lang": "vi",
+      "text": "TẠO LẬP CẤU TRÚC PHÂN RÃ CÔNG VIỆC,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "CREATING A WORK BREAKDOWN STRUCTURE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Chúng ta vừa thảo luận về cách thiết lập các cột mốc. Bây giờ, chúng ta sẽ học cách quản lý nhiều nhiệm vụ dẫn tới từng cột mốc đó thông qua việc tạo ra một Cấu trúc Phân rã Công việc. Hãy bắt đầu bằng một định nghĩa chuẩn xác, Cấu trúc Phân rã Công việc, thường được viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S, Work Breakdown Structure,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là một công cụ giúp sắp xếp các cột mốc và nhiệm vụ của một dự án theo cấu trúc phân cấp, theo đúng thứ tự mà chúng cần phải được hoàn thành. Đây là một công cụ vô cùng hữu ích vì nó giúp chia nhỏ những thách thức đôi khi rất đáng sợ của một dự án thành những phần việc vừa sức và dễ quản lý hơn nhiều. Những dự án khổng lồ như xuất bản một báo cáo chuyên ngành hay tổ chức một hội nghị tầm cỡ sẽ trở nên bớt choáng ngợp hơn rất nhiều khi khối lượng công việc cần làm được bóc tách từng bước một với một lộ trình rõ ràng từ điểm khởi đầu cho đến khi kết thúc dự án. Chúng ta hãy cùng xem xét một ví dụ, về cấu trúc phân rã công việc cơ bản. Có rất nhiều cách khác nhau để thiết kế một biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nhưng một cách tiếp cận phổ biến nhất là tạo ra một sơ đồ cây,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Tree Diagram,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "thể hiện các nhiệm vụ của dự án. Giả sử chúng ta đang xây dựng một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cho đợt ra mắt trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Ở tầng cao nhất của sơ đồ là tên của dự án. Tầng thứ hai của sơ đồ sẽ chia nhỏ dự án thành ba cột mốc chính, bao gồm, xin phê duyệt thiết kế, lập trình trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và tích hợp phản hồi từ người dùng. Ở tầng thứ ba của biểu đồ, chúng ta có thể thấy mỗi cột mốc đó lại tiếp tục được phân rã chi tiết thành một chuỗi các nhiệm vụ dự án cụ thể. Lấy ví dụ, các nhiệm vụ được liệt kê bên dưới cột mốc phê duyệt thiết kế sẽ bao gồm, vẽ phác thảo các bản thiết kế ban đầu và thu thập ý kiến phản hồi. Đây là một ví dụ, rất đơn giản về cấu trúc phân rã công việc. Ở đây, chúng ta mới chỉ tạo một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cho một trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "mới, vốn chỉ là một trong số các sản phẩm bàn giao của Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hãy nhớ rằng trong các vai trò quản lý dự án tương lai, rất có thể bạn sẽ phải tạo ra một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "bao quát toàn bộ các nhiệm vụ cho trọn vẹn cả một dự án lớn.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-16.txt": [
+    {
+      "lang": "vi",
+      "text": "Khi bạn xây dựng một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "có một quy tắc vàng rất quan trọng mà bạn nên áp dụng, được gọi là Quy tắc một trăm phần trăm, một trăm phần trăm",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Rule.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Quy tắc này khẳng định rằng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "phải bao hàm một trăm phần trăm khối lượng công việc được định nghĩa trong phạm vi dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Scope,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "không hơn và không kém. Điều này có nghĩa là mọi sản phẩm bàn giao và mọi nhiệm vụ cần thiết để hoàn thành dự án đều phải xuất hiện trong",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của bạn, và ngược lại, bất kỳ công việc nào không thuộc về dự án thì tuyệt đối không được đưa vào đây. Tuân thủ quy tắc một trăm phần trăm sẽ giúp bạn bảo đảm rằng không có bất kỳ đầu việc quan trọng nào bị bỏ sót hay lãng quên. Một khi bạn đã hoàn thiện",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của mình, bước tiếp theo là phân công các nhiệm vụ đó cho từng thành viên trong đội ngũ của bạn. Khi phân chia công việc, điều cốt yếu là bạn phải cân nhắc đến khối lượng công việc,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Workload,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tổng thể của từng cá nhân. Hãy cẩn trọng để không dồn ép quá nhiều nhiệm vụ lên vai một người trong khi những người khác lại có quá ít việc để làm. Việc mất cân bằng tải trọng công việc có thể dẫn đến tình trạng kiệt sức,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Burnout,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "gây căng thẳng và làm suy giảm sĩ khí của cả nhóm. Khi mọi người cảm thấy bị quá tải, chất lượng công việc của họ có thể bị ảnh hưởng nghiêm trọng hoặc họ có thể cần thêm nhiều thời gian hơn để hoàn thành các đầu việc, từ đó đẩy toàn bộ tiến độ thời gian và kế hoạch chung của dự án vào vùng nguy hiểm. Với tư cách là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nhiệm vụ của bạn là bảo đảm rằng các đồng đội của mình luôn nắm bắt một cách rành mạch và rõ ràng về những nhiệm vụ được giao. Bạn có thể thực hiện điều này một cách dễ dàng thông qua sự hỗ trợ của các công cụ quản lý dự án hiện đại như Asana, một công cụ mà cá nhân tôi sử dụng rất nhiều trong công việc thường nhật tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Khi bạn quản lý một dự án trên Asana, bạn sẽ thêm các nhiệm vụ để đại diện cho những phần việc hành động cụ thể cần làm để hoàn thành dự án. Theo kinh nghiệm thực tiễn tốt nhất, bạn nên bắt đầu mỗi tên nhiệm vụ bằng một động từ hành động rõ ràng. Chẳng hạn, thay vì chỉ gõ chung chung là trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hãy ghi rõ nhiệm vụ là vẽ phác thảo giao diện trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc thêm hình ảnh vào trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một yếu tố quan trọng khác cần lưu ý khi giao việc là tiến độ thời gian. Hãy luôn bảo đảm rằng bạn đã gán một người phụ trách cụ thể,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Assignee,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và một thời hạn hoàn thành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Due Date,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cho từng nhiệm vụ để mọi người đều minh bạch về việc ai làm cái gì và khi nào phải xong.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-17.txt": [
+    {
+      "lang": "vi",
+      "text": "Cuối cùng, hãy cố gắng bổ sung càng nhiều thông tin chi tiết liên quan đến nhiệm vụ càng tốt để tránh xảy ra hiểu lầm hoặc thông tin sai lệch. Trên Asana, bạn có thể bấm vào chi tiết nhiệm vụ để thêm các thông tin hữu ích. Tại đây, bạn có thể viết mô tả công việc, đính kèm liên kết tới các tệp tin hoặc tài liệu liên quan, hay thậm chí để lại các bình luận trao đổi trực tiếp về công việc đó. Việc phân chia nhiệm vụ mang lại vô số lợi ích, nhưng lợi ích to lớn nhất chính là nó giải phóng bạn khỏi những chi tiết vi mô để bạn có thể tập trung trọn vẹn vào bức tranh lớn của việc quản trị dự án. Bằng cách này, bạn có thể hoàn toàn yên tâm khi biết rằng các cộng sự của mình đang chịu trách nhiệm cho những phần việc cụ thể. Bên cạnh đó, việc giao việc còn đem lại những lợi ích ít hiển hiện hơn. Chúng ta hãy cùng khám phá sâu hơn những lợi ích này. Một lợi ích thầm lặng nhưng sâu sắc của việc phân công nhiệm vụ là nó khơi dậy ý thức trách nhiệm cá nhân,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Personal Responsibility,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cho các thành viên trong nhóm. Khi bạn giao một nhiệm vụ cho một cộng sự, bạn đã thiết lập một sự cam kết ngầm với người đó rằng họ sẽ là người làm chủ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Own,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nhiệm vụ đó cho đến khi nó được hoàn thành trọn vẹn. Tạo dựng tinh thần làm chủ công việc,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Ownership,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cho các thành viên là điều vô cùng hệ trọng, bởi vì, nó khiến họ cảm thấy mình thực sự gắn bó và cống hiến cho dự án. Nó cũng mở ra không gian để họ phát triển năng lực bản thân. Thêm vào đó, điều này còn hỗ trợ đắc lực cho việc rèn giũa kỹ năng quản lý của chính bạn, giúp bạn trở thành một nhà lãnh đạo biết trao quyền và luôn sẵn lòng hỗ trợ cấp dưới. Trên hết, nó giữ cho đội ngũ của bạn luôn tràn đầy động lực và quyết tâm hoàn thành công việc đúng thời hạn. Dù mỗi thành viên đều nên có ý thức trách nhiệm đối với nhiệm vụ của mình, nhưng đôi khi gánh nặng làm chủ toàn bộ có thể khiến một số người cảm thấy bị choáng ngợp. Nếu rơi vào trường hợp đó, người quản lý dự án nên khích lệ các thành viên chủ động hỗ trợ và san sẻ công việc lẫn nhau. Đây cũng là một phương thức tuyệt vời để bồi đắp tinh thần đoàn kết và gắn bó keo sơn cho cả tập thể. Bạn đã nắm vững tất cả những điều đó chưa? Rất tuyệt vời. Tóm lại, bạn đã học được về cấu trúc phân rã công việc",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và cách phân chia nhiệm vụ cho các thành viên trong đội ngũ của mình. Hẹn gặp lại bạn ở",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tiếp theo để cùng điểm lại những gì chúng ta đã cùng nhau khám phá qua các bài học vừa qua!.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-18.txt": [
+    {
+      "lang": "vi",
+      "text": "QUẢN LÝ DỰ ÁN ĐẦU TAY CỦA TÔI, CÂU CHUYỆN CỦA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "STANTON, MANAGING MY FIRST PROJECT, STANTON'S STORY",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chào các bạn, tôi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Stanton,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Giám đốc Chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "YouTube.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Khi nhớ lại một trong những dự án đầu tiên mà tôi từng phụ trách, đội ngũ của chúng tôi khi đó được giao nhiệm vụ phát triển một ứng dụng xem lại các pha bóng nổi bật trong thể thao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Sports Highlight App.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Thế nhưng đó không chỉ đơn thuần là một ứng dụng duy nhất, mà là một hệ thống đa nền tảng, vừa là ứng dụng trên hệ điều hành",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "iOS,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "vừa là ứng dụng trên",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Android,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "lại vừa là một trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "hoàn chỉnh. Và tôi vẫn nhớ như in buổi họp đầu tiên mà tôi tham dự, tôi đã điên cuồng cắm cúi ghi chép từng câu từng chữ và cố gắng hết sức để hiểu xem chuyện quái quỷ gì đang thực sự diễn ra xung quanh mình. Ngay sau buổi họp đó, trong đầu tôi lóe lên một suy nghĩ, Được rồi, đây là dự án đầu tay của mình, mình bắt buộc phải làm đúng từng li từng tí một. Mình phải đảm bảo rằng chúng ta nắm rõ từng chi tiết nhỏ nhất sắp sửa xảy ra. Ngày ra mắt sản phẩm phải đạt tới độ hoàn hảo không tì vết. Chúng ta phải tiêu diệt sạch sẽ mọi lỗi kỹ thuật,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Bugs,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "về con số không tròn trĩnh. Tôi đã bị cuốn hoàn toàn vào nỗi ám ảnh phải làm đúng mọi thứ ngay từ lần đầu tiên. Nhưng tôi nghĩ điều tôi chiêm nghiệm được sâu sắc kể từ dạo đó là, Bạn gần như chắc chắn sẽ không bao giờ có được một bản kế hoạch dự án hoàn hảo ngay từ lần đầu, đơn giản là vì có quá nhiều biến số có thể thay đổi bất ngờ. Bạn có thể bất thình lình phát hiện ra một lỗi phần mềm nghiêm trọng vào phút chót ngay trước giờ bấm nút ra mắt. Khách hàng của bạn có thể đột ngột bước vào phòng và tuyên bố họ muốn thay đổi các yêu cầu, chẳng hạn, như, Màn hình này phải đổi sang màu xanh da trời thay vì màu đỏ. Và rồi bạn ngã ngửa ra rằng việc chuyển đổi từ màu đỏ sang màu xanh trên hệ thống thực chất chẳng hề dễ dàng chút nào. Nếu tôi có thể quay ngược thời gian và nhắn nhủ với chính bản thân mình lúc đó xem nên làm gì, hoặc điều gì tôi có thể làm khác đi, tôi sẽ chỉ nói với mình một câu đơn giản, Đừng quá lo lắng, thay đổi là điều tất yếu của cuộc sống. Cách bạn phản ứng và đối diện với những thay đổi đó mới là điều thực sự quan trọng hơn cả. Tôi nghĩ một trong những lời khen ngợi tuyệt vời nhất mà tôi từng nhận được từ đồng nghiệp là, Ngay cả giữa mớ hỗn độn này, trông anh vẫn luôn giữ được sự điềm tĩnh, lạnh lùng và đĩnh đạc. Bạn bình tâm suy xét xem những vấn đề thực sự đã xảy ra là gì, chúng ta có thể giải quyết chúng bằng cách nào, và bạn cứ thế vận dụng chuyên môn quản trị chương trình của mình để xử lý. Bạn sẽ không thể nào luôn luôn có sẵn câu trả lời chuẩn xác ngay từ giây phút đầu tiên, mọi thứ hoàn toàn có thể đảo lộn vào phút chót.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-19.txt": [
+    {
+      "lang": "vi",
+      "text": "Nếu bạn có thể giữ cho mình một cái đầu lạnh và sự điềm tĩnh, hãy đảm bảo rằng bạn luôn thấu suốt mọi điều đang diễn ra xung quanh dự án. Bao nhiêu năm tháng trong nghề đã dạy cho tôi một bài học quý giá rằng, Bạn luôn có thể tái sử dụng lại một số kinh nghiệm cũ. Bạn sẽ luôn phải linh hoạt phản ứng trước những tình huống bất ngờ, nhưng dù trong bất kỳ hoàn cảnh nào, hãy luôn nỗ lực tư duy một cách chủ động,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Proactively,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cố gắng dự liệu trước những vấn đề tiềm ẩn có thể nảy sinh, và bạn chắc chắn sẽ ngày càng trở nên bản lĩnh, vững vàng hơn trong sự nghiệp của mình. CÁCH LẬP KẾ HOẠCH TẠO DỰNG TINH THẦN ĐỒNG ĐỘI, CÂU CHUYỆN CỦA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "CLENNITA, HOW PLANNING CREATES A SENSE OF TEAM, CLENNITA'S STORY",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chào các bạn. Tên tôi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Clennita,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và tôi là Giám đốc Chương trình Kỹ thuật Cấp cao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Senior Engineering Program Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Giai đoạn lập kế hoạch trong quản trị dự án về bản chất chính là khoảng thời gian mà bạn tạm lùi lại một bước để suy ngẫm sâu sắc về phạm vi thực sự của dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Scope.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đâu là những vấn đề cốt lõi mà chúng ta đang cần phải giải quyết? Khi nhìn nhận về công tác lập kế hoạch cho các dự án, điều mang tính sống còn là bạn phải hiểu rõ mình đang xây dựng cái gì, mình đang xây dựng nó cho ai, và mình có bao nhiêu thời gian để hoàn thành nó. Chúng tôi luôn xem xét kỹ lưỡng các yếu tố rủi ro, để đảm bảo rằng mình nắm chắc những điều gì có nguy cơ làm trật bánh dự án. Và nếu có thể, chúng tôi sẽ xây dựng các phương án giảm thiểu rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Mitigation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "để phòng tránh bất kỳ mối nguy nào mà chúng tôi có thể chạm trán dọc đường. Hoặc đơn giản là luôn luôn tỉnh táo nhận thức về những khía cạnh như phạm vi công việc. Chúng tôi cũng đặc biệt chú trọng tới yếu tố thời gian, Có thời hạn chót,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Deadline,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nào mà chúng tôi bắt buộc phải cán đích hay không? Và nếu có, liệu chúng tôi có đủ thời gian để chạm tới thời hạn đó hay không? Chúng tôi đánh giá toàn diện khối lượng công việc cần làm, nhằm thấu hiểu xem liệu những phần việc cần thiết để đáp ứng các yêu cầu đó có khớp vừa vặn với quỹ thời gian mà chúng tôi đang có hay không. Chúng tôi cũng xem xét cẩn trọng kế hoạch kiểm thử,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Testing Plan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "kế hoạch kiểm thử sẽ ra sao, thành công sẽ được định nghĩa như thế nào, để chúng tôi luôn biết rõ đích nhắm của mình là gì, nhờ đó, khi chúng tôi chạm tới mục tiêu và tiến hành thẩm định, chúng tôi đã nắm rõ những chỉ số đo lường,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Metrics,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mà mình kỳ vọng sẽ đạt được. Tôi là một người đam mê lập kế hoạch, điều đó dường như đã ăn sâu vào bản năng tự nhiên của tôi. Lập kế hoạch tạo ra một giai điệu chung cho những gì chúng ta thực sự đang cùng nhau thực hiện. Nó kiến tạo nên một tinh thần đồng đội đích thực. Công tác lập kế hoạch cũng giúp gióng hàng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Align,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tất cả mọi người, giúp từng thành viên thấu suốt mục tiêu mà cả nhóm đang cùng hướng tới là gì, đích đến của chúng ta ở đâu, và thành công trông sẽ như thế nào.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-20.txt": [
+    {
+      "lang": "vi",
+      "text": "Đó thực sự là không gian nơi chúng ta tề tựu lại để bảo đảm rằng tất cả mọi người đều đang cùng nhìn về một hướng và cùng bước đi trên một con đường. Khi bạn thiếu đi điều đó, mọi thứ sẽ bắt đầu rơi rụng và thất lạc. Bạn sẽ không nói chuyện với đúng người cần nói, bạn sẽ gặp phải những sự cố giao tiếp sai lệch,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Miscommunications,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mọi thứ bị đình trệ chậm trễ mà bạn chẳng thể nào hiểu nổi nguyên nhân tại sao, mọi người không cảm thấy thoải mái khi chia sẻ về tiến độ đang diễn ra, và họ thực sự cũng chẳng cảm thấy an tâm để lên tiếng khi những vấn đề rắc rối phát sinh. Vì vậy, bạn luôn muốn thiết lập một giai điệu tinh thần rằng, Tất cả chúng ta đều đang ngồi chung trên một con thuyền, tất cả chúng ta sẽ cùng nhau gặt hái thành công, và chắc chắn chúng ta sẽ vấp phải những chướng ngại vật, chúng ta sẽ phải đối mặt với những vấn đề hóc búa, nhưng chúng ta sẽ cùng nhau tháo gỡ và giải quyết tất cả với tư cách là một đội ngũ gắn kết! TỔNG KẾT, BẮT ĐẦU GIAI ĐOẠN LẬP KẾ HOẠCH,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "REVIEW, BEGINNING THE PLANNING PHASE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Chào bạn đã quay trở lại! Qua những bài học vừa rồi, chúng ta đã cùng nhau thảo luận sâu sắc về cách thức khởi động Giai đoạn Lập kế hoạch,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Planning Phase,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "trong vòng đời dự án. Đây chính là nơi bạn sẽ xây dựng tiến độ thời gian,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Schedule,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "thiết lập ngân sách,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Budget,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và chuẩn bị sẵn sàng kế hoạch quản trị rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Management Plan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cho dự án của mình. Bạn cũng đã tìm hiểu về một cấu phần tối quan trọng trong giai đoạn lập kế hoạch, Cuộc họp Khởi động Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Kick-off Meeting.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là thời khắc mang tính bước ngoặt nơi bạn có thể gặp gỡ trực tiếp đội ngũ của mình cùng các bên liên quan để cùng nhau thiết lập một tầm nhìn chung, thống nhất về phạm vi công việc, xây dựng sự gắn kết đồng đội, giải đáp các thắc mắc và đặt ra những kỳ vọng rõ ràng. Chúng ta cũng đã thảo luận kỹ lưỡng về các cột mốc,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Milestones,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "những thời điểm trọng yếu trong tiến độ dự án biểu thị cho bước tiến rõ rệt. Và chúng ta cũng đã tìm hiểu về các nhiệm vụ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Tasks,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "những hoạt động cụ thể cần phải được hoàn thành trong một khoảng thời gian xác định. Sau đó, bạn đã hiểu được giá trị to lớn của các cột mốc và các bước để thiết lập chúng một cách chuẩn xác. Cuối cùng, bạn đã học được cách lấy những cột mốc đó, bóc tách chúng thành các nhiệm vụ chi tiết và ghi nhận toàn bộ thông tin đó vào một Cấu trúc Phân rã Công việc,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Work Breakdown Structure",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong học phần tiếp theo, chúng ta sẽ cùng nhau khám phá sâu hơn về việc ước tính thời gian và thiết lập một bản tiến độ dự án hoàn chỉnh. Hẹn sớm gặp lại bạn!.",
+      "pause_type": "terminal"
+    }
+  ]
+}

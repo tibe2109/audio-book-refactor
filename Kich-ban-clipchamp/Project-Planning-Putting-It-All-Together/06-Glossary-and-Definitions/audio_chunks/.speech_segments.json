@@ -1,0 +1,1400 @@
+{
+  "Kich-ban-1.txt": [
+    {
+      "lang": "vi",
+      "text": "CHƯƠNG SÁU, BẢNG THUẬT NGỮ VÀ ĐỊNH NGHĨA KHÓA HỌC BA , BẢNG THUẬT NGỮ QUẢN TRỊ DỰ ÁN, LẬP KẾ HOẠCH TỔNG THỂ , Chào mừng bạn đến với bảng tra cứu thuật ngữ chuyên sâu của Khóa học ba, Lập kế hoạch Dự án, Kết nối Toàn diện. Đây là kho tàng định nghĩa chuẩn mực quốc tế giúp bạn củng cố, tra cứu và làm chủ toàn bộ ngôn ngữ chuyên môn của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "chuyên nghiệp. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "B",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Backward pass,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Kỹ thuật duyệt ngược, Phương pháp bắt đầu từ nhiệm vụ hoặc cột mốc cuối cùng của dự án, sau đó đi ngược dần về điểm khởi đầu trên lịch trình để xác định đường tiến độ ngắn nhất và tính toán các khoảng thời gian đệm khả dĩ.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Baseline,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Đường cơ sở, Mốc giá trị chuẩn, thường là số tiền ngân sách hoặc mốc tiến độ cố định được phê duyệt, dùng làm thước đo chuẩn mực để so sánh xem dự án đang đi đúng hay lệch hướng và đánh giá mức độ thành công chung cuộc.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Baseline a budget,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Thiết lập đường cơ sở ngân sách, Hành động phê duyệt và cố định một mốc ngân sách tham chiếu làm điểm tựa chuẩn mực, nhằm đo lường, theo dõi và so sánh tiến độ giải ngân thực tế của dự án trong suốt quá trình triển khai.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Bottom-up approach,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Phương pháp ước tính từ dưới lên, Phương pháp tiếp cận mang tính chi tiết, trong đó bạn bóc tách và tư duy về tất cả các phần việc cấu thành dự án từ đầu đến cuối, lập danh sách tất cả các hạng mục phát sinh chi phí, rồi cộng dồn toàn bộ lại để ra tổng ngân sách.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Budget,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Ngân sách, Tổng nguồn lực tài chính ước tính cần thiết phải huy động để đạt được các mục tiêu và kết quả đã cam kết của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Budget pre-allocation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Tiền phân bổ ngân sách, Tình huống mà trong đó ngân sách hoặc hạn mức chi tiêu đã được ban lãnh đạo hoặc nhà tài trợ ấn định cứng từ trước khi dự án chính thức bấm nút khởi động.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Budget risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Rủi ro ngân sách, Khả năng chi phí thực tế của dự án sẽ tăng vọt vượt tầm kiểm soát do khâu lập kế hoạch sơ sài hoặc do sự phình to phạm vi công việc.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Buffer,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Thời gian đệm, Khoảng thời gian dự phòng được cộng thêm vào cuối một nhiệm vụ hoặc cuối toàn bộ dự án, nhằm hấp thụ những sự cố chậm trễ ngoài ý muốn trong quá trình thi công.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-2.txt": [
+    {
+      "lang": "vi",
+      "text": "CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ C.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Capacity,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Năng lực đáp ứng, Khối lượng công việc tối đa mà các nhân sự hoặc nguồn lực được phân bổ cho dự án có thể hoàn thành một cách hợp lý trong một khoảng thời gian nhất định.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Capacity planning,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Lập kế hoạch năng lực đáp ứng, Hành động phân bổ nhân lực và tài nguyên vào từng nhiệm vụ cụ thể, đồng thời, đánh giá xem liệu dự án đã huy động đủ nguồn lực cần thiết để hoàn thành công việc đúng hạn định hay chưa.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "C-A-P-E-X,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chi phí vốn,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Capital Expenses,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Các khoản chi phí đầu tư tài sản cố định mà doanh nghiệp bỏ ra nhằm tạo ra lợi ích kinh tế lâu dài trong tương lai.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Cash flow,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Dòng tiền, Sự chuyển dịch, luân chuyển vào và ra của dòng tiền mặt trong một dự án theo từng mốc thời gian.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Cause-and-effect diagram,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Biểu đồ nguyên nhân và kết quả, Công cụ trực quan thể hiện tất cả các nguyên nhân tiềm ẩn có thể dẫn tới một biến cố hay rủi ro cụ thể, thường được gọi thân thuộc là biểu đồ xương cá,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Fishbone Diagram. Communication,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Truyền thông, Dòng chảy liên tục của thông tin, bao hàm tất cả những gì được sẻ chia, phương thức thông tin được truyền đi, và đối tượng tiếp nhận thông tin đó.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Communication plan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Kế hoạch truyền thông, Bản tài liệu sống giúp định hình, tổ chức quy trình, các kênh giao tiếp và những kỳ vọng về mặt truyền thông xuyên suốt dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Contingency budget,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Ngân sách dự phòng rủi ro, Khoản tiền được tính toán bổ sung vào dự toán để ứng phó với những biến cố bất ngờ chưa lường trước, vốn chưa được hạch toán trong bảng ước tính chi phí ban đầu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Contingency reserves,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Dự phòng rủi ro đã xác định, Khoản tiền dự phòng được bổ sung trực tiếp vào chi phí ước tính của dự án nhằm kiểm soát và xử lý các rủi ro đã được nhận diện trong sổ đăng ký rủi ro.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Cost of quality,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chi phí chất lượng, Toàn bộ các chi phí phát sinh để phòng ngừa lỗi, đảm bảo quy trình và kiểm định sản phẩm không gặp sự cố khi bàn giao.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Cost performance index,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "C-P-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chỉ số hiệu suất chi phí, Tỷ số toán học giữa giá trị công việc thực tế đã hoàn thành so với chi phí thực tế đã bỏ ra, phản ánh mức độ hiệu quả trong việc sử dụng ngân sách.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Cost variance,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "C-V,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chênh lệch chi phí, Khoảng chênh lệch số học giữa giá trị ngân sách dự kiến phải chi so với số tiền thực tế đã giải ngân cho khối lượng công việc đã hoàn tất tại một thời điểm nhất định.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Critical path,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Đường găng, Chuỗi các cột mốc và nhiệm vụ bắt buộc phải hoàn thành đúng hạn tuyệt đối để đảm bảo dự án về đích đúng tiến độ cam kết, bất kỳ sự chậm trễ nào trên đường găng đều sẽ làm chậm trễ toàn bộ dự án.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-3.txt": [
+    {
+      "lang": "vi",
+      "text": "CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ D.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Decision tree,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Cây quyết định, Một lưu đồ trực quan giúp mô phỏng và hình dung những tác động lan tỏa sâu rộng của một quyết sách lên toàn bộ phần còn lại của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Dependency,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Mối phụ thuộc công việc, Mối quan hệ ràng buộc giữa hai nhiệm vụ trong dự án, trong đó việc bắt đầu hoặc hoàn thành của nhiệm vụ này phụ thuộc trực tiếp vào việc bắt đầu hoặc kết thúc của nhiệm vụ kia.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Dependency graph,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Sơ đồ mối phụ thuộc, Bản biểu đồ trực quan mô tả các mối liên kết phụ thuộc chằng chịt trong dòng chảy công việc của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Direct costs,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chi phí trực tiếp, Những khoản chi phí phát sinh trực tiếp và gắn liền độc quyền với việc thực thi các hoạt động của dự án. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ E.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Earliest start date,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Ngày bắt đầu sớm nhất, Trong phương pháp đường găng, đây là thời điểm sớm nhất có thể mà một nhiệm vụ cụ thể hoặc toàn bộ dự án được phép bấm nút bắt đầu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Earned value management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "E-V-M,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Quản trị giá trị thu được, Một kỹ thuật quản lý dự án chuẩn mực quốc tế, nơi hiệu suất thực tế về ngân sách và tiến độ được giám sát định kỳ một cách khách quan so với kế hoạch cơ sở ban đầu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Effort estimation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Ước tính nỗ lực, Dự báo định lượng về khối lượng công việc thực tế và độ phức tạp cần thiết để hoàn thành một nhiệm vụ.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Empathy,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Sự thấu cảm, Năng lực tâm lý thấu hiểu, đồng cảm và sẻ chia với những suy nghĩ, cảm xúc và góc nhìn của những người xung quanh.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Ethical trap,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Cạm bẫy đạo đức, Một tình huống tiến thoái lưỡng nan hoặc áp lực công việc có thể khiến một cá nhân đưa ra những quyết định sai trái, vi phạm chuẩn mực đạo đức nghề nghiệp. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "F",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Finish-to-finish,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "F-F,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Quan hệ kết thúc đến kết thúc, Mối quan hệ phụ thuộc trong đó nhiệm vụ thứ nhất bắt buộc phải hoàn thành thì nhiệm vụ thứ hai mới có thể hoàn tất.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Finish-to-start,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "F-S,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Quan hệ kết thúc đến bắt đầu, Mối quan hệ phụ thuộc phổ biến nhất, trong đó nhiệm vụ thứ nhất bắt buộc phải kết thúc xong xuôi thì nhiệm vụ thứ hai mới được phép bắt đầu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Fishbone diagram,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Biểu đồ xương cá, Công cụ trực quan giúp mổ xẻ các nguyên nhân gốc rễ dẫn tới một sự cố hay rủi ro, còn gọi là biểu đồ nguyên nhân và kết quả.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Fixed contract,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Hợp đồng trọn gói, Loại hợp đồng mà nhà cung cấp sẽ được chi trả một số tiền cố định khi các cột mốc sản phẩm cụ thể được nghiệm thu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Fixed costs,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chi phí cố định, Những khoản chi phí không thay đổi bất kể quy mô công việc hay thời gian triển khai của dự án biến động ra sao.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Fixed start date,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Ngày bắt đầu cố định, Mốc ngày bất biến bắt buộc công việc phải khởi động để có thể kịp cán đích mục tiêu chung.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-4.txt": [
+    {
+      "lang": "en",
+      "text": "Float,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Thời gian dự trữ, Khoảng thời gian mà một nhiệm vụ có thể trì hoãn việc bắt đầu mà không làm chậm trễ tiến độ tổng thể của toàn bộ dự án, còn được gọi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Slack. Forecast,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Dự báo, Một bản ước tính hoặc dự đoán khoa học về chi phí, nguồn lực hoặc tiến độ trong một khoảng thời gian tương lai.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Forward pass,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Kỹ thuật duyệt xuôi, Phương pháp tính toán tiến độ bắt đầu từ nhiệm vụ đầu tiên và tiến dần về phía cuối dự án để xác định thời điểm hoàn thành sớm nhất. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ G.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt chart,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Biểu đồ thanh ngang trực quan hóa toàn bộ lịch trình và các nhiệm vụ của dự án, thể hiện rõ ràng ai chịu trách nhiệm cho phần việc nào và thời hạn hoàn thành tương ứng. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ H.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "High-level risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Rủi ro cấp cao, Một rủi ro đặc biệt nghiêm trọng có khả năng tàn phá sự thành công của toàn bộ dự án, đòi hỏi phải truyền thông trực tiếp và sâu sát với các bên liên quan để thống nhất kế hoạch ứng phó. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ I.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Impact,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Mức độ tác động, Thiệt hại hoặc tổn thất mà một rủi ro có thể gây ra cho dự án nếu nó xảy ra trên thực tế, được đo lường theo ba cấp độ Cao, Trung bình hoặc Thấp.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Indirect costs,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chi phí gián tiếp, Những khoản chi phí hỗ trợ vận hành chung không thể quy trực tiếp cho một nhiệm vụ hay dự án đơn lẻ nào, chẳng hạn, như tiền thuê mặt bằng hay tiện ích văn phòng.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Inherent risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Rủi ro vốn có, Thước đo mức độ nghiêm trọng nội tại của một rủi ro, được tính toán từ sự kết hợp giữa xác suất xảy ra và mức độ tác động của nó.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Issue,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Vấn đề phát sinh, Một sự cố thực tế, một rắc rối đã được biết rõ hoặc đang hiện hữu trực tiếp cản trở khả năng hoàn thành công việc của đội ngũ. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "K",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Kanban",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "board,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Bảng Kanban, Công cụ trực quan hóa luồng công việc giúp phân loại và quản lý trạng thái các nhiệm vụ qua các cột trực quan như việc cần làm, đang làm và đã hoàn thành.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Kickback,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Tiền lại quả, hoa hồng đen, Một hành vi tham nhũng bất hợp pháp, trong đó một tỷ lệ phần trăm giá trị hợp đồng được hứa hẹn chi trả ngầm cho người có thẩm quyền để đổi lấy việc trúng thầu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Knowledge management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Quản trị tri thức, Chuẩn mực đảm bảo các dữ liệu, tài liệu và bài học kinh nghiệm của dự án được lưu trữ tập trung, để người khác có thể dễ dàng truy xuất trong tương lai nhằm ra quyết định hoặc dẫn dắt các dự án tương tự.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-5.txt": [
+    {
+      "lang": "vi",
+      "text": "CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "L",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Latest start date,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Ngày bắt đầu muộn nhất, Trong phương pháp đường găng, đây là thời điểm muộn nhất mà một nhiệm vụ có thể bắt đầu mà không làm chậm trễ ngày bàn giao cuối cùng của toàn dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Leverage experts,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Tận dụng chuyên gia, Việc chủ động tham vấn và khai thác những hiểu biết sâu sắc của các chuyên gia đầu ngành để thực thi công việc một cách thông minh và hiệu quả hơn.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Low-level risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Rủi ro cấp thấp, Một rủi ro có mức độ ảnh hưởng nhỏ và xác suất xảy ra thấp, người quản lý dự án có thể cân nhắc linh hoạt việc có cần thông báo cho các bên liên quan hay không. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ M.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Management reserves,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Dự phòng quản lý, Khoản ngân sách được ban lãnh đạo trích lập riêng để ứng phó với những rủi ro hoàn toàn chưa biết,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Unknown Risks,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nằm ngoài phạm vi đường cơ sở.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Medium-level risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Rủi ro cấp trung bình, Rủi ro có khả năng tác động đáng kể đến dự án, cần được trao đổi trực tiếp và kịp thời với các bên liên quan.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Milestone,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Cột mốc, Một thời điểm trọng đại trên dòng thời gian của dự án, đánh dấu sự tiến bộ vượt bậc và thường gắn liền với việc hoàn tất một giai đoạn hoặc bàn giao một sản phẩm chủ chốt. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ N.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Need-to-know basis,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Nguyên tắc thực sự cần biết, Chuẩn mực bảo mật thông tin, theo đó chỉ cung cấp đúng những dữ kiện cần thiết cho một cá nhân vào đúng thời điểm họ cần biết, và tuyệt đối không chia sẻ thừa thãi.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Network diagram,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Sơ đồ mạng lưới, Bản vẽ trực quan mô tả trình tự",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "logic",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của các nhiệm vụ trong dự án theo đúng trật tự của các mối liên kết phụ thuộc.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Non-disclosure agreement,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "N-D-A,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Thỏa thuận bảo mật thông tin, Một văn bản pháp lý ràng buộc các bên phải giữ kín những thông tin bí mật kinh doanh bên trong tổ chức. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ O.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Open-ended question,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Câu hỏi mở, Dạng câu hỏi khuyến khích câu trả lời sâu sắc, gợi mở thông tin, không thể trả lời đơn thuần bằng một từ có hoặc không.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "O-P-E-X,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chi phí vận hành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Operating Expenses,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Toàn bộ các khoản chi phí phát sinh hằng ngày phục vụ cho các hoạt động vận hành thường nhật của doanh nghiệp.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Optimism bias,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Thiên kiến lạc quan, Khuynh hướng tâm lý con người tin rằng mình ít có khả năng gặp phải những biến cố tiêu cực hơn so với thực tế khách quan.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-6.txt": [
+    {
+      "lang": "vi",
+      "text": "CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ P.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Parallel tasks,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Các nhiệm vụ song song, Những công việc độc lập có thể diễn ra đồng thời, cùng một lúc với các nhiệm vụ khác mà không bị ràng buộc cản trở nhau.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Personally identifiable information,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "P-I-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Thông tin nhận dạng cá nhân, Bất kỳ dữ liệu nào có thể được sử dụng độc lập hoặc kết hợp để định danh, liên lạc hoặc xác định chính xác một con người, bao gồm địa chỉ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "số điện thoại, địa chỉ nhà, tọa độ định vị, tên đầy đủ và tên người dùng.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Planning fallacy,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Ngụy biện lập kế hoạch, Xu hướng tâm lý phổ biến của con người khi luôn đánh giá thấp thời gian cần thiết để hoàn thành một công việc, đồng thời, xem nhẹ chi phí và các rủi ro đi kèm.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Planning phase,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Giai đoạn lập kế hoạch, Giai đoạn thứ hai trong vòng đời dự án, tập trung xây dựng lịch trình tiến độ, dự toán ngân sách và kế hoạch quản trị rủi ro chi tiết.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Probability and impact matrix,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Ma trận xác suất và tác động, Công cụ trực quan dùng để lượng hóa, phân loại và sắp xếp thứ tự ưu tiên cho các rủi ro của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Probability,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Xác suất, Khả năng hoặc mức độ khả thi mà một rủi ro có thể xảy ra trong thực tế.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Procurement,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Mua sắm đấu thầu, Toàn bộ quy trình tìm kiếm, mua sắm và sở hữu tất cả các nguyên vật liệu, dịch vụ và hàng hóa cần thiết từ các nhà cung cấp bên ngoài để hoàn thành dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project budget,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Ngân sách dự án, Tổng nguồn lực tiền tệ ước tính cần thiết để hoàn thành toàn bộ các mục tiêu đề ra của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project buffer,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Thời gian đệm dự án, Khoảng thời gian dự phòng chung được bổ sung vào phần cuối cùng của toàn bộ dự án để chống trượt tiến độ.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project kick-off meeting,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Cuộc họp khởi động dự án, Buổi họp chính thức đầu tiên nơi toàn thể đội ngũ quy tụ để thấu suốt tầm nhìn chung, hiểu rõ mục tiêu, phạm vi và nắm vững vai trò cá nhân của từng người.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project management baseline,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "P-M-B,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Đường cơ sở quản lý dự án, Mốc xuất phát điểm cố định được định nghĩa rõ ràng cho dự án, tích hợp cả ba yếu tố phạm vi, ngân sách và lịch trình.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project plan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Kế hoạch dự án, Tài liệu tổng thể ghi nhận phạm vi, nhiệm vụ, cột mốc và mọi hoạt động của dự án, thường bao gồm năm yếu tố cốt lõi, nhiệm vụ, cột mốc, con người, tài liệu và thời gian.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Project task,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Nhiệm vụ dự án, Một hoạt động công việc cụ thể cần được hoàn thành trong một khoảng thời gian ấn định.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-7.txt": [
+    {
+      "lang": "vi",
+      "text": "CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Reforecast,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Tái dự báo ngân sách, Hoạt động lập ra một bản dự toán ngân sách điều chỉnh riêng biệt dựa trên tình hình theo dõi chi tiêu thực tế của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Request for proposal,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-F-P,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Yêu cầu đề xuất, Tài liệu chính thức do doanh nghiệp phát hành mô tả chi tiết yêu cầu dự án để mời các nhà thầu gửi hồ sơ giải pháp và báo giá.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Reserve analysis,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Phân tích dự phòng, Phương pháp kiểm toán, đánh giá định kỳ lượng ngân sách và thời gian dự phòng còn lại của dự án so với các rủi ro còn tiềm ẩn.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Resource cost rate,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Đơn giá nguồn lực, Chi phí đơn vị để sử dụng một nguồn lực cụ thể, chẳng hạn, như tiền công theo giờ của một chuyên gia hoặc phí thuê thiết bị theo ngày.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Rủi ro, Một biến cố tiềm tàng có khả năng xảy ra trong tương lai và gây ảnh hưởng đến kết quả của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Risk appetite,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Khẩu vị rủi ro, Mức độ sẵn lòng chấp nhận những hệ quả và tổn thất tiềm tàng từ rủi ro của một tổ chức hoặc doanh nghiệp.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Risk assessment,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Đánh giá rủi ro, Giai đoạn trong quy trình quản trị rủi ro nơi các đặc tính về xác suất và mức độ tác động của rủi ro được ước lượng và đo lường.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Risk management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Quản trị rủi ro, Toàn bộ tiến trình mang tính hệ thống nhằm nhận diện, đánh giá và áp dụng các giải pháp kiểm soát các rủi ro và sự cố tiềm ẩn của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Risk management plan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Kế hoạch quản trị rủi ro, Một tài liệu sống chứa đựng thông tin về các rủi ro đã nhận diện, các ước tính về xác suất và tác động, cùng các phương án giảm thiểu chi tiết cho từng rủi ro đó.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Risk register,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Sổ đăng ký rủi ro, Bảng biểu hoặc biểu đồ tổng hợp danh mục toàn bộ các rủi ro của dự án kèm theo các mức xếp hạng và biện pháp kiểm soát.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Root cause,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Nguyên nhân gốc rễ, Cội nguồn sâu xa ban đầu kích hoạt một tình huống dẫn tới sự xuất hiện của rủi ro. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Schedule,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Lịch trình tiến độ, Dòng thời gian của dự án, bao gồm ngày bắt đầu, ngày kết thúc và các mốc ngày diễn ra các sự kiện công việc ở giữa.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Schedule performance index,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S-P-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chỉ số hiệu suất tiến độ, Tỷ số giữa tỷ lệ phần trăm công việc thực tế đã hoàn thành so với kế hoạch tiến độ đã cam kết, phản ánh dự án đang chạy nhanh hay chậm hơn kế hoạch.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Schedule variance,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S-V,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chênh lệch tiến độ, Khoảng chênh lệch giữa khối lượng công việc dự kiến hoàn thành so với khối lượng thực tế đã hoàn tất tại một thời điểm nhất định.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Scope risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Rủi ro phạm vi, Khả năng dự án sẽ không tạo ra được những kết quả đầu ra đúng như đã cam kết trong mục tiêu dự án ban đầu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Sequential tasks,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Các nhiệm vụ tuần tự, Những công việc bắt buộc phải được triển khai và hoàn thành theo một trình tự nghiêm ngặt trước sau.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-8.txt": [
+    {
+      "lang": "en",
+      "text": "Single point of failure,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Điểm lỗi đơn lẻ, Một rủi ro mang tính chí mạng có tiềm năng gây ra thảm họa làm tê liệt và đình trệ toàn bộ hoạt động của cả dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Slack,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Khoảng thời gian chậm trễ cho phép, Khoảng thời gian một nhiệm vụ có thể bị trì hoãn so với ngày bắt đầu sớm nhất của nó mà không làm trễ hạn chót của toàn dự án, đồng nghĩa với",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Float. Soft skills,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Kỹ năng mềm, Những phẩm chất cá nhân, kỹ năng giao tiếp và ứng xử giúp con người làm việc hòa hợp và hiệu quả với những người xung quanh.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Sole-supplier sourcing,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chỉ định thầu một nhà cung cấp duy nhất, Tình huống doanh nghiệp giới hạn quy trình chào thầu cho một nhà cung cấp duy nhất, loại bỏ hoàn toàn yếu tố cạnh tranh giá.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Start-to-finish,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S-F,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Quan hệ bắt đầu đến kết thúc, Mối quan hệ phụ thuộc trong đó nhiệm vụ thứ nhất bắt buộc phải bắt đầu thì nhiệm vụ thứ hai mới có thể hoàn tất.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Start-to-start,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S-S,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Quan hệ bắt đầu đến bắt đầu, Mối quan hệ phụ thuộc trong đó nhiệm vụ thứ hai không thể bấm nút khởi động chừng nào nhiệm vụ thứ nhất chưa bắt đầu.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Statement of work,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S-O-W,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Bản mô tả phạm vi công việc, Tài liệu pháp lý quy định rõ ràng những sản phẩm, dịch vụ và tiêu chuẩn nghiệm thu mà nhà thầu phải cung cấp cho doanh nghiệp.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Subtasks,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Các nhiệm vụ con, Những phần việc nhỏ hơn được chia tách từ một đầu việc lớn để dễ dàng quản lý và hoàn thành.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Subject matter expert,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "S-M-E,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Chuyên gia chuyên môn sâu, Thành viên có hiểu biết uyên thâm, kinh nghiệm thực chiến dày dạn về một công việc, quy trình, công nghệ hoặc lĩnh vực chuyên biệt.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Summary task,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Nhiệm vụ tóm tắt, Đề mục lớn ở cấp cao nhất trong kế hoạch dự án dùng để nhóm và bao hàm một tập hợp các nhiệm vụ con bên dưới. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ T.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-9.txt": [
+    {
+      "lang": "en",
+      "text": "Task buffer,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Thời gian đệm cho nhiệm vụ, Khoảng thời gian dự phòng được cộng thêm riêng cho một đầu việc cụ thể.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Time and materials contract,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Hợp đồng theo thời gian và vật liệu, Hợp đồng được thanh toán định kỳ hằng tháng dựa trên số giờ lao động thực tế cộng với các chi phí phát sinh hợp lý như đi lại và ăn ở.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Time estimation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Ước tính thời gian, Dự đoán khoa học về tổng lượng thời gian cần thiết để hoàn thành trọn vẹn một nhiệm vụ.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Time risk,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Rủi ro thời gian, Khả năng các nhiệm vụ trong dự án sẽ tốn nhiều thời gian hoàn thành hơn so với dự tính ban đầu. Time-phase a",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "budget,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Phân bổ ngân sách theo thời gian, Hành động trải đều các khoản mục ngân sách dọc theo dòng thời gian thực tế của dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Total cost of ownership,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "T-C-O,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Tổng chi phí sở hữu, Toàn bộ chi phí của một dự án hoặc tài sản, tính từ giai đoạn khởi tạo, mua sắm, vận hành cho đến khi thanh lý kết thúc. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ V.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Vendors,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Các nhà cung cấp, Các cá nhân hoặc doanh nghiệp bên ngoài cung cấp hàng hóa, nguyên vật liệu và dịch vụ cho dự án. CÁC THUẬT NGỮ BẮT ĐẦU BẰNG CHỮ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Work breakdown structure,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "W-B-S,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức Cấu trúc phân rã công việc, Công cụ quản trị cốt lõi giúp phân cấp và chia nhỏ toàn bộ các cột mốc và nhiệm vụ của dự án theo một hệ thống thứ bậc rõ ràng, theo đúng trình tự cần hoàn thành.",
+      "pause_type": "terminal"
+    }
+  ]
+}

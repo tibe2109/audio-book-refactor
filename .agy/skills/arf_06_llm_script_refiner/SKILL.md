@@ -5,7 +5,7 @@ description: Bước 6 - Tinh chỉnh diễn đọc và nhịp thở bằng LLM 
 
 # Kỹ năng 06: Tinh chỉnh Kịch bản Diễn Đọc bằng LLM (`06_llm_script_refiner`)
 
-Kỹ năng này chịu trách nhiệm nhận các khối kịch bản thô (`Kich-ban-raw-N.txt`) từ bước Rechunk, áp dụng **Prompt TTS chuẩn** và gọi LLM để biên tập lại câu từ cho phù hợp với giọng đọc tự nhiên (thêm dấu phẩy ngắt hơi, sửa lỗi ngữ pháp, tách tiêu đề dính, chuẩn hóa phiên âm, giữ nguyên marker ngắt nghỉ `. ......`).
+Kỹ năng này chịu trách nhiệm nhận các khối kịch bản thô (`Kich-ban-raw-N.txt`) từ thư mục con `kich-ban/` của bước Rechunk, áp dụng **Prompt TTS chuẩn** và gọi LLM để biên tập lại câu từ cho phù hợp với giọng đọc tự nhiên (thêm dấu phẩy ngắt hơi, sửa lỗi ngữ pháp, tách tiêu đề dính, chuẩn hóa phiên âm, giữ nguyên marker ngắt nghỉ `. ......`), sau đó xuất ra các file kịch bản hoàn chỉnh `Kich-ban-N.txt` ngay trong thư mục `kich-ban/` và dọn dẹp các file thô tạm.
 
 ---
 

@@ -1,0 +1,12 @@
+Ngoại lệ duy nhất cho quy luật này chính là hình thức thảo luận nhóm trực tuyến. Các nghiên cứu chỉ ra rằng khi các nhóm cùng nhau đóng góp ý tưởng qua mạng máy tính, họ không chỉ làm tốt hơn các cá nhân làm việc riêng lẻ, mà nhóm càng đông thành viên lại càng hoạt động hiệu quả hơn. Điều tương tự cũng diễn ra trong nghiên cứu học thuật, các giáo sư hợp tác trực tuyến từ các vị trí địa lý khác nhau thường tạo ra các công trình nghiên cứu có sức ảnh hưởng sâu rộng hơn so với những người làm việc một mình hoặc gặp mặt trực tiếp.
+
+Điều này không nên làm chúng ta ngạc nhiên, chính sức mạnh kỳ diệu của sự hợp tác trực tuyến đã vô tình dẫn tới sự ra đời của Tư duy Tập thể Mới ngay từ ban đầu. Điều gì đã tạo nên hệ điều hành mã nguồn mở Linux, hay bách khoa toàn thư mở Wikipedia, nếu không phải là một phiên bản thảo luận ý tưởng điện tử khổng lồ? Nhưng chúng ta đã quá ấn tượng trước sức mạnh của sự hợp tác trực tuyến đến mức đánh đồng và tôn sùng mọi hình thức làm việc nhóm trực tiếp, gây tổn hại cho tư duy độc lập. Chúng ta không nhận ra rằng tham gia vào một nhóm làm việc trực tuyến thực chất là một hình thức cô độc đặc biệt, mỗi cá nhân ngồi một mình trong phòng riêng của mình, không bị áp lực ánh nhìn của người khác đè nặng, tự do suy ngẫm và chỉ giao tiếp qua những dòng văn bản.
+
+ÁP LỰC BẦY ĐÀN VÀ BẢN ĐỒ NÃO BỘ CỦA SỰ PHỤC TÙNG, PEER PRESSURE AND THE BRAIN SCAN OF CONFORMITY
+. ......
+
+Đúng vào thời điểm Osborn đang tích cực quảng bá cho sức mạnh của thảo luận nhóm trong thập niên một nghìn chín trăm năm mươi, nhà tâm lý học Solomon Asch đã tiến hành một loạt thí nghiệm kinh điển về tính phục tùng bầy đàn.
+
+Asch cho một tình nguyện viên ngồi vào một căn phòng cùng với một nhóm người khác, những người thực chất là diễn viên do nhà nghiên cứu sắp đặt. Asch giơ lên hai tấm bảng, một tấm có vẽ một đoạn thẳng mẫu, và tấm kia vẽ ba đoạn thẳng có độ dài khác nhau, được đánh dấu một, hai, ba. Ông yêu cầu mọi người lần lượt chỉ ra đoạn thẳng nào có độ dài bằng với đoạn thẳng mẫu. Câu trả lời là vô cùng rõ ràng và hiển nhiên. Nhưng các diễn viên đã được dặn trước là phải đồng thanh đưa ra một câu trả lời sai bét.
+
+Kết quả thật chấn động, gần bảy mươi lăm phần trăm người tham gia thí nghiệm đã ít nhất một lần xuôi theo ý kiến sai lầm của đám đông và đưa ra câu trả lời mà mắt họ thấy rõ là sai. Khi được phỏng vấn sau đó, phần lớn tình nguyện viên thừa nhận rằng họ biết câu trả lời của nhóm là sai, nhưng họ vẫn hùa theo vì không muốn bị coi là kẻ kỳ quặc hay lập dị.

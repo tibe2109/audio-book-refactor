@@ -1,0 +1,41 @@
+{
+  "session_id": "test_session_01",
+  "updated_at": "2026-08-16T10:06:40.692770",
+  "step_5_status": "COMPLETED",
+  "step_5_summary": {
+    "timestamp": "2026-08-16T10:06:40.692459",
+    "overall_success": true,
+    "total_chapters_processed": 1,
+    "total_raw_files_generated": 3,
+    "total_chars_before": 7432,
+    "total_chars_after": 7428,
+    "diff_chars": -4,
+    "overall_integrity_percent": 99.946,
+    "details": [
+      {
+        "success": true,
+        "chapter": "02-Chuong-01",
+        "chapter_path": "d:\\Solution\\Audio-Book-Refactor\\Kich-ban-clipchamp\\Eat-that-frog\\02-Chuong-01",
+        "chars_before": 7432,
+        "chars_after": 7428,
+        "char_diff": -4,
+        "integrity_pct": 99.946,
+        "raw_files_count": 3,
+        "files": [
+          {
+            "filename": "Kich-ban-raw-1.txt",
+            "length": 2635
+          },
+          {
+            "filename": "Kich-ban-raw-2.txt",
+            "length": 2811
+          },
+          {
+            "filename": "Kich-ban-raw-3.txt",
+            "length": 1982
+          }
+        ]
+      }
+    ]
+  }
+}

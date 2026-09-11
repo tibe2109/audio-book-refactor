@@ -14,7 +14,7 @@ description: "Bước 8 - Chuyên môn hóa: A.I phân tích ngữ âm, tự đ�
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
 │ PHA 8.1: AI PHÂN TÍCH NGỮ NGHĨA & LẬP KẾ HOẠCH BÓC TÁCH (AI SEMANTIC PRE-PASS)│
-│  - AI đọc hiểu ngữ cảnh toàn bộ kịch bản Kich-ban-*.txt                      │
+│  - AI đọc hiểu ngữ cảnh toàn bộ kịch bản kich-ban/Kich-ban-*.txt             │
 │  - Tự động nhận diện 100% thuật ngữ, từ viết tắt, tiêu đề, tên riêng ngoại ngữ │
 │  - Không phụ thuộc từ điển gán cứng; tương thích mọi thể loại sách           │
 │  - Xuất bảng kế hoạch phân đoạn minh bạch: audio_chunks/.speech_segments.json │

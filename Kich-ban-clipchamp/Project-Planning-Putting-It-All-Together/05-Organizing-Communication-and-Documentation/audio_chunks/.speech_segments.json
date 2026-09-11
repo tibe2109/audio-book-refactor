@@ -1,0 +1,1059 @@
+{
+  "Kich-ban-1.txt": [
+    {
+      "lang": "vi",
+      "text": "CHƯƠNG NĂM, TỔ CHỨC TRUYỀN THÔNG VÀ TÀI LIỆU HỒ SƠ , LỜI MỞ ĐẦU, TỔ CHỨC TRUYỀN THÔNG VÀ TÀI LIỆU HỒ SƠ , Chào mừng bạn đã quay trở lại. Chúng ta đang bước vào phần cuối cùng của khóa học chuyên sâu về giai đoạn lập kế hoạch dự án, và cuối cùng đã đến lúc kết nối tất cả những mảnh ghép mà bạn đã dày công tích lũy trong suốt thời gian qua. Cho đến lúc này, chúng ta đã cùng nhau làm chủ các thành phần cốt tử nhất của giai đoạn lập kế hoạch, từ cách thiết lập một lịch trình tiến độ chuẩn xác, xây dựng và quản trị ngân sách dự án, cho đến phương pháp nhận diện và kiểm soát các rủi ro tiềm ẩn. Ngay sau đây, tôi sẽ cùng bạn thảo luận về tầm quan trọng mang tính quyết định của kế hoạch truyền thông dự án, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Communication Plan.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Có vô vàn phương thức để giao tiếp hiệu quả trong giai đoạn lập kế hoạch cũng như trong suốt vòng đời dự án về sau. Tại đây, tôi sẽ chia sẻ với bạn những chiến lược truyền thông đỉnh cao, đồng thời, hướng dẫn bạn từng bước cách tạo lập một bản kế hoạch truyền thông thành công mỹ mãn cho bất kỳ dự án nào. Chúng ta hãy cùng bắt đầu. VÌ SAO TRUYỀN THÔNG LẠI MANG TÍNH SỐNG CÒN , Truyền thông là một yếu tố tối quan trọng đối với mọi dự án. Thậm chí, tôi hoàn toàn có thể khẳng định rằng đây chính là công cụ quyền năng nhất để đảm bảo dự án của bạn luôn vận hành một cách êm thuận và trơn tru. Rất nhiều lần trong thực tế, yếu tố làm nên thành công vang dội hay dẫn tới thất bại cay đắng của một đội ngũ dự án chung quy lại chỉ nằm ở một điểm duy nhất, liệu tất cả mọi người có thực sự thấu hiểu điều gì đang diễn ra và phần việc của họ đóng góp như thế nào vào mục tiêu chung hay không. Với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bạn đóng vai trò trung tâm trong việc đảm bảo mỗi thành viên đều nắm rõ vai trò và nhiệm vụ cụ thể của mình. Bạn cũng chính là điểm tựa, là người đầu tiên mà các thành viên trong đội ngũ tìm đến mỗi khi họ cần một câu trả lời nhanh chóng hoặc một sự định hướng rõ ràng. Năng lực giao tiếp một cách khúc chiết, mạch lạc và hiệu quả chính là chiếc chìa khóa vạn năng của bạn. Hãy luôn ghi nhớ rằng, nếu thiếu đi sự truyền thông hiệu quả, dự án sẽ luôn phải đối mặt với nguy cơ bỏ lỡ những cơ hội ngàn vàng, hoặc thậm chí có thể sụp đổ hoàn toàn. Trong một dự án mà tôi trực tiếp điều phối gần đây, các bên liên quan đã phân bổ một vài chuyên gia thiết kế tài năng đến làm việc cùng tôi. Ngay trong tuần lễ đầu tiên của dự án, tôi nhận thấy có một chuyên gia thiết kế hoàn toàn không tham dự bất kỳ cuộc họp dự án nào. Tôi quyết định chủ động tiếp cận trực tiếp với người này để tìm hiểu nguyên nhân vắng mặt.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-2.txt": [
+    {
+      "lang": "vi",
+      "text": "Khi được hỏi, bạn chuyên gia đó thẳng thắn bộc bạch rằng khối lượng công việc hiện tại của bạn ấy đã bị quá tải trầm trọng từ trước, và bạn ấy hoàn toàn không thể nào đáp ứng nổi những hạn chót ngắn hạn mà tôi đã giao. Rõ ràng, ở đây đã xảy ra sự đứt gãy truyền thông ở hai tầng mắt xích. Thứ nhất, là sự tắc nghẽn giữa chuyên gia đó và người quản lý trực tiếp của họ, và thứ hai, là giữa chuyên gia đó với tôi, người đang điều phối dự án. Trong bối cảnh lý tưởng, lẽ ra chuyên gia và người quản lý trực tiếp của họ cần phải trao đổi thẳng thắn với nhau từ sớm về năng lực gánh vác khối lượng công việc thực tế. Nếu lúc đó tôi không kịp thời chủ động trao đổi trực tiếp với bạn chuyên gia, việc bạn ấy tiếp tục vắng mặt trong các cuộc họp có thể đã dẫn tới việc lãng phí rất nhiều thời gian quý báu, đẩy dự án vào cảnh chậm tiến độ, hoặc không thể bàn giao sản phẩm theo đúng chuẩn mực kỳ vọng. Rất may mắn là trong thực tế, chúng tôi chỉ bị mất mát khoảng một tuần làm việc do sự thiếu hụt truyền thông ban đầu đó. Nhờ việc tôi nhanh chóng bám sát và phát hiện sớm, chúng tôi đã có thể kịp thời chuyển hướng linh hoạt và đề xuất phân bổ một chuyên gia thiết kế khác thay thế vào dự án. Chúng ta đều biết truyền thông là vô cùng quan trọng, nhưng bản chất thực sự của truyền thông là gì? Nói một cách mộc mạc và chuẩn xác nhất, truyền thông chính là dòng chảy của thông tin. Nó bao hàm tất cả mọi thứ được sẻ chia, phương thức thông tin đó được truyền đi ra sao, và đối tượng tiếp nhận thông tin đó là những ai. Một sự truyền thông tốt và hiệu quả phải luôn đảm bảo tính rõ ràng, trung thực, phù hợp, và có tần suất đều đặn, nhưng tuyệt đối không được quá dồn dập. Trong thực tế hoàn toàn có một hiện tượng gọi là quá tải thông tin,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Information Overload.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một quy trình truyền thông hiệu quả sẽ mở đường cho dự án của bạn vận hành đúng tiến độ và đáp ứng trọn vẹn những kỳ vọng đã được vạch ra trong bản kế hoạch tổng thể. Hãy tận dụng tối đa sức mạnh của các công cụ đa dạng như những cuộc họp trực tiếp, thư điện tử, các cuộc gọi điện thoại, văn bản hồ sơ lưu trữ và các buổi thuyết trình báo cáo trang trọng, đồng thời, phải luôn đảm bảo rằng mọi thành viên liên quan đều có thể tiếp cận những thông tin đó một cách dễ dàng.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-3.txt": [
+    {
+      "lang": "vi",
+      "text": "Một điều cốt yếu nữa bạn cần ghi nhớ, truyền thông không bao giờ là một sự kiện làm một lần là xong, và nó cũng không phải là một con đường một chiều cứng nhắc. Truyền thông bắt buộc phải diễn ra liên tục xuyên suốt toàn bộ vòng đời của dự án, từ phía đội ngũ thực thi, từ các bên liên quan, và đặc biệt là từ chính bản thân bạn. Hãy luôn chủ động làm rõ các mục tiêu và kỳ vọng của khách hàng, theo sát các đầu việc hành động cần giải quyết, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Action Items,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và thông báo kịp thời mọi sự chậm trễ ngay khi dự án đang tiến triển. Điều này sẽ giúp bạn phòng ngừa từ xa mọi xung đột và sự cố đáng tiếc. Với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bạn chính là người chịu trách nhiệm kiến tạo nên một dòng chảy thông tin thông suốt và nhất quán trong suốt dự án. Việc bạn định hình chuẩn mực giao tiếp cho cả đội ngũ và không ngừng nỗ lực để đảm bảo tất cả mọi người đều có cùng một góc nhìn thấu suốt trên từng bước đường đi sẽ mang lại cho dự án của bạn cơ hội chiến thắng lớn nhất. Hy vọng lúc này bạn đã cảm nhận sâu sắc rằng truyền thông là yếu tố sống còn trong quản lý dự án. Trong phần tiếp theo, tôi sẽ hướng dẫn bạn cách xây dựng một bản kế hoạch truyền thông giúp bạn làm chủ mọi dòng thông tin quan trọng. Hẹn gặp lại bạn sau ít phút. BẮT ĐẦU MỘT KẾ HOẠCH TRUYỀN THÔNG , Cho đến lúc này, bạn đã nắm được một số phương thức giao tiếp phổ biến trong suốt quá trình triển khai một dự án. Bây giờ, chúng ta hãy cùng tiến thêm một bước vững chắc nữa bằng việc học cách thiết lập một bản kế hoạch truyền thông hoàn chỉnh, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Communication Plan.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bản kế hoạch này sẽ giúp bạn quản lý và điều phối tất cả các luồng giao tiếp đa dạng sẽ diễn ra trong dự án. Hãy tin tôi đi, trong thực tế sẽ có một lượng thông tin khổng lồ liên tục được trao đổi qua lại, vì vậy, bạn bắt buộc phải có một kế hoạch bài bản để luôn nắm chắc mọi diễn biến và sử dụng nó như một công cụ đắc lực để giao tiếp hiệu quả. Một bản kế hoạch truyền thông,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Communication Plan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là một tài liệu giúp tổ chức, định hình và ghi chép lại toàn bộ quy trình, các hình thức giao tiếp và những kỳ vọng về mặt truyền thông của dự án. Quy mô và độ phức tạp của kế hoạch truyền thông sẽ khác nhau tùy thuộc vào từng dự án cụ thể, nhưng việc có sẵn một kế hoạch bằng văn bản luôn là một chuẩn mực thực hành tuyệt vời. Điều này lại càng đặc biệt đúng đắn khi dự án có sự tham gia của nhiều bên liên quan phức tạp, trải qua nhiều giai đoạn khác nhau và có sự hiện diện của công tác quản trị sự thay đổi,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Change Management.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Kế hoạch này sẽ là cứu cánh đắc lực cho chính bạn, cho dự án và cho tất cả các bên liên quan.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-4.txt": [
+    {
+      "lang": "vi",
+      "text": "Cũng giống hệt như các bản kế hoạch chuyên môn khác trong dự án, kế hoạch truyền thông của bạn cần phải trả lời thấu đáo những câu hỏi cốt lõi sau, Điều gì cần được truyền thông? Ai là người cần giao tiếp? Khi nào hoạt động truyền thông cần diễn ra? Vì sao và bằng cách nào thông tin được truyền tải? Và những thông tin đã trao đổi sẽ được lưu trữ ở đâu? Chúng ta hãy cùng nhau mổ xẻ từng câu hỏi này thông qua một bản kế hoạch truyền thông mẫu mà tôi đã xây dựng riêng cho dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của chúng ta. Trước hết, kế hoạch truyền thông của bạn phải chỉ rõ bạn đang truyền thông về nội dung gì, hay nói cách khác, là hình thức truyền thông cụ thể. Mục này có thể bao gồm những nội dung như, các báo cáo cập nhật tiến độ, các vấn đề phát sinh cần tháo gỡ, phản hồi đóng góp từ phía người dùng, các buổi trao đổi kiểm tra công việc hằng ngày, và những cuộc họp dự án chuyên biệt khác. Tiếp theo, bạn cần xác định rõ ràng bạn sẽ giao tiếp với những ai. Đây chính là những đối tượng tiếp nhận thông tin, chẳng hạn, như các bên liên quan chủ chốt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Key Stakeholders,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và đội ngũ nòng cốt của dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Core Project Team.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đối với từng hình thức truyền thông cụ thể, bạn cần ghi nhận thời điểm việc giao tiếp diễn ra. Điều này bao gồm tần suất, tức mức độ thường xuyên mà bạn trao đổi thông tin, cùng các mốc ngày giờ trọng yếu như hạn chót hoàn thành hoặc thời điểm diễn ra các cuộc họp quan trọng. Một điều then chốt bạn cần luôn khắc ghi là, không phải tất cả mọi người đều cần nhận cùng một khối lượng thông tin giống hệt nhau vào cùng một thời điểm. Nói một cách tổng quát, các bên liên quan cấp cao thường sẽ nhận thông tin với tần suất thưa hơn, chẳng hạn, như thông qua một bản thư điện tử tóm tắt tổng quan hằng tháng, hoặc trong các cuộc họp rà soát dự án định kỳ cấp cao. Ngược lại, đội ngũ dự án nòng cốt của bạn sẽ cần tiếp nhận thông tin chi tiết và sâu sát hơn rất nhiều, thông qua các báo cáo cập nhật hằng ngày qua thư điện tử hoặc các buổi gặp mặt kiểm tra tiến độ nhanh qua mạng. Kế tiếp, bạn cần nêu rõ phương thức truyền tải thông tin, tức bạn sẽ sử dụng công cụ nào để giao tiếp. Đó có thể là thư điện tử, các cuộc gặp mặt trực tiếp, các buổi họp qua mạng, hay một bài thuyết trình báo cáo chính thức.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-5.txt": [
+    {
+      "lang": "vi",
+      "text": "Bản kế hoạch của bạn cũng bắt buộc phải làm rõ mục tiêu của việc giao tiếp. Đây chính là câu trả lời cho câu hỏi vì sao của bạn. Vì vậy, bạn hãy tự vấn bản thân, Vì sao bạn lại cần thực hiện cuộc trao đổi này? Đó là để báo cáo tiến độ công việc, để chỉ ra một rủi ro tiềm ẩn và tìm cách tháo gỡ rào cản? Hay có thể bạn cần bàn thảo để thống nhất các bước đi tiếp theo, chi tiết hóa kế hoạch chuẩn bị, hoặc đúc kết những bài học kinh nghiệm quý báu? Mục tiêu truyền thông có thể là sự kết hợp của bất kỳ lý do nào kể trên, hoặc một mục đích nghiệp vụ cụ thể khác. Nhưng dù trong trường hợp nào, mỗi hành động giao tiếp bắt buộc phải mang một mục đích rõ ràng, nếu không bạn sẽ tự đẩy mình vào cái bẫy lãng phí thời gian vô cùng tai hại. Cuối cùng, bạn cần chỉ rõ nơi lưu trữ các tài nguyên truyền thông, kèm theo bất kỳ ghi chú nghiệp vụ cần thiết nào. Tôi sẽ chia sẻ sâu hơn về các chuẩn mực lưu trữ thông tin tối ưu ở bài học tiếp theo, nhưng ngay lúc này, bạn hãy luôn nhớ rằng, các thông tin liên quan phải luôn ở trạng thái dễ dàng tiếp cận. Có như vậy, chính bạn, các bên liên quan và đội ngũ của bạn mới có thể nhanh chóng tra cứu những tài nguyên cần thiết để ra quyết định chuẩn xác, bắt tay vào xử lý nhiệm vụ, nắm bắt kịp thời diễn biến công việc, hoặc cung cấp các báo cáo cập nhật mới nhất. Một lợi ích to lớn khác của một kế hoạch truyền thông bài bản là nó đảm bảo tính liên tục trong toàn bộ các hoạt động vận hành của dự án. Nếu chẳng may có một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "mới toanh tiếp quản dự án và nhìn vào bản kế hoạch này, họ sẽ có thể lập tức tra cứu toàn bộ các biên bản cuộc họp trước đây, hệ thống tài liệu lưu trữ, cũng như nắm rõ toàn bộ các luồng giao tiếp hiện tại và sắp tới. Bản kế hoạch truyền thông cũng hỗ trợ đắc lực cho công tác quản trị sự thay đổi hiệu quả,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Change Management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức tiến trình bàn giao thành phẩm cuối cùng của dự án và đảm bảo nó được đưa vào ứng dụng thành công trong thực tế. Khi những người kế nhiệm có quyền tiếp cận bản kế hoạch truyền thông này sau khi bạn rời dự án, họ sẽ hoàn toàn đủ năng lực để xử lý bất kỳ khúc mắc nào phát sinh, tự tin đưa ra các quyết sách đúng đắn, hoặc tái ứng dụng các quy trình bài bản tương tự cho một dự án hoàn toàn mới. Đến đây, hy vọng bạn đã cảm thấy quen thuộc và thấu hiểu hơn về cách mà một bản kế hoạch truyền thông có thể dẫn dắt dự án đi đến thắng lợi. Hãy nhớ rằng đây chỉ là một khung kế hoạch nền tảng, và trong thực tế có rất nhiều cách khác nhau để cấu trúc nó. Tất cả phụ thuộc vào quy mô và tính chất của dự án bạn đang đảm nhận. Trong bài học tiếp theo, tôi sẽ đồng hành cùng bạn đi vào từng chi tiết cụ thể của một kế hoạch truyền thông và chỉ cho bạn cách vận dụng nó để quản trị các luồng thông tin dự án một cách hiệu quả và chuẩn xác nhất.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-6.txt": [
+    {
+      "lang": "vi",
+      "text": "XÂY DỰNG CHI TIẾT KẾ HOẠCH TRUYỀN THÔNG , Bây giờ, khi bạn đã thấu suốt kế hoạch truyền thông là gì và các danh mục cơ bản cấu thành nên nó, bước đi tiếp theo của chúng ta là bắt tay vào điền thông tin chi tiết cho bản kế hoạch. Trong bài học này, bạn sẽ học cách thiết lập một kế hoạch truyền thông vận hành tối ưu nhất cho tất cả các nhóm nhân sự đa dạng tham gia vào dự án, đồng thời, nắm chắc những dạng thông tin nào cần được đưa vào kế hoạch. Đó là những câu hỏi mang tính then chốt, Những ai cần tham gia vào luồng thông tin của dự án? Phương thức giao tiếp nào là hiệu quả nhất? Vì sao bạn cần giao tiếp? Và bạn nên trao đổi thông tin với tần suất bao nhiêu lần? Việc chủ động lên kế hoạch truyền thông ngay từ đầu mang lại những lợi ích vô cùng to lớn. Việc tạo lập kế hoạch truyền thông giúp nâng cao rõ rệt hiệu quả tổng thể của các cuộc trao đổi, giữ cho mọi người luôn gắn kết và tràn đầy động lực trong suốt hành trình dự án, đồng thời, lôi cuốn các bên liên quan tham gia vào những cuộc đối thoại thực chất và giá trị. Chúng ta hãy cùng bắt tay xây dựng một bản kế hoạch truyền thông thực tế trên bảng tính để bạn có thể tận mắt chứng kiến cách nó hỗ trợ điều phối mọi khía cạnh truyền thông của dự án ra sao. Chúng ta sẽ tiếp tục câu chuyện với dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là một ví dụ, trực quan về một kế hoạch truyền thông cơ bản được thiết lập trên trang tính. Trước khi làm bất cứ điều gì khác, bạn hãy suy nghĩ xem những loại hình giao tiếp nào bạn sẽ sử dụng xuyên suốt dự án của mình. Bạn hãy thoải mái mở lại biểu đồ ma trận",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-A-C-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và bản đồ các bên liên quan,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Stakeholder Map,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "của mình. Đây chính là những công cụ đắc lực giúp bạn nhận định xem hình thức truyền thông nào sẽ phù hợp nhất cho từng cá nhân, từng nhóm làm việc hoặc từng vai trò cụ thể. Trong ví dụ, thực tế này, giả sử các bên liên quan của chúng ta là những nhà quản trị cấp cao vô cùng bận rộn, những người hoàn toàn không có thời gian để đọc những chi tiết vụn vặt hằng ngày. Thay vì bắt họ tham gia những cuộc họp hằng ngày gây phiền toái, giải pháp tối ưu hơn nhiều là gửi cho họ một bản tin định kỳ, tóm tắt cô đọng những cột mốc quan trọng nhất,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Milestones,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cùng tiến độ chung của dự án cho đến thời điểm hiện tại. Chúng ta hãy gõ thông tin đó vào bảng.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-7.txt": [
+    {
+      "lang": "vi",
+      "text": "Ngược lại hoàn toàn, đội ngũ nòng cốt của dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Core Team,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "sẽ hưởng lợi rất lớn từ một cuộc họp giao ban đứng hằng ngày, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Daily Stand-up.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là một cuộc họp ngắn diễn ra mỗi ngày được thiết kế để cập nhật nhanh chóng những thông tin then chốt cho toàn đội ngũ. Tại buổi họp này, mỗi thành viên sẽ tóm tắt ngắn gọn những công việc mình đã hoàn thành và nêu rõ bất kỳ rào cản nào đang cản trở bước tiến của họ. Đây là một chuẩn mực rất kinh điển và phổ biến trong phương pháp quản lý dự án linh hoạt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Agile,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bởi nó giúp cả nhóm luôn giữ được sự nhịp nhàng đồng bộ và bứt tốc nhanh chóng xuyên suốt dự án. Chúng ta sẽ tiến hành điền mục",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Daily Stand-up",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "vào hàng này. Tuy nhiên, đôi khi những cuộc họp hằng ngày là điều bất khả thi, do rào cản về múi giờ chênh lệch giữa các quốc gia hoặc do những cam kết công việc khác. Bạn đừng lo lắng, luôn có những giải pháp thông minh khác để duy trì dòng chảy thông tin. Lấy ví dụ, chính đội ngũ dự án đã tạo nên chương trình đào tạo mà bạn đang học đây đã áp dụng hình thức gửi",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cập nhật trạng thái hằng ngày cho toàn nhóm, báo cáo rõ những đầu việc hành động nào đang được tập trung giải quyết trong ngày hôm đó. Họ cũng vận dụng một công cụ theo dõi tiến độ dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Tracker,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "để quản lý các nhiệm vụ và cột mốc, đảm bảo mọi thành viên đều có chung một góc nhìn thống nhất. Tiếp theo, hãy suy nghĩ xem những ai cần tiếp nhận thông tin về dự án của bạn. Đây chính là những người nhận thông tin truyền thông. Lúc này, việc nhìn lại bản đồ các bên liên quan và biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-A-C-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "một lần nữa sẽ cực kỳ hữu ích. Bạn hãy tự hỏi, Ai là người cần tham gia sâu sát vào từng chi tiết kỹ thuật? Ai là người có mối quan tâm sâu sắc tới dự án? Và ai là người chỉ cần được thông báo khi có các cột mốc trọng đại xuất hiện? Như tôi đã đề cập ban nãy, các bên liên quan chủ chốt sẽ nhận bản tin tóm tắt hằng tháng, vì vậy, tôi sẽ gõ mục đó vào bảng ngay bây giờ. Đồng thời, chúng ta biết rằng đội ngũ nòng cốt sẽ tham gia các buổi họp đứng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Daily Stand-up",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "hằng ngày, nên tôi cũng sẽ thêm họ vào hàng tương ứng. Rất xuất sắc. Chúng ta đang tiến triển rất nhanh. Tiếp theo trong danh sách người nhận là các nhóm dự án chuyên trách cấp dưới, tức các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Subgroups",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "phụ trách mảng Tiếp thị, Thu mua và Phát triển sản phẩm. Chúng ta hãy thêm các cuộc họp riêng biệt cho từng nhóm chuyên môn này, bên cạnh các cuộc họp chung của đội ngũ nòng cốt. Bởi vì, các nhóm chuyên trách này không thuộc biên chế đội ngũ cốt lõi hằng ngày, bạn có thể chỉ cần họp với họ mỗi tuần một lần thay vì ngày nào cũng gặp. Chúng ta hãy điền cuộc họp kiểm tra tiến độ hằng tuần,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Weekly",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Check-in, cho từng nhóm này.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-8.txt": [
+    {
+      "lang": "vi",
+      "text": "Rất tuyệt. Một chuẩn mực thực hành tốt nhất khác trong nghề là liệt kê thông tin liên hệ và múi giờ làm việc vào ngay trong bản kế hoạch truyền thông. Bằng cách đó, bạn sẽ luôn biết chính xác khi nào mọi người sẵn sàng để trao đổi công việc. Hãy bổ sung cột đó vào bảng. Bạn hoàn toàn có thể ẩn cột này đi nếu thấy cần thiết, bởi nó chứa đựng các thông tin cá nhân nhạy cảm của những người tham gia dự án. Có những cách khác để lưu trữ thông tin liên hệ một cách bảo mật và gắn đường dẫn liên kết để tiện tra cứu. Tôi sẽ hướng dẫn bạn cách làm điều đó trong một bài học khác. Nếu bạn gặp khó khăn trong việc quyết định nên chọn hình thức giao tiếp nào, một gợi ý hữu ích giúp bạn đưa ra lựa chọn chính là cân nhắc về tần suất. Như tôi đã lưu ý trước đó, một bên liên quan cấp cao chắc chắn sẽ không thể tham dự các cuộc họp diễn ra mỗi ngày, và họ cũng không hề có nhu cầu nghe từng mẩu thông tin chi tiết vụn vặt. Thay vào đó, bạn có thể giao tiếp với một bên liên quan cấp cao theo tần suất hằng tuần hoặc hằng tháng, và bạn hãy tập trung dồn trọng tâm vào các bản cập nhật trạng thái cấp cao, chẳng hạn, như tiến độ tổng thể, những thắng lợi bước đầu vừa đạt được, các cột mốc quan trọng đã cán đích, và các chỉ số đo lường hiệu suất hiện tại. Trong tình huống này, chúng ta sẽ quyết định gửi bản tin dự án mỗi tháng một lần. Nếu bạn còn băn khoăn chưa chắc chắn, cách tốt nhất luôn là trực tiếp hỏi các bên liên quan cấp cao xem phương thức giao tiếp nào là thuận tiện và hiệu quả nhất đối với họ. Khi bạn làm việc với đội ngũ dự án nòng cốt của mình, bạn cần phải đi sâu sát hơn vào những chi tiết vận hành hằng ngày. Hãy thường xuyên kiểm tra và hỏi han xem mọi việc đang diễn tiến ra sao. Họ đang xử lý các nhiệm vụ đến đâu rồi? Họ có đang cần bạn hỗ trợ tháo gỡ khó khăn nào không? Vì vậy, hãy đưa vào một cuộc họp hằng ngày cho đội ngũ nòng cốt và một cuộc họp hằng tuần cho các nhóm chuyên trách. Hãy hiện thực hóa điều đó trên bảng tính. Rất tuyệt vời. Việc gặp gỡ với tần suất dày hơn sẽ giúp khai thông các điểm nghẽn và giữ cho dự án luôn bám sát đường ray. Điều này dẫn chúng ta đến cột các mốc thời gian trọng yếu, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Key Dates.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Việc ghi rõ các ngày giờ cụ thể là cực kỳ cần thiết cho công tác điều phối nhịp nhàng. Ví dụ, nếu bạn chuẩn bị ra mắt một sản phẩm mới, triển khai một quy trình mới hoặc có một buổi thuyết trình quan trọng, bạn nhất định phải liệt kê rõ các mốc ngày đó. Hãy nhớ rằng, không phải hình thức truyền thông nào cũng cần gắn với một ngày cụ thể cố định trên lịch. Chẳng hạn, với các hoạt động giao tiếp diễn ra hằng ngày hoặc hằng tuần, bạn không cần phải ghi rõ ngày mùng mấy của từng tuần, mà chỉ cần ghi chú là vào mỗi thứ Hai đầu tuần hoặc những mốc tương tự.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-9.txt": [
+    {
+      "lang": "vi",
+      "text": "Hãy bổ sung các mốc thời gian trọng yếu vào kế hoạch của chúng ta. Đối với bản tin hằng tháng, chúng ta sẽ lên lịch gửi vào ngày thứ Hai đầu tiên của mỗi tháng. Chúng ta sẽ xếp lịch cho các cuộc họp đứng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Daily Stand-up",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "vào lúc mười hai giờ trưa hằng ngày, và các buổi kiểm tra tiến độ hằng tuần sẽ diễn ra vào các ngày thứ Tư vào các khung giờ hai giờ, ba giờ và bốn giờ chiều. Tuyệt vời. Bây giờ chúng ta hãy cùng bàn về phương thức truyền tải, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Delivery Methods,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chẳng hạn, như gửi thư điện tử, họp trực tiếp, họp qua mạng, sử dụng một tài liệu chia sẻ chung được cập nhật liên tục, hay một bản báo cáo tiến độ được thuyết trình trực tiếp. Việc quyết định đâu là cách giao tiếp tốt nhất chính là một nghệ thuật và một kỹ năng mềm quan trọng. Một điều mà cá nhân tôi liên tục phải thích ứng và nỗ lực hoàn thiện trong vai trò",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "của mình là khả năng giao tiếp khéo léo giữa các đội ngũ khác nhau và giữa các cấp bậc quyền lực khác nhau. Một giám đốc hay một nhà lãnh đạo điều hành cấp cao có thể chỉ có vỏn vẹn năm phút dành cho bạn, do đó, bạn bắt buộc phải nói năng súc tích, gãy gọn và biết chính xác mình cần gì từ họ. Tương tự như vậy, tôi có thể đã quá quen với việc giao tiếp qua tin nhắn tức thời và gọi",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "với đội ngũ nòng cốt của mình. Tuy nhiên, một trong những nhóm chuyên trách của dự án lại có thể phản hồi tốt hơn và làm việc hiệu quả hơn thông qua thư điện tử và các dòng bình luận trực tiếp trong tài liệu. Hãy để tôi bổ sung các phương thức này vào bản kế hoạch truyền thông của chúng ta, bắt đầu bằng thư điện tử.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "Email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là một phương tiện cực kỳ phổ biến để đưa mọi người vào trạng thái đồng bộ, nhưng nếu bạn viết quá dài dòng, bạn sẽ đánh mất sự chú ý của người đọc. Xét cho cùng, chẳng có ai thực sự muốn đọc một bức thư điện tử dài tới hai trang giấy cả. Một mẹo thực chiến tuyệt vời để giải quyết vấn đề này là thêm một dòng lưu ý ngắn ngay ở đầu thư điện tử của bạn. Dòng này sẽ thông báo cho người đọc biết rằng một số chi tiết phía dưới của một bức thư dài có thể không liên quan trực tiếp đến họ. Với dạng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "này, bạn hãy mở đầu bằng những ý chính cốt lõi nhất và các đầu việc cần hành động, giới hạn chặt chẽ trong khoảng hai đến ba câu văn. Sau đó, hãy tạo một phần nội dung chi tiết dài hơn ở phía dưới dành riêng cho những ai muốn hoặc thực sự cần tìm hiểu sâu hơn.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-10.txt": [
+    {
+      "lang": "vi",
+      "text": "Mục tiêu cốt lõi của việc giao tiếp là truyền tải được thông điệp của bạn một cách hiệu quả nhất. Hãy suy nghĩ thật cẩn trọng về những gì bạn cần đạt được với từng hình thức truyền thông. Đặc biệt đối với các bên liên quan cấp cao, tôi luôn liên tục tự đặt câu hỏi và tìm câu trả lời, Thì sao nào? Vì sao họ lại phải bận tâm đến dự án của mình? Câu hỏi tương tự cũng áp dụng cho đội ngũ nòng cốt, Thông tin nào sẽ thực sự giúp họ hoàn thành nhiệm vụ đúng hạn và duy trì được ngọn lửa nhiệt huyết? Việc trăn trở về những câu hỏi này giúp tôi chắt lọc và tập trung tuyệt đối vào những mẩu thông tin đắt giá nhất để sẻ chia. Hãy cùng điền mục tiêu này vào bản kế hoạch truyền thông. Mục tiêu của bản tin hằng tháng gửi các bên liên quan là mang lại một bức tranh tổng quan về tình trạng tiến độ. Rất tuyệt. Mục tiêu của các buổi họp đứng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Daily Stand-up",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "với đội ngũ nòng cốt là để báo cáo cập nhật tiến độ, tháo gỡ các vật cản và xác định các bước hành động tiếp theo. Hãy đưa những nội dung đó vào bảng. Mọi thứ đã sẵn sàng. Tiếp theo, bạn cần đảm bảo rằng mình có khả năng tiếp cận được tất cả mọi người cần được truyền thông. Sẽ là một lợi thế khổng lồ nếu công tác truyền thông là một nỗ lực tập thể của cả đội ngũ, đặc biệt là trong các dự án phức tạp. Bạn tuyệt đối không nên là người duy nhất độc thoại và gánh vác mọi việc giao tiếp trên vai. Bạn cần trao quyền để các thành viên khác trong nhóm cùng tham gia vào các luồng giao tiếp, dựa trên chuyên môn sâu của họ trong dự án. Tôi sẽ thêm một cột dành cho người gửi và người chịu trách nhiệm,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Sender and Owner,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "để chỉ rõ ai là người chịu trách nhiệm chính cho từng hoạt động truyền thông. Sau đó, chúng ta đánh dấu người gửi hoặc người phụ trách cho từng hình thức, bắt đầu bằng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đóng vai trò là người gửi cho bản tin hằng tháng. Rất tuyệt vời. Chúng ta đã hoàn tất bản kế hoạch. Hãy luôn nhớ rằng, việc thường xuyên kiểm tra lại với mọi người để đảm bảo các hoạt động truyền thông đáp ứng đúng nhu cầu thực tế của họ luôn là một ý tưởng thông minh. Mỗi cá nhân tiếp thu thông tin theo những cách thức hoàn toàn khác nhau, điều gì hiệu quả nhất với bạn chưa chắc đã mang lại hiệu quả tương tự cho người khác. Có những người thiên về thị giác và chỉ muốn nhìn thấy các biểu đồ trực quan, đồ thị số liệu. Có những người lại thích lắng nghe thông tin thông qua một bài thuyết trình sinh động hoặc một cuộc thảo luận trực tiếp. Lại có những người muốn tự mình nghiền ngẫm, phân tích số liệu một mình trước, rồi mới trao đổi với người khác về những gì họ đã đọc.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-11.txt": [
+    {
+      "lang": "vi",
+      "text": "Nếu bạn chỉ trình bày thông tin theo vỏn vẹn một hoặc hai cách đơn điệu, bạn sẽ đối mặt với rủi ro chỉ thu hút được một vài người trong khi bỏ rơi những người khác. Mục tiêu tối thượng của bạn với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là tối ưu hóa và tinh gọn các luồng thông tin liên lạc. Một phương pháp tuyệt vời để tối ưu hóa truyền thông cho tất cả mọi người trong nhóm là gửi một thư điện tử ngắn hoặc một bảng khảo sát nhanh gồm ba câu hỏi cốt lõi, Điều gì đang vận hành tốt trong cách chúng tôi giao tiếp với bạn về dự án? Điều gì đang chưa hiệu quả hoặc chưa thông suốt trong các cuộc trao đổi của chúng ta? Và chúng tôi có thể cải tiến việc truyền thông với bạn ở những điểm nào? Bảng khảo sát này sẽ mang lại cho bạn vô số thông tin giá trị để bạn có thể linh hoạt điều chỉnh phong cách giao tiếp cho tương thích hoàn hảo với từng thành viên. Kế hoạch truyền thông chứa đựng rất nhiều thông tin quan trọng và có vô số cách khác nhau để thiết lập nó, tùy thuộc vào quy mô đội ngũ và nhu cầu thực tế của dự án. Cho dù bạn chọn hệ thống nào, điều cốt tử nhất vẫn là đảm bảo kế hoạch truyền thông của bạn chỉ rõ, Ai cần tham gia vào luồng thông tin dự án? Những phương thức nào đang được sử dụng để giao tiếp? Vì sao bạn lại giao tiếp? Và bạn giao tiếp với tần suất bao nhiêu lần? Điều đó khép lại phần thảo luận của chúng ta về cách thức điền thông tin chi tiết vào một bản kế hoạch truyền thông. Trong bài học tiếp theo, tôi sẽ chia sẻ với bạn những chuẩn mực thực hành tốt nhất để lưu trữ và quản lý toàn bộ hệ thống tài liệu hồ sơ mà bạn và đội ngũ sẽ liên tục trao đổi xuyên suốt dự án. Hẹn gặp lại bạn sau ít phút. GIÁ TRỊ CỦA TÀI LIỆU HỒ SƠ DỰ ÁN , Rất vui được gặp lại bạn. Giờ đây, khi bạn đã có mặt ở đây, chúng ta hãy cùng thảo luận về tầm quan trọng của công tác lập tài liệu hồ sơ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Documentation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và cách thức mà tài liệu đóng vai trò như một phương tiện giao tiếp đắc lực để mọi người cùng tham chiếu và đóng góp trí tuệ. Tôi xin chia sẻ với bạn một ví dụ, thực tế từ chính trải nghiệm của mình. Có lần tôi tham gia điều phối một dự án quy tụ rất nhiều đội ngũ chuyên môn khác nhau, từ đội ngũ đảm bảo chất lượng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Q-A,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đội kiểm thử, đội thiết kế, đội kỹ thuật đối tác, cho đến các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Mỗi đội ngũ đều chịu trách nhiệm cho một tập hợp các sản phẩm bàn giao riêng biệt của họ. Để giữ cho tất cả các đội ngũ luôn có chung một góc nhìn thống nhất, điều tối quan trọng là mọi người phải lưu trữ toàn bộ kế hoạch và báo cáo của mình tại một nơi tập trung duy nhất,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Centralized Place.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Việc này cho phép bất kỳ thành viên nào trong dự án cũng có thể nhanh chóng tìm thấy tài liệu họ cần ngay tức khắc.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-12.txt": [
+    {
+      "lang": "vi",
+      "text": "Việc lưu trữ và chia sẻ tài liệu hồ sơ là vô cùng hệ trọng. Việc gom các kế hoạch về một mối giúp cho công tác truyền thông trở nên nhanh chóng hơn, dễ dàng hơn và tinh gọn hơn rất nhiều, bởi vì, tất cả mọi người đều biết chính xác nơi có thể tìm thấy bất kỳ thông tin nào họ cần. Điều quan trọng không kém là phải đảm bảo các tệp tin của bạn được đặt tên với những nhãn mác rõ ràng, hoặc được sắp xếp ngăn nắp vào từng thư mục chuyên biệt. Lấy ví dụ, trong đội ngũ của tôi, chúng tôi có những bản báo cáo chuyên biệt được lưu trữ tại một vị trí trung tâm duy nhất. Điều này giúp cho các nhóm làm việc ở các quốc gia khác nhau có thể dễ dàng tìm kiếm và chia sẻ các kết quả nghiên cứu của họ với nhau, từ đó tối ưu hóa quy trình làm việc và triệt tiêu hoàn toàn sự trùng lặp công việc không đáng có. Việc lập tài liệu và sắp xếp ngăn nắp các kế hoạch cũng mang lại tính minh bạch và trách nhiệm giải trình rõ ràng, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Visibility and Accountability.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bản kế hoạch dự án tổng thể của bạn chính là một minh chứng xuất sắc cho điều này. Mỗi một nhiệm vụ đều được gắn đích danh một người chịu trách nhiệm chính,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Owner,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và một ngày hoàn thành cụ thể,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Due Date.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Điều này tạo ra sự minh bạch rõ ràng cho toàn thể các thành viên trong đội ngũ và tạo nên trách nhiệm giải trình mạnh mẽ cho người phụ trách đầu việc đó. Việc các thành viên trong nhóm và các bên liên quan cấp cao tìm đến bản kế hoạch dự án cùng các tài liệu liên quan mỗi khi họ cần làm mới lại trí nhớ về các mốc tiến độ hay các cột mốc quan trọng là điều rất đỗi phổ biến. Việc sở hữu những bản kế hoạch luôn được cập nhật mới nhất sẽ đảm bảo rằng không còn bất kỳ kẽ hở nào cho sự hiểu lầm hay giao tiếp sai lệch nảy sinh. Một khi bạn đã thiết lập được một vị trí tập trung cho các tài liệu của mình, đã đến lúc bạn cần suy nghĩ về việc quản trị quyền truy cập,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Permissions,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đối với các tệp tin và thư mục đó. Nếu một ai đó không thuộc thành phần đội ngũ dự án nòng cốt, bạn có thể sẽ không muốn họ có toàn quyền truy cập vào tất cả các biên bản ghi chú cuộc họp nội bộ chi tiết. Thay vào đó, bạn hãy tóm tắt những thông tin phù hợp thành một bản báo cáo trạng thái tinh gọn dành riêng cho những ai chỉ cần nắm bắt kết quả cuối cùng mà không cần phải đọc toàn bộ các dữ liệu nền tảng phía sau.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-13.txt": [
+    {
+      "lang": "vi",
+      "text": "Còn có một lợi ích khổng lồ khác của việc thiết lập và tập trung hóa các kế hoạch dự án về một mối, đó chính là tính liên tục trong vận hành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Continuity.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoàn toàn có những thời điểm bạn có thể phải đột ngột rời khỏi dự án. Giả sử bạn bị ốm đột xuất, được điều chuyển công tác sang một dự án khác, hoặc cần phải xin nghỉ phép dài hạn. Lúc này, một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "khác sẽ phải nhảy vào tiếp quản, và nếu như tất cả thông tin của dự án bị nằm rải rác trong những cuốn sổ tay ghi chép cá nhân lộn xộn của bạn, thì điều đó sẽ là một thảm họa vô phương cứu vãn. Nhưng nếu bạn đã ghi chép cẩn thận tất cả các kế hoạch vào một nơi tập trung, người quản lý dự án mới hoàn toàn có thể tìm thấy tất cả những gì họ cần và tiếp tục dẫn dắt công việc ngay tại điểm bạn vừa dừng lại. Việc lưu trữ các tài liệu hướng dẫn sử dụng, sổ tay vận hành, biên bản cuộc họp, kế hoạch tác chiến và quy trình làm việc tại một nơi tập trung và được gắn nhãn minh bạch luôn là điều cực kỳ hữu ích. Bạn cũng sẽ muốn đảm bảo rằng những nhân sự ở các vai trò liên quan đều được cấp quyền truy cập hợp lệ vào các tài liệu đó. Nhờ vậy, ngay cả khi bạn vắng mặt, dự án vẫn có thể vững vàng tiến bước về phía trước. Với tư cách là người điều phối dự án, trách nhiệm của bạn là phải đảm bảo rằng các dữ liệu của dự án luôn có thể được truy xuất dễ dàng trong tương lai bởi những người khác. Việc lập hồ sơ cho các kế hoạch và mở quyền truy cập cho những người liên quan là một phần của một chuẩn mực thực hành quản lý dự án xuất sắc được gọi là quản trị tri thức, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Knowledge Management.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nếu một ai đó trong tương lai cần xem lại dự án này để đưa ra những quyết sách mới hoặc để lên kế hoạch cho các dự án tương tự, họ sẽ có thể dễ dàng tiếp cận những thông tin quý giá mà họ cần. Nó cũng giúp định hình phong cách làm việc mẫu mực cho các dự án tương lai và cho các thế hệ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "kế tiếp, điều sẽ trở nên vô cùng giá trị nếu chính bản thân bạn sau này là người được điều động sang tiếp quản một dự án hoàn toàn mới. Lấy ví dụ, nếu một kiến trúc sư đang thực hiện một dự án cải tạo nhà bếp và họ muốn đưa ra quyết định về thiết kế, họ hoàn toàn có thể xem lại các bản vẽ dự án cũ để thấu hiểu vì sao trước đây người ta lại quyết định đặt bồn rửa bát ở một vị trí cụ thể như vậy. Hoặc nếu một kiến trúc sư mới nhảy vào giữa chừng quá trình cải tạo, họ có thể muốn biết vì sao người kiến trúc sư tiền nhiệm lại thiết kế hệ thống đường ống nước theo cách đó. Bằng việc tra cứu lại các hồ sơ kế hoạch cũ, họ có thể quay ngược thời gian để nắm bắt đầy đủ thông tin và bối cảnh cần thiết, từ đó tự tin đưa ra những quyết định sáng suốt và chuẩn xác hơn.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-14.txt": [
+    {
+      "lang": "vi",
+      "text": "Một điều tối quan trọng nữa là bạn phải xác định rõ loại thông tin nào nên được chia sẻ với ai và vào thời điểm nào. Hãy luôn tập trung dồn sự chú ý vào những thông tin cốt lõi gắn liền với nhu cầu thực tế của từng đối tượng cụ thể. Hãy thử suy ngẫm về tình huống sau, một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đang làm việc cùng toàn bộ các Phó Chủ tịch, tức các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "V-P,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tại công ty của mình quyết định ngày nào cũng gửi các bản cập nhật trạng thái dồn dập cho họ. Dưới góc độ truyền thông, tác động tiêu cực tiềm tàng từ quyết định của người quản lý dự án này là gì? Rất hiển nhiên, bởi vì, các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "V-P",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "mỗi ngày nhận hàng trăm thư điện tử khác nhau, họ gần như chắc chắn sẽ không bao giờ mở những bản cập nhật đó ra đọc. Rốt cuộc, việc làm đó chỉ gây lãng phí thời gian quý báu của chính bạn mà thôi. Thêm vào đó, khi bạn gửi đi quá nhiều thông tin vụn vặt không cần thiết, người nhận sẽ rất khó để phân biệt đâu mới là điều thực sự hệ trọng. Việc xác định đúng loại thông tin cần chia sẻ lại càng trở nên hệ trọng gấp bội khi bạn thực hiện các dự án có chứa đựng dữ liệu nhạy cảm. Trong những trường hợp đó, bạn bắt buộc phải vô cùng thận trọng về cách thức chia sẻ thông tin dự án với các bên liên quan chưa được cấp quyền truy cập dữ liệu bảo mật. Chẳng hạn, các số liệu tài chính hay kết quả khảo sát người dùng thường có tính bảo mật cực kỳ cao và tuyệt đối không bao giờ được phép để lộ cho những người không có thẩm quyền xem xét. Đây là một kịch bản thực tế khác, giả sử đội ngũ của bạn đang phụ trách một dự án ra mắt đình đám cho một dòng sản phẩm hoàn toàn mới, chẳng hạn, như một chiếc xe ô tô điện thế hệ mới. Hầu hết mọi người trong công ty không nhất thiết phải biết toàn bộ quá trình tư duy đằng sau dự án hay xem từng bản thảo thiết kế sơ khai, nhưng họ bắt buộc phải biết diện mạo của thiết kế cuối cùng trông sẽ như thế nào. Dự án này có tính chất pháp lý cực kỳ nhạy cảm, và bạn muốn tránh triệt để mọi nguy cơ rò rỉ hoặc chia sẻ tràn lan những dữ liệu mật được phân loại. Nếu bạn vô tư chia sẻ toàn bộ thư mục dự án cho tất cả những người vốn dĩ chỉ cần biết kết quả cuối cùng, bạn đang tự đặt mình vào hiểm họa khôn lường, làm lộ lọt những dữ liệu tuyệt mật và nhạy cảm. Nếu những thông tin này bị rò rỉ ra bên ngoài cho những kẻ xấu, các kế hoạch dự án và bí mật kinh doanh của công ty có thể bị phơi bày công khai trước bàn dân thiên hạ, phá hủy hoàn toàn chiến dịch ra mắt hoành tráng của chiếc xe điện. Bạn cũng sẽ phải đối mặt với nguy cơ vi phạm nghiêm trọng chính sách bảo mật của công ty và tự tay hủy hoại uy tín nghề nghiệp của chính mình với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đáng tin cậy và có trách nhiệm.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-15.txt": [
+    {
+      "lang": "vi",
+      "text": "Hãy luôn ghi nhớ nguyên tắc vàng, chỉ chia sẻ thông tin trên cơ sở thực sự cần biết,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Need-to-know Basis.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nhiệm vụ của bạn là phải cung cấp đúng thông tin, vào đúng thời điểm, cho đúng đối tượng. Hãy để tôi chỉ cho bạn một ví dụ, cụ thể. Trong bản kế hoạch truyền thông mẫu này, một trong những tài nguyên được lưu trữ là các bảng khảo sát phản hồi của người dùng. Tài nguyên này chứa đựng dữ liệu thô thu thập được từ các bài khảo sát do người dùng thử nghiệm của dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "gửi về, đồng nghĩa với việc nó chứa đựng các thông tin nhận dạng cá nhân, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Personally Identifiable Information,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "viết tắt là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "P-I-I.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Thông tin",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "P-I-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là bất kỳ dữ liệu nào có khả năng làm lộ diện danh tính thực của một con người, chẳng hạn, như tên tài khoản, mật khẩu, số điện thoại, địa chỉ thư điện tử, họ và tên đầy đủ, hoặc bất kỳ dữ liệu cá nhân nào tương tự. Chính vì lý do đó, bạn chỉ được phép chia sẻ tài nguyên này cho những thành viên trong đội ngũ dự án đã được phê duyệt chính thức để tiếp cận mức độ thông tin này. Nếu bất kỳ ai khác cố tình mở tệp tài liệu đó ra, hệ thống sẽ lập tức cảnh báo rằng họ bắt buộc phải gửi yêu cầu cấp quyền truy cập. Nếu bạn thực sự cần chia sẻ kết quả của những cuộc khảo sát này cho toàn thể công ty, những số liệu đó hoàn toàn có thể được trực quan hóa dưới dạng biểu đồ, đồ thị số liệu, hoặc được tóm tắt tổng hợp trong một bản báo cáo cô đọng mà không kèm theo bất kỳ mẩu dữ liệu nhận dạng cá nhân",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "P-I-I",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "nào. Sau đó, bạn có thể tự tin chia sẻ bản báo cáo sạch đó cho đội ngũ rộng lớn hơn. Giờ đây, bạn đã có một sự thấu hiểu sâu sắc hơn về tầm quan trọng mang tính nền tảng của tài liệu hồ sơ đối với quản lý dự án. Trong phần tiếp theo, chúng ta sẽ học cách tốt nhất để kết nối toàn bộ bản kế hoạch lại với nhau và giữ cho mọi thứ luôn ngăn nắp, khoa học. Hẹn gặp lại bạn sau ít phút. TỔ CHỨC SẮP XẾP TÀI LIỆU HỒ SƠ DỰ ÁN , Chào bạn, chúng ta lại gặp nhau. Cho đến thời điểm này của khóa học, bạn đã tự tay điền đầy đủ hoặc tạo lập nên nhiều nguồn tài nguyên lập kế hoạch dự án vô cùng quan trọng, từ bản kế hoạch dự án tổng thể, bảng ngân sách, biểu đồ ma trận",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-A-C-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "kế hoạch quản trị rủi ro, và bây giờ là một bản kế hoạch truyền thông chi tiết. Chúng ta cũng đã thảo luận sâu sắc về tầm quan trọng của việc sắp xếp ngăn nắp các luồng giao tiếp và đảm bảo quyền truy cập dễ dàng, chuẩn mực vào các tài liệu dự án. Bây giờ, tôi sẽ chỉ cho bạn một phương pháp trực quan để bạn có thể tổ chức, quy tụ toàn bộ thông tin dự án của mình về một vị trí tập trung duy nhất. Bạn hoàn toàn có thể áp dụng linh hoạt những kỹ thuật nền tảng này cho hầu như bất kỳ trường phái hay hệ thống quản trị dự án nào trong thực tế.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-16.txt": [
+    {
+      "lang": "vi",
+      "text": "Việc sắp xếp ngăn nắp các bản kế hoạch dự án sẽ giúp cho công việc của tất cả mọi người trở nên nhẹ nhàng, thuận tiện hơn rất nhiều và triệt tiêu hoàn toàn mọi nguy cơ gây bối rối, nhầm lẫn. Với tư cách là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mục tiêu tối thượng của bạn là làm sao để tất cả các nguồn tài nguyên dự án đều được lập hồ sơ và liên kết chặt chẽ với nhau, theo cách mà chính bạn hoặc bất kỳ ai trong dự án cũng có thể truy xuất chính xác thứ họ cần chỉ trong chớp mắt. Một vài phương thức cực kỳ tiện lợi và phổ biến để tổ chức dữ liệu là sử dụng một ổ đĩa lưu trữ đám mây chia sẻ chung, chẳng hạn, như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Drive,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và tạo lập một tài nguyên trung tâm đóng vai trò liên kết, như một văn bản tổng hợp hoặc một trang tính chủ, dẫn thẳng tới tất cả các tệp tin và tài nguyên mà dự án đang sử dụng. Đây là một ví dụ, minh họa về cách sắp xếp các tệp tin trên",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Drive,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nhưng thực ra việc đội ngũ của bạn sử dụng hệ thống lưu trữ chia sẻ nào không quá quan trọng, bạn hoàn toàn có thể áp dụng đúng quy trình này cho hầu hết các nền tảng khác nhau. Đầu tiên, hãy tạo một thư mục mới toanh và đặt tên nó bằng chính tên chính thức của dự án. Hãy sử dụng thư mục này làm ngôi nhà chung để lưu trữ toàn bộ các tệp tin của dự án. Bạn thậm chí có thể tạo thêm các thư mục con bên trong và phân loại chúng ngăn nắp trong thư mục dự án chính. Bạn cũng có thể giữ cho mọi thứ luôn quy củ bằng cách tạo một tài liệu lập kế hoạch trung tâm liên kết tất cả mọi thứ lại với nhau. Tài liệu này có thể đóng vai trò như một cẩm nang tra cứu nhanh mà bạn và đội ngũ có thể sử dụng để tìm thấy mọi tệp tin thường xuyên sử dụng tại một nơi duy nhất. Đây là một ví dụ, thực tế của dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đã được bắt đầu thiết lập. Lần lượt từng bước một, bạn chọn tên của tài nguyên, sau đó gắn đường dẫn liên kết tương ứng vào. Giờ đây, bạn hoàn toàn có thể mở thẳng tệp tin đó trực tiếp từ tài liệu trung tâm này. Nếu dự án của bạn sử dụng nhiều bảng tính khác nhau và bạn muốn tránh việc phải mở quá nhiều tệp tin riêng rẽ gây rối mắt, bạn hoàn toàn có thể gom chúng lại trong cùng một bảng tính tổng thể như thế này. Bảng tính này có các thẻ trang tính nhỏ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Tabs,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "dành cho tất cả các bảng tính thành phần chứa thông tin dự án. Bạn có thể dễ dàng thêm một thẻ trang tính mới vào bất kỳ thời điểm nào.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-17.txt": [
+    {
+      "lang": "vi",
+      "text": "Việc đưa vào một thẻ trang tính tổng quan và gắn đường dẫn đến tất cả các tệp tin không phải dạng bảng tính là cực kỳ hữu ích. Đây cũng chính là một không gian lý tưởng để bạn cung cấp một bản mô tả ngắn gọn về dự án, hướng dẫn cách sử dụng trang tính, hoặc nêu rõ những kỳ vọng về mặt truyền thông. Trong ví dụ, minh họa này, thẻ trang tính tổng quan được gọi là bảng điều khiển theo dõi, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Dashboard,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và nó cũng mang cùng một ý nghĩa như vậy. Bạn có thể toàn quyền quyết định cách đặt tên cho bảng điều khiển của riêng mình. Đó chính là tất cả những gì bạn cần. Giờ đây, mọi tài liệu của bạn đã được tổ chức một cách khoa học, ngăn nắp và bạn đã hoàn toàn sẵn sàng để chứng minh cho tất cả mọi người thấy bạn là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tài năng và cừ khôi đến mức nào. TẦM QUAN TRỌNG CỦA TÀI LIỆU HỒ SƠ DỰ ÁN, CÂU CHUYỆN CỦA DAN , Tôi là Dan, và tôi là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại bộ phận",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Research.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Với tư cách là một người quản lý chương trình tại khối Nghiên cứu, nhiệm vụ của tôi là làm sao để đảm bảo tất cả các đội ngũ mà tôi làm việc cùng đều có chung một góc nhìn thống nhất và thông suốt. Cho dù đó là các đội ngũ sản phẩm, những người trực tiếp đưa các kết quả nghiên cứu vào ứng dụng thực tế, hay các đội ngũ nghiên cứu thuần túy, những người cần thấu hiểu cách định hình chương trình nghị sự nghiên cứu cho các dự án tương lai. Phần lớn những gì tôi làm hằng ngày chính là truyền thông hiệu quả và nỗ lực kiến tạo nên hệ thống tài liệu hồ sơ chi tiết để tất cả mọi người đều có thể xâu chuỗi và kết nối các dữ kiện lại với nhau. Một điều mà tôi đã quan sát thấy trong suốt sự nghiệp làm quản lý chương trình của mình là sự sinh sôi nảy nở mất kiểm soát của các loại tài liệu, hay cái mà tôi thường gọi đùa là, chết chìm trong hàng ngàn văn bản,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Death by a thousand documents.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Vì vậy, việc sở hữu một tài liệu chủ duy nhất,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Master Document,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nơi bạn tập trung hóa toàn bộ các tài liệu con hoặc các văn bản thứ cấp cần thiết để thực thi dự án trở nên có ý nghĩa sống còn. Khi đó, bạn chỉ cần mở tài liệu chủ đó ra là có thể tìm thấy bất kỳ thứ gì mình cần, ngay cả khi tài liệu đó thực chất đang được lưu trữ ở một nơi nào khác.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-18.txt": [
+    {
+      "lang": "vi",
+      "text": "Tôi có thể mở bảng theo dõi tổng thể,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Master Tracker,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "của mình ra và tại đó, tôi có thể tìm thấy ngay bản điều lệ chương trình,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Program Charter,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tôi có thể tìm thấy ngân sách dự án, tôi có thể tìm thấy phạm vi công việc đã được các bên đồng thuận, và bất kỳ tài liệu nào chứa ma trận phê duyệt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Approval Matrices,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức danh sách tổng hợp tất cả những chữ ký phê duyệt mà tôi cần thu thập, cùng những thứ tương tự. Nếu tôi có thể gắn đường dẫn liên kết tới tất cả mọi thứ chỉ từ một vị trí duy nhất, tôi biết chắc chắn rằng mình luôn có thể bắt đầu công việc từ đó và tìm ra chính xác những gì mình cần. Tuyệt đối không có một công thức dập khuôn cứng nhắc nào cho công tác quản lý dự án hay quản lý chương trình cả. Bạn có thể cần một bản kế hoạch quản trị rủi ro chi tiết cho dự án này nhưng lại không nhất thiết cần đến nó cho một dự án khác, và có thể có những loại tài liệu hồ sơ đặc thù khác mà bạn bắt buộc phải có. Thành thực mà nói, việc giữ cho mọi thứ luôn ngăn nắp và luôn bắt đầu xuất phát từ một nơi tập trung duy nhất chính là lời khuyên đắt giá nhất mà tôi có thể dành cho bạn. Xu hướng rộng lớn hơn trong công tác lập hồ sơ quản lý chương trình hoặc quản lý dự án hiện đại là bạn không bao giờ chỉ rà soát tài liệu qua loa một lần là xong. Bạn không thể hoàn thành bản kế hoạch dự án hay bản điều lệ dự án của mình chỉ sau một lần gõ phím, trái lại, bạn bắt buộc phải liên tục quay trở lại với nó, chỉnh sửa, bổ sung và phát triển nó không ngừng. Đó là một tài liệu sống thực sự, thở cùng nhịp thở của dự án. Bạn càng chi tiết hóa và chuẩn xác trong tài liệu hồ sơ của mình bao nhiêu ngay từ đầu, bạn sẽ càng phải trải qua ít vòng lặp chỉnh sửa về sau bấy nhiêu, bởi vì, mọi người sẽ có nhiều khả năng làm đúng ngay từ lần đầu tiên. SẮP XẾP CÁC SẢN PHẨM THỰC CHỨNG CHO MỘT BUỔI PHỎNG VẤN, CÂU CHUYỆN CỦA",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "CHRIS",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chào, tôi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Chris.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Diversity Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi phụ trách việc dẫn dắt chiến lược và các chương trình đa dạng hóa cho một trong những đơn vị kinh doanh lớn của chúng tôi tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trọng tâm của tôi là tập trung vào các chương trình đa dạng dành cho những nhóm nhân sự ít có tiếng nói nhất tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chẳng hạn, như cộng đồng nhân sự người da màu, cộng đồng người gốc Latinh và các nhóm cư dân bản địa làm việc tại đây.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-19.txt": [
+    {
+      "lang": "vi",
+      "text": "Trong thế giới của một nhà quản lý, nơi mà mỗi một ngày trôi qua tôi đều phải không ngừng trăn trở xem những ai cần phải tham gia vào các dự án mà mình đang điều phối, ai sẽ là người quan tâm và sẵn lòng đầu tư nguồn lực vào các chương trình mà tôi muốn triển khai, đúng không nào? Bởi vì, tôi cần phải giành được sự đồng thuận và phê duyệt chính thức, tức Buy-in, để các chương trình đó được bật đèn xanh lăn bánh. Vì vậy, tôi luôn luôn suy nghĩ về cách thức mình tổ chức, sắp xếp các tài liệu tư liệu của mình. Tôi luôn tư duy về việc đóng gói thông tin và kể một câu chuyện truyền cảm hứng đằng sau tất cả những tư liệu đó, để tôi có thể tiếp tục cống hiến và tạo nên những thành tựu tuyệt vời mà mình đang theo đuổi. Một sản phẩm thực chứng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Artifact,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "là bất kỳ thứ gì hữu hình mà bạn trực tiếp tạo dựng nên để mô tả, minh chứng hoặc phô diễn những thành quả công việc mà bạn đang đảm nhận. Đó có thể là một tài liệu tóm tắt điều hành cấp cao,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Executive Brief,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc đơn giản chỉ là một bản tổng quan phác thảo công việc bạn đang làm, hoặc nó cũng có thể là một thứ mang tính chiến thuật thực thi sâu sắc như một bảng phân công vai trò và trách nhiệm rõ ràng, đúng không nào? Việc bóc tách rõ ràng xem ai trong đội ngũ của bạn đang chịu trách nhiệm cho đầu việc gì và bạn cần phải thuyết trình báo cáo cho những ai là điều cực kỳ quan trọng để giữ cho mọi thứ luôn quy củ. Bởi vì, những tài liệu này không chỉ phục vụ cho nhu cầu sử dụng của riêng cá nhân tôi, mà còn dành cho bất kỳ ai mà tôi cần tương tác cùng, đúng không? Đó có thể là một bên liên quan cấp cao, một người có thẩm quyền ký duyệt dự án, hoặc chính là những đồng đội thân thiết của tôi. Tôi cũng thường xuyên mời thêm các tình nguyện viên hoặc các nhân sự toàn thời gian hỗ trợ để cùng chung tay xây dựng các chương trình mà tôi điều hành. Sau cùng, giả sử chúng ta thuê một nhà cung cấp bên ngoài, họ bắt buộc phải hiểu rõ họ đang đứng ở đâu trong bức tranh toàn cảnh rộng lớn hơn, đồng thời, nắm chắc họ cần phải làm gì về mặt chiến thuật để giúp chương trình thành công rực rỡ. Vì vậy, việc lưu trữ và gìn giữ các sản phẩm thực chứng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Artifacts",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cho phép bạn gặt hái được kết quả chung cuộc tối ưu nhất và làm chủ mọi yếu tố trong quản lý chương trình. Bỏ qua khía cạnh nghiệp vụ đó sang một bên, bạn cũng sẽ luôn muốn có khả năng phô diễn những thành tựu công việc của mình khi kết thúc dự án. Nhờ đó, khi thời điểm chín muồi đến để bạn có thể đề xuất xin thêm ngân sách cho chương trình hoặc nâng tầm dự án lên một nấc thang mới, bạn đã nắm chắc trong tay một hệ quy chiếu nền tảng vững vàng để thực sự nhìn lại xem mình đã khởi đầu từ đâu và đã tiến xa được bao nhiêu trên hành trình này.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-20.txt": [
+    {
+      "lang": "vi",
+      "text": "Khi bạn nắm giữ tất cả những sản phẩm thực chứng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Artifacts",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đó, điều tối quan trọng là bạn phải có năng lực nói lên được cách mà những sản phẩm thực chứng này đã giúp bạn gặt hái thành công ra sao. Các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Artifacts",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "chính là những minh chứng sống động, hữu hình nhất để chứng minh cho một nhà tuyển dụng trong buổi phỏng vấn xin việc thấy rằng, chính bạn là người đã trực tiếp xắn tay áo vào làm việc để đưa chương trình hay dự án đó đi đến thành công vang dội, đúng không nào? Nếu trong một buổi phỏng vấn xin việc, bạn chỉ nói về dự án hay chương trình ở những nét đại cương chung chung trên mây, người phỏng vấn chắc chắn sẽ muốn đào sâu vào chi tiết cụ thể, và chính các sản phẩm thực chứng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Artifacts",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "sẽ cho phép bạn phô diễn trọn vẹn những chi tiết đắt giá đó. Chúng cho phép bạn không chỉ chứng minh những gì đã thực sự diễn ra trong dự án và dự án đã tiến xa đến đâu, mà còn khẳng định dấu ấn đóng góp không thể thay thế của cá nhân bạn vào thành quả đó. Nó thể hiện một cách hữu hình năng lực dẫn dắt toàn bộ quy trình từ điểm khởi đầu cho tới vạch đích cuối cùng của bạn. Bạn chính là người tiền vệ điều phối trận đấu, tức người",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Quarterback,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đúng không nào? Và người tiền vệ điều phối cũng chính là người nắm giữ cuốn cẩm nang chiến thuật của cả đội bóng, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Playbook.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nếu bạn không nắm giữ cuốn cẩm nang chiến thuật trong tay, thì ngoài bạn ra còn ai trong đội ngũ có thể biết mình phải làm gì tiếp theo? Bạn chính là người trực tiếp điều hành toàn bộ màn trình diễn đó. Và vì vậy, về mặt thực tế, bạn hãy luôn đảm bảo rằng mình có đủ năng lực để phô diễn những thành quả đó trong bất kỳ bối cảnh nào, cho dù là ngay trong lúc bạn đang trực tiếp lăn lộn với dự án, sau khi dự án đã hoàn thành, hay trong một buổi phỏng vấn tìm kiếm cơ hội nghề nghiệp mới. Tất cả những gì bạn đã nỗ lực làm để đưa chương trình hoặc dự án cán đích thành công đều xứng đáng được ghi nhận và tỏa sáng. TỔNG KẾT KHÓA HỌC, LẬP KẾ HOẠCH DỰ ÁN, KẾT NỐI TOÀN DIỆN , Bạn đã hoàn thành một khối lượng công việc khổng lồ và vô cùng ấn tượng. Bây giờ, chúng ta hãy cùng dành ra một vài phút lắng đọng để cùng nhau điểm lại tất cả những tri thức quý báu mà bạn đã gặt hái được xuyên suốt khóa học chuyên sâu này. Đầu tiên, bạn đã làm chủ các thành phần cốt tử nhất của giai đoạn lập kế hoạch dự án và khám phá cách thức một quy trình lập kế hoạch bài bản giúp đảm bảo các cột mốc và nhiệm vụ luôn được hoàn thành xuất sắc.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-21.txt": [
+    {
+      "lang": "vi",
+      "text": "Tiếp theo, bạn đã thấu hiểu vì sao việc xây dựng và điều hành một bản kế hoạch dự án là điều tối cần thiết, học cách vận dụng các phương pháp ước lượng thời gian khoa học để ngăn ngừa dự án đổ vỡ, cách thu thập các con số ước lượng khả thi thông qua các kỹ năng mềm khéo léo, và nắm trong tay những công cụ đắc lực nhất để kiến tạo nên một bản kế hoạch tác chiến hoàn chỉnh. Sau đó, bạn đã nắm vững các thành phần cấu tạo nên ngân sách dự án, cách thức quy trình ngân sách vận hành, cùng các nguyên lý nền tảng đằng sau việc ước toán và theo dõi sát sao từng dòng chi phí. Chúng ta cũng đã cùng nhau mổ xẻ toàn bộ dòng chảy của quy trình mua sắm đấu thầu để quản lý các văn bản thủ tục, các hồ sơ chào thầu, hồ sơ đề xuất và đánh giá năng lực thực thi của các nhà cung cấp. Bạn cũng đã được trang bị tư duy và kỹ năng về quản trị rủi ro, thấu hiểu cách nó bảo vệ dự án khỏi nguy cơ thất bại cay đắng. Bạn đã học cách nhận diện các loại rủi ro, đo lường mức độ tác động của chúng đối với dự án, cũng như cách truyền thông và giám sát chặt chẽ các rủi ro tiềm ẩn một khi chúng đã được định danh. Và cuối cùng, bạn đã thấu suốt tầm quan trọng sống còn của việc lập tài liệu hồ sơ cho các kế hoạch. Bạn đã học cách tổ chức, sắp xếp các bản kế hoạch để mang lại tính minh bạch và trách nhiệm giải trình cao nhất, đồng thời, nắm rõ những yếu tố cấu thành nên một bản kế hoạch truyền thông tinh gọn nhưng mang tính quyết định đối với thắng lợi của dự án. Trong khóa học tiếp theo, bạn sẽ cùng chúng tôi tiến bước vào giai đoạn thực thi và đóng dự án, nơi người đồng nghiệp tuyệt vời của tôi, cô Elita, sẽ là người bạn đồng hành và dẫn dắt bạn. Cô ấy sẽ truyền dạy cho bạn tất cả về cách theo dõi và đo lường tiến độ dự án, nghệ thuật quản trị rủi ro trong thực chiến, cách vận dụng dữ liệu thực tế để đưa ra các quyết sách chuẩn xác, và nghệ thuật giao tiếp đỉnh cao trong dự án. Tôi đã có một quãng thời gian vô cùng tuyệt vời và hạnh phúc khi được chia sẻ những trải nghiệm thực chiến về quản lý dự án cùng bạn. Chúc bạn luôn gặt hái được những thành công rực rỡ nhất trên con đường sự nghiệp của mình.",
+      "pause_type": "terminal"
+    }
+  ]
+}

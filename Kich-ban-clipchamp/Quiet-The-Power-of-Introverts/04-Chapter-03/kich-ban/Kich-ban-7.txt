@@ -1,0 +1,18 @@
+Thế nhưng những nơi làm việc hiện đại lại đang triệt tiêu sự tĩnh lặng đó. Nhà tư vấn Tom DeMarco và Timothy Lister đã thực hiện một nghiên cứu nổi tiếng mang tên Cuộc chiến Lập trình, Coding War Games, với hơn sáu trăm lập trình viên đến từ chín mươi hai công ty khác nhau. Kết quả cho thấy các lập trình viên hàng đầu làm việc tốt hơn gấp nhiều lần so với nhóm kém nhất. Điểm mấu chốt không nằm ở số năm kinh nghiệm hay mức lương, mà nằm ở không gian làm việc của họ, sáu mươi hai phần trăm những người làm việc xuất sắc nhất có văn phòng riêng yên tĩnh, so với chỉ ba mươi phần trăm ở nhóm làm việc kém nhất. Nhóm xuất sắc cho biết họ ít bị gián đoạn hơn, có nhiều không gian riêng tư hơn và không bị làm phiền bởi những cuộc trò chuyện xung quanh.
+
+HUYỀN THOẠI VỀ ĐỘT PHÁ Ý TƯỞNG TẬP THỂ, THE MYTH OF BRAINSTORMING
+. ......
+
+Nếu không gian riêng tư là điều sống còn cho sự sáng tạo, thì sự tự do khỏi áp lực của đám đông cũng quan trọng không kém. Hãy xem xét câu chuyện về huyền thoại quảng cáo Alex Osborn. Trong nửa đầu thế kỷ hai mươi, Osborn là một nhân vật lẫy lừng, đối tác sáng lập của công ty quảng cáo B-B-D-O danh tiếng.
+
+Trăn trở lớn nhất của Osborn khi lãnh đạo công ty là, các nhân viên của ông dường như không đủ sáng tạo. Ông tin rằng họ có những ý tưởng hay, nhưng lại ngần ngại chia sẻ vì sợ bị đồng nghiệp phán xét và chê cười. Giải pháp của Osborn không phải là để nhân viên làm việc một mình, mà là loại bỏ mối đe dọa bị chỉ trích khỏi công việc nhóm. Ông đã phát minh ra khái niệm đột phá ý tưởng, brainstorming, một quy trình trong đó các thành viên trong nhóm cùng nhau đưa ra ý tưởng trong một bầu không khí hoàn toàn không phán xét.
+
+Đột phá ý tưởng của Osborn bao gồm bốn quy tắc vàng,
+Thứ nhất, Tuyệt đối không phán xét hay chỉ trích ý tưởng của người khác.
+Thứ hai, Khuyến khích sự tự do bay bổng, ý tưởng càng táo bạo và kỳ lạ càng tốt.
+Thứ ba, Nhắm tới số lượng, càng nhiều ý tưởng càng tốt.
+Thứ tư, Xây dựng và phát triển dựa trên ý tưởng của những người khác trong nhóm.
+
+Osborn tin tưởng mãnh liệt rằng một khi được giải phóng khỏi xiềng xích của sự phán xét xã hội, các nhóm sẽ tạo ra nhiều ý tưởng hơn và chất lượng hơn so với các cá nhân làm việc trong sự cô độc. Lý thuyết của Osborn đã tạo ra một làn sóng chấn động, và các nhà lãnh đạo doanh nghiệp đón nhận nó với sự hào hứng tột độ. Cho đến tận ngày nay, hầu như bất kỳ ai làm việc nơi công sở cũng từng có lúc bị nhốt trong một căn phòng ngập tràn bảng trắng, bút dạ và một người điều phối hăng hái kêu gọi mọi người liên tưởng tự do.
+
+Thế nhưng có một vấn đề duy nhất với ý tưởng đột phá của Osborn, Đột phá ý tưởng tập thể trong thực tế hoàn toàn không mang lại hiệu quả như mong đợi.

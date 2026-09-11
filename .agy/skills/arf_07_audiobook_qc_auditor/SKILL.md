@@ -46,7 +46,7 @@ Skill **07_audiobook_qc_auditor** đóng vai trò là Trưởng Bộ Phận Th�
 Khi thẩm định chất lượng hoặc khi script phát hiện cờ **RED FLAG**:
 
 1. **Đọc so sánh song song đa chiều (Parallel Cross-Check):**
-   - Mở đồng thời `raw_original.txt` và các file kịch bản `Kich-ban-N.txt` của chương cần thẩm định.
+   - Mở đồng thời `raw_original.txt` và các file kịch bản `Kich-ban-N.txt` trong thư mục `kich-ban/` (ưu tiên) hoặc thư mục chương của chương cần thẩm định.
    - Đối chiếu từng phân đoạn ý niệm: Mở đầu $\to$ Luận điểm chính $\to$ Câu chuyện minh họa lịch sử/thực tế $\to$ Đúc kết bài học.
 2. **Đánh giá tổn thất ngữ nghĩa (Semantic Loss Assessment):**
    - Kiểm tra xem các câu chuyện, ví dụ minh họa, danh ngôn hay nhân vật lịch sử có bị cắt xén hay không.

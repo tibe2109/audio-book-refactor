@@ -1,69 +1,113 @@
-# 🧠 BẢN ĐỒ TƯ DUY TINH GỌN (5 TẦNG): Cấu Trúc Tổ Chức Và Văn Hóa Doanh Nghiệp (v2.4)
+# 🧠 BẢN ĐỒ TƯ DUY TINH GỌN (4-5 TẦNG): HỌC PHẦN 4 - CẤU TRÚC & VĂN HÓA DOANH NGHIỆP
 
-## 1. Sơ Đồ Tư Duy Trực Quan (Mermaid Mindmap Bám Sát 4 Phần Tài Liệu)
+## 1. Sơ Đồ Tư Duy Trực Quan (Mermaid Mindmap Tinh Gọn)
 
 ```mermaid
 mindmap
-  root((CẤU TRÚC & VĂN HÓA))
-    🏢 01 Cấu trúc Tổ chức
-      Functional Chức năng
-        Tối ưu Chuyên môn
-        Ốc đảo Silos
-      Matrix Ma trận
-        Weak Matrix
-          PM Ít quyền
-        Balanced Matrix
-          Chia đều Quyền
-        Strong Matrix
-          PM Quyền mạnh
-          Nắm giữ Ngân sách
-    ⚖️ 02 Tác động Quyền hạn
+  root((CẤU TRÚC VÀ VĂN HÓA))
+    🏛️ Cấu Trúc Doanh Nghiệp
+      Cổ điển chức năng
+        Phân cấp kim tự tháp
+          Một sếp duy nhất
+            Chuyên môn hóa sâu
+        Silo ngăn cách
+          Chậm tiến độ ngang
+            Cản trở hợp tác
+      Cơ cấu ma trận
+        Báo cáo hai sếp
+          Chức năng và dự án
+            Phối hợp đa chiều
+        Ba cấp độ quyền
+          Yếu cân bằng mạnh
+            Phân định quyền lực
+    ⚡ Tác Động Quyền Hạn
       Thẩm quyền của PM
-        Phê duyệt Ngân sách
-        Phân bổ Nhân sự
-      Đàm phán Nguồn lực
-        Influence Without Authority
-        Hợp tác Win-Win
-        Trưởng phòng Chức năng
-    🌱 03 Văn hóa Doanh nghiệp
-      Bản chất Văn hóa
-        Giá trị Cốt lõi
-        Quy tắc Bất thành văn
-      Điều hướng Văn hóa
-        Quan sát Lắng nghe
-        Gemba Walk
-        Tránh Phản kháng ngầm
-    🚀 04 Quản trị Thay đổi OCM
-      Lực cản Con người
-        Tâm lý Bất an
-        Vùng An toàn
-      Mô hình 8 bước Kotter
-        Tạo tính Cấp bách
-        Liên minh Dẫn dắt
-        Truyền thông Tầm nhìn
-        Thắng lợi Quick-Wins
-        Neo Văn hóa mới
+        Điều phối hỗ trợ
+          Cơ cấu cổ điển
+            Không có thực quyền
+        Toàn quyền quyết định
+          Cơ cấu dự án
+            Tự chủ nhân lực
+      Kiểm soát ngân sách
+        Phụ thuộc phòng ban
+          Xin duyệt rườm rà
+            Dễ bị động trễ
+        Mã ngân sách riêng
+          Chủ động chi tiêu
+            Tự chịu trách nhiệm
+    🎭 Văn Hóa Doanh Nghiệp
+      Tảng băng văn hóa
+        Phần nổi quan sát
+          Khẩu hiệu văn phòng
+            Trang phục kiến trúc
+        Phần chìm giá trị
+          Niềm tin bất thành văn
+            Cách thức ứng xử
+      Nghệ thuật hòa nhập
+        An toàn tâm lý
+          Dám nói thẳng thắn
+            Không sợ trừng phạt
+        Người ảnh hưởng ngầm
+          Xây dựng đồng minh
+            Tận dụng mạng lưới
+    🌊 Quản Trị Sự Thay Đổi
+      Bản chất chuyển đổi
+        Chuyển dịch trạng thái
+          Hiện tại sang tương lai
+            Qua giai đoạn đệm
+        Công thức hiệu quả
+          Chất lượng nhân chấp nhận
+            Đích đến thành công
+      Tâm lý kháng cự
+        Phản ứng tự nhiên
+          Sợ hãi mất mát
+            Bảo vệ vùng an toàn
+        Đường cong Kubler
+          Chối bỏ đến tích hợp
+            Đồng hành vượt trũng
+    🚀 Mô Hình Chuẩn Mực
+      Bộ ba kinh điển
+        Ba bước Lewin
+          Rã đông đổi tái đông
+            Quy trình chuẩn tắc
+        Tám bước Kotter
+          Cấp bách đến ăn sâu
+            Dẫn dắt chuyển đổi
+        Mô hình ADKAR
+          Nhận thức đến củng cố
+            Thước đo cá nhân
       Vai trò PM
-        Đại sứ Change Agent
+        Change Agent
+          Tác nhân thay đổi
+            Cầu nối đa tầng
+        Đại sứ chuyển đổi
+          Lan tỏa từ dưới lên
+            Tạo thắng lợi sớm
 ```
 
 ---
 
-## 2. Cây Phân Cấp Tri Thức Gợi Nhớ Nhanh 5 Tầng (Active Recall Hierarchy)
+## 2. Cây Phân Cấp Tri Thức Gợi Nhớ Nhanh 4-5 Tầng (Active Recall Hierarchy)
 
-- 📌 **[Phần I: Các Loại Hình Cấu Trúc Tổ Chức]**
-  - 🔹 *Functional Cổ điển:* ➔ *Phân cấp theo chuyên môn sâu* ➔ *Hạn chế giao tiếp chéo* ➔ *Tạo ra các ốc đảo Silos*
-  - 🔹 *Matrix Ma trận:* ➔ *Báo cáo kép (Dual Reporting)* ➔ *Giao thoa Chức năng và Dự án* ➔ *Phân cấp Weak, Balanced, Strong Matrix*
-- 📌 **[Phần II: Tác Động Của Cấu Trúc Đến Quyền Hạn PM]**
-  - 🔹 *Thẩm quyền PM:* ➔ *Quyền lực hành chính vs. Quyền lực ngân sách* ➔ *Phân bổ nhân lực dự án* ➔ *Mức độ tự chủ cao nhất ở Strong Matrix*
-  - 🔹 *Đàm phán Nguồn lực:* ➔ *Sức ảnh hưởng không cần quyền lực (Influence Without Authority)* ➔ *Đàm phán Win-Win với Trưởng phòng*
-- 📌 **[Phần III: Văn Hóa Doanh Nghiệp & Định Vị PM]**
-  - 🔹 *Bản chất Văn hóa:* ➔ *Giá trị cốt lõi và niềm tin tập thể* ➔ *Quy tắc bất thành văn chi phối hành vi* ➔ *Mô hình tảng băng văn hóa*
-  - 🔹 *Điều hướng Văn hóa:* ➔ *Quan sát và thấu hiểu chuẩn mực* ➔ *Kỹ thuật Gemba Walk* ➔ *Tránh xung đột ngầm và đồng thuận tập thể*
-- 📌 **[Phần IV: Quản Trị Sự Thay Đổi Tổ Chức (OCM)]**
-  - 🔹 *Lực cản Tâm lý:* ➔ *Yếu tố con người quyết định thành bại* ➔ *Nỗi sợ mất an toàn* ➔ *Mô hình đường cong biến đổi Kubler-Ross*
-  - 🔹 *Mô hình 8 bước Kotter:* ➔ *Cấp bách ➔ Liên minh ➔ Tầm nhìn ➔ Truyền thông ➔ Trao quyền ➔ Quick-Wins ➔ Bứt phá ➔ Neo văn hóa*
-  - 🔹 *Vai trò Change Agent:* ➔ *PM làm gương dẫn dắt* ➔ *Truyền thông đồng cảm* ➔ *Kiến tạo thắng lợi ngắn hạn củng cố niềm tin*
+- 📌 **[Phần I: Tổng Quan Cấu Trúc Cổ Điển & Cấu Trúc Ma Trận]**
+  - 🔹 *Cơ cấu chức năng cổ điển:* ➔ *Phân cấp kim tự tháp* ➔ *Một sếp duy nhất & Rào cản Silo* ➔ *Ví dụ: Quân đội hoặc cơ quan nhà nước báo cáo thẳng cấp trên*
+  - 🔹 *Cơ cấu ma trận:* ➔ *Báo cáo hai sếp (Dual Reporting)* ➔ *Phân định 3 cấp: Yếu, Cân bằng, Mạnh* ➔ *Ví dụ: Lập trình viên Google vừa báo cáo Trưởng phòng vừa báo cáo PM*
+
+- 📌 **[Phần II: Tác Động Của Cấu Trúc Tới Quyền Hạn Của PM]**
+  - 🔹 *Thẩm quyền & Nhân sự:* ➔ *Từ điều phối viên đến toàn quyền* ➔ *Khung PM Authority Spectrum* ➔ *Ví dụ: Xin mượn người thiết kế 3 ngày vs. Tự quyền thuê ngoài*
+  - 🔹 *Kiểm soát tài chính:* ➔ *Ngân sách phòng ban vs. Mã Cost Center riêng* ➔ *Thẩm quyền ký duyệt chi tiêu* ➔ *Ví dụ: Tự ký mua máy in hỏng trong ngày thay vì đợi duyệt 2 tuần*
+
+- 📌 **[Phần III: Giải Mã & Điều Hướng Văn Hóa Doanh Nghiệp]**
+  - 🔹 *Mô hình Tảng băng văn hóa:* ➔ *Phần nổi (10%) & Phần chìm niềm tin (90%)* ➔ *Thang đo An toàn tâm lý* ➔ *Ví dụ: PM độc đoán bị tẩy chay trong công ty startup cởi mở*
+  - 🔹 *Nghệ thuật hòa nhập:* ➔ *Thuận theo văn hóa để thúc đẩy việc* ➔ *Người có ảnh hưởng ngầm (Opinion Leaders)* ➔ *Ví dụ: Demo sản phẩm vào tiệc trà chiều thứ Sáu thay vì họp căng thẳng*
+
+- 📌 **[Phần IV: Bản Chất Sống Còn Của Quản Trị Sự Thay Đổi]**
+  - 🔹 *Bản chất chuyển dịch:* ➔ *Hiện tại ➔ Chuyển tiếp ➔ Tương lai* ➔ *Công thức $Q \times A = E$* ➔ *Ví dụ: Mua phần mềm viện phí tiền tỷ nhưng bác sĩ vẫn viết sổ tay*
+  - 🔹 *Tâm lý kháng cự:* ➔ *Đường cong thay đổi Kübler-Ross* ➔ *Chối bỏ ➔ Giận dữ ➔ Chấp nhận* ➔ *Ví dụ: Chuyển sang chấm công nhận diện khuôn mặt nhân viên càu nhàu*
+
+- 📌 **[Phần V: Thực Thi Mô Hình Quản Trị Thay Đổi Chuẩn Mực]**
+  - 🔹 *Bộ ba Lewin - Kotter - ADKAR:* ➔ *Rã đông ➔ 8 bước Kotter ➔ Khung ADKAR* ➔ *Tạo thắng lợi ngắn hạn (Short-term Wins)* ➔ *Ví dụ: Thưởng nóng thủ kho đầu tiên nhập liệu phần mềm mới chuẩn 100%*
+  - 🔹 *PM là Change Agent:* ➔ *Tác nhân thay đổi & Lắng nghe đồng hành* ➔ *Mạng lưới Change Champions* ➔ *Ví dụ: Dự án Hybrid Work hỗ trợ màn hình làm việc tại nhà*
 
 ---
 
@@ -71,15 +115,14 @@ mindmap
 
 | Từ Khóa Cốt Lõi | Phần Trong Tài Liệu | Bản Chất / Vai Trò (3-5 từ) | Tín Hiệu Gợi Nhớ (Memory Trigger) |
 | :--- | :--- | :--- | :--- |
-| **Functional Structure** | Phần I | Cơ cấu tổ chức theo chuyên môn | Các tòa tháp riêng biệt đứng cạnh nhau không có cầu nối |
-| **Silos (Ốc đảo)** | Phần I | Hiện tượng cô lập chia rẽ phòng ban | Các hầm chứa ngũ cốc đóng kín cửa không giao lưu |
-| **Matrix Structure** | Phần I | Cơ cấu đa tuyến kết hợp dự án | Ngã tư giao nhau giữa hai làn đường cao tốc trên cao |
-| **Dual Reporting** | Phần I | Cơ chế báo cáo cho hai người sếp | Người con nghe lời dặn của cả cha và mẹ trong gia đình |
-| **Influence Without Authority** | Phần II | Thuyết phục không cần dùng quyền lực | Nhà ngoại giao thuyết phục các nước ký hiệp ước hòa bình |
-| **Unwritten Rules** | Phần III | Các quy tắc ngầm định trong văn hóa | Lệ làng được truyền miệng qua nhiều thế hệ |
-| **Gemba Walk** | Phần III | Đi thực tế quan sát hiện trường | Bác sĩ đi thăm buồng bệnh để trực tiếp hỏi thăm bệnh nhân |
-| **OCM (Change Management)** | Phần IV | Quản trị khía cạnh con người khi đổi mới | Người dẫn đường đưa cả đoàn người vững bước qua cây cầu mới |
-| **Kotter 8-Step** | Phần IV | Quy trình 8 bước chuyển đổi bài bản | Tám nhịp thang leo lên đỉnh tháp ngọn hải đăng |
-| **Quick-Wins** | Phần IV | Thắng lợi ngắn hạn nhìn thấy ngay | Bữa tiệc mừng công đầu tiên sau tháng chạy dự án thử nghiệm |
-| **Change Agent** | Phần IV | Đại sứ tích cực dẫn dắt thay đổi | Ngọn đuốc sáng soi đường xua tan bóng tối hoang mang |
-| **Anchoring Culture** | Phần IV | Neo giữ thói quen mới thành văn hóa | Chiếc mỏ neo thả sâu giữ con tàu đứng vững trước sóng to |
+| **Functional Silos** | Phần I | Bức tường ngăn phòng ban | Các lô cốt riêng biệt không có cửa sổ nhìn sang nhau |
+| **Dual Reporting** | Phần I | Báo cáo hai sếp song song | Người đứng giữa hai ngã rẽ vừa nghe cha vừa nghe mẹ |
+| **Authority Spectrum** | Phần II | Thang đo quyền hạn PM | Thước đo vạch từ số 0 đến số 10 về quyền quyết định |
+| **Cost Center** | Phần II | Mã tài khoản ngân sách riêng | Chiếc ví tiền độc lập được cấp quyền tự chi tiêu |
+| **Culture Iceberg** | Phần III | Tảng băng trôi văn hóa | Núi băng trôi dưới biển chỉ lộ 10% chóp nhọn |
+| **Psychological Safety** | Phần III | Vùng an toàn tâm lý | Tổ chim êm ấm không sợ bị gió bão quật ngã |
+| **Q x A = E** | Phần IV | Công thức vàng chuyển đổi | Giải pháp tốt mà không ai dùng thì hiệu quả bằng 0 |
+| **Kübler-Ross Curve** | Phần IV | Đường cong trũng tâm lý | Thung lũng hình chữ V trước khi leo lên đỉnh núi mới |
+| **Kotter 8 Steps** | Phần V | Tám bước dẫn dắt thay đổi | Tám bậc thang đá dẫn lên đền thờ thành công |
+| **ADKAR Framework** | Phần V | Thước đo chuyển đổi cá nhân | Năm mắt xích vàng kết nối tư duy người học |
+| **Change Agent** | Phần V | Sứ giả dẫn dắt chuyển đổi | Ngọn đuốc soi đường vượt qua màn đêm bỡ ngỡ |

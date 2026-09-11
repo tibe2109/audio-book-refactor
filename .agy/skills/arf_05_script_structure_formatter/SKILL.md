@@ -11,4 +11,4 @@ description: Bước 5 - AI chèn nhịp nghỉ (. ......) thông minh theo cả
 - Tách bạch rõ ràng Tiêu đề và Thân bài.
 - Chèn `. ......` (nghỉ 1.5 - 2s) ở sau tiêu đề, sau những luận điểm sâu sắc cần người nghe ngẫm nghĩ, hoặc sau các đoạn văn dài.
 - Tuyệt đối KHÔNG chèn bừa bãi làm gãy mạch ý nghĩa, gây hiểu lầm ngữ cảnh.
-- Root Agent gọi Sub-agents tự động xử lý trực tiếp trên các file `Kich-ban-raw-N.txt`.
+- Root Agent gọi Sub-agents tự động xử lý trực tiếp trên các file `Kich-ban-raw-N.txt` trong thư mục con `kich-ban/` của mỗi chương (hỗ trợ tự động fallback tìm ở thư mục cha nếu là dự án cũ).
