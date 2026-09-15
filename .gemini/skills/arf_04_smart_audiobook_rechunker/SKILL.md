@@ -1,16 +1,94 @@
 ---
 name: arf_04_smart_audiobook_rechunker
-description: Bước 4 - AI phân tách ngữ nghĩa thành các chunk ~2500-3000 ký tự (không cắt cụt ý).
+description: "Bước 04 trong Dây chuyền Sách nói Toàn năng (Universal Audiobook Pipeline): Phân rã ngữ nghĩa và chia khối kịch bản thông minh đạt chuẩn độ dài phát thanh (Smart Semantic Audiobook Rechunker). Tiếp nhận văn bản chuẩn hóa (normalized.txt), phân tách thành các tệp kịch bản thô (Kich-ban-raw-N.txt) với dung lượng tối ưu từ 2.200 đến 2.800 ký tự và giới hạn trần tuyệt đối không vượt quá 3.000 ký tự (Hard Limit <= 3.000 chars). Thuật toán phân rã ưu tiên bảo toàn nguyên vẹn ranh giới đoạn văn và câu trọn nghĩa; đối với tác phẩm văn học kinh điển và sử thi, hệ thống bảo tồn trọn vẹn màn đối thoại cao trào gay cấn hoặc khối độc thoại nội tâm trong cùng một chunk để giữ vững mạch cảm xúc nhân vật; đối với sách phi hư cấu, phân rã bám sát cấu trúc đề mục và luận điểm. Thực thi trực tiếp bởi AI Chính bằng Python script tốc độ cao dưới 2 giây nhằm thiết lập ranh giới các chunk thô độc lập, làm nền tảng vững chắc để kích hoạt đồng loạt mảng Sub-agents chuyên môn song song tại Bước 05 và 06 mà không bị quá tải ngữ cảnh. Kích hoạt khi có normalized.txt từ Bước 03, hoặc khi cần chia nhỏ một văn bản dài thành các phân đoạn chuẩn bị biên kịch Text-to-Speech."
 ---
 
-# Kỹ năng 04: Semantic Rechunker (A.I Quyết Định)
+# Kỹ năng 04: Phân Rã Khối Ngữ Nghĩa Kịch Bản (Smart Audiobook Rechunker)
 
-**TRIẾT LÝ CỐT LÕI:** AI dùng tư duy ngôn ngữ để quyết định điểm cắt, đảm bảo không cắt ngang câu, không cắt ngang một ý đang mạch lạc.
+## 1. Đặc Tả Quy Trình Thao Tác Chuẩn (Specification - SOP)
 
-## 1. Nhiệm vụ của AI
-- Root Agent gọi Sub-agents đọc file `normalized.txt` (hoặc bản dịch).
-- AI phân tích và tách văn bản thành các tệp `Kich-ban-raw-N.txt` (mỗi tệp ~2500 - 3000 ký tự).
-- Điểm cắt phải nằm ở cuối đoạn văn, hoặc cuối câu hoàn chỉnh, không gây hẫng nhịp cho người nghe.
+Kỹ năng `arf_04_smart_audiobook_rechunker` chịu trách nhiệm phân chia văn bản dài thành các khối đệm kịch bản độc lập. Mục tiêu cốt lõi là vừa đảm bảo giới hạn kỹ thuật của các bộ đọc TTS (tránh tràn bộ đệm), vừa bảo toàn trọn vẹn dòng chảy cảm xúc và ngữ nghĩa của tác phẩm.
 
-## 2. Phối hợp Script
-- Script chỉ được dùng để đếm số lượng ký tự (đảm bảo không vượt quá giới hạn API của TTS), còn điểm cắt (split point) phải do AI quyết định.
+### 1.1 Thông Số Kỹ Thuật Định Lượng Phân Khối
+| Tiêu Chí | Ngưỡng Tiêu Chuẩn (Target) | Giới Hạn Cứng (Hard Limits) | Ghi Chú Kỹ Thuật |
+| :--- | :---: | :---: | :--- |
+| **Độ dài chunk tối ưu** | **2.200 – 2.800 ký tự** | **$C \le 3.000$ ký tự** | Vùng an toàn phát thanh, đủ tạo chunk âm thanh 2.5 – 3.5 phút. |
+| **Điểm cắt phân đoạn** | Hết đoạn văn (`\n\n`) | Cuối câu trọn nghĩa (`. `, `! `, `? `) | Tuyệt đối không cắt ngang câu hoặc giữa dấu phẩy. |
+| **Văn học / Kịch nghệ** | Cụm đối thoại hoàn chỉnh | Giữ màn cao trào trong 1 chunk | Không tách lời thoại đáp trả của 2 nhân vật sang 2 chunk khác nhau nếu còn dung lượng $\le 3.000$ ký tự. |
+| **Phi hư cấu / Kỹ thuật** | Khối đề mục trọn vẹn | Gom theo cụm luận điểm | Giữ tiêu đề đi liền với đoạn thân bài đầu tiên. |
+| **Bảo vệ thoại liên chunk** | Gom trọn cụm thoại câu liên tiếp | Không để ranh giới chunk xé đôi lời nói nhân vật | Nếu chunk gần đủ nhưng câu tiếp theo là đuôi của lời thoại đang dở (không có từ dẫn thoại ở đầu, hoặc câu trước kết thúc bằng `!`, `?` nhưng không có dấu đóng ngoặc), ưu tiên gom vào cùng chunk (vẫn trong hard limit 3.000 ký tự). |
+
+---
+
+## 2. Điều Kiện Kích Hoạt & Cụm Từ Khóa (When to Use & Triggers)
+
+### 2.1 Bối Cảnh Sử Dụng
+- Khi đã có file `normalized.txt` từ Bước 03.
+- Khi một chương sách quá dài và cần chia thành các phần nhỏ để biên kịch và tinh chỉnh diễn đọc.
+
+### 2.2 Câu Lệnh Người Dùng Điển Hình (User Prompt Triggers)
+- *"Chia khối kịch bản cho chương này: `01-chuong-1`"*
+- *"Phân tách file normalized.txt thành các chunk 2500-3000 ký tự"*
+- *"Chạy Bước 04 rechunk cho văn bản kịch bản"*
+- *"File này dài quá, hãy bẻ thành các file Kich-ban-raw-N.txt giúp tôi"*
+
+---
+
+## 3. Trình Tự Thực Thi Từng Bước (Step-by-Step Execution)
+
+```mermaid
+flowchart TD
+    P1["Pha 1: Tiền Kiểm Tra\n- Đọc normalized.txt\n- Tính tổng ký tự C_total\n- Dự tính số lượng chunk N = ceil(C_total / 2500)"] --> P2["Pha 2: Thực Thi Thuật Toán Phân Đoạn (Python < 2s)\n- Quét ranh giới đoạn văn trọn nghĩa\n- Cân bằng độ dài 2.200 - 2.800 ký tự\n- Cắt tại dấu chấm câu"]
+    P2 --> P3["Pha 3: Xuất Bản Raw Chunks & Hậu Kiểm\n- Ghi kich-ban/Kich-ban-raw-*.txt\n- Kiểm tra độ dài: max <= 3000 ký tự\n- Cập nhật manifest"]
+```
+
+### Pha 1: Tiền kiểm tra & Ước lượng (Pre-checks)
+1. Xác nhận sự tồn tại của `normalized.txt` trong thư mục chương.
+2. Đếm tổng số ký tự $C_{total}$, ước tính số lượng chunk: $N = \max(1, \lceil C_{total} / 2.600 \rceil)$.
+3. Tạo thư mục `[chapter_dir]/kich-ban` nếu chưa tồn tại.
+
+### Pha 2: Thao tác cốt lõi bằng Python (Core Processing)
+AI Chính trực tiếp thực thi thuật toán phân rã ngữ nghĩa (< 2 giây), tuyệt đối không khoán cho sub-agent:
+```bash
+python core/audiobook_script_processor.py --chap_dir "<CHAPTER_DIR>" --step 4
+```
+Hoặc gọi hàm trực tiếp từ module Python:
+```python
+from core.audiobook_script_processor import smart_rechunk_text
+smart_rechunk_text("<PATH_TO_NORMALIZED_TXT>", "<OUTPUT_KICH_BAN_DIR>")
+```
+
+### Pha 3: Hậu kiểm tra & Cập nhật Manifest (Verification)
+1. Quét toàn bộ file `Kich-ban-raw-*.txt` vừa sinh trong `kich-ban/`.
+2. Kiểm tra độ dài từng chunk: $C_k \le 3.000$ ký tự. Nếu có chunk $> 3.000$, tự động tìm điểm ngắt câu gần nhất để tách đôi.
+3. Cập nhật `.session_manifest.json` ghi nhận `step_4_status: "completed"`, `total_raw_chunks: N`.
+
+---
+
+## 4. Ràng Buộc Đầu Ra (Output Contract)
+
+Các file kịch bản thô xuất xưởng được đặt tập trung trong thư mục con `kich-ban/`:
+```text
+[chapter_folder]/
+├── normalized.txt
+└── kich-ban/
+    ├── Kich-ban-raw-1.txt          # Chunk 1 (2.200 - 2.800 ký tự)
+    ├── Kich-ban-raw-2.txt          # Chunk 2 (2.200 - 2.800 ký tự)
+    └── ...
+```
+
+### Tiêu Chí Nghiệm Thu Bắt Buộc:
+- Tên file tuân thủ định dạng: `Kich-ban-raw-{N}.txt` ($N = 1, 2, 3...$).
+- Không có bất kỳ file nào có dung lượng rỗng (0 bytes) hoặc vượt quá 3.000 ký tự.
+- Câu cuối cùng của mỗi chunk phải kết thúc bằng dấu ngắt câu (`.`, `!`, `?`).
+
+---
+
+## 5. Cơ Chế Phủ Định & Điều Cấm Kỵ (Negative Triggers & Constraints)
+
+- **TUYỆT ĐỐI KHÔNG TẠO CHUNK VƯỢT QUÁ 3.000 KÝ TỰ:** Mọi chunk $> 3.000$ ký tự đều bị Cổng QC Bước 07 đánh trượt (Hard Fail).
+- **CẤM CẮT NGANG XƯƠNG SỐNG CỦA CÂU:** Tuyệt đối không ngắt đoạn tại dấu phẩy `, ` hoặc giữa các mệnh đề liên kết chặt chẽ.
+- **CẤM TỰ Ý SỬA ĐỔI NỘI DUNG Ở BƯỚC 04:** Kỹ năng này chỉ cắt đoạn cơ học và ngữ nghĩa, không paraphrase, không thêm bớt chữ.
+- **CẤM XÓA BỎ CÁC TIÊU ĐỀ IN HOA:** Tiêu đề phải được đi kèm nguyên vẹn ở đầu đoạn tương ứng.
+- **KHÔNG LƯU FILE RAW TRỰC TIẾP RA THƯ MỤC GỐC CHƯƠNG:** Bắt buộc lưu vào thư mục con `kich-ban/`.
+- **TUYỆT ĐỐI KHÔNG XÉ ĐÔI LỜI THOẠI NHÂN VẬT (Zero Broken Dialogue Invariant):** Ranh giới chunk không được cắt ngang giữa câu nói liên tục của cùng một nhân vật. Nếu cuối chunk là đoạn mở đầu lời thoại (ví dụ: "Rượu mau lên!") nhưng câu tiếp theo vẫn là cùng lời thoại đó ("Để ta uống xong còn vào thành ứng mộ!") thì bắt buộc gom cả 2 vào cùng một chunk. SA5 (Continuity QC tại Bước 08A) phải kiểm tra và báo lỗi nếu phát hiện lời thoại bị cắt đôi xuyên chunk.

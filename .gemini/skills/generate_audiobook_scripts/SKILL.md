@@ -149,7 +149,7 @@ Sau khi AI đã dịch và phân tách cấu trúc (Bước 4), Python script **
 
 4. **Kiểm tra và đảm bảo** mọi đoạn văn đều kết thúc bằng `. ......` và có 1 dòng trắng phân tách
 
-5. **Lưu kết quả** vào `Kich-ban-1.txt` trong mỗi thư mục chương
+5. **Lưu kết quả** vào thư mục `kich-ban/Kich-ban-1.txt` trong mỗi thư mục chương
 
 **Cấu trúc output sau Bước 5:**
 ```
@@ -157,7 +157,8 @@ Sau khi AI đã dịch và phân tách cấu trúc (Bước 4), Python script **
 └── 02-Chuong-01/
     ├── raw_original.txt    ← Văn bản thô từ PDF (KHÔNG sửa)
     ├── translated.txt      ← Bản dịch AI (đã phân tách cấu trúc)
-    └── Kich-ban-1.txt      ← Kịch bản thô cấp 1 ✅
+    └── kich-ban/
+        └── Kich-ban-1.txt      ← Kịch bản thô cấp 1 ✅
 ```
 
 ---

@@ -1,170 +1,121 @@
 ---
 name: arf_08_tts_neural_bgm_mixer
-description: "Bước 8 - Chuyên môn hóa: A.I phân tích ngữ âm, tự động chọn giọng đọc bản xứ phù hợp cho thuật ngữ/ngoại ngữ, đồng nhất giới tính và hòa sắc với giọng tiếng Việt, tạo các file audio mini (chunk) liền mạch."
+description: "Bước 08B trong Dây chuyền Sách nói Toàn năng (Universal Audiobook Pipeline): Kỹ sư Phòng thu Âm thanh & Cân bằng Âm học Hai Tầng (Master Studio TTS Synthesizer & Two-Stage Broadcast Leveler). Tiếp nhận kịch bản phân vai chi tiết từ Bước 08A (theatrical_script.json) hoặc kịch bản sạch (Kich-ban-*.txt), tập trung 100% vào kỹ thuật phòng thu chuyên nghiệp: phân luồng song thanh bản ngữ tuyệt đối (100% tiếng Việt đọc bởi vi-VN-NamMinhNeural hoặc vi-VN-HoaiMyNeural; 100% ngoại ngữ, tên riêng và từ viết tắt đọc bởi en-US-BrianMultilingualNeural hoặc en-US-EmmaMultilingual). Thực thi cơ chế chuyển tiếp khẩu hình và đệm thở thích ứng đa ngữ cảnh (Adaptive Dynamic Handoff Cushioning) trong dải chuẩn tối ưu [0.30s - 0.38s đến 0.85s - 1.80s]: phản xạ tức thì 0.30s - 0.35s khi cướp lời, đệm tự nhiên 0.42s - 0.50s, ngân rung thoại 0.50s - 0.60s, trang nghiêm 0.70s - 0.85s, và khoảng lặng kịch tính 0.85s - 1.20s kết hợp micro-fade 25ms triệt tiêu 100% tiếng giật cục, vấp âm khi đổi giọng. Khóa cứng chuẩn âm thanh đồng nhất 48kHz, bảo toàn đuôi âm khẽ -50dB và thang tốc độ ngoại ngữ thích ứng (-18%, -15%, -12%). Thực thi công nghệ cân bằng âm lượng hai tầng Two-Stage Dynamic Leveling (-16 LUFS, True Peak <= -1.5 dBTP) ở cả cấp độ câu thoại riêng lẻ và toàn bộ chunk, triệt tiêu tiếng hét giật mình và tiếng thì thầm mất chữ. Tích hợp bộ đệm phân đoạn (Part-Level Caching) và giãn cách lũy tiến Exponential Backoff chống nghẽn mạng. Kích hoạt khi kịch bản đã qua Bước 08A, hoặc khi cần thu âm trực tiếp các chunk âm thanh studio."
 ---
 
-# Kỹ năng 08: Universal AI Multilingual TTS & Seamless Dual-Voice Splicing
+# Kỹ năng 08B: Thu Âm Phòng Thu & Cân Bằng Âm Học Hai Tầng (Neural TTS Synthesizer)
 
-**TRIẾT LÝ CỐT LÕI:** AI đóng vai trò **Tổng Đạo Diễn Âm Thanh Đa Ngôn Ngữ (Universal Audio Director)**. Không phụ thuộc vào bất kỳ danh sách từ ngữ gán cứng nào, AI tự động phân tích cấu trúc ngữ âm học (Phonology & Morphology) để bóc tách chính xác các thuật ngữ, tên khoa học, từ vựng tiếng nước ngoài, đồng thời tự động lựa chọn giọng đọc bản ngữ đồng nhất về Giới tính (Nam/Nữ) và hòa sắc âm vực (Timbre & Pitch Matching) để mang lại trải nghiệm nghe tự nhiên như một diễn giả song ngữ bản xứ.
+## 1. Đặc Tả Quy Trình Thao Tác Chuẩn (Specification - SOP)
 
-## QUY TRÌNH 2 PHA AI-NATIVE TIÊU CHUẨN (TWO-PHASE AI-NATIVE TTS PIPELINE)
+Kỹ năng `arf_08_tts_neural_bgm_mixer` (Bước 08B) đóng vai trò **Kỹ Sư Phòng Thu Âm Thanh Chuẩn Mực (Master Recording Sound Engineer)**. Nhiệm vụ tối thượng là tiếp nhận kịch bản phân vai đã hoàn chỉnh từ Bước 08A, vận hành động cơ song thanh Dual-Voice 4 tầng, hiện thực hóa các tham số kịch nghệ và làm chủ chất lượng âm thanh phát thanh quốc tế.
 
-Để đảm bảo **tính linh hoạt cao, thông minh và tuyệt đối không gán cứng**, mỗi khi kích hoạt Bước 08, hệ thống vận hành theo chu trình 2 pha tách bạch:
+### 1.1 Ma Trận Giọng Đọc Đồng Nhất Giới Tính (Gender-Consistent Profiles)
+| Hồ Sơ Giới Tính | Giọng Tiếng Việt Chính | Giọng Tiếng Anh / Latinh | Ngoại Ngữ Khác | Quy Chuẩn Equalizer (EQ) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Nam (Male Profile)** | `vi-VN-NamMinhNeural`<br>(Rate: `-10%`) | `en-US-BrianMultilingualNeural`<br>(Adaptive Rate: `-18%` $\to$ `-12%`) | Pháp: `Henri`<br>Đức: `Conrad`<br>TBN: `Alvaro` | `+2.5dB` tại 300Hz (trầm ấm lồng ngực); `-2.0dB` tại 4.000Hz (dịu chói gắt). |
+| **Nữ (Female Profile)** | `vi-VN-HoaiMyNeural`<br>(Rate: `-10%`) | `en-US-EmmaMultilingual`<br>(Adaptive Rate: `-18%` $\to$ `-12%`) | Pháp: `Denise`<br>Đức: `Katja`<br>TBN: `Elvira` | `+2.0dB` tại 300Hz (ấm mượt); `-2.0dB` tại 4.500Hz (khử sibilance sắc nhọn). |
 
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ PHA 8.1: AI PHÂN TÍCH NGỮ NGHĨA & LẬP KẾ HOẠCH BÓC TÁCH (AI SEMANTIC PRE-PASS)│
-│  - AI đọc hiểu ngữ cảnh toàn bộ kịch bản kich-ban/Kich-ban-*.txt             │
-│  - Tự động nhận diện 100% thuật ngữ, từ viết tắt, tiêu đề, tên riêng ngoại ngữ │
-│  - Không phụ thuộc từ điển gán cứng; tương thích mọi thể loại sách           │
-│  - Xuất bảng kế hoạch phân đoạn minh bạch: audio_chunks/.speech_segments.json │
-└──────────────────────────────────────┬───────────────────────────────────────┘
-                                       │
-                                       ▼
-┌──────────────────────────────────────────────────────────────────────────────┐
-│ PHA 8.2: THU ÂM SONG THANH NEURAL CHUẨN PHÒNG THU (DUAL-VOICE SYNTHESIS)     │
-│  - Động cơ TTS nạp trực tiếp kế hoạch từ .speech_segments.json               │
-│  - Thu âm chuẩn xác Nam Minh (VN) x Brian (EN), đồng nhất giới tính 100%    │
-│  - Cắt dead-gap, đệm khẩu hình 40ms, chuẩn hóa EBU R128 (-16 LUFS)           │
-│  - Xuất thành phẩm chunk_*.mp3 và bảng đo thời lượng .chunks_duration.json   │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
+### 1.2 Thang Tốc Độ Ngoại Ngữ Thích Ứng (Dynamic Foreign Speed Ladder)
+- **1 từ hoặc từ viết tắt (`P-M-I`, `W-B-S`, `scope`, `bar`):** Tốc độ **`-18%`** $\to$ tròn vành rõ chữ, không nuốt âm.
+- **2 – 3 từ (`Project Manager`, `Sprint Backlog`):** Tốc độ **`-15%`** $\to$ nhịp đĩnh đạc, chuyển ngữ thanh thoát.
+- **$\ge 4$ từ (mệnh đề/tiêu đề tiếng Anh dài):** Tốc độ **`-12%`** $\to$ giữ vững dòng chảy hứng khởi, không trì trệ.
 
----
+### 1.3 Quy Chuẩn Cân Bằng Âm Học Hai Tầng & Đồng Nhất Chuẩn 48kHz
+$$\text{Loudness Target} = -16 \text{ LUFS} \quad (\text{True Peak } \le -1.5 \text{ dBTP}, \text{ LRA } 5 - 6)$$
+1. **Tầng 1 (Per-Segment Leveling & DSP Formant EQ):** Áp dụng bộ lọc cân bằng và định hình formant trên từng câu thoại riêng lẻ trước khi nối:
+   `-af "areverse,silenceremove=start_periods=1:start_duration=0.05:start_threshold=-50dB,areverse,{timbre_eq},loudnorm=I=-16:TP=-1.5:LRA=5,apad=pad_dur={pad_sec}"`.
+2. **Tầng 2 (Master Chunk Leveling):** Toàn bộ file chunk sau khi nối được nén chuẩn đồng nhất:
+   `-af "loudnorm=I=-16:TP=-1.5:LRA=6"`.
+3. **Đồng nhất tần số lấy mẫu 48.000 Hz tuyệt đối:** Cả giọng đọc, các câu thoại và các khoảng lặng phát thanh (`. ......`) đều được xuất chuẩn `-ar 48000`, triệt tiêu hoàn toàn hiện tượng lệch mẫu (sample rate mismatch) gây tiếng nổ lách tách.
+4. **Bảo tồn đuôi âm khẽ `-50dB`:** Ngưỡng cắt silence an toàn `start_threshold=-50dB`, bảo toàn 100% âm tàn tiếng Việt.
 
-## 1. Cơ Chế Nhận Diện Ngôn Ngữ & Thuật Ngữ Thông Minh Đa Tầng (Advanced 4-Tier Language & Acronym Engine)
-
-
-Hệ thống hoạt động theo nguyên lý **4 Tầng Phân Tích Linh Hoạt Đạt Độ Nhạy & Độ Chuẩn Tuyệt Đối (100% High-Recall Dual-Voice Architecture)**:
-
-### Tầng 1: Bộ Lọc Ngữ Âm Học Tiếng Việt Bất Biến (Vietnamese Phonetic Invariance & Canonical Syllables)
-- **Bảo toàn tiếng Việt có dấu 100%:** Quét toàn diện các ký tự mang dấu thanh điệu tiếng Việt (`à, á, ả, ã, ạ, ê, ô, ơ, ư, đ...`). Bất kỳ từ nào chứa dấu tiếng Việt đều lập tức được phân bổ cho giọng đọc tiếng Việt (`vi-VN-NamMinhNeural`).
-- **Tập âm tiết tiếng Việt chuẩn hóa (1.894 âm tiết):** Tích hợp trọn vẹn bộ từ điển âm tiết chuẩn tiếng Việt không dấu (`core/vietnamese_syllables.py`). Các từ không dấu như `nhau`, `gian`, `công ty`, `bài`, `hai`, `vai`, `trong` luôn được bảo vệ tối đa, không bị gán nhầm sang tiếng Anh.
-
-### Tầng 2: Tập Từ Vựng Quản Trị - Công Nghệ & Đại Từ Điển Hệ Thống (Built-in Glossaries & System Lexicon)
-- **Tập từ vựng Quản trị & Công nghệ tích hợp sẵn (`BUILTIN_PM_TERMS`):** Tự động nhận diện tức thì và trọn vẹn mọi thuật ngữ chuyên môn: `project`, `management`, `manager`, `charter`, `scope`, `deliverables`, `stakeholder`, `agile`, `scrum`, `sprint`, `kanban`, `waterfall`, `lean`, `telehealth`, `unique`, `endeavor`, `temporary`, `pursuit`, `what`, `why`, `how`, `career`, `embarking`, `effective`, `organizational`, `culture`, `structure`, `framework`, `lifecycle`, `tailoring`, `baseline`, `milestone`, `burndown`, `roadmap`, `dashboard`, `governance`, `procurement`, `kickoff`, `retrospective`, `jira`, `confluence`, `coursera`, `google`...
-- **Đại từ điển Anh ngữ hệ thống (104.000+ từ vựng):** Tự động truy xuất danh mục `/usr/share/dict/words` để đối chiếu các từ vựng tiếng Anh học thuật xuất hiện trong giáo trình quốc tế.
-- **Từ điển tùy biến cuốn sách:** Nạp file `custom_phonetics.json` hoặc `pmbok_custom_phonetics.json` trong thư mục dự án sách.
-
-### Tầng 3: Nhận Diện Cấu Trúc Ngữ Âm & Từ Viết Tắt Chuẩn Quốc Tế (Phonetic & Morphological Engine)
-1. **Từ viết tắt tách âm phát thanh (Hyphenated Acronyms):** Nhận diện 100% các từ viết tắt có gạch nối: `P-M-I`, `W-B-S`, `K-P-I`, `P-M-B-O-K`, `S-W-O-T`, `A-I`, `I-T`, `E-V-M`... phân bổ hoàn toàn cho giọng quốc tế `en-US-BrianMultilingualNeural` đọc tách chữ chuẩn xác.
-2. **Từ viết tắt viết hoa toàn bộ (All-Caps Acronyms):** `PMI`, `PMBOK`, `WBS`, `KPI`, `SLA`, `SWOT`, `PMP`, `PMO`, `CAPM`, `RACI`, `SMART`, `MVP`, `API`, `UI`, `UX`, `ROI`, `ERP`, `CRM`...
-3. **Hình thái học hậu tố (Morphological Suffixes - Đơn & Số nhiều):** `(tion|sion|ment|ance|ence|able|ible|tive|sive|ship|ing|ed|al|ic|ical|ous|ity|ism|ist|logy|graphy|ture|ure|est|less|ness|hood|wise|ward|ful|fully|ly)s?` (ví dụ: `management`, `development`, `governance`, `predictive`, `leadership`, `embarking`, `planning`, `tailoring`, `methodology`, `structure`...).
-4. **Ký tự ngoại lai đặc thù:** Chứa `w, W, z, Z, j, J, f, F` (ví dụ: `framework`, `workflow`, `view`, `focus`, `feedback`, `knowledge`, `size`...).
-5. **Cụm phụ âm đầu & đuôi chuẩn quốc tế:**
-   - Đầu ngoại ngữ: `str, spr, scr, spl, squ, shr, thr, fl, fr, gl, gr, pl, pr, bl, br, cl, cr, dr, sk, sp, st, sm, sn, sc, sw, wr, kn, ps, rh, sch...`
-   - Đuôi ngoại ngữ: `ct, ft, pt, lt, rt, st, sk, sp, mp, nd, nt, nk, rk, lk, rd, ld, rn, rm, lm, sm, ts, ks, ps, nce, nse, rce, rse, tch, dge, que, the, ble, ple, fle, gle, kle, tle, dle, ght, sh, th, ph` hoặc kết thúc bằng `b, d, f, k, l, r, s, v, w, x, z`.
-6. **Nguyên âm đôi & Phụ âm kép:** `ea, ee, oo, ou, ei, ey, oy, au, aw, ow, ew`, và phụ âm lặp `bb, cc, dd, ff, gg, ll, mm, nn, pp, rr, ss, tt, vv, zz`.
-
-### Tầng 4: Phân Tích Mệnh Đề Không Lệch Chỉ Mục & Gom Cụm Ngữ Cảnh (Zero-Drift Clause & Multi-Token Bridging)
-1. **Phân tích mệnh đề mức ngữ đoạn (Zero-Drift Clause-Level Detection):**
-   - Tự động bóc tách các mệnh đề phân cách bởi dấu ngắt câu (`.,;:?!`).
-   - Nếu một mệnh đề có >= 2 từ, chứa thuật ngữ tiếng Anh chuẩn, không có dấu tiếng Việt, và các từ còn lại đều tương thích với từ nối Anh ngữ (kể cả khi mở đầu bằng mạo từ như `The`, `A`, `An`, `How`, `What`): toàn bộ mệnh đề được chuyển sang giọng tiếng Anh (ví dụ: `THE ROLE OF THE PROJECT MANAGER`, `EMBARKING ON A CAREER IN PROJECT MANAGEMENT`, `WHAT IS PROJECT MANAGEMENT?`).
-2. **Gom cụm liên kết đa từ (Multi-Token Connector Bridging):**
-   - Khi có từ 1 đến 4 từ nối/mạo từ tiếng Anh (`on a`, `in the`, `of the`, `for a`, `and the`, `as a`, `to the`, `by the`, `from the`, `is`, `are`) nằm giữa các thuật ngữ ngoại ngữ, hệ thống tự động gom toàn bộ thành một phân đoạn liền mạch, ngăn chặn triệt để việc ngắt giọng vụn vặt.
-3. **Thời gian chờ streaming động (Dynamic Streaming Timeout):**
-   - Thiết lập thời gian timeout linh hoạt `max(60.0, len(text) * 0.08 + 30.0)` giây, xóa bỏ hoàn toàn hiện tượng timeout giả khi tổng hợp các đoạn văn tiếng Việt dài trên 1.000 ký tự.
-
-### Tầng 5: Cơ Chế Phân Luồng Ngắt Nghỉ Điểm Nhấn vs. Đọc Liền Mạch Ngữ Pháp (Dynamic Contextual Prosody)
-
-Hệ thống điều phối nhịp điệu thính giác dựa trên sự phân loại thông minh của AI:
-
-1. **Trường Hợp 1: Ngắt Nghỉ Điểm Nhấn Thính Giác (Contextual Anchoring & Emphasis Pause):**
-   - **Dấu hiệu nhận biết:** Khi thuật ngữ/từ tiếng nước ngoài đứng ngay sau phần tiếng Việt giải thích, danh xưng tiếng Việt tương đương, hoặc sau các tiêu đề/đề mục lớn.
-   - **Kỹ thuật phát thanh:** Bắt buộc có dấu phẩy `, ` để tạo một nhịp dừng vi mô (micro-pause 200ms - 250ms). Nhịp nghỉ này giúp tai người nghe kịp tiếp nhận ý niệm bằng tiếng Việt trước, sau đó đón nhận phát âm chuẩn quốc tế từ giọng Brian để ghi nhớ sâu sắc.
-   - **Ví dụ chuẩn:**
-     - `"TRỞ THÀNH MỘT NGƯỜI QUẢN LÝ DỰ ÁN HIỆU QUẢ, BECOMING AN EFFECTIVE PROJECT MANAGER"`
-     - `"TRỞ THÀNH MỘT NGƯỜI QUẢN LÝ DỰ ÁN HIỆU QUẢ, INTRODUCTION, BECOMING AN EFFECTIVE PROJECT MANAGER"`
-     - `"Người quản lý dự án, Project Manager"`
-     - `"Các bên liên quan, Stakeholder"`
-   - **Cơ chế âm thanh:** Giữ nguyên dấu phẩy `, `, gọt đuôi âm nhẹ nhàng `-50dB`, đệm khoảng nghỉ chuẩn phát thanh 220ms (`apad=pad_dur=0.22`), tạo nhịp thở tự nhiên.
-
-2. **Trường Hợp 2: Đọc Liền Mạch Ngữ Pháp Tự Nhiên (Seamless Grammatical Continuity & Soft Voice Handoff):**
-   - **Dấu hiệu nhận biết:** Khi tiếng nước ngoài, tên riêng, thuật ngữ, từ viết tắt đóng vai trò là một thành phần ngữ pháp (chủ ngữ, vị ngữ, bổ ngữ, cụm giới từ) nằm trong dòng chảy liên tục của câu văn.
-   - **Kỹ thuật phát thanh:** Đọc và ghép âm **liền mạch 100%, mềm mại, không ngắt quãng hay gây giật cục**.
-   - **Ví dụ chuẩn:**
-     - `"các Project Manager thường tuân thủ một quy trình chặt chẽ"` ("các" nối êm ái sang "Project Manager")
-     - `"Tên tôi là Rachel"` ("Tên tôi là" nối mượt sang "Rachel")
-     - `"tại văn phòng Google New York"` ("tại văn phòng" nối sang "Google New York")
-     - `"Google đã tuyển dụng tôi"` ("Google" nối mượt sang "đã tuyển dụng tôi")
-     - `"quen biết ở khu Lower East Side"`
-     - `"Một quán bar nhỏ"` ("Một quán" nối mềm mại sang "bar", rồi sang "nhỏ")
-    - **Cơ chế âm thanh mềm mại (Studio Smooth Coarticulation):**
-      - Tuyệt đối **KHÔNG cưỡng ép chèn dấu chấm kết câu giả (`.`)** vào các phân đoạn tiếp diễn câu; giữ nguyên ngữ điệu bằng phẳng/tiếp diễn tự nhiên (continuation pitch).
-      - **Bảo toàn 100% đuôi âm tiếng Việt:** Nới rộng ngưỡng lọc xuống **`-50dB`** (`start_threshold=-50dB`), giữ trọn vẹn toàn bộ độ ngân tàn tự nhiên (acoustic decay tail) của các âm tiết tiếng Việt cuối, tuyệt đối không bị cắt hụt âm.
-      - **Vùng đệm chuyển giao tự nhiên 80ms (Coarticulation Cushion):** Bổ sung đúng **`80ms`** (`apad=pad_dur=0.08`) giữa tiếng Việt và tiếng Anh trong cùng câu. Đây chính là khoảng thời gian sinh học tự nhiên khi người thật khép mở khẩu hình để chuyển đổi giữa hai ngôn ngữ, giúp hai giọng đọc giao thoa **mượt mà êm ái, xóa bỏ triệt để hiện tượng giật cục**.
-      - Bộ lọc FFmpeg hoàn chỉnh: `areverse,silenceremove=start_periods=1:start_duration=0.05:start_threshold=-50dB,areverse,apad=pad_dur=0.08`.
-
-3. **Nguyên Tắc Bất Biến Về Phân Phối Giọng Đọc (Strict Dual-Voice Invariance):**
-   - Dù ở Trường hợp 1 hay Trường hợp 2: **100% nội dung tiếng Việt luôn do giọng Việt (`vi-VN-NamMinhNeural` / `vi-VN-HoaiMyNeural`) đọc**, và **100% ngoại ngữ, tên riêng, từ viết tắt luôn do giọng quốc tế (`en-US-BrianMultilingualNeural` / `en-US-EmmaMultilingual`) đọc**.
-   - Phân đoạn và nhãn nhịp điệu (`pause_type: "emphasis"` vs `"seamless"`) phải do AI phân tích cú pháp và cảm thụ ngữ cảnh trực tiếp xác định, cấm dùng script thay thế mù quáng.
+### 1.4 Cơ Chế Chuyển Giao Khẩu Hình & Đệm Thở Thích Ứng (Adaptive Dynamic Handoff)
+- **Tiếp nhận tham số `lead_in_pause` linh hoạt:** Phòng thu đọc trực tiếp giá trị đệm thở từ `theatrical_script.json` trong dải chuẩn tối ưu **[0.30s – 0.38s đến 0.85s – 1.80s]**:
+  * *Tức khắc / Cướp lời:* `0.30s – 0.35s` (nhịp ngắt dứt khoát nhưng có đệm tối thiểu 300ms chống giật cụt).
+  * *Dẫn nhập thúc giục:* `0.35s – 0.40s`.
+  * *Tự nhiên / Đàm đạo:* `0.42s – 0.50s` (nhịp thở sinh học êm dịu).
+  * *Ngân rung thoại:* `0.50s – 0.60s` (lời thoại ngân sâu trước khi dẫn tiếp).
+  * *Trầm ngâm / Trang nghiêm:* `0.60s – 0.85s`.
+  * *Khoảng lặng kịch tính:* `0.85s – 1.20s` (chấn động tâm lý).
+  * *Đệm thở ngâm thơ 3 tầng:* `0.85s – 1.80s` (lắng sâu cảm xúc).
+- **Micro-fade 25ms:** Tự động làm mượt 25ms ở hai đầu ranh giới tiếp giáp, đảm bảo chuyển đổi giữa các sắc thái EQ không bị giật cục.
 
 ---
 
-## 2. Ma Trận Ghép Cặp Giọng Đọc & Thang Tốc Độ Linh Hoạt (Adaptive Gender & Prosody Matrix)
+## 2. Điều Kiện Kích Hoạt & Cụm Từ Khóa (When to Use & Triggers)
 
-Để đảm bảo người nghe có cảm giác chỉ có **MỘT người diễn giả thông thái duy nhất** đang thuyết minh:
+### 2.1 Bối Cảnh Sử Dụng
+- Khi đã có file `theatrical_script.json` từ Bước 08A (với văn học) hoặc các file `Kich-ban-*.txt` đã đạt QC Bước 07 (với phi hư cấu).
+- Khi người dùng yêu cầu thu âm giọng đọc hoặc sinh các file audio chunk cho chương sách.
 
-```
-                  ┌──────────────────────────────────────────────────────────┐
-                  │          MA TRẬN HÒA SẮC ĐỒNG NHẤT GIỚI TÍNH             │
-                  └──────────────────────────────────────────────────────────┘
-                                                │
-                 ┌──────────────────────────────┴──────────────────────────────┐
-                 ▼                                                             ▼
-     [ HỒ SƠ GIỌNG NAM - MALE PROFILE ]                           [ HỒ SƠ GIỌNG NỮ - FEMALE PROFILE ]
-  Giọng chính: vi-VN-NamMinhNeural (Rate: -10%)               Giọng chính: vi-VN-HoaiMyNeural (Rate: -10%)
-  Chất giọng: Trầm ấm, đĩnh đạc, học thuật                    Chất giọng: Trong trẻo, truyền cảm, trang nhã
-                 │                                                             │
-   ┌─────────────┴─────────────┐                                 ┌─────────────┴─────────────┐
-   ▼                           ▼                                 ▼                           ▼
-Tiếng Anh/Khoa học:         Các ngoại ngữ khác:               Tiếng Anh/Khoa học:         Các ngoại ngữ khác:
-en-US-BrianMultilingual     Pháp: fr-FR-HenriNeural           en-US-EmmaMultilingual      Pháp: fr-FR-DeniseNeural
-(Thang tốc độ linh hoạt     Đức:  de-DE-ConradNeural          (Thang tốc độ linh hoạt     Đức:  de-DE-KatjaNeural
- theo độ dài phân đoạn):     TBN:  es-ES-AlvaroNeural          theo độ dài phân đoạn):     TBN:  es-ES-ElviraNeural
- • 1 từ / Viết tắt: -18%    Nhật: ja-JP-KeitaNeural            • 1 từ / Viết tắt: -18%    Nhật: ja-JP-NanamiNeural
- • 2 - 3 từ:        -15%    Trung: zh-CN-YunxiNeural           • 2 - 3 từ:        -15%    Trung: zh-CN-XiaoxiaoNeural
- • >= 4 từ:         -12%                                       • >= 4 từ:         -12%
-                 │                                                             │
-   Parametric EQ Harmonization (Nam):                            Parametric EQ Harmonization (Nữ):
-   - Nâng dải trầm ấm: +2.5dB tại 300Hz                          - Nâng dải ấm: +2.0dB tại 300Hz
-   - Giảm chói gắt: -2.0dB tại 4000Hz                            - Làm dịu sibilance: -2.0dB tại 4500Hz
+### 2.2 Câu Lệnh Người Dùng Điển Hình (User Prompt Triggers)
+- *"Thu âm giọng đọc cho chương này: `01-chuong-1`"*
+- *"Chạy Bước 08 TTS sinh các chunk âm thanh"*
+- *"Thu âm song thanh Nam Minh và Brian cho kịch bản"*
+- *"Render audio_chunks bằng Edge-TTS"*
+
+---
+
+## 3. Trình Tự Thực Thi Từng Bước (Step-by-Step Execution)
+
+```mermaid
+flowchart TD
+    P1["Pha 1: Tiền Kiểm Tra & Khởi Tạo Cache\n- Nạp theatrical_script.json hoặc Kich-ban-*.txt\n- Tạo thư mục audio_chunks/ và quét cache"] --> P2["Pha 2: Thực Thi Thu Âm Song Thanh (Edge-TTS)\n- Phân luồng câu thoại theo Speaker & Lang\n- Đệm nối khẩu hình 80ms, giữ đuôi âm -50dB\n- Per-Segment Leveling (-16 LUFS)"]
+    P2 --> P3["Pha 3: Ghép Nối Chunk, Master Leveling & Hậu Kiểm\n- Ghép các segment thành chunk_N.mp3\n- Master Chunk Leveling (-16 LUFS)\n- Xuất .chunks_duration.json"]
 ```
 
-### 🎯 Quy Tắc Thang Tốc Độ Linh Hoạt Theo Độ Dài (Dynamic Length-Adaptive Speed Ladder):
-- **Cực ngắn / Đơn từ / Viết tắt (1 từ hoặc ký tự nối: `P-M-I`, `W-B-S`, `A-I`, `bar`, `role`, `scope`...):**
-  - **Tốc độ:** **`-18%`**.
-  - **Mục đích:** Từng âm tiết, chữ cái và nguyên âm ngắn có đủ độ ngân tròn vành rõ chữ, ngăn chặn 100% hiện tượng nuốt âm hoặc lướt qua quá nhanh.
-- **Cụm từ vừa (2 – 3 từ: `Project Manager`, `Sprint Backlog`, `Google New York`...):**
-  - **Tốc độ:** **`-15%`**.
-  - **Mục đích:** Nhịp điệu đĩnh đạc, cân bằng, chuyển ngữ tự nhiên và thanh thoát.
-- **Đoạn dài / Tiêu đề nhiều từ ($\ge 4$ từ: `BECOMING AN EFFECTIVE PROJECT MANAGER`...):**
-  - **Tốc độ:** **`-12%`**.
-  - **Mục đích:** Mạch lạc, năng động, giữ vững dòng chảy hứng khởi, không gây ì ạch hay buồn ngủ.
+### Pha 1: Tiền kiểm tra & Caching (Pre-checks)
+1. Xác nhận sự tồn tại của kịch bản đầu vào: ưu tiên `theatrical_script.json` (từ Bước 08A) hoặc `kich-ban/Kich-ban-*.txt`.
+2. Tạo thư mục `[chapter_dir]/audio_chunks/`.
+3. Quét tệp cache cũ: nếu chunk đã tồn tại và thời lượng đạt chuẩn thì bỏ qua (Part-Level Caching).
 
-> [!IMPORTANT]
-> **QUY TẮC BẢO TOÀN GIỚI TÍNH BẤT BIẾN (GENDER INVARIANCE RULE):**
-> - **Tuyệt đối không tự ý tráo đổi giọng giữa Nam và Nữ:** Nếu hồ sơ được chỉ định là `male`, 100% các đoạn tiếng Việt trong toàn bộ các chương và các tập sách PHẢI là `vi-VN-NamMinhNeural`. Khi xảy ra sự cố nghẽn mạng hoặc retry (lần 1 đến 7), hệ thống áp dụng cơ chế giãn cách lũy tiến (*Exponential Backoff*) nhưng **TUYỆT ĐỐI KHÔNG chuyển sang giọng nữ `HoaiMy`**.
-> - Tương tự, nếu hồ sơ là `female`, toàn bộ file luôn trung thành với `vi-VN-HoaiMyNeural`.
+### Pha 2: Tổng hợp giọng đọc song thanh (Core TTS Synthesis)
+AI thực thi lệnh tổng hợp qua pipeline:
+```bash
+python core/antigravity_audiobook_pipeline.py --book_dir "<BOOK_DIR>" --chapter "<CHAPTER_FOLDER>"
+```
+Hoặc gọi trực tiếp module:
+```python
+import asyncio
+from core.seamless_dual_voice_splicer import synthesize_chapter_tts
+asyncio.run(synthesize_chapter_tts("<CHAPTER_DIR>", "<CHAPTER_NAME>"))
+```
+- Cơ chế Exponential Backoff: nếu API Microsoft Edge TTS báo bận, tự động chờ `3.0s * attempt` (tối đa 7 lần), tuyệt đối không đổi sang giọng khác giới tính.
 
----
-
-## 3. Quy Chuẩn Phòng Thu Đã Kiểm Nghiệm (Studio Best Practices)
-
-Toàn bộ các best practices nền tảng tiếp tục được bảo toàn nghiêm ngặt:
-1. **Khử Silence An Toàn & Bảo Toàn Đuôi Âm (-50dB):**
-   - Quét và cắt khoảng lặng bằng bộ lọc `silenceremove` với ngưỡng `-50dB`, bảo toàn 100% độ ngân tự nhiên của âm cuối tiếng Việt trước khi chuyển ngữ.
-2. **Vùng Đệm Chuyển Giao Mềm Mại (Coarticulation Cushion 80ms & Micro-Pause 220ms):**
-   - Đệm `80ms` (`apad=pad_dur=0.08`) cho các đoạn đọc liền mạch trong câu để chuyển giao êm như lụa.
-   - Đệm `220ms` (`apad=pad_dur=0.22`) cho các đoạn có dấu phẩy hoặc tiêu đề nhấn mạnh.
-3. **Chuẩn Hóa Âm Lượng EBU R128 (-16 LUFS):**
-   - Áp dụng bộ lọc `loudnorm=I=-16:TP=-1.5:LRA=11` để bảo đảm năng lượng âm thanh giữa các phân đoạn đồng nhất tuyệt đối, không có hiện tượng chênh lệch âm lượng.
-4. **Bộ Đệm Chống Nghẽn & Bộ Nhớ Đệm Phân Đoạn (Part-Level Caching & Auto-Backoff):**
-   - Tự động lưu cache các phân đoạn con đã sinh thành công; không bao giờ gọi lại API vô nghĩa khi xảy ra sự cố mạng.
-   - Cơ chế giãn cách lũy tiến thông minh (Exponential Backoff `3.0s * attempt`) khi Microsoft Edge TTS tạm thời bận, đảm bảo pipeline chạy xuyên suốt tới 100% hoàn thành mà không crash.
+### Pha 3: Hậu kiểm tra & Đo đạc thời lượng (Post-Processing & Manifest)
+1. Đo thời lượng từng chunk âm thanh bằng FFmpeg.
+2. Xuất tệp metadata: `[chapter_dir]/.chunks_duration.json`.
+3. Cập nhật `.session_manifest.json` ghi nhận `step_8_status: "completed"`, `total_audio_chunks: N`, `total_duration_minutes`.
 
 ---
 
-## 4. Ràng Buộc & Phạm Vi Áp Dụng
-- **Tính độc lập & Khả chuyển:** Module `seamless_dual_voice_splicer.py` được thiết kế linh hoạt, nhận diện văn bản tự động, có thể tái sử dụng cho mọi chương, mọi cuốn sách, mọi lĩnh vực mà không cần cấu hình thủ công lại.
-- **Phạm vi bước 08:** Chỉ phụ trách tạo các tệp mini chunk chuẩn mực (`chunk_*.mp3`). Khâu ghép nối thành file dài thuộc Bước 09 và lồng nhạc nền thuộc Bước 10.
+## 4. Ràng Buộc Đầu Ra (Output Contract)
+
+Mọi chương hoàn tất Bước 08B phải có đầy đủ các tệp âm thanh trong `audio_chunks/`:
+```text
+[chapter_folder]/
+├── .chunks_duration.json           # Danh sách thời lượng từng chunk
+└── audio_chunks/
+    ├── chunk_1.mp3                 # Audio chunk 1 chuẩn -16 LUFS
+    ├── chunk_2.mp3                 # Audio chunk 2 chuẩn -16 LUFS
+    └── ...
+```
+
+### Mẫu Tệp `.chunks_duration.json`:
+```json
+{
+  "chunk_1.mp3": 178.45,
+  "chunk_2.mp3": 192.10,
+  "chunk_3.mp3": 185.60
+}
+```
+
+---
+
+## 5. Cơ Chế Phủ Định & Điều Cấm Kỵ (Negative Triggers & Constraints)
+
+- **TUYỆT ĐỐI KHÔNG PHÂN TÍCH LẠI KỊCH NGHỆ Ở BƯỚC 08B:** Toàn bộ việc bóc tách nhân vật, tuổi tác và khí chất đã hoàn thành ở Bước 08A. Phòng thu Bước 08B chỉ đọc kịch bản và thu âm, không phỏng đoán lại vai.
+- **CẤM ĐỔI GIỚI TÍNH GIỌNG ĐỌC KHI GẶP LỖI (GENDER INVARIANCE):** Hồ sơ Nam Minh thì 100% tiếng Việt phải là Nam Minh; khi retry mạng tuyệt đối không được chuyển sang giọng nữ Hoài My làm méo mó sản phẩm.
+- **CẤM GỘP CÁC CHUNK THÀNH FILE DÀI TẠI BƯỚC 08B:** Khâu gộp thành tập 25-35 phút là nghiệp vụ riêng của Bước 09 (`arf_09`).
+- **CẤM LỒNG NHẠC NỀN BGM TẠI BƯỚC 08B:** Hòa âm BGM thuộc Bước 10 (`arf_10`).
+- **CẤM LƯU FILE MP3 RA THƯ MỤC GỐC CHƯƠNG:** Bắt buộc lưu tập trung vào `audio_chunks/`.

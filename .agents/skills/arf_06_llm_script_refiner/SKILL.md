@@ -1,110 +1,114 @@
 ---
 name: arf_06_llm_script_refiner
-description: Bước 6 - Tinh chỉnh diễn đọc và nhịp thở bằng LLM theo Prompt chuẩn TTS, dọn dẹp file tạm.
+description: "Bước 06 trong Dây chuyền Sách nói Toàn năng (Universal Audiobook Pipeline): Tinh chỉnh diễn đọc thính giác và kiểm soát nhịp thở bằng mô hình ngôn ngữ lớn (LLM Script & Prosody Refiner). Tiếp nhận các tệp kịch bản thô (Kich-ban-raw-N.txt) để thực hiện tinh chỉnh chuyên sâu phục vụ phòng thu TTS: kiểm soát độ dài câu không vượt quá 30 từ (Word Count <= 30 words/sentence); chèn dấu phẩy lấy hơi tự nhiên (Breathing Commas) sau các liên từ nối (tuy nhiên,, do đó,, mặt khác,) và sau các mệnh đề dài trên 12 từ để giọng đọc Edge-TTS lấy hơi mượt mà, không hụt hơi hay nuốt chữ. Khóa cứng độ lệch từ vựng nghiêm ngặt (|Delta W| / W <= 3%) nhằm chống nguy cơ tự ý tóm tắt hoặc diễn giải sai lệch nguyên tác. Đối với văn học kinh điển, bảo tồn nguyên vẹn khẩu khí và xưng hô cổ phong (Chúa công, Quân sư, Thưa Đức ông); đối với sách phi hư cấu, duy trì sự rành mạch đĩnh đạc. Thực thi thông qua mô hình phân rã song song: AI Chính kích hoạt đồng loạt mảng Sub-agents chuyên môn phụ trách độc lập 1-2 chunks, hoàn thành toàn bộ kịch bản trong 1 - 1.5 phút, tự động dọn sạch các tệp Kich-ban-raw-*.txt trung gian và xuất bản Kich-ban-N.txt hoàn chỉnh. Kích hoạt khi các chunk thô đã qua định dạng Bước 05, hoặc khi kịch bản chứa câu quá dài cần tối ưu nhịp thở phát thanh."
 ---
 
-# Kỹ năng 06: Tinh chỉnh Kịch bản Diễn Đọc bằng LLM (`06_llm_script_refiner`)
+# Kỹ năng 06: Tinh Chỉnh Diễn Đọc & Nhịp Thở Phát Thanh (LLM Script Refiner)
 
-Kỹ năng này chịu trách nhiệm nhận các khối kịch bản thô (`Kich-ban-raw-N.txt`) từ thư mục con `kich-ban/` của bước Rechunk, áp dụng **Prompt TTS chuẩn** và gọi LLM để biên tập lại câu từ cho phù hợp với giọng đọc tự nhiên (thêm dấu phẩy ngắt hơi, sửa lỗi ngữ pháp, tách tiêu đề dính, chuẩn hóa phiên âm, giữ nguyên marker ngắt nghỉ `. ......`), sau đó xuất ra các file kịch bản hoàn chỉnh `Kich-ban-N.txt` ngay trong thư mục `kich-ban/` và dọn dẹp các file thô tạm.
+## 1. Đặc Tả Quy Trình Thao Tác Chuẩn (Specification - SOP)
 
----
+Kỹ năng `arf_06_llm_script_refiner` thực hiện điêu khắc câu chữ ở mức vi mô, biến văn bản viết thành kịch bản phát thanh hoàn hảo. Nhiệm vụ cốt lõi là bẻ ngắn câu văn dài, chèn dấu phẩy lấy hơi (Breathing Commas), và bảo toàn 100% dung lượng nội dung gốc.
 
-## 1. Mục tiêu & Nguyên tắc Tinh chỉnh
+### 1.1 Các Chỉ Số Kỹ Thuật Định Lượng
+| Tiêu Chí | Ngưỡng Tiêu Chuẩn | Ràng Buộc Cứng (Hard Gates) | Biện Pháp Kỹ Thuật |
+| :--- | :---: | :---: | :--- |
+| **Độ dài câu phát thanh** | $15 – 22$ từ | **Tối đa $\le 30$ từ/câu** | Tách câu ghép nhiều mệnh đề thành 2-3 câu đơn gãy gọn, bổ sung liên từ chuyển tiếp. |
+| **Dấu phẩy lấy hơi (Breathing Commas)** | Sau liên từ và mệnh đề dài | Bắt buộc có `, ` sau liên từ | Thêm dấu phẩy sau: `tuy nhiên,`, `do đó,`, `vì vậy,`, `mặt khác,`, `hơn nữa,`. |
+| **Độ lệch số từ (Word Count Delta)** | $|\Delta W| / W \le 1.5\%$ | **$|\Delta W| / W \le 3.0\%$** | Chống hiện tượng LLM tự ý tóm tắt hoặc viết thêm lan man. |
+| **Ký tự cấm TTS** | 0 ký tự | **0% ký tự cấm** | Quét sạch ngoặc kép `""`, ngoặc đơn `()`, dấu hai chấm `:`, gạch dài `—`. |
 
-### 1.1 Mục tiêu cốt lõi: AI Voice & Prosody Director
-- Đóng vai trò là **Tổng đạo diễn Diễn đọc Âm thanh**, hiểu sâu sắc ngữ cảnh văn học (Literary Context) và nhịp thở của người đọc thật.
-- Biến đổi văn bản dịch thô/OCR thành kịch bản có ngữ điệu diễn đọc truyền cảm, nhịp nhàng, êm ái, tối ưu cho các bộ Text-To-Speech (TTS như Microsoft Edge TTS, Clipchamp, Azure Neural Voice).
-
-### 1.2 Nguyên tắc tinh chỉnh AI bắt buộc
-1. **Phân tích Ngữ điệu & Cảm xúc (Emotional Tone Analysis):** Nhận diện phân đoạn đang xử lý là triết lý trầm ngâm, câu chuyện lịch sử kịch tính, lời khuyên hành động hay phân tích tâm lý để điều phối nhịp văn phù hợp.
-2. **Bổ sung nhịp thở tự nhiên (Breathing Commas):** Thêm dấu phẩy `,` tại các mệnh đề phụ, sau các liên từ mở đầu (`tuy nhiên,`, `bởi vì,`, `do đó,`), và ở các câu phức dài trên 12 từ để bộ đọc TTS lấy hơi tự nhiên, không bị đọc dồn dập hoặc hụt hơi.
-3. **Phân biệt Lời dẫn chuyện & Lời thoại nhân vật:** Đảm bảo lời trích dẫn danh ngôn hoặc lời thoại được đặt sau dấu phẩy và ngắt nhịp rõ ràng để tạo điểm nhấn âm thanh.
-4. **Giữ nguyên Marker ngắt nghỉ `. ......`:** Tuyệt đối giữ nguyên ký hiệu `. ......` ở cuối mỗi đoạn văn hoặc câu chuyển ý quan trọng. Ký hiệu này giúp TTS ngắt nghỉ 1.5 - 2 giây để người nghe chiêm nghiệm.
-5. **Không tóm tắt / Không lược ý (100% Content Fidelity):** Giữ trọn vẹn 100% nội dung, không rút gọn luận điểm, ví dụ hay số liệu của tác giả.
-6. **Không thêm lời dẫn thoại của AI:** Tuyệt đối không thêm các câu mở đầu/kết bài máy móc như *"Dưới đây là kịch bản"*, *"Chào bạn"*... Chỉ xuất nội dung kịch bản sạch.
-7. **Biên tập Chống Lặp Thuật Ngữ Ngoại Lai & Giảm Mỏi Thính Giác (Anti-Auditory Fatigue Principle):**
-   - Tuân thủ **Chiến Lược Biên Tập Thuật Ngữ 3 Tầng**: Chỉ giữ nguyên ký tự quốc tế của từ tiếng Anh/Latinh ở câu giới thiệu ban đầu hoặc đầu đề mục mới (Tier 1 & 2) để định vị khái niệm cho người nghe.
-   - Trong toàn bộ phần thân bài diễn giải tiếp theo (Tier 3), AI biên tập viên chủ động chuyển đổi linh hoạt sang tiếng Việt tự nhiên (ví dụ: *Stakeholder* $\to$ *các bên liên quan*, *Project Charter* $\to$ *bản điều lệ dự án*), viết tắt tách âm phát thanh (*P-M-I*, *W-B-S*, *K-P-I*), hoặc dùng đại từ thay thế ngắn gọn (*nhóm này, đối tác này, tài liệu này*). Tuyệt đối tránh việc lặp đi lặp lại từ ngoại ngữ máy móc làm bộ đọc TTS phải đảo giọng liên tục gây gián đoạn cảm xúc của thính giả.
+### 1.2 Khẩu Khí & Văn Phong Theo Thể Loại
+- **Văn học kinh điển / Kịch nghệ:** Giữ nguyên 100% đại từ xưng hô cổ kính (*Chúa công, Quân sư, Thưa Đức ông, Thiếu hiệp*), giữ trọn vần điệu thi ca, đặt dấu phẩy lấy hơi phân định rõ ràng giữa Lời dẫn chuyện và Lời thoại trực tiếp.
+- **Sách tự lực / Kỹ năng:** Giữ ngôi xưng `Tôi - Bạn`, câu từ dứt khoát, mang tính hướng dẫn hành động cụ thể.
+- **Sách khoa học / PMBOK:** Giữ nguyên các thuật ngữ tiếng Anh chuẩn hóa, tách âm từ viết tắt (*P-M-I*, *W-B-S*).
 
 ---
 
-## 2. Quản lý Session & Checkpoint (Resume Logic)
+## 2. Điều Kiện Kích Hoạt & Cụm Từ Khóa (When to Use & Triggers)
 
-Kỹ năng lưu vết quá trình thực thi thông qua tệp `.session_manifest.json` nằm tại thư mục gốc của dự án hoặc thư mục đầu vào.
+### 2.1 Bối Cảnh Sử Dụng
+- Khi đã hoàn thành Bước 04 (chia chunk) và Bước 05 (định dạng tiêu đề & nhịp thở).
+- Khi kịch bản còn chứa các câu văn quá dài ($> 30$ từ) khiến giọng TTS bị hụt hơi, hoặc chứa ký tự cấm.
 
-### 2.1 Cấu trúc Manifest
-```json
-{
-  "session_id": "session_20260816_100000",
-  "step_6_status": "in_progress",
-  "updated_at": "2026-08-16T10:15:00+07:00",
-  "chapters": {
-    "01-Chuong-01": {
-      "status": "completed",
-      "total_raw_chunks": 3,
-      "completed_chunks": [1, 2, 3]
-    },
-    "02-Chuong-02": {
-      "status": "in_progress",
-      "total_raw_chunks": 4,
-      "completed_chunks": [1, 2]
-    }
-  }
-}
+### 2.2 Câu Lệnh Người Dùng Điển Hình (User Prompt Triggers)
+- *"Tinh chỉnh câu ngắn và thêm phẩy lấy hơi cho kịch bản"*
+- *"Refine kịch bản các file Kich-ban-raw-*.txt thành Kich-ban-*.txt"*
+- *"Sửa các câu dài hơn 30 từ và khử sạch ký tự cấm"*
+- *"Chạy Bước 06 hoàn thiện kịch bản phát thanh"*
+
+---
+
+## 3. Trình Tự Thực Thi Từng Bước (Step-by-Step Execution)
+
+```mermaid
+flowchart TD
+    P1["Pha 1: Tiền Phân Rã Khối Lượng Việc\n- AI Chính quét danh sách Kich-ban-raw-*.txt\n- Đếm số từ ban đầu W_raw của từng chunk"] --> P2["Pha 2: Điều Phối Mảng Sub-Agents Song Song\n- invoke_subagent chạy đồng loạt\n- Mỗi subagent xử lý 1-2 chunks\n- Câu <= 30 từ, thêm breathing commas"]
+    P2 --> P3["Pha 3: Kiểm Tra Delta, Hậu Kiểm & Dọn Dẹp\n- Kiểm tra |Delta W| / W <= 3%\n- Xuất Kich-ban-N.txt\n- Xóa sạch Kich-ban-raw-*.txt"]
 ```
 
-### 2.2 Cơ chế Khôi phục (Resume)
-- Trước khi xử lý file `Kich-ban-raw-N.txt`, script sẽ kiểm tra xem file đích `Kich-ban-N.txt` đã tồn tại và có dung lượng hợp lệ (> 50 byte) hay chưa.
-- Nếu đã tồn tại: **Bỏ qua (Skip)** chunk này và ghi nhận vào checkpoint, giúp tiết kiệm token và thời gian khi chạy lại sau sự cố mất kết nối hoặc dừng đột ngột.
-- Khi toàn bộ các chunk trong một chương hoàn thành, cập nhật trạng thái chương thành `"completed"`.
-- Khi toàn bộ các chương hoàn thành, cập nhật `step_6_status` thành `"completed"`.
+### Pha 1: Tiền kiểm tra & Phân rã công việc (Pre-checks)
+1. Xác nhận các file `Kich-ban-raw-*.txt` trong thư mục `kich-ban/`.
+2. Đếm số từ ban đầu $W_{raw}$ của từng chunk để làm mốc đối soát độ lệch.
 
----
-
-## 3. Tự Động Dọn Dẹp File Trung Gian (Auto-Cleanup)
-
-Sau khi một chương (hoặc toàn bộ dự án) hoàn thành tinh chỉnh 100%:
-- 🗑️ **Xóa các file thô trung gian:** `Kich-ban-raw-*.txt`
-- 🗑️ **Xóa các file tạm:** `translated.txt` (nếu có)
-- 🔒 **GIỮ LẠI BẮT BUỘC:**
-  - `raw_original.txt`: Bằng chứng văn bản gốc để phục vụ Quality Control (QC).
-  - `Kich-ban-1.txt`, `Kich-ban-2.txt`, ...: Các kịch bản hoàn chỉnh (Final Output).
-
----
-
-## 4. Hướng Dẫn Kích Hoạt Sub-Agent Biên Kịch Giọng Đọc Từng Chương (Senior Voice Refiner Subagent)
-
-Khi muốn tinh chỉnh sâu sắc ngữ điệu từng chương hoặc tài liệu dài bằng LLM:
-
+### Pha 2: Điều phối mảng Sub-agents song song (Mandatory Sub-agents Dispatch)
+AI Chính **BẮT BUỘC PHẢI GỌI `invoke_subagent`** để điều phối mảng Sub-agents chuyên môn song song. **TUYỆT ĐỐI CẤM** AI Chính tự ý dùng `replace_file_content` hoặc `write_to_file` để sửa file đơn lẻ trong phiên chính, và **CẤM** dùng script Python regex thay thế. Mỗi worker phụ trách 1-2 chunks độc lập (hoàn thành chỉ trong 1 - 1.5 phút):
 ```python
 invoke_subagent(
     Subagents=[
         {
             "TypeName": "self",
-            "Role": "Senior Voice Script Refiner [01-quy-luat-01]",
+            "Role": "Voice Script Refiner Chunk 1-2",
             "Prompt": (
-                "Bạn là Tổng biên kịch Diễn đọc Giọng nói cho chương '01-quy-luat-01-lam-chu-cai-toi-cam-xuc'.\n"
-                "Tác giả: Robert Greene | Thể loại: Tâm lý học hành vi / Triết học quyền lực.\n"
-                "Nhiệm vụ: Đọc toàn bộ các chunk 'Kich-ban-raw-N.txt' của chương này và tinh chỉnh thành 'Kich-ban-N.txt'.\n"
-                "Yêu cầu biên tập thính giác:\n"
-                "1. Thêm dấu phẩy lấy hơi tự nhiên ở những câu dài để bộ đọc TTS ngắt giọng êm ái.\n"
-                "2. Áp dụng Chiến Lược Thuật Ngữ 3 Tầng: Giữ nguyên thuật ngữ tiếng Anh/Latinh ở phần giới thiệu đầu chương hoặc đầu đề mục mới; trong thân bài diễn giải, linh hoạt chuyển ngữ sang tiếng Việt tự nhiên, từ viết tắt tách âm (W-B-S, P-M-I) hoặc đại từ thay thế ngắn gọn để chống lặp từ ngoại ngữ gây mỏi tai người nghe.\n"
-                "3. Bảo toàn 100% nội dung logic và marker ngắt nghỉ '. ......'.\n"
-                "4. Khử sạch toàn bộ ký tự cấm TTS (ngoặc, nháy) và chuyển chữ số thành chữ viết."
+                "Tinh chỉnh Kich-ban-raw-1.txt và 2.txt:\n"
+                "1. Tách câu > 30 từ thành câu ngắn <= 30 từ.\n"
+                "2. Thêm dấu phẩy lấy hơi sau liên từ (tuy nhiên,, do đó,).\n"
+                "3. Quét sạch ký tự cấm: \"\", (), :, —, markdown.\n"
+                "4. Khóa độ lệch từ vựng |Delta W| / W <= 3%.\n"
+                "5. Ghi đè thành Kich-ban-1.txt và Kich-ban-2.txt."
             )
+        },
+        {
+            "TypeName": "self",
+            "Role": "Voice Script Refiner Chunk 3-4",
+            "Prompt": "...xử lý Kich-ban-raw-3.txt và 4.txt tương tự..."
         }
     ]
 )
 ```
 
+### Pha 3: Hậu kiểm tra, Xuất bản & Tự động dọn dẹp (Verification & Cleanup)
+1. Đếm số từ sau tinh chỉnh $W_{refined}$, tính $|\Delta W| / W_{raw} \le 3\%$. Nếu vượt ngưỡng, tự động phục hồi nội dung thiếu.
+2. Kiểm tra câu dài: quét regex đảm bảo không câu nào $> 30$ từ.
+3. Xuất tệp kịch bản chính thức: `kich-ban/Kich-ban-{N}.txt`.
+4. **Tự động dọn rác:** Xóa toàn bộ file tạm `Kich-ban-raw-*.txt` để giữ sạch thư mục.
+5. Cập nhật `.session_manifest.json` ghi nhận `step_6_status: "completed"`.
+
 ---
 
-## 5. Hướng dẫn Sử dụng Script `refine_llm.py`
+## 4. Ràng Buộc Đầu Ra (Output Contract)
 
-### 5.1 Vị trí tệp
-- File thực thi: [refine_llm.py](file:///d:/Solution/Audio-Book-Refactor/.agy/skills/arf_06_llm_script_refiner/scripts/refine_llm.py)
-
-### 5.2 Ví dụ câu lệnh
-```bash
-python .agy/skills/arf_06_llm_script_refiner/scripts/refine_llm.py --input_dir "D:/Solution/Audio-Book-Refactor/Kich-ban-clipchamp/Nhung-quy-luat-ve-ban-chat-con-nguoi" --force
+Các file kịch bản hoàn chỉnh nằm tập trung trong `kich-ban/`:
+```text
+[chapter_folder]/
+└── kich-ban/
+    ├── Kich-ban-1.txt              # Kịch bản hoàn chỉnh chunk 1 (<= 30 từ/câu)
+    ├── Kich-ban-2.txt              # Kịch bản hoàn chỉnh chunk 2 (<= 30 từ/câu)
+    └── ...
 ```
+
+### Tiêu Chuẩn Nghiệm Thu Bắt Buộc:
+- Tên file chuẩn hóa: `Kich-ban-{N}.txt` ($N = 1, 2, 3...$).
+- 100% câu $\le 30$ từ.
+- 100% sạch ký tự cấm: không chứa `""`, `()`, `:`, `—`, bullet points.
+- Đã dọn sạch 100% file tạm `Kich-ban-raw-*.txt`.
+
+---
+
+## 5. Cơ Chế Phủ Định & Điều Cấm Kỵ (Negative Triggers & Constraints)
+
+- **CẤM AI CHÍNH TỰ SỬA KỊCH BẢN ĐƠN LẺ (ZERO-SOLO REFINING VIOLATION):** Bắt buộc phải phát lệnh gọi `invoke_subagent` cho mảng Subagents song song. Cấm AI chính tự sửa trực tiếp trong phiên chính.
+- **TUYỆT ĐỐI CẤM TỰ Ý PARAPHRASE LÀM THAY ĐỔI NỘI DUNG:** Độ lệch từ vựng bắt buộc $|\Delta W| / W \le 3\%$. Cấm tóm tắt hoặc viết thêm ý kiến cá nhân của AI.
+- **CẤM ĐỂ LẠI BẤT KỲ CÂU NÀO DÀI QUÁ 30 TỪ:** Câu $> 30$ từ sẽ bị Cổng QC Bước 07 đánh trượt lập tức.
+- **CẤM GIỮ LẠI FILE TẠM RAW:** Bắt buộc xóa sạch `Kich-ban-raw-*.txt` sau khi tạo xong `Kich-ban-*.txt`.
+- **CẤM KHOÁN TRẮNG TOÀN BỘ FILE LỚN CHO 1 SUB-AGENT DUY NHẤT CHẠY TUẦN TỰ:** Phải phân rã nhỏ và kích hoạt đồng loạt nhiều sub-agents song song.
+- **CẤM SỬ DỤNG KHI CHƯA CHIA CHUNK Ở BƯỚC 04:** Không tinh chỉnh trực tiếp trên tệp văn bản lớn chưa phân khối.

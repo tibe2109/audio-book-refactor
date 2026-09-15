@@ -1,0 +1,125 @@
+{
+  "chapter_folder": "10-Hoi-10",
+  "chapter_index": 10,
+  "chapter_title": "Hồi 10: Giúp nhà vua, Mã Đằng khởi nghĩa; Báo thù bố, Tào Tháo cất quân",
+  "genre": "classical_epic_literature",
+  "total_theatrical_lines": 51,
+  "narrator_lines": 33,
+  "poem_lines": 4,
+  "dialogue_lines": 14,
+  "characters_cast_count": 8,
+  "characters": {
+    "Narrator": {
+      "name": "Người dẫn chuyện",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "+0Hz",
+      "base_rate": "-5%",
+      "narrative_modes": [
+        "contemplative",
+        "epic",
+        "intimate"
+      ],
+      "dialogue_count": 33
+    },
+    "Vua_Phan": {
+      "name": "Vua Phán",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    },
+    "Gia_Hu": {
+      "name": "Gia Hủ",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2
+    },
+    "Toai_Lai": {
+      "name": "Toại Lại",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "tragic_grief",
+      "sample_emotions": [
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1
+    },
+    "Chu_Tuan": {
+      "name": "Chu Tuấn",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2
+    },
+    "Tao_Thao": {
+      "name": "Tào Tháo",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "giao_hoat_nham_hiem",
+      "timbre_eq": "sharp_cunning",
+      "sample_emotions": [
+        "binh_than_tu_nhien",
+        "dau_don_trang_troi",
+        "cuong_no"
+      ],
+      "dialogue_count": 5
+    },
+    "Uc_Suc_Nho_Den": {
+      "name": "Úc Sực Nhớ Đến",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "tragic_grief",
+      "sample_emotions": [
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1
+    },
+    "Cung_Vao": {
+      "name": "Cung Vào",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "tragic_grief",
+      "sample_emotions": [
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1
+    },
+    "Tao_Bao": {
+      "name": "Tào Báo",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    }
+  },
+  "directed_at": "2026-09-15T15:15:17.275955"
+}

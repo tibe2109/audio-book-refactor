@@ -1,0 +1,303 @@
+{
+  "chapter_folder": "16-Hoi-16",
+  "chapter_index": 16,
+  "chapter_title": "Hồi 16: Cửa nha môn, Phụng Tiên bắn kích; Sông Vị Thủy, Mạnh Đức thua quân.",
+  "genre": "classical_epic_literature",
+  "total_theatrical_lines": 135,
+  "narrator_lines": 78,
+  "poem_lines": 1,
+  "dialogue_lines": 56,
+  "characters_cast_count": 22,
+  "characters": {
+    "Narrator": {
+      "name": "Người dẫn chuyện",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "+0Hz",
+      "base_rate": "-5%",
+      "narrative_modes": [
+        "contemplative",
+        "elegiac",
+        "epic",
+        "intimate",
+        "suspense"
+      ],
+      "dialogue_count": 78
+    },
+    "Ton_Can": {
+      "name": "Tôn Càn",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "trong_sang_thanh_thien",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    },
+    "Luu_Bi": {
+      "name": "Lưu Bị",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "trong_sang_thanh_thien",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien",
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 4
+    },
+    "La_Bo": {
+      "name": "Lã Bố",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "hach_dich_bao_nguoc",
+      "timbre_eq": "tyrant_arrogant",
+      "sample_emotions": [
+        "binh_than_tu_nhien",
+        "dau_don_trang_troi",
+        "cuong_no"
+      ],
+      "dialogue_count": 16
+    },
+    "Ky_Linh_So": {
+      "name": "Kỷ Linh Sợ",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "chest_resonance",
+      "sample_emotions": [
+        "cuong_no"
+      ],
+      "dialogue_count": 1
+    },
+    "Linh_Lai": {
+      "name": "Linh Lại",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "chest_resonance",
+      "sample_emotions": [
+        "cuong_no",
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2
+    },
+    "Linh": {
+      "name": "Linh",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    },
+    "Ky_Linh": {
+      "name": "Kỷ Linh",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "tragic_grief",
+      "sample_emotions": [
+        "dau_don_trang_troi",
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2
+    },
+    "Cung": {
+      "name": "Cung",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "tragic_grief",
+      "sample_emotions": [
+        "dau_don_trang_troi",
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 4
+    },
+    "Khue": {
+      "name": "Khuê",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien",
+        "cuong_no"
+      ],
+      "dialogue_count": 2
+    },
+    "Truong_Phi": {
+      "name": "Trương Phi",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "chest_resonance",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    },
+    "Tao_Thao": {
+      "name": "Tào Tháo",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "giao_hoat_nham_hiem",
+      "timbre_eq": "sharp_cunning",
+      "sample_emotions": [
+        "binh_than_tu_nhien",
+        "cuong_no",
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 9
+    },
+    "Tuan_Uc": {
+      "name": "Tuân Úc",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "khac_kho_lanh_lung",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2
+    },
+    "Gia": {
+      "name": "Gia",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    },
+    "Trinh_Duc": {
+      "name": "Trình Dục",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "khac_kho_lanh_lung",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "cuong_no"
+      ],
+      "dialogue_count": 1
+    },
+    "Hu": {
+      "name": "Hủ",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "tragic_grief",
+      "sample_emotions": [
+        "dau_don_trang_troi",
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2
+    },
+    "Chau_Thi_Lay_Ta": {
+      "name": "Châu Thị Lạy Tạ",
+      "gender": "female",
+      "voice": "vi-VN-HoaiMyNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "youth_bright",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    },
+    "Hom_Sau_Chau_Thi": {
+      "name": "Hôm Sau Châu Thị",
+      "gender": "female",
+      "voice": "vi-VN-HoaiMyNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "youth_bright",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    },
+    "Tu_Gian_Lam": {
+      "name": "Tú Giận Lắm",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    },
+    "Vu_Cam": {
+      "name": "Vu Cấm",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    },
+    "Dang": {
+      "name": "Đăng",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "tragic_grief",
+      "sample_emotions": [
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1
+    },
+    "Tao_Cong_Cuoi": {
+      "name": "Tào Công Cười",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "tragic_grief",
+      "sample_emotions": [
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1
+    },
+    "Toi": {
+      "name": "Tôi",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1
+    }
+  },
+  "directed_at": "2026-09-15T15:33:43.592451"
+}

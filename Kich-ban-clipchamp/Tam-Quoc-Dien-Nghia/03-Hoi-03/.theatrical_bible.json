@@ -1,0 +1,680 @@
+{
+  "chapter_folder": "03-Hoi-03",
+  "chapter_index": 3,
+  "chapter_title": "Hồi 03: Tiệc Ôn Minh, Đổng Trác mắng Đinh Nguyên - Dùng vàng bạc, Lý Túc dụ Lã Bố",
+  "work_title": "Tam Quốc Diễn Nghĩa",
+  "genre": "classical_epic_literature",
+  "acoustic_specification": {
+    "pitch_scale": {
+      "min_pitch": "-8Hz",
+      "max_pitch": "+12Hz",
+      "contrast_range_hz": 20,
+      "description": "Dải tương phản cao độ mở rộng toàn diện từ -8Hz (lão hóa, uy nghiêm, khắc khổ) đến +12Hz (hoạn quan the thé, ấu thơ trong trẻo), triệt tiêu hoàn toàn cảm giác một người đọc."
+    },
+    "rate_scale": {
+      "min_rate": "-20%",
+      "max_rate": "+15%",
+      "description": "Thang tốc độ thích ứng từ -20% (ngâm thơ, lão tướng trăn trở) đến +15% (quát tháo xung trận, biến cố khẩn cấp)."
+    },
+    "handoff_matrix": {
+      "instant_interruption": {
+        "duration": "0.30s - 0.35s",
+        "description": "Cắt lời tức thì khi đấu khẩu nảy lửa, cướp lời, quát tháo (Đổng Trác vs Đinh Nguyên, Viên Thiệu vs Đổng Trác, Lã Bố vs Đinh Nguyên)"
+      },
+      "urgent_lead_in": {
+        "duration": "0.35s - 0.40s",
+        "description": "Dẫn nhập thúc giục sang quân lệnh, tiếng hò reo, truy đuổi xa giá đêm tối"
+      },
+      "natural_dialogue_turn": {
+        "duration": "0.42s - 0.50s",
+        "description": "Đối đáp thường nhật, hội thoại tự nhiên, đàm đạo thế sự giữa bạn bè (Lý Túc vs Lã Bố)"
+      },
+      "dialogue_resonance": {
+        "duration": "0.50s - 0.60s",
+        "description": "Ngân rung sau câu thoại chấn động trước khi lời dẫn tiếp tục, tạo độ ngấm thính giác"
+      },
+      "pensive_lead_in": {
+        "duration": "0.60s - 0.75s",
+        "description": "Trầm ngâm buông tiếng, thở dài sầu muộn, giãi bày tâm sự bất đắc dĩ"
+      },
+      "regal_ceremony": {
+        "duration": "0.70s - 0.85s",
+        "description": "Trang nghiêm triều đình, đối đáp thiên tử, tuyên cáo chỉ dụ hoàng gia"
+      },
+      "dramatic_silence": {
+        "duration": "0.85s - 1.20s",
+        "description": "Chết lặng kịch tính sau lời đe dọa sinh tử hoặc chân lý thế sự rúng động"
+      },
+      "poetic_cushion": {
+        "duration": "0.85s - 1.80s",
+        "description": "Đệm thở thi ca 3 tầng: 0.85s-1.20s dẫn thơ -> 0.85s liên câu -> 1.50s-1.80s coda kết thúc (. ......)"
+      }
+    },
+    "dsp_presets": {
+      "tyrant_arrogant": {
+        "target_characters": [
+          "Đổng Trác"
+        ],
+        "target_frequency_eq": "Boost 190Hz (+4.5dB), Boost 1.8kHz (+4dB), Boost 4kHz (+2dB)",
+        "auditory_effect": "Bạo ngược, ồm ồm gầm gừ, áp chế đối phương, đanh thép cuồng vọng quyền lực."
+      },
+      "chest_resonance": {
+        "target_characters": [
+          "Lã Bố",
+          "Đinh Nguyên",
+          "Viên Thiệu",
+          "Hà Tiến"
+        ],
+        "target_frequency_eq": "Boost 160Hz (+5dB), Boost 300Hz (+2.5dB), Dip 3.5kHz (-3dB)",
+        "auditory_effect": "Vang rền lồng ngực, đanh thép như tiếng lệnh sấm truyền, khí phách dũng tướng xung trận."
+      },
+      "warm_authority": {
+        "target_characters": [
+          "Vương Doãn",
+          "Lư Thực",
+          "Thôi Nghị",
+          "Mẫn Cống",
+          "Trần Lâm",
+          "Trịnh Thái",
+          "Bào Tín",
+          "Bành Bá"
+        ],
+        "target_frequency_eq": "Boost 280Hz (+3.5dB), Boost 2.2kHz (+2dB), Dip 4.5kHz (-2.5dB)",
+        "auditory_effect": "Trầm ấm, đĩnh đạc, tròn vành rõ chữ của bậc danh gia vọng tộc và trung thần trượng nghĩa."
+      },
+      "sharp_cunning": {
+        "target_characters": [
+          "Lý Nho",
+          "Tào Tháo",
+          "Lý Túc"
+        ],
+        "target_frequency_eq": "High-pass 220Hz, Boost 2.8kHz (+4.5dB), Boost 5.5kHz (+3dB)",
+        "auditory_effect": "The lạnh, gằn mép, hiểm hóc, giảo hoạt sắc bén của mưu sĩ thao túng thế cuộc."
+      },
+      "servile_flatterer": {
+        "target_characters": [
+          "Trương Nhượng",
+          "Đoàn Khuê"
+        ],
+        "target_frequency_eq": "High-pass 320Hz, Boost 2.6kHz (+4dB), Boost 4.8kHz (+3.5dB)",
+        "auditory_effect": "The thé, mỏng quẹt, đon đả xun xoe nịnh hót nhưng hiểm độc lúc cùng đường."
+      },
+      "youth_bright": {
+        "target_characters": [
+          "Trần Lưu Vương (Lưu Hiệp)",
+          "Thiếu Đế (Lưu Biện)",
+          "Hà Thái Hậu"
+        ],
+        "target_frequency_eq": "High-pass 280Hz, Boost 3.8kHz (+4.5dB), Boost 6.5kHz (+2.5dB)",
+        "auditory_effect": "Sáng mảnh, thanh thoát, trong trẻo quý phái của dòng dõi đế vương ấu thơ."
+      },
+      "aged_gravel": {
+        "target_characters": [
+          "Sái Ung"
+        ],
+        "target_frequency_eq": "Boost 420Hz (+4.5dB), Low-pass 4.2kHz, Dip 1.2kHz (-3dB)",
+        "auditory_effect": "Khàn đục, cũ kỹ, trải đời của kiếp danh sĩ sương gió dãi dầu giữa thời loạn."
+      },
+      "poetic_recitation": {
+        "target_characters": [
+          "Narrator (Thi ca)"
+        ],
+        "target_frequency_eq": "Boost 250Hz (+3.5dB), Dip 3.5kHz (-2dB), Low-pass 7.5kHz",
+        "auditory_effect": "Trầm vang mênh mang, ngân nga ấm áp, triệt tiêu gắt chói, tạo không gian lắng đọng."
+      }
+    }
+  },
+  "narrative_modes": {
+    "epic_narrator": {
+      "description": "Người dẫn chuyện hào hùng chiến trận, khí thế dồn dập, nhịp xung trận sôi sục",
+      "pitch": "+1Hz",
+      "rate": "+0%",
+      "lead_in_pause": "0.28s - 0.35s",
+      "timbre_eq": "epic_narrator"
+    },
+    "elegiac_narrator": {
+      "description": "Người dẫn chuyện bi tráng xót thương, than khóc thế sự sụp đổ, nước mắt ấu chúa lầm than",
+      "pitch": "-2Hz",
+      "rate": "-10%",
+      "lead_in_pause": "0.55s - 0.65s",
+      "timbre_eq": "elegiac_narrator"
+    },
+    "contemplative_narrator": {
+      "description": "Người dẫn chuyện chiêm nghiệm hoài cổ, triết lý hưng vong thế sự, tiếng chuông chiều lịch sử",
+      "pitch": "-2Hz",
+      "rate": "-12%",
+      "lead_in_pause": "0.60s - 0.75s",
+      "timbre_eq": "contemplative_narrator"
+    },
+    "suspense_narrator": {
+      "description": "Người dẫn chuyện hồi hộp rình rập, căng thẳng kịch tính trước giờ binh biến ám sát",
+      "pitch": "+0Hz",
+      "rate": "-8%",
+      "lead_in_pause": "0.40s - 0.48s",
+      "timbre_eq": "suspense_narrator"
+    },
+    "intimate_narrator": {
+      "description": "Người dẫn chuyện bình nhật tự nhiên, kể chuyện khách quan làm nền cho thoại nhân vật",
+      "pitch": "+0Hz",
+      "rate": "-5%",
+      "lead_in_pause": "0.35s - 0.40s",
+      "timbre_eq": "intimate_narrator"
+    },
+    "poetic_recitation": {
+      "description": "Ngâm vịnh thi ca 3 tầng, khoan thai sâu lắng, tôn nghiêm niêm luật",
+      "pitch": "-2Hz",
+      "rate": "-18%",
+      "lead_in_pause": "0.85s",
+      "timbre_eq": "poetic_recitation"
+    }
+  },
+  "characters": {
+    "Narrator": {
+      "name": "Người dẫn chuyện",
+      "role_title": "Người kể chuyện toàn tri (The Narrative Soul)",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "+0Hz",
+      "base_rate": "-5%",
+      "timbre_eq": "intimate_narrator",
+      "narrative_modes": [
+        "epic_narrator",
+        "elegiac_narrator",
+        "contemplative_narrator",
+        "suspense_narrator",
+        "intimate_narrator",
+        "poetic_recitation"
+      ],
+      "vocal_traits": "Tròn vành rõ chữ, truyền cảm sâu sắc, làm chiếc cầu nối âm học hoàn hảo giữa các tuyến nhân vật kịch tính.",
+      "dialogue_count": 122
+    },
+    "Dong_Trac": {
+      "name": "Đổng Trác",
+      "role_title": "Thứ sử Tây Lương, Ngao Hương Hầu, Tiền tướng quân, kẻ thao túng triều chính",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "hach_dich_bao_nguoc",
+      "timbre_eq": "tyrant_arrogant",
+      "base_pitch": "-4Hz",
+      "base_rate": "-2%",
+      "sample_emotions": [
+        "bang_hoang_chet_lang",
+        "cuong_no",
+        "de_doa_tham_hiem",
+        "doc_thoai_dan_vat",
+        "hoan_ca_dac_thang",
+        "hoi_hop_thi_thao"
+      ],
+      "dramatic_arc": "Từ kiêu binh Tây Lương tiến vào kinh đô, lộ rõ dã tâm cướp ngôi tại tiệc Ôn Minh, cuồng vọng thị uy nhưng khiếp sợ dũng lực Lã Bố; sau dùng ngựa quý vàng ròng thu phục Lã Bố làm nghĩa tử, tái diễn màn phế lập rút gươm uy hiếp triều đình.",
+      "vocal_traits": "Giọng ồm ồm gầm gừ, đanh thép, bạo ngược, gằn giọng từng tiếng, khẩu khí áp chế kẻ đối thoại.",
+      "dialogue_handoff_style": "Quát tháo thị uy, ngắt lời dứt khoát 0.30s - 0.35s.",
+      "dialogue_count": 15
+    },
+    "La_Bo": {
+      "name": "Lã Bố",
+      "role_title": "Tự Phụng Tiên, dũng tướng Kinh Châu, sau là nghĩa tử kiêm mãnh tướng Đổng Trác",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "chest_resonance",
+      "base_pitch": "+2Hz",
+      "base_rate": "+4%",
+      "sample_emotions": [
+        "bang_hoang_chet_lang",
+        "cuong_no",
+        "de_doa_tham_hiem",
+        "doc_thoai_dan_vat",
+        "hoan_ca_dac_thang",
+        "hoi_hop_thi_thao",
+        "met_moi_buong_xuoi",
+        "ninh_bo_van_xin"
+      ],
+      "dramatic_arc": "Chiến thần kiêu dũng vô song sa trường, oai phong lẫm liệt bảo vệ Đinh Nguyên; nhưng tâm lý bồng bột, ham danh lợi, bị Lý Túc khích tướng và cám dỗ bởi ngựa Xích Thố, vàng bạc; dằn vặt ngắn ngủi rồi tàn nhẫn chém đầu nghĩa phụ Đinh Nguyên, quỳ lạy tôn Đổng Trác làm cha nuôi.",
+      "vocal_traits": "Giọng vang sang sảng, âm vang lồng ngực, lúc hào sảng tự đắc, lúc hạ giọng trầm ngâm dằn vặt, khi quát mắng thì sấm sét rung chuyển.",
+      "dialogue_handoff_style": "Chuyển từ trầm ngâm tâm sự (0.60s) sang dứt khoát hung bạo (0.30s).",
+      "dialogue_count": 13
+    },
+    "Dinh_Nguyen": {
+      "name": "Đinh Nguyên",
+      "role_title": "Thứ sử Kinh Châu, nghĩa phụ của Lã Bố, trung thần dám đối đầu bạo chúa",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "chest_resonance",
+      "base_pitch": "-3Hz",
+      "base_rate": "-4%",
+      "sample_emotions": [
+        "bang_hoang_chet_lang",
+        "cuong_no",
+        "hoi_hop_thi_thao"
+      ],
+      "dramatic_arc": "Hiên ngang đứng dậy giữa tiệc Ôn Minh mắng thẳng mặt Đổng Trác là đồ bất tài vô mưu mưu đồ soán nghịch; dẫn quân nghênh chiến Đổng Trác oanh liệt; đêm khuya thắp nến đọc sách thì bàng hoàng chết lặng trước sự phản trắc của con nuôi Lã Bố.",
+      "vocal_traits": "Trầm ấm, đanh thép, khẩu khí cương trực trung liệt của lão tướng sa trường.",
+      "dialogue_handoff_style": "Đối chất nảy lửa, ngắt giọng cương quyết 0.35s.",
+      "dialogue_count": 4
+    },
+    "Vien_Thieu": {
+      "name": "Viên Thiệu",
+      "role_title": "Tự Bản Sơ, Trung quân hiệu úy, dòng dõi Tứ thế tam công danh gia vọng tộc",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "hach_dich_bao_nguoc",
+      "timbre_eq": "chest_resonance",
+      "base_pitch": "+1Hz",
+      "base_rate": "+2%",
+      "sample_emotions": [
+        "cuong_no",
+        "hoi_hop_thi_thao",
+        "met_moi_buong_xuoi"
+      ],
+      "dramatic_arc": "Trẻ tuổi chí khí, dẫn quân dẹp loạn hoạn quan cứu giá; khi Đổng Trác đòi phế lập đã dũng cảm tuốt gươm đối kháng trực diện \"Gươm mày sắc, dễ gươm tao không sắc hay sao?\", khẳng định khí phách hào môn rồi bỏ trốn khỏi kinh thành mộ binh chống Trác.",
+      "vocal_traits": "Âm sắc đanh thép, kiêu hãnh, tự phụ, âm lượng bộc phát mạnh mẽ.",
+      "dialogue_handoff_style": "Đấu khẩu sấm sét, phản xạ tức thì 0.30s.",
+      "dialogue_count": 8
+    },
+    "Vuong_Doan": {
+      "name": "Vương Doãn",
+      "role_title": "Tự Tử Sư, Quan Tư đồ, đại thần trụ cột triều đình Đông Hán",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "khac_kho_lanh_lung",
+      "timbre_eq": "warm_authority",
+      "base_pitch": "-3Hz",
+      "base_rate": "-6%",
+      "sample_emotions": [
+        "hoi_hop_thi_thao"
+      ],
+      "dramatic_arc": "Lão luyện chính trị, nhẫn nhịn khôn khéo; đứng dậy hòa hoãn cứu nguy bàn tiệc Ôn Minh \"Việc phế lập không nên bàn sau khi uống say\", đồng thời hiệp lực can Đổng Trác tha mạng cho Lư Thực.",
+      "vocal_traits": "Trầm tĩnh, sâu sắc, ngữ điệu hòa hoãn, cân nhắc từng câu chữ của bậc danh gia.",
+      "dialogue_handoff_style": "Hòa hoãn xoa dịu, chuyển giao êm ái 0.45s - 0.50s.",
+      "dialogue_count": 2
+    },
+    "Lu_Thuc": {
+      "name": "Lư Thực",
+      "role_title": "Tự Tử Can, Thượng thư, danh nho trung quân ái quốc, bậc thầy của Lưu Bị",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "base_pitch": "-7Hz",
+      "base_rate": "-14%",
+      "sample_emotions": [
+        "bang_hoang_chet_lang",
+        "cuong_no",
+        "mia_mai_cham_biem"
+      ],
+      "dramatic_arc": "Sớm nhìn thấu bản chất Đổng Trác là kẻ mặt người dạ thú; bất chấp lưỡi gươm bạo chúa tại tiệc Ôn Minh, hiên ngang trích dẫn điển tích Thánh nhân vạch trần tội thoán nghịch của Đổng Trác.",
+      "vocal_traits": "Giọng lão niên trầm đục, trang nghiêm, cương nghị, nhả chữ đĩnh đạc hào sảng.",
+      "dialogue_handoff_style": "Ngắt dứt khoát, uy nghiêm 0.40s.",
+      "dialogue_count": 4
+    },
+    "Thoi_Nghi": {
+      "name": "Thôi Nghị",
+      "role_title": "Ẩn sĩ Bắc Mang sơn, hiền đệ của cựu Tư đồ Thôi Liệt",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "trong_sang_thanh_thien",
+      "timbre_eq": "warm_authority",
+      "base_pitch": "-4Hz",
+      "base_rate": "-8%",
+      "sample_emotions": [
+        "bang_hoang_chet_lang",
+        "dau_don_trang_troi"
+      ],
+      "dramatic_arc": "Chán ghét thời loạn hoạn quan lộng quyền nên ẩn cư nơi thôn dã; cứu giúp hai vị hoàng tử trong đêm tối hoạn nạn, dâng cháo cơm và tìm ngựa hộ giá với tất cả lòng trung quân thuần khiết.",
+      "vocal_traits": "Ấm áp, từ tốn, nhân hậu, kính cẩn nhưng chất phác thanh tao.",
+      "dialogue_handoff_style": "Cung kính trình tấu 0.50s.",
+      "dialogue_count": 2
+    },
+    "Man_Cong": {
+      "name": "Mẫn Cống",
+      "role_title": "Hà Nam trung lang tướng, nghĩa sĩ cứu giá phò tá ấu chúa",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "base_pitch": "-1Hz",
+      "base_rate": "-2%",
+      "sample_emotions": [
+        "cuong_no",
+        "dau_don_trang_troi"
+      ],
+      "dramatic_arc": "Dũng mãnh đuổi theo chém đầu phản tặc Đoàn Khuê, lặn lội tìm kiếm xa giá trong đêm sương lạnh, dốc lòng phò tá hai vị hoàng tử bình an hồi kinh.",
+      "vocal_traits": "Khỏe khoắn, đĩnh đạc, trung trinh dũng lược.",
+      "dialogue_handoff_style": "Đối đáp nhanh nhẹn, dứt khoát 0.38s.",
+      "dialogue_count": 2
+    },
+    "Ly_Nho": {
+      "name": "Lý Nho",
+      "role_title": "Mưu sĩ hàng đầu kiêm con rể Đổng Trác",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "giao_hoat_nham_hiem",
+      "timbre_eq": "sharp_cunning",
+      "base_pitch": "+1Hz",
+      "base_rate": "-4%",
+      "sample_emotions": [
+        "de_doa_tham_hiem",
+        "hoi_hop_thi_thao",
+        "mia_mai_cham_biem"
+      ],
+      "dramatic_arc": "Bộ não mưu lược đứng sau mọi toan tính của Đổng Trác; hiến kế dâng biểu vào kinh, khuyên chớp thời cơ phế lập, nhìn ra mối nguy Lã Bố, khuyên Đổng Trác không tiếc ngựa quý Xích Thố thu phục hào kiệt sa trường.",
+      "vocal_traits": "The lạnh, sắc nhọn, nói chậm rãi rào đón, âm sắc hiểm hóc giảo hoạt.",
+      "dialogue_handoff_style": "Thì thào hiến kế, buông chữ thâm sâu 0.42s.",
+      "dialogue_count": 5
+    },
+    "Tao_Thao": {
+      "name": "Tào Tháo",
+      "role_title": "Tự Mạnh Đức, Điển quân hiệu úy, gian hùng kiệt xuất thời loạn",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "giao_hoat_nham_hiem",
+      "timbre_eq": "sharp_cunning",
+      "base_pitch": "+0Hz",
+      "base_rate": "+0%",
+      "sample_emotions": [
+        "mia_mai_cham_biem"
+      ],
+      "dramatic_arc": "Nhìn thấu sự nông cạn của Hà Tiến, chỉ ra mầm họa khi triệu quân ngoài; cười nhạt lui ra ngoài than thở đúc kết chuẩn xác \"Làm loạn thiên hạ tất là Hà Tiến!\".",
+      "vocal_traits": "Sắc sảo, dứt khoát, pha chút châm biếm tự tin của bậc kiêu hùng trí lự.",
+      "dialogue_handoff_style": "Mỉa mai ngắn gọn, ngắt nhịp sắc sảo 0.38s.",
+      "dialogue_count": 3
+    },
+    "Ly_Tuc": {
+      "name": "Lý Túc",
+      "role_title": "Hổ bôn trung lang tướng, đồng hương Lã Bố, mưu sĩ biện luận xuất sắc",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "giao_hoat_nham_hiem",
+      "timbre_eq": "sharp_cunning",
+      "base_pitch": "+2Hz",
+      "base_rate": "+4%",
+      "sample_emotions": [
+        "de_doa_tham_hiem",
+        "hoan_ca_dac_thang",
+        "hoi_hop_thi_thao",
+        "mia_mai_cham_biem",
+        "ninh_bo_van_xin"
+      ],
+      "dramatic_arc": "Tự tin đem ba tấc lưỡi và ngựa Xích Thố vào hang cọp dụ Lã Bố; nắm thóp tâm lý kiêu căng hám lợi của Lã Bố, dùng lời lẽ hoa mỹ khích tướng thúc đẩy Lã Bố giết Đinh Nguyên hàng Trác.",
+      "vocal_traits": "Ngọt ngào, đon đả, khéo léo biến hóa, linh hoạt lươn lẹo, lúc nâng bốc lúc khích tướng.",
+      "dialogue_handoff_style": "Đưa đẩy nhịp nhàng, đon đả 0.38s - 0.45s.",
+      "dialogue_count": 15
+    },
+    "Truong_Nhuong": {
+      "name": "Trương Nhượng",
+      "role_title": "Thủ lĩnh Thập thường thị, hoạn quan lộng quyền khuynh đảo triều đình",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "xun_xoe_don_hen",
+      "timbre_eq": "servile_flatterer",
+      "base_pitch": "+6Hz",
+      "base_rate": "+6%",
+      "sample_emotions": [
+        "cuong_no",
+        "hoan_ca_dac_thang",
+        "hoi_hop_thi_thao",
+        "ninh_bo_van_xin"
+      ],
+      "dramatic_arc": "Khi bị dồn vào chân tường thì quỳ khóc xun xoe nịnh bợ Hà Thái Hậu; khi bắt được Hà Tiến thì trở mặt quát tháo hung hãn hạ sát; cùng đường khi bị quân triều đình truy đuổi đành nhảy sông Hoàng Hà tự vẫn.",
+      "vocal_traits": "The thé, mỏng dính, run rẩy nịnh hót lúc van xin, chua ngoa cay độc khi thị uy.",
+      "dialogue_handoff_style": "Gấp gáp, the thé ngắt nhịp 0.30s - 0.35s.",
+      "dialogue_count": 6
+    },
+    "Doan_Khue": {
+      "name": "Đoàn Khuê",
+      "role_title": "Hoạn quan Thập thường thị, vây cánh Trương Nhượng",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "xun_xoe_don_hen",
+      "timbre_eq": "servile_flatterer",
+      "base_pitch": "+5Hz",
+      "base_rate": "+4%",
+      "sample_emotions": [
+        "ninh_bo_van_xin",
+        "bang_hoang_chet_lang"
+      ],
+      "dramatic_arc": "Bắt cóc ấu chúa trốn chạy trong đêm hoảng loạn, khi bị Mẫn Cống truy bắt thì run rẩy khai báo rồi đền tội dưới lưỡi gươm.",
+      "vocal_traits": "The thé, hốt hoảng, run rẩy, đớn hèn van xin.",
+      "dialogue_handoff_style": "Lắp bắp, thở dốc 0.32s.",
+      "dialogue_count": 0
+    },
+    "Tran_Luu_Vuong": {
+      "name": "Trần Lưu Vương (Lưu Hiệp)",
+      "role_title": "Hoàng đệ cửu tuế, thông tuệ dĩnh ngộ, sau là Hán Hiến Đế",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "au_tho",
+      "temperament": "trong_sang_thanh_thien",
+      "timbre_eq": "youth_bright",
+      "base_pitch": "+9Hz",
+      "base_rate": "+4%",
+      "sample_emotions": [
+        "cuong_no",
+        "de_doa_tham_hiem",
+        "hoan_ca_dac_thang",
+        "hoi_hop_thi_thao"
+      ],
+      "dramatic_arc": "Dù mới chín tuổi nhưng toát lên khí phách đế vương; dìu anh trốn nạn, điềm tĩnh phân giải với Thôi Nghị; đặc biệt khi đối diện Đổng Trác đã dõng dạc mắng vặn \"Ngươi đến hộ giá hay cướp giá?\" và kể lại biến cố mạch lạc khiến bạo chúa Đổng Trác kinh nể.",
+      "vocal_traits": "Giọng trẻ thơ trong trẻo, đĩnh đạc, khúc chiết, khí chất uy nghiêm bất phàm.",
+      "dialogue_handoff_style": "Dõng dạc, uy nghi của hoàng tộc 0.45s.",
+      "dialogue_count": 6
+    },
+    "Thieu_De": {
+      "name": "Thiếu Đế (Lưu Biện)",
+      "role_title": "Hán Thiếu Đế, thiên tử ấu chúa nhu nhược yếu đuối",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thieu_nien",
+      "temperament": "bi_kich_uat_nghen",
+      "timbre_eq": "youth_bright",
+      "base_pitch": "+5Hz",
+      "base_rate": "+2%",
+      "sample_emotions": [
+        "dau_don_trang_troi",
+        "met_moi_buong_xuoi"
+      ],
+      "dramatic_arc": "Bị hoạn quan khống chế, sợ hãi khóc lóc trong đêm tối bụi rậm; khi gặp Đổng Trác thì run rẩy không nói nên lời, báo trước số phận bi kịch bị phế truất.",
+      "vocal_traits": "Non nớt, nhút nhát, run rẩy, nghẹn ngào trong nước mắt.",
+      "dialogue_handoff_style": "Nghẹn ngào buông tiếng 0.55s.",
+      "dialogue_count": 0
+    },
+    "Sai_Ung": {
+      "name": "Sái Ung",
+      "role_title": "Tự Bá Giai, Thị trung, danh sĩ học giả đại tài bậc nhất triều đình",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "tram_uat_dan_vat",
+      "timbre_eq": "aged_gravel",
+      "base_pitch": "-6Hz",
+      "base_rate": "-12%",
+      "sample_emotions": [
+        "hoi_hop_thi_thao"
+      ],
+      "dramatic_arc": "Chứng kiến triều đình suy vi, đau xót nhìn bọn quyền thần và bạo chúa xâu xé giang sơn, giữ phong thái danh sĩ uy nghiêm giữa phong ba biến loạn.",
+      "vocal_traits": "Khàn đục, trầm lắng, mang nặng nỗi ưu tư thế sự và khí chất uyên bác dãi dầu.",
+      "dialogue_handoff_style": "Trầm ngâm buông tiếng 0.60s.",
+      "dialogue_count": 1
+    },
+    "Ha_Tien": {
+      "name": "Hà Tiến",
+      "role_title": "Tự Toại Cao, Đại tướng quân, xuất thân đồ tể, lộng quyền ngu muội",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "hach_dich_bao_nguoc",
+      "timbre_eq": "chest_resonance",
+      "base_pitch": "-2Hz",
+      "base_rate": "+2%",
+      "sample_emotions": [
+        "cuong_no",
+        "hoan_ca_dac_thang",
+        "mia_mai_cham_biem"
+      ],
+      "dramatic_arc": "Cậy thế nắm giữ binh quyền, cố chấp bỏ ngoài tai mọi lời can gián trung trực của Tào Tháo, Lư Thực, Trần Lâm; mù quáng bước vào cạm bẫy trong cung và nhận kết cục thảm khốc bị hoạn quan chém đầu.",
+      "vocal_traits": "Ồm ồm thô lỗ, tự phụ, gắt gỏng, coi thường mưu sĩ.",
+      "dialogue_handoff_style": "Cười khẩy gạt phắt 0.35s.",
+      "dialogue_count": 4
+    },
+    "Ha_Thai_Hau": {
+      "name": "Hà Thái Hậu",
+      "role_title": "Thái hậu triều Hán, em gái Hà Tiến, mẹ đẻ Thiếu Đế Lưu Biện",
+      "gender": "female",
+      "voice": "vi-VN-HoaiMyNeural",
+      "age_stage": "trung_nien",
+      "temperament": "bi_kich_uat_nghen",
+      "timbre_eq": "youth_bright",
+      "base_pitch": "+2Hz",
+      "base_rate": "-2%",
+      "sample_emotions": [
+        "met_moi_buong_xuoi"
+      ],
+      "dramatic_arc": "Cả tin lời xun xoe của bọn hoạn quan, can thiệp sai lầm gọi anh trai vào cung; sau biến loạn ôm con khóc than giữa cung điện điêu tàn.",
+      "vocal_traits": "Giọng nữ quý phái nhưng u sầu, nhu nhược, nghẹn ngào xót xa.",
+      "dialogue_handoff_style": "Trang nghiêm nhưng mềm yếu 0.50s.",
+      "dialogue_count": 1
+    },
+    "Tran_Lam": {
+      "name": "Trần Lâm",
+      "role_title": "Tự Khổng Chương, Chủ bộ của Hà Tiến, một trong Kiến An thất tử",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "trong_sang_thanh_thien",
+      "timbre_eq": "warm_authority",
+      "base_pitch": "+1Hz",
+      "base_rate": "-2%",
+      "sample_emotions": [
+        "hoi_hop_thi_thao"
+      ],
+      "dramatic_arc": "Dùng lời lẽ khẩn thiết can ngăn Hà Tiến không nên nghe tờ chiếu giả vào cung chịu chết.",
+      "vocal_traits": "Thanh thoát, chuẩn mực, khẩn trương lo lắng cho đại cục.",
+      "dialogue_handoff_style": "Can gián khẩn thiết 0.35s.",
+      "dialogue_count": 1
+    },
+    "Trinh_Thai": {
+      "name": "Trịnh Thái",
+      "role_title": "Thị ngự sử triều đình Đông Hán",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "khac_kho_lanh_lung",
+      "timbre_eq": "warm_authority",
+      "base_pitch": "-2Hz",
+      "base_rate": "-4%",
+      "sample_emotions": [
+        "bang_hoang_chet_lang"
+      ],
+      "dramatic_arc": "Cương quyết can ngăn triệu Đổng Trác vào kinh với lời tiên tri rùng mình \"Đổng Trác là giống sài lang, để hắn vào kinh hắn sẽ ăn thịt người!\".",
+      "vocal_traits": "Sắc lạnh, cương quyết, cảnh báo nghiêm trọng.",
+      "dialogue_handoff_style": "Khẩn thiết cảnh báo 0.35s.",
+      "dialogue_count": 1
+    },
+    "Bao_Tin": {
+      "name": "Bào Tín",
+      "role_title": "Hậu quân hiệu úy, mưu lược trung dũng",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "base_pitch": "+0Hz",
+      "base_rate": "+0%",
+      "sample_emotions": [
+        "hoi_hop_thi_thao"
+      ],
+      "dramatic_arc": "Nhận thấy Đổng Trác vào kinh tất sinh loạn, chủ động đề nghị Viên Thiệu và Vương Doãn ra tay tiêu diệt Trác ngay khi Trác chưa vững chân; không được nghe theo bèn dẫn quân lên Thái Sơn mưu toan đại sự.",
+      "vocal_traits": "Dứt khoát, mưu lược, quyết đoán và sắc bén.",
+      "dialogue_handoff_style": "Thúc giục cơ mưu 0.35s.",
+      "dialogue_count": 1
+    },
+    "Banh_Ba": {
+      "name": "Bành Bá",
+      "role_title": "Nghị lang triều Đông Hán",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "khac_kho_lanh_lung",
+      "timbre_eq": "warm_authority",
+      "base_pitch": "-3Hz",
+      "base_rate": "-4%",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dramatic_arc": "Cùng quan Tư đồ Vương Doãn kịp thời bước ra khuyên can Đổng Trác không giết Lư Thực, bảo vệ uy vọng của sĩ phu thiên hạ.",
+      "vocal_traits": "Điềm đạm, trang trọng, mềm dẻo nhưng kiên định.",
+      "dialogue_handoff_style": "Hòa hoãn xoa dịu 0.45s.",
+      "dialogue_count": 0
+    },
+    "Quan_Hoang_Mon": {
+      "name": "Quan Hoàng Môn",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trang_nien",
+      "temperament": "deu_gia_xu_ninh",
+      "timbre_eq": "servile_flatterer",
+      "base_pitch": "+4Hz",
+      "base_rate": "-4%",
+      "sample_emotions": [
+        "de_doa_tham_hiem"
+      ],
+      "dialogue_count": 1
+    },
+    "Ngo_Khuong": {
+      "name": "Ngô Khuông",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trang_nien",
+      "temperament": "nong_nay_boc_dong",
+      "timbre_eq": "warm_authority",
+      "base_pitch": "+3Hz",
+      "base_rate": "+6%",
+      "sample_emotions": [
+        "cuong_no"
+      ],
+      "dialogue_count": 1
+    },
+    "Chu_Tuong": {
+      "name": "Các Tướng",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trang_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "chest_resonance",
+      "base_pitch": "+2Hz",
+      "base_rate": "+6%",
+      "sample_emotions": [
+        "cuong_no"
+      ],
+      "dialogue_count": 1
+    }
+  },
+  "characters_cast_count": 26,
+  "directed_by": "Hội đồng Đạo diễn Kịch nghệ Hồi 3 - Character Arc & Bible Profiler",
+  "compliance_standards": [
+    "ARF Rules v2.5",
+    "arf_08a_theatrical_voice_director",
+    "Deep Persona Polarizer (Pitch Range -8Hz to +12Hz)",
+    "5 Life Age Stages & 10 Essential Temperaments",
+    "ATSE 4-Axis Acoustic Sculpture & Formant DSP Presets"
+  ],
+  "total_theatrical_lines": 219,
+  "narrator_lines": 107,
+  "poem_lines": 15,
+  "dialogue_lines": 97,
+  "continuity_qc_verified_at": "2026-09-15T14:41:09.616004"
+}

@@ -1,0 +1,228 @@
+{
+  "chapter_folder": "100-Hoi-100",
+  "chapter_index": 100,
+  "chapter_title": "Hồi 100: Quân Hán cướp trại, phá Tào Quân; Võ Hầu đấu trận, nhục Trọng Đạt.",
+  "genre": "classical_epic_literature",
+  "total_theatrical_lines": 72,
+  "narrator_lines": 42,
+  "poem_lines": 0,
+  "dialogue_lines": 30,
+  "characters_cast_count": 14,
+  "characters": {
+    "Narrator": {
+      "name": "Người dẫn chuyện",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "+0Hz",
+      "base_rate": "-5%",
+      "narrative_modes": [
+        "contemplative",
+        "epic",
+        "intimate",
+        "suspense"
+      ],
+      "dialogue_count": 42
+    },
+    "Gia_Cat_Luong": {
+      "name": "Gia Cát Lượng",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "khac_kho_lanh_lung",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "binh_than_tu_nhien",
+        "hoan_ca_dac_thang",
+        "cuong_no"
+      ],
+      "dialogue_count": 11,
+      "base_pitch": "-8Hz",
+      "base_rate": "-20%"
+    },
+    "Cac_Tuong": {
+      "name": "Các Tướng",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "Tao_Chan": {
+      "name": "Tào Chân",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "Chan": {
+      "name": "Chân",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "binh_than_tu_nhien",
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 4,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "May_Sao_Dam_La": {
+      "name": "Mày Sao Dám La",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "Chi": {
+      "name": "Chi",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "Thuc": {
+      "name": "Thức",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "binh_than_tu_nhien",
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 2,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "Nguoi_Ay": {
+      "name": "Người Ấy",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "cuong_no"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "Truong_Su_Duong_Nghi": {
+      "name": "Trưởng Sử Dương Nghi",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "An": {
+      "name": "An",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "Luu_Thien": {
+      "name": "Lưu Thiền",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "xun_xoe_don_hen",
+      "timbre_eq": "sharp_cunning",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2,
+      "base_pitch": "-1Hz",
+      "base_rate": "-2%"
+    },
+    "Tuong_Uyen": {
+      "name": "Tưởng Uyển",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "Khuong_Duy": {
+      "name": "Khương Duy",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "+1Hz",
+      "base_rate": "+2%"
+    },
+    "Duong_Nghi": {
+      "name": "Dương Nghi",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    }
+  },
+  "directed_at": "2026-09-15T11:13:15.550008"
+}

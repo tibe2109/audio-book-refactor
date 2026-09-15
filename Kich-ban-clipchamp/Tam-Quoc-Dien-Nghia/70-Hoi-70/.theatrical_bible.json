@@ -1,0 +1,280 @@
+{
+  "chapter_folder": "70-Hoi-70",
+  "chapter_index": 70,
+  "chapter_title": "Hồi 70: TrươngPhi khỏe, dùng mưu lấy Ngõa Khẩu Ải; Hoàng Trung già, bày kế đoạt Thiên Đăng Sơn",
+  "genre": "classical_epic_literature",
+  "total_theatrical_lines": 67,
+  "narrator_lines": 41,
+  "poem_lines": 0,
+  "dialogue_lines": 26,
+  "characters_cast_count": 18,
+  "characters": {
+    "Narrator": {
+      "name": "Người dẫn chuyện",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "+0Hz",
+      "base_rate": "-5%",
+      "narrative_modes": [
+        "contemplative",
+        "epic",
+        "intimate",
+        "suspense"
+      ],
+      "dialogue_count": 41
+    },
+    "Lai": {
+      "name": "Lại",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Dong": {
+      "name": "Đồng",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Luu_Bi": {
+      "name": "Lưu Bị",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "trong_sang_thanh_thien",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-3Hz",
+      "base_rate": "-4%"
+    },
+    "Cap": {
+      "name": "Cáp",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Roi": {
+      "name": "Rồi",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Truong_Phi": {
+      "name": "Trương Phi",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "chest_resonance",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Phap_Chinh": {
+      "name": "Pháp Chính",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "khac_kho_lanh_lung",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2,
+      "base_pitch": "-5Hz",
+      "base_rate": "-10%"
+    },
+    "Gia_Cat_Luong": {
+      "name": "Gia Cát Lượng",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "khac_kho_lanh_lung",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 6,
+      "base_pitch": "-5Hz",
+      "base_rate": "-10%"
+    },
+    "Trieu_Van": {
+      "name": "Triệu Vân",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Nghiem_Nhan": {
+      "name": "Nghiêm Nhan",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "khac_kho_lanh_lung",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 2,
+      "base_pitch": "-8Hz",
+      "base_rate": "-20%"
+    },
+    "Quach_Hoai": {
+      "name": "Quách Hoài",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Han_Hao": {
+      "name": "Hàn Hạo",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Hoang_Trung": {
+      "name": "Hoàng Trung",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "lao_hoa",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "aged_gravel",
+      "sample_emotions": [
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-7Hz",
+      "base_rate": "-16%"
+    },
+    "Phong": {
+      "name": "Phong",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Luu_Phong": {
+      "name": "Lưu Phong",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Ha_Hau_Thuong": {
+      "name": "Hạ Hầu Thượng",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    },
+    "Ha_Hau_Duc": {
+      "name": "Hạ Hầu Đức",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "trong_sang_thanh_thien",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-3Hz",
+      "base_rate": "-4%"
+    },
+    "Truong_Cap": {
+      "name": "Trương Cáp",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "trung_nien",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "warm_authority",
+      "sample_emotions": [
+        "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1,
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%"
+    }
+  },
+  "directed_at": "2026-09-15T11:13:15.269176"
+}

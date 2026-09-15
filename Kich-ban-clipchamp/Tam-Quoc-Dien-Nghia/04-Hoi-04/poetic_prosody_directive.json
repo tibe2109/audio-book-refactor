@@ -1,0 +1,560 @@
+{
+  "role": "Poetic Prosody & Narrator Director",
+  "chapter": "04-Hoi-04",
+  "book": "Tam Quốc Diễn Nghĩa",
+  "title": "Hồi 4: Phế Hán Đế, Trần Lưu lên ngôi; Lừa Đổng tặc, Mạnh Đức dâng kiếm",
+  "chapter_headers": [
+    {
+      "chunk_id": 1,
+      "type": "narrator",
+      "speaker": "Narrator",
+      "narrative_mode": "contemplative",
+      "text": "HỒI BỐN",
+      "voice": "vi-VN-NamMinhNeural",
+      "pitch": "-2Hz",
+      "rate": "-12%",
+      "lead_in_pause": "0.30s",
+      "timbre_eq": "contemplative_narrator"
+    },
+    {
+      "chunk_id": 1,
+      "type": "narrator",
+      "speaker": "Narrator",
+      "narrative_mode": "contemplative",
+      "text": ". ......",
+      "voice": "vi-VN-NamMinhNeural",
+      "pitch": "-2Hz",
+      "rate": "-12%",
+      "lead_in_pause": "1.50s",
+      "timbre_eq": "contemplative_narrator"
+    },
+    {
+      "chunk_id": 1,
+      "type": "narrator",
+      "speaker": "Narrator",
+      "narrative_mode": "epic",
+      "text": "PHẾ HÁN ĐẾ, TRẦN LƯU LÊN NGÔI,\nLỪA ĐỔNG TẶC, MẠNH ĐỨC DÂNG KIẾM.",
+      "voice": "vi-VN-NamMinhNeural",
+      "pitch": "+0Hz",
+      "rate": "-8%",
+      "lead_in_pause": "0.30s",
+      "timbre_eq": "epic_narrator"
+    },
+    {
+      "chunk_id": 1,
+      "type": "narrator",
+      "speaker": "Narrator",
+      "narrative_mode": "contemplative",
+      "text": ". ......",
+      "voice": "vi-VN-NamMinhNeural",
+      "pitch": "-2Hz",
+      "rate": "-12%",
+      "lead_in_pause": "1.50s",
+      "timbre_eq": "contemplative_narrator"
+    }
+  ],
+  "narrator_dynamic_modulation": {
+    "chunk_1": {
+      "dominant_mode": "epic",
+      "dramatic_context": "Chính biến triều đình, Đổng Trác uy hiếp bá quan phế lập, Viên Thiệu tuốt gươm cự tuyệt rồi bỏ trốn, Đổng Trác ép Lý Nho tuyên đọc văn sách.",
+      "acoustic_profile": {
+        "pitch": "+0Hz",
+        "rate": "-5%",
+        "timbre_eq": "epic_narrator"
+      }
+    },
+    "chunk_2": {
+      "dominant_mode": "elegiac",
+      "dramatic_context": "Bi kịch phế truất lột tỉ thụ, Thượng thư Đinh Quản tuẫn tiết mắng tặc, Đổng Trác chuyên quyền, giam hãm Thiếu Đế nơi cung Vĩnh An lạnh lẽo.",
+      "acoustic_profile": {
+        "pitch": "-2Hz",
+        "rate": "-10%",
+        "timbre_eq": "elegiac_narrator"
+      }
+    },
+    "chunk_3": {
+      "dominant_mode": "somber_elegiac",
+      "dramatic_context": "Đổng Trác sai Lý Nho bức tử ba mẹ con Thiếu Đế bằng rượu độc và lụa trắng, khúc ca ly biệt bi thảm, thảm sát hậu cung kinh hoàng.",
+      "acoustic_profile": {
+        "pitch": "-3Hz",
+        "rate": "-12%",
+        "timbre_eq": "somber_narrator"
+      }
+    },
+    "chunk_4": {
+      "dominant_mode": "somber_epic",
+      "dramatic_context": "Đổng Trác tàn sát dân lành Dương Thành treo nghìn thủ cấp; Quan Hiệu úy Ngũ Phu mưu sát Trác bất thành và hy sinh oanh liệt; Tiệc khóc giang sơn của Vương Doãn.",
+      "acoustic_profile": {
+        "pitch": "-1Hz",
+        "rate": "-8%",
+        "timbre_eq": "epic_narrator"
+      }
+    },
+    "chunk_5": {
+      "dominant_mode": "satirical_suspense",
+      "dramatic_context": "Vương Doãn mở tiệc sinh nhật giả khóc ròng, Tào Tháo cười lớn mỉa mai triều thần, mật thất hiến kế mượn Thất Bảo Đao hành thích Đổng Trác.",
+      "acoustic_profile": {
+        "pitch": "-1Hz",
+        "rate": "-7%",
+        "timbre_eq": "suspense_narrator"
+      }
+    },
+    "chunk_6": {
+      "dominant_mode": "suspense_epic",
+      "dramatic_context": "Tào Tháo mang đao vào phủ tướng quốc, Đổng Trác ngủ say thấy bóng trong gương, Tháo quỳ dâng kiếm lừa Trác rồi thử ngựa phi thân trốn thoát.",
+      "acoustic_profile": {
+        "pitch": "-1Hz",
+        "rate": "-8%",
+        "timbre_eq": "suspense_narrator"
+      }
+    },
+    "chunk_7": {
+      "dominant_mode": "suspense_intimate",
+      "dramatic_context": "Lệnh truy nã khắp nơi, Tháo bị bắt tại ải Trung Mâu, quan huyện Trần Cung ban đêm tra hỏi riêng, cảm động chí lớn của Tháo nên treo ấn từ quan cùng trốn.",
+      "acoustic_profile": {
+        "pitch": "+0Hz",
+        "rate": "-6%",
+        "timbre_eq": "intimate_narrator"
+      }
+    },
+    "chunk_8": {
+      "dominant_mode": "suspense_somber_contemplative",
+      "dramatic_context": "Ghé nhà Lã Bá Sa nghe tiếng mài dao giết nhầm 8 mạng người; Tháo chém chết Bá Sa diệt khẩu tuyên ngôn Thà ta phụ người; Trần Cung toan rút gươm trong đêm trăng; Lời bình Trác - Tháo.",
+      "acoustic_profile": {
+        "pitch": "-2Hz",
+        "rate": "-10%",
+        "timbre_eq": "contemplative_narrator"
+      }
+    }
+  },
+  "poems_catalog": [
+    {
+      "id": "poem_1",
+      "name": "Thơ than Đinh Quản",
+      "chunk_id": 2,
+      "theme": "Ca ngợi khí tiết trung dũng bất khuất của quan Thượng thư Đinh Quản",
+      "form": "Thất ngôn tứ tuyệt cổ thi",
+      "caesura_rhythm": "4/3",
+      "lead_in_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "ending_coda_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "lines": [
+        {
+          "verse_index": 1,
+          "text": "Giặc Đổng lòng mang, dạ khuyển lang,",
+          "caesura_break": "Giặc Đổng lòng mang [,] dạ khuyển lang,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 2,
+          "text": "Cơ đồ nhà Hán, đổ tan hoang.",
+          "caesura_break": "Cơ đồ nhà Hán [,] đổ tan hoang.",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 3,
+          "text": "Trong triều văn võ, mồm câm cả,",
+          "caesura_break": "Trong triều văn võ [,] mồm câm cả,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 4,
+          "text": "Chỉ có Đinh công, thực giỏi giang!",
+          "caesura_break": "Chỉ có Đinh công [,] thực giỏi giang!",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        }
+      ]
+    },
+    {
+      "id": "poem_2",
+      "name": "Thơ bi ai của Thiếu Đế (Hoằng Nông Vương)",
+      "chunk_id": "2 và 3",
+      "theme": "Nỗi u hoài, ai oán của vị hoàng đế bị phế truất, giam hãm nơi cung Vĩnh An",
+      "form": "Ngũ ngôn cổ thi (2 khổ, 8 câu)",
+      "caesura_rhythm": "2/3",
+      "lead_in_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "ending_coda_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "lines": [
+        {
+          "verse_index": 1,
+          "chunk_id": 2,
+          "text": "Xanh xanh, khóm cỏ dày,",
+          "caesura_break": "Xanh xanh [,] khóm cỏ dày,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 2,
+          "chunk_id": 2,
+          "text": "Cặp én, phất phơ bay,",
+          "caesura_break": "Cặp én [,] phất phơ bay,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 3,
+          "chunk_id": 2,
+          "text": "Trong veo, dòng Lạc Thủy,",
+          "caesura_break": "Trong veo [,] dòng Lạc Thủy,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 4,
+          "chunk_id": 2,
+          "text": "Người đồng nội, khen hay.",
+          "caesura_break": "Người đồng nội [,] khen hay.",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 5,
+          "chunk_id": 2,
+          "text": "Xa trông, mây thăm thẳm,",
+          "caesura_break": "Xa trông [,] mây thăm thẳm,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 6,
+          "chunk_id": 2,
+          "text": "Cung điện cũ, ta đây,",
+          "caesura_break": "Cung điện cũ [,] ta đây,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 7,
+          "chunk_id": 3,
+          "text": "Biết ai, kẻ trung nghĩa,",
+          "caesura_break": "Biết ai [,] kẻ trung nghĩa,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 8,
+          "chunk_id": 3,
+          "text": "Gỡ cho, oán hận này!",
+          "caesura_break": "Gỡ cho [,] oán hận này!",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        }
+      ]
+    },
+    {
+      "id": "poem_3",
+      "name": "Bài ca ly biệt của Thiếu Đế",
+      "chunk_id": 3,
+      "theme": "Khúc tuyệt mệnh ai oán của vị thiên tử trẻ tuổi trước chén độc dược của Lý Nho",
+      "form": "Song thất lục bát / Thất ngôn biến thể",
+      "caesura_rhythm": "3/4 - 4/4",
+      "lead_in_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "ending_coda_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "lines": [
+        {
+          "verse_index": 1,
+          "text": "Giời đất chao, giăng sao cũng đổ,",
+          "caesura_break": "Giời đất chao [,] giăng sao cũng đổ,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 2,
+          "text": "Bỏ ngôi sao, ra chỗ phiên phong,",
+          "caesura_break": "Bỏ ngôi sao [,] ra chỗ phiên phong,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 3,
+          "text": "Bởi ai nên, sự lạ lùng?",
+          "caesura_break": "Bởi ai nên [,] sự lạ lùng?",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 4,
+          "text": "Việc đời ngán ngẩm, ròng ròng châu tuôn.",
+          "caesura_break": "Việc đời ngán ngẩm [,] ròng ròng châu tuôn.",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        }
+      ]
+    },
+    {
+      "id": "poem_4",
+      "name": "Bài ca ly biệt của Đường Phi",
+      "chunk_id": 3,
+      "theme": "Khúc ca họa tiễn biệt đầy bi kịch của người vợ hiền trước khi bị thắt cổ",
+      "form": "Lục bát biến thể / Song thất",
+      "caesura_rhythm": "3/4 - 4/4",
+      "lead_in_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "ending_coda_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "lines": [
+        {
+          "verse_index": 1,
+          "text": "Giời nghiêng đất, lại lở tan,",
+          "caesura_break": "Giời nghiêng đất [,] lại lở tan,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 2,
+          "text": "Phận mình thê thiếp, trái oan lạ thường!",
+          "caesura_break": "Phận mình thê thiếp [,] trái oan lạ thường!",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 3,
+          "text": "Từ sinh, nay đã khác đường,",
+          "caesura_break": "Từ sinh [,] nay đã khác đường,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 4,
+          "text": "Một người một bóng, xót thương tấm lòng!",
+          "caesura_break": "Một người một bóng [,] xót thương tấm lòng!",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        }
+      ]
+    },
+    {
+      "id": "poem_5",
+      "name": "Thơ khen Ngũ Phu",
+      "chunk_id": 4,
+      "theme": "Ca ngợi tấm gương tiết liệt nghìn thu của quan Việt Kỵ Hiệu Úy Ngũ Phu mưu sát Đổng Trác",
+      "form": "Thất ngôn tứ tuyệt",
+      "caesura_rhythm": "4/3",
+      "lead_in_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "ending_coda_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "lines": [
+        {
+          "verse_index": 1,
+          "text": "Ngũ Phu này cũng, bậc anh hùng,",
+          "caesura_break": "Ngũ Phu này cũng [,] bậc anh hùng,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 2,
+          "text": "Tiết liệt xem ai, được thế không?",
+          "caesura_break": "Tiết liệt xem ai [,] được thế không?",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 3,
+          "text": "Đánh giặc, hãy còn danh tiếng để,",
+          "caesura_break": "Đánh giặc [,] hãy còn danh tiếng để,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 4,
+          "text": "Nghìn thu vằng vặc, mảnh gương chung!",
+          "caesura_break": "Nghìn thu vằng vặc [,] mảnh gương chung!",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        }
+      ]
+    },
+    {
+      "id": "poem_6",
+      "name": "Thơ bình Trác - Tháo",
+      "chunk_id": 8,
+      "theme": "Lời bình sâu cay vạch trần bản chất tàn độc gian hùng của Tào Tháo và Đổng Trác",
+      "form": "Thất ngôn liên cú (2 câu)",
+      "caesura_rhythm": "4/3",
+      "lead_in_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "ending_coda_cushion": {
+        "text": ". ......",
+        "lead_in_pause": "1.50s"
+      },
+      "lines": [
+        {
+          "verse_index": 1,
+          "text": "Mang tâm hiểm độc, người đâu thế,",
+          "caesura_break": "Mang tâm hiểm độc [,] người đâu thế,",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        },
+        {
+          "verse_index": 2,
+          "text": "Trác, Tháo hai tên, cùng một phương!",
+          "caesura_break": "Trác, Tháo hai tên [,] cùng một phương!",
+          "type": "poem",
+          "speaker": "Narrator",
+          "voice": "vi-VN-NamMinhNeural",
+          "pitch": "-2Hz",
+          "rate": "-18%",
+          "lead_in_pause": "0.85s",
+          "timbre_eq": "poetic_recitation"
+        }
+      ]
+    }
+  ]
+}

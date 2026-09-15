@@ -1,14 +1,144 @@
 ---
 name: arf_05_script_structure_formatter
-description: Bước 5 - AI chèn nhịp nghỉ (. ......) thông minh theo cảm nhận ngữ nghĩa, tránh máy móc.
+description: "Bước 05 trong Dây chuyền Sách nói Toàn năng (Universal Audiobook Pipeline): Định dạng cấu trúc tiêu đề, phân tách thi ca & chèn khoảng lặng phát thanh thông minh (Script Structure & Poetic Prosody Formatter). Tiếp nhận các tệp kịch bản thô (Kich-ban-raw-N.txt), tiến hành tái định hình các tiêu đề lớn, đề mục H1/H2 và các câu đúc kết triết lý sâu sắc đứng độc lập trên một dòng riêng biệt, viết IN HOA toàn bộ kèm dấu ngắt nhịp thở phát thanh chuẩn mực . ...... (dấu chấm, một dấu cách, sáu dấu chấm liên tiếp, tạo khoảng dừng kịch tính từ 1.5 đến 2.0 giây trong công nghệ Edge-TTS). Đặc biệt tích hợp Động cơ Thẩm định Thi ca & Ngâm vịnh Đa thể loại (Poetic Prosody Engine) nhằm phân tách trước bằng kịch bản cho mọi thể thơ (Song thất lục bát, Lục bát, Đường luật, Ngũ ngôn, Cổ phong, Từ khúc): bóc tách 100% câu thơ thành từng dòng độc lập, chèn breathing commas vi mô caesura theo đúng niêm luật ngắt nhịp thể thơ, áp dụng quy chuẩn Zero Poetic Run-on (100% dòng thơ có dấu kết câu) và thiết lập cấu trúc đệm thở 3 tầng (chèn . ...... sau lời dẫn thơ như Có bài từ rằng,, Đó chính là,, giữa các khổ thơ và sau câu thơ kết bài). Đối với sách tự lực/kinh doanh, chèn nhịp thở 1.8s sau các câu hỏi tự vấn và đúc kết quy luật. Tích hợp điều phối mảng Sub-agents chuyên môn song song xử lý từng chunk độc lập trong 1 phút. Kích hoạt khi có các file Kich-ban-raw-*.txt từ Bước 04, hoặc khi kịch bản thiếu nhịp thở phát thanh chuẩn."
 ---
 
-# Kỹ năng 05: Formatting & Pacing (A.I 100%)
+# Kỹ năng 05: Định Dạng Cấu Trúc Nhịp Thở Phát Thanh & Phân Tách Thi Ca (Script Structure & Poetic Prosody Formatter)
 
-**TRIẾT LÝ CỐT LÕI:** Sự khó chịu nhất của sách nói là ngắt nghỉ máy móc. AI phải đọc, cảm nhận nội dung và đặt điểm ngắt nghỉ `. ......` như một người đọc thật đang lấy hơi và truyền cảm hứng.
+## 1. Đặc Tả Quy Trình Thao Tác Chuẩn (Specification - SOP)
 
-## 1. Nhiệm vụ của AI
-- Tách bạch rõ ràng Tiêu đề và Thân bài.
-- Chèn `. ......` (nghỉ 1.5 - 2s) ở sau tiêu đề, sau những luận điểm sâu sắc cần người nghe ngẫm nghĩ, hoặc sau các đoạn văn dài.
-- Tuyệt đối KHÔNG chèn bừa bãi làm gãy mạch ý nghĩa, gây hiểu lầm ngữ cảnh.
-- Root Agent gọi Sub-agents tự động xử lý trực tiếp trên các file `Kich-ban-raw-N.txt` trong thư mục con `kich-ban/` của mỗi chương (hỗ trợ tự động fallback tìm ở thư mục cha nếu là dự án cũ).
+Kỹ năng `arf_05_script_structure_formatter` thiết lập "nhịp thở kịch nghệ" và cấu trúc phát thanh chuẩn mực cho kịch bản. Thay vì để giọng máy đọc liên tu bất tận gây mỏi thính giác (Auditory Fatigue), kỹ năng thực hiện **tái định hình cấu trúc kịch bản trước bằng văn bản**: chuyển tiêu đề IN HOA độc lập, chèn khoảng lặng phát thanh chuẩn `. ......`, và tiên phong tích hợp **Động Cơ Thẩm Định Thi Ca & Ngâm Vịnh Đa Thể Loại (Poetic Prosody Engine)** để phân tách trước cấu trúc thơ ca, triệt tiêu hoàn toàn hiện tượng thơ bị đọc dồn dập như văn xuôi trước khi chuyển sang Bước 06 và Bước 08A.
+
+### 1.1 Cú Pháp Nhịp Thở Phát Thanh Bắt Buộc
+- **Ký hiệu chuẩn duy nhất:** `. ......` (Một dấu chấm `.`, một dấu cách ` `, và sáu dấu chấm `......`).
+- **Quy cách trình bày:** Luôn đứng độc lập trên một dòng riêng hoặc phân tách bằng hai lần xuống dòng `\n\n`.
+- **Hiệu ứng âm học trong Edge-TTS & Studio:** Tạo khoảng lặng tĩnh lặng hoàn toàn kéo dài từ **1.5 giây đến 2.0 giây** (hoặc kích hoạt bộ sinh silence FFmpeg chuẩn).
+- **CẤM TUYỆT ĐỐI:** Dấu `...` (3 chấm thông thường khiến TTS đọc hạ giọng lướt qua), hoặc `....`, hoặc `........`.
+
+### 1.2 Động Cơ Thẩm Định Thi Ca & Ngâm Vịnh Đa Thể Loại (Poetic Prosody Engine)
+Phân tách trước cấu trúc thơ ca trong kịch bản bằng 4 nguyên tắc kỹ thuật bắt buộc:
+1. **Bóc tách dòng độc lập (Line-by-Line Verse Isolation):**
+   - 100% câu thơ bắt buộc phải đứng trên một dòng riêng biệt. Tuyệt đối không để câu thơ dính liền với lời dẫn chuyện hoặc dính liền nhau thành một đoạn văn xuôi.
+2. **Kỹ thuật ngắt nhịp vi mô (Metrical Caesura Injection):**
+   - Tự động nhận diện thể thơ và chèn breathing comma `, ` vào đúng điểm ngắt nhịp theo niêm luật:
+     - *Song thất lục bát:* Câu 7 ngắt $3/4$ (*Bạn đầu bạc, / ngư tiều trên bãi,*) hoặc $2/2/3$ (*Trường Giang, / cuồn cuộn, / chảy về đông,*); câu 6 ngắt $3/3$ (*Sóng vùi dập, / hết anh hùng,*); câu 8 ngắt $4/4$.
+     - *Thất ngôn Đường luật:* Ngắt $4/3$ hoặc $2/2/3$.
+     - *Lục bát cổ truyền:* Ngắt $2/2/2$ hoặc $3/3$ (câu lục); ngắt $4/4$ hoặc $2/2/2/2$ (câu bát).
+     - *Ngũ ngôn:* Ngắt $2/3$ (*Non xanh, / nguyên vẻ cũ,*).
+     - *Bát ngôn / Thơ tự do:* Ngắt $4/4$ hoặc theo cụm từ trọn nghĩa.
+3. **Cấu trúc đệm thở thi ca 3 tầng (Three-Tier Poetic Cushioning):**
+   - *Tầng 1 (Lead-in Cushion):* Chèn nhịp thở phát thanh `. ......` trên một dòng độc lập ngay sau câu dẫn thơ (*Có bài từ rằng,*, *Thơ rằng:*).
+   - *Tầng 2 (Inter-Verse Breathing):* Ngắt nhịp vi mô giữa câu bằng breathing commas `, ` và dấu kết dòng.
+   - *Tầng 3 (Ending Coda & Stanza Cushion):* Chèn `. ......` giữa các khổ thơ và trên một dòng độc lập ngay sau câu thơ kết bài.
+4. **Quy chuẩn Zero Poetic Run-on:** 100% dòng thơ phải kết thúc bằng dấu câu (dấu phẩy `, `, dấu chấm `. `, hoặc dấu chấm than `! `) để ngăn TTS đọc nối chữ sang dòng kế tiếp.
+
+### 1.3 Ma Trận Định Dạng Cấu Trúc Theo Thể Loại Tác Phẩm
+| Thể Loại Sách | Vị Trí Bắt Buộc Chèn Nhịp Thở | Quy Cách Trình Bày Chuẩn |
+| :--- | :--- | :--- |
+| **Tiêu đề & Đề mục chung** | Sau tên chương, hồi, phần, đề mục lớn H1/H2. | Tiêu đề viết **IN HOA TOÀN BỘ**, đứng độc lập một dòng riêng, kèm `. ......` ở dòng kế tiếp. |
+| **Văn học / Cổ thi / Sử thi** | Câu đối biền ngẫu mở đầu hồi; lời dẫn thơ (*Có bài từ rằng,*); giữa các khổ thơ và sau câu kết bài thơ. | Câu đối IN HOA đứng riêng kèm `. ......` (1.8s - 2.0s); bài thơ phân rã từng câu kèm nhịp caesura `, ` và đệm thở 3 tầng. |
+| **Tự lực / Truyền cảm hứng** | Sau các câu hỏi tự vấn thức tỉnh độc giả; sau các đúc kết triết lý sống. | Câu đúc kết đứng thành đoạn riêng, kèm nhịp thở `. ......` (1.8s) để tạo khoảng lặng chiêm nghiệm. |
+| **Khoa học / PMBOK** | Sau tiêu đề nguyên lý, định nghĩa thuật ngữ cốt lõi. | Viết IN HOA tiêu đề + `. ......` (1.5s), không chèn tùy tiện vào thân bài kỹ thuật. |
+
+---
+
+## 2. Điều Kiện Kích Hoạt & Cụm Từ Khóa (When to Use & Triggers)
+
+### 2.1 Bối Cảnh Sử Dụng
+- Khi đã có các file `Kich-ban-raw-*.txt` từ Bước 04.
+- Khi kịch bản đang bị đọc dồn dập, các tiêu đề dính liền vào thân bài, hoặc thơ ca bị viết liền như văn xuôi thiếu nhịp nghỉ.
+- Khi cần chuẩn hóa kịch bản có cấu trúc nhịp thở hoàn hảo trước khi đưa vào Bước 06 và Bước 08A.
+
+### 2.2 Câu Lệnh Người Dùng Điển Hình (User Prompt Triggers)
+- *"Chèn nhịp thở phát thanh và phân tách cấu trúc thơ ca cho các kịch bản thô"*
+- *"Định dạng tiêu đề in hoa và thêm ký hiệu . ...... cho chương này"*
+- *"Tách các bài thơ cổ và câu đối biền ngẫu thành dòng riêng kèm khoảng lặng và ngắt nhịp vi mô"*
+- *"Chạy Bước 05 định dạng cấu trúc nhịp thở và phân tách thi ca"*
+
+---
+
+## 3. Trình Tự Thực Thi Từng Bước (Step-by-Step Execution)
+
+```mermaid
+flowchart TD
+    P1["Pha 1: Tiền Kiểm Tra & Nhận Diện Thể Loại\n- Quét danh mục Kich-ban-raw-*.txt\n- Nhận diện tiêu đề, câu đối biền ngẫu & các đoạn thi ca"] --> P2["Pha 2: Thực Thi Định Dạng & Poetic Prosody (Mảng Sub-agents Song Song)\n- Viết IN HOA tiêu đề & câu đối độc lập\n- Bóc tách dòng thơ & inject caesura commas vi mô\n- Thiết lập đệm thở 3 tầng: Lead-in, Inter-verse, Coda"]
+    P2 --> P3["Pha 3: Hậu Kiểm Tra Cú Pháp Nhịp Thở\n- Quét regex kiểm tra . ...... đứng độc lập\n- Kiểm tra Zero Poetic Run-on (100% dòng thơ có dấu kết câu)\n- Bàn giao kịch bản sạch sang Bước 06"]
+```
+
+### Pha 1: Tiền kiểm tra (Pre-checks)
+1. Kiểm tra sự tồn tại của các file `Kich-ban-raw-*.txt` trong `kich-ban/`.
+2. Xác định thể loại tác phẩm (Văn học cổ điển, Hiện thực, Tự lực, hay Học thuật).
+
+### Pha 2: Thao tác định dạng cốt lõi (Mandatory Sub-agents Dispatch)
+AI Chính **BẮT BUỘC PHẢI GỌI `invoke_subagent`** điều phối mảng Sub-agents chuyên môn song song xử lý từng chunk độc lập. **TUYỆT ĐỐI CẤM** AI Chính tự sửa file đơn lẻ trong phiên chính hoặc dùng script Python regex thay thế:
+```python
+invoke_subagent(
+    Subagents=[
+        {
+            "TypeName": "self",
+            "Role": "Structure & Poetic Prosody Formatter [Chunk 1]",
+            "Prompt": (
+                "Định dạng cấu trúc nhịp thở và phân tách thi ca cho Kich-ban-raw-1.txt:\n"
+                "1. Tiêu đề H1/H2 & câu đối IN HOA toàn bộ, ngắt dòng riêng kèm . ......\n"
+                "2. Thi ca: Bóc tách 100% câu thơ thành dòng riêng, ngắt nhịp vi mô caesura (, ), đệm thở 3 tầng (. ......) và Zero Poetic Run-on.\n"
+                "3. Khử sạch dấu ba chấm (...) sai quy chuẩn thành dấu phẩy (, ) hoặc . ......\n"
+                "4. Ghi đè file hoàn chỉnh: Kich-ban-raw-1.txt."
+            )
+        },
+        {
+            "TypeName": "self",
+            "Role": "Structure & Poetic Prosody Formatter [Chunk 2]",
+            "Prompt": "...xử lý Kich-ban-raw-2.txt với cùng các nguyên tắc kỹ thuật trên..."
+        }
+    ]
+)
+```
+
+### Pha 3: Hậu kiểm tra cú pháp (Verification)
+1. Quét regex xác nhận cú pháp `\. \.\.\.\.\.\.` đứng độc lập trên dòng riêng.
+2. Xác nhận 100% dòng thơ có dấu ngắt nhịp và không dính liền văn xuôi.
+
+---
+
+## 4. Ràng Buộc Đầu Ra (Output Contract)
+
+File kịch bản đã được định dạng nhịp thở và cấu trúc thi ca hoàn chỉnh:
+- Đường dẫn: `[chapter_dir]/kich-ban/Kich-ban-raw-*.txt` (hoặc chuyển tiếp sang `Kich-ban-*.txt` ở Bước 06).
+- Cấu trúc hiển thị chuẩn mẫu (Minh họa Tiêu đề, Thi ca Song thất lục bát & Nhịp thở):
+  ```text
+  Có bài từ rằng,
+
+  . ......
+  Trường Giang, cuồn cuộn, chảy về đông,
+  Sóng vùi dập, hết anh hùng,
+  Được, thua, phải, trái, thoắt thành không,
+  Non xanh, nguyên vẻ cũ,
+  Mấy độ, bóng tà hồng!
+  Bạn đầu bạc, ngư tiều trên bãi,
+  Đã quen nhìn, thu nguyệt xuân phong,
+  Một bầu rượu, vui vẻ tương phùng,
+  Xưa nay, bao nhiêu việc,
+  Phó mặc, nói cười suông,
+
+  . ......
+  HỒI MỘT
+
+  . ......
+  TIỆC VƯỜN ĐÀO, ANH HÙNG KẾT NGHĨA,
+  CHÉM KHĂN VÀNG, HÀO KIỆT LẬP CÔNG.
+
+  . ......
+  Thế lớn trong thiên hạ, cứ tan lâu rồi lại hợp, hợp lâu rồi lại tan, Như cuối đời nhà Chu.
+  ```
+
+---
+
+## 5. Cơ Chế Phủ Định & Điều Cấm Kỵ (Negative Triggers & Constraints)
+
+- **CẤM AI CHÍNH TỰ SỬA CẤU TRÚC ĐƠN LẺ (ZERO-SOLO FORMATTING VIOLATION):** Bắt buộc phải phát lệnh gọi `invoke_subagent` điều phối mảng Subagents song song. Cấm tự sửa file một mình trong phiên chính.
+- **CẤM ĐỂ THƠ DÍNH LIỀN THÀNH MỘT KHỐI VĂN XUÔI:** 100% câu thơ bắt buộc phải được bóc tách thành dòng riêng và ngắt nhịp vi mô.
+- **CẤM DÒNG THƠ KHÔNG CÓ DẤU KẾT CÂU (RUN-ON VERSE):** Mọi dòng thơ phải kết thúc bằng dấu phẩy `, `, dấu chấm `. `, hoặc chấm than `! ` để ngăn TTS đọc nối dồn dập.
+- **CẤM DÙNG DẤU BA CHẤM THÔ `...`:** Tuyệt đối không dùng `...` để ngắt nghỉ trong kịch bản TTS.
+- **CẤM CHÈN NHỊP THỞ `. ......` GIỮA DÒNG NGỮ PHÁP LIÊN TỤC:** Chỉ chèn sau tiêu đề IN HOA, bài thơ, hoặc câu kết luận độc lập; cấm chèn giữa câu gây giật cục.
+- **CẤM XÓA NỘI DUNG VĂN BẢN GỐC:** Tuyệt đối không được cắt xén, tóm tắt hay lược bỏ nội dung của tác giả.
+- **CẤM ĐỂ TIÊU ĐỀ DÍNH LIỀN THÂN BÀI:** Tiêu đề IN HOA bắt buộc phải ngắt xuống dòng riêng biệt kèm `. ......`.

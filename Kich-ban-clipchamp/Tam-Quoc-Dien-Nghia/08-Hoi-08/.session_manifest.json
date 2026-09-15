@@ -1,0 +1,25 @@
+{
+  "chapter": "08-Hoi-08",
+  "step_8a_status": "completed",
+  "total_theatrical_lines": 101,
+  "total_poem_lines": 14,
+  "total_dialogue_lines": 36,
+  "total_narrator_lines": 51,
+  "total_characters_cast": 13,
+  "characters_list": [
+    "Bieu",
+    "Bieu_Lai",
+    "Doan",
+    "Doan_Dung_Day",
+    "Doan_Lai",
+    "Dong_Trac",
+    "La_Bo",
+    "Linh_Canh",
+    "Mot_Nguoi",
+    "Nguoi_Hau_Gai",
+    "Thuyen",
+    "Thuyen_Quy_Xuong",
+    "Vuong_Doan"
+  ],
+  "source_chunks_count": 9
+}

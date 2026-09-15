@@ -1,0 +1,2033 @@
+{
+  "work_title": "Tam Quốc Diễn Nghĩa (120 Hồi)",
+  "author": "La Quán Trung",
+  "total_chapters": 120,
+  "arcs": [
+    {
+      "id": 1,
+      "name": "Hán Mạt Tao Loạn & Quần Hùng Khởi Phát",
+      "range": [
+        1,
+        10
+      ],
+      "theme": "Trật tự phong kiến cổ đại sụp đổ, chư hầu cát cứ tranh giành quyền lực."
+    },
+    {
+      "id": 2,
+      "name": "Tranh Đoạt Trung Nguyên & Lã Bố Đền Tội",
+      "range": [
+        11,
+        20
+      ],
+      "theme": "Sự thanh trừng giữa các thế lực quân phiệt phương Bắc, Tào Tháo hiệp thiên tử dĩ lệnh chư hầu."
+    },
+    {
+      "id": 3,
+      "name": "Luận Anh Hùng, Quan Vũ Trung Nghĩa & Đại Chiến Quan Độ",
+      "range": [
+        21,
+        32
+      ],
+      "theme": "Khí tiết trung nghĩa của Quan Vũ và đòn quyết định Quan Độ tái cấu trúc quyền lực phương Bắc."
+    },
+    {
+      "id": 4,
+      "name": "Tam Cố Thảo Lư, Ngoạ Long Xuất Sơn & Đương Dương Trường Bản",
+      "range": [
+        33,
+        42
+      ],
+      "theme": "Trí tuệ chiến lược xuất hiện, biến cố sinh tử Trường Bản làm sáng ngời hào khí Thục Hán."
+    },
+    {
+      "id": 5,
+      "name": "Thiệt Chiến Quần Nho & Đại Chiến Xích Bích",
+      "range": [
+        43,
+        50
+      ],
+      "theme": "Nghệ thuật liên minh chiến lược, đỉnh cao đấu trí mưu lược và trận hỏa công chia ba thiên hạ."
+    },
+    {
+      "id": 6,
+      "name": "Tranh Đoạt Kinh Châu, Tây Lương Dấy Binh & Bình Định Thục Xuyên",
+      "range": [
+        51,
+        65
+      ],
+      "theme": "Xây dựng căn cứ địa Thục Hán, bi kịch Chu Du và sự quật khởi của Mã Siêu."
+    },
+    {
+      "id": 7,
+      "name": "Đơn Đao Phổ Hội, Hán Trung Phân Tranh & Bi Kịch Kinh Châu",
+      "range": [
+        66,
+        77
+      ],
+      "theme": "Đỉnh cao uy danh và bi kịch thất thủ Mạch Thành của Quan Vũ, bước ngoặt định mệnh."
+    },
+    {
+      "id": 8,
+      "name": "Tào Ngụy Soán Hán, Thục Hán Khởi Binh & Đại Bại Di Lăng",
+      "range": [
+        78,
+        85
+      ],
+      "theme": "Tình huynh đệ đối đầu quy luật địa chính trị, bi kịch Di Lăng và lời thác cô Bạch Đế."
+    },
+    {
+      "id": 9,
+      "name": "Bình Định Nam Man & Lần Đầu Xuất Sư Kỳ Sơn",
+      "range": [
+        86,
+        94
+      ],
+      "theme": "Thu phục nhân tâm Nam Man và ý chí phục hưng nhà Hán qua ngọn cờ Bắc phạt."
+    },
+    {
+      "id": 10,
+      "name": "Mất Nhai Đình, Đấu Trí Tư Mã Ý & Gò Ngũ Trượng Hy Sinh",
+      "range": [
+        95,
+        104
+      ],
+      "theme": "Cuộc đấu trí trường chinh giữa Khổng Minh và Tư Mã Ý, bi kịch con người trước mệnh trời."
+    },
+    {
+      "id": 11,
+      "name": "Hậu Khổng Minh, Họ Tư Mã Soán Ngụy & Khương Duy Cửu Phạt",
+      "range": [
+        105,
+        114
+      ],
+      "theme": "Sự suy vong của các triều đại, chính biến lăng Cao Bình và chí kiên trinh của Khương Duy."
+    },
+    {
+      "id": 12,
+      "name": "Âm Bình Kỳ Đạo, Thục Diệt, Ngụy Vong & Tam Quốc Quy Nhất",
+      "range": [
+        115,
+        120
+      ],
+      "theme": "Quy luật lịch sử tất yếu: tan lâu rồi lại hợp, thiên hạ quy về một mối dưới nhà Tấn."
+    }
+  ],
+  "chapters": [
+    {
+      "chapter_num": 1,
+      "dir_name": "01-Hoi-01",
+      "title_v1": "Tiệc vườn đào, anh hùng kết nghĩa",
+      "title_v2": "Chém Khăn Vàng, hào kiệt lập công.",
+      "top_characters": [
+        "Lưu Bị",
+        "Trương Giác",
+        "Quan Vũ"
+      ],
+      "arc_id": 1,
+      "words": 4539,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/01-Hoi-01/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/01-Hoi-01/mindmap.md"
+    },
+    {
+      "chapter_num": 2,
+      "dir_name": "02-Hoi-02",
+      "title_v1": "Trương Dực Đức giận đánh đốc bưu",
+      "title_v2": "Hà Quốc Cửu mưu giết quan hoạn",
+      "top_characters": [
+        "Lưu Bị",
+        "Trương Giác",
+        "Trương Phi"
+      ],
+      "arc_id": 1,
+      "words": 5879,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/02-Hoi-02/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/02-Hoi-02/mindmap.md"
+    },
+    {
+      "chapter_num": 3,
+      "dir_name": "03-Hoi-03",
+      "title_v1": "Tiệc Ôn Minh, Đổng Trác mắng Đinh Nguyên",
+      "title_v2": "Dùng vàng bạc, Lý Túc dụ Lã Bố",
+      "top_characters": [
+        "Lã Bố",
+        "Đổng Trác",
+        "Viên Thiệu"
+      ],
+      "arc_id": 1,
+      "words": 4787,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/03-Hoi-03/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/03-Hoi-03/mindmap.md"
+    },
+    {
+      "chapter_num": 4,
+      "dir_name": "04-Hoi-04",
+      "title_v1": "Phế Hán Đế, Trần Lưu lên ngôi",
+      "title_v2": "Lừa Đổng tặc, Mạnh Đức dâng kiếm",
+      "top_characters": [
+        "Tào Tháo",
+        "Đổng Trác",
+        "Lã Bố"
+      ],
+      "arc_id": 1,
+      "words": 4058,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/04-Hoi-04/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/04-Hoi-04/mindmap.md"
+    },
+    {
+      "chapter_num": 5,
+      "dir_name": "05-Hoi-05",
+      "title_v1": "Phát hiệu triệu, các trấn hưởng ứng Tào Công",
+      "title_v2": "Phá cửa quan, ba anh hùng đánh Lã Bố",
+      "top_characters": [
+        "Lã Bố",
+        "Lưu Bị",
+        "Tào Tháo"
+      ],
+      "arc_id": 1,
+      "words": 5088,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/05-Hoi-05/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/05-Hoi-05/mindmap.md"
+    },
+    {
+      "chapter_num": 6,
+      "dir_name": "06-Hoi-06",
+      "title_v1": "Đốt Kim Quyết, Đổng Trác làm càn",
+      "title_v2": "Giấu ngọc tỷ, Tôn Kiên trái ước",
+      "top_characters": [
+        "Đổng Trác",
+        "Viên Thiệu",
+        "Tào Tháo"
+      ],
+      "arc_id": 1,
+      "words": 4016,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/06-Hoi-06/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/06-Hoi-06/mindmap.md"
+    },
+    {
+      "chapter_num": 7,
+      "dir_name": "07-Hoi-07",
+      "title_v1": "Viên Thiệu qua cầu đánh Công Tôn",
+      "title_v2": "Tôn Kiên sang sông đá Lưu Biểu.",
+      "top_characters": [
+        "Viên Thiệu",
+        "Triệu Vân",
+        "Lưu Bị"
+      ],
+      "arc_id": 1,
+      "words": 4467,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/07-Hoi-07/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/07-Hoi-07/mindmap.md"
+    },
+    {
+      "chapter_num": 8,
+      "dir_name": "08-Hoi-08",
+      "title_v1": "Vương tư đồ khéo dụng liên hoàn kế",
+      "title_v2": "Đổng thừa tướng náo động Phụng Nghi Đình",
+      "top_characters": [
+        "Lã Bố",
+        "Đổng Trác"
+      ],
+      "arc_id": 1,
+      "words": 4117,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/08-Hoi-08/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/08-Hoi-08/mindmap.md"
+    },
+    {
+      "chapter_num": 9,
+      "dir_name": "09-Hoi-09",
+      "title_v1": "Trừ hung bạo, Lã Bố giúp Tư đồ",
+      "title_v2": "Chiếm Trường An, Lý Thôi nghe Giả Hủ",
+      "top_characters": [
+        "Lã Bố",
+        "Đổng Trác",
+        "Tư Mã Ý"
+      ],
+      "arc_id": 1,
+      "words": 5158,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/09-Hoi-09/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/09-Hoi-09/mindmap.md"
+    },
+    {
+      "chapter_num": 10,
+      "dir_name": "10-Hoi-10",
+      "title_v1": "Giúp nhà vua, Mã Đằng khởi nghĩa",
+      "title_v2": "Báo thù bố, Tào Tháo cất quân",
+      "top_characters": [
+        "Tào Tháo",
+        "Mã Siêu",
+        "Đổng Trác"
+      ],
+      "arc_id": 1,
+      "words": 4016,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/10-Hoi-10/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/10-Hoi-10/mindmap.md"
+    },
+    {
+      "chapter_num": 11,
+      "dir_name": "11-Hoi-11",
+      "title_v1": "Lưu Hoàng Thúc cứu Khổng Dung ở Bắc Hải",
+      "title_v2": "Lã Ôn Hầu phá Tào Tháo thành Bộc Dương",
+      "top_characters": [
+        "Lưu Bị",
+        "Tào Tháo",
+        "Lã Bố"
+      ],
+      "arc_id": 2,
+      "words": 5337,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/11-Hoi-11/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/11-Hoi-11/mindmap.md"
+    },
+    {
+      "chapter_num": 12,
+      "dir_name": "12-Hoi-12",
+      "title_v1": "Đào Cung Tổ ba lần nhượng Từ Châu",
+      "title_v2": "Tào Mạnh Đức một phen đánh Lã Bố",
+      "top_characters": [
+        "Lã Bố",
+        "Tào Tháo",
+        "Lưu Bị"
+      ],
+      "arc_id": 2,
+      "words": 4315,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/12-Hoi-12/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/12-Hoi-12/mindmap.md"
+    },
+    {
+      "chapter_num": 13,
+      "dir_name": "13-Hoi-13",
+      "title_v1": "Lý Thôi, Quách Dĩ một trận giao tranh",
+      "title_v2": "Dương Phụng, Đổng Thừa hai lần cứu giá",
+      "top_characters": [
+        "Lã Bố",
+        "Lưu Bị",
+        "Tào Tháo"
+      ],
+      "arc_id": 2,
+      "words": 5709,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/13-Hoi-13/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/13-Hoi-13/mindmap.md"
+    },
+    {
+      "chapter_num": 14,
+      "dir_name": "14-Hoi-14",
+      "title_v1": "Tào Mạnh Đức rời giá đến Hứa Đô",
+      "title_v2": "Lã Phụng Tiên đang đêm cướp Từ Quận",
+      "top_characters": [
+        "Lưu Bị",
+        "Tào Tháo",
+        "Lã Bố"
+      ],
+      "arc_id": 2,
+      "words": 6039,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/14-Hoi-14/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/14-Hoi-14/mindmap.md"
+    },
+    {
+      "chapter_num": 15,
+      "dir_name": "15-Hoi-15",
+      "title_v1": "Thái Sử Từ ham đả Tiểu Bá Vương",
+      "title_v2": "Tôn Bá Phù hăng đánh Nghiêm Bạch Hổ",
+      "top_characters": [
+        "Lưu Bị",
+        "Chu Du",
+        "Lã Bố"
+      ],
+      "arc_id": 2,
+      "words": 6727,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/15-Hoi-15/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/15-Hoi-15/mindmap.md"
+    },
+    {
+      "chapter_num": 16,
+      "dir_name": "16-Hoi-16",
+      "title_v1": "Cửa nha môn, Phụng Tiên bắn kích",
+      "title_v2": "Sông Vị Thủy, Mạnh Đức thua quân.",
+      "top_characters": [
+        "Lã Bố",
+        "Lưu Bị",
+        "Tào Tháo"
+      ],
+      "arc_id": 2,
+      "words": 6236,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/16-Hoi-16/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/16-Hoi-16/mindmap.md"
+    },
+    {
+      "chapter_num": 17,
+      "dir_name": "17-Hoi-17",
+      "title_v1": "Viên Công Lộ cất bảy cánh quân",
+      "title_v2": "Tào Mạnh Đức gặp ba ông tướng",
+      "top_characters": [
+        "Lã Bố",
+        "Lưu Bị",
+        "Tào Tháo"
+      ],
+      "arc_id": 2,
+      "words": 4100,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/17-Hoi-17/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/17-Hoi-17/mindmap.md"
+    },
+    {
+      "chapter_num": 18,
+      "dir_name": "18-Hoi-18",
+      "title_v1": "Giả Văn Hòa liệu kế đánh thắng giặc",
+      "title_v2": "Hạ Hầu Đôn rút tên nuốt con ngươi",
+      "top_characters": [
+        "Tào Tháo",
+        "Lưu Bị",
+        "Lã Bố"
+      ],
+      "arc_id": 2,
+      "words": 3524,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/18-Hoi-18/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/18-Hoi-18/mindmap.md"
+    },
+    {
+      "chapter_num": 19,
+      "dir_name": "19-Hoi-19",
+      "title_v1": "Thành Hạ Phí, Tào Tháo dùng binh",
+      "title_v2": "Lầu Bạch Môn, Lã Bố tuyệt mệnh",
+      "top_characters": [
+        "Lã Bố",
+        "Lưu Bị",
+        "Tào Tháo"
+      ],
+      "arc_id": 2,
+      "words": 6109,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/19-Hoi-19/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/19-Hoi-19/mindmap.md"
+    },
+    {
+      "chapter_num": 20,
+      "dir_name": "20-Hoi-20",
+      "title_v1": "Tào A Man ra săn ruộng Hứa Điền",
+      "title_v2": "Đổng quốc cữu vâng chiếu trong nội các",
+      "top_characters": [
+        "Lưu Bị",
+        "Tào Tháo",
+        "Quan Vũ"
+      ],
+      "arc_id": 2,
+      "words": 4309,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/20-Hoi-20/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/20-Hoi-20/mindmap.md"
+    },
+    {
+      "chapter_num": 21,
+      "dir_name": "21-Hoi-21",
+      "title_v1": "Tào Tháo uống rượu luận anh hùng",
+      "title_v2": "Quan Công lừa mưu giết Xa Trụ",
+      "top_characters": [
+        "Lưu Bị",
+        "Tào Tháo",
+        "Quan Vũ"
+      ],
+      "arc_id": 3,
+      "words": 4429,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/21-Hoi-21/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/21-Hoi-21/mindmap.md"
+    },
+    {
+      "chapter_num": 22,
+      "dir_name": "22-Hoi-22",
+      "title_v1": "Viên, Tào đều cất ba quân mã bộ",
+      "title_v2": "Quan, Trương cùng bắt hai tướng Vương, Lưu",
+      "top_characters": [
+        "Lưu Bị",
+        "Tào Tháo",
+        "Trương Phi"
+      ],
+      "arc_id": 3,
+      "words": 5213,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/22-Hoi-22/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/22-Hoi-22/mindmap.md"
+    },
+    {
+      "chapter_num": 23,
+      "dir_name": "23-Hoi-23",
+      "title_v1": "Nễ Chính Bình khỏa thân mắng giặc",
+      "title_v2": "Cát Thái Y đầu độc bị hình.",
+      "top_characters": [
+        "Tào Tháo",
+        "Viên Thiệu",
+        "Lưu Bị"
+      ],
+      "arc_id": 3,
+      "words": 5201,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/23-Hoi-23/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/23-Hoi-23/mindmap.md"
+    },
+    {
+      "chapter_num": 24,
+      "dir_name": "24-Hoi-24",
+      "title_v1": "Quốc tặc hành hung giết quý phi",
+      "title_v2": "Hoàng Thúc thua chạy sang Viên Thiệu",
+      "top_characters": [
+        "Lưu Bị",
+        "Viên Thiệu",
+        "Tào Tháo"
+      ],
+      "arc_id": 3,
+      "words": 2463,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/24-Hoi-24/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/24-Hoi-24/mindmap.md"
+    },
+    {
+      "chapter_num": 25,
+      "dir_name": "25-Hoi-25",
+      "title_v1": "Đóng Thổ Sơn, Quan Công giao ước ba việc",
+      "title_v2": "Cứu Bạch Mã, Tào Tháo thoát khỏi vòng vây",
+      "top_characters": [
+        "Quan Vũ",
+        "Lưu Bị",
+        "Tào Tháo"
+      ],
+      "arc_id": 3,
+      "words": 4490,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/25-Hoi-25/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/25-Hoi-25/mindmap.md"
+    },
+    {
+      "chapter_num": 26,
+      "dir_name": "26-Hoi-26",
+      "title_v1": "Viên Bản Sơ hao binh tổn tướng",
+      "title_v2": "Quan Vân Trường treo ấn gói vàng",
+      "top_characters": [
+        "Quan Vũ",
+        "Lưu Bị",
+        "Tào Tháo"
+      ],
+      "arc_id": 3,
+      "words": 3698,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/26-Hoi-26/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/26-Hoi-26/mindmap.md"
+    },
+    {
+      "chapter_num": 27,
+      "dir_name": "27-Hoi-27",
+      "title_v1": "Mỹ Nhiệm Công cưỡi một ngựa bay nghìn dặm",
+      "title_v2": "Hán Thọ Hầu chém sáu tướng phá năm quan",
+      "top_characters": [
+        "Quan Vũ",
+        "Tào Tháo",
+        "Viên Thiệu"
+      ],
+      "arc_id": 3,
+      "words": 4425,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/27-Hoi-27/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/27-Hoi-27/mindmap.md"
+    },
+    {
+      "chapter_num": 28,
+      "dir_name": "28-Hoi-28",
+      "title_v1": "Chém Sái Dương, anh em hòa giải",
+      "title_v2": "Hội Cổ Thành, vua tôi tụ nghĩa",
+      "top_characters": [
+        "Quan Vũ",
+        "Lưu Bị",
+        "Trương Phi"
+      ],
+      "arc_id": 3,
+      "words": 5314,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/28-Hoi-28/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/28-Hoi-28/mindmap.md"
+    },
+    {
+      "chapter_num": 29,
+      "dir_name": "29-Hoi-29",
+      "title_v1": "Tiểu Bá Vương giận chém Vu Cát",
+      "title_v2": "Ngô Tôn Quyền ngồi lĩnh Giang Đông",
+      "top_characters": [
+        "Tôn Quyền",
+        "Chu Du",
+        "Tào Tháo"
+      ],
+      "arc_id": 3,
+      "words": 4552,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/29-Hoi-29/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/29-Hoi-29/mindmap.md"
+    },
+    {
+      "chapter_num": 30,
+      "dir_name": "30-Hoi-30",
+      "title_v1": "Đánh Quan Độ, Bản Sơ bại trận",
+      "title_v2": "Cướp Ô Sào, Mạnh Đức đốt lương.",
+      "top_characters": [
+        "Viên Thiệu",
+        "Tào Tháo"
+      ],
+      "arc_id": 3,
+      "words": 4932,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/30-Hoi-30/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/30-Hoi-30/mindmap.md"
+    },
+    {
+      "chapter_num": 31,
+      "dir_name": "31-Hoi-31",
+      "title_v1": "Tào Tháo ở Thương Đình, phá vỡ Bản Sơ",
+      "title_v2": "Huyền Đức sang Kinh Châu, nương nhờ Lưu Biểu",
+      "top_characters": [
+        "Lưu Bị",
+        "Viên Thiệu",
+        "Tào Tháo"
+      ],
+      "arc_id": 3,
+      "words": 4373,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/31-Hoi-31/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/31-Hoi-31/mindmap.md"
+    },
+    {
+      "chapter_num": 32,
+      "dir_name": "32-Hoi-32",
+      "title_v1": "Cướp Ký Châu, Viên Thượng tranh hùng",
+      "title_v2": "Khơi sông Chương, Hứa Du hiến kế",
+      "top_characters": [
+        "Tào Tháo",
+        "Viên Thiệu",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 3,
+      "words": 4983,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/32-Hoi-32/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/32-Hoi-32/mindmap.md"
+    },
+    {
+      "chapter_num": 33,
+      "dir_name": "33-Hoi-33",
+      "title_v1": "Tào Phi nhân loạn lấy Châu Thị",
+      "title_v2": "Quách Gia dặn kế định Liêu Đông.",
+      "top_characters": [
+        "Tào Tháo",
+        "Viên Thiệu",
+        "Lưu Bị"
+      ],
+      "arc_id": 4,
+      "words": 4722,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/33-Hoi-33/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/33-Hoi-33/mindmap.md"
+    },
+    {
+      "chapter_num": 34,
+      "dir_name": "34-Hoi-34",
+      "title_v1": "Sái phu nhân nấp nghe chuyện kín",
+      "title_v2": "Lưu Hoàng Thúc nhảy ngựa Đàn Khê.",
+      "top_characters": [
+        "Lưu Bị",
+        "Triệu Vân",
+        "Tào Tháo"
+      ],
+      "arc_id": 4,
+      "words": 3840,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/34-Hoi-34/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/34-Hoi-34/mindmap.md"
+    },
+    {
+      "chapter_num": 35,
+      "dir_name": "35-Hoi-35",
+      "title_v1": "Huyền Đức qua Nam Chương, gặp người ẩn dật",
+      "title_v2": "Đan Phúc đến Tân Dã, tiếp chúa anh minh.",
+      "top_characters": [
+        "Lưu Bị",
+        "Bàng Thống",
+        "Triệu Vân"
+      ],
+      "arc_id": 4,
+      "words": 3315,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/35-Hoi-35/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/35-Hoi-35/mindmap.md"
+    },
+    {
+      "chapter_num": 36,
+      "dir_name": "36-Hoi-36",
+      "title_v1": "Huyền Đức dùng mẹo đánh úp Phàn Thành",
+      "title_v2": "Nguyên Trực tế ngựa tiến cử Gia Cát.",
+      "top_characters": [
+        "Lưu Bị",
+        "Gia Cát Lượng",
+        "Tào Tháo"
+      ],
+      "arc_id": 4,
+      "words": 3781,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/36-Hoi-36/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/36-Hoi-36/mindmap.md"
+    },
+    {
+      "chapter_num": 37,
+      "dir_name": "37-Hoi-37",
+      "title_v1": "Tư Mã Huy hai lần tiến cử danh sĩ",
+      "title_v2": "Lưu Huyền Đức ba lượt đến tận lều tranh.",
+      "top_characters": [
+        "Lưu Bị",
+        "Gia Cát Lượng",
+        "Tào Tháo"
+      ],
+      "arc_id": 4,
+      "words": 4308,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/37-Hoi-37/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/37-Hoi-37/mindmap.md"
+    },
+    {
+      "chapter_num": 38,
+      "dir_name": "38-Hoi-38",
+      "title_v1": "Long Trung quyết kế thiên hạ chia ba",
+      "title_v2": "Tôn thị báo thù, Trường Giang đại chiến",
+      "top_characters": [
+        "Lưu Bị",
+        "Gia Cát Lượng",
+        "Tôn Quyền"
+      ],
+      "arc_id": 4,
+      "words": 4708,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/38-Hoi-38/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/38-Hoi-38/mindmap.md"
+    },
+    {
+      "chapter_num": 39,
+      "dir_name": "39-Hoi-39",
+      "title_v1": "Thành Kinh Châu, công tử ba lần cầu kế",
+      "title_v2": "Gò Bác Vọng, quân sư bắt đầu dùng binh",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Lưu Bị",
+        "Trương Phi"
+      ],
+      "arc_id": 4,
+      "words": 4226,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/39-Hoi-39/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/39-Hoi-39/mindmap.md"
+    },
+    {
+      "chapter_num": 40,
+      "dir_name": "40-Hoi-40",
+      "title_v1": "Sái Phu Nhân Bàn Hiến Ký Châu",
+      "title_v2": "Gia Cát Lượng Hỏa Thiêu Tân Dã",
+      "top_characters": [
+        "Lưu Bị",
+        "Tào Tháo",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 4,
+      "words": 3994,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/40-Hoi-40/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/40-Hoi-40/mindmap.md"
+    },
+    {
+      "chapter_num": 41,
+      "dir_name": "41-Hoi-41",
+      "title_v1": "Lưu Huyền Đức đưa dân qua sông",
+      "title_v2": "Triệu Tử Long một ngựa cứu chúa.",
+      "top_characters": [
+        "Lưu Bị",
+        "Triệu Vân",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 4,
+      "words": 5105,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/41-Hoi-41/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/41-Hoi-41/mindmap.md"
+    },
+    {
+      "chapter_num": 42,
+      "dir_name": "42-Hoi-42",
+      "title_v1": "Trương Dực Đức Đại Náo Cầu Trường Bản",
+      "title_v2": "Lưu Dự Châu Thua Chạy Cửa Hán Tân",
+      "top_characters": [
+        "Lưu Bị",
+        "Gia Cát Lượng",
+        "Tào Tháo"
+      ],
+      "arc_id": 4,
+      "words": 3268,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/42-Hoi-42/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/42-Hoi-42/mindmap.md"
+    },
+    {
+      "chapter_num": 43,
+      "dir_name": "43-Hoi-43",
+      "title_v1": "Gia Cát Lượng khua lưỡi bẻ bọn nho",
+      "title_v2": "Lỗ Tử Kính dùng sức bác lời chúng.",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tào Tháo",
+        "Tôn Quyền"
+      ],
+      "arc_id": 5,
+      "words": 4989,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/43-Hoi-43/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/43-Hoi-43/mindmap.md"
+    },
+    {
+      "chapter_num": 44,
+      "dir_name": "44-Hoi-44",
+      "title_v1": "Khổng Minh dùng kế khích Chu Du",
+      "title_v2": "Tôn Quyền quyết mưu đánh Tào Tháo.",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Chu Du",
+        "Tào Tháo"
+      ],
+      "arc_id": 5,
+      "words": 4002,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/44-Hoi-44/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/44-Hoi-44/mindmap.md"
+    },
+    {
+      "chapter_num": 45,
+      "dir_name": "45-Hoi-45",
+      "title_v1": "Cửa Tam Giang, Tào Tháo hao binh",
+      "title_v2": "Hội quần anh, Tưởng Cán mắc mẹo.",
+      "top_characters": [
+        "Chu Du",
+        "Lưu Bị",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 5,
+      "words": 4889,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/45-Hoi-45/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/45-Hoi-45/mindmap.md"
+    },
+    {
+      "chapter_num": 46,
+      "dir_name": "46-Hoi-46",
+      "title_v1": "Dùng Chước lạ, Khổng Minh mượn tên",
+      "title_v2": "Dâng kế mật, Hoàng Cái chịu nhục.",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Chu Du",
+        "Tào Tháo"
+      ],
+      "arc_id": 5,
+      "words": 3834,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/46-Hoi-46/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/46-Hoi-46/mindmap.md"
+    },
+    {
+      "chapter_num": 47,
+      "dir_name": "47-Hoi-47",
+      "title_v1": "Hám Trạch mật dâng thư giả hàng",
+      "title_v2": "Bàng Thống khéo dùng liên hoàn kế.",
+      "top_characters": [
+        "Chu Du",
+        "Bàng Thống",
+        "Tào Tháo"
+      ],
+      "arc_id": 5,
+      "words": 3549,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/47-Hoi-47/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/47-Hoi-47/mindmap.md"
+    },
+    {
+      "chapter_num": 48,
+      "dir_name": "48-Hoi-48",
+      "title_v1": "Mở tiệc yến, Tào Tháo ngâm thơ",
+      "title_v2": "Khóa chiến thuyền, bắc quân dùng võ.",
+      "top_characters": [
+        "Tào Tháo",
+        "Chu Du",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 5,
+      "words": 2969,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/48-Hoi-48/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/48-Hoi-48/mindmap.md"
+    },
+    {
+      "chapter_num": 49,
+      "dir_name": "49-Hoi-49",
+      "title_v1": "Đàn thất tinh, Gia Cát cầu phong",
+      "title_v2": "Cửa Tam Giang, Chu Du phóng hỏa.",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Chu Du",
+        "Tào Tháo"
+      ],
+      "arc_id": 5,
+      "words": 4488,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/49-Hoi-49/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/49-Hoi-49/mindmap.md"
+    },
+    {
+      "chapter_num": 50,
+      "dir_name": "50-Hoi-50",
+      "title_v1": "Gia Cát Lượng khéo tình đường Hoa Dung",
+      "title_v2": "Quan Vân Trường vì nghĩa tha Tào Tháo.",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Quan Vũ",
+        "Tào Tháo"
+      ],
+      "arc_id": 5,
+      "words": 3458,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/50-Hoi-50/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/50-Hoi-50/mindmap.md"
+    },
+    {
+      "chapter_num": 51,
+      "dir_name": "51-Hoi-51",
+      "title_v1": "Tào Nhân đại chiến quân Đông Ngô",
+      "title_v2": "Khổng Minh chọc tức Chu Công Cẩn.",
+      "top_characters": [
+        "Chu Du",
+        "Lưu Bị",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 6,
+      "words": 3842,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/51-Hoi-51/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/51-Hoi-51/mindmap.md"
+    },
+    {
+      "chapter_num": 52,
+      "dir_name": "52-Hoi-52",
+      "title_v1": "Gia Cát Lượng chối từ Lỗ Túc",
+      "title_v2": "Triệu Tử Long lừa mẹo lấy Quế Dương.",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Lưu Bị",
+        "Triệu Vân"
+      ],
+      "arc_id": 6,
+      "words": 4035,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/52-Hoi-52/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/52-Hoi-52/mindmap.md"
+    },
+    {
+      "chapter_num": 53,
+      "dir_name": "53-Hoi-53",
+      "title_v1": "Quan Vân Trường tha Hoàng Trung không giết",
+      "title_v2": "Tôn Trọng Mưu đánh Trương Liêu bị thua.",
+      "top_characters": [
+        "Hoàng Trung",
+        "Quan Vũ",
+        "Lưu Bị"
+      ],
+      "arc_id": 6,
+      "words": 4221,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/53-Hoi-53/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/53-Hoi-53/mindmap.md"
+    },
+    {
+      "chapter_num": 54,
+      "dir_name": "54-Hoi-54",
+      "title_v1": "Ngô Quốc Thái đến chùa xem rể hiền",
+      "title_v2": "Lưu Hoàng Thúc động phòng cưới vợ mới.",
+      "top_characters": [
+        "Lưu Bị",
+        "Gia Cát Lượng",
+        "Chu Du"
+      ],
+      "arc_id": 6,
+      "words": 4604,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/54-Hoi-54/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/54-Hoi-54/mindmap.md"
+    },
+    {
+      "chapter_num": 55,
+      "dir_name": "55-Hoi-55",
+      "title_v1": "Huyền Đức khéo léo, nói khích Tôn phu nhân",
+      "title_v2": "Khổng Minh hai phen trêu tức Chu Công Cẩn.",
+      "top_characters": [
+        "Lưu Bị",
+        "Chu Du",
+        "Triệu Vân"
+      ],
+      "arc_id": 6,
+      "words": 3926,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/55-Hoi-55/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/55-Hoi-55/mindmap.md"
+    },
+    {
+      "chapter_num": 56,
+      "dir_name": "56-Hoi-56",
+      "title_v1": "Tào tháo mở tiệc mừng đài Đổng Tước",
+      "title_v2": "Khổng Minh Ba lần trêu tức Chu Du.",
+      "top_characters": [
+        "Lưu Bị",
+        "Gia Cát Lượng",
+        "Chu Du"
+      ],
+      "arc_id": 6,
+      "words": 4372,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/56-Hoi-56/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/56-Hoi-56/mindmap.md"
+    },
+    {
+      "chapter_num": 57,
+      "dir_name": "57-Hoi-57",
+      "title_v1": "Cửa Sài Tang, Ngọa Long đến viếng tang",
+      "title_v2": "Huyện Lỗi Dương, Phượng Sồ quản công việc.",
+      "top_characters": [
+        "Lưu Bị",
+        "Gia Cát Lượng",
+        "Chu Du"
+      ],
+      "arc_id": 6,
+      "words": 5057,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/57-Hoi-57/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/57-Hoi-57/mindmap.md"
+    },
+    {
+      "chapter_num": 58,
+      "dir_name": "58-Hoi-58",
+      "title_v1": "Mã Mạnh Khởi cất quân báo thù",
+      "title_v2": "Tào A Man cắt râu, vứt áo.",
+      "top_characters": [
+        "Mã Siêu",
+        "Tào Tháo",
+        "Lưu Bị"
+      ],
+      "arc_id": 6,
+      "words": 4524,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/58-Hoi-58/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/58-Hoi-58/mindmap.md"
+    },
+    {
+      "chapter_num": 59,
+      "dir_name": "59-Hoi-59",
+      "title_v1": "Hứa Chử cởi trần đánh Mã Siêu",
+      "title_v2": "Tào Tháo xóa thư lừa Hàn Toại.",
+      "top_characters": [
+        "Mã Siêu",
+        "Tào Tháo",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 6,
+      "words": 4896,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/59-Hoi-59/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/59-Hoi-59/mindmap.md"
+    },
+    {
+      "chapter_num": 60,
+      "dir_name": "60-Hoi-60",
+      "title_v1": "Trương Vĩnh Niên hỏi vặn Dương Thu",
+      "title_v2": "Bàng Sĩ Nguyên bàn lấy Tây Thục.",
+      "top_characters": [
+        "Lưu Bị",
+        "Tào Tháo",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 6,
+      "words": 6609,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/60-Hoi-60/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/60-Hoi-60/mindmap.md"
+    },
+    {
+      "chapter_num": 61,
+      "dir_name": "61-Hoi-61",
+      "title_v1": "Triệu Vân chặn sông giằng A Đẩu",
+      "title_v2": "Tôn Quyền đưa thư đánh lui Tào Man.",
+      "top_characters": [
+        "Lưu Bị",
+        "Tôn Quyền",
+        "Tào Tháo"
+      ],
+      "arc_id": 6,
+      "words": 4242,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/61-Hoi-61/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/61-Hoi-61/mindmap.md"
+    },
+    {
+      "chapter_num": 62,
+      "dir_name": "62-Hoi-62",
+      "title_v1": "Giữ Bổi Quan, Dương, Cao nộp mạng",
+      "title_v2": "Đánh Lạc Thành, Hoàng, Ngụy tranh công",
+      "top_characters": [
+        "Lưu Bị",
+        "Bàng Thống",
+        "Hoàng Trung"
+      ],
+      "arc_id": 6,
+      "words": 4710,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/62-Hoi-62/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/62-Hoi-62/mindmap.md"
+    },
+    {
+      "chapter_num": 63,
+      "dir_name": "63-Hoi-63",
+      "title_v1": "Gia Cát Lượng đau lòng khóc Bàng Thống",
+      "title_v2": "Trương Dực Đức vì nghĩa tha Nghiêm Nhan",
+      "top_characters": [
+        "Lưu Bị",
+        "Trương Phi",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 6,
+      "words": 4854,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/63-Hoi-63/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/63-Hoi-63/mindmap.md"
+    },
+    {
+      "chapter_num": 64,
+      "dir_name": "64-Hoi-64",
+      "title_v1": "Khổng Minh dùng mẹo bắt Trương Nhiệm",
+      "title_v2": "Dương Phụ mượn quân phá Mã Siêu",
+      "top_characters": [
+        "Lưu Bị",
+        "Mã Siêu",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 6,
+      "words": 4625,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/64-Hoi-64/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/64-Hoi-64/mindmap.md"
+    },
+    {
+      "chapter_num": 65,
+      "dir_name": "65-Hoi-65",
+      "title_v1": "Mã Siêu đại chiến cửa Hà Manh",
+      "title_v2": "Huyền Đức nhận chức được đất Tây Thục",
+      "top_characters": [
+        "Lưu Bị",
+        "Mã Siêu",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 6,
+      "words": 5509,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/65-Hoi-65/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/65-Hoi-65/mindmap.md"
+    },
+    {
+      "chapter_num": 66,
+      "dir_name": "66-Hoi-66",
+      "title_v1": "Quan Vân Trường một đao tới hội",
+      "title_v2": "Phục Hoàng hậu vì nước bỏ mình",
+      "top_characters": [
+        "Quan Vũ",
+        "Gia Cát Lượng",
+        "Lưu Bị"
+      ],
+      "arc_id": 7,
+      "words": 4687,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/66-Hoi-66/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/66-Hoi-66/mindmap.md"
+    },
+    {
+      "chapter_num": 67,
+      "dir_name": "67-Hoi-67",
+      "title_v1": "Bình Hán Trung, Tào Tháo thành công",
+      "title_v2": "Bến Tiêu Diêu, Trương Liêu khét tiếng",
+      "top_characters": [
+        "Tào Tháo",
+        "Tôn Quyền",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 7,
+      "words": 4657,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/67-Hoi-67/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/67-Hoi-67/mindmap.md"
+    },
+    {
+      "chapter_num": 68,
+      "dir_name": "68-Hoi-68",
+      "title_v1": "Cam Ninh trăm kỵ cướp Ngụy doanh",
+      "title_v2": "Tả Từ quăng chén đùa Tào Tháo",
+      "top_characters": [
+        "Tào Tháo",
+        "Tôn Quyền",
+        "Lưu Bị"
+      ],
+      "arc_id": 7,
+      "words": 4577,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/68-Hoi-68/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/68-Hoi-68/mindmap.md"
+    },
+    {
+      "chapter_num": 69,
+      "dir_name": "69-Hoi-69",
+      "title_v1": "Bói Chu Dịch, Quản lộ biết cơ",
+      "title_v2": "Đánh Tào Man, năm người tử tiết",
+      "top_characters": [
+        "Tào Tháo",
+        "Mã Siêu",
+        "Trương Phi"
+      ],
+      "arc_id": 7,
+      "words": 4552,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/69-Hoi-69/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/69-Hoi-69/mindmap.md"
+    },
+    {
+      "chapter_num": 70,
+      "dir_name": "70-Hoi-70",
+      "title_v1": "TrươngPhi khỏe, dùng mưu lấy Ngõa Khẩu Ải",
+      "title_v2": "Hoàng Trung già, bày kế đoạt Thiên Đăng Sơn",
+      "top_characters": [
+        "Hoàng Trung",
+        "Trương Phi",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 7,
+      "words": 4597,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/70-Hoi-70/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/70-Hoi-70/mindmap.md"
+    },
+    {
+      "chapter_num": 71,
+      "dir_name": "71-Hoi-71",
+      "title_v1": "Chiếm Đối Sơn, Hoàng Trung sức nhàn thắng sức mỏi",
+      "title_v2": "Giữ Hán Thủy, Triệu Vân quân ít phá quân nhiều",
+      "top_characters": [
+        "Hoàng Trung",
+        "Triệu Vân",
+        "Tào Tháo"
+      ],
+      "arc_id": 7,
+      "words": 5037,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/71-Hoi-71/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/71-Hoi-71/mindmap.md"
+    },
+    {
+      "chapter_num": 72,
+      "dir_name": "72-Hoi-72",
+      "title_v1": "Gia Cát Lượng dùng mẹo lấy Hán Trung",
+      "title_v2": "Tào A Man thu quân về Tà Cốc",
+      "top_characters": [
+        "Tào Tháo",
+        "Lưu Bị",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 7,
+      "words": 3957,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/72-Hoi-72/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/72-Hoi-72/mindmap.md"
+    },
+    {
+      "chapter_num": 73,
+      "dir_name": "73-Hoi-73",
+      "title_v1": "Huyền Đức lên ngôi Hán Trung Vương",
+      "title_v2": "Vân Trường đánh chiếm Tương Dương quận",
+      "top_characters": [
+        "Quan Vũ",
+        "Lưu Bị",
+        "Tào Tháo"
+      ],
+      "arc_id": 7,
+      "words": 4173,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/73-Hoi-73/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/73-Hoi-73/mindmap.md"
+    },
+    {
+      "chapter_num": 74,
+      "dir_name": "74-Hoi-74",
+      "title_v1": "Bàng Đức mang áo quan, quyết trận tử chiến",
+      "title_v2": "Quan Công khơi dòng nước, tràn ngập bảy đạo quân",
+      "top_characters": [
+        "Quan Vũ",
+        "Tào Tháo",
+        "Mã Siêu"
+      ],
+      "arc_id": 7,
+      "words": 4124,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/74-Hoi-74/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/74-Hoi-74/mindmap.md"
+    },
+    {
+      "chapter_num": 75,
+      "dir_name": "75-Hoi-75",
+      "title_v1": "Quang Vân Trường cạo xương chữa thuốc",
+      "title_v2": "Lã Tử Minh áo trắng sang đò",
+      "top_characters": [
+        "Quan Vũ",
+        "Tôn Quyền",
+        "Lục Tốn"
+      ],
+      "arc_id": 7,
+      "words": 3697,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/75-Hoi-75/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/75-Hoi-75/mindmap.md"
+    },
+    {
+      "chapter_num": 76,
+      "dir_name": "76-Hoi-76",
+      "title_v1": "Từ Công Minh đánh đến Miện Thủy",
+      "title_v2": "Quan Vân Trường thua chạy ra Mạch Thành",
+      "top_characters": [
+        "Quan Vũ",
+        "Tào Tháo",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 7,
+      "words": 4330,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/76-Hoi-76/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/76-Hoi-76/mindmap.md"
+    },
+    {
+      "chapter_num": 77,
+      "dir_name": "77-Hoi-77",
+      "title_v1": "Núi Ngọc Toàn, Quan Công hiển thánh",
+      "title_v2": "Thành Lạc Dương, Tào Tháo cảm thần",
+      "top_characters": [
+        "Quan Vũ",
+        "Lưu Bị",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 7,
+      "words": 4080,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/77-Hoi-77/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/77-Hoi-77/mindmap.md"
+    },
+    {
+      "chapter_num": 78,
+      "dir_name": "78-Hoi-78",
+      "title_v1": "Chữa bệnh nhức đầu, hại thân thầy thuốc",
+      "title_v2": "Trối trăn truyền lại, hết số gian hùng",
+      "top_characters": [
+        "Quan Vũ",
+        "Lưu Bị",
+        "Tào Tháo"
+      ],
+      "arc_id": 8,
+      "words": 3531,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/78-Hoi-78/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/78-Hoi-78/mindmap.md"
+    },
+    {
+      "chapter_num": 79,
+      "dir_name": "79-Hoi-79",
+      "title_v1": "Anh chẹt em, Tào Thực ngâm thơ",
+      "title_v2": "Cháu hại chú, Lưu Phong chịu tội",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Quan Vũ",
+        "Tào Tháo"
+      ],
+      "arc_id": 8,
+      "words": 3477,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/79-Hoi-79/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/79-Hoi-79/mindmap.md"
+    },
+    {
+      "chapter_num": 80,
+      "dir_name": "80-Hoi-80",
+      "title_v1": "Tào phi bỏ Hiến Đế, cướp vận Viêm Lưu",
+      "title_v2": "Hán Vương lên ngôi rồng, nối dòng đại thống",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tư Mã Ý",
+        "Tào Tháo"
+      ],
+      "arc_id": 8,
+      "words": 3953,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/80-Hoi-80/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/80-Hoi-80/mindmap.md"
+    },
+    {
+      "chapter_num": 81,
+      "dir_name": "81-Hoi-81",
+      "title_v1": "Vội báo thù, Trương Phi bị hại",
+      "title_v2": "Mong rửa hận, tiên chủ cất quân",
+      "top_characters": [
+        "Trương Phi",
+        "Gia Cát Lượng",
+        "Quan Vũ"
+      ],
+      "arc_id": 8,
+      "words": 3831,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/81-Hoi-81/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/81-Hoi-81/mindmap.md"
+    },
+    {
+      "chapter_num": 82,
+      "dir_name": "82-Hoi-82",
+      "title_v1": "Tôn Quyền hàng Ngụy, chịu cửu tích",
+      "title_v2": "Tiên chủ đánh Ngô, thưởng sáu quân",
+      "top_characters": [
+        "Tôn Quyền",
+        "Gia Cát Lượng",
+        "Hoàng Trung"
+      ],
+      "arc_id": 8,
+      "words": 4113,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/82-Hoi-82/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/82-Hoi-82/mindmap.md"
+    },
+    {
+      "chapter_num": 83,
+      "dir_name": "83-Hoi-83",
+      "title_v1": "Đánh Hào Đình, tiên chủ bắt được thù nhân",
+      "title_v2": "Giữ Giang Khẩu, thư sinh cất làm đại tướng",
+      "top_characters": [
+        "Lục Tốn",
+        "Quan Vũ",
+        "Hoàng Trung"
+      ],
+      "arc_id": 8,
+      "words": 5217,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/83-Hoi-83/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/83-Hoi-83/mindmap.md"
+    },
+    {
+      "chapter_num": 84,
+      "dir_name": "84-Hoi-84",
+      "title_v1": "Lục Tốn đốt sạch trại liên doanh",
+      "title_v2": "Khổng Minh khéo bày đồ bát trận",
+      "top_characters": [
+        "Lục Tốn",
+        "Gia Cát Lượng",
+        "Lưu Bị"
+      ],
+      "arc_id": 8,
+      "words": 4491,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/84-Hoi-84/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/84-Hoi-84/mindmap.md"
+    },
+    {
+      "chapter_num": 85,
+      "dir_name": "85-Hoi-85",
+      "title_v1": "Lưu tiên chủ viết chiếu gửi con côi",
+      "title_v2": "Gia Cát Lượng ngồi yên bình năm đạo",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tôn Quyền",
+        "Lục Tốn"
+      ],
+      "arc_id": 8,
+      "words": 4879,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/85-Hoi-85/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/85-Hoi-85/mindmap.md"
+    },
+    {
+      "chapter_num": 86,
+      "dir_name": "86-Hoi-86",
+      "title_v1": "Tần Bật biện bác, hỏi vặn Trương Ôn",
+      "title_v2": "Từ Thịnh hóa công, phá quân Ngụy chủ",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tôn Quyền",
+        "Lục Tốn"
+      ],
+      "arc_id": 9,
+      "words": 4678,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/86-Hoi-86/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/86-Hoi-86/mindmap.md"
+    },
+    {
+      "chapter_num": 87,
+      "dir_name": "87-Hoi-87",
+      "title_v1": "Đánh nam khấu, thừa tướng cất quân",
+      "title_v2": "Chống thiên binh, Man vương bị bắt",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Triệu Vân",
+        "Quan Vũ"
+      ],
+      "arc_id": 9,
+      "words": 4954,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/87-Hoi-87/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/87-Hoi-87/mindmap.md"
+    },
+    {
+      "chapter_num": 88,
+      "dir_name": "88-Hoi-88",
+      "title_v1": "Qua Lư Thủy, Phiên vương hai lượt vào tròng",
+      "title_v2": "Biết trá hàng, Mạnh Hoạch ba phen bị bắt",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Triệu Vân",
+        "Tào Tháo"
+      ],
+      "arc_id": 9,
+      "words": 4230,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/88-Hoi-88/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/88-Hoi-88/mindmap.md"
+    },
+    {
+      "chapter_num": 89,
+      "dir_name": "89-Hoi-89",
+      "title_v1": "Võ Vương hầu bốn phen dùng mẹo",
+      "title_v2": "Nam Man vương năm lượt vào tròng",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Triệu Vân"
+      ],
+      "arc_id": 9,
+      "words": 4466,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/89-Hoi-89/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/89-Hoi-89/mindmap.md"
+    },
+    {
+      "chapter_num": 90,
+      "dir_name": "90-Hoi-90",
+      "title_v1": "Đuổi thú mạnh, sáu chuyến phá quân Man",
+      "title_v2": "Đốt giáp mây, bảy lần bắt Mạnh Hoạch",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Triệu Vân"
+      ],
+      "arc_id": 9,
+      "words": 5827,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/90-Hoi-90/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/90-Hoi-90/mindmap.md"
+    },
+    {
+      "chapter_num": 91,
+      "dir_name": "91-Hoi-91",
+      "title_v1": "Tế sông Lư, thừa tướng rút quân",
+      "title_v2": "Đánh giặc Ngụy, Võ Hầu dâng biểu",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tư Mã Ý",
+        "Triệu Vân"
+      ],
+      "arc_id": 9,
+      "words": 4002,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/91-Hoi-91/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/91-Hoi-91/mindmap.md"
+    },
+    {
+      "chapter_num": 92,
+      "dir_name": "92-Hoi-92",
+      "title_v1": "Triệu Tử Long ra sức giết năm tướng",
+      "title_v2": "Gia Cát Lượng dùng mẹo đoạt ba thành",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Triệu Vân",
+        "Khương Duy"
+      ],
+      "arc_id": 9,
+      "words": 4310,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/92-Hoi-92/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/92-Hoi-92/mindmap.md"
+    },
+    {
+      "chapter_num": 93,
+      "dir_name": "93-Hoi-93",
+      "title_v1": "Khương Bá Ước về hàng Khổng Minh",
+      "title_v2": "Võ Vương Hầu mắng chết Vương Lãng",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Khương Duy",
+        "Triệu Vân"
+      ],
+      "arc_id": 9,
+      "words": 4691,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/93-Hoi-93/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/93-Hoi-93/mindmap.md"
+    },
+    {
+      "chapter_num": 94,
+      "dir_name": "94-Hoi-94",
+      "title_v1": "Gia Cát Lượng nhân tuyết phá quân Khương",
+      "title_v2": "Tư Mã Ý nhanh tay bắt Mạnh Đạt",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Gia Cát Lượng",
+        "Khương Duy"
+      ],
+      "arc_id": 9,
+      "words": 4710,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/94-Hoi-94/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/94-Hoi-94/mindmap.md"
+    },
+    {
+      "chapter_num": 95,
+      "dir_name": "95-Hoi-95",
+      "title_v1": "Mã Tốc trái lệnh mất Nhai Đình",
+      "title_v2": "Võ Hầu gẩy đàn đuổi Trọng Đạt",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Gia Cát Lượng",
+        "Triệu Vân"
+      ],
+      "arc_id": 10,
+      "words": 5076,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/95-Hoi-95/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/95-Hoi-95/mindmap.md"
+    },
+    {
+      "chapter_num": 96,
+      "dir_name": "96-Hoi-96",
+      "title_v1": "Khổng Minh gạt lệ chém MãTốc",
+      "title_v2": "Chu Phường cắt tóc lừa Tào Hưu",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tư Mã Ý",
+        "Lục Tốn"
+      ],
+      "arc_id": 10,
+      "words": 4051,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/96-Hoi-96/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/96-Hoi-96/mindmap.md"
+    },
+    {
+      "chapter_num": 97,
+      "dir_name": "97-Hoi-97",
+      "title_v1": "Đánh nước Ngụy, Võ Hầu hai lần dâng biểu",
+      "title_v2": "Phá quân Tào, Khương Duy dùng mẹo hiến thư.",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Triệu Vân",
+        "Khương Duy"
+      ],
+      "arc_id": 10,
+      "words": 4257,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/97-Hoi-97/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/97-Hoi-97/mindmap.md"
+    },
+    {
+      "chapter_num": 98,
+      "dir_name": "98-Hoi-98",
+      "title_v1": "Đuổi quân Hán, Vương Song mắc mưu",
+      "title_v2": "Úp Trần Thương, Võ Hầu thắng trận.",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tư Mã Ý",
+        "Tôn Quyền"
+      ],
+      "arc_id": 10,
+      "words": 4411,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/98-Hoi-98/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/98-Hoi-98/mindmap.md"
+    },
+    {
+      "chapter_num": 99,
+      "dir_name": "99-Hoi-99",
+      "title_v1": "Gia Cát Lượng cả phá quân Ngụy",
+      "title_v2": "Tư Mã Ý vào cướp Tây Xuyên",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tư Mã Ý",
+        "Khương Duy"
+      ],
+      "arc_id": 10,
+      "words": 4808,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/99-Hoi-99/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/99-Hoi-99/mindmap.md"
+    },
+    {
+      "chapter_num": 100,
+      "dir_name": "100-Hoi-100",
+      "title_v1": "Quân Hán cướp trại, phá Tào Quân",
+      "title_v2": "Võ Hầu đấu trận, nhục Trọng Đạt.",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tư Mã Ý",
+        "Khương Duy"
+      ],
+      "arc_id": 10,
+      "words": 4633,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/100-Hoi-100/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/100-Hoi-100/mindmap.md"
+    },
+    {
+      "chapter_num": 101,
+      "dir_name": "101-Hoi-101",
+      "title_v1": "Ra Lũng Thượng, Gia Cát giả làm thần",
+      "title_v2": "Vào Kiếm Các, Trương Cáp bị mắc mẹo",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tư Mã Ý",
+        "Khương Duy"
+      ],
+      "arc_id": 10,
+      "words": 4959,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/101-Hoi-101/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/101-Hoi-101/mindmap.md"
+    },
+    {
+      "chapter_num": 102,
+      "dir_name": "102-Hoi-102",
+      "title_v1": "Tư Mã Ý chiếm giữ Bắc Nguyên, Vị Kiều",
+      "title_v2": "Gia Cát Lượng chế ra trâu gỗ, ngựa máy",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tư Mã Ý",
+        "Khương Duy"
+      ],
+      "arc_id": 10,
+      "words": 5192,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/102-Hoi-102/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/102-Hoi-102/mindmap.md"
+    },
+    {
+      "chapter_num": 103,
+      "dir_name": "103-Hoi-103",
+      "title_v1": "Hang Thượng Phương, Tư Mã mắc nạn",
+      "title_v2": "Gò Ngũ thượng, Gia Cát dâng sao",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Gia Cát Lượng",
+        "Lục Tốn"
+      ],
+      "arc_id": 10,
+      "words": 5033,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/103-Hoi-103/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/103-Hoi-103/mindmap.md"
+    },
+    {
+      "chapter_num": 104,
+      "dir_name": "104-Hoi-104",
+      "title_v1": "Rơi sao lớn, thừa tướng qua đời",
+      "title_v2": "Trông tượng gỗ, đô đốc mất vía",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tư Mã Ý",
+        "Khương Duy"
+      ],
+      "arc_id": 10,
+      "words": 3384,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/104-Hoi-104/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/104-Hoi-104/mindmap.md"
+    },
+    {
+      "chapter_num": 105,
+      "dir_name": "105-Hoi-105",
+      "title_v1": "Võ Hầu dự sẵn mẹo cẩm nang",
+      "title_v2": "Ngụy chủ dỡ lấy mâm thừ lộ",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Khương Duy",
+        "Tôn Quyền"
+      ],
+      "arc_id": 11,
+      "words": 4725,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/105-Hoi-105/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/105-Hoi-105/mindmap.md"
+    },
+    {
+      "chapter_num": 106,
+      "dir_name": "106-Hoi-106",
+      "title_v1": "Công Tôn Uyên thua trận, chết ở Tương Bình",
+      "title_v2": "Tư Mã Ý giả ốm, lừa được Tào Sảng",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Gia Cát Lượng",
+        "Lưu Bị"
+      ],
+      "arc_id": 11,
+      "words": 4579,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/106-Hoi-106/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/106-Hoi-106/mindmap.md"
+    },
+    {
+      "chapter_num": 107,
+      "dir_name": "107-Hoi-107",
+      "title_v1": "Ngụy chủ trao quyền họ Tư Mã",
+      "title_v2": "Khương Duy bại trận núi Ngưu Đầu",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Khương Duy",
+        "Đặng Ngải"
+      ],
+      "arc_id": 11,
+      "words": 4903,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/107-Hoi-107/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/107-Hoi-107/mindmap.md"
+    },
+    {
+      "chapter_num": 108,
+      "dir_name": "108-Hoi-108",
+      "title_v1": "Trong mưa tuyết, Đinh Phụng đánh đoản binh",
+      "title_v2": "Trên tiệc rượu, Tôn Tuấn dùng mật kế",
+      "top_characters": [
+        "Gia Cát Lượng",
+        "Tư Mã Ý",
+        "Tôn Quyền"
+      ],
+      "arc_id": 11,
+      "words": 3634,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/108-Hoi-108/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/108-Hoi-108/mindmap.md"
+    },
+    {
+      "chapter_num": 109,
+      "dir_name": "109-Hoi-109",
+      "title_v1": "Vây Tư Mã, mưu lạ Khương Duy",
+      "title_v2": "Bỏ Tào Phương, quả báo nhà Ngụy",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Khương Duy",
+        "Đổng Trác"
+      ],
+      "arc_id": 11,
+      "words": 3926,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/109-Hoi-109/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/109-Hoi-109/mindmap.md"
+    },
+    {
+      "chapter_num": 110,
+      "dir_name": "110-Hoi-110",
+      "title_v1": "Văn Ương một ngự thoái quân hùng",
+      "title_v2": "Bá Ước men sông phá giặc lớn",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Đặng Ngải",
+        "Khương Duy"
+      ],
+      "arc_id": 11,
+      "words": 4216,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/110-Hoi-110/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/110-Hoi-110/mindmap.md"
+    },
+    {
+      "chapter_num": 111,
+      "dir_name": "111-Hoi-111",
+      "title_v1": "Đặng Sĩ Tái mẹo phá Khương Bá Ước",
+      "title_v2": "Gia Cát Đản khởi nghĩa đánh Tư Mã Chiêu",
+      "top_characters": [
+        "Đặng Ngải",
+        "Khương Duy",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 11,
+      "words": 3492,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/111-Hoi-111/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/111-Hoi-111/mindmap.md"
+    },
+    {
+      "chapter_num": 112,
+      "dir_name": "112-Hoi-112",
+      "title_v1": "Cứu Thọ Xuân, Vu Thuyên tử tiết",
+      "title_v2": "Lấy Trường Thành, Bá Ước dùng binh",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Gia Cát Lượng",
+        "Khương Duy"
+      ],
+      "arc_id": 11,
+      "words": 3714,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/112-Hoi-112/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/112-Hoi-112/mindmap.md"
+    },
+    {
+      "chapter_num": 113,
+      "dir_name": "113-Hoi-113",
+      "title_v1": "Đinh Phụng Lập mẹo đánh Tôn Lâm",
+      "title_v2": "Khương Duy đấu trận phá Đặng Ngải",
+      "top_characters": [
+        "Khương Duy",
+        "Đặng Ngải",
+        "Tư Mã Ý"
+      ],
+      "arc_id": 11,
+      "words": 4021,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/113-Hoi-113/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/113-Hoi-113/mindmap.md"
+    },
+    {
+      "chapter_num": 114,
+      "dir_name": "114-Hoi-114",
+      "title_v1": "Tào Mao ruổi xe chết cửa nam",
+      "title_v2": "Khương Duy bỏ lương phá quân Ngụy",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Khương Duy",
+        "Đặng Ngải"
+      ],
+      "arc_id": 11,
+      "words": 3361,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/114-Hoi-114/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/114-Hoi-114/mindmap.md"
+    },
+    {
+      "chapter_num": 115,
+      "dir_name": "115-Hoi-115",
+      "title_v1": "Xuống chiếu thu quân, Hậu chủ tin gièm",
+      "title_v2": "Mượn nghề làm ruộng, Khương Duy lánh vạ",
+      "top_characters": [
+        "Khương Duy",
+        "Đặng Ngải",
+        "Tư Mã Ý"
+      ],
+      "arc_id": 12,
+      "words": 3655,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/115-Hoi-115/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/115-Hoi-115/mindmap.md"
+    },
+    {
+      "chapter_num": 116,
+      "dir_name": "116-Hoi-116",
+      "title_v1": "Đường Hán Trung, Chung Hội chia quân",
+      "title_v2": "Núi Định Quân, Võ Hầu hiển thánh",
+      "top_characters": [
+        "Khương Duy",
+        "Đặng Ngải",
+        "Gia Cát Lượng"
+      ],
+      "arc_id": 12,
+      "words": 3796,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/116-Hoi-116/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/116-Hoi-116/mindmap.md"
+    },
+    {
+      "chapter_num": 117,
+      "dir_name": "117-Hoi-117",
+      "title_v1": "Đặng Sĩ Tái lẻn qua núi Âm Bình",
+      "title_v2": "Gia Cát Chiêm chết tại thành Miên Trúc",
+      "top_characters": [
+        "Đặng Ngải",
+        "Gia Cát Lượng",
+        "Khương Duy"
+      ],
+      "arc_id": 12,
+      "words": 4128,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/117-Hoi-117/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/117-Hoi-117/mindmap.md"
+    },
+    {
+      "chapter_num": 118,
+      "dir_name": "118-Hoi-118",
+      "title_v1": "Khóc miếu tổ, Lưu Thầm tự tử",
+      "title_v2": "Vào Tây Xuyên, Chung, Đặng tranh công",
+      "top_characters": [
+        "Đặng Ngải",
+        "Khương Duy",
+        "Tư Mã Ý"
+      ],
+      "arc_id": 12,
+      "words": 3389,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/118-Hoi-118/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/118-Hoi-118/mindmap.md"
+    },
+    {
+      "chapter_num": 119,
+      "dir_name": "119-Hoi-119",
+      "title_v1": "Giả đầu hàng, kế hay thành chuyện hão",
+      "title_v2": "Nhường ngôi báu, người sau học lối xưa",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Đặng Ngải",
+        "Khương Duy"
+      ],
+      "arc_id": 12,
+      "words": 4619,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/119-Hoi-119/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/119-Hoi-119/mindmap.md"
+    },
+    {
+      "chapter_num": 120,
+      "dir_name": "120-Hoi-120",
+      "title_v1": "Tiến Đỗ Dự, lão tướng dâng mẹo hay",
+      "title_v2": "Bắt Tôn Hạo, tam phân lại hợp nhất",
+      "top_characters": [
+        "Tư Mã Ý",
+        "Gia Cát Lượng",
+        "Lưu Bị"
+      ],
+      "arc_id": 12,
+      "words": 6158,
+      "status": "completed",
+      "summary_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/120-Hoi-120/summary.md",
+      "mindmap_file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/120-Hoi-120/mindmap.md"
+    }
+  ]
+}

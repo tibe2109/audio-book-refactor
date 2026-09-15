@@ -1,6 +1,6 @@
 # Báo Cáo Kiểm Toán Chất Lượng (QC Audit Report) — 01-Fundamentals-of-Project-Initiation
 **Trạng Thái Thẩm Định:** ✅ PASSED (100% 7 GATES PASSED)
-**Thời Điểm Kiểm Toán:** `2026-09-09T04:23:26.337639+00:00`
+**Thời Điểm Kiểm Toán:** `2026-09-15T04:24:34.883968+00:00`
 
 | Gate | Tiêu Chí Kiểm Toán | Kết Quả | Chi Tiết Đối Soát |
 | :--- | :--- | :---: | :--- |
@@ -9,7 +9,7 @@
 | **Gate 3: Khử Sạch Ký Tự Cấm TTS** | Khử Sạch Ký Tự Cấm TTS | ✅ PASS | 100% Sạch ký tự cấm |
 | **Gate 4: Viết Chữ Số Toàn Diện (Zero-digit)** | Viết Chữ Số Toàn Diện (Zero-digit) | ✅ PASS | 100% Viết chữ tự nhiên (0 chữ số thô) |
 | **Gate 5: Định Dạng Nhịp Thở (. ......)** | Định Dạng Nhịp Thở (. ......) | ✅ PASS | Đạt chuẩn (7 markers ngắt nghỉ phát thanh) |
-| **Gate 6: Word Count Delta (Chống Tóm Tắt)** | Word Count Delta (Chống Tóm Tắt) | ✅ PASS | Gốc (normalized.txt): 4511 từ | Kịch bản: 4511 từ | Độ lệch: 0.00% (Ngưỡng $\le$ 5%) |
+| **Gate 6: Word Count Delta (Chống Tóm Tắt)** | Word Count Delta (Chống Tóm Tắt) | ✅ PASS | Tham chiếu (normalized.txt): 4511 từ | Kịch bản: 4511 từ | Độ lệch: 0.00% (Ngưỡng $\le$ 5%) | Tỷ lệ dịch/gốc: 175.7% |
 | **Gate 7: Cấp Quyền Thu Âm TTS (Step 08 Clearance)** | Cấp Quyền Thu Âm TTS (Step 08 Clearance) | ✅ PASS | ĐỦ ĐIỀU KIỆN THU ÂM TTS (100% 7 GATES PASSED) |
 
 ### Bảng Thống Kê Chi Tiết Từng File Kịch Bản:

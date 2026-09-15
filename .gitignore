@@ -19,7 +19,7 @@ __pycache__/
 
 # Temporary and log files
 *.log
-*.py
+/*.py
 
 # Exclude temporary large media files and bgm library
 bgm_audio_library/

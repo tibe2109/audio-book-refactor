@@ -1,0 +1,156 @@
+=== DELETED (74 lines) ===
+description: Bước 7 - Kiểm tra QC đa tầng (Regex, số sót, ký tự cấm, Word Count delta, Red Flag) và xuất báo cáo QC_Report.md.
+# Audiobook QC Auditor (Kiểm Soát Chất Lượng Kịch Bản Sách Nói)
+Skill **07_audiobook_qc_auditor** đóng vai trò là Trưởng Bộ Phận Thẩm Định & Kiểm Soát Chất Lượng (Quality Control & Quality Assurance) trong pipeline sản xuất Audiobook tự động. Skill này đảm bảo 100% kịch bản đạt tiêu chuẩn nghiêm ngặt về kỹ thuật TTS, không sót chữ số, không chứa ký tự cấm, đúng nhịp nghỉ, và không bị AI bớt xén/tóm tắt sai lệch so với bản gốc.
+## 1. Mục Tiêu & Tiêu Chuẩn Thẩm Định
+
+### A. Tiêu chuẩn Kỹ thuật (Technical Format)
+1. **Quy chuẩn tên thư mục chương:**
+   - Chỉ sử dụng chữ cái tiếng Anh không dấu, số, và dấu gạch nối `-` (Regex: `^[a-zA-Z0-9\-]+$`).
+   - Ví dụ hợp lệ: `01-Loi-mo-dau`, `Chuong-01-Thau-hieu-tam-ly`.
+2. **Dung lượng file kịch bản:**
+   - Mỗi file `.txt` không được vượt quá **3000 ký tự** (ngưỡng tối ưu: 2200 - 2800 ký tự để API TTS xử lý ổn định, không bị ngắt timeout).
+   - Không được để file rỗng (0 bytes).
+3. **Ký tự cấm trong kịch bản:**
+   - Tuyệt đối không chứa: Ngoặc kép `""` `“”`, ngoặc đơn `()`, ngoặc vuông `[]`, dấu hai chấm `:`, gạch ngang dài `—` `–`.
+   - Phải thay thế bằng lời dẫn tự nhiên hoặc ngắt câu phù hợp cho giọng đọc.
+4. **Quy tắc phiên âm số (Zero-digit Policy):**
+   - Không được sót lại bất kỳ chữ số tự nhiên nào (`0-9`).
+   - Mọi con số, năm, phần trăm, số tiền, ngày tháng phải được viết hoàn toàn thành chữ tiếng Việt (Ví dụ: `1986` $\to$ `một nghìn chín trăm tám mươi sáu`, `20%` $\to$ `hai mươi phần trăm`).
+5. **Cú pháp nhịp nghỉ & Dấu ba chấm:**
+   - Không dùng `...` tùy tiện gây ngắc ngứ.
+   - Nhịp nghỉ dài giữa các đoạn/tiêu đề phải tuân thủ định dạng chuẩn: `. ......` (chấm, khoảng trắng, 6 chấm).
+
+### B. Kiểm Tra Chênh Lệch Số Từ (Word Count Delta)
+- Đối chiếu tổng số từ của toàn bộ file kịch bản trong chương với file nguồn `raw_original.txt`.
+- **Cảnh báo RED FLAG:** Nếu độ lệch số từ $|N_{\text{kịch bản}} - N_{\text{gốc}}| / N_{\text{gốc}} > 30\%$, hệ thống sẽ bật cảnh báo đỏ có nguy cơ bớt xén nội dung (Summarization/Hallucination).
+
+### C. Thẩm Định Trải Nghiệm Thính Giác & Chống Lặp Thuật Ngữ (Auditory Fatigue & Term Repetition Gate)
+1. **Kiểm soát Tần suất Lặp Ngoại ngữ (Term Repetition Control):**
+   - Đối chiếu việc tuân thủ **Chiến Lược Biên Tập Thuật Ngữ 3 Tầng**: Thuật ngữ tiếng Anh/Latinh chỉ xuất hiện đầy đủ ở câu giới thiệu ban đầu (Tier 1) hoặc tiêu đề/đề mục mới (Tier 2).
+   - Trong thân bài (Tier 3), nếu một từ ngoại ngữ (như *Stakeholder*, *Project Charter*, *Deliverables*, *Agile*...) bị lặp lại liên tiếp quá 2 lần trong cùng một đoạn/chunk mà không được Việt hóa, viết tắt hoặc thay thế bằng từ ngữ gần gũi $\to$ Đánh dấu cảnh báo **Auditory Fatigue Warning**.
+2. **Thẩm định Độ Êm Ái Chuyển Giọng Song Thanh (Voice-Switch Smoothness):**
+   - Đảm bảo mạch đọc không bị xé vụn do hệ thống TTS phải đảo giọng liên tục giữa Nam Minh (VN) và Brian (EN). Ưu tiên câu văn thuần Việt tự nhiên hoặc từ viết tắt tách âm (*P-M-I*, *W-B-S*, *K-P-I*) để thính giả tiếp thu kiến thức thoải mái nhất.
+## 2. Quy Trình AI Semantic Audit (Thẩm Định Viên AI Đọc Đối Chứng Ngữ Nghĩa)
+Khi thẩm định chất lượng hoặc khi script phát hiện cờ **RED FLAG**:
+1. **Đọc so sánh song song đa chiều (Parallel Cross-Check):**
+   - Mở đồng thời `raw_original.txt` và các file kịch bản `Kich-ban-N.txt` trong thư mục `kich-ban/` (ưu tiên) hoặc thư mục chương của chương cần thẩm định.
+   - Đối chiếu từng phân đoạn ý niệm: Mở đầu $\to$ Luận điểm chính $\to$ Câu chuyện minh họa lịch sử/thực tế $\to$ Đúc kết bài học.
+2. **Đánh giá tổn thất ngữ nghĩa (Semantic Loss Assessment):**
+   - Kiểm tra xem các câu chuyện, ví dụ minh họa, danh ngôn hay nhân vật lịch sử có bị cắt xén hay không.
+   - **Đạt chuẩn (PASS):** Độ lệch số từ do mở rộng từ ngữ phiên âm số (`300km` $\to$ `ba trăm ki-lô-mét`), diễn giải thuật ngữ tự nhiên, hoặc bổ sung liên từ/dấu phẩy lấy hơi cho văn phong nói mà vẫn giữ trọn vẹn 100% ý $\to$ AI cấp chứng nhận **Verified 100%**.
+   - **Không đạt (FAIL):** Phát hiện bị lược bỏ đoạn văn, tóm tắt ý chính hoặc thay đổi góc nhìn tác giả $\to$ AI tự động kích hoạt `arf_06_llm_script_refiner` để tái tạo lại phân đoạn đó với chỉ thị cấm tóm tắt nghiêm ngặt.
+3. **Đánh giá Độ tự nhiên của Ngữ điệu (Prosody Quality):**
+   - AI đọc lướt bằng giọng đọc tưởng tượng để đánh giá xem câu từ có bị vấp, từ ngữ có tự nhiên và êm tai khi phát qua loa hay không.
+4. **Kiểm toán Trải nghiệm Thính giác & Tần suất Thuật ngữ (Auditory Fatigue & Term Flow Assessment):**
+   - AI Thẩm định viên quét toàn bộ kịch bản để phát hiện các điểm nghẽn thuật ngữ lặp (Term Clutter).
+   - **Đạt chuẩn (PASS):** Thuật ngữ quốc tế được neo chuẩn ở đầu mục, phần thân bài được Việt hóa mượt mà, dùng đại từ thay thế khéo léo hoặc viết tắt chuẩn $\to$ Cấp phép thu âm.
+   - **Cần hiệu chỉnh:** Nếu phát hiện lặp từ ngoại ngữ thô thiển $\to$ Kích hoạt Subagent biên tập lại theo Chiến lược 3 Tầng trước khi mở khóa Step 08.
+## 3. Hướng Dẫn Kích Hoạt Sub-Agent Thẩm Định Ngữ Nghĩa & Trải Nghiệm Thính Giác (Semantic & Auditory QC Subagent)
+Khi có cảnh báo RED FLAG, tài liệu dài (> 5.000 ký tự) hoặc cần kiểm chứng độ sâu ngữ nghĩa và độ êm ái của kịch bản:
+invoke_subagent(
+    Subagents=[
+        {
+            "TypeName": "self",
+            "Role": "Semantic & Auditory QC Auditor [01-quy-luat-01]",
+            "Prompt": (
+                "Bạn là Trưởng ban Thẩm định Ngữ nghĩa & Kiểm soát Chất lượng Sách nói cho chương '01-quy-luat-01'.\n"
+                "Nhiệm vụ: Mở song song '01-quy-luat-01/raw_original.txt' và toàn bộ các file 'Kich-ban-N.txt' của chương này.\n"
+                "Tiến hành kiểm toán đa tầng:\n"
+                "1. Đối soát bảo toàn ngữ nghĩa 100%, không tóm tắt hay bớt xén luận điểm/câu chuyện gốc.\n"
+                "2. Kiểm toán Trải nghiệm Thính giác: Thẩm định xem kịch bản có bị lặp từ tiếng Anh/thuật ngữ quá nhiều hay không. Đảm bảo tuân thủ Chiến Lược 3 Tầng: Thuật ngữ gốc chỉ neo ở câu giới thiệu/đầu mục, thân bài đã được Việt hóa tự nhiên hoặc viết tắt tách âm (W-B-S, P-M-I) êm ái.\n"
+                "3. Kiểm tra kỹ thuật: Không sót số trần, không chứa ký tự cấm, nhịp nghỉ '. ......' chuẩn xác.\n"
+                "Báo cáo: Cung cấp nhận xét thẩm định chi tiết và xác nhận cấp quyền đóng dấu '- [x]' vào QC_Report.md."
+            )
+        }
+    ]
+)
+## 4. Quy Trình Thực Hiện (Action Steps)
+### Bước 1: Khởi Chạy Pipeline QC
+```powershell
+python .agy/skills/arf_07_audiobook_qc_auditor/scripts/qc_pipeline_v2.py --input_dir "<DUONG_DAN_THU_MUC_SACH>"
+### Bước 2: Phân Tích Kết Quả & Báo Cáo
+Đọc file `QC_Report.md` được tạo tại thư mục gốc của sách:
+- **Nếu toàn bộ PASS:** Báo cáo xác nhận danh sách `- [x] <Tên-chương>` đạt chuẩn 100% (Verified 100%).
+- **Nếu PHÁT HIỆN LỖI:** Hệ thống kích hoạt lại Sub-agent tương ứng để xử lý đúng chương bị lỗi.
+
+=== ADDED (79 lines) ===
+description: "Bước 07 trong Dây chuyền Sách nói Toàn năng (Universal Audiobook Pipeline): Cổng kiểm toán chất lượng không khoan nhượng (Hard Quality Control Gate Auditor) quyết định quyền mở khóa sang khâu thu âm TTS. Tiến hành thẩm định tự động và toàn diện 100% kịch bản trong thư mục kich-ban/ thông qua Bộ 7 Cổng Kiểm Toán Thép (7 Quality Gates): G1 - Cấu trúc thư mục và đặt tên tệp chuẩn hóa; G2 - Độ dài chunk an toàn (không rỗng và không vượt quá 3.000 ký tự); G3 - Quét sạch 100% ký tự cấm gây lỗi TTS (ngoặc kép, ngoặc đơn, hai chấm, gạch dài, markdown); G4 - Thực thi chính sách Zero-Digit triệt tiêu toàn bộ số trần 0-9 bằng chữ tiếng Việt (chấp nhận số cổ phong với văn học kinh điển); G5 - Cú pháp nhịp thở phát thanh chuẩn mực . ...... (cấm dùng ...); G6 - Khóa cứng tỷ lệ dãn nở từ vựng R >= 0.75 chống tóm tắt ngầm; G7 - Tuân thủ chiến lược biên tập thuật ngữ 3 tầng và bảo tồn âm Hán-Việt. Tích hợp Vòng lặp tự chữa lành (Self-Healing Loop): nếu phát hiện bất kỳ Gate nào bị lỗi, hệ thống tự động mở file kịch bản, sửa trực tiếp và tái kiểm toán đến khi đạt 100% 7/7 Gates PASSED mới cấp quyền chạy Bước 08. Kích hoạt sau khi hoàn thành tinh chỉnh kịch bản ở Bước 06, hoặc khi cần kiểm tra độc lập chất lượng bất kỳ kịch bản sách nói nào."
+# Kỹ năng 07: Kiểm Toán Đối Soát 7 Cổng Chất Lượng (Audiobook QC Auditor)
+## 1. Đặc Tả Quy Trình Thao Tác Chuẩn (Specification - SOP)
+Kỹ năng `arf_07_audiobook_qc_auditor` là "Cổng Kiểm Soát Cứng (Hard QC Gate)" duy nhất quyết định quyền mở khóa sang khâu đạo diễn và thu âm TTS (Bước 08A/08B). Nếu có bất kỳ Gate nào thất bại, hệ thống tự động khóa quyền thu âm và kích hoạt quy trình tự sửa lỗi.
+### 1.1 Ma Trận 7 Cổng Kiểm Toán Thép (The 7 Quality Gates)
+| Gate | Tên Cổng Kiểm Soát | Quy Chuẩn Kỹ Thuật Định Lượng | Trạng Thái Bắt Buộc |
+| :---: | :--- | :--- | :---: |
+| **G1** | **Cấu trúc Thư mục & Tệp** | Đường dẫn chuẩn `^[a-zA-Z0-9\-]+$`; tệp kịch bản: `kich-ban/Kich-ban-{N}.txt`. | **PASSED** |
+| **G2** | **Giới hạn Độ dài Chunk** | Không file rỗng (0 bytes); độ dài mỗi chunk: **$C \le 3.000$ ký tự**. | **PASSED** |
+| **G3** | **Sạch Ký Tự Cấm TTS** | 0 ký tự cấm: không chứa `""`, `“”`, `()`, `[]`, `:`, `;`, `—`, `–`, bullet points, markdown. | **PASSED** |
+| **G4** | **Chính sách Zero-Digit** | 100% không sót chữ số `0-9` (chấp nhận số cổ phong *canh ba, ba vạn quân* với văn học kinh điển). | **PASSED** |
+| **G5** | **Cú pháp Nhịp Thở Phát Thanh** | Đúng cú pháp `. ......` (chấm, cách, 6 chấm). Cấm tuyệt đối `...` hoặc `....`. | **PASSED** |
+| **G6** | **Chống Tóm Tắt (Expansion Ratio)** | Tỷ lệ từ vựng kịch bản so với bản gốc tiếng Anh: **$R = W_{vi} / W_{en} \ge 0.75$**. | **PASSED** |
+| **G7** | **Chiến Lược Biên Tập & Thuật Ngữ** | Tuân thủ Chiến lược 3 tầng (không lặp ngoại ngữ $\ge 3$ lần/đoạn) hoặc bảo tồn 100% âm Hán-Việt cổ. | **PASSED** |
+## 2. Điều Kiện Kích Hoạt & Cụm Từ Khóa (When to Use & Triggers)
+### 2.1 Bối Cảnh Sử Dụng
+- Khi các tệp `Kich-ban-*.txt` vừa hoàn thành tại Bước 06 và cần được nghiệm thu trước khi thu âm.
+- Khi người dùng muốn kiểm tra chất lượng của một chương sách hoặc toàn bộ dự án.
+### 2.2 Câu Lệnh Người Dùng Điển Hình (User Prompt Triggers)
+- *"Kiểm tra QC kịch bản chương này: `01-chuong-1`"*
+- *"Chạy Bước 07 audit chất lượng kịch bản"*
+- *"Xuất báo cáo QC_Report.md xem có đạt 7/7 Gates không"*
+- *"Kịch bản này có bị sót số trần hay ký tự cấm không, audit lại giúp tôi"*
+## 3. Trình Tự Thực Thi Từng Bước (Step-by-Step Execution)
+
+```mermaid
+flowchart TD
+    P1["Pha 1: Khảo Sát & Đọc Kịch Bản\n- Quét danh sách Kich-ban-*.txt\n- Đọc raw_original.txt làm đối chứng"] --> P2["Pha 2: Thực Thi Kiểm Toán (Python < 2s)\n- Quét 7 Quality Gates bằng regex\n- Đếm số từ, tính tỷ lệ R\n- Xuất kết quả từng chunk"]
+    P2 --> CHECK{"Đạt 7/7 Gates?"}
+    CHECK -- "PASS" --> P3A["Pha 3A: Xuất QC_Report.md\n- Đóng dấu 100% PASSED\n- Mở khóa Bước 08"]
+    CHECK -- "FAIL" --> P3B["Pha 3B: Vòng Lặp Self-Healing Loop\n- AI mở file lỗi sửa trực tiếp\n- Audit lại (tối đa 3 vòng)"]
+    P3B --> P2
+```
+### Pha 1: Tiền kiểm tra (Pre-checks)
+1. Xác nhận sự hiện diện của thư mục `kich-ban/` và các tệp `Kich-ban-*.txt`.
+2. Kiểm tra tệp gốc `raw_original.txt` để lấy số từ tiếng Anh $W_{en}$ làm đối chứng.
+### Pha 2: Thực thi kiểm toán tự động (Core Python Audit)
+AI Chính trực tiếp thực thi script kiểm toán (< 2 giây):
+```bash
+python .agent/skills/arf_07_audiobook_qc_auditor/scripts/qc_pipeline_v2.py --input_dir "Kich-ban-clipchamp/<BOOK_SLUG>"
+```
+Hoặc kiểm tra độc lập từng chương:
+from qc_pipeline_v2 import audit_chapter
+all_passed, report_md, stats = audit_chapter("<CHAPTER_DIR>", "<CHAPTER_FOLDER>")
+### Pha 3: Hậu kiểm & Vòng lặp tự chữa lành (Self-Healing Loop)
+1. **Trường hợp 100% PASSED:**
+   - Ghi báo cáo `QC_Report.md` tại thư mục chương.
+   - Cập nhật `.session_manifest.json` ghi nhận `step_7_status: "completed"`, `qc_status: "passed"`.
+   - Cấp quyền mở khóa sang Bước 08A/08B.
+2. **Trường hợp CÓ GATE FAILED (Self-Healing):**
+   - AI đọc danh sách lỗi cụ thể trong `QC_Report.md` (ví dụ: dòng chứa số trần `15`, ký tự `""`, hoặc câu $> 30$ từ).
+   - AI mở trực tiếp file kịch bản bị lỗi, tiến hành sửa triệt để (số hóa bằng chữ, thay thế dấu phẩy, bẻ ngắn câu).
+   - Chạy lại kiểm toán. Lặp lại tối đa 3 lần cho đến khi đạt **100% 7/7 Gates PASSED**.
+---
+## 4. Ràng Buộc Đầu Ra (Output Contract)
+
+File báo cáo kiểm toán bắt buộc nằm tại thư mục gốc của chương:
+- Đường dẫn: `[chapter_folder]/QC_Report.md`
+- Tiêu chí nghiệm thu:
+  - Báo cáo định dạng Markdown chi tiết cho từng chunk kịch bản.
+  - Phải có Badge kết luận chính thức: `[✓] 100% 7/7 Quality Gates PASSED`.
+
+### Mẫu Tóm Tắt Trong `QC_Report.md`:
+```markdown
+# BÁO CÁO KIỂM TOÁN CHẤT LƯỢNG KỊCH BẢN (QC REPORT)
+- Thư mục: 01-chuong-1
+- Tổng số chunks: 4
+- Tỷ lệ dãn nở từ vựng R: 0.92 (PASSED >= 0.75)
+- Zero-digit: 0 số trần còn sót (PASSED)
+- Ký tự cấm: 0 ký tự vi phạm (PASSED)
+- Kết luận chung: 100% 7/7 Quality Gates PASSED [MỞ KHÓA THU ÂM BƯỚC 08]
+---
+
+## 5. Cơ Chế Phủ Định & Điều Cấm Kỵ (Negative Triggers & Constraints)
+
+- **TUYỆT ĐỐI CẤM BYPASS BƯỚC 07:** Nghiêm cấm mọi hành vi chuyển sang Bước 08A hoặc 08B khi `QC_Report.md` chưa đạt 100% PASSED.
+- **CẤM THAY ĐỔI TIÊU CHUẨN ĐỂ VƯỢT QUA KIỂM TOÁN:** Không được nới lỏng regex hoặc hạ thấp ngưỡng để che giấu lỗi sót số hay câu dài. Phải sửa kịch bản, không sửa luật.
+- **CẤM ĐỂ LẠI FILE LỖI DANG DỞ:** Nếu phát hiện Gate Fail, phải kích hoạt Self-Healing Loop sửa dứt điểm ngay lập tức.
+- **CẤM CHẠY KIỂM TOÁN QUA SUB-AGENT LLM CHẬM CHẠP:** Kiểm toán 7 Gates là tác vụ kỹ thuật tất định, bắt buộc AI Chính chạy script Python để có kết quả chính xác 100% sau 1 giây.

@@ -115,13 +115,22 @@
       "criteria": "100% 7 Gates PASSED. Nếu không đạt, tự động kích hoạt Self-Healing Loop tối đa 3 lần."
     },
     {
-      "step": 8,
+      "step": "8a",
+      "id": "theatrical_voice_director",
+      "skill": "arf_08a_theatrical_voice_director",
+      "name": "Đạo Diễn Kịch Nghệ & Phân Vai Thính Kịch Đa Thanh",
+      "inputs": ["Kich-ban-*.txt"],
+      "outputs": ["theatrical_script.json", ".theatrical_bible.json"],
+      "criteria": "Thẩm định thể loại linh hoạt, bóc tách nhân vật vs lời dẫn, tuổi tác 5 giai đoạn, 10 khí chất, 12 cảm xúc, điều phối Sub-agents song song."
+    },
+    {
+      "step": "8b",
       "id": "tts_neural_bgm_mixer",
       "skill": "arf_08_tts_neural_bgm_mixer",
-      "name": "Thu Âm Song Thanh AI Liền Mạch (Seamless Dual-Voice)",
-      "inputs": ["Kich-ban-*.txt"],
+      "name": "Thu Âm Song Thanh Phòng Thu & Cân Bằng Âm Học Hai Tầng (-16 LUFS)",
+      "inputs": ["theatrical_script.json", "Kich-ban-*.txt"],
       "outputs": ["audio_chunks/chunk_*.mp3", ".chunks_duration.json"],
-      "criteria": "Khử dead-gap (-42dB), đệm 40ms, chuẩn EBU R128 (-16 LUFS), tự động retry exponential backoff khi mạng bận."
+      "criteria": "Khử dead-gap (-50dB), đệm chuyển giao 80ms, Two-Stage Leveling (-16 LUFS), tự động retry exponential backoff."
     },
     {
       "step": 9,

@@ -1,0 +1,31 @@
+{
+  "chapter": "20-Hoi-20",
+  "status": "PASSED",
+  "zero_loss_invariant": true,
+  "total_lines": 101,
+  "dialogue_lines": 44,
+  "poem_lines": 0,
+  "narrator_lines": 57,
+  "total_characters_cast": 19,
+  "speakers": [
+    "Quan_Vu",
+    "Ha_Hoang_Hau",
+    "Vua_Gat_Nuoc_Mat",
+    "Dang_Ham_Ham_Mat",
+    "Dang_Lai",
+    "Vua",
+    "Vua_Ben",
+    "Luu_Bi",
+    "Thua_Giat_Minh",
+    "Dong_Thua_Cuoi",
+    "Trong_Chieu",
+    "Chung_Tap_Noi_Gian",
+    "Tao_Thao",
+    "Narrator",
+    "Tap_Lai",
+    "Dang",
+    "Moi_Nguoi",
+    "Thua",
+    "Tu_Phuc"
+  ]
+}

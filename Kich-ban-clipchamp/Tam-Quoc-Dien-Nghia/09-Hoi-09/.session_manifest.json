@@ -1,0 +1,25 @@
+{
+  "chapter": "09-Hoi-09",
+  "step_8a_status": "completed",
+  "total_theatrical_lines": 106,
+  "total_poem_lines": 8,
+  "total_dialogue_lines": 36,
+  "total_narrator_lines": 62,
+  "total_characters_cast": 13,
+  "characters_list": [
+    "Dieu_Thuyen",
+    "Doan",
+    "Doan_Voi_Vang",
+    "Dong_Trac",
+    "La_Bo",
+    "Ly_Nho",
+    "Me",
+    "Nho",
+    "Thuy",
+    "Tuc",
+    "Ung_Xin_Nhan_Toi",
+    "Uyen",
+    "Vuong_Doan"
+  ],
+  "source_chunks_count": 11
+}

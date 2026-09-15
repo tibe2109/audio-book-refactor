@@ -1,0 +1,109 @@
+{
+  "chapter_folder": "26-Hoi-26",
+  "chapter_index": 26,
+  "chapter_title": "Hồi 26: Viên Bản Sơ hao binh tổn tướng; Quan Vân Trường treo ấn gói vàng",
+  "genre": "classical_epic_literature",
+  "total_theatrical_lines": 96,
+  "narrator_lines": 51,
+  "poem_lines": 1,
+  "dialogue_lines": 44,
+  "characters_cast_count": 12,
+  "characters": {
+    "Narrator": {
+      "name": "Narrator",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "+0Hz",
+      "base_rate": "-5%",
+      "dialogue_count": 52
+    },
+    "Vien_Thieu": {
+      "name": "Vien_Thieu",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "-2Hz",
+      "base_rate": "-2%",
+      "dialogue_count": 10
+    },
+    "Thu_Thu": {
+      "name": "Thu_Thu",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%",
+      "dialogue_count": 2
+    },
+    "La_Kien": {
+      "name": "La_Kien",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%",
+      "dialogue_count": 2
+    },
+    "Van_Su": {
+      "name": "Van_Su",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "-3Hz",
+      "base_rate": "-4%",
+      "dialogue_count": 1
+    },
+    "Quan_Vu": {
+      "name": "Quan_Vu",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "+1Hz",
+      "base_rate": "+2%",
+      "dialogue_count": 15
+    },
+    "Tao_Thao": {
+      "name": "Tao_Thao",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "-5Hz",
+      "base_rate": "-8%",
+      "dialogue_count": 4
+    },
+    "Cung_Do": {
+      "name": "Cung_Do",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "-2Hz",
+      "base_rate": "-4%",
+      "dialogue_count": 3
+    },
+    "Ton_Can": {
+      "name": "Ton_Can",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "-4Hz",
+      "base_rate": "-6%",
+      "dialogue_count": 1
+    },
+    "Cam_Phu_Nhan": {
+      "name": "Cam_Phu_Nhan",
+      "gender": "female",
+      "voice": "vi-VN-HoaiMyNeural",
+      "base_pitch": "-3Hz",
+      "base_rate": "-4%",
+      "dialogue_count": 3
+    },
+    "Luu_Bi": {
+      "name": "Luu_Bi",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "+1Hz",
+      "base_rate": "+2%",
+      "dialogue_count": 1
+    },
+    "Tran_Chan": {
+      "name": "Tran_Chan",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "base_pitch": "-3Hz",
+      "base_rate": "-5%",
+      "dialogue_count": 2
+    }
+  }
+}

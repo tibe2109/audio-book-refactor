@@ -1,0 +1,28 @@
+{
+  "chapter_folder": "24-Hoi-24",
+  "chapter_index": 24,
+  "chapter_title": "Hồi 24: Quốc tặc hành hung giết quý phi; Hoàng Thúc thua chạy sang Viên Thiệu",
+  "genre": "classical_epic_literature",
+  "total_theatrical_lines": 180,
+  "narrator_lines": 64,
+  "poem_lines": 2,
+  "dialogue_lines": 114,
+  "characters_cast_count": 13,
+  "characters": [
+    "Yuan_Shao",
+    "Quach_Gia",
+    "Narrator",
+    "Tao_Thao",
+    "Tuan_Uc",
+    "Mao_Gioi",
+    "Poet",
+    "Luu_Bi",
+    "Dien_Phong",
+    "Truong_Phi",
+    "Trinh_Duc",
+    "Dong_Quy_Phi",
+    "Hien_De"
+  ],
+  "directed_at": "vi-VN-NamMinhNeural & vi-VN-HoaiMyNeural",
+  "timestamp": "2026-09-15T15:57:21.842002"
+}
