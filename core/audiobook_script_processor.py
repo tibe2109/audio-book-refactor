@@ -287,8 +287,8 @@ def normalize_text_for_tts(text):
     text = re.sub(r',?\s*\(\s*(?:năm\s+)?[\w\s,]+[Cc]ông [Nn]guyên[^)]*\)', '', text, flags=re.IGNORECASE)
     text = re.sub(r',?\s*\(\s*(?:\d+\s*[-–]\s*\d+\s*(?:TCN|SCN|CN|AD|BC)[^)]*|(?:TCN|SCN|CN|AD|BC)\s*\d+[^)]*)\)', '', text, flags=re.IGNORECASE)
     # Clean up double spaces/commas left after removal
-    text = re.sub(r',\s*,', ',', text)
-    text = re.sub(r'\s{2,}', ' ', text)
+    text = re.sub(r',[ \t]*,', ',', text)
+    text = re.sub(r'[ \t]{2,}', ' ', text)
 
     # Strip Table of Contents dot leaders (e.g. ........................................ 123)
     text = re.sub(r'\.\.\.+\s*\d+', '.', text)
@@ -297,8 +297,8 @@ def normalize_text_for_tts(text):
     # Restore authorized pause marker
     text = text.replace("__PAUSE_MARKER__", ". ......")
 
-    # Strip non-speakable bullet symbols & icons (▶, ►, ▪, ●, ★, ▲, ◆, ■, ✓, •)
-    text = re.sub(r'[▶►▪●★▲◆■✓•–—…|/\\\\]', ' ', text)
+    # Strip non-speakable bullet symbols, markdown markers & icons (▶, ►, ▪, ●, ★, ▲, ◆, ■, ✓, •, #, *)
+    text = re.sub(r'[#*▶►▪●★▲◆■✓•–—…|/\\\\]', ' ', text)
 
     # Replace forbidden punctuation
     text = text.replace('"', '').replace('“', '').replace('”', '').replace('«', '').replace('»', '')
@@ -623,6 +623,10 @@ def format_script_structure(content):
 
     # 3. Restore pause markers and normalize duplicates
     res = res.replace('__PAUSE_MARKER__', '. ......')
+
+    # Format chapter headers & ALL-CAPS titles with . ......
+    res = re.sub(r'^(CHƯƠNG\s+[^\n]+)', r'\1\n. ......', res, flags=re.MULTILINE)
+    res = re.sub(r'(^(?:CHƯƠNG|PHẦN|BẢNG|SƠ ĐỒ|\b[a-z0-9\s]+phẩy[a-z0-9\s]+\b|[A-Z0-9\s\-,]{5,})\b.*?)(?=\n|$)', r'\1\n. ......', res, flags=re.MULTILINE)
     res = re.sub(r'(\. \.\.\.\.\.\.\s*)+', r'. ......\n', res)
 
     # 4. Clean raw triple dots

@@ -1,0 +1,6 @@
+ffconcat version 1.0
+file '/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/01-Hoi-01/images/scene_01_truong_giang.jpg'
+duration 2.0
+file '/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/01-Hoi-01/images/scene_02_ran_xanh_on_duc.jpg'
+duration 2.0
+file '/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/01-Hoi-01/images/scene_02_ran_xanh_on_duc.jpg'

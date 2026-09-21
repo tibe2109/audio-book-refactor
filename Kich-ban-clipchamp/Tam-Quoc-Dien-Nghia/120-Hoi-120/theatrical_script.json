@@ -9,7 +9,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "0.30s",
+    "lead_in_pause": "0.70s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -22,7 +22,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -35,7 +35,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+0Hz",
     "rate": "-5%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "intimate_narrator"
   },
   {
@@ -48,7 +48,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -61,24 +61,21 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-3Hz",
     "rate": "-10%",
-    "lead_in_pause": "0.32s",
+    "lead_in_pause": "0.60s",
     "timbre_eq": "elegiac_narrator"
   },
   {
     "line_id": 6,
     "chunk_id": 1,
-    "type": "dialogue",
-    "speaker": "Lai",
-    "character_name": "Lại",
+    "type": "narrator",
+    "speaker": "Narrator",
+    "narrative_mode": "elegiac",
     "text": "Ngô chủ là Tôn Hưu nghe tin Tư Mã Viêm đã cướp ngôi nhà Ngụy, biết cơ sắp đánh Ngô, lo lắng thành bệnh.",
-    "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
-    "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-10Hz",
-    "rate": "-24%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "aged_gravel"
+    "pitch": "-3Hz",
+    "rate": "-10%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "elegiac_narrator"
   },
   {
     "line_id": 7,
@@ -90,7 +87,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-3Hz",
     "rate": "-10%",
-    "lead_in_pause": "0.32s",
+    "lead_in_pause": "0.60s",
     "timbre_eq": "elegiac_narrator"
   },
   {
@@ -106,7 +103,7 @@
     "voice": "vi-VN-HoaiMyNeural",
     "pitch": "-5Hz",
     "rate": "-12%",
-    "lead_in_pause": "0.32s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "youth_bright"
   },
   {
@@ -119,7 +116,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-3Hz",
     "rate": "-10%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "elegiac_narrator"
   },
   {
@@ -132,7 +129,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -146,9 +143,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -161,7 +158,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -175,9 +172,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -190,23 +187,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 15,
     "chunk_id": 2,
     "type": "dialogue",
-    "speaker": "Gia_Sung_Ra_Ban",
-    "character_name": "Giả Sung Ra Ban",
+    "speaker": "Gian_Ung",
+    "character_name": "Giản Ung",
     "text": "Tôi nghe Tôn Hạo ở Ngô, không sửa việc nhân đức, mà chuyên một mặt làm những sự vô đạo.",
     "age_stage": "lao_hoa",
     "temperament": "teu_tao_hom_hinh",
     "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-9Hz",
-    "rate": "-21%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-24%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -219,7 +216,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -232,7 +229,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -246,9 +243,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "hoan_ca_dac_thang",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-4Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-6Hz",
+    "rate": "-13%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -261,23 +258,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 20,
     "chunk_id": 3,
     "type": "dialogue",
-    "speaker": "Luc_Khang_Trong_Thay",
-    "character_name": "Lục Kháng Trông Thấy",
+    "speaker": "Luc_Khang",
+    "character_name": "Lục Kháng",
     "text": "Quân của Dương tướng quân có phép tắc thế này, không thể phạm được.",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "khac_kho_lanh_lung",
     "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-10Hz",
-    "rate": "-24%",
-    "lead_in_pause": "0.32s",
+    "rate": "-25%",
+    "lead_in_pause": "0.75s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -290,23 +287,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 22,
     "chunk_id": 3,
     "type": "dialogue",
-    "speaker": "Khang",
-    "character_name": "Kháng",
+    "speaker": "Luc_Khang",
+    "character_name": "Lục Kháng",
     "text": "Ta có một bình rượu, lâu nay vẫn để dành.",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "khac_kho_lanh_lung",
     "emotion": "hoan_ca_dac_thang",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-4Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-7Hz",
+    "rate": "-19%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -319,23 +316,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 24,
     "chunk_id": 3,
     "type": "dialogue",
-    "speaker": "Khang",
-    "character_name": "Kháng",
+    "speaker": "Luc_Khang",
+    "character_name": "Lục Kháng",
     "text": "Kẻ kia có bụng tử tế với ta, chẳng lẽ ta không đáp lại hay sao?",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "khac_kho_lanh_lung",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-24%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -348,7 +345,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -361,7 +358,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -375,9 +372,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "hoan_ca_dac_thang",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-4Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-6Hz",
+    "rate": "-13%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -390,7 +387,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -404,9 +401,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "hoan_ca_dac_thang",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-4Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-6Hz",
+    "rate": "-13%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -419,7 +416,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -433,9 +430,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -448,23 +445,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 33,
     "chunk_id": 4,
     "type": "dialogue",
-    "speaker": "Cac_Tuong",
-    "character_name": "Các Tướng",
+    "speaker": "Tuong_Si",
+    "character_name": "Tướng Sĩ",
     "text": "Dương Hựu là kẻ địch nhau với ta, thuốc này tất không phải là thuốc tốt.",
     "age_stage": "lao_hoa",
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -477,23 +474,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 35,
     "chunk_id": 4,
     "type": "dialogue",
-    "speaker": "Khang",
-    "character_name": "Kháng",
+    "speaker": "Luc_Khang",
+    "character_name": "Lục Kháng",
     "text": "Bên họ dùng nhân đức, bên ta thì hay làm sự bạo ngược.",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "khac_kho_lanh_lung",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-24%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -506,7 +503,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -517,12 +514,12 @@
     "character_name": "Sứ Giả",
     "text": "Thiên tử truyền cho tướng quân phải tiến binh kíp ngay đi, chớ để người Tấn vào cõi ta trước.",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "khac_kho_lanh_lung",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-24%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -535,7 +532,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -548,7 +545,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -562,9 +559,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -577,23 +574,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 42,
     "chunk_id": 5,
     "type": "dialogue",
-    "speaker": "Viem",
-    "character_name": "Viêm",
+    "speaker": "Tu_Ma_Viem",
+    "character_name": "Tư Mã Viêm",
     "text": "Ngươi có mẹo gì yên được nước, dạy cho trẫm không?",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "hach_dich_bao_nguoc",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-5Hz",
+    "rate": "-12%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -606,7 +603,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -620,9 +617,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -635,23 +632,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 46,
     "chunk_id": 5,
     "type": "dialogue",
-    "speaker": "Viem_Lai",
-    "character_name": "Viêm Lại",
+    "speaker": "Tu_Ma_Viem",
+    "character_name": "Tư Mã Viêm",
     "text": "Cử kẻ thiện, tiến người hiền, cũng là một việc rất hay.",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "hach_dich_bao_nguoc",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-5Hz",
+    "rate": "-12%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -664,7 +661,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -677,7 +674,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-3Hz",
     "rate": "-10%",
-    "lead_in_pause": "0.32s",
+    "lead_in_pause": "0.60s",
     "timbre_eq": "elegiac_narrator"
   },
   {
@@ -692,8 +689,8 @@
     "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-10Hz",
-    "rate": "-24%",
-    "lead_in_pause": "0.32s",
+    "rate": "-25%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -706,7 +703,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-3Hz",
     "rate": "-10%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "elegiac_narrator"
   },
   {
@@ -719,7 +716,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "0.80s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -732,7 +729,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -793,7 +790,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -806,7 +803,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "-8%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "suspense_narrator"
   },
   {
@@ -820,9 +817,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -835,24 +832,24 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "-8%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "suspense_narrator"
   },
   {
     "line_id": 61,
     "chunk_id": 6,
     "type": "dialogue",
-    "speaker": "Thi_Trung_Vuong_Hon",
-    "character_name": "Thị Trung Vương Hồn",
+    "speaker": "Hoang_Trung",
+    "character_name": "Hoàng Trung",
     "text": "Tôi nghe Tôn Hạo muốn cướp Trung Nguyên, quân ngũ chỉnh tề, thanh thế đang thịnh, khó lòng đánh nổi.",
     "age_stage": "lao_hoa",
-    "temperament": "teu_tao_hom_hinh",
+    "temperament": "anh_hung_hao_sang",
     "emotion": "dau_don_trang_troi",
-    "voice": "vi-VN-HoaiMyNeural",
-    "pitch": "-9Hz",
-    "rate": "-21%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "youth_bright"
+    "voice": "vi-VN-NamMinhNeural",
+    "pitch": "-10Hz",
+    "rate": "-25%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "aged_gravel"
   },
   {
     "line_id": 62,
@@ -864,23 +861,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 63,
     "chunk_id": 7,
     "type": "dialogue",
-    "speaker": "Tan_Chu",
-    "character_name": "Tấn Chủ",
+    "speaker": "Tu_Ma_Viem",
+    "character_name": "Tư Mã Viêm",
     "text": "Ngươi bày rõ đường lợi hại như thế, trẫm còn nghi ngại gì!",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "hach_dich_bao_nguoc",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-5Hz",
+    "rate": "-12%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -893,7 +890,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -906,7 +903,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -920,9 +917,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -935,7 +932,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -950,8 +947,8 @@
     "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-10Hz",
-    "rate": "-24%",
-    "lead_in_pause": "0.32s",
+    "rate": "-25%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -964,7 +961,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -978,9 +975,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -993,7 +990,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -1006,7 +1003,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -1020,9 +1017,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -1035,23 +1032,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 75,
     "chunk_id": 9,
     "type": "dialogue",
-    "speaker": "Du",
-    "character_name": "Dự",
+    "speaker": "Chu_Du",
+    "character_name": "Chu Du",
     "text": "Ngày xưa Nhạc Nghị đánh một trận ở Tế Tây, mà lấy được nước Tề hùng mạnh.",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "tram_uat_dan_vat",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-24%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -1064,7 +1061,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -1072,13 +1069,13 @@
     "chunk_id": 10,
     "type": "narrator",
     "speaker": "Narrator",
-    "narrative_mode": "contemplative",
+    "narrative_mode": "intimate",
     "text": "Ta nên cố sức mà đánh, may ra đánh được thì Giang Nam lại được yên ổn. Nếu ta sang sông đánh nhau, bất hạnh mà thua thì việc to hỏng cả . Nghiễn nói,",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-2Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.30s",
-    "timbre_eq": "contemplative_narrator"
+    "pitch": "+0Hz",
+    "rate": "-5%",
+    "lead_in_pause": "0.48s",
+    "timbre_eq": "intimate_narrator"
   },
   {
     "line_id": 78,
@@ -1091,9 +1088,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -1101,190 +1098,41 @@
     "chunk_id": 10,
     "type": "narrator",
     "speaker": "Narrator",
-    "narrative_mode": "contemplative",
-    "text": "Đang bàn chuyện thì có người báo tin quân Tấn thuận dòng xuôi xuống, thế mạnh lắm không sao địch nổi. Hai người giật mình, vội vàng vào bàn với Trương Để. Nghiễn bảo Để rằng, Đông Ngô nguy đến nơi rồi, sao không trốn đi cho rảnh? Để khóc rằng, Nước Ngô sắp mất, kẻ ngu người hiền ai cũng biết. Nay nếu vua tôi hàng cả, không có một người nào chết vì nước, chẳng phải nhục lắm ru? Gia Cát Nghiễn cũng ứa nước mắt khóc rồi đi mất. Trương Để cùng với Thẩm Oánh thúc quân vào đánh. Quân Tấn vây kín cả chung quanh. Chu Chỉ xông thẳng vào trại Ngô. Trương Để cố sức cầm cự, nhưng bị chết trong đám loạn quân. Thẩm Oánh cũng bị Chu Chỉ chém nốt. Quân Ngô chạy tán lạc mất cả . Có thơ khen rằng,",
+    "narrative_mode": "intimate",
+    "text": "Đang bàn chuyện thì có người báo tin quân Tấn thuận dòng xuôi xuống, thế mạnh lắm không sao địch nổi. Hai người giật mình, vội vàng vào bàn với Trương Để. Nghiễn bảo Để rằng, Đông Ngô nguy đến nơi rồi, sao không trốn đi cho rảnh? Để khóc rằng, Nước Ngô sắp mất, kẻ ngu người hiền ai cũng biết. Nay nếu vua tôi hàng cả, không có một người nào chết vì nước, chẳng phải nhục lắm ru? Gia Cát Nghiễn cũng ứa nước mắt khóc rồi đi mất. Trương Để cùng với Thẩm Oánh thúc quân vào đánh. Quân Tấn vây kín cả chung quanh. Chu Chỉ xông thẳng vào trại Ngô. Trương Để cố sức cầm cự, nhưng bị chết trong đám loạn quân. Thẩm Oánh cũng bị Chu Chỉ chém nốt. Quân Ngô chạy tán lạc mất cả.",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-2Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.30s",
-    "timbre_eq": "contemplative_narrator"
+    "pitch": "+0Hz",
+    "rate": "-5%",
+    "lead_in_pause": "0.48s",
+    "timbre_eq": "intimate_narrator"
   },
   {
     "line_id": 80,
     "chunk_id": 10,
-    "type": "dialogue",
-    "speaker": "Co_Tho",
-    "character_name": "Có Thơ",
-    "text": "Ba Sơn phất phới cờ Đỗ Dự, Trương Để lừng danh được chết trung.",
-    "age_stage": "au_tho",
-    "temperament": "lang_man_bay_bong",
-    "emotion": "binh_than_tu_nhien",
+    "type": "narrator",
+    "speaker": "Narrator",
+    "narrative_mode": "contemplative",
+    "text": "Có thơ khen rằng,",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "+11Hz",
-    "rate": "+8%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "youth_bright"
+    "pitch": "-2Hz",
+    "rate": "-12%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "contemplative_narrator"
   },
   {
     "line_id": 81,
     "chunk_id": 10,
-    "type": "narrator",
+    "type": "poem",
     "speaker": "Narrator",
-    "narrative_mode": "contemplative",
-    "text": "Dẫ biết miền nam vương khí hết, Lẽ nào tham sống phụ Giang Đông! Lại nói, quân Tấn lấy được bến Ngưu Tử, liền tiến sâu vào đất Ngô. Vương Tuấn sai người về triều báo tin thắng trận. Tấn chủ Tư Mã Viêm nghe tin mừng lắm . Giả Sung tâu rằng,",
+    "text": "Ba Sơn phất phới cờ Đỗ Dự, Trương Để lừng danh được chết trung. Dẫ biết miền nam vương khí hết, Lẽ nào tham sống phụ Giang Đông! Lại nói, quân Tấn lấy được bến Ngưu Tử, liền tiến sâu vào đất Ngô. Vương Tuấn sai người về triều báo tin thắng trận. Tấn chủ Tư Mã Viêm nghe tin mừng lắm. Giả Sung tâu rằng, Quân ta mỏi mệt ở ngoài đã lâu, không quen thủy thổ, tất sinh bệnh tật, nên cho đòi về. Rồi sẽ liệu kế khác. Trương Hoa tâu rằng, Nay quân ta đã vào đến sào huyệt của giặc, người Ngô sợ hết vía, không đầy một tháng nữa. Tất bắt sống được Tôn Hạo. Nếu đòi về công trước uổng cả, thực đáng tiếc lắm. Tấn chủ chưa kịp nói, Giả Sung đã mắng Hoa rằng, Ngươi không biết xét đến thiên thời địa lợi, lại muốn tâng công. Làm khổ ải quân sĩ, dẫu chém đầu ngươi cũng chưa đủ tạ được thiên hạ đâu! Tấn chủ nói, Ý trẫm cũng hợp ý với Trương Hoa, can gì phải cãi nhau làm vậy? Chợt lại có biểu Đỗ Dự đưa về. Tấn chủ mở xem, ý trong biểu cũng xin kíp tiến binh. Tấn chủ bấy giờ mới cương quyết, bèn hạ lệnh tiến quân. Bọn Vương Tuấn vâng mệnh Tấn chủ, tiến cả hai mặt thủy bộ, thế như vũ bão, người Ngô tới tấp ra hàng. Ngô chủ Tôn Hạo thấy vậy, sợ tái mặt lại. Quần thần tâu rằng, Quân miền bắc kéo tới nơi, quân dân Giang Nam không đánh mà hàng, làm thế nào bây giờ? Hạo hỏi, Tại sao không đánh?",
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.30s",
-    "timbre_eq": "contemplative_narrator"
+    "rate": "-18%",
+    "lead_in_pause": "0.85s",
+    "timbre_eq": "poetic_recitation"
   },
   {
     "line_id": 82,
-    "chunk_id": 10,
-    "type": "dialogue",
-    "speaker": "Gia_Sung",
-    "character_name": "Giả Sung",
-    "text": "Quân ta mỏi mệt ở ngoài đã lâu, không quen thủy thổ, tất sinh bệnh tật, nên cho đòi về.",
-    "age_stage": "lao_hoa",
-    "temperament": "teu_tao_hom_hinh",
-    "emotion": "binh_than_tu_nhien",
-    "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-5Hz",
-    "rate": "-13%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "aged_gravel"
-  },
-  {
-    "line_id": 83,
-    "chunk_id": 10,
-    "type": "narrator",
-    "speaker": "Narrator",
-    "narrative_mode": "contemplative",
-    "text": "Rồi sẽ liệu kế khác . Trương Hoa tâu rằng,",
-    "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-2Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.30s",
-    "timbre_eq": "contemplative_narrator"
-  },
-  {
-    "line_id": 84,
-    "chunk_id": 10,
-    "type": "dialogue",
-    "speaker": "Truong_Hoa",
-    "character_name": "Trương Hoa",
-    "text": "Nay quân ta đã vào đến sào huyệt của giặc, người Ngô sợ hết vía, không đầy một tháng nữa.",
-    "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
-    "emotion": "binh_than_tu_nhien",
-    "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "aged_gravel"
-  },
-  {
-    "line_id": 85,
-    "chunk_id": 10,
-    "type": "narrator",
-    "speaker": "Narrator",
-    "narrative_mode": "contemplative",
-    "text": "Tất bắt sống được Tôn Hạo. Nếu đòi về công trước uổng cả, thực đáng tiếc lắm . Tấn chủ chưa kịp nói,",
-    "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-2Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.30s",
-    "timbre_eq": "contemplative_narrator"
-  },
-  {
-    "line_id": 86,
-    "chunk_id": 10,
-    "type": "dialogue",
-    "speaker": "Tan_Chu_Chua_Kip",
-    "character_name": "Tấn Chủ Chưa Kịp",
-    "text": "Giả Sung đã mắng Hoa rằng, Ngươi không biết xét đến thiên thời địa lợi, lại muốn tâng công.",
-    "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
-    "emotion": "binh_than_tu_nhien",
-    "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "aged_gravel"
-  },
-  {
-    "line_id": 87,
-    "chunk_id": 10,
-    "type": "narrator",
-    "speaker": "Narrator",
-    "narrative_mode": "contemplative",
-    "text": "Làm khổ ải quân sĩ, dẫu chém đầu ngươi cũng chưa đủ tạ được thiên hạ đâu ! Tấn chủ nói,",
-    "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-2Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.30s",
-    "timbre_eq": "contemplative_narrator"
-  },
-  {
-    "line_id": 88,
-    "chunk_id": 10,
-    "type": "dialogue",
-    "speaker": "Tan_Chu",
-    "character_name": "Tấn Chủ",
-    "text": "Ý trẫm cũng hợp ý với Trương Hoa, can gì phải cãi nhau làm vậy?",
-    "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
-    "emotion": "binh_than_tu_nhien",
-    "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "aged_gravel"
-  },
-  {
-    "line_id": 89,
-    "chunk_id": 10,
-    "type": "narrator",
-    "speaker": "Narrator",
-    "narrative_mode": "contemplative",
-    "text": "Chợt lại có biểu Đỗ Dự đưa về. Tấn chủ mở xem, ý trong biểu cũng xin kíp tiến binh. Tấn chủ bấy giờ mới cương quyết, bèn hạ lệnh tiến quân. Bọn Vương Tuấn vâng mệnh Tấn chủ, tiến cả hai mặt thủy bộ, thế như vũ bão, người Ngô tới tấp ra hàng. Ngô chủ Tôn Hạo thấy vậy, sợ tái mặt lại . Quần thần tâu rằng,",
-    "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-2Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.30s",
-    "timbre_eq": "contemplative_narrator"
-  },
-  {
-    "line_id": 90,
-    "chunk_id": 10,
-    "type": "dialogue",
-    "speaker": "Quan_Than",
-    "character_name": "Quần Thần",
-    "text": "Quân miền bắc kéo tới nơi, quân dân Giang Nam không đánh mà hàng, làm thế nào bây giờ?",
-    "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
-    "emotion": "binh_than_tu_nhien",
-    "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "aged_gravel"
-  },
-  {
-    "line_id": 91,
-    "chunk_id": 10,
-    "type": "narrator",
-    "speaker": "Narrator",
-    "narrative_mode": "contemplative",
-    "text": "Hạo hỏi, Tại sao không đánh?",
-    "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-2Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.20s",
-    "timbre_eq": "contemplative_narrator"
-  },
-  {
-    "line_id": 92,
     "chunk_id": 11,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1293,11 +1141,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 93,
+    "line_id": 83,
     "chunk_id": 11,
     "type": "dialogue",
     "speaker": "Chung",
@@ -1307,13 +1155,13 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 94,
+    "line_id": 84,
     "chunk_id": 11,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1322,11 +1170,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 95,
+    "line_id": 85,
     "chunk_id": 11,
     "type": "dialogue",
     "speaker": "Hao",
@@ -1336,13 +1184,13 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 96,
+    "line_id": 86,
     "chunk_id": 11,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1351,27 +1199,27 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 97,
+    "line_id": 87,
     "chunk_id": 11,
     "type": "dialogue",
     "speaker": "Chu_Tuan",
     "character_name": "Chu Tuấn",
     "text": "Chiến thuyền phát cho tôi đều nhỏ quá.",
     "age_stage": "lao_hoa",
-    "temperament": "teu_tao_hom_hinh",
+    "temperament": "anh_hung_hao_sang",
     "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-9Hz",
-    "rate": "-21%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-25%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 98,
+    "line_id": 88,
     "chunk_id": 11,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1380,27 +1228,27 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 99,
+    "line_id": 89,
     "chunk_id": 11,
     "type": "dialogue",
     "speaker": "Chu_Tuan",
     "character_name": "Chu Tuấn",
     "text": "Nếu ngươi có bụng hàng thực, thì phải dẫn binh làm tiền bộ mà lập công.",
     "age_stage": "lao_hoa",
-    "temperament": "teu_tao_hom_hinh",
+    "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-5Hz",
-    "rate": "-13%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 100,
+    "line_id": 90,
     "chunk_id": 11,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1409,11 +1257,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 101,
+    "line_id": 91,
     "chunk_id": 11,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1422,11 +1270,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "0.80s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "contemplative_narrator"
   },
   {
-    "line_id": 102,
+    "line_id": 92,
     "chunk_id": 11,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1435,11 +1283,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
-    "line_id": 103,
+    "line_id": 93,
     "chunk_id": 11,
     "type": "poem",
     "speaker": "Narrator",
@@ -1451,7 +1299,7 @@
     "timbre_eq": "poetic_recitation"
   },
   {
-    "line_id": 104,
+    "line_id": 94,
     "chunk_id": 11,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1460,11 +1308,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
-    "line_id": 105,
+    "line_id": 95,
     "chunk_id": 11,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1473,11 +1321,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+0Hz",
     "rate": "-5%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "intimate_narrator"
   },
   {
-    "line_id": 106,
+    "line_id": 96,
     "chunk_id": 12,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1486,27 +1334,24 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 107,
+    "line_id": 97,
     "chunk_id": 12,
-    "type": "dialogue",
-    "speaker": "Lai",
-    "character_name": "Lại",
+    "type": "narrator",
+    "speaker": "Narrator",
+    "narrative_mode": "epic",
     "text": "Vương Tuấn rút quân, đem Ngô chủ về Lạc Dương chầu Tấn chủ.",
-    "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
-    "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "aged_gravel"
+    "pitch": "+1Hz",
+    "rate": "+0%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 108,
+    "line_id": 98,
     "chunk_id": 12,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1515,11 +1360,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 109,
+    "line_id": 99,
     "chunk_id": 12,
     "type": "dialogue",
     "speaker": "Hao",
@@ -1530,12 +1375,12 @@
     "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-10Hz",
-    "rate": "-24%",
-    "lead_in_pause": "0.32s",
+    "rate": "-25%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 110,
+    "line_id": 100,
     "chunk_id": 12,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1544,27 +1389,27 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 111,
+    "line_id": 101,
     "chunk_id": 12,
     "type": "dialogue",
-    "speaker": "Gia_Sung",
-    "character_name": "Giả Sung",
+    "speaker": "Gian_Ung",
+    "character_name": "Giản Ung",
     "text": "Người ở phương nam, thường hay khoét mắt và lột da mặt người ta, đó là hình pháp gì thế?",
     "age_stage": "lao_hoa",
     "temperament": "teu_tao_hom_hinh",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-5Hz",
-    "rate": "-13%",
-    "lead_in_pause": "0.32s",
+    "rate": "-14%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 112,
+    "line_id": 102,
     "chunk_id": 12,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1573,11 +1418,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 113,
+    "line_id": 103,
     "chunk_id": 13,
     "type": "narrator",
     "speaker": "Narrator",
@@ -1586,7 +1431,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "0.30s",
+    "lead_in_pause": "0.70s",
     "timbre_eq": "contemplative_narrator"
   }
 ]

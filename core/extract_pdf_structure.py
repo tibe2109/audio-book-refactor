@@ -544,6 +544,32 @@ COURSERA_COURSE_3_CONFIG = {
 def detect_coursera_course(source_dir):
     """Auto-detects Coursera Course configuration based on directory files or name."""
     files = set(os.listdir(source_dir))
+    
+    # Check for modular text courses (e.g. 01 - ...txt)
+    numbered_txts = sorted([f for f in files if re.match(r'^\d+\s*-\s*.*\.txt$', f)])
+    if numbered_txts and len(numbered_txts) >= 3:
+        modules = []
+        for idx, f_name in enumerate(numbered_txts):
+            m = re.match(r'^(\d+)\s*-\s*(.*?)\.txt$', f_name)
+            num_str = m.group(1)
+            raw_title = m.group(2).strip()
+            safe_slug = re.sub(r'[^a-zA-Z0-9]+', '-', raw_title).strip('-')
+            folder_name = f"{int(num_str):02d}-{safe_slug}"
+            modules.append({
+                "index": idx,
+                "folder": folder_name,
+                "title": f"Chapter {int(num_str)}: {raw_title}",
+                "files": [(f_name, raw_title)]
+            })
+        base_name = os.path.basename(source_dir.rstrip('/\\'))
+        slug = re.sub(r'[^a-zA-Z0-9]+', '-', base_name).strip('-')
+        return {
+            "title": base_name,
+            "slug": slug,
+            "author": "Pete Mockaitis & Jim Detert" if "courage" in base_name.lower() else "Audiobook Producer",
+            "modules": modules
+        }
+
     c3_indicators = {"Introduction to Course 3.txt", "Review: Beginning the planning phase.txt", "Building a risk management plan.txt"}
     if c3_indicators.intersection(files):
         return COURSERA_COURSE_3_CONFIG
@@ -620,27 +646,36 @@ def extract_coursera_chapters(source_dir, output_dir, book_slug=None, session_id
         
         print(f"[*] Processing {folder_name} ({mod['title']}) [{len(mod['files'])} components]...")
         
-        section_texts = []
-        section_texts.append(f"# {mod['title']}\n")
-
-        for f_name, section_title in mod["files"]:
+        if len(mod["files"]) == 1 and mod["files"][0][0].endswith(".txt"):
+            f_name, _ = mod["files"][0]
             resolved_path = resolve_source_file(source_dir, f_name)
-            ext = os.path.splitext(resolved_path)[1].lower()
-            
-            if ext == ".txt":
-                with open(resolved_path, "r", encoding="utf-8") as f:
-                    content = clean_transcript_text(f.read())
-            elif ext == ".pdf":
-                content = extract_pdf_clean(resolved_path)
-            elif ext == ".docx":
-                content = extract_docx_glossary(resolved_path)
-            else:
-                with open(resolved_path, "r", encoding="utf-8") as f:
-                    content = f.read().strip()
-            
-            section_texts.append(f"## {section_title}\n\n{content}")
+            with open(resolved_path, "r", encoding="utf-8") as f:
+                content = f.read().strip()
+            # Remove any leading Markdown H1 if present
+            content = re.sub(r'^#\s*\d+[\.\:]?\s*.*?\n+', '', content).strip()
+            full_chap_text = f"# {mod['title']}\n\n{content}"
+        else:
+            section_texts = []
+            section_texts.append(f"# {mod['title']}\n")
 
-        full_chap_text = "\n\n".join(section_texts)
+            for f_name, section_title in mod["files"]:
+                resolved_path = resolve_source_file(source_dir, f_name)
+                ext = os.path.splitext(resolved_path)[1].lower()
+                
+                if ext == ".txt":
+                    with open(resolved_path, "r", encoding="utf-8") as f:
+                        content = clean_transcript_text(f.read())
+                elif ext == ".pdf":
+                    content = extract_pdf_clean(resolved_path)
+                elif ext == ".docx":
+                    content = extract_docx_glossary(resolved_path)
+                else:
+                    with open(resolved_path, "r", encoding="utf-8") as f:
+                        content = f.read().strip()
+                
+                section_texts.append(f"## {section_title}\n\n{content}")
+
+            full_chap_text = "\n\n".join(section_texts)
         cleaned_chap_text = clean_extracted_text(full_chap_text)
         
         raw_file_rel = os.path.join(folder_name, "raw_original.txt")

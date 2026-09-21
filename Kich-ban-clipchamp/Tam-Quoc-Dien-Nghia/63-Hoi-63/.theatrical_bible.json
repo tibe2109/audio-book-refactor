@@ -5,9 +5,9 @@
   "genre": "classical_epic_literature",
   "total_theatrical_lines": 60,
   "narrator_lines": 37,
-  "poem_lines": 0,
-  "dialogue_lines": 23,
-  "characters_cast_count": 10,
+  "poem_lines": 1,
+  "dialogue_lines": 22,
+  "characters_cast_count": 9,
   "characters": {
     "Narrator": {
       "name": "Người dẫn chuyện",
@@ -19,24 +19,23 @@
         "contemplative",
         "elegiac",
         "epic",
+        "intimate",
         "suspense"
       ],
       "dialogue_count": 37
     },
-    "Dang": {
-      "name": "Dạng",
+    "Tran_Dang": {
+      "name": "Trần Đăng",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "trung_nien",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "temperament": "giao_hoat_nham_hiem",
+      "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi",
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 2
     },
     "Luu_Bi": {
       "name": "Lưu Bị",
@@ -48,9 +47,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 5,
-      "base_pitch": "-3Hz",
-      "base_rate": "-4%"
+      "dialogue_count": 5
     },
     "Phap_Chi": {
       "name": "Pháp Chi",
@@ -62,27 +59,23 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 1
     },
     "Bang_Thong": {
       "name": "Bàng Thống",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "lao_hoa",
+      "age_stage": "trung_nien",
       "temperament": "teu_tao_hom_hinh",
-      "timbre_eq": "aged_gravel",
+      "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi",
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "-5Hz",
-      "base_rate": "-13%"
+      "dialogue_count": 2
     },
-    "Thong_Giat_Minh": {
-      "name": "Thống Giật Mình",
+    "Thong": {
+      "name": "Thống",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "trung_nien",
@@ -91,23 +84,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
-    },
-    "Nguoi_Sau_Co_Tho": {
-      "name": "Người Sau Có Thơ",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "au_tho",
-      "temperament": "lang_man_bay_bong",
-      "timbre_eq": "youth_bright",
-      "sample_emotions": [
-        "dau_don_trang_troi"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "+11Hz",
-      "base_rate": "+8%"
+      "dialogue_count": 1
     },
     "Gia_Cat_Luong": {
       "name": "Gia Cát Lượng",
@@ -120,24 +97,20 @@
         "binh_than_tu_nhien",
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 3,
-      "base_pitch": "-5Hz",
-      "base_rate": "-10%"
+      "dialogue_count": 3
     },
     "Quan_Vu": {
       "name": "Quan Vũ",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "trung_nien",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "temperament": "khac_kho_lanh_lung",
+      "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi",
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 4,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 4
     },
     "Truong_Phi": {
       "name": "Trương Phi",
@@ -150,24 +123,20 @@
         "binh_than_tu_nhien",
         "cuong_no"
       ],
-      "dialogue_count": 3,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 3
     },
-    "Nhan_Mung_Ro": {
-      "name": "Nhan Mừng Rỡ",
+    "Tao_Nhan": {
+      "name": "Tào Nhân",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "trung_nien",
       "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "timbre_eq": "chest_resonance",
       "sample_emotions": [
-        "binh_than_tu_nhien"
+        "hoan_ca_dac_thang"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 1
     }
   },
-  "directed_at": "2026-09-15T11:13:15.207635"
+  "directed_at": "2026-09-17T10:33:45.024880"
 }

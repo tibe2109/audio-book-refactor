@@ -1,0 +1,1092 @@
+{
+  "book_name": "Tam-Quoc-Dien-Nghia",
+  "final_video_dir": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/Final-Tam-Quoc-Dien-Nghia/Videos",
+  "created_at": "2026-09-21T02:39:11.088032+00:00",
+  "updated_at": "2026-09-21T02:39:11.089224+00:00",
+  "total_videos": 120,
+  "uploaded_count": 1,
+  "pending_count": 119,
+  "failed_count": 0,
+  "videos": {
+    "Final_Video_01-Hoi-01_Part1.mp4": {
+      "video_file": "Final_Video_01-Hoi-01_Part1.mp4",
+      "chapter_slug": "01-Hoi-01",
+      "status": "uploaded",
+      "video_id": "OUkuc46XzU0",
+      "youtube_url": "https://youtu.be/OUkuc46XzU0",
+      "uploaded_at": "2026-09-18T18:15:50Z",
+      "error": null
+    },
+    "Final_Video_02-Hoi-02_Part1.mp4": {
+      "video_file": "Final_Video_02-Hoi-02_Part1.mp4",
+      "chapter_slug": "02-Hoi-02",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_03-Hoi-03_Part1.mp4": {
+      "video_file": "Final_Video_03-Hoi-03_Part1.mp4",
+      "chapter_slug": "03-Hoi-03",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_04-Hoi-04_Part1.mp4": {
+      "video_file": "Final_Video_04-Hoi-04_Part1.mp4",
+      "chapter_slug": "04-Hoi-04",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_05-Hoi-05_Part1.mp4": {
+      "video_file": "Final_Video_05-Hoi-05_Part1.mp4",
+      "chapter_slug": "05-Hoi-05",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_06-Hoi-06_Part1.mp4": {
+      "video_file": "Final_Video_06-Hoi-06_Part1.mp4",
+      "chapter_slug": "06-Hoi-06",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_07-Hoi-07_Part1.mp4": {
+      "video_file": "Final_Video_07-Hoi-07_Part1.mp4",
+      "chapter_slug": "07-Hoi-07",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_08-Hoi-08_Part1.mp4": {
+      "video_file": "Final_Video_08-Hoi-08_Part1.mp4",
+      "chapter_slug": "08-Hoi-08",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_09-Hoi-09_Part1.mp4": {
+      "video_file": "Final_Video_09-Hoi-09_Part1.mp4",
+      "chapter_slug": "09-Hoi-09",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_10-Hoi-10_Part1.mp4": {
+      "video_file": "Final_Video_10-Hoi-10_Part1.mp4",
+      "chapter_slug": "10-Hoi-10",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_100-Hoi-100_Part1.mp4": {
+      "video_file": "Final_Video_100-Hoi-100_Part1.mp4",
+      "chapter_slug": "100-Hoi-100",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_101-Hoi-101_Part1.mp4": {
+      "video_file": "Final_Video_101-Hoi-101_Part1.mp4",
+      "chapter_slug": "101-Hoi-101",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_102-Hoi-102_Part1.mp4": {
+      "video_file": "Final_Video_102-Hoi-102_Part1.mp4",
+      "chapter_slug": "102-Hoi-102",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_103-Hoi-103_Part1.mp4": {
+      "video_file": "Final_Video_103-Hoi-103_Part1.mp4",
+      "chapter_slug": "103-Hoi-103",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_104-Hoi-104_Part1.mp4": {
+      "video_file": "Final_Video_104-Hoi-104_Part1.mp4",
+      "chapter_slug": "104-Hoi-104",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_105-Hoi-105_Part1.mp4": {
+      "video_file": "Final_Video_105-Hoi-105_Part1.mp4",
+      "chapter_slug": "105-Hoi-105",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_106-Hoi-106_Part1.mp4": {
+      "video_file": "Final_Video_106-Hoi-106_Part1.mp4",
+      "chapter_slug": "106-Hoi-106",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_107-Hoi-107_Part1.mp4": {
+      "video_file": "Final_Video_107-Hoi-107_Part1.mp4",
+      "chapter_slug": "107-Hoi-107",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_108-Hoi-108_Part1.mp4": {
+      "video_file": "Final_Video_108-Hoi-108_Part1.mp4",
+      "chapter_slug": "108-Hoi-108",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_109-Hoi-109_Part1.mp4": {
+      "video_file": "Final_Video_109-Hoi-109_Part1.mp4",
+      "chapter_slug": "109-Hoi-109",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_11-Hoi-11_Part1.mp4": {
+      "video_file": "Final_Video_11-Hoi-11_Part1.mp4",
+      "chapter_slug": "11-Hoi-11",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_110-Hoi-110_Part1.mp4": {
+      "video_file": "Final_Video_110-Hoi-110_Part1.mp4",
+      "chapter_slug": "110-Hoi-110",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_111-Hoi-111_Part1.mp4": {
+      "video_file": "Final_Video_111-Hoi-111_Part1.mp4",
+      "chapter_slug": "111-Hoi-111",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_112-Hoi-112_Part1.mp4": {
+      "video_file": "Final_Video_112-Hoi-112_Part1.mp4",
+      "chapter_slug": "112-Hoi-112",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_113-Hoi-113_Part1.mp4": {
+      "video_file": "Final_Video_113-Hoi-113_Part1.mp4",
+      "chapter_slug": "113-Hoi-113",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_114-Hoi-114_Part1.mp4": {
+      "video_file": "Final_Video_114-Hoi-114_Part1.mp4",
+      "chapter_slug": "114-Hoi-114",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_115-Hoi-115_Part1.mp4": {
+      "video_file": "Final_Video_115-Hoi-115_Part1.mp4",
+      "chapter_slug": "115-Hoi-115",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_116-Hoi-116_Part1.mp4": {
+      "video_file": "Final_Video_116-Hoi-116_Part1.mp4",
+      "chapter_slug": "116-Hoi-116",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_117-Hoi-117_Part1.mp4": {
+      "video_file": "Final_Video_117-Hoi-117_Part1.mp4",
+      "chapter_slug": "117-Hoi-117",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_118-Hoi-118_Part1.mp4": {
+      "video_file": "Final_Video_118-Hoi-118_Part1.mp4",
+      "chapter_slug": "118-Hoi-118",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_119-Hoi-119_Part1.mp4": {
+      "video_file": "Final_Video_119-Hoi-119_Part1.mp4",
+      "chapter_slug": "119-Hoi-119",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_12-Hoi-12_Part1.mp4": {
+      "video_file": "Final_Video_12-Hoi-12_Part1.mp4",
+      "chapter_slug": "12-Hoi-12",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_120-Hoi-120_Part1.mp4": {
+      "video_file": "Final_Video_120-Hoi-120_Part1.mp4",
+      "chapter_slug": "120-Hoi-120",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_13-Hoi-13_Part1.mp4": {
+      "video_file": "Final_Video_13-Hoi-13_Part1.mp4",
+      "chapter_slug": "13-Hoi-13",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_14-Hoi-14_Part1.mp4": {
+      "video_file": "Final_Video_14-Hoi-14_Part1.mp4",
+      "chapter_slug": "14-Hoi-14",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_15-Hoi-15_Part1.mp4": {
+      "video_file": "Final_Video_15-Hoi-15_Part1.mp4",
+      "chapter_slug": "15-Hoi-15",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_16-Hoi-16_Part1.mp4": {
+      "video_file": "Final_Video_16-Hoi-16_Part1.mp4",
+      "chapter_slug": "16-Hoi-16",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_17-Hoi-17_Part1.mp4": {
+      "video_file": "Final_Video_17-Hoi-17_Part1.mp4",
+      "chapter_slug": "17-Hoi-17",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_18-Hoi-18_Part1.mp4": {
+      "video_file": "Final_Video_18-Hoi-18_Part1.mp4",
+      "chapter_slug": "18-Hoi-18",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_19-Hoi-19_Part1.mp4": {
+      "video_file": "Final_Video_19-Hoi-19_Part1.mp4",
+      "chapter_slug": "19-Hoi-19",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_20-Hoi-20_Part1.mp4": {
+      "video_file": "Final_Video_20-Hoi-20_Part1.mp4",
+      "chapter_slug": "20-Hoi-20",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_21-Hoi-21_Part1.mp4": {
+      "video_file": "Final_Video_21-Hoi-21_Part1.mp4",
+      "chapter_slug": "21-Hoi-21",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_22-Hoi-22_Part1.mp4": {
+      "video_file": "Final_Video_22-Hoi-22_Part1.mp4",
+      "chapter_slug": "22-Hoi-22",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_23-Hoi-23_Part1.mp4": {
+      "video_file": "Final_Video_23-Hoi-23_Part1.mp4",
+      "chapter_slug": "23-Hoi-23",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_24-Hoi-24_Part1.mp4": {
+      "video_file": "Final_Video_24-Hoi-24_Part1.mp4",
+      "chapter_slug": "24-Hoi-24",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_25-Hoi-25_Part1.mp4": {
+      "video_file": "Final_Video_25-Hoi-25_Part1.mp4",
+      "chapter_slug": "25-Hoi-25",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_26-Hoi-26_Part1.mp4": {
+      "video_file": "Final_Video_26-Hoi-26_Part1.mp4",
+      "chapter_slug": "26-Hoi-26",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_27-Hoi-27_Part1.mp4": {
+      "video_file": "Final_Video_27-Hoi-27_Part1.mp4",
+      "chapter_slug": "27-Hoi-27",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_28-Hoi-28_Part1.mp4": {
+      "video_file": "Final_Video_28-Hoi-28_Part1.mp4",
+      "chapter_slug": "28-Hoi-28",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_29-Hoi-29_Part1.mp4": {
+      "video_file": "Final_Video_29-Hoi-29_Part1.mp4",
+      "chapter_slug": "29-Hoi-29",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_30-Hoi-30_Part1.mp4": {
+      "video_file": "Final_Video_30-Hoi-30_Part1.mp4",
+      "chapter_slug": "30-Hoi-30",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_31-Hoi-31_Part1.mp4": {
+      "video_file": "Final_Video_31-Hoi-31_Part1.mp4",
+      "chapter_slug": "31-Hoi-31",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_32-Hoi-32_Part1.mp4": {
+      "video_file": "Final_Video_32-Hoi-32_Part1.mp4",
+      "chapter_slug": "32-Hoi-32",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_33-Hoi-33_Part1.mp4": {
+      "video_file": "Final_Video_33-Hoi-33_Part1.mp4",
+      "chapter_slug": "33-Hoi-33",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_34-Hoi-34_Part1.mp4": {
+      "video_file": "Final_Video_34-Hoi-34_Part1.mp4",
+      "chapter_slug": "34-Hoi-34",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_35-Hoi-35_Part1.mp4": {
+      "video_file": "Final_Video_35-Hoi-35_Part1.mp4",
+      "chapter_slug": "35-Hoi-35",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_36-Hoi-36_Part1.mp4": {
+      "video_file": "Final_Video_36-Hoi-36_Part1.mp4",
+      "chapter_slug": "36-Hoi-36",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_37-Hoi-37_Part1.mp4": {
+      "video_file": "Final_Video_37-Hoi-37_Part1.mp4",
+      "chapter_slug": "37-Hoi-37",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_38-Hoi-38_Part1.mp4": {
+      "video_file": "Final_Video_38-Hoi-38_Part1.mp4",
+      "chapter_slug": "38-Hoi-38",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_39-Hoi-39_Part1.mp4": {
+      "video_file": "Final_Video_39-Hoi-39_Part1.mp4",
+      "chapter_slug": "39-Hoi-39",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_40-Hoi-40_Part1.mp4": {
+      "video_file": "Final_Video_40-Hoi-40_Part1.mp4",
+      "chapter_slug": "40-Hoi-40",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_41-Hoi-41_Part1.mp4": {
+      "video_file": "Final_Video_41-Hoi-41_Part1.mp4",
+      "chapter_slug": "41-Hoi-41",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_42-Hoi-42_Part1.mp4": {
+      "video_file": "Final_Video_42-Hoi-42_Part1.mp4",
+      "chapter_slug": "42-Hoi-42",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_43-Hoi-43_Part1.mp4": {
+      "video_file": "Final_Video_43-Hoi-43_Part1.mp4",
+      "chapter_slug": "43-Hoi-43",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_44-Hoi-44_Part1.mp4": {
+      "video_file": "Final_Video_44-Hoi-44_Part1.mp4",
+      "chapter_slug": "44-Hoi-44",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_45-Hoi-45_Part1.mp4": {
+      "video_file": "Final_Video_45-Hoi-45_Part1.mp4",
+      "chapter_slug": "45-Hoi-45",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_46-Hoi-46_Part1.mp4": {
+      "video_file": "Final_Video_46-Hoi-46_Part1.mp4",
+      "chapter_slug": "46-Hoi-46",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_47-Hoi-47_Part1.mp4": {
+      "video_file": "Final_Video_47-Hoi-47_Part1.mp4",
+      "chapter_slug": "47-Hoi-47",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_48-Hoi-48_Part1.mp4": {
+      "video_file": "Final_Video_48-Hoi-48_Part1.mp4",
+      "chapter_slug": "48-Hoi-48",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_49-Hoi-49_Part1.mp4": {
+      "video_file": "Final_Video_49-Hoi-49_Part1.mp4",
+      "chapter_slug": "49-Hoi-49",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_50-Hoi-50_Part1.mp4": {
+      "video_file": "Final_Video_50-Hoi-50_Part1.mp4",
+      "chapter_slug": "50-Hoi-50",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_51-Hoi-51_Part1.mp4": {
+      "video_file": "Final_Video_51-Hoi-51_Part1.mp4",
+      "chapter_slug": "51-Hoi-51",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_52-Hoi-52_Part1.mp4": {
+      "video_file": "Final_Video_52-Hoi-52_Part1.mp4",
+      "chapter_slug": "52-Hoi-52",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_53-Hoi-53_Part1.mp4": {
+      "video_file": "Final_Video_53-Hoi-53_Part1.mp4",
+      "chapter_slug": "53-Hoi-53",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_54-Hoi-54_Part1.mp4": {
+      "video_file": "Final_Video_54-Hoi-54_Part1.mp4",
+      "chapter_slug": "54-Hoi-54",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_55-Hoi-55_Part1.mp4": {
+      "video_file": "Final_Video_55-Hoi-55_Part1.mp4",
+      "chapter_slug": "55-Hoi-55",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_56-Hoi-56_Part1.mp4": {
+      "video_file": "Final_Video_56-Hoi-56_Part1.mp4",
+      "chapter_slug": "56-Hoi-56",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_57-Hoi-57_Part1.mp4": {
+      "video_file": "Final_Video_57-Hoi-57_Part1.mp4",
+      "chapter_slug": "57-Hoi-57",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_58-Hoi-58_Part1.mp4": {
+      "video_file": "Final_Video_58-Hoi-58_Part1.mp4",
+      "chapter_slug": "58-Hoi-58",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_59-Hoi-59_Part1.mp4": {
+      "video_file": "Final_Video_59-Hoi-59_Part1.mp4",
+      "chapter_slug": "59-Hoi-59",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_60-Hoi-60_Part1.mp4": {
+      "video_file": "Final_Video_60-Hoi-60_Part1.mp4",
+      "chapter_slug": "60-Hoi-60",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_61-Hoi-61_Part1.mp4": {
+      "video_file": "Final_Video_61-Hoi-61_Part1.mp4",
+      "chapter_slug": "61-Hoi-61",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_62-Hoi-62_Part1.mp4": {
+      "video_file": "Final_Video_62-Hoi-62_Part1.mp4",
+      "chapter_slug": "62-Hoi-62",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_63-Hoi-63_Part1.mp4": {
+      "video_file": "Final_Video_63-Hoi-63_Part1.mp4",
+      "chapter_slug": "63-Hoi-63",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_64-Hoi-64_Part1.mp4": {
+      "video_file": "Final_Video_64-Hoi-64_Part1.mp4",
+      "chapter_slug": "64-Hoi-64",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_65-Hoi-65_Part1.mp4": {
+      "video_file": "Final_Video_65-Hoi-65_Part1.mp4",
+      "chapter_slug": "65-Hoi-65",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_66-Hoi-66_Part1.mp4": {
+      "video_file": "Final_Video_66-Hoi-66_Part1.mp4",
+      "chapter_slug": "66-Hoi-66",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_67-Hoi-67_Part1.mp4": {
+      "video_file": "Final_Video_67-Hoi-67_Part1.mp4",
+      "chapter_slug": "67-Hoi-67",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_68-Hoi-68_Part1.mp4": {
+      "video_file": "Final_Video_68-Hoi-68_Part1.mp4",
+      "chapter_slug": "68-Hoi-68",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_69-Hoi-69_Part1.mp4": {
+      "video_file": "Final_Video_69-Hoi-69_Part1.mp4",
+      "chapter_slug": "69-Hoi-69",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_70-Hoi-70_Part1.mp4": {
+      "video_file": "Final_Video_70-Hoi-70_Part1.mp4",
+      "chapter_slug": "70-Hoi-70",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_71-Hoi-71_Part1.mp4": {
+      "video_file": "Final_Video_71-Hoi-71_Part1.mp4",
+      "chapter_slug": "71-Hoi-71",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_72-Hoi-72_Part1.mp4": {
+      "video_file": "Final_Video_72-Hoi-72_Part1.mp4",
+      "chapter_slug": "72-Hoi-72",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_73-Hoi-73_Part1.mp4": {
+      "video_file": "Final_Video_73-Hoi-73_Part1.mp4",
+      "chapter_slug": "73-Hoi-73",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_74-Hoi-74_Part1.mp4": {
+      "video_file": "Final_Video_74-Hoi-74_Part1.mp4",
+      "chapter_slug": "74-Hoi-74",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_75-Hoi-75_Part1.mp4": {
+      "video_file": "Final_Video_75-Hoi-75_Part1.mp4",
+      "chapter_slug": "75-Hoi-75",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_76-Hoi-76_Part1.mp4": {
+      "video_file": "Final_Video_76-Hoi-76_Part1.mp4",
+      "chapter_slug": "76-Hoi-76",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_77-Hoi-77_Part1.mp4": {
+      "video_file": "Final_Video_77-Hoi-77_Part1.mp4",
+      "chapter_slug": "77-Hoi-77",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_78-Hoi-78_Part1.mp4": {
+      "video_file": "Final_Video_78-Hoi-78_Part1.mp4",
+      "chapter_slug": "78-Hoi-78",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_79-Hoi-79_Part1.mp4": {
+      "video_file": "Final_Video_79-Hoi-79_Part1.mp4",
+      "chapter_slug": "79-Hoi-79",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_80-Hoi-80_Part1.mp4": {
+      "video_file": "Final_Video_80-Hoi-80_Part1.mp4",
+      "chapter_slug": "80-Hoi-80",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_81-Hoi-81_Part1.mp4": {
+      "video_file": "Final_Video_81-Hoi-81_Part1.mp4",
+      "chapter_slug": "81-Hoi-81",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_82-Hoi-82_Part1.mp4": {
+      "video_file": "Final_Video_82-Hoi-82_Part1.mp4",
+      "chapter_slug": "82-Hoi-82",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_83-Hoi-83_Part1.mp4": {
+      "video_file": "Final_Video_83-Hoi-83_Part1.mp4",
+      "chapter_slug": "83-Hoi-83",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_84-Hoi-84_Part1.mp4": {
+      "video_file": "Final_Video_84-Hoi-84_Part1.mp4",
+      "chapter_slug": "84-Hoi-84",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_85-Hoi-85_Part1.mp4": {
+      "video_file": "Final_Video_85-Hoi-85_Part1.mp4",
+      "chapter_slug": "85-Hoi-85",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_86-Hoi-86_Part1.mp4": {
+      "video_file": "Final_Video_86-Hoi-86_Part1.mp4",
+      "chapter_slug": "86-Hoi-86",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_87-Hoi-87_Part1.mp4": {
+      "video_file": "Final_Video_87-Hoi-87_Part1.mp4",
+      "chapter_slug": "87-Hoi-87",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_88-Hoi-88_Part1.mp4": {
+      "video_file": "Final_Video_88-Hoi-88_Part1.mp4",
+      "chapter_slug": "88-Hoi-88",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_89-Hoi-89_Part1.mp4": {
+      "video_file": "Final_Video_89-Hoi-89_Part1.mp4",
+      "chapter_slug": "89-Hoi-89",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_90-Hoi-90_Part1.mp4": {
+      "video_file": "Final_Video_90-Hoi-90_Part1.mp4",
+      "chapter_slug": "90-Hoi-90",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_91-Hoi-91_Part1.mp4": {
+      "video_file": "Final_Video_91-Hoi-91_Part1.mp4",
+      "chapter_slug": "91-Hoi-91",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_92-Hoi-92_Part1.mp4": {
+      "video_file": "Final_Video_92-Hoi-92_Part1.mp4",
+      "chapter_slug": "92-Hoi-92",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_93-Hoi-93_Part1.mp4": {
+      "video_file": "Final_Video_93-Hoi-93_Part1.mp4",
+      "chapter_slug": "93-Hoi-93",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_94-Hoi-94_Part1.mp4": {
+      "video_file": "Final_Video_94-Hoi-94_Part1.mp4",
+      "chapter_slug": "94-Hoi-94",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_95-Hoi-95_Part1.mp4": {
+      "video_file": "Final_Video_95-Hoi-95_Part1.mp4",
+      "chapter_slug": "95-Hoi-95",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_96-Hoi-96_Part1.mp4": {
+      "video_file": "Final_Video_96-Hoi-96_Part1.mp4",
+      "chapter_slug": "96-Hoi-96",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_97-Hoi-97_Part1.mp4": {
+      "video_file": "Final_Video_97-Hoi-97_Part1.mp4",
+      "chapter_slug": "97-Hoi-97",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_98-Hoi-98_Part1.mp4": {
+      "video_file": "Final_Video_98-Hoi-98_Part1.mp4",
+      "chapter_slug": "98-Hoi-98",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    },
+    "Final_Video_99-Hoi-99_Part1.mp4": {
+      "video_file": "Final_Video_99-Hoi-99_Part1.mp4",
+      "chapter_slug": "99-Hoi-99",
+      "status": "pending",
+      "video_id": null,
+      "youtube_url": null,
+      "uploaded_at": null,
+      "error": null
+    }
+  }
+}

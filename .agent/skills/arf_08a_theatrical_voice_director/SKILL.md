@@ -1,6 +1,6 @@
 ---
 name: arf_08a_theatrical_voice_director
-description: "Bước 08A trong Dây chuyền Sách nói Toàn năng (Universal Audiobook Pipeline): Tổng Đạo diễn Kịch nghệ, Phân vai Diễn đọc Thính kịch Đa thanh & Điều phối Hội đồng Đa tác tử (Chief Theatrical Voice & Casting Director). Tiếp nhận kịch bản đạt 100% 7 Quality Gates từ Bước 07, thẩm định thể loại linh hoạt trên đa dạng văn học thế giới (Sử thi cổ điển, Hiện thực phê phán, Tâm lý hiện sinh/Noir trinh thám, Tùy bút hồi ký, Kiếm hiệp huyền huyễn, Phi hư cấu). Khắc phục triệt để hiện tượng chuyển giọng thô cứng, gấp rút bằng Ma trận Chuyển giao Âm học Thích ứng (Dynamic Context-Aware Handoff Matrix): biến thiên linh hoạt trong dải chuẩn [0.30s - 0.38s đến 0.85s - 1.80s], từ phản xạ tức thì khi cướp lời/quát tháo (0.30s - 0.35s) đến dẫn nhập khẩn cấp (0.35s - 0.40s), đối thoại tự nhiên (0.42s - 0.50s), ngân rung thoại (0.50s - 0.60s), trầm ngâm/trang nghiêm (0.60s - 0.85s), khoảng lặng chấn động (0.85s - 1.20s) và đệm thở thi ca 3 tầng (0.85s - 1.80s). Bổ sung ngắt nhịp kịch nghệ thông minh (Dramatic Caesura) lấy hơi tại bước ngoặt cảm xúc. Đột phá phân hóa sâu sắc nhân vật (Deep Persona Polarizer): mở rộng Pitch (-8Hz đến +12Hz), Rate (-20% đến +15%) kết hợp Động cơ Tổng hợp Âm sắc Thích ứng (ATSE Formant DSP 4 trục) với các preset chuyên biệt triệt tiêu hoàn toàn cảm giác một người đọc. Tích hợp Động cơ Ngâm vịnh Thi ca Đa thể loại và Khung Dẫn chuyện Đa sắc thái. Bắt buộc kích hoạt Hội đồng tối thiểu 4 - 5 Subagents song song trước khi xuất bản theatrical_script.json và .theatrical_bible.json sang Bước 08B."
+description: "Bước 08A trong Dây chuyền Sách nói Toàn năng (Universal Audiobook Pipeline): Tổng Đạo diễn Kịch nghệ, Phân vai Diễn đọc Thính kịch Đa thanh & Điều phối Hội đồng Đa tác tử (Chief Theatrical Voice & Casting Director). Tiếp nhận kịch bản đạt 100% 7 Quality Gates từ Bước 07, thẩm định thể loại linh hoạt trên đa dạng văn học thế giới (Sử thi cổ điển, Hiện thực phê phán, Tâm lý hiện sinh/Noir trinh thám, Tùy bút hồi ký, Kiếm hiệp huyền huyễn, Phi hư cấu). Khắc phục triệt để hiện tượng chuyển giọng thô cứng, gấp rút bằng Ma trận Chuyển giao Âm học Thích ứng (Dynamic Context-Aware Handoff Matrix): khóa cứng trong dải chuẩn tuyệt đối từ thấp nhất 0.45s đến cao nhất 1.20s [0.45s – 1.20s], từ cướp lời dứt khoát (0.45s - 0.52s) đến dẫn nhập khẩn cấp (0.48s - 0.58s), đối thoại tự nhiên (0.55s - 0.68s), ngân rung thoại (0.65s - 0.80s), trầm ngâm/trang nghiêm (0.75s - 1.00s), khoảng lặng chấn động và đệm thơ (1.00s - 1.20s). Bổ sung ngắt nhịp kịch nghệ thông minh (Dramatic Caesura) lấy hơi tại bước ngoặt cảm xúc. Đột phá phân hóa sâu sắc nhân vật (Deep Persona Polarizer): mở rộng Pitch (-8Hz đến +12Hz), Rate (-20% đến +15%) kết hợp Động cơ Tổng hợp Âm sắc Thích ứng (ATSE Formant DSP 4 trục) với các preset chuyên biệt triệt tiêu hoàn toàn cảm giác một người đọc. Tích hợp Động cơ Ngâm vịnh Thi ca Đa thể loại và Khung Dẫn chuyện Đa sắc thái. Bắt buộc kích hoạt Hội đồng tối thiểu 4 - 5 Subagents song song trước khi xuất bản theatrical_script.json và .theatrical_bible.json sang Bước 08B."
 ---
 
 # Kỹ năng 08A: Đạo Diễn Kịch Nghệ & Phân Vai Đa Thanh (Theatrical Voice Director)
@@ -68,41 +68,46 @@ Xóa bỏ hoàn toàn tình trạng ngâm thơ vô hồn, đọc vội vã như 
    - *Lục bát cổ truyền:* Ngắt $2/2/2$ hoặc $3/3$ (câu lục), ngắt $4/4$ hoặc $2/2/2/2$ (câu bát).
    - *Ngũ ngôn:* Ngắt $2/3$ (*Non xanh, / nguyên vẻ cũ,*).
 3. **Cấu trúc đệm thở 3 tầng (Three-Tier Poetic Cushioning):**
-   - *Tầng 1 (Lead-in Cushion):* Đệm **`0.80s – 1.50s`** sau câu dẫn thơ (*"Có bài từ rằng,"*, *"Thơ rằng:"*).
-   - *Tầng 2 (Inter-Verse Cushion):* Đệm trang trọng **`0.80s – 1.00s`** (`lead_in_pause: 0.85s`) giữa các câu thơ để từng con chữ ngân vang lắng đọng.
-   - *Tầng 3 (Ending Coda Cushion):* Đệm lắng sâu **`1.50s – 1.80s`** (`. ......`) sau khổ thơ hoặc khi kết bài thơ để người nghe chiêm nghiệm.
+   - *Tầng 1 (Lead-in Cushion):* Đệm **`0.52s – 0.98s`** sau câu dẫn thơ (*"Có bài từ rằng,"*, *"Thơ rằng:"*).
+   - *Tầng 2 (Inter-Verse Cushion):* Đệm trang trọng **`0.52s – 0.65s`** (`lead_in_pause: 0.55s`) giữa các câu thơ để từng con chữ ngân vang lắng đọng, nhịp độ vừa vặn không lê thê.
+   - *Tầng 3 (Ending Coda Cushion):* Đệm lắng sâu **`1.00s – 1.20s`** (`. ......`) sau khổ thơ hoặc khi kết bài thơ để người nghe chiêm nghiệm trọn vẹn.
 4. **Quy chuẩn cao độ & nhịp độ thi ca:** Giọng ngâm đặt `pitch: -2Hz` (hoặc `-3Hz`), `rate: -18%` (chậm rãi, khoan thai, nhả chữ tròn vành) kết hợp bộ lọc âm sắc `timbre_eq: "poetic_recitation"`.
 
 ### 1.5 Khung Đạo Diễn Dẫn Truyện Đa Sắc Thái Thích Ứng (Adaptive Expressive Narrator)
 Người kể chuyện (Narrator) là **Linh hồn dẫn dắt (The Narrative Soul)** của tác phẩm. AI không gán cứng duy nhất một thiết lập đơn điệu (`pitch: 0Hz`, `rate: -5%`) xuyên suốt, mà chủ động điều biến sắc thái dẫn chuyện thích ứng theo từng phân cảnh:
-- **Hào hùng / Chiến trận (`epic_narrator`):** `pitch: +1Hz ~ +2Hz`, `rate: -2% ~ 0%`, `lead_in_pause: 0.30s ~ 0.35s`.
+- **Hào hùng / Chiến trận (`epic_narrator`):** `pitch: +1Hz ~ +2Hz`, `rate: -2% ~ 0%`, `lead_in_pause: 0.45s ~ 0.50s`.
 - **Bi tráng / Xót thương (`elegiac_narrator`):** `pitch: -2Hz ~ -3Hz`, `rate: -10% ~ -12%`, `lead_in_pause: 0.55s ~ 0.65s`.
-- **Hồi hộp / Rình rập (`suspense_narrator`):** `pitch: 0Hz ~ +1Hz`, `rate: -8% ~ -10%`, `lead_in_pause: 0.40s ~ 0.48s`.
+- **Hồi hộp / Rình rập (`suspense_narrator`):** `pitch: 0Hz ~ +1Hz`, `rate: -8% ~ -10%`, `lead_in_pause: 0.45s ~ 0.52s`.
 - **Chiêm nghiệm / Hoài cổ (`contemplative_narrator`):** `pitch: -2Hz`, `rate: -12% ~ -15%`, `lead_in_pause: 0.60s ~ 0.75s`.
 - **U uất xã hội / Lầm than (`melancholic_social`):** `pitch: -3Hz`, `rate: -12%`, `lead_in_pause: 0.55s ~ 0.65s`.
-- **Trào phúng / Mỉa mai (`satirical_ironic`):** `pitch: +2Hz`, `rate: -6%`, `lead_in_pause: 0.35s ~ 0.42s`.
+- **Trào phúng / Mỉa mai (`satirical_ironic`):** `pitch: +2Hz`, `rate: -6%`, `lead_in_pause: 0.45s ~ 0.50s`.
 - **Nội tâm / Giằng xé hiện sinh (`existential_interior`):** `pitch: -2Hz`, `rate: -10%`, `lead_in_pause: 0.50s ~ 0.60s`.
-- **Bình nhật / Tự nhiên (`intimate_narrator`):** `pitch: 0Hz`, `rate: -5%`, `lead_in_pause: 0.35s ~ 0.40s`.
+- **Bình nhật / Tự nhiên (`intimate_narrator`):** `pitch: 0Hz`, `rate: -5%`, `lead_in_pause: 0.45s ~ 0.50s`.
 
 ### 1.6 Ma Trận Chuyển Giao Âm Học Thích Ứng (Dynamic Context-Aware Handoff Matrix) & Ngắt Nhịp Kịch Nghệ
-Triệt tiêu hoàn toàn sự gấp rút, thô cứng và máy móc bằng Ma trận Chuyển giao Đa nhịp điệu linh hoạt trong dải chuẩn **[0.30s – 0.38s đến 0.85s – 1.80s]**:
+Triệt tiêu hoàn toàn sự gấp rút, thô cứng và máy móc bằng Ma trận Chuyển giao Đa nhịp điệu linh hoạt trong dải chuẩn tuyệt đối từ thấp nhất 0.45s đến cao nhất 1.20s **[0.45s – 1.20s]**:
 
 | Loại Chuyển Giao | Khoảng Đệm (`lead_in_pause`) | Ngữ Cảnh Kịch Nghệ & Động Từ Chỉ Thoại Đi Kèm |
 | :--- | :---: | :--- |
-| **Cắt lời tức thì (`instant_interruption`)** | `0.30s – 0.35s` | Đấu khẩu nảy lửa, cướp lời, quát tháo (*"quát lớn", "chém đứt lời", "hét"*). Nhịp ngắt dứt khoát nhưng có đệm tối thiểu 300ms chống giật cụt, nuốt âm. |
-| **Dẫn nhập thúc giục (`urgent_lead_in`)** | `0.35s – 0.40s` | Người dẫn chuyển khẩn cấp sang quân lệnh, tiếng hò reo xung trận hoặc biến cố chớp nhoáng (*"quát to,", "thét lớn,", "kinh hãi hô,"*). |
-| **Đối đáp thường nhật (`natural_dialogue_turn`)** | `0.42s – 0.50s` | Hội thoại tự nhiên giữa bạn bè, tri kỷ, trao đổi thế sự thông thường, đủ cho nhịp lấy hơi sinh học thoải mái. |
-| **Ngân rung thoại (`dialogue_resonance`)** | `0.50s – 0.60s` | Khoảng đệm sau khi nhân vật dứt lời thoại trước khi Người dẫn chuyện tiếp tục dẫn giải, để câu thoại ngấm sâu vào người nghe. |
-| **Trầm ngâm buông tiếng (`pensive_lead_in`)** | `0.60s – 0.75s` | Tiếng thở dài, tâm sự nặng trĩu, sầu muộn (*"thở dài", "trầm ngâm", "ngậm ngùi"*). |
-| **Trang nghiêm triều đình (`regal_ceremony`)** | `0.70s – 0.85s` | Khấu đầu bẩm báo thiên tử, tuyên chỉ, đối đáp quân thần cung kính, trang trọng. |
-| **Chết lặng kịch tính (`dramatic_silence`)** | `0.85s – 1.20s` | Khoảng lặng nín thở sau tin sét đánh, bàng hoàng chết lặng, hoặc đúc kết triết lý sống còn. |
-| **Đệm thở thi ca 3 tầng (`poetic_cushion`)** | `0.85s – 1.80s` | `0.85s - 1.20s` (Lead-in nhập bài) $\to$ `0.85s - 0.95s` (ngắt giữa các câu thơ) $\to$ `1.50s - 1.80s` (`. ......` Coda ngân vang kết bài). |
+| **Cắt lời tức thì (`instant_interruption`)** | `0.45s – 0.52s` | Đấu khẩu nảy lửa, cướp lời, quát tháo (*"quát lớn", "chém đứt lời", "hét"*). Nhịp ngắt dứt khoát nhưng có đệm tối thiểu 450ms chống giật cụt, bảo toàn trọn vẹn hơi thở người nói trước. |
+| **Dẫn nhập thúc giục (`urgent_lead_in`)** | `0.48s – 0.58s` | Người dẫn chuyển khẩn cấp sang quân lệnh, tiếng hò reo xung trận hoặc biến cố chớp nhoáng (*"quát to,", "thét lớn,", "kinh hãi hô,"*). |
+| **Đối đáp thường nhật (`natural_dialogue_turn`)** | `0.55s – 0.68s` | Hội thoại tự nhiên giữa bạn bè, tri kỷ, trao đổi thế sự thông thường, đủ cho nhịp lấy hơi sinh học thoải mái. |
+| **Ngân rung thoại (`dialogue_resonance`)** | `0.65s – 0.80s` | Khoảng đệm sau khi nhân vật dứt lời thoại trước khi Người dẫn chuyện tiếp tục dẫn giải, để câu thoại ngấm sâu vào người nghe. |
+| **Trầm ngâm buông tiếng (`pensive_lead_in`)** | `0.75s – 0.95s` | Tiếng thở dài, tâm sự nặng trĩu, sầu muộn (*"thở dài", "trầm ngâm", "ngậm ngùi"*). |
+| **Trang nghiêm triều đình (`regal_ceremony`)** | `0.80s – 1.00s` | Khấu đầu bẩm báo thiên tử, tuyên chỉ, đối đáp quân thần cung kính, trang trọng. |
+| **Chết lặng kịch tính (`dramatic_silence`)** | `1.00s – 1.20s` | Khoảng lặng nín thở sau tin sét đánh, bàng hoàng chết lặng, hoặc đúc kết triết lý sống còn. |
+| **Đệm thở thi ca 3 tầng (`poetic_cushion`)** | `0.52s – 1.20s` | `0.52s - 0.98s` (Lead-in nhập bài) $\to$ `0.52s - 0.65s` (`lead_in_pause: 0.55s` ngắt giữa các câu thơ) $\to$ `1.00s - 1.20s` (`. ......` Coda ngân vang kết bài). |
 
 - **Kỹ thuật ngắt nhịp kịch nghệ thông minh trong câu thoại (Dramatic Caesura):** Trong các câu thoại dài $>10$ từ mang xung đột tâm lý, Subagents bắt buộc đặt breathing comma `, ` tại các bước ngoặt cảm xúc (*"Ngươi, ngươi dám trái lệnh ta sao!"*, *"Ta nghĩ, sự nghiệp lớn này, không thể vội vàng được đâu!"*) giúp TTS lấy hơi đúng cảm xúc, triệt tiêu cảm giác đọc vội vã.
 - **Micro-fade 25ms & Hạ giọng dẫn tiếp giáp:** Tự động fade-in/out 25ms ở ranh giới câu thoại và đặt dấu phẩy `, ` sau động từ dẫn thoại để giọng dẫn hạ cao độ buông hơi êm ái trước khi nhân vật cất tiếng.
 - **Kỹ Thuật Hợp Xướng Thiêng Liêng (Solemn Unison Vow Technique):** Với các dòng `type: "dialogue"` thuộc `emotion: "regal_ceremony"` mà speaker là nhiều người phát ngôn đồng thời (Lời thề kết nghĩa, Tuyên cáo xuất chinh, Lời đồng ca vọng...): gán thêm trường `"chorus_effect": true` và `"reverb": "hall_medium"`, đặt `rate: "-8%"` chậm rãi trang trọng, `pitch: "0Hz"` cân bằng (tránh nghe bị kéo sai chiều). SA4 (Poetic Prosody & Narrator Director) có thể tái hiệu ứng vang vọng bằng chuỗi DSP parametric ATSE tự do: ví dụ `timbre_eq: "equalizer=f=250:t=q:w=2:g=3,aecho=0.6:0.4:30:0.25"` (reverb hall nhẹ + boost mid ấm trung). Đây là kỹ thuật cho phép 1 giọng TTS gợi lên cảm giác đồng thanh thiêng liêng qua hiệu ứng không gian cộng hưởng.
 
-### 1.7 Hội Đồng Đạo Diễn Kịch Nghệ $\ge 4-5$ Subagents Bắt Buộc
+### 1.7 Quy Chuẩn Bóc Tách Tư Thế & Sáp Nhập Thực Thể Cổ Phong (Action Stripping & Entity Unification)
+- **Bóc tách động từ tư thế & phó từ (Action & Posture Stripping):** Trong văn học cổ điển, các cử chỉ/hành vi tư thế (*đứng dậy, quỳ xuống, bước ra, ngoảnh lại, chắp tay, rút gươm, vỗ bàn...*) và phó từ (*lại, bèn, liền, vội...*) đi kèm sau tên nhân vật (*Doãn đứng dậy, Biểu lại, Doãn lại*) thuộc về lời dẫn của Người dẫn chuyện (Narrator), TUYỆT ĐỐI KHÔNG được gộp vào tên nhân vật.
+- **Sáp nhập thực thể đơn âm & danh xưng cổ (Classical Alias & Entity Unification):** Tên gọi đơn âm (*Doãn, Biểu, Trác, Bố, Thuyền, Lương, Tháo*) hoặc chức danh phong kiến (*Thái sư, Tư đồ, Châu mục, Thái thú, Thừa tướng*) BẮT BUỘC phải quy chuẩn về thực thể đầy đủ duy nhất trong `.theatrical_bible.json` (*Vuong_Doan, Luu_Bieu, Dong_Trac, La_Bo, Dieu_Thuyen, Khoai_Luong, Tao_Thao*). TUYỆT ĐỐI KHÔNG sinh ra các nhân vật dị bản rác (`Bieu_Lai`, `Doan_Dung_Day`, `Doan`, `Doan_Lai`, `Thuyen`, `Thai`...).
+- **Định danh đại từ phiếm chỉ theo ngữ cảnh (Context-Aware Pronoun Resolution):** Khi gặp đại từ phiếm chỉ (*Một người, Người ấy, Người kia*), Sub-agents phải thẩm định ngữ cảnh đoạn trước: nếu xảy ra tại phủ tướng, buồng trong, quán rượu và liên quan đến kẻ hầu/lính gác $\to$ gán chuẩn xác cho `Nguoi_Hau` (khí chất `xun_xoe_don_hen`, `timbre_eq: servile_flatterer`) hoặc `Linh_Canh` (`anh_hung_hao_sang`). CẤM gán nhầm sang nhân vật chính hoặc default `anh_hung_hao_sang`.
+
+### 1.8 Hội Đồng Đạo Diễn Kịch Nghệ $\ge 4-5$ Subagents Bắt Buộc $\ge 4-5$ Subagents Bắt Buộc
 AI Chính **bắt buộc kích hoạt đồng thời mảng tối thiểu 4 - 5 Subagents chuyên môn song song**:
 - **SA 1 (Speaker Attribution & Genre Classifier):** Thẩm định thể loại tác phẩm, bóc tách Lời dẫn vs Thoại vs Thơ, gán Speaker ID chuẩn xác.
 - **SA 2 (Character Arc & Bible Profiler):** Thẩm định 5 giai đoạn tuổi tác, 10 khí chất, xuất bản `.theatrical_bible.json`.
@@ -135,7 +140,7 @@ AI Chính **bắt buộc kích hoạt đồng thời mảng tối thiểu 4 - 5 
 ```mermaid
 flowchart TD
     P1["Pha 1: Thẩm Định Thể Loại & Phân Cảnh (AI Chính)\n- Thẩm định đa thể loại (Sử thi, Hiện thực, Tâm lý, Kiếm hiệp, Tùy bút)\n- Quét cấu trúc đối thoại, thi ca & nhân vật\n- Phân rã dòng cảm xúc Người dẫn chuyện theo Scene"] --> P2["Pha 2: Điều Phối Hội Đồng Tối Thiểu 4-5 Subagents Song Song\n- SA1: Speaker Attribution & Genre Classifier\n- SA2: Character Arc & Bible Profiler (.theatrical_bible.json)\n- SA3: Dramatic Setting & Emotional Dynamics\n- SA4: Poetic Prosody, Expressive Narrator & ATSE Modulator\n- SA5: Theatrical Dramaturg & Continuity QC"]
-    P2 --> P3["Pha 3: Tổng Hợp & Xuất Bản Kịch Bản Phân Vai\n- Ghép nối JSON toàn chương chuẩn hóa\n- Kiểm toán Seamless Handoff (đệm thở 0.28s - 0.35s, thơ 0.85s)\n- Xuất theatrical_script.json & chuyển Bước 08B"]
+    P2 --> P3["Pha 3: Tổng Hợp & Xuất Bản Kịch Bản Phân Vai\n- Ghép nối JSON toàn chương chuẩn hóa\n- Kiểm toán Seamless Handoff (đệm thở chuẩn 0.45s - 1.20s, thơ 0.90s)\n- Xuất theatrical_script.json & chuyển Bước 08B"]
 ```
 
 ### Pha 1: Thẩm định thể loại & Phân cảnh (Pre-checks)
@@ -182,7 +187,7 @@ invoke_subagent(
             "Prompt": (
                 "Đạo diễn Người dẫn chuyện và ngâm vịnh thi ca:\n"
                 "1. Người dẫn chuyện: Điều biến linh hoạt giữa 8 sắc thái thích ứng (epic, elegiac, contemplative, melancholic, satirical, existential...).\n"
-                "2. Thi ca ('type': 'poem'): Gán rate: '-18%', pitch: '-2Hz', lead_in_pause: '0.85s', timbre_eq: 'poetic_recitation'.\n"
+                "2. Thi ca ('type': 'poem'): Gán rate: '-18%', pitch: '-2Hz', lead_in_pause: '0.55s', timbre_eq: 'poetic_recitation'.\n"
                 "3. Kiến tạo cấu hình âm sắc timbre_eq theo 4 trục ATSE hoặc chuỗi DSP parametric."
             )
         },
@@ -192,7 +197,7 @@ invoke_subagent(
             "Prompt": (
                 "Tổng hợp, kiểm toán tính liền mạch và xuất bản theatrical_script.json:\n"
                 "1. Ghép nối kết quả từ 4 subagents thành tệp JSON hoàn chỉnh duy nhất.\n"
-                "2. Đảm bảo đệm thở chuyển giọng 0.28s - 0.35s giữa Dẫn chuyện và Thoại, đệm 1.5s cho nhịp thở . .......\n"
+                "2. Đảm bảo đệm thở chuyển giọng khóa cứng trong dải chuẩn 0.45s - 1.20s theo Ma Trận Chuyển Giao Âm Học Thích Ứng, đệm 1.5s cho nhịp thở . .......\n"
                 "3. Ghi file hoàn chỉnh vào [chapter]/theatrical_script.json."
             )
         }
@@ -229,7 +234,7 @@ Mọi chương hoàn thành Bước 08A phải xuất xưởng 2 file kịch ngh
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "0.30s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -242,7 +247,7 @@ Mọi chương hoàn thành Bước 08A phải xuất xưởng 2 file kịch ngh
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -281,7 +286,7 @@ Mọi chương hoàn thành Bước 08A phải xuất xưởng 2 file kịch ngh
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.50s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -297,7 +302,7 @@ Mọi chương hoàn thành Bước 08A phải xuất xưởng 2 file kịch ngh
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+5Hz",
     "rate": "+10%",
-    "lead_in_pause": "0.18s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "chest_resonance"
   },
   {
@@ -310,7 +315,7 @@ Mọi chương hoàn thành Bước 08A phải xuất xưởng 2 file kịch ngh
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.38s",
+    "lead_in_pause": "0.50s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -339,10 +344,13 @@ Mọi chương hoàn thành Bước 08A phải xuất xưởng 2 file kịch ngh
 - **CẤM AI CHÍNH TỰ ĐẠO DIỄN ĐƠN LẺ HOẶC DÙNG SCRIPT PYTHON THAY THẾ (ZERO-SOLO & NO-BYPASS CASTING VIOLATION):** Tuyệt đối cấm AI chính tự sinh `theatrical_script.json` một mình trong phiên chính hoặc gọi script Python regex (`core/theatrical_voice_director.py`) để làm tắt. Bắt buộc kích hoạt Hội đồng tối thiểu 4 - 5 Subagents song song qua `invoke_subagent`. Mọi file JSON sinh ra đơn lẻ mà không có lượt gọi `invoke_subagent` đều bị Cổng QC từ chối xuất xưởng!
 - **CẤM ĐỌC THƠ NHƯ VĂN XUÔI HOẶC BẢN TIN THỜI SỰ:** Tuyệt đối cấm gộp toàn bộ khổ thơ thành một đoạn văn xuôi duy nhất. Bắt buộc tách 100% câu thơ thành từng dòng `type: "poem"`, chèn nhịp caesura `, `, áp dụng tốc độ `-18%`, cao độ `-2Hz` và đệm thở 3 tầng.
 - **CẤM DUY TRÌ DUY NHẤT MỘT SẮC THÁI DẪN CHUYỆN ĐƠN ĐIỆU:** Nghiêm cấm gán cứng duy nhất một thiết lập máy móc (pitch 0Hz, rate -5%) cho Người kể chuyện xuyên suốt toàn bộ tác phẩm. AI phải trực tiếp cảm thụ bối cảnh phân cảnh để biến hóa linh hoạt giữa 8 sắc thái thích ứng.
-- **CẤM CỐ ĐỊNH TỐC ĐỘ CHUYỂN GIAO MÁY MÓC, THÔ CỨNG HOẶC GẤP RÚT:** Cấm gán một khoảng nghỉ duy nhất cho mọi trường hợp. Bắt buộc áp dụng Ma trận Chuyển giao Âm học Thích ứng: tức khắc 0.08s - 0.12s khi cướp lời cãi cọ, tự nhiên 0.30s - 0.38s khi đàm đạo, trang trọng 0.45s - 0.65s khi triều hội, và lắng sâu 0.75s - 1.10s khi chấn động tâm lý.
+- **CẤM CỐ ĐỊNH TỐC ĐỘ CHUYỂN GIAO MÁY MÓC, THÔ CỨNG HOẶC GẤP RÚT:** Cấm gán một khoảng nghỉ duy nhất cho mọi trường hợp. Bắt buộc áp dụng Ma trận Chuyển giao Âm học Thích ứng khóa cứng trong dải [0.45s – 1.20s]: cướp lời 0.45s - 0.52s, tự nhiên 0.55s - 0.68s khi đàm đạo, trang nghiêm 0.80s - 1.00s khi triều hội, và lắng sâu 1.00s - 1.20s khi chấn động tâm lý hoặc đệm thơ.
 - **CẤM ĐỌC THOẠI DỒN DẬP THIẾU BREATHING COMMAS:** Trong các câu thoại dài mang xung đột tâm lý, bắt buộc đặt breathing commas `, ` tại các điểm chuyển ý (Dramatic Caesura) giúp nhân vật lấy hơi tự nhiên và truyền tải sâu sắc khẩu khí kịch nghệ.
 - **CẤM DẢI CAO ĐỘ CO CỤM DƯỚI 2HZ CHO NHÂN VẬT:** Không được gán pitch hời hợt $\pm 1\text{Hz} \sim \pm 2\text{Hz}$ cho các tuyến nhân vật đối lập; phải mở rộng dải tương phản rõ rệt theo 5 độ tuổi, 10 khí chất và điêu khắc Formant ATSE.
 - **CẤM TUYỆT ĐỐI HÀNH VI CHỈ DÙNG 1 HOẶC 2 SUBAGENTS ĐỐI PHÓ:** Bắt buộc kích hoạt tối thiểu 4 – 5 Subagents chuyên môn song song.
 - **TUYỆT ĐỐI KHÔNG THU ÂM TRONG BƯỚC 08A:** Bước này chỉ chịu trách nhiệm đạo diễn kịch nghệ và xuất kịch bản JSON.
-- **CẤM PHÂN VỀ SAI KHÍ CHẤT DŨNG TƯỚNG (Inverted Warrior Casting):** Tuyệt đối không gán pitch dương (+3Hz hoặc cao hơn) cho nhân vật dũng tướng anh hùng hào sảng. Pitches cao gây giọng mỏng thé nghe như thiếu niên nóng nảy thay vì uy mãnh như sấm. Dũng tướng phải trầm uy (`pitch ≤ -2Hz`), nhanh dứt khoát (`rate ≥ +4%`) và dày lồng ngực (`chest_resonance`).
+- **CẤM PHÂN VỀ SAI KHÍ CHẤT DŨNG TƯỚNG (Inverted Warrior Casting):** Tuyệt đối không gán pitch dương (+3Hz hoặc cao hơn) cho nhân vật dũng tướng anh hùng hào sảng. Pitches cao gây giọng mỏng thé nghe như thiếu niên nóng nảy thay vì uy mãnh như sấm. Dũng tướng phải trầm uy (`pitch ≤ -2Hz`), dứt khoát (rate: 0% đến +2%) và dày lồng ngực (`chest_resonance`).
 - **CẤM OVER-CAESURA LÀM VỠ NHỊP THI CA (Anti Over-Caesura Rule):** Không ngắt thơ thất ngôn bằng dấu phẩy sau mỗi 2 từ (2/2/3). Luôn dùng ngắt 4/3 tự nhiên theo âm điệu thi pháp — câu thơ phải ngân vang liền mạch trong từng vế, không vấp váp từng đôi chữ.
+- **CẤM TỐC ĐỘ DỒN DẬP GÂY NUỐT ÂM & CẤM CHẬP GIỌNG / NGẮT CỤT HƠI (ZERO-OVERLAP & FULL-BREATH INVARIANT):** Tuyệt đối CẤM gán rate > +2% (như +4%, +6%, +8%) cho bất kỳ câu thoại kịch nghệ nào; phải thể hiện sự căm phẫn/quát tháo bằng Pitch và Formant EQ chứ không tăng tốc dồn dập làm nuốt âm tiết cuối. Bắt buộc để hơi thở và âm tàn của câu trước thoát ra 100% tự nhiên trước khi người tiếp theo cất lời (khoảng chuyển giao giữa 2 nhân vật tối thiểu 0.48s, dải chuẩn [0.45s – 1.20s]), triệt tiêu hoàn toàn cảm giác chập giọng hoặc hơi chưa ra hết đã bị ngắt.
+- **CẤM SINH NHÂN VẬT DƯ THỪA TỪ TƯ THẾ, PHÓ TỪ HOẶC TÊN ĐƠN ÂM (ZERO-PHANTOM ENTITY INVARIANT):** Tuyệt đối CẤM tạo ra các thực thể rác do nuốt phó từ/tư thế (*Doan_Dung_Day, Doan_Lai, Bieu_Lai*) hoặc do tách rời tên đơn âm (*Doan, Bieu, Thuyen*). Toàn bộ phải được sáp nhập nhất quán 100% vào nhân vật chính chủ (*Vuong_Doan, Luu_Bieu, Dieu_Thuyen*).
+- **CẤM GÁN SAI VAI CHO ĐẠI TỪ PHIẾM CHỈ (CONTEXT-AWARE PRONOUN INVARIANT):** Tuyệt đối CẤM gán mặc định "anh hùng hào sảng" cho đại từ phiếm chỉ (*Một người, Kẻ ấy*). Bắt buộc phân tích ngữ cảnh để gán đúng thân phận (người hầu, lính gác, thị nữ) với đúng khí chất (*xun_xoe_don_hen, servile_flatterer*).

@@ -22,7 +22,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -35,7 +35,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+0Hz",
     "rate": "-5%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "intimate_narrator"
   },
   {
@@ -48,7 +48,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -61,7 +61,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -77,7 +77,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-1Hz",
     "rate": "-6%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "tragic_grief"
   },
   {
@@ -90,7 +90,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -100,13 +100,13 @@
     "speaker": "Vien_Thieu",
     "character_name": "Viên Thiệu",
     "text": "Huyền Đức vừa đánh em ta, đáng nhẽ không giúp, nhưng vì có lời của Trịnh thượng thư.",
-    "age_stage": "thanh_xuan",
+    "age_stage": "trung_nien",
     "temperament": "hach_dich_bao_nguoc",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "+4Hz",
-    "rate": "+8%",
-    "lead_in_pause": "0.65s",
+    "pitch": "-1Hz",
+    "rate": "-2%",
+    "lead_in_pause": "0.75s",
     "timbre_eq": "tyrant_arrogant"
   },
   {
@@ -132,7 +132,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -142,13 +142,13 @@
     "speaker": "Vien_Thieu",
     "character_name": "Viên Thiệu",
     "text": "Hai người kiến thức rộng, thử xem chủ trương thế nào?",
-    "age_stage": "thanh_xuan",
+    "age_stage": "trung_nien",
     "temperament": "hach_dich_bao_nguoc",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "+4Hz",
-    "rate": "+8%",
-    "lead_in_pause": "0.42s",
+    "pitch": "-1Hz",
+    "rate": "-2%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "tyrant_arrogant"
   },
   {
@@ -161,15 +161,15 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 13,
     "chunk_id": 2,
     "type": "dialogue",
-    "speaker": "Hai_Nguoi_Dong_Thanh",
-    "character_name": "Hai Người Đồng Thanh",
+    "speaker": "Quan_Si",
+    "character_name": "Quân Sĩ",
     "text": "Minh công lấy nhiều đánh ít, lấy khỏe đánh yếu, giết giặc Tào để giúp nhà Hán.",
     "age_stage": "thanh_xuan",
     "temperament": "anh_hung_hao_sang",
@@ -177,7 +177,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+5Hz",
     "rate": "+10%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "chest_resonance"
   },
   {
@@ -190,7 +190,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -200,13 +200,13 @@
     "speaker": "Vien_Thieu",
     "character_name": "Viên Thiệu",
     "text": "Hai người nói chính hợp ý ta!",
-    "age_stage": "thanh_xuan",
+    "age_stage": "trung_nien",
     "temperament": "hach_dich_bao_nguoc",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "+4Hz",
-    "rate": "+8%",
-    "lead_in_pause": "0.42s",
+    "pitch": "-1Hz",
+    "rate": "-2%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "tyrant_arrogant"
   },
   {
@@ -232,7 +232,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.30s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -245,7 +245,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.30s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -271,7 +271,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.30s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -284,15 +284,15 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 22,
     "chunk_id": 7,
     "type": "dialogue",
-    "speaker": "Hong",
-    "character_name": "Hồng",
+    "speaker": "Tao_Hong",
+    "character_name": "Tào Hồng",
     "text": "Bài ấy nghe đâu của Trần Lâm soạn.",
     "age_stage": "thanh_xuan",
     "temperament": "anh_hung_hao_sang",
@@ -300,7 +300,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-1Hz",
     "rate": "+2%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "warm_authority"
   },
   {
@@ -313,7 +313,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -329,7 +329,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-4%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "warm_authority"
   },
   {
@@ -355,7 +355,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -371,7 +371,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-4%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "warm_authority"
   },
   {
@@ -384,24 +384,24 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 29,
     "chunk_id": 8,
     "type": "dialogue",
-    "speaker": "Trung",
-    "character_name": "Trung",
+    "speaker": "Hoang_Trung",
+    "character_name": "Hoàng Trung",
     "text": "Thừa tướng sai anh đi đánh trước kia mà!",
-    "age_stage": "thanh_xuan",
+    "age_stage": "lao_hoa",
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-1Hz",
-    "rate": "+2%",
-    "lead_in_pause": "0.42s",
-    "timbre_eq": "warm_authority"
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "aged_gravel"
   },
   {
     "line_id": 30,
@@ -413,24 +413,24 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 31,
     "chunk_id": 8,
     "type": "dialogue",
-    "speaker": "Trung",
-    "character_name": "Trung",
+    "speaker": "Hoang_Trung",
+    "character_name": "Hoàng Trung",
     "text": "Thế thì anh với tôi cùng đi.",
-    "age_stage": "thanh_xuan",
+    "age_stage": "lao_hoa",
     "temperament": "anh_hung_hao_sang",
     "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-6Hz",
-    "rate": "-8%",
-    "lead_in_pause": "0.42s",
-    "timbre_eq": "tragic_grief"
+    "pitch": "-10Hz",
+    "rate": "-25%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "aged_gravel"
   },
   {
     "line_id": 32,
@@ -442,24 +442,24 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 33,
     "chunk_id": 8,
     "type": "dialogue",
-    "speaker": "Dang",
-    "character_name": "Đăng",
+    "speaker": "Tran_Dang",
+    "character_name": "Trần Đăng",
     "text": "Tào Tháo trăm nghìn quỷ kế, tất nó lấy Hà Bắc làm trọng, phải tự mình đôn đốc ở đấy.",
     "age_stage": "thanh_xuan",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "giao_hoat_nham_hiem",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-1Hz",
-    "rate": "+2%",
-    "lead_in_pause": "0.42s",
-    "timbre_eq": "warm_authority"
+    "pitch": "+2Hz",
+    "rate": "-2%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "sharp_cunning"
   },
   {
     "line_id": 34,
@@ -484,7 +484,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -500,7 +500,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+4Hz",
     "rate": "+4%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "warm_authority"
   },
   {
@@ -513,7 +513,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -529,7 +529,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-4%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "warm_authority"
   },
   {
@@ -542,24 +542,24 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 40,
     "chunk_id": 9,
     "type": "dialogue",
-    "speaker": "Trung",
-    "character_name": "Trung",
+    "speaker": "Hoang_Trung",
+    "character_name": "Hoàng Trung",
     "text": "Thừa tướng đến đây sao không hàng?",
-    "age_stage": "thanh_xuan",
+    "age_stage": "lao_hoa",
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-1Hz",
-    "rate": "+2%",
-    "lead_in_pause": "0.42s",
-    "timbre_eq": "warm_authority"
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "aged_gravel"
   },
   {
     "line_id": 41,
@@ -571,24 +571,24 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 42,
     "chunk_id": 9,
     "type": "dialogue",
-    "speaker": "Trung",
-    "character_name": "Trung",
+    "speaker": "Hoang_Trung",
+    "character_name": "Hoàng Trung",
     "text": "Thừa tướng nào lại thèm ra nói chuyện với mày!",
-    "age_stage": "thanh_xuan",
+    "age_stage": "lao_hoa",
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-1Hz",
-    "rate": "+2%",
-    "lead_in_pause": "0.42s",
-    "timbre_eq": "warm_authority"
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "aged_gravel"
   },
   {
     "line_id": 43,
@@ -600,7 +600,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -616,7 +616,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+4Hz",
     "rate": "+4%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "warm_authority"
   },
   {
@@ -629,7 +629,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -645,7 +645,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-7Hz",
     "rate": "-14%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "tragic_grief"
   },
   {
@@ -658,7 +658,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -674,7 +674,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-1Hz",
     "rate": "+2%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "chest_resonance"
   },
   {
@@ -687,7 +687,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -703,7 +703,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-1Hz",
     "rate": "+2%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "chest_resonance"
   },
   {
@@ -716,7 +716,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.35s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -732,7 +732,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+5Hz",
     "rate": "+10%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "chest_resonance"
   },
   {
@@ -745,7 +745,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "-8%",
-    "lead_in_pause": "0.45s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "suspense_narrator"
   },
   {
@@ -761,7 +761,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-1Hz",
     "rate": "+2%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "chest_resonance"
   },
   {
@@ -774,7 +774,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "-8%",
-    "lead_in_pause": "0.45s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "suspense_narrator"
   },
   {
@@ -790,7 +790,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+10Hz",
     "rate": "+12%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "warm_authority"
   },
   {
@@ -832,7 +832,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-4%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "warm_authority"
   },
   {
@@ -861,7 +861,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+4Hz",
     "rate": "+4%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "warm_authority"
   },
   {
@@ -890,7 +890,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-1Hz",
     "rate": "+2%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "chest_resonance"
   },
   {
@@ -919,7 +919,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+8Hz",
     "rate": "+6%",
-    "lead_in_pause": "0.42s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "sharp_cunning"
   },
   {

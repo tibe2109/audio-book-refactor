@@ -1,0 +1,1212 @@
+{
+  "book_name": "Tam-Quoc-Dien-Nghia",
+  "book_dir": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia",
+  "final_dir": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/Final-Tam-Quoc-Dien-Nghia",
+  "created_at": "2026-09-18T11:21:53.798913",
+  "updated_at": "2026-09-19T04:02:11.127378",
+  "total_audio_files": 120,
+  "completed_videos": 120,
+  "failed_videos": 0,
+  "videos": {
+    "Final_Audio_01-Hoi-01_Part1.mp3": {
+      "audio_file": "Final_Audio_01-Hoi-01_Part1.mp3",
+      "video_file": "Final_Video_01-Hoi-01_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1387.75,
+      "rendered_at": "2026-09-18T17:02:55.270141",
+      "file_size": 135649442,
+      "video_duration": 1387.71,
+      "render_time_sec": 393.3
+    },
+    "Final_Audio_03-Hoi-03_Part1.mp3": {
+      "audio_file": "Final_Audio_03-Hoi-03_Part1.mp3",
+      "video_file": "Final_Video_03-Hoi-03_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1470.36,
+      "rendered_at": "2026-09-18T17:17:12.546939",
+      "file_size": 144126379,
+      "video_duration": 1470.315,
+      "render_time_sec": 827.4
+    },
+    "Final_Audio_02-Hoi-02_Part1.mp3": {
+      "audio_file": "Final_Audio_02-Hoi-02_Part1.mp3",
+      "video_file": "Final_Video_02-Hoi-02_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1668.79,
+      "rendered_at": "2026-09-18T17:19:04.005367",
+      "file_size": 163003850,
+      "video_duration": 1668.753,
+      "render_time_sec": 938.8
+    },
+    "Final_Audio_04-Hoi-04_Part1.mp3": {
+      "audio_file": "Final_Audio_04-Hoi-04_Part1.mp3",
+      "video_file": "Final_Video_04-Hoi-04_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1270.761167,
+      "rendered_at": "2026-09-18T17:29:06.220903",
+      "file_size": 124645511,
+      "video_duration": 1270.76,
+      "render_time_sec": 713.1
+    },
+    "Final_Audio_05-Hoi-05_Part1.mp3": {
+      "audio_file": "Final_Audio_05-Hoi-05_Part1.mp3",
+      "video_file": "Final_Video_05-Hoi-05_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1604.385667,
+      "rendered_at": "2026-09-18T17:34:02.345106",
+      "file_size": 156978734,
+      "video_duration": 1604.385,
+      "render_time_sec": 898.0
+    },
+    "Final_Audio_06-Hoi-06_Part1.mp3": {
+      "audio_file": "Final_Audio_06-Hoi-06_Part1.mp3",
+      "video_file": "Final_Video_06-Hoi-06_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1218.855229,
+      "rendered_at": "2026-09-18T17:40:04.547979",
+      "file_size": 119081709,
+      "video_duration": 1218.84,
+      "render_time_sec": 657.7
+    },
+    "Final_Audio_07-Hoi-07_Part1.mp3": {
+      "audio_file": "Final_Audio_07-Hoi-07_Part1.mp3",
+      "video_file": "Final_Video_07-Hoi-07_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1286.452292,
+      "rendered_at": "2026-09-18T17:45:28.050264",
+      "file_size": 125770920,
+      "video_duration": 1286.44,
+      "render_time_sec": 685.4
+    },
+    "Final_Audio_08-Hoi-08_Part1.mp3": {
+      "audio_file": "Final_Audio_08-Hoi-08_Part1.mp3",
+      "video_file": "Final_Video_08-Hoi-08_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1231.733583,
+      "rendered_at": "2026-09-18T17:50:53.906509",
+      "file_size": 120684724,
+      "video_duration": 1231.72,
+      "render_time_sec": 649.1
+    },
+    "Final_Audio_09-Hoi-09_Part1.mp3": {
+      "audio_file": "Final_Audio_09-Hoi-09_Part1.mp3",
+      "video_file": "Final_Video_09-Hoi-09_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1484.904979,
+      "rendered_at": "2026-09-18T17:58:06.601437",
+      "file_size": 145281277,
+      "video_duration": 1484.905,
+      "render_time_sec": 758.1
+    },
+    "Final_Audio_10-Hoi-10_Part1.mp3": {
+      "audio_file": "Final_Audio_10-Hoi-10_Part1.mp3",
+      "video_file": "Final_Video_10-Hoi-10_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1140.730875,
+      "rendered_at": "2026-09-18T17:59:26.254246",
+      "file_size": 111940811,
+      "video_duration": 1140.72,
+      "render_time_sec": 512.0
+    },
+    "Final_Audio_12-Hoi-12_Part1.mp3": {
+      "audio_file": "Final_Audio_12-Hoi-12_Part1.mp3",
+      "video_file": "Final_Video_12-Hoi-12_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1247.228292,
+      "rendered_at": "2026-09-18T18:10:58.963631",
+      "file_size": 121936314,
+      "video_duration": 1247.228,
+      "render_time_sec": 636.6
+    },
+    "Final_Audio_11-Hoi-11_Part1.mp3": {
+      "audio_file": "Final_Audio_11-Hoi-11_Part1.mp3",
+      "video_file": "Final_Video_11-Hoi-11_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1550.501792,
+      "rendered_at": "2026-09-18T18:13:35.167591",
+      "file_size": 151950358,
+      "video_duration": 1550.502,
+      "render_time_sec": 792.8
+    },
+    "Final_Audio_13-Hoi-13_Part1.mp3": {
+      "audio_file": "Final_Audio_13-Hoi-13_Part1.mp3",
+      "video_file": "Final_Video_13-Hoi-13_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1649.947875,
+      "rendered_at": "2026-09-18T18:24:45.002738",
+      "file_size": 161064553,
+      "video_duration": 1649.948,
+      "render_time_sec": 825.7
+    },
+    "Final_Audio_14-Hoi-14_Part1.mp3": {
+      "audio_file": "Final_Audio_14-Hoi-14_Part1.mp3",
+      "video_file": "Final_Video_14-Hoi-14_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1752.731917,
+      "rendered_at": "2026-09-18T18:27:56.062596",
+      "file_size": 171581305,
+      "video_duration": 1752.72,
+      "render_time_sec": 860.6
+    },
+    "Final_Audio_15-Hoi-15_Part1.mp3": {
+      "audio_file": "Final_Audio_15-Hoi-15_Part1.mp3",
+      "video_file": "Final_Video_15-Hoi-15_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1926.544167,
+      "rendered_at": "2026-09-18T18:40:29.193843",
+      "file_size": 188278941,
+      "video_duration": 1926.544,
+      "render_time_sec": 943.8
+    },
+    "Final_Audio_16-Hoi-16_Part1.mp3": {
+      "audio_file": "Final_Audio_16-Hoi-16_Part1.mp3",
+      "video_file": "Final_Video_16-Hoi-16_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1818.744,
+      "rendered_at": "2026-09-18T18:42:47.742240",
+      "file_size": 177653877,
+      "video_duration": 1818.744,
+      "render_time_sec": 891.4
+    },
+    "Final_Audio_17-Hoi-17_Part1.mp3": {
+      "audio_file": "Final_Audio_17-Hoi-17_Part1.mp3",
+      "video_file": "Final_Video_17-Hoi-17_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1204.736583,
+      "rendered_at": "2026-09-18T18:50:09.430442",
+      "file_size": 117912124,
+      "video_duration": 1204.72,
+      "render_time_sec": 579.7
+    },
+    "Final_Audio_18-Hoi-18_Part1.mp3": {
+      "audio_file": "Final_Audio_18-Hoi-18_Part1.mp3",
+      "video_file": "Final_Video_18-Hoi-18_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1021.5585,
+      "rendered_at": "2026-09-18T18:51:00.904051",
+      "file_size": 100279204,
+      "video_duration": 1021.558,
+      "render_time_sec": 492.8
+    },
+    "Final_Audio_20-Hoi-20_Part1.mp3": {
+      "audio_file": "Final_Audio_20-Hoi-20_Part1.mp3",
+      "video_file": "Final_Video_20-Hoi-20_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1229.229583,
+      "rendered_at": "2026-09-18T19:00:56.208019",
+      "file_size": 120019421,
+      "video_duration": 1229.229,
+      "render_time_sec": 595.0
+    },
+    "Final_Audio_19-Hoi-19_Part1.mp3": {
+      "audio_file": "Final_Audio_19-Hoi-19_Part1.mp3",
+      "video_file": "Final_Video_19-Hoi-19_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1786.866292,
+      "rendered_at": "2026-09-18T19:04:30.196332",
+      "file_size": 174634197,
+      "video_duration": 1786.866,
+      "render_time_sec": 860.4
+    },
+    "Final_Audio_21-Hoi-21_Part1.mp3": {
+      "audio_file": "Final_Audio_21-Hoi-21_Part1.mp3",
+      "video_file": "Final_Video_21-Hoi-21_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1310.883,
+      "rendered_at": "2026-09-18T19:11:31.509049",
+      "file_size": 128505197,
+      "video_duration": 1310.88,
+      "render_time_sec": 634.9
+    },
+    "Final_Audio_22-Hoi-22_Part1.mp3": {
+      "audio_file": "Final_Audio_22-Hoi-22_Part1.mp3",
+      "video_file": "Final_Video_22-Hoi-22_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1523.748333,
+      "rendered_at": "2026-09-18T19:16:56.477606",
+      "file_size": 149188170,
+      "video_duration": 1523.748,
+      "render_time_sec": 746.0
+    },
+    "Final_Audio_24-Hoi-24_Part1.mp3": {
+      "audio_file": "Final_Audio_24-Hoi-24_Part1.mp3",
+      "video_file": "Final_Video_24-Hoi-24_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 794.916458,
+      "rendered_at": "2026-09-18T19:23:29.434370",
+      "file_size": 77925659,
+      "video_duration": 794.916,
+      "render_time_sec": 392.6
+    },
+    "Final_Audio_23-Hoi-23_Part1.mp3": {
+      "audio_file": "Final_Audio_23-Hoi-23_Part1.mp3",
+      "video_file": "Final_Video_23-Hoi-23_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1576.011333,
+      "rendered_at": "2026-09-18T19:24:19.886127",
+      "file_size": 154171881,
+      "video_duration": 1576.0,
+      "render_time_sec": 768.0
+    },
+    "Final_Audio_26-Hoi-26_Part1.mp3": {
+      "audio_file": "Final_Audio_26-Hoi-26_Part1.mp3",
+      "video_file": "Final_Video_26-Hoi-26_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1080.938458,
+      "rendered_at": "2026-09-18T19:33:10.997197",
+      "file_size": 106148486,
+      "video_duration": 1080.92,
+      "render_time_sec": 530.7
+    },
+    "Final_Audio_25-Hoi-25_Part1.mp3": {
+      "audio_file": "Final_Audio_25-Hoi-25_Part1.mp3",
+      "video_file": "Final_Video_25-Hoi-25_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1337.997417,
+      "rendered_at": "2026-09-18T19:34:20.925481",
+      "file_size": 130697663,
+      "video_duration": 1337.997,
+      "render_time_sec": 651.1
+    },
+    "Final_Audio_27-Hoi-27_Part1.mp3": {
+      "audio_file": "Final_Audio_27-Hoi-27_Part1.mp3",
+      "video_file": "Final_Video_27-Hoi-27_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1330.451667,
+      "rendered_at": "2026-09-18T19:44:06.591580",
+      "file_size": 130485421,
+      "video_duration": 1330.44,
+      "render_time_sec": 655.0
+    },
+    "Final_Audio_28-Hoi-28_Part1.mp3": {
+      "audio_file": "Final_Audio_28-Hoi-28_Part1.mp3",
+      "video_file": "Final_Video_28-Hoi-28_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1563.379417,
+      "rendered_at": "2026-09-18T19:47:08.555254",
+      "file_size": 153011624,
+      "video_duration": 1563.36,
+      "render_time_sec": 767.4
+    },
+    "Final_Audio_29-Hoi-29_Part1.mp3": {
+      "audio_file": "Final_Audio_29-Hoi-29_Part1.mp3",
+      "video_file": "Final_Video_29-Hoi-29_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1318.409583,
+      "rendered_at": "2026-09-18T19:54:56.289682",
+      "file_size": 128742456,
+      "video_duration": 1318.4,
+      "render_time_sec": 649.1
+    },
+    "Final_Audio_30-Hoi-30_Part1.mp3": {
+      "audio_file": "Final_Audio_30-Hoi-30_Part1.mp3",
+      "video_file": "Final_Video_30-Hoi-30_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1468.098458,
+      "rendered_at": "2026-09-18T19:57:07.116254",
+      "file_size": 143460917,
+      "video_duration": 1468.08,
+      "render_time_sec": 598.3
+    },
+    "Final_Audio_31-Hoi-31_Part1.mp3": {
+      "audio_file": "Final_Audio_31-Hoi-31_Part1.mp3",
+      "video_file": "Final_Video_31-Hoi-31_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1310.566,
+      "rendered_at": "2026-09-18T20:09:16.860113",
+      "file_size": 128578594,
+      "video_duration": 1310.56,
+      "render_time_sec": 641.3
+    },
+    "Final_Audio_32-Hoi-32_Part1.mp3": {
+      "audio_file": "Final_Audio_32-Hoi-32_Part1.mp3",
+      "video_file": "Final_Video_32-Hoi-32_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1492.341042,
+      "rendered_at": "2026-09-18T20:10:42.947197",
+      "file_size": 146189807,
+      "video_duration": 1492.341,
+      "render_time_sec": 727.4
+    },
+    "Final_Audio_34-Hoi-34_Part1.mp3": {
+      "audio_file": "Final_Audio_34-Hoi-34_Part1.mp3",
+      "video_file": "Final_Video_34-Hoi-34_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1166.524292,
+      "rendered_at": "2026-09-18T20:20:19.923275",
+      "file_size": 114150741,
+      "video_duration": 1166.52,
+      "render_time_sec": 576.6
+    },
+    "Final_Audio_33-Hoi-33_Part1.mp3": {
+      "audio_file": "Final_Audio_33-Hoi-33_Part1.mp3",
+      "video_file": "Final_Video_33-Hoi-33_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1421.542792,
+      "rendered_at": "2026-09-18T20:20:54.949169",
+      "file_size": 139286540,
+      "video_duration": 1421.543,
+      "render_time_sec": 697.7
+    },
+    "Final_Audio_35-Hoi-35_Part1.mp3": {
+      "audio_file": "Final_Audio_35-Hoi-35_Part1.mp3",
+      "video_file": "Final_Video_35-Hoi-35_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1014.126375,
+      "rendered_at": "2026-09-18T20:28:37.073126",
+      "file_size": 99390695,
+      "video_duration": 1014.12,
+      "render_time_sec": 496.7
+    },
+    "Final_Audio_36-Hoi-36_Part1.mp3": {
+      "audio_file": "Final_Audio_36-Hoi-36_Part1.mp3",
+      "video_file": "Final_Video_36-Hoi-36_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1112.724229,
+      "rendered_at": "2026-09-18T20:29:58.788889",
+      "file_size": 109081169,
+      "video_duration": 1112.72,
+      "render_time_sec": 543.6
+    },
+    "Final_Audio_37-Hoi-37_Part1.mp3": {
+      "audio_file": "Final_Audio_37-Hoi-37_Part1.mp3",
+      "video_file": "Final_Video_37-Hoi-37_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1301.988417,
+      "rendered_at": "2026-09-18T20:39:22.797923",
+      "file_size": 127544883,
+      "video_duration": 1301.988,
+      "render_time_sec": 645.4
+    },
+    "Final_Audio_38-Hoi-38_Part1.mp3": {
+      "audio_file": "Final_Audio_38-Hoi-38_Part1.mp3",
+      "video_file": "Final_Video_38-Hoi-38_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1378.628667,
+      "rendered_at": "2026-09-18T20:41:20.817713",
+      "file_size": 134664155,
+      "video_duration": 1378.628,
+      "render_time_sec": 681.6
+    },
+    "Final_Audio_39-Hoi-39_Part1.mp3": {
+      "audio_file": "Final_Audio_39-Hoi-39_Part1.mp3",
+      "video_file": "Final_Video_39-Hoi-39_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1272.756979,
+      "rendered_at": "2026-09-18T20:49:52.464047",
+      "file_size": 124705451,
+      "video_duration": 1272.757,
+      "render_time_sec": 629.3
+    },
+    "Final_Audio_40-Hoi-40_Part1.mp3": {
+      "audio_file": "Final_Audio_40-Hoi-40_Part1.mp3",
+      "video_file": "Final_Video_40-Hoi-40_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1203.3405,
+      "rendered_at": "2026-09-18T20:51:18.399121",
+      "file_size": 117958131,
+      "video_duration": 1203.34,
+      "render_time_sec": 597.3
+    },
+    "Final_Audio_42-Hoi-42_Part1.mp3": {
+      "audio_file": "Final_Audio_42-Hoi-42_Part1.mp3",
+      "video_file": "Final_Video_42-Hoi-42_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 973.789,
+      "rendered_at": "2026-09-18T20:59:22.058340",
+      "file_size": 95447451,
+      "video_duration": 973.789,
+      "render_time_sec": 483.3
+    },
+    "Final_Audio_41-Hoi-41_Part1.mp3": {
+      "audio_file": "Final_Audio_41-Hoi-41_Part1.mp3",
+      "video_file": "Final_Video_41-Hoi-41_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1527.5335,
+      "rendered_at": "2026-09-18T21:02:26.923920",
+      "file_size": 149322018,
+      "video_duration": 1527.52,
+      "render_time_sec": 754.1
+    },
+    "Final_Audio_43-Hoi-43_Part1.mp3": {
+      "audio_file": "Final_Audio_43-Hoi-43_Part1.mp3",
+      "video_file": "Final_Video_43-Hoi-43_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1443.131625,
+      "rendered_at": "2026-09-18T21:11:15.982983",
+      "file_size": 141302382,
+      "video_duration": 1443.12,
+      "render_time_sec": 713.7
+    },
+    "Final_Audio_44-Hoi-44_Part1.mp3": {
+      "audio_file": "Final_Audio_44-Hoi-44_Part1.mp3",
+      "video_file": "Final_Video_44-Hoi-44_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1168.271083,
+      "rendered_at": "2026-09-18T21:12:07.303887",
+      "file_size": 114074780,
+      "video_duration": 1168.271,
+      "render_time_sec": 579.9
+    },
+    "Final_Audio_46-Hoi-46_Part1.mp3": {
+      "audio_file": "Final_Audio_46-Hoi-46_Part1.mp3",
+      "video_file": "Final_Video_46-Hoi-46_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1158.671167,
+      "rendered_at": "2026-09-18T21:21:45.540301",
+      "file_size": 113153971,
+      "video_duration": 1158.671,
+      "render_time_sec": 577.9
+    },
+    "Final_Audio_45-Hoi-45_Part1.mp3": {
+      "audio_file": "Final_Audio_45-Hoi-45_Part1.mp3",
+      "video_file": "Final_Video_45-Hoi-45_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1449.83675,
+      "rendered_at": "2026-09-18T21:23:11.088348",
+      "file_size": 141508756,
+      "video_duration": 1449.837,
+      "render_time_sec": 714.7
+    },
+    "Final_Audio_48-Hoi-48_Part1.mp3": {
+      "audio_file": "Final_Audio_48-Hoi-48_Part1.mp3",
+      "video_file": "Final_Video_48-Hoi-48_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 892.083313,
+      "rendered_at": "2026-09-18T21:30:34.521830",
+      "file_size": 87594177,
+      "video_duration": 892.08,
+      "render_time_sec": 443.0
+    },
+    "Final_Audio_47-Hoi-47_Part1.mp3": {
+      "audio_file": "Final_Audio_47-Hoi-47_Part1.mp3",
+      "video_file": "Final_Video_47-Hoi-47_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1077.512083,
+      "rendered_at": "2026-09-18T21:30:34.689347",
+      "file_size": 105313679,
+      "video_duration": 1077.512,
+      "render_time_sec": 528.4
+    },
+    "Final_Audio_50-Hoi-50_Part1.mp3": {
+      "audio_file": "Final_Audio_50-Hoi-50_Part1.mp3",
+      "video_file": "Final_Video_50-Hoi-50_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1041.988958,
+      "rendered_at": "2026-09-18T21:39:08.400828",
+      "file_size": 102226322,
+      "video_duration": 1041.989,
+      "render_time_sec": 513.5
+    },
+    "Final_Audio_49-Hoi-49_Part1.mp3": {
+      "audio_file": "Final_Audio_49-Hoi-49_Part1.mp3",
+      "video_file": "Final_Video_49-Hoi-49_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1335.378958,
+      "rendered_at": "2026-09-18T21:41:28.766131",
+      "file_size": 130567966,
+      "video_duration": 1335.36,
+      "render_time_sec": 654.1
+    },
+    "Final_Audio_51-Hoi-51_Part1.mp3": {
+      "audio_file": "Final_Audio_51-Hoi-51_Part1.mp3",
+      "video_file": "Final_Video_51-Hoi-51_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1123.14225,
+      "rendered_at": "2026-09-18T21:48:19.032794",
+      "file_size": 110064175,
+      "video_duration": 1123.142,
+      "render_time_sec": 550.2
+    },
+    "Final_Audio_52-Hoi-52_Part1.mp3": {
+      "audio_file": "Final_Audio_52-Hoi-52_Part1.mp3",
+      "video_file": "Final_Video_52-Hoi-52_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1170.013813,
+      "rendered_at": "2026-09-18T21:51:05.696522",
+      "file_size": 114107271,
+      "video_duration": 1170.0,
+      "render_time_sec": 576.5
+    },
+    "Final_Audio_53-Hoi-53_Part1.mp3": {
+      "audio_file": "Final_Audio_53-Hoi-53_Part1.mp3",
+      "video_file": "Final_Video_53-Hoi-53_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1251.897792,
+      "rendered_at": "2026-09-18T21:58:35.932670",
+      "file_size": 122668284,
+      "video_duration": 1251.88,
+      "render_time_sec": 616.5
+    },
+    "Final_Audio_54-Hoi-54_Part1.mp3": {
+      "audio_file": "Final_Audio_54-Hoi-54_Part1.mp3",
+      "video_file": "Final_Video_54-Hoi-54_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1355.592979,
+      "rendered_at": "2026-09-18T22:02:20.647296",
+      "file_size": 132566955,
+      "video_duration": 1355.593,
+      "render_time_sec": 674.7
+    },
+    "Final_Audio_55-Hoi-55_Part1.mp3": {
+      "audio_file": "Final_Audio_55-Hoi-55_Part1.mp3",
+      "video_file": "Final_Video_55-Hoi-55_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1123.077625,
+      "rendered_at": "2026-09-18T22:07:53.051971",
+      "file_size": 110053111,
+      "video_duration": 1123.077,
+      "render_time_sec": 556.7
+    },
+    "Final_Audio_56-Hoi-56_Part1.mp3": {
+      "audio_file": "Final_Audio_56-Hoi-56_Part1.mp3",
+      "video_file": "Final_Video_56-Hoi-56_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1272.141542,
+      "rendered_at": "2026-09-18T22:12:48.338760",
+      "file_size": 124704028,
+      "video_duration": 1272.141,
+      "render_time_sec": 627.2
+    },
+    "Final_Audio_57-Hoi-57_Part1.mp3": {
+      "audio_file": "Final_Audio_57-Hoi-57_Part1.mp3",
+      "video_file": "Final_Video_57-Hoi-57_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1515.900083,
+      "rendered_at": "2026-09-18T22:20:30.290529",
+      "file_size": 148290643,
+      "video_duration": 1515.9,
+      "render_time_sec": 756.9
+    },
+    "Final_Audio_58-Hoi-58_Part1.mp3": {
+      "audio_file": "Final_Audio_58-Hoi-58_Part1.mp3",
+      "video_file": "Final_Video_58-Hoi-58_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1309.405458,
+      "rendered_at": "2026-09-18T22:23:49.109148",
+      "file_size": 127840610,
+      "video_duration": 1309.4,
+      "render_time_sec": 660.4
+    },
+    "Final_Audio_59-Hoi-59_Part1.mp3": {
+      "audio_file": "Final_Audio_59-Hoi-59_Part1.mp3",
+      "video_file": "Final_Video_59-Hoi-59_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1408.856792,
+      "rendered_at": "2026-09-18T22:32:15.569899",
+      "file_size": 137563759,
+      "video_duration": 1408.84,
+      "render_time_sec": 704.7
+    },
+    "Final_Audio_60-Hoi-60_Part1.mp3": {
+      "audio_file": "Final_Audio_60-Hoi-60_Part1.mp3",
+      "video_file": "Final_Video_60-Hoi-60_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1922.586208,
+      "rendered_at": "2026-09-18T22:36:07.284148",
+      "file_size": 188188737,
+      "video_duration": 1922.586,
+      "render_time_sec": 737.8
+    },
+    "Final_Audio_61-Hoi-61_Part1.mp3": {
+      "audio_file": "Final_Audio_61-Hoi-61_Part1.mp3",
+      "video_file": "Final_Video_61-Hoi-61_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1235.44975,
+      "rendered_at": "2026-09-18T22:47:17.403395",
+      "file_size": 120906624,
+      "video_duration": 1235.44,
+      "render_time_sec": 612.2
+    },
+    "Final_Audio_62-Hoi-62_Part1.mp3": {
+      "audio_file": "Final_Audio_62-Hoi-62_Part1.mp3",
+      "video_file": "Final_Video_62-Hoi-62_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1379.081542,
+      "rendered_at": "2026-09-18T22:48:24.643752",
+      "file_size": 134680306,
+      "video_duration": 1379.08,
+      "render_time_sec": 679.5
+    },
+    "Final_Audio_63-Hoi-63_Part1.mp3": {
+      "audio_file": "Final_Audio_63-Hoi-63_Part1.mp3",
+      "video_file": "Final_Video_63-Hoi-63_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1436.745458,
+      "rendered_at": "2026-09-18T22:59:16.435214",
+      "file_size": 140467936,
+      "video_duration": 1436.745,
+      "render_time_sec": 718.7
+    },
+    "Final_Audio_64-Hoi-64_Part1.mp3": {
+      "audio_file": "Final_Audio_64-Hoi-64_Part1.mp3",
+      "video_file": "Final_Video_64-Hoi-64_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1340.224625,
+      "rendered_at": "2026-09-18T22:59:33.918264",
+      "file_size": 131334591,
+      "video_duration": 1340.224,
+      "render_time_sec": 668.8
+    },
+    "Final_Audio_66-Hoi-66_Part1.mp3": {
+      "audio_file": "Final_Audio_66-Hoi-66_Part1.mp3",
+      "video_file": "Final_Video_66-Hoi-66_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1376.821917,
+      "rendered_at": "2026-09-18T23:11:04.881425",
+      "file_size": 134547992,
+      "video_duration": 1376.822,
+      "render_time_sec": 690.5
+    },
+    "Final_Audio_65-Hoi-65_Part1.mp3": {
+      "audio_file": "Final_Audio_65-Hoi-65_Part1.mp3",
+      "video_file": "Final_Video_65-Hoi-65_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1582.3365,
+      "rendered_at": "2026-09-18T23:12:25.953011",
+      "file_size": 154980300,
+      "video_duration": 1582.32,
+      "render_time_sec": 789.1
+    },
+    "Final_Audio_67-Hoi-67_Part1.mp3": {
+      "audio_file": "Final_Audio_67-Hoi-67_Part1.mp3",
+      "video_file": "Final_Video_67-Hoi-67_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1367.475208,
+      "rendered_at": "2026-09-18T23:22:20.721284",
+      "file_size": 133627734,
+      "video_duration": 1367.475,
+      "render_time_sec": 675.5
+    },
+    "Final_Audio_68-Hoi-68_Part1.mp3": {
+      "audio_file": "Final_Audio_68-Hoi-68_Part1.mp3",
+      "video_file": "Final_Video_68-Hoi-68_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1332.983667,
+      "rendered_at": "2026-09-18T23:23:22.183092",
+      "file_size": 130574682,
+      "video_duration": 1332.983,
+      "render_time_sec": 655.9
+    },
+    "Final_Audio_69-Hoi-69_Part1.mp3": {
+      "audio_file": "Final_Audio_69-Hoi-69_Part1.mp3",
+      "video_file": "Final_Video_69-Hoi-69_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1363.266375,
+      "rendered_at": "2026-09-18T23:33:40.028189",
+      "file_size": 133542135,
+      "video_duration": 1363.266,
+      "render_time_sec": 678.9
+    },
+    "Final_Audio_70-Hoi-70_Part1.mp3": {
+      "audio_file": "Final_Audio_70-Hoi-70_Part1.mp3",
+      "video_file": "Final_Video_70-Hoi-70_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1327.27475,
+      "rendered_at": "2026-09-18T23:34:25.427900",
+      "file_size": 129721695,
+      "video_duration": 1327.275,
+      "render_time_sec": 662.9
+    },
+    "Final_Audio_72-Hoi-72_Part1.mp3": {
+      "audio_file": "Final_Audio_72-Hoi-72_Part1.mp3",
+      "video_file": "Final_Video_72-Hoi-72_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1151.626708,
+      "rendered_at": "2026-09-18T23:44:06.490810",
+      "file_size": 112962414,
+      "video_duration": 1151.627,
+      "render_time_sec": 580.7
+    },
+    "Final_Audio_71-Hoi-71_Part1.mp3": {
+      "audio_file": "Final_Audio_71-Hoi-71_Part1.mp3",
+      "video_file": "Final_Video_71-Hoi-71_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1509.684417,
+      "rendered_at": "2026-09-18T23:46:07.354938",
+      "file_size": 147378476,
+      "video_duration": 1509.68,
+      "render_time_sec": 747.0
+    },
+    "Final_Audio_73-Hoi-73_Part1.mp3": {
+      "audio_file": "Final_Audio_73-Hoi-73_Part1.mp3",
+      "video_file": "Final_Video_73-Hoi-73_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1201.052875,
+      "rendered_at": "2026-09-18T23:54:03.411689",
+      "file_size": 117778308,
+      "video_duration": 1201.04,
+      "render_time_sec": 596.5
+    },
+    "Final_Audio_74-Hoi-74_Part1.mp3": {
+      "audio_file": "Final_Audio_74-Hoi-74_Part1.mp3",
+      "video_file": "Final_Video_74-Hoi-74_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1184.878208,
+      "rendered_at": "2026-09-18T23:56:00.795689",
+      "file_size": 116024885,
+      "video_duration": 1184.878,
+      "render_time_sec": 593.1
+    },
+    "Final_Audio_75-Hoi-75_Part1.mp3": {
+      "audio_file": "Final_Audio_75-Hoi-75_Part1.mp3",
+      "video_file": "Final_Video_75-Hoi-75_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1099.602875,
+      "rendered_at": "2026-09-19T00:03:09.229768",
+      "file_size": 107302895,
+      "video_duration": 1099.6,
+      "render_time_sec": 545.6
+    },
+    "Final_Audio_76-Hoi-76_Part1.mp3": {
+      "audio_file": "Final_Audio_76-Hoi-76_Part1.mp3",
+      "video_file": "Final_Video_76-Hoi-76_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1268.697167,
+      "rendered_at": "2026-09-19T00:06:34.931866",
+      "file_size": 123937203,
+      "video_duration": 1268.68,
+      "render_time_sec": 633.9
+    },
+    "Final_Audio_77-Hoi-77_Part1.mp3": {
+      "audio_file": "Final_Audio_77-Hoi-77_Part1.mp3",
+      "video_file": "Final_Video_77-Hoi-77_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1213.148,
+      "rendered_at": "2026-09-19T00:13:13.564059",
+      "file_size": 118910392,
+      "video_duration": 1213.148,
+      "render_time_sec": 604.0
+    },
+    "Final_Audio_78-Hoi-78_Part1.mp3": {
+      "audio_file": "Final_Audio_78-Hoi-78_Part1.mp3",
+      "video_file": "Final_Video_78-Hoi-78_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1074.129667,
+      "rendered_at": "2026-09-19T00:15:28.916734",
+      "file_size": 105208970,
+      "video_duration": 1074.12,
+      "render_time_sec": 533.6
+    },
+    "Final_Audio_79-Hoi-79_Part1.mp3": {
+      "audio_file": "Final_Audio_79-Hoi-79_Part1.mp3",
+      "video_file": "Final_Video_79-Hoi-79_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1061.089167,
+      "rendered_at": "2026-09-19T00:22:02.373057",
+      "file_size": 104132395,
+      "video_duration": 1061.08,
+      "render_time_sec": 528.6
+    },
+    "Final_Audio_80-Hoi-80_Part1.mp3": {
+      "audio_file": "Final_Audio_80-Hoi-80_Part1.mp3",
+      "video_file": "Final_Video_80-Hoi-80_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1164.343167,
+      "rendered_at": "2026-09-19T00:25:07.457838",
+      "file_size": 114018573,
+      "video_duration": 1164.343,
+      "render_time_sec": 578.0
+    },
+    "Final_Audio_81-Hoi-81_Part1.mp3": {
+      "audio_file": "Final_Audio_81-Hoi-81_Part1.mp3",
+      "video_file": "Final_Video_81-Hoi-81_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1160.259542,
+      "rendered_at": "2026-09-19T00:31:39.665973",
+      "file_size": 113747493,
+      "video_duration": 1160.259,
+      "render_time_sec": 577.0
+    },
+    "Final_Audio_82-Hoi-82_Part1.mp3": {
+      "audio_file": "Final_Audio_82-Hoi-82_Part1.mp3",
+      "video_file": "Final_Video_82-Hoi-82_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1194.006875,
+      "rendered_at": "2026-09-19T00:35:01.610695",
+      "file_size": 116953887,
+      "video_duration": 1194.0,
+      "render_time_sec": 593.9
+    },
+    "Final_Audio_83-Hoi-83_Part1.mp3": {
+      "audio_file": "Final_Audio_83-Hoi-83_Part1.mp3",
+      "video_file": "Final_Video_83-Hoi-83_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1585.260125,
+      "rendered_at": "2026-09-19T00:44:50.011170",
+      "file_size": 155095850,
+      "video_duration": 1585.26,
+      "render_time_sec": 789.9
+    },
+    "Final_Audio_84-Hoi-84_Part1.mp3": {
+      "audio_file": "Final_Audio_84-Hoi-84_Part1.mp3",
+      "video_file": "Final_Video_84-Hoi-84_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1363.275875,
+      "rendered_at": "2026-09-19T00:46:26.587216",
+      "file_size": 133601698,
+      "video_duration": 1363.276,
+      "render_time_sec": 684.7
+    },
+    "Final_Audio_85-Hoi-85_Part1.mp3": {
+      "audio_file": "Final_Audio_85-Hoi-85_Part1.mp3",
+      "video_file": "Final_Video_85-Hoi-85_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1413.533542,
+      "rendered_at": "2026-09-19T00:56:35.526964",
+      "file_size": 138389052,
+      "video_duration": 1413.52,
+      "render_time_sec": 705.2
+    },
+    "Final_Audio_86-Hoi-86_Part1.mp3": {
+      "audio_file": "Final_Audio_86-Hoi-86_Part1.mp3",
+      "video_file": "Final_Video_86-Hoi-86_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1378.377083,
+      "rendered_at": "2026-09-19T00:57:53.888587",
+      "file_size": 134657366,
+      "video_duration": 1378.36,
+      "render_time_sec": 687.0
+    },
+    "Final_Audio_88-Hoi-88_Part1.mp3": {
+      "audio_file": "Final_Audio_88-Hoi-88_Part1.mp3",
+      "video_file": "Final_Video_88-Hoi-88_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1236.649167,
+      "rendered_at": "2026-09-19T01:08:13.500083",
+      "file_size": 121023388,
+      "video_duration": 1236.64,
+      "render_time_sec": 619.2
+    },
+    "Final_Audio_87-Hoi-87_Part1.mp3": {
+      "audio_file": "Final_Audio_87-Hoi-87_Part1.mp3",
+      "video_file": "Final_Video_87-Hoi-87_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1450.854625,
+      "rendered_at": "2026-09-19T01:08:40.169783",
+      "file_size": 142272912,
+      "video_duration": 1450.84,
+      "render_time_sec": 724.3
+    },
+    "Final_Audio_89-Hoi-89_Part1.mp3": {
+      "audio_file": "Final_Audio_89-Hoi-89_Part1.mp3",
+      "video_file": "Final_Video_89-Hoi-89_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1338.815542,
+      "rendered_at": "2026-09-19T01:19:20.797693",
+      "file_size": 130701096,
+      "video_duration": 1338.8,
+      "render_time_sec": 667.0
+    },
+    "Final_Audio_90-Hoi-90_Part1.mp3": {
+      "audio_file": "Final_Audio_90-Hoi-90_Part1.mp3",
+      "video_file": "Final_Video_90-Hoi-90_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1713.207958,
+      "rendered_at": "2026-09-19T01:21:12.883121",
+      "file_size": 167824124,
+      "video_duration": 1713.2,
+      "render_time_sec": 752.4
+    },
+    "Final_Audio_91-Hoi-91_Part1.mp3": {
+      "audio_file": "Final_Audio_91-Hoi-91_Part1.mp3",
+      "video_file": "Final_Video_91-Hoi-91_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1185.889708,
+      "rendered_at": "2026-09-19T01:31:46.184171",
+      "file_size": 116028104,
+      "video_duration": 1185.88,
+      "render_time_sec": 588.1
+    },
+    "Final_Audio_92-Hoi-92_Part1.mp3": {
+      "audio_file": "Final_Audio_92-Hoi-92_Part1.mp3",
+      "video_file": "Final_Video_92-Hoi-92_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1255.683708,
+      "rendered_at": "2026-09-19T01:32:19.231921",
+      "file_size": 122891960,
+      "video_duration": 1255.68,
+      "render_time_sec": 621.2
+    },
+    "Final_Audio_93-Hoi-93_Part1.mp3": {
+      "audio_file": "Final_Audio_93-Hoi-93_Part1.mp3",
+      "video_file": "Final_Video_93-Hoi-93_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1359.031917,
+      "rendered_at": "2026-09-19T01:43:07.560563",
+      "file_size": 132674379,
+      "video_duration": 1359.032,
+      "render_time_sec": 681.1
+    },
+    "Final_Audio_94-Hoi-94_Part1.mp3": {
+      "audio_file": "Final_Audio_94-Hoi-94_Part1.mp3",
+      "video_file": "Final_Video_94-Hoi-94_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1385.928979,
+      "rendered_at": "2026-09-19T01:43:52.172133",
+      "file_size": 135558477,
+      "video_duration": 1385.92,
+      "render_time_sec": 692.7
+    },
+    "Final_Audio_96-Hoi-96_Part1.mp3": {
+      "audio_file": "Final_Audio_96-Hoi-96_Part1.mp3",
+      "video_file": "Final_Video_96-Hoi-96_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1197.970208,
+      "rendered_at": "2026-09-19T01:53:53.267005",
+      "file_size": 117051181,
+      "video_duration": 1197.96,
+      "render_time_sec": 600.8
+    },
+    "Final_Audio_95-Hoi-95_Part1.mp3": {
+      "audio_file": "Final_Audio_95-Hoi-95_Part1.mp3",
+      "video_file": "Final_Video_95-Hoi-95_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1470.965375,
+      "rendered_at": "2026-09-19T01:55:21.305205",
+      "file_size": 144231081,
+      "video_duration": 1470.96,
+      "render_time_sec": 733.3
+    },
+    "Final_Audio_97-Hoi-97_Part1.mp3": {
+      "audio_file": "Final_Audio_97-Hoi-97_Part1.mp3",
+      "video_file": "Final_Video_97-Hoi-97_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1253.602875,
+      "rendered_at": "2026-09-19T02:04:17.314014",
+      "file_size": 122831195,
+      "video_duration": 1253.6,
+      "render_time_sec": 623.6
+    },
+    "Final_Audio_98-Hoi-98_Part1.mp3": {
+      "audio_file": "Final_Audio_98-Hoi-98_Part1.mp3",
+      "video_file": "Final_Video_98-Hoi-98_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1312.098167,
+      "rendered_at": "2026-09-19T02:06:20.240745",
+      "file_size": 128625288,
+      "video_duration": 1312.08,
+      "render_time_sec": 658.5
+    },
+    "Final_Audio_99-Hoi-99_Part1.mp3": {
+      "audio_file": "Final_Audio_99-Hoi-99_Part1.mp3",
+      "video_file": "Final_Video_99-Hoi-99_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1392.217,
+      "rendered_at": "2026-09-19T02:15:53.252914",
+      "file_size": 136414171,
+      "video_duration": 1392.2,
+      "render_time_sec": 695.5
+    },
+    "Final_Audio_100-Hoi-100_Part1.mp3": {
+      "audio_file": "Final_Audio_100-Hoi-100_Part1.mp3",
+      "video_file": "Final_Video_100-Hoi-100_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1385.512875,
+      "rendered_at": "2026-09-19T02:17:54.472152",
+      "file_size": 135579261,
+      "video_duration": 1385.513,
+      "render_time_sec": 693.8
+    },
+    "Final_Audio_101-Hoi-101_Part1.mp3": {
+      "audio_file": "Final_Audio_101-Hoi-101_Part1.mp3",
+      "video_file": "Final_Video_101-Hoi-101_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1487.72375,
+      "rendered_at": "2026-09-19T02:28:19.391743",
+      "file_size": 145384150,
+      "video_duration": 1487.72,
+      "render_time_sec": 745.8
+    },
+    "Final_Audio_102-Hoi-102_Part1.mp3": {
+      "audio_file": "Final_Audio_102-Hoi-102_Part1.mp3",
+      "video_file": "Final_Video_102-Hoi-102_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1541.341292,
+      "rendered_at": "2026-09-19T02:30:48.363222",
+      "file_size": 151068297,
+      "video_duration": 1541.341,
+      "render_time_sec": 773.5
+    },
+    "Final_Audio_104-Hoi-104_Part1.mp3": {
+      "audio_file": "Final_Audio_104-Hoi-104_Part1.mp3",
+      "video_file": "Final_Video_104-Hoi-104_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1035.804917,
+      "rendered_at": "2026-09-19T02:39:30.442770",
+      "file_size": 101348589,
+      "video_duration": 1035.8,
+      "render_time_sec": 521.6
+    },
+    "Final_Audio_103-Hoi-103_Part1.mp3": {
+      "audio_file": "Final_Audio_103-Hoi-103_Part1.mp3",
+      "video_file": "Final_Video_103-Hoi-103_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1457.201292,
+      "rendered_at": "2026-09-19T02:40:24.690979",
+      "file_size": 142506570,
+      "video_duration": 1457.2,
+      "render_time_sec": 724.9
+    },
+    "Final_Audio_105-Hoi-105_Part1.mp3": {
+      "audio_file": "Final_Audio_105-Hoi-105_Part1.mp3",
+      "video_file": "Final_Video_105-Hoi-105_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1436.221417,
+      "rendered_at": "2026-09-19T02:51:29.396846",
+      "file_size": 140467693,
+      "video_duration": 1436.221,
+      "render_time_sec": 718.6
+    },
+    "Final_Audio_106-Hoi-106_Part1.mp3": {
+      "audio_file": "Final_Audio_106-Hoi-106_Part1.mp3",
+      "video_file": "Final_Video_106-Hoi-106_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1339.355563,
+      "rendered_at": "2026-09-19T02:51:35.563038",
+      "file_size": 130769889,
+      "video_duration": 1339.355,
+      "render_time_sec": 670.5
+    },
+    "Final_Audio_108-Hoi-108_Part1.mp3": {
+      "audio_file": "Final_Audio_108-Hoi-108_Part1.mp3",
+      "video_file": "Final_Video_108-Hoi-108_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1041.112458,
+      "rendered_at": "2026-09-19T03:00:18.457207",
+      "file_size": 102192143,
+      "video_duration": 1041.112,
+      "render_time_sec": 522.7
+    },
+    "Final_Audio_107-Hoi-107_Part1.mp3": {
+      "audio_file": "Final_Audio_107-Hoi-107_Part1.mp3",
+      "video_file": "Final_Video_107-Hoi-107_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1465.390958,
+      "rendered_at": "2026-09-19T03:03:36.513215",
+      "file_size": 143426777,
+      "video_duration": 1465.391,
+      "render_time_sec": 726.7
+    },
+    "Final_Audio_109-Hoi-109_Part1.mp3": {
+      "audio_file": "Final_Audio_109-Hoi-109_Part1.mp3",
+      "video_file": "Final_Video_109-Hoi-109_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1197.259125,
+      "rendered_at": "2026-09-19T03:10:17.874039",
+      "file_size": 117004570,
+      "video_duration": 1197.24,
+      "render_time_sec": 599.0
+    },
+    "Final_Audio_110-Hoi-110_Part1.mp3": {
+      "audio_file": "Final_Audio_110-Hoi-110_Part1.mp3",
+      "video_file": "Final_Video_110-Hoi-110_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1236.494333,
+      "rendered_at": "2026-09-19T03:13:54.907151",
+      "file_size": 120983431,
+      "video_duration": 1236.48,
+      "render_time_sec": 617.9
+    },
+    "Final_Audio_111-Hoi-111_Part1.mp3": {
+      "audio_file": "Final_Audio_111-Hoi-111_Part1.mp3",
+      "video_file": "Final_Video_111-Hoi-111_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1035.096979,
+      "rendered_at": "2026-09-19T03:18:54.370356",
+      "file_size": 101356118,
+      "video_duration": 1035.08,
+      "render_time_sec": 516.2
+    },
+    "Final_Audio_112-Hoi-112_Part1.mp3": {
+      "audio_file": "Final_Audio_112-Hoi-112_Part1.mp3",
+      "video_file": "Final_Video_112-Hoi-112_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1072.405958,
+      "rendered_at": "2026-09-19T03:22:47.464746",
+      "file_size": 105200561,
+      "video_duration": 1072.4,
+      "render_time_sec": 532.2
+    },
+    "Final_Audio_113-Hoi-113_Part1.mp3": {
+      "audio_file": "Final_Audio_113-Hoi-113_Part1.mp3",
+      "video_file": "Final_Video_113-Hoi-113_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1189.522583,
+      "rendered_at": "2026-09-19T03:28:49.427879",
+      "file_size": 116154460,
+      "video_duration": 1189.52,
+      "render_time_sec": 594.7
+    },
+    "Final_Audio_114-Hoi-114_Part1.mp3": {
+      "audio_file": "Final_Audio_114-Hoi-114_Part1.mp3",
+      "video_file": "Final_Video_114-Hoi-114_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1010.922833,
+      "rendered_at": "2026-09-19T03:31:14.979728",
+      "file_size": 99369308,
+      "video_duration": 1010.92,
+      "render_time_sec": 507.1
+    },
+    "Final_Audio_115-Hoi-115_Part1.mp3": {
+      "audio_file": "Final_Audio_115-Hoi-115_Part1.mp3",
+      "video_file": "Final_Video_115-Hoi-115_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1091.399458,
+      "rendered_at": "2026-09-19T03:37:51.431514",
+      "file_size": 107081935,
+      "video_duration": 1091.399,
+      "render_time_sec": 541.7
+    },
+    "Final_Audio_116-Hoi-116_Part1.mp3": {
+      "audio_file": "Final_Audio_116-Hoi-116_Part1.mp3",
+      "video_file": "Final_Video_116-Hoi-116_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1138.833125,
+      "rendered_at": "2026-09-19T03:40:45.404187",
+      "file_size": 111233604,
+      "video_duration": 1138.833,
+      "render_time_sec": 570.2
+    },
+    "Final_Audio_117-Hoi-117_Part1.mp3": {
+      "audio_file": "Final_Audio_117-Hoi-117_Part1.mp3",
+      "video_file": "Final_Video_117-Hoi-117_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1234.193292,
+      "rendered_at": "2026-09-19T03:48:06.786322",
+      "file_size": 120792490,
+      "video_duration": 1234.193,
+      "render_time_sec": 615.0
+    },
+    "Final_Audio_118-Hoi-118_Part1.mp3": {
+      "audio_file": "Final_Audio_118-Hoi-118_Part1.mp3",
+      "video_file": "Final_Video_118-Hoi-118_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 993.1855,
+      "rendered_at": "2026-09-19T03:49:04.145902",
+      "file_size": 97389273,
+      "video_duration": 993.185,
+      "render_time_sec": 498.4
+    },
+    "Final_Audio_119-Hoi-119_Part1.mp3": {
+      "audio_file": "Final_Audio_119-Hoi-119_Part1.mp3",
+      "video_file": "Final_Video_119-Hoi-119_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1402.363292,
+      "rendered_at": "2026-09-19T03:59:51.101043",
+      "file_size": 137418621,
+      "video_duration": 1402.36,
+      "render_time_sec": 704.0
+    },
+    "Final_Audio_120-Hoi-120_Part1.mp3": {
+      "audio_file": "Final_Audio_120-Hoi-120_Part1.mp3",
+      "video_file": "Final_Video_120-Hoi-120_Part1.mp4",
+      "status": "completed",
+      "audio_duration": 1834.498417,
+      "rendered_at": "2026-09-19T04:02:11.034071",
+      "file_size": 179583682,
+      "video_duration": 1834.48,
+      "render_time_sec": 786.5
+    }
+  }
+}

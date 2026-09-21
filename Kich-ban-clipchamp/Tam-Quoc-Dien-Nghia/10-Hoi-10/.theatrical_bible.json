@@ -7,7 +7,7 @@
   "narrator_lines": 33,
   "poem_lines": 4,
   "dialogue_lines": 14,
-  "characters_cast_count": 8,
+  "characters_cast_count": 9,
   "characters": {
     "Narrator": {
       "name": "Người dẫn chuyện",
@@ -22,32 +22,32 @@
       ],
       "dialogue_count": 33
     },
-    "Vua_Phan": {
-      "name": "Vua Phán",
+    "Han_Hien_De": {
+      "name": "Hán Hiến Đế",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "age_stage": "au_tho",
+      "temperament": "bi_kich_uat_nghen",
+      "timbre_eq": "youth_bright",
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
       "dialogue_count": 1
     },
-    "Gia_Hu": {
-      "name": "Gia Hủ",
+    "Quach_Gia": {
+      "name": "Quách Gia",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "temperament": "giao_hoat_nham_hiem",
+      "timbre_eq": "sharp_cunning",
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2
+      "dialogue_count": 1
     },
-    "Toai_Lai": {
-      "name": "Toại Lại",
+    "Toai": {
+      "name": "Toại",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
@@ -55,6 +55,18 @@
       "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi"
+      ],
+      "dialogue_count": 1
+    },
+    "Gia_Hu": {
+      "name": "Giả Hủ",
+      "gender": "male",
+      "voice": "vi-VN-NamMinhNeural",
+      "age_stage": "thanh_xuan",
+      "temperament": "giao_hoat_nham_hiem",
+      "timbre_eq": "sharp_cunning",
+      "sample_emotions": [
+        "binh_than_tu_nhien"
       ],
       "dialogue_count": 1
     },
@@ -80,28 +92,29 @@
       "sample_emotions": [
         "binh_than_tu_nhien",
         "dau_don_trang_troi",
+        "hoan_ca_dac_thang",
         "cuong_no"
       ],
       "dialogue_count": 5
     },
-    "Uc_Suc_Nho_Den": {
-      "name": "Úc Sực Nhớ Đến",
+    "Tuan_Uc": {
+      "name": "Tuân Úc",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
+      "temperament": "khac_kho_lanh_lung",
       "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
       "dialogue_count": 1
     },
-    "Cung_Vao": {
-      "name": "Cung Vào",
+    "Tran_Cung": {
+      "name": "Trần Cung",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
+      "temperament": "khac_kho_lanh_lung",
       "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi"
@@ -113,13 +126,13 @@
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "temperament": "xun_xoe_don_hen",
+      "timbre_eq": "servile_flatterer",
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
       "dialogue_count": 1
     }
   },
-  "directed_at": "2026-09-15T15:15:17.275955"
+  "directed_at": "2026-09-17T10:33:44.413471"
 }

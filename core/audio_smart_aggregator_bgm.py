@@ -4,12 +4,17 @@
 # Skills: arf_09_audio_smart_aggregator, arf_10_bgm_dynamic_mixer
 # ==============================================================================
 import os
+import sys
 import re
 import json
 import argparse
 import subprocess
 import shutil
 import imageio_ffmpeg
+
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _REPO_ROOT not in sys.path:
+    sys.path.insert(0, _REPO_ROOT)
 
 FFMPEG_EXE = imageio_ffmpeg.get_ffmpeg_exe()
 
@@ -251,23 +256,24 @@ def _update_manifest_step9(chap_dir, chap_name, full_output_files, total_duratio
     except Exception as e:
         print(f"[!] Warning: Could not update manifest: {e}")
 
-def resolve_bgm_file(bgm_file="nhac-nen.mp3"):
+def resolve_bgm_file(bgm_file="nhac-nen.mp3", book_name="", chap_dir=None):
     """
-    Resolves BGM audio file path in priority order:
-    1. Direct file path if exists (absolute or relative to CWD)
-    2. File inside bgm_audio_library/ directory (e.g. bgm_audio_library/<bgm_file>)
-    3. Project root directory fallback (e.g. nhac-nen.mp3)
-    4. First .mp3 in bgm_audio_library/ if default requested and nhac-nen.mp3 not found
+    Resolves BGM audio file path with intelligent cultural/genre matching.
     """
+    try:
+        from core.bgm_downloader import resolve_thematic_bgm
+        path, _, _, _ = resolve_thematic_bgm(book_name=book_name, chap_dir=chap_dir, user_bgm=bgm_file)
+        if path:
+            return path
+    except Exception:
+        pass
+
     if not bgm_file:
         return None
-    # 1. Direct path
     if os.path.exists(bgm_file):
         return os.path.abspath(bgm_file)
 
     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-    # 2. Inside bgm_audio_library/ or root
     for base in [os.getcwd(), project_root]:
         candidate_lib = os.path.join(base, "bgm_audio_library", bgm_file)
         if os.path.exists(candidate_lib):
@@ -276,7 +282,6 @@ def resolve_bgm_file(bgm_file="nhac-nen.mp3"):
         if os.path.exists(candidate_direct):
             return os.path.abspath(candidate_direct)
 
-    # 3. Fallback: first .mp3 in bgm_audio_library
     for base in [os.getcwd(), project_root]:
         lib_dir = os.path.join(base, "bgm_audio_library")
         if os.path.exists(lib_dir):
@@ -289,11 +294,13 @@ def resolve_bgm_file(bgm_file="nhac-nen.mp3"):
 def dynamic_bgm_mixer(chap_dir, chap_name, full_parts=None, bgm_file="nhac-nen.mp3"):
     """
     Step 10: Dynamic BGM Dynamic Mastering (AI Music Director)
-    Mixes BGM with dynamic ducking (-20dB), volume retention, and True Seamless Part Cut rules:
-      - Part 1: 3.0s Fade-in at start, raw cut at end (no fade-out).
-      - Middle parts: Raw cut entry and exit (no fade-in/out).
-      - Last part: Raw cut entry, 5.0s Fade-out at end.
-      - Continuous BGM timeline offset across parts.
+    Mixes thematic BGM with:
+      - Vocal Foreground Priority: BGM volume 0.06 - 0.08 (-24dB to -22dB).
+      - Vocal Pocket Carving EQ (dip 2.5kHz on BGM by -3dB to ensure pristine voice clarity).
+      - Sub-bass rumble and harsh hiss cleanup (highpass 80Hz, lowpass 12kHz).
+      - Intelligent Genre & Cultural Setting Matching (East Asian classical, Vietnamese, Western, etc.).
+      - True Seamless Part Cut rules (Fade-in 3.0s on Part 1, Raw cut in-between, Fade-out 5.0s on last Part).
+      - International Broadcast Mastering (EBU R128: loudnorm -16 LUFS, TP <= -1.5 dBTP, LRA 6).
     """
     book_dir = os.path.dirname(os.path.abspath(chap_dir))
     book_name = os.path.basename(book_dir)
@@ -328,12 +335,31 @@ def dynamic_bgm_mixer(chap_dir, chap_name, full_parts=None, bgm_file="nhac-nen.m
 
     final_master_files = []
     total_parts = len(full_files)
-    bgm_path = resolve_bgm_file(bgm_file)
 
-    if not bgm_path:
+    # Intelligent Thematic BGM Resolution
+    bgm_path = None
+    genre = "unknown"
+    vol_factor = 0.070
+    desc = ""
+    try:
+        from core.bgm_downloader import resolve_thematic_bgm
+        bgm_path, genre, vol_factor, desc = resolve_thematic_bgm(
+            book_name=book_name,
+            chap_dir=chap_dir,
+            user_bgm=bgm_file,
+            auto_download_if_missing=True
+        )
+    except Exception as e:
+        print(f"[*] Thematic resolver fallback: {e}")
+        bgm_path = resolve_bgm_file(bgm_file, book_name=book_name, chap_dir=chap_dir)
+
+    if not bgm_path or not os.path.exists(bgm_path):
         print(f"[!] BGM file not found (checked '{bgm_file}' and 'bgm_audio_library/'). Will export unmixed masters.")
     else:
+        print(f"    -> Detected Genre & Theme: {genre}")
+        print(f"    -> Thematic Context: {desc}")
         print(f"    -> Selected BGM Track: {bgm_path}")
+        print(f"    -> Calibrated BGM Volume: {vol_factor:.3f} (Vocal Foreground Priority, -23dB)")
 
     # Timeline Architect: track cumulative offset across parts
     current_bgm_offset = 0.0
@@ -354,15 +380,17 @@ def dynamic_bgm_mixer(chap_dir, chap_name, full_parts=None, bgm_file="nhac-nen.m
         print(f"    -> Speech Duration: {part_duration:.2f}s ({part_duration/60:.2f} mins)")
         print(f"    -> BGM Timeline Window: {bgm_start:.2f}s ➔ {bgm_end:.2f}s")
 
-        if bgm_path:
-            # Seamless Part Cut Rules:
-            # Part 1: Fade-in 3.0s, NO fade-out
-            # Middle: NO fade-in, NO fade-out
-            # Last: NO fade-in, Fade-out 5.0s
+        if bgm_path and os.path.exists(bgm_path):
+            # Seamless Part Cut Rules + Vocal Pocket Carving:
+            # 1. Clean sub-rumble (<80Hz) and harsh hiss (>12kHz)
+            # 2. Vocal Pocket Carving: dip 2.5kHz by -3dB on BGM so vocal consonants shine through
+            # 3. Controlled volume: 0.06 - 0.08 to prevent drowning voice
             bgm_filters = [
                 f"atrim=start={bgm_start:.2f}:end={bgm_end:.2f}",
                 "asetpts=PTS-STARTPTS",
-                "volume=0.10"
+                "highpass=f=80,lowpass=f=12000",
+                "equalizer=f=2500:t=q:w=1.5:g=-3.0",
+                f"volume={vol_factor:.3f}"
             ]
 
             if is_first_part:
@@ -379,7 +407,7 @@ def dynamic_bgm_mixer(chap_dir, chap_name, full_parts=None, bgm_file="nhac-nen.m
 
             bgm_chain = ",".join(bgm_filters)
 
-            # Voice preservation: loudnorm broadcast standard (Spotify/Audible/YouTube -16 LUFS)
+            # Voice preservation & EBU R128 mastering:
             filter_complex = (
                 f"[0:a]aformat=channel_layouts=stereo[voice];"
                 f"[1:a]{bgm_chain}[bgm];"

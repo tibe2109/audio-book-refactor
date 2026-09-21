@@ -7,7 +7,7 @@
   "narrator_lines": 25,
   "poem_lines": 0,
   "dialogue_lines": 14,
-  "characters_cast_count": 11,
+  "characters_cast_count": 9,
   "characters": {
     "Narrator": {
       "name": "Người dẫn chuyện",
@@ -22,20 +22,18 @@
       ],
       "dialogue_count": 25
     },
-    "Chu_Du": {
-      "name": "Chu Du",
+    "Khuong_Duy": {
+      "name": "Khương Duy",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "trung_nien",
+      "age_stage": "lao_hoa",
       "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "timbre_eq": "aged_gravel",
       "sample_emotions": [
         "binh_than_tu_nhien",
         "cuong_no"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 2
     },
     "Ha_Hau_Ba": {
       "name": "Hạ Hầu Bá",
@@ -47,9 +45,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 2
     },
     "Thai": {
       "name": "Thái",
@@ -61,9 +57,7 @@
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     },
     "Huong_Dao": {
       "name": "Hướng Đạo",
@@ -75,37 +69,19 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     },
-    "Chieu": {
-      "name": "Chiêu",
+    "Tu_Ma_Chieu": {
+      "name": "Tư Mã Chiêu",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "lao_hoa",
-      "temperament": "anh_hung_hao_sang",
+      "temperament": "giao_hoat_nham_hiem",
       "timbre_eq": "aged_gravel",
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
-    },
-    "Dan_Noi_Gian": {
-      "name": "Đản Nổi Giận",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "lao_hoa",
-      "temperament": "hach_dich_bao_nguoc",
-      "timbre_eq": "aged_gravel",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "-5Hz",
-      "base_rate": "-12%"
+      "dialogue_count": 2
     },
     "Dan": {
       "name": "Đản",
@@ -115,14 +91,13 @@
       "temperament": "anh_hung_hao_sang",
       "timbre_eq": "aged_gravel",
       "sample_emotions": [
+        "cuong_no",
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 2
     },
-    "Sung": {
-      "name": "Sung",
+    "Gian_Ung": {
+      "name": "Giản Ung",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "lao_hoa",
@@ -131,37 +106,19 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-5Hz",
-      "base_rate": "-13%"
+      "dialogue_count": 2
     },
     "Su_Gia": {
       "name": "Sứ Giả",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "lao_hoa",
-      "temperament": "anh_hung_hao_sang",
+      "temperament": "khac_kho_lanh_lung",
       "timbre_eq": "aged_gravel",
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
-    },
-    "Gia_Sung": {
-      "name": "Giả Sung",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "lao_hoa",
-      "temperament": "teu_tao_hom_hinh",
-      "timbre_eq": "aged_gravel",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "-5Hz",
-      "base_rate": "-13%"
+      "dialogue_count": 1
     },
     "Mao": {
       "name": "Mao",
@@ -173,10 +130,8 @@
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     }
   },
-  "directed_at": "2026-09-15T11:13:15.634065"
+  "directed_at": "2026-09-17T10:33:45.508183"
 }

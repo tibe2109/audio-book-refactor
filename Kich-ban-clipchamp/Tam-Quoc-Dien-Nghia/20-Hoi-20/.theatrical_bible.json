@@ -4,10 +4,10 @@
   "chapter_title": "Hồi 20: Tào A Man ra săn ruộng Hứa Điền; Đổng quốc cữu vâng chiếu trong nội các",
   "genre": "classical_epic_literature",
   "total_theatrical_lines": 101,
-  "narrator_lines": 57,
+  "narrator_lines": 58,
   "poem_lines": 0,
-  "dialogue_lines": 44,
-  "characters_cast_count": 18,
+  "dialogue_lines": 43,
+  "characters_cast_count": 10,
   "characters": {
     "Narrator": {
       "name": "Người dẫn chuyện",
@@ -20,7 +20,7 @@
         "epic",
         "intimate"
       ],
-      "dialogue_count": 57
+      "dialogue_count": 58
     },
     "Luu_Bi": {
       "name": "Lưu Bị",
@@ -48,17 +48,17 @@
       ],
       "dialogue_count": 9
     },
-    "Vua": {
-      "name": "Vua",
+    "Han_Hien_De": {
+      "name": "Hán Hiến Đế",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "age_stage": "au_tho",
+      "temperament": "bi_kich_uat_nghen",
+      "timbre_eq": "youth_bright",
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 5
+      "dialogue_count": 7
     },
     "Quan_Vu": {
       "name": "Quan Vũ",
@@ -84,74 +84,26 @@
       ],
       "dialogue_count": 1
     },
-    "Vua_Gat_Nuoc_Mat": {
-      "name": "Vua Gạt Nước Mắt",
+    "Dong_Thua": {
+      "name": "Đổng Thừa",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1
-    },
-    "Thua_Giat_Minh": {
-      "name": "Thừa Giật Mình",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
+      "age_stage": "trung_nien",
+      "temperament": "tram_uat_dan_vat",
       "timbre_eq": "tragic_grief",
       "sample_emotions": [
-        "dau_don_trang_troi"
-      ],
-      "dialogue_count": 1
-    },
-    "Vua_Ben": {
-      "name": "Vua Bèn",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
+        "dau_don_trang_troi",
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1
+      "dialogue_count": 12
     },
-    "Thua": {
-      "name": "Thừa",
+    "Vuong_Tu_Phuc": {
+      "name": "Vương Tử Phục",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
-        "binh_than_tu_nhien",
-        "dau_don_trang_troi"
-      ],
-      "dialogue_count": 10
-    },
-    "Trong_Chieu": {
-      "name": "Trong Chiếu",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "tragic_grief",
-      "sample_emotions": [
-        "dau_don_trang_troi"
-      ],
-      "dialogue_count": 1
-    },
-    "Tu_Phuc": {
-      "name": "Tử Phục",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "chest_resonance",
+      "temperament": "tram_uat_dan_vat",
+      "timbre_eq": "sharp_cunning",
       "sample_emotions": [
         "cuong_no",
         "binh_than_tu_nhien",
@@ -159,80 +111,34 @@
       ],
       "dialogue_count": 3
     },
-    "Tap_Lai": {
-      "name": "Tập Lại",
+    "Chung_Tap": {
+      "name": "Chủng Tập",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
       "temperament": "anh_hung_hao_sang",
       "timbre_eq": "warm_authority",
       "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1
-    },
-    "Chung_Tap_Noi_Gian": {
-      "name": "Chủng Tập Nổi Giận",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1
-    },
-    "Dong_Thua_Cuoi": {
-      "name": "Đổng Thừa Cười",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "tragic_grief",
-      "sample_emotions": [
-        "dau_don_trang_troi"
-      ],
-      "dialogue_count": 1
-    },
-    "Dang": {
-      "name": "Đằng",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
+        "binh_than_tu_nhien",
+        "cuong_no"
       ],
       "dialogue_count": 2
     },
-    "Dang_Ham_Ham_Mat": {
-      "name": "Đằng Hầm Hầm Mặt",
+    "Tran_Dang": {
+      "name": "Trần Đăng",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "chest_resonance",
+      "temperament": "giao_hoat_nham_hiem",
+      "timbre_eq": "sharp_cunning",
       "sample_emotions": [
+        "binh_than_tu_nhien",
         "cuong_no"
       ],
-      "dialogue_count": 1
+      "dialogue_count": 4
     },
-    "Dang_Lai": {
-      "name": "Đằng Lại",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "chest_resonance",
-      "sample_emotions": [
-        "cuong_no"
-      ],
-      "dialogue_count": 1
-    },
-    "Moi_Nguoi": {
-      "name": "Mọi Người",
+    "Quan_Si": {
+      "name": "Quân Sĩ",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
@@ -244,5 +150,5 @@
       "dialogue_count": 1
     }
   },
-  "directed_at": "2026-09-15T15:43:19.879243"
+  "directed_at": "2026-09-17T10:33:44.541862"
 }

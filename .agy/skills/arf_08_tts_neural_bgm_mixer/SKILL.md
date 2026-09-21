@@ -1,6 +1,6 @@
 ---
 name: arf_08_tts_neural_bgm_mixer
-description: "Bước 08B trong Dây chuyền Sách nói Toàn năng (Universal Audiobook Pipeline): Kỹ sư Phòng thu Âm thanh & Cân bằng Âm học Hai Tầng (Master Studio TTS Synthesizer & Two-Stage Broadcast Leveler). Tiếp nhận kịch bản phân vai chi tiết từ Bước 08A (theatrical_script.json) hoặc kịch bản sạch (Kich-ban-*.txt), tập trung 100% vào kỹ thuật phòng thu chuyên nghiệp: phân luồng song thanh bản ngữ tuyệt đối (100% tiếng Việt đọc bởi vi-VN-NamMinhNeural hoặc vi-VN-HoaiMyNeural; 100% ngoại ngữ, tên riêng và từ viết tắt đọc bởi en-US-BrianMultilingualNeural hoặc en-US-EmmaMultilingual). Thực thi cơ chế chuyển tiếp khẩu hình và đệm thở thích ứng đa ngữ cảnh (Adaptive Dynamic Handoff Cushioning) trong dải chuẩn tối ưu [0.30s - 0.38s đến 0.85s - 1.80s]: phản xạ tức thì 0.30s - 0.35s khi cướp lời, đệm tự nhiên 0.42s - 0.50s, ngân rung thoại 0.50s - 0.60s, trang nghiêm 0.70s - 0.85s, và khoảng lặng kịch tính 0.85s - 1.20s kết hợp micro-fade 25ms triệt tiêu 100% tiếng giật cục, vấp âm khi đổi giọng. Khóa cứng chuẩn âm thanh đồng nhất 48kHz, bảo toàn đuôi âm khẽ -50dB và thang tốc độ ngoại ngữ thích ứng (-18%, -15%, -12%). Thực thi công nghệ cân bằng âm lượng hai tầng Two-Stage Dynamic Leveling (-16 LUFS, True Peak <= -1.5 dBTP) ở cả cấp độ câu thoại riêng lẻ và toàn bộ chunk, triệt tiêu tiếng hét giật mình và tiếng thì thầm mất chữ. Tích hợp bộ đệm phân đoạn (Part-Level Caching) và giãn cách lũy tiến Exponential Backoff chống nghẽn mạng. Kích hoạt khi kịch bản đã qua Bước 08A, hoặc khi cần thu âm trực tiếp các chunk âm thanh studio."
+description: "Bước 08B trong Dây chuyền Sách nói Toàn năng (Universal Audiobook Pipeline): Kỹ sư Phòng thu Âm thanh & Cân bằng Âm học Hai Tầng (Master Studio TTS Synthesizer & Two-Stage Broadcast Leveler). Tiếp nhận kịch bản phân vai từ Bước 08A (theatrical_script.json), tập trung 100% vào kỹ thuật phòng thu: phân luồng song thanh bản ngữ tuyệt đối (100% tiếng Việt đọc bởi vi-VN-NamMinhNeural hoặc vi-VN-HoaiMyNeural; 100% ngoại ngữ, tên riêng đọc bởi en-US-BrianMultilingualNeural hoặc en-US-EmmaMultilingual). Thực thi đệm thở thích ứng đa ngữ cảnh (Adaptive Dynamic Handoff) khóa cứng trong dải chuẩn từ thấp nhất 0.45s đến cao nhất 1.20s [0.45s – 1.20s]: tức thì 0.45s - 0.52s khi cướp lời, đệm tự nhiên 0.55s - 0.68s, ngân rung thoại 0.65s - 0.80s, trang nghiêm 0.80s - 1.00s, và khoảng lặng kịch tính/ngâm thơ tối đa 1.20s kết hợp micro-fade 25ms triệt tiêu 100% tiếng giật cục khi đổi giọng. Khóa cứng chuẩn âm thanh đồng nhất 48kHz, giữ đuôi âm khẽ -50dB và thang tốc độ ngoại ngữ thích ứng (-24%, -18%, -15%). Thực thi cân bằng âm lượng hai tầng Two-Stage Dynamic Leveling (-16 LUFS, True Peak <= -1.5 dBTP) ở cả câu thoại riêng lẻ và toàn chunk, triệt tiêu tiếng hét giật mình và tiếng thì thầm mất chữ. Tích hợp bộ đệm phân đoạn (Part-Level Caching) và Exponential Backoff chống nghẽn mạng. Kích hoạt khi kịch bản đã qua Bước 08A hoặc khi cần thu âm trực tiếp."
 ---
 
 # Kỹ năng 08B: Thu Âm Phòng Thu & Cân Bằng Âm Học Hai Tầng (Neural TTS Synthesizer)
@@ -12,13 +12,13 @@ Kỹ năng `arf_08_tts_neural_bgm_mixer` (Bước 08B) đóng vai trò **Kỹ S�
 ### 1.1 Ma Trận Giọng Đọc Đồng Nhất Giới Tính (Gender-Consistent Profiles)
 | Hồ Sơ Giới Tính | Giọng Tiếng Việt Chính | Giọng Tiếng Anh / Latinh | Ngoại Ngữ Khác | Quy Chuẩn Equalizer (EQ) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Nam (Male Profile)** | `vi-VN-NamMinhNeural`<br>(Rate: `-10%`) | `en-US-BrianMultilingualNeural`<br>(Adaptive Rate: `-18%` $\to$ `-12%`) | Pháp: `Henri`<br>Đức: `Conrad`<br>TBN: `Alvaro` | `+2.5dB` tại 300Hz (trầm ấm lồng ngực); `-2.0dB` tại 4.000Hz (dịu chói gắt). |
-| **Nữ (Female Profile)** | `vi-VN-HoaiMyNeural`<br>(Rate: `-10%`) | `en-US-EmmaMultilingual`<br>(Adaptive Rate: `-18%` $\to$ `-12%`) | Pháp: `Denise`<br>Đức: `Katja`<br>TBN: `Elvira` | `+2.0dB` tại 300Hz (ấm mượt); `-2.0dB` tại 4.500Hz (khử sibilance sắc nhọn). |
+| **Nam (Male Profile)** | `vi-VN-NamMinhNeural`<br>(Rate: `-10%`) | `en-US-BrianMultilingualNeural`<br>(Adaptive Rate: `-24%` $\to$ `-15%`) | Pháp: `Henri`<br>Đức: `Conrad`<br>TBN: `Alvaro` | `+2.5dB` tại 300Hz (trầm ấm lồng ngực); `-2.0dB` tại 4.000Hz (dịu chói gắt). |
+| **Nữ (Female Profile)** | `vi-VN-HoaiMyNeural`<br>(Rate: `-10%`) | `en-US-EmmaMultilingual`<br>(Adaptive Rate: `-24%` $\to$ `-15%`) | Pháp: `Denise`<br>Đức: `Katja`<br>TBN: `Elvira` | `+2.0dB` tại 300Hz (ấm mượt); `-2.0dB` tại 4.500Hz (khử sibilance sắc nhọn). |
 
 ### 1.2 Thang Tốc Độ Ngoại Ngữ Thích Ứng (Dynamic Foreign Speed Ladder)
-- **1 từ hoặc từ viết tắt (`P-M-I`, `W-B-S`, `scope`, `bar`):** Tốc độ **`-18%`** $\to$ tròn vành rõ chữ, không nuốt âm.
-- **2 – 3 từ (`Project Manager`, `Sprint Backlog`):** Tốc độ **`-15%`** $\to$ nhịp đĩnh đạc, chuyển ngữ thanh thoát.
-- **$\ge 4$ từ (mệnh đề/tiêu đề tiếng Anh dài):** Tốc độ **`-12%`** $\to$ giữ vững dòng chảy hứng khởi, không trì trệ.
+- **1 từ hoặc từ viết tắt (`P-M-I`, `W-B-S`, `scope`, `bar`):** Tốc độ **`-24%`** $\to$ tròn vành rõ chữ, không nuốt âm.
+- **2 – 3 từ (`Project Manager`, `Sprint Backlog`):** Tốc độ **`-18%`** $\to$ nhịp đĩnh đạc, chuyển ngữ thanh thoát.
+- **$\ge 4$ từ (mệnh đề/tiêu đề tiếng Anh dài):** Tốc độ **`-15%`** $\to$ giữ vững dòng chảy hứng khởi, không trì trệ.
 
 ### 1.3 Quy Chuẩn Cân Bằng Âm Học Hai Tầng & Đồng Nhất Chuẩn 48kHz
 $$\text{Loudness Target} = -16 \text{ LUFS} \quad (\text{True Peak } \le -1.5 \text{ dBTP}, \text{ LRA } 5 - 6)$$
@@ -30,14 +30,15 @@ $$\text{Loudness Target} = -16 \text{ LUFS} \quad (\text{True Peak } \le -1.5 \t
 4. **Bảo tồn đuôi âm khẽ `-50dB`:** Ngưỡng cắt silence an toàn `start_threshold=-50dB`, bảo toàn 100% âm tàn tiếng Việt.
 
 ### 1.4 Cơ Chế Chuyển Giao Khẩu Hình & Đệm Thở Thích Ứng (Adaptive Dynamic Handoff)
-- **Tiếp nhận tham số `lead_in_pause` linh hoạt:** Phòng thu đọc trực tiếp giá trị đệm thở từ `theatrical_script.json` trong dải chuẩn tối ưu **[0.30s – 0.38s đến 0.85s – 1.80s]**:
-  * *Tức khắc / Cướp lời:* `0.30s – 0.35s` (nhịp ngắt dứt khoát nhưng có đệm tối thiểu 300ms chống giật cụt).
-  * *Dẫn nhập thúc giục:* `0.35s – 0.40s`.
-  * *Tự nhiên / Đàm đạo:* `0.42s – 0.50s` (nhịp thở sinh học êm dịu).
-  * *Ngân rung thoại:* `0.50s – 0.60s` (lời thoại ngân sâu trước khi dẫn tiếp).
-  * *Trầm ngâm / Trang nghiêm:* `0.60s – 0.85s`.
-  * *Khoảng lặng kịch tính:* `0.85s – 1.20s` (chấn động tâm lý).
-  * *Đệm thở ngâm thơ 3 tầng:* `0.85s – 1.80s` (lắng sâu cảm xúc).
+- **Tiếp nhận tham số `lead_in_pause` linh hoạt:** Phòng thu đọc trực tiếp giá trị đệm thở từ `theatrical_script.json` khóa cứng trong dải chuẩn từ thấp nhất 0.45s đến cao nhất 1.20s **[0.45s – 1.20s]**:
+  * *Cắt lời tức thì:* `0.45s – 0.52s` (nhịp ngắt dứt khoát nhưng có đệm tối thiểu 450ms chống giật cụt, bảo toàn trọn vẹn hơi thở người nói trước).
+  * *Dẫn nhập thúc giục:* `0.48s – 0.58s`.
+  * *Tự nhiên / Đàm đạo:* `0.55s – 0.68s` (nhịp thở sinh học êm dịu).
+  * *Ngân rung thoại:* `0.65s – 0.80s` (lời thoại ngân sâu trước khi dẫn tiếp).
+  * *Trầm ngâm / Buông tiếng:* `0.75s – 0.95s`.
+  * *Trang nghiêm triều đình:* `0.80s – 1.00s`.
+  * *Khoảng lặng kịch tính:* `1.00s – 1.20s` (chấn động tâm lý).
+  * *Đệm thở ngâm thơ 3 tầng:* `0.52s – 1.20s` (Lead-in 0.52s - 0.98s, Inter-verse 0.55s, Coda kết bài 1.00s - 1.20s).
 - **Micro-fade 25ms:** Tự động làm mượt 25ms ở hai đầu ranh giới tiếp giáp, đảm bảo chuyển đổi giữa các sắc thái EQ không bị giật cục.
 
 ---

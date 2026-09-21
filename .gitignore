@@ -28,3 +28,8 @@ s_*.mp3
 *.webm
 *.mp3
 *.wav
+*.mp4
+
+# Credentials and Secrets
+tools/client_secret.json
+tools/token.json

@@ -16,26 +16,26 @@ PRIMARY_VOICE_VN = "vi-VN-NamMinhNeural"  # Male narrator for Vietnamese
 PRIMARY_RATE_VN = "-10%"
 
 SECONDARY_VOICE_EN = "en-US-BrianMultilingualNeural"  # Male narrator for English/Latin terms
-SECONDARY_RATE_EN = "-15%"  # Base reference rate (dynamically adapted: -18% short/acronyms, -15% medium, -12% long)
+SECONDARY_RATE_EN = "-18%"  # Base reference rate (dynamically adapted: -24% short/acronyms, -18% medium, -15% long)
 
 def get_adaptive_en_rate(text: str) -> str:
     """
     Dynamic Length-Adaptive Speech Rate for foreign/English terms (Anti-Auditory Swallowing & Fatigue):
-    - Ultra-short / single words / acronyms (1 word, e.g. 'P-M-I', 'bar', 'role', 'scope', 'A-I'): -18%
+    - Ultra-short / single words / acronyms (1 word, e.g. 'P-M-I', 'bar', 'role', 'scope', 'A-I'): -24%
       (Ensures crystal-clear articulation, gives full resonance to short vowels/consonants).
-    - Medium phrases (2-3 words, e.g. 'Project Manager', 'Sprint Backlog', 'Google New York'): -15%
+    - Medium phrases (2-3 words, e.g. 'Project Manager', 'Sprint Backlog', 'Google New York'): -18%
       (Balanced, professional, articulate cadence).
-    - Long multi-word clauses / headings (>= 4 words, e.g. 'BECOMING AN EFFECTIVE PROJECT MANAGER'): -12%
+    - Long multi-word clauses / headings (>= 4 words, e.g. 'BECOMING AN EFFECTIVE PROJECT MANAGER'): -15%
       (Fluid, natural rhythm, prevents sluggishness or drowsiness on long phrases).
     """
     clean = re.sub(r'[^\w\s-]', '', text).strip()
     words = clean.split()
     if len(words) <= 1:
-        return "-18%"
+        return "-24%"
     elif len(words) in (2, 3):
-        return "-15%"
+        return "-18%"
     else:
-        return "-12%"
+        return "-15%"
 
 FFMPEG_EXE = imageio_ffmpeg.get_ffmpeg_exe()
 
@@ -478,9 +478,10 @@ def process_audio_segment_ffmpeg(in_mp3, out_wav, pause_type=None, pad_sec=None,
             pad_sec = 0.08
 
     af_parts = [
-        "areverse",
-        "silenceremove=start_periods=1:start_duration=0.05:start_threshold=-50dB",
-        "areverse"
+        # Gentle silence trimming that preserves 100% natural vocal decay, breath out, and vowel release:
+        # Avoids cutting speech tail abruptly (which causes 'hơi chưa ra hết đã bị ngắt')
+        "silenceremove=start_periods=1:start_duration=0.05:start_threshold=-55dB:start_silence=0.05",
+        "silenceremove=stop_periods=-1:stop_duration=0.25:stop_threshold=-55dB:stop_silence=0.20"
     ]
     if timbre_eq:
         if timbre_eq in TIMBRE_EQ_FILTERS:
@@ -648,7 +649,7 @@ def split_long_theatrical_line(line_item, max_chars=400):
         item = dict(line_item)
         item["text"] = part
         if i < len(result) - 1:
-            item["lead_in_pause"] = "0.35s"
+            item["lead_in_pause"] = "0.45s"
         expanded.append(item)
     return expanded
 
@@ -686,11 +687,11 @@ async def synthesize_theatrical_chunk(chunk_id, lines, output_mp3, force_rebuild
         txt = line_item.get("text", "").strip()
         if not any(c.isalnum() for c in txt):
             # Pure silence/pause line! Generate pure silence directly via ffmpeg
-            pad_val = line_item.get("lead_in_pause", "1.50s")
+            pad_val = line_item.get("lead_in_pause", "1.20s")
             try:
-                silence_dur = float(str(pad_val).replace("s", "").strip())
+                silence_dur = min(1.20, max(0.45, float(str(pad_val).replace("s", "").strip())))
             except Exception:
-                silence_dur = 1.50
+                silence_dur = 1.20
             if not os.path.exists(raw_mp3) or os.path.getsize(raw_mp3) < 500:
                 cmd = [
                     FFMPEG_EXE, "-y", "-f", "lavfi",
@@ -746,45 +747,63 @@ async def synthesize_theatrical_chunk(chunk_id, lines, output_mp3, force_rebuild
                 continue
 
             stripped = txt.rstrip()
-            prepend_silence = 1.50 if (i == 0 and ". ......" in txt[:20]) else 0.0
+            prepend_silence = 1.20 if (i == 0 and ". ......" in txt[:20]) else 0.0
 
             next_txt = lines[i+1].get("text", "").strip() if i < len(lines) - 1 else ""
             next_is_pure_pause_marker = (next_txt == ". ......") or (bool(next_txt) and not any(c.isalnum() for c in next_txt))
 
-            custom_pad = line.get("lead_in_pause")
+            # Determine handoff transition cushion to next line:
+            # The gap between line i and line i+1 adopts the lead-in pause of line i+1
+            next_line = lines[i+1] if i < len(lines) - 1 else None
+            custom_pad = None
+            if next_line and not next_is_pure_pause_marker:
+                custom_pad = next_line.get("lead_in_pause") or line.get("lead_in_pause")
+            else:
+                custom_pad = line.get("lead_in_pause")
+
             if ". ......" in stripped[-20:]:
-                # Current line itself ends with pause marker → apply full pause
-                pad_sec = 1.50
+                # Current line itself ends with pause marker → apply full pause (capped at 1.20s)
+                pad_sec = 1.20
             elif next_is_pure_pause_marker:
-                # Next line IS the silence marker → it will add its own 1.50s, so apply minimal pad here
-                pad_sec = 0.08  # Just a micro-gap for articulation, silence line handles the rest
+                # Next line IS the silence marker → it will add its own silence, so apply minimal micro-gap
+                pad_sec = 0.08
             elif custom_pad:
                 try:
                     pad_sec = float(str(custom_pad).replace("s", "").strip())
                 except Exception:
-                    pad_sec = 0.42
+                    pad_sec = 0.55
             elif line.get("type") == "dialogue":
-                next_line = lines[i+1] if i < len(lines) - 1 else None
                 next_type = next_line.get("type") if next_line else None
                 curr_emo = line.get("emotion", "")
                 next_emo = next_line.get("emotion", "") if next_line else ""
                 if next_type == "dialogue":
                     if any(e in (next_emo, curr_emo) for e in ("cuong_no", "de_doa_tham_hiem", "bang_hoang_chet_lang")) or any(punct in stripped[-3:] for punct in ("!", "!?")):
-                        pad_sec = 0.30
+                        pad_sec = 0.48
                     elif any(e in (next_emo, curr_emo) for e in ("hoi_hop_thi_thao", "doc_thoai_dan_vat", "dau_don_trang_troi", "met_moi_buong_xuoi")):
-                        pad_sec = 0.75
+                        pad_sec = 0.80
                     else:
-                        pad_sec = 0.45
+                        pad_sec = 0.58
                 else:
-                    pad_sec = 0.55 if stripped.endswith(("!", "?")) else 0.45
+                    pad_sec = 0.60 if stripped.endswith(("!", "?")) else 0.52
             elif line.get("type") == "poem":
-                pad_sec = 0.85
+                pad_sec = 0.55
             elif stripped.endswith((".", "!", "?")):
-                pad_sec = 0.50
+                pad_sec = 0.55
             elif stripped.endswith((",", ";", ":")):
-                pad_sec = 0.35
+                pad_sec = 0.45
             else:
-                pad_sec = 0.30
+                pad_sec = 0.48
+
+            # When switching speakers (character handoff or narrator-dialogue shift),
+            # guarantee at least 0.48s so previous speaker's breath and release are completely finished!
+            if next_line and not next_is_pure_pause_marker:
+                curr_spk = line.get("speaker")
+                next_spk = next_line.get("speaker")
+                if curr_spk != next_spk:
+                    pad_sec = max(0.48, pad_sec)
+
+            if not next_is_pure_pause_marker:
+                pad_sec = max(0.45, min(1.20, pad_sec))
 
             teq = line.get("timbre_eq")
             try:

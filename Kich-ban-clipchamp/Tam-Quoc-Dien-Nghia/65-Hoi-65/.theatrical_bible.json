@@ -4,10 +4,10 @@
   "chapter_title": "Hồi 65: Mã Siêu đại chiến cửa Hà Manh; Huyền Đức nhận chức được đất Tây Thục",
   "genre": "classical_epic_literature",
   "total_theatrical_lines": 101,
-  "narrator_lines": 58,
+  "narrator_lines": 59,
   "poem_lines": 0,
-  "dialogue_lines": 43,
-  "characters_cast_count": 21,
+  "dialogue_lines": 42,
+  "characters_cast_count": 16,
   "characters": {
     "Narrator": {
       "name": "Người dẫn chuyện",
@@ -20,21 +20,7 @@
         "epic",
         "intimate"
       ],
-      "dialogue_count": 58
-    },
-    "Lai": {
-      "name": "Lại",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "trung_nien",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
-        "dau_don_trang_troi"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 59
     },
     "Gia_Cat_Luong": {
       "name": "Gia Cát Lượng",
@@ -45,11 +31,10 @@
       "timbre_eq": "warm_authority",
       "sample_emotions": [
         "binh_than_tu_nhien",
-        "dau_don_trang_troi"
+        "dau_don_trang_troi",
+        "hoan_ca_dac_thang"
       ],
-      "dialogue_count": 9,
-      "base_pitch": "-5Hz",
-      "base_rate": "-10%"
+      "dialogue_count": 9
     },
     "Hoang_Trung": {
       "name": "Hoàng Trung",
@@ -61,23 +46,19 @@
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     },
     "Ly_Nghiem": {
       "name": "Lý Nghiêm",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "trung_nien",
-      "temperament": "khac_kho_lanh_lung",
-      "timbre_eq": "warm_authority",
+      "temperament": "anh_hung_hao_sang",
+      "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-5Hz",
-      "base_rate": "-10%"
+      "dialogue_count": 1
     },
     "Truong_Phi": {
       "name": "Trương Phi",
@@ -85,13 +66,11 @@
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "trung_nien",
       "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "chest_resonance",
+      "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 1
     },
     "Ma_Dai": {
       "name": "Mã Đại",
@@ -101,25 +80,10 @@
       "temperament": "anh_hung_hao_sang",
       "timbre_eq": "warm_authority",
       "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
-    },
-    "Ma_Dai_Noi_Gian": {
-      "name": "Mã Đại Nổi Giận",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "trung_nien",
-      "temperament": "hach_dich_bao_nguoc",
-      "timbre_eq": "chest_resonance",
-      "sample_emotions": [
+        "binh_than_tu_nhien",
         "cuong_no"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-2Hz",
-      "base_rate": "-2%"
+      "dialogue_count": 2
     },
     "Luu_Bi": {
       "name": "Lưu Bị",
@@ -132,9 +96,7 @@
         "binh_than_tu_nhien",
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 9,
-      "base_pitch": "-3Hz",
-      "base_rate": "-4%"
+      "dialogue_count": 9
     },
     "Ma_Sieu": {
       "name": "Mã Siêu",
@@ -146,51 +108,19 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 6
     },
-    "Sieu": {
-      "name": "Siêu",
+    "Truong_Tung": {
+      "name": "Trương Tùng",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "trung_nien",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "temperament": "teu_tao_hom_hinh",
+      "timbre_eq": "sharp_cunning",
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 4,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
-    },
-    "Tung": {
-      "name": "Tùng",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "trung_nien",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 2,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
-    },
-    "Duong_Tung": {
-      "name": "Dương Tùng",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "trung_nien",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 3
     },
     "Khoi": {
       "name": "Khôi",
@@ -203,9 +133,7 @@
         "binh_than_tu_nhien",
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 3,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 3
     },
     "Trieu_Van": {
       "name": "Triệu Vân",
@@ -213,27 +141,11 @@
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "trung_nien",
       "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
-    },
-    "Sieu_Tro_Roi_Len": {
-      "name": "Siêu Trỏ Roi Lên",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "trung_nien",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 1
     },
     "Chuong": {
       "name": "Chương",
@@ -245,9 +157,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 1
     },
     "Dong_Hoa": {
       "name": "Đồng Hòa",
@@ -259,9 +169,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 1
     },
     "Phap_Chinh": {
       "name": "Pháp Chính",
@@ -273,9 +181,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-5Hz",
-      "base_rate": "-10%"
+      "dialogue_count": 1
     },
     "Thu": {
       "name": "Thư",
@@ -283,13 +189,11 @@
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "trung_nien",
       "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 1
     },
     "Day": {
       "name": "Đây",
@@ -301,24 +205,20 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 1
     },
-    "Chieu": {
-      "name": "Chiêu",
+    "Tu_Ma_Chieu": {
+      "name": "Tư Mã Chiêu",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "trung_nien",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "temperament": "giao_hoat_nham_hiem",
+      "timbre_eq": "sharp_cunning",
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 1
     }
   },
-  "directed_at": "2026-09-15T11:13:15.226368"
+  "directed_at": "2026-09-17T10:33:45.051989"
 }

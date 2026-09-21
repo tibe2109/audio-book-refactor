@@ -18,7 +18,9 @@ SKILLS = [
     "arf_10_bgm_dynamic_mixer",
     "Make-audio-script-process",
     "Make-audio-bgm-process",
-    "universal-audiobook"
+    "universal-audiobook",
+    "abv_01_thematic_visual_prompter",
+    "abv_02_audiobook_video_compiler"
 ]
 
 REQUIRED_SECTIONS = [

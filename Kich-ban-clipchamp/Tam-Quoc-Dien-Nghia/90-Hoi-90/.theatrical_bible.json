@@ -4,10 +4,10 @@
   "chapter_title": "Hồi 90: Đuổi thú mạnh, sáu chuyến phá quân Man; Đốt giáp mây, bảy lần bắt Mạnh Hoạch",
   "genre": "classical_epic_literature",
   "total_theatrical_lines": 48,
-  "narrator_lines": 32,
+  "narrator_lines": 34,
   "poem_lines": 0,
-  "dialogue_lines": 16,
-  "characters_cast_count": 9,
+  "dialogue_lines": 14,
+  "characters_cast_count": 8,
   "characters": {
     "Narrator": {
       "name": "Người dẫn chuyện",
@@ -22,10 +22,10 @@
         "intimate",
         "suspense"
       ],
-      "dialogue_count": 32
+      "dialogue_count": 34
     },
-    "Lai": {
-      "name": "Lại",
+    "Manh_Hoach": {
+      "name": "Mạnh Hoạch",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "lao_hoa",
@@ -34,23 +34,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
-    },
-    "Manh_Hoach": {
-      "name": "Mạnh Hoạch",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "lao_hoa",
-      "temperament": "hach_dich_bao_nguoc",
-      "timbre_eq": "aged_gravel",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "-5Hz",
-      "base_rate": "-12%"
+      "dialogue_count": 1
     },
     "Gia_Cat_Luong": {
       "name": "Gia Cát Lượng",
@@ -62,9 +46,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 6,
-      "base_pitch": "-5Hz",
-      "base_rate": "-10%"
+      "dialogue_count": 6
     },
     "Hoach": {
       "name": "Hoạch",
@@ -76,9 +58,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     },
     "Dai_Lai": {
       "name": "Đái Lai",
@@ -90,9 +70,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 2
     },
     "Khai": {
       "name": "Khải",
@@ -104,9 +82,7 @@
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     },
     "Ngot_Dot_Cot": {
       "name": "Ngột Đột Cốt",
@@ -118,9 +94,7 @@
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     },
     "Quan_Man": {
       "name": "Quân Man",
@@ -132,12 +106,10 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     },
-    "Cac_Tuong_Bai_Phuc": {
-      "name": "Các Tướng Bái Phục",
+    "Bai_Phuc": {
+      "name": "Bái Phục",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "lao_hoa",
@@ -146,10 +118,8 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     }
   },
-  "directed_at": "2026-09-15T11:13:15.448939"
+  "directed_at": "2026-09-17T10:33:45.311107"
 }

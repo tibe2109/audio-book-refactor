@@ -9,7 +9,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "0.30s",
+    "lead_in_pause": "0.70s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -22,7 +22,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -35,7 +35,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+0Hz",
     "rate": "-5%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "intimate_narrator"
   },
   {
@@ -48,7 +48,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "1.50s",
+    "lead_in_pause": "1.20s",
     "timbre_eq": "contemplative_narrator"
   },
   {
@@ -61,7 +61,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "-8%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "suspense_narrator"
   },
   {
@@ -75,9 +75,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -90,7 +90,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "-8%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "suspense_narrator"
   },
   {
@@ -103,23 +103,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 9,
     "chunk_id": 2,
     "type": "dialogue",
-    "speaker": "Ton_Hoi_Cac_Tuong",
-    "character_name": "Tốn Hội Các Tướng",
+    "speaker": "Tuong_Si",
+    "character_name": "Tướng Sĩ",
     "text": "Ta nên dâng biểu tâu với chúa thượng.",
     "age_stage": "lao_hoa",
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -132,7 +132,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -143,12 +143,12 @@
     "character_name": "Sứ Giả",
     "text": "Lục tướng quân mỗi ngày sai chúng ra cửa dinh trồng đậu.",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "khac_kho_lanh_lung",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-24%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -161,23 +161,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 13,
     "chunk_id": 2,
     "type": "dialogue",
-    "speaker": "Ton",
-    "character_name": "Tốn",
+    "speaker": "Luc_Ton",
+    "character_name": "Lục Tốn",
     "text": "Tôi đã sai người dâng biểu cho chúa thượng, không ngờ bị quân Ngụy bắt được.",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "khac_kho_lanh_lung",
     "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-10Hz",
-    "rate": "-24%",
-    "lead_in_pause": "0.32s",
+    "rate": "-25%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -190,23 +190,23 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
     "line_id": 15,
     "chunk_id": 2,
     "type": "dialogue",
-    "speaker": "Can",
-    "character_name": "Cẩn",
+    "speaker": "Ton_Can",
+    "character_name": "Tôn Càn",
     "text": "Đô đốc đã có bụng thế, nên rút quân về ngay, cớ sao lại còn trì hoãn?",
     "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
+    "temperament": "trong_sang_thanh_thien",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
+    "pitch": "-5Hz",
     "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -219,7 +219,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -232,7 +232,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "-8%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "suspense_narrator"
   },
   {
@@ -246,9 +246,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -261,7 +261,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "-8%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "suspense_narrator"
   },
   {
@@ -274,7 +274,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -288,9 +288,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -303,7 +303,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -318,8 +318,8 @@
     "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-10Hz",
-    "rate": "-24%",
-    "lead_in_pause": "0.32s",
+    "rate": "-25%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -332,7 +332,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -346,9 +346,9 @@
     "temperament": "anh_hung_hao_sang",
     "emotion": "cuong_no",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-2Hz",
+    "pitch": "-4Hz",
     "rate": "-10%",
-    "lead_in_pause": "0.32s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -361,7 +361,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -374,7 +374,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -388,9 +388,9 @@
     "temperament": "giao_hoat_nham_hiem",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-8Hz",
-    "rate": "-18%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-7Hz",
+    "rate": "-22%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -403,7 +403,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "epic_narrator"
   },
   {
@@ -411,13 +411,13 @@
     "chunk_id": 6,
     "type": "narrator",
     "speaker": "Narrator",
-    "narrative_mode": "contemplative",
+    "narrative_mode": "intimate",
     "text": "Ý đi giữa, kéo quân đuổi riết. Ngụy Diên dẫn năm trăm quân lùi cả vào hang. Ý đuổi đến cửa hang, sai người vào do thám trước. Người đi thám về báo trong hang không có quân phục gì cả, chỉ thấy trên núi dựng lều cỏ. Ý nói, Đây hẳn là nơi chứa lương. Liền thúc quân mã vào cả trong hang. Vừa đến nơi, thấy trong các lều cỏ toàn chứa củi khô, mà Ngụy Diên thì không thấy đâu nữa. Ý đâm nghi, bảo hai con rằng, Ta vào đây, phỏng có quân giặc lấp mất cửa hang thì làm thế nào? Nói chưa dứt lời, đã thấy tiếng reo nổi lên, lửa đâu ở trên núi ném xuống, đốt chặn ngang cửa hang trước. Rồi tên lửa bắn ra, địa lôi phục bật nổ lên, củi khô ở trong các lều cỏ cháy đùng đùng. Chỗ nào cũng nổ đôm đốp, ngọn lửa bốc lên ngùn ngụt. Tư Mã Ý hồn bay phách lạc, chân tay luống cuống, nhảy xuống ngựa, ôm lấy hai con, khóc ầm lên rằng. Ba cha con ta chết cả ở chỗ này mất rồi! Bỗng dưng trời nổi cơn giông to, mây đen kéo ngất trời, một tiếng sét nổ dữ dội, rồi đổ mưa xuống như trút nước. Lửa đang cháy tắt sạch, địa lôi phục câm tịt, những đồ dẫn hỏa cũng vô dụng. Tư Mã Ý mừng rằng, Không nhân lúc này mà đánh ra, còn đợi đến bao giờ nữa? Lập tức dẫn quân hăng sức phá toang ra, may lại có Trương Hổ, Nhạc Lâm dẫn binh đến tiếp ứng. Mã Đại ít quân, không dám đuổi theo. Cha con Tư Mã Ý cùng với Trương Hổ, Nhạc Lâm hợp binh làm một, kéo về trại Vị Nam. Không ngờ về đến nơi đã bị quân Thục cướp mất trại rồi. Quách Hoài, Tôn Lễ đang đánh nhau với quân Thục ở trên cầu phao. Tư Mã Ý dẫn quân đến, quân Thục rút chạy. Ý sai đốt cầu phao, đóng quân giữ ở mé bắc ngạn. Quân Ngụy đang đánh trại Kỳ Sơn, nghe tin Tư Mã Ý thua to, mất cả trại Vị Nam, sinh ra rối loạn. Vội vàng rút về. Quân Thục đổ ra đánh giết, quân Ngụy thua to, mười phần mất tám chín, còn tên nào sống sót. Thì chạy trốn về mé bắc sông Vị. Khổng Minh ở trên núi thấy Ngụy Diên dử được Tư Mã Ý vào hang. Một lát thấy ngọn lửa bốc lên, Khổng Minh trong bụng đã mừng, chắc phen này Tư Mã Ý phải chết. Không ngờ trời trút cơn mưa xuống, lửa tắt sạch cả. Tư Mã Ý chạy thoát được ra ngoài . Khổng Minh than rằng,",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-2Hz",
-    "rate": "-12%",
-    "lead_in_pause": "0.30s",
-    "timbre_eq": "contemplative_narrator"
+    "pitch": "+0Hz",
+    "rate": "-5%",
+    "lead_in_pause": "0.48s",
+    "timbre_eq": "intimate_narrator"
   },
   {
     "line_id": 31,
@@ -432,7 +432,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-10Hz",
     "rate": "-25%",
-    "lead_in_pause": "0.32s",
+    "lead_in_pause": "0.75s",
     "timbre_eq": "aged_gravel"
   },
   {
@@ -441,15 +441,27 @@
     "type": "narrator",
     "speaker": "Narrator",
     "narrative_mode": "contemplative",
-    "text": "Đời sau có thơ than rằng, Cửa hang gió cát với mây bay, Mưa xối mây đen kéo lại đây.",
+    "text": "Đời sau có thơ than rằng,",
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "contemplative_narrator"
   },
   {
     "line_id": 33,
+    "chunk_id": 6,
+    "type": "poem",
+    "speaker": "Narrator",
+    "text": "Cửa hang gió cát với mây bay, Mưa xối mây đen kéo lại đây.",
+    "voice": "vi-VN-NamMinhNeural",
+    "pitch": "-2Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.85s",
+    "timbre_eq": "poetic_recitation"
+  },
+  {
+    "line_id": 34,
     "chunk_id": 7,
     "type": "narrator",
     "speaker": "Narrator",
@@ -458,27 +470,24 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 34,
+    "line_id": 35,
     "chunk_id": 7,
-    "type": "dialogue",
-    "speaker": "Trong_Thu",
-    "character_name": "Trong Thư",
+    "type": "narrator",
+    "speaker": "Narrator",
+    "narrative_mode": "epic",
     "text": "Trọng Đạt đã làm đại tướng, thống lĩnh quân Trung Nguyên, không dám mặc giáp cầm gươm.",
-    "age_stage": "lao_hoa",
-    "temperament": "anh_hung_hao_sang",
-    "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "aged_gravel"
+    "pitch": "+1Hz",
+    "rate": "+0%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 35,
+    "line_id": 36,
     "chunk_id": 7,
     "type": "narrator",
     "speaker": "Narrator",
@@ -487,11 +496,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 36,
+    "line_id": 37,
     "chunk_id": 7,
     "type": "dialogue",
     "speaker": "Gia_Cat_Luong",
@@ -503,11 +512,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-10Hz",
     "rate": "-25%",
-    "lead_in_pause": "0.32s",
+    "lead_in_pause": "0.75s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 37,
+    "line_id": 38,
     "chunk_id": 8,
     "type": "narrator",
     "speaker": "Narrator",
@@ -516,27 +525,27 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 38,
+    "line_id": 39,
     "chunk_id": 8,
     "type": "dialogue",
-    "speaker": "Chu_Bo_Duong_Ngung",
-    "character_name": "Chủ Bộ Dương Ngung",
+    "speaker": "Gian_Ung",
+    "character_name": "Giản Ung",
     "text": "Tôi thấy thừa tướng hàng ngày cứ phải coi xét sổ sách, thiết nghĩ không nên.",
     "age_stage": "lao_hoa",
     "temperament": "teu_tao_hom_hinh",
     "emotion": "dau_don_trang_troi",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-9Hz",
-    "rate": "-21%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-24%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 39,
+    "line_id": 40,
     "chunk_id": 8,
     "type": "narrator",
     "speaker": "Narrator",
@@ -545,11 +554,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.45s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 40,
+    "line_id": 41,
     "chunk_id": 9,
     "type": "narrator",
     "speaker": "Narrator",
@@ -558,11 +567,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 41,
+    "line_id": 42,
     "chunk_id": 9,
     "type": "dialogue",
     "speaker": "Gia_Cat_Luong",
@@ -572,13 +581,13 @@
     "temperament": "khac_kho_lanh_lung",
     "emotion": "hoan_ca_dac_thang",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-5Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-7Hz",
+    "rate": "-19%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 42,
+    "line_id": 43,
     "chunk_id": 9,
     "type": "narrator",
     "speaker": "Narrator",
@@ -587,11 +596,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 43,
+    "line_id": 44,
     "chunk_id": 9,
     "type": "dialogue",
     "speaker": "Gia_Cat_Luong",
@@ -603,11 +612,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-10Hz",
     "rate": "-25%",
-    "lead_in_pause": "0.32s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 44,
+    "line_id": 45,
     "chunk_id": 9,
     "type": "narrator",
     "speaker": "Narrator",
@@ -616,27 +625,27 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 45,
+    "line_id": 46,
     "chunk_id": 9,
     "type": "dialogue",
-    "speaker": "Vi",
-    "character_name": "Vĩ",
+    "speaker": "Dien_Vi",
+    "character_name": "Điển Vi",
     "text": "Tào Tuấn nghe Đông Ngô ba mặt tiến quân, cũng dẫn đại quân đến Hợp Phì, sai Mãn Sủng, Điền Dự.",
     "age_stage": "lao_hoa",
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-7Hz",
-    "rate": "-16%",
-    "lead_in_pause": "0.32s",
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 46,
+    "line_id": 47,
     "chunk_id": 9,
     "type": "narrator",
     "speaker": "Narrator",
@@ -645,11 +654,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 47,
+    "line_id": 48,
     "chunk_id": 9,
     "type": "dialogue",
     "speaker": "Gia_Cat_Luong",
@@ -661,11 +670,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-10Hz",
     "rate": "-25%",
-    "lead_in_pause": "0.32s",
+    "lead_in_pause": "0.75s",
     "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 48,
+    "line_id": 49,
     "chunk_id": 9,
     "type": "narrator",
     "speaker": "Narrator",
@@ -674,27 +683,27 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 49,
+    "line_id": 50,
     "chunk_id": 9,
     "type": "dialogue",
-    "speaker": "Chu_Du",
-    "character_name": "Chu Du",
+    "speaker": "Khuong_Duy",
+    "character_name": "Khương Duy",
     "text": "Sao thừa tướng lại dạy thế?",
-    "age_stage": "trung_nien",
+    "age_stage": "lao_hoa",
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-4Hz",
-    "rate": "-6%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "warm_authority"
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 50,
+    "line_id": 51,
     "chunk_id": 9,
     "type": "narrator",
     "speaker": "Narrator",
@@ -703,11 +712,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 51,
+    "line_id": 52,
     "chunk_id": 10,
     "type": "narrator",
     "speaker": "Narrator",
@@ -716,27 +725,27 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.28s",
+    "lead_in_pause": "0.48s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 52,
+    "line_id": 53,
     "chunk_id": 10,
     "type": "dialogue",
-    "speaker": "Chu_Du",
-    "character_name": "Chu Du",
+    "speaker": "Khuong_Duy",
+    "character_name": "Khương Duy",
     "text": "Tượng trên trời đã thế, sao thừa tướng không dùng phép dâng sao giải hạn mà kéo lại được không?",
-    "age_stage": "trung_nien",
+    "age_stage": "lao_hoa",
     "temperament": "anh_hung_hao_sang",
     "emotion": "binh_than_tu_nhien",
     "voice": "vi-VN-NamMinhNeural",
-    "pitch": "-4Hz",
-    "rate": "-6%",
-    "lead_in_pause": "0.32s",
-    "timbre_eq": "warm_authority"
+    "pitch": "-10Hz",
+    "rate": "-18%",
+    "lead_in_pause": "0.55s",
+    "timbre_eq": "aged_gravel"
   },
   {
-    "line_id": 53,
+    "line_id": 54,
     "chunk_id": 10,
     "type": "narrator",
     "speaker": "Narrator",
@@ -745,11 +754,11 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "+1Hz",
     "rate": "+0%",
-    "lead_in_pause": "0.20s",
+    "lead_in_pause": "0.55s",
     "timbre_eq": "epic_narrator"
   },
   {
-    "line_id": 54,
+    "line_id": 55,
     "chunk_id": 11,
     "type": "narrator",
     "speaker": "Narrator",
@@ -758,7 +767,7 @@
     "voice": "vi-VN-NamMinhNeural",
     "pitch": "-2Hz",
     "rate": "-12%",
-    "lead_in_pause": "0.30s",
+    "lead_in_pause": "0.70s",
     "timbre_eq": "contemplative_narrator"
   }
 ]

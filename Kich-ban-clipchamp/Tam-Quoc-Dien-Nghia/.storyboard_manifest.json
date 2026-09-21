@@ -1,0 +1,3590 @@
+{
+  "work_title": "Tam Quốc Diễn Nghĩa",
+  "scanned_at": "2026-09-18T10:44:30.592438",
+  "coordinator_role": "Cross-Chapter Storyboard Coordinator",
+  "total_chapters": 120,
+  "total_scripts": 1129,
+  "total_audio_chunks": 1129,
+  "total_storyboards_completed": 52,
+  "total_storyboards_pending": 1077,
+  "chapters": {
+    "01-Hoi-01": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "storyboards_pending": [],
+      "status": "completed"
+    },
+    "02-Hoi-02": {
+      "total_scripts": 13,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt",
+        "Kich-ban-12.txt",
+        "Kich-ban-13.txt"
+      ],
+      "audio_chunks_count": 13,
+      "has_theatrical_script": true,
+      "storyboards_completed": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md",
+        "Kich-ban-12.md",
+        "Kich-ban-13.md"
+      ],
+      "storyboards_pending": [],
+      "status": "completed"
+    },
+    "03-Hoi-03": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "storyboards_pending": [],
+      "status": "completed"
+    },
+    "04-Hoi-04": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "storyboards_pending": [],
+      "status": "completed"
+    },
+    "05-Hoi-05": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "storyboards_pending": [],
+      "status": "completed"
+    },
+    "06-Hoi-06": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "07-Hoi-07": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "08-Hoi-08": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "09-Hoi-09": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "10-Hoi-10": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "11-Hoi-11": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "12-Hoi-12": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "13-Hoi-13": {
+      "total_scripts": 12,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt",
+        "Kich-ban-12.txt"
+      ],
+      "audio_chunks_count": 12,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md",
+        "Kich-ban-12.md"
+      ],
+      "status": "pending"
+    },
+    "14-Hoi-14": {
+      "total_scripts": 12,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt",
+        "Kich-ban-12.txt"
+      ],
+      "audio_chunks_count": 12,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md",
+        "Kich-ban-12.md"
+      ],
+      "status": "pending"
+    },
+    "15-Hoi-15": {
+      "total_scripts": 14,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt",
+        "Kich-ban-12.txt",
+        "Kich-ban-13.txt",
+        "Kich-ban-14.txt"
+      ],
+      "audio_chunks_count": 14,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md",
+        "Kich-ban-12.md",
+        "Kich-ban-13.md",
+        "Kich-ban-14.md"
+      ],
+      "status": "pending"
+    },
+    "16-Hoi-16": {
+      "total_scripts": 13,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt",
+        "Kich-ban-12.txt",
+        "Kich-ban-13.txt"
+      ],
+      "audio_chunks_count": 13,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md",
+        "Kich-ban-12.md",
+        "Kich-ban-13.md"
+      ],
+      "status": "pending"
+    },
+    "17-Hoi-17": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "18-Hoi-18": {
+      "total_scripts": 7,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt"
+      ],
+      "audio_chunks_count": 7,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md"
+      ],
+      "status": "pending"
+    },
+    "19-Hoi-19": {
+      "total_scripts": 13,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt",
+        "Kich-ban-12.txt",
+        "Kich-ban-13.txt"
+      ],
+      "audio_chunks_count": 13,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md",
+        "Kich-ban-12.md",
+        "Kich-ban-13.md"
+      ],
+      "status": "pending"
+    },
+    "20-Hoi-20": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "21-Hoi-21": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "22-Hoi-22": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "23-Hoi-23": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "24-Hoi-24": {
+      "total_scripts": 5,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt"
+      ],
+      "audio_chunks_count": 5,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md"
+      ],
+      "status": "pending"
+    },
+    "25-Hoi-25": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "26-Hoi-26": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "27-Hoi-27": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "28-Hoi-28": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "29-Hoi-29": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "30-Hoi-30": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "31-Hoi-31": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "32-Hoi-32": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "33-Hoi-33": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "34-Hoi-34": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "35-Hoi-35": {
+      "total_scripts": 7,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt"
+      ],
+      "audio_chunks_count": 7,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md"
+      ],
+      "status": "pending"
+    },
+    "36-Hoi-36": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "37-Hoi-37": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "38-Hoi-38": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "39-Hoi-39": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "40-Hoi-40": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "41-Hoi-41": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "42-Hoi-42": {
+      "total_scripts": 7,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt"
+      ],
+      "audio_chunks_count": 7,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md"
+      ],
+      "status": "pending"
+    },
+    "43-Hoi-43": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "44-Hoi-44": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "45-Hoi-45": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "46-Hoi-46": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "47-Hoi-47": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "48-Hoi-48": {
+      "total_scripts": 6,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt"
+      ],
+      "audio_chunks_count": 6,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md"
+      ],
+      "status": "pending"
+    },
+    "49-Hoi-49": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "50-Hoi-50": {
+      "total_scripts": 7,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt"
+      ],
+      "audio_chunks_count": 7,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md"
+      ],
+      "status": "pending"
+    },
+    "51-Hoi-51": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "52-Hoi-52": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "53-Hoi-53": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "54-Hoi-54": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "55-Hoi-55": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "56-Hoi-56": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "57-Hoi-57": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "58-Hoi-58": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "59-Hoi-59": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "60-Hoi-60": {
+      "total_scripts": 14,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt",
+        "Kich-ban-12.txt",
+        "Kich-ban-13.txt",
+        "Kich-ban-14.txt"
+      ],
+      "audio_chunks_count": 14,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md",
+        "Kich-ban-12.md",
+        "Kich-ban-13.md",
+        "Kich-ban-14.md"
+      ],
+      "status": "pending"
+    },
+    "61-Hoi-61": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "62-Hoi-62": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "63-Hoi-63": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "64-Hoi-64": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "65-Hoi-65": {
+      "total_scripts": 12,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt",
+        "Kich-ban-12.txt"
+      ],
+      "audio_chunks_count": 12,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md",
+        "Kich-ban-12.md"
+      ],
+      "status": "pending"
+    },
+    "66-Hoi-66": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "67-Hoi-67": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "68-Hoi-68": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "69-Hoi-69": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "70-Hoi-70": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "71-Hoi-71": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "72-Hoi-72": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "73-Hoi-73": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "74-Hoi-74": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "75-Hoi-75": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "76-Hoi-76": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "77-Hoi-77": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "78-Hoi-78": {
+      "total_scripts": 7,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt"
+      ],
+      "audio_chunks_count": 7,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md"
+      ],
+      "status": "pending"
+    },
+    "79-Hoi-79": {
+      "total_scripts": 7,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt"
+      ],
+      "audio_chunks_count": 7,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md"
+      ],
+      "status": "pending"
+    },
+    "80-Hoi-80": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "81-Hoi-81": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "82-Hoi-82": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "83-Hoi-83": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "84-Hoi-84": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "85-Hoi-85": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "86-Hoi-86": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "87-Hoi-87": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "88-Hoi-88": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "89-Hoi-89": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "90-Hoi-90": {
+      "total_scripts": 12,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt",
+        "Kich-ban-12.txt"
+      ],
+      "audio_chunks_count": 12,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md",
+        "Kich-ban-12.md"
+      ],
+      "status": "pending"
+    },
+    "91-Hoi-91": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "92-Hoi-92": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "93-Hoi-93": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "94-Hoi-94": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "95-Hoi-95": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "96-Hoi-96": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "97-Hoi-97": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "98-Hoi-98": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "99-Hoi-99": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "100-Hoi-100": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "101-Hoi-101": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "102-Hoi-102": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "103-Hoi-103": {
+      "total_scripts": 11,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt"
+      ],
+      "audio_chunks_count": 11,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md"
+      ],
+      "status": "pending"
+    },
+    "104-Hoi-104": {
+      "total_scripts": 7,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt"
+      ],
+      "audio_chunks_count": 7,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md"
+      ],
+      "status": "pending"
+    },
+    "105-Hoi-105": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "106-Hoi-106": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "107-Hoi-107": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "108-Hoi-108": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "109-Hoi-109": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "110-Hoi-110": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "111-Hoi-111": {
+      "total_scripts": 7,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt"
+      ],
+      "audio_chunks_count": 7,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md"
+      ],
+      "status": "pending"
+    },
+    "112-Hoi-112": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "113-Hoi-113": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "114-Hoi-114": {
+      "total_scripts": 7,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt"
+      ],
+      "audio_chunks_count": 7,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md"
+      ],
+      "status": "pending"
+    },
+    "115-Hoi-115": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "116-Hoi-116": {
+      "total_scripts": 8,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt"
+      ],
+      "audio_chunks_count": 8,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md"
+      ],
+      "status": "pending"
+    },
+    "117-Hoi-117": {
+      "total_scripts": 9,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt"
+      ],
+      "audio_chunks_count": 9,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md"
+      ],
+      "status": "pending"
+    },
+    "118-Hoi-118": {
+      "total_scripts": 7,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt"
+      ],
+      "audio_chunks_count": 7,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md"
+      ],
+      "status": "pending"
+    },
+    "119-Hoi-119": {
+      "total_scripts": 10,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt"
+      ],
+      "audio_chunks_count": 10,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md"
+      ],
+      "status": "pending"
+    },
+    "120-Hoi-120": {
+      "total_scripts": 13,
+      "script_files": [
+        "Kich-ban-1.txt",
+        "Kich-ban-2.txt",
+        "Kich-ban-3.txt",
+        "Kich-ban-4.txt",
+        "Kich-ban-5.txt",
+        "Kich-ban-6.txt",
+        "Kich-ban-7.txt",
+        "Kich-ban-8.txt",
+        "Kich-ban-9.txt",
+        "Kich-ban-10.txt",
+        "Kich-ban-11.txt",
+        "Kich-ban-12.txt",
+        "Kich-ban-13.txt"
+      ],
+      "audio_chunks_count": 13,
+      "has_theatrical_script": true,
+      "storyboards_completed": [],
+      "storyboards_pending": [
+        "Kich-ban-1.md",
+        "Kich-ban-2.md",
+        "Kich-ban-3.md",
+        "Kich-ban-4.md",
+        "Kich-ban-5.md",
+        "Kich-ban-6.md",
+        "Kich-ban-7.md",
+        "Kich-ban-8.md",
+        "Kich-ban-9.md",
+        "Kich-ban-10.md",
+        "Kich-ban-11.md",
+        "Kich-ban-12.md",
+        "Kich-ban-13.md"
+      ],
+      "status": "pending"
+    }
+  }
+}

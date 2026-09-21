@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tam Quốc Diễn Nghĩa - Hồi 1: Storyboard Slide Player</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', system-ui, sans-serif; }
+        body { background: #0b0c10; color: #c5c6c7; overflow: hidden; height: 100vh; display: flex; flex-direction: column; }
+        header { background: rgba(11, 12, 16, 0.95); padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1f2833; z-index: 100; }
+        .header-title { font-size: 1.15rem; font-weight: 700; color: #66fcf1; letter-spacing: 0.5px; }
+        .header-subtitle { font-size: 0.85rem; color: #888; }
+        .viewer-container { flex: 1; position: relative; display: flex; justify-content: center; align-items: center; background: #000; overflow: hidden; }
+        .slide-img { width: 100%; height: 100%; object-fit: contain; transition: transform 0.5s ease-out, opacity 0.4s ease-in-out; }
+        .subtitle-box { position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); width: 85%; max-width: 900px; background: rgba(11, 12, 16, 0.85); backdrop-filter: blur(10px); border: 1px solid rgba(102, 252, 241, 0.3); border-radius: 12px; padding: 18px 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.8); transition: all 0.3s ease; }
+        .scene-badge { display: inline-block; background: #45a29e; color: #0b0c10; font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; margin-bottom: 8px; }
+        .scene-title { font-size: 1.35rem; color: #fff; font-weight: 700; margin-bottom: 6px; }
+        .scene-script { font-size: 1rem; color: #e5e5e5; line-height: 1.6; font-style: italic; }
+        .controls { position: absolute; top: 50%; width: 100%; display: flex; justify-content: space-between; padding: 0 20px; transform: translateY(-50%); pointer-events: none; }
+        .nav-btn { pointer-events: auto; background: rgba(11, 12, 16, 0.7); color: #66fcf1; border: 1px solid rgba(102, 252, 241, 0.3); width: 50px; height: 50px; border-radius: 50%; font-size: 1.5rem; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; justify-content: center; }
+        .nav-btn:hover { background: #66fcf1; color: #0b0c10; transform: scale(1.1); box-shadow: 0 0 15px rgba(102, 252, 241, 0.6); }
+        .bottom-bar { background: #1f2833; padding: 10px 24px; display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; }
+        .timeline-info { display: flex; gap: 15px; color: #888; }
+        .timeline-info span strong { color: #66fcf1; }
+        .action-btns { display: flex; gap: 10px; }
+        .action-btn { background: #0b0c10; border: 1px solid #45a29e; color: #66fcf1; padding: 6px 14px; border-radius: 6px; cursor: pointer; font-size: 0.8rem; transition: 0.2s; }
+        .action-btn:hover { background: #45a29e; color: #0b0c10; }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="header-title">TAM QUỐC DIỄN NGHĨA — HỒI 1: TIỆC VƯỜN ĐÀO KẾT NGHĨA</div>
+            <div class="header-subtitle">Trình Chiếu Storyboard & Slide Video Đồng Bộ Kịch Bản Âm Thanh (22/30 Phân Cảnh Đã Hoàn Tất)</div>
+        </div>
+        <div id="counter" style="font-weight: 700; color: #66fcf1;">Phân cảnh 1 / 22</div>
+    </header>
+
+    <div class="viewer-container">
+        <img id="slideImg" class="slide-img" src="" alt="Scene">
+        
+        <div class="controls">
+            <button class="nav-btn" onclick="prevSlide()">&#10094;</button>
+            <button class="nav-btn" onclick="nextSlide()">&#10095;</button>
+        </div>
+
+        <div class="subtitle-box">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span id="sceneBadge" class="scene-badge">SCENE 01</span>
+                <span id="sceneTime" style="font-size: 0.8rem; color: #45a29e;">00:00 - 00:45</span>
+            </div>
+            <div id="sceneTitle" class="scene-title">Trường Giang Cuộn Sóng Anh Hùng</div>
+            <p id="sceneScript" class="scene-script"></p>
+        </div>
+    </div>
+
+    <div class="bottom-bar">
+        <div class="timeline-info">
+            <span>Chunk: <strong id="chunkName">Kịch bản 1</strong></span>
+            <span>Tỉ lệ: <strong>16:9 (Cinematic)</strong></span>
+            <span>Điều khiển: <strong>Phím Mũi Tên Trái / Phải</strong></span>
+        </div>
+        <div class="action-btns">
+            <button class="action-btn" onclick="toggleSubtitles()">Ẩn / Hiện Lời Thoại</button>
+            <button class="action-btn" onclick="copyPrompt()">Sao Chép AI Prompt</button>
+        </div>
+    </div>
+
+    <script>
+        const scenes = [{"id": 1, "title": "Trường Giang Cuộn Sóng Anh Hùng", "chunk": "Kịch bản 1", "time": "00:00 - 00:45", "image": "images/scene_01_truong_giang.jpg", "script": "Trường Giang, cuồn cuộn, chảy về đông. Sóng vùi dập, hết anh hùng. Được, thua, phải, trái, thoắt thành không. Non xanh, nguyên vẻ cũ. Mấy độ, bóng tà hồng!", "prompt": "Epic wide angle cinematic shot, majestic Yangtze river with surging golden waves winding through monumental misty mountain gorges at sunset..."}, {"id": 2, "title": "Dị Tượng Điện Ôn Đức", "chunk": "Kịch bản 1", "time": "00:45 - 01:50", "image": "images/scene_02_ran_xanh_on_duc.jpg", "script": "Vua ngự điện Ôn Đức. Tự nhiên có cơn gió to ầm ầm nổi lên. Rồi thấy một con rắn xanh lớn ở trên xà nhà quăng xuống quằn quại trên long án. Vua kinh hoàng ngã đùng ra...", "prompt": "Dramatic interior cinematic shot of an ancient Chinese imperial palace hall during Eastern Han Dynasty. A gigantic emerald green serpent coils around the golden dragon throne..."}, {"id": 3, "title": "Sái Ung Dâng Sớ Can Gián", "chunk": "Kịch bản 1", "time": "01:50 - 02:40", "image": "images/scene_03_sai_ung_dang_so.jpg", "script": "Vua hạ chiếu hỏi chư thần từ đâu mà sinh ra những điềm quái gở ấy. Quan nghị lang Sái Ung dâng sớ lên, lời lẽ thống thiết rằng: Cầu vồng sa xuống, gà mái hóa trống, ấy là bởi quyền chính trong nước ở tay đàn bà và ở tay hoạn quan!", "prompt": "Cinematic low angle medium shot, loyal Han Dynasty official Cai Yong kneeling firmly in the grand dim imperial courtroom, holding up an ancient bamboo slip memorial petition..."}, {"id": 4, "title": "Hoạn Quan Lộng Quyền - Đày Sái Ung Biên Ải", "chunk": "Kịch bản 2", "time": "00:00 - 00:50", "image": "images/scene_04_hoan_quan_day_sai_ung.jpg", "script": "Tào Tiết khi ấy đứng hầu sau ngai nghe trộm thấy, trong lòng căm giận, bèn mách bảo đồng bọn. Bàn mưu kiếm cớ vu hãm Sái Ung, đày ra đất Sóc Phương biên ải hoang vu...", "prompt": "Cinematic wide shot, an ancient wooden prisoner cart escorted by Han cavalry moving through a desolate, windswept dusty northern frontier landscape..."}, {"id": 5, "title": "Nam Hoa Lão Tiên Trao Thiên Thư", "chunk": "Kịch bản 2", "time": "00:50 - 01:50", "image": "images/scene_05_nam_hoa_trao_sach.jpg", "script": "Trương Giác vào rừng hái thuốc gặp một cụ già mắt biếc mặt như trẻ con, tay chống gậy lê gọi vào trong động trao cho ba quyển sách, bảo rằng: Sách này gọi là Thái Bình Yêu Thuật, ngươi nên đem truyền để cứu đời!", "prompt": "Mystical cinematic atmosphere in a mist-filled mountain cave sanctuary. An immortal ancient Taoist sage with pure flowing white beard presenting three ancient glowing celestial silk scrolls..."}, {"id": 6, "title": "Khăn Vàng Quật Khởi - Hiệu Triệu Bách Tính", "chunk": "Kịch bản 2", "time": "01:50 - 02:45", "image": "images/scene_06_khan_vang_khoi_nghia.jpg", "script": "Trương Giác tự xưng là Thiên Công Tướng Quân. Giác sai bện cờ vàng, lập đàn tế trời, phất cờ khởi nghĩa. Quân khởi nghĩa có đến bốn năm mươi vạn người...", "prompt": "Epic high angle cinematic shot, Zhang Jiao standing atop a high rustic wooden ceremonial altar, raising an iron sword. Below him spans an immense ocean of thousands of peasant rebels..."}, {"id": 7, "title": "Bảng Chiêu Mộ Nghĩa Binh Trác Huyện", "chunk": "Kịch bản 3", "time": "00:00 - 00:45", "image": "images/scene_07_bang_chieu_mo_trac_huyen.jpg", "script": "Thái thú U Châu là Lưu Yên thấy giặc Khăn Vàng vây đánh nguy cấp, bèn yết bảng chiêu mộ nghĩa binh khắp các quận huyện. Bảng thị dán đến huyện Trác...", "prompt": "Cinematic street view in ancient Chinese market town Zhuo County during Eastern Han Dynasty. A large official military recruitment imperial decree parchment pasted on stone city wall..."}, {"id": 8, "title": "Lưu Bị Nhìn Bảng Chiêu Binh Thở Dài", "chunk": "Kịch bản 3", "time": "00:45 - 01:40", "image": "images/scene_08_luu_bi_tho_dai.jpg", "script": "Bảng thị dán đến huyện Trác, dẫn ra một người anh hùng. Người ấy đứng xem bảng, xem xong thở dài một tiếng xót xa cho nỗi thống khổ của bách tính lầm than...", "prompt": "Cinematic medium close-up of young Liu Bei (age 28), noble compassionate countenance, distinctive large earlobes, gazing at the recruitment notice on an ancient city wall..."}, {"id": 9, "title": "Trương Phi Xuất Hiện Sấm Sét", "chunk": "Kịch bản 3", "time": "01:40 - 02:40", "image": "images/scene_09_truong_phi_xuat_hien.jpg", "script": "Bỗng sau lưng có tiếng quát to rằng: Đại trượng phu không giúp nước, thở dài cái gì! Huyền Đức quay lại nhìn thấy mình cao tám thước, đầu báo mắt tròn, râu hùm hàm én, tiếng như sấm rền!", "prompt": "Cinematic over-the-shoulder shot looking from young Liu Bei towards the imposing towering figure of Zhang Fei. Broad muscular build, fierce eyes, bristling wild dark beard, butcher vest..."}, {"id": 10, "title": "Quán Rượu Trác Quận - Lưu Trương Đối Ẩm", "chunk": "Kịch bản 4", "time": "00:00 - 00:45", "image": "images/scene_10_quan_ruou_trac_quan.jpg", "script": "Huyền Đức thấy người ấy tướng mạo khác thường, bèn mời vào quán rượu cùng uống rượu đàm luận chí hướng...", "prompt": "Warm cinematic interior shot of a rustic ancient Chinese tavern in Zhuo County. Liu Bei and Zhang Fei sitting opposite each other sharing wine, golden afternoon sunlight..."}, {"id": 11, "title": "Khí Phách Dòng Dõi Trung Sơn Tĩnh Vương", "chunk": "Kịch bản 4", "time": "00:45 - 01:45", "image": "images/scene_11_luu_bi_trung_son_tinh_vuong.jpg", "script": "Huyền Đức nói: Tôi vốn là dòng dõi Trung Sơn Tĩnh Vương, họ Lưu tên Bị, tự Huyền Đức. Nay thấy giặc Khăn Vàng nổi loạn, muốn dẹp giặc yên dân nhưng khổ vì sức một mình không làm nổi...", "prompt": "Intimate cinematic close-up of young Liu Bei as he speaks of his imperial ancestry as a descendant of Prince Jing of Zhongshan in an ancient Chinese tavern. Dignified, resolute gaze..."}, {"id": 12, "title": "Trương Phi Hào Sảng Đập Bàn Định Mưu Lớn", "chunk": "Kịch bản 4", "time": "01:45 - 02:40", "image": "images/scene_12_truong_phi_dap_ban.jpg", "script": "Phi nói: Tôi xin đem hết tiền của ra chiêu mộ nghĩa sĩ, cùng ông mưu việc lớn, được chăng? Huyền Đức mừng rỡ khôn xiết, hai người nắm chặt tay nhau kết làm tri kỷ!", "prompt": "Dynamic low angle shot of muscular Zhang Fei slamming his hand on the wooden tavern table in jubilant enthusiasm, splashing wine droplets, offering family fortune to Liu Bei..."}, {"id": 13, "title": "Quan Vũ Oai Phong Bước Vào Quán Rượu", "chunk": "Kịch bản 5", "time": "00:00 - 00:45", "image": "images/scene_13_quan_vu_vao_quan.jpg", "script": "Chợt thấy một người to lớn, đẩy chiếc xe hàng vào đỗ trước quán rượu, bước vào gọi bảo kẻ hầu rằng: Mau lấy rượu thịt lại đây, để ta uống xong còn vào thành ứng mộ!", "prompt": "Towering cinematic entrance of Guan Yu at the tavern doorway, nine feet tall, majestic two-foot-long lustrous black beard, face red as a ripe jujube date, sharp phoenix eyes..."}, {"id": 14, "title": "Tam Hiệp Hội Ngộ - Rượu Nồng Chí Lớn", "chunk": "Kịch bản 5", "time": "00:45 - 01:30", "image": "images/scene_14_tam_hiep_hoi_ngo.jpg", "script": "Ba người cùng ngồi chung một bàn, nâng bát rượu đất nung kết giao tương phùng. Khí chất ba vị anh hùng hòa làm một, cùng chí hướng cứu dân độ thế!", "prompt": "Cinematic group medium shot of Liu Bei, Guan Yu, and Zhang Fei seated together at a rustic tavern table, raising heavy wine bowls in mutual respect..."}, {"id": 15, "title": "Tiệc Vườn Đào - Tam Anh Kết Nghĩa Kim Lan", "chunk": "Kịch bản 5", "time": "01:30 - 02:40", "image": "images/scene_15_vuon_dao_ket_nghia.jpg", "script": "Ba người lạy trời đất thề rằng: Tuy chẳng sinh cùng ngày cùng tháng cùng năm, nhưng nguyện chết cùng năm cùng tháng cùng ngày! Hoàng thiên hậu thổ chứng giám lòng son!", "prompt": "Cinematic Chinese historical masterpiece. Liu Bei, Guan Yu, and Zhang Fei standing together in a blooming peach blossom garden, performing the sworn brotherhood oath..."}, {"id": 16, "title": "Thương Nhân Dâng 50 Thớt Ngựa Chiến Và Sắt Tốt", "chunk": "Kịch bản 6", "time": "00:00 - 00:50", "image": "images/scene_16_thuong_nhan_dang_ngua.jpg", "script": "Hai khách buôn ngựa đất Trung Sơn là Trương Thế Bình và Tô Song tặng Huyền Đức năm mươi thớt ngựa tốt, năm trăm lạng vàng bạc và một nghìn cân sắt tốt để rèn đồ binh khí!", "prompt": "Cinematic historic shot in the courtyard of Zhang Fei estate. Two northern horse merchants presenting fifty warhorses, chests of silver ingots, stacks of iron to Liu Bei..."}, {"id": 17, "title": "Lò Rèn Thần Binh Khí: Thanh Long Đao, Xà Mâu, Song Kiếm", "chunk": "Kịch bản 6", "time": "00:50 - 01:45", "image": "images/scene_17_lo_ren_binh_khi.jpg", "script": "Thợ rèn đập búa chan chát trong lò rèn đỏ lửa. Vân Trường đánh Thanh Long Yển Nguyệt Đao nặng tám mươi hai cân, Trương Phi rèn Bát Trượng Xà Mâu, Huyền Đức đúc Song Cổ Kiếm!", "prompt": "Cinematic dramatic blacksmith forge scene. Sparks bursting as blacksmiths strike red-hot iron. Green Dragon Crescent Blade, Serpent Spear cooling in steam, Twin Swords glistening..."}, {"id": 18, "title": "Năm Trăm Nghĩa Binh Xuất Quân Tiến Về U Châu", "chunk": "Kịch bản 6", "time": "01:45 - 02:45", "image": "images/scene_18_xuat_quan_u_chau.jpg", "script": "Mộ được hơn năm trăm tráng sĩ, áo giáp chỉnh tề, giáo mác sáng loáng. Lưu Bị cưỡi ngựa trắng, Quan Vũ cầm Long Đao, Trương Phi vác Xà Mâu kéo quân đến U Châu ra mắt Lưu Yên!", "prompt": "Cinematic low angle wide shot of the volunteer army of 500 valiant soldiers marching toward Youzhou city. Liu Bei on white horse, flanked by Guan Yu and Zhang Fei..."}, {"id": 19, "title": "Chiến Địa Đại Hưng Sơn - Trương Phi Đâm Chết Đặng Mậu", "chunk": "Kịch bản 7", "time": "00:00 - 00:50", "image": "images/scene_19_truong_phi_dam_dang_mau.jpg", "script": "Trương Phi cầm xà mâu cưỡi ngựa đen xông ra, hét vang một tiếng đâm một ngọn mâu trúng giữa ngực phó tướng Đặng Mậu, ngã lăn xuống ngựa chết tươi giữa trận!", "prompt": "Dynamic cinematic action shot on the battlefield of Daxing Mountain. Fierce warrior Zhang Fei on black warhorse thrusts steel Serpent Spear to defeat commander Deng Mao..."}, {"id": 20, "title": "Quan Vũ Vung Long Đao Chém Đôi Tướng Giặc Trình Viễn Chí", "chunk": "Kịch bản 7", "time": "00:50 - 01:40", "image": "images/scene_20_quan_vu_chem_trinh_vien_chi.jpg", "script": "Vân Trường vung đao tế ngựa ra đón. Trình Viễn Chí kinh hãi chưa kịp trở tay thì lưỡi long đao tám mươi hai cân đã bổ xuống, chém đứt làm hai đoạn giữa trận tiền!", "prompt": "Epic climactic historical battle scene of general Guan Yu mounted on a charging warhorse wielding the colossal Green Dragon Crescent Blade striking down rebel warlord Cheng Yuanzhi..."}, {"id": 25, "title": "Tào Tháo Xuất Hiện - Khí Phách Gian Hùng", "chunk": "Kịch bản 9", "time": "00:00 - 00:50", "image": "images/scene_25_tao_thao_xuat_hien.jpg", "script": "Tướng đi đầu mình cao bảy thước, mắt nhỏ râu dài, ấy chính là Kỵ đô úy Tào Tháo, tự Mạnh Đức! Dẫn đại đội kỵ binh cờ đỏ xông pha trận mạc chém vạn quân thù!", "prompt": "Iconic low angle hero shot introducing Cao Cao mounted on a magnificent black stallion during the Yellow Turban rebellion. Sharp piercing falcon-like eyes, trim dark beard, crimson Han armor..."}, {"id": 30, "title": "Đổng Trác Ngạo Mạn & Cơn Thịnh Nộ Của Trương Phi", "chunk": "Kịch bản 10", "time": "01:45 - 02:40", "image": "images/scene_30_truong_phi_dinh_chem_dong_trac.jpg", "script": "Đổng Trác ngồi bệ vệ khinh khỉnh không thèm chào. Trương Phi đứng ngoài trướng biết chuyện nổi giận lôi đình, tuốt gươm toan xông vào trướng chém phăng đầu Đổng Trác!", "prompt": "Climactic dramatic confrontation inside and outside military tent. Arrogant general Dong Zhuo on tiger-skin chair sneering at Liu Bei. Furious Zhang Fei half-drawing sword at the tent entrance..."}];
+        let currentIndex = 0;
+
+        function renderSlide(index) {
+            const s = scenes[index];
+            const img = document.getElementById('slideImg');
+            img.style.opacity = '0';
+            setTimeout(() => {
+                img.src = s.image;
+                img.onload = () => { img.style.opacity = '1'; };
+            }, 150);
+
+            document.getElementById('counter').innerText = 'Phân cảnh ' + (index + 1) + ' / ' + scenes.length + ' (Đã tạo)';
+            document.getElementById('sceneBadge').innerText = 'SCENE ' + (s.id < 10 ? '0' + s.id : s.id) + ' — ' + s.chunk;
+            document.getElementById('sceneTime').innerText = s.time;
+            document.getElementById('sceneTitle').innerText = s.title;
+            document.getElementById('sceneScript').innerText = '“' + s.script + '”';
+            document.getElementById('chunkName').innerText = s.chunk;
+        }
+
+        function nextSlide() {
+            if (currentIndex < scenes.length - 1) {
+                currentIndex++;
+                renderSlide(currentIndex);
+            } else {
+                currentIndex = 0;
+                renderSlide(currentIndex);
+            }
+        }
+
+        function prevSlide() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                renderSlide(currentIndex);
+            } else {
+                currentIndex = scenes.length - 1;
+                renderSlide(currentIndex);
+            }
+        }
+
+        function toggleSubtitles() {
+            const box = document.querySelector('.subtitle-box');
+            box.style.display = box.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function copyPrompt() {
+            const p = scenes[currentIndex].prompt;
+            navigator.clipboard.writeText(p).then(() => {
+                alert('Đã sao chép Master AI Prompt cho phân cảnh này!');
+            });
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
+        });
+
+        renderSlide(0);
+    </script>
+</body>
+</html>

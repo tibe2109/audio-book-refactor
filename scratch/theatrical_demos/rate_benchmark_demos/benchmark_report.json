@@ -1,0 +1,118 @@
+{
+  "single_line_tests": [
+    {
+      "type": "command",
+      "rate": "+4%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/01_Command_plus_4pct.mp3",
+      "duration": 6.36
+    },
+    {
+      "type": "confrontation",
+      "rate": "+4%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/02_Confrontation_plus_4pct.mp3",
+      "duration": 5.86
+    },
+    {
+      "type": "command",
+      "rate": "+6%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/01_Command_plus_6pct.mp3",
+      "duration": 6.26
+    },
+    {
+      "type": "confrontation",
+      "rate": "+6%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/02_Confrontation_plus_6pct.mp3",
+      "duration": 5.76
+    },
+    {
+      "type": "command",
+      "rate": "+8%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/01_Command_plus_8pct.mp3",
+      "duration": 6.14
+    },
+    {
+      "type": "confrontation",
+      "rate": "+8%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/02_Confrontation_plus_8pct.mp3",
+      "duration": 5.66
+    },
+    {
+      "type": "command",
+      "rate": "+10%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/01_Command_plus_10pct.mp3",
+      "duration": 6.07
+    },
+    {
+      "type": "confrontation",
+      "rate": "+10%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/02_Confrontation_plus_10pct.mp3",
+      "duration": 5.57
+    },
+    {
+      "type": "command",
+      "rate": "+12%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/01_Command_plus_12pct.mp3",
+      "duration": 5.98
+    },
+    {
+      "type": "confrontation",
+      "rate": "+12%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/02_Confrontation_plus_12pct.mp3",
+      "duration": 5.5
+    },
+    {
+      "type": "command",
+      "rate": "+15%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/01_Command_plus_15pct.mp3",
+      "duration": 5.86
+    },
+    {
+      "type": "confrontation",
+      "rate": "+15%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/02_Confrontation_plus_15pct.mp3",
+      "duration": 5.38
+    },
+    {
+      "type": "command",
+      "rate": "+18%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/01_Command_plus_18pct.mp3",
+      "duration": 5.71
+    },
+    {
+      "type": "confrontation",
+      "rate": "+18%",
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/02_Confrontation_plus_18pct.mp3",
+      "duration": 5.28
+    }
+  ],
+  "dialogue_tests": [
+    {
+      "level": "Level_1_Moderate",
+      "rate": "+6%",
+      "lead_in": "0.52s",
+      "duration": 21.86,
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/03_Dialogue_Level_1_Moderate_rate_plus_6%.mp3"
+    },
+    {
+      "level": "Level_2_HighUrgency",
+      "rate": "+10%",
+      "lead_in": "0.48s",
+      "duration": 21.5,
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/03_Dialogue_Level_2_HighUrgency_rate_plus_10%.mp3"
+    },
+    {
+      "level": "Level_3_IntenseCrisis",
+      "rate": "+14%",
+      "lead_in": "0.46s",
+      "duration": 21.24,
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/03_Dialogue_Level_3_IntenseCrisis_rate_plus_14%.mp3"
+    },
+    {
+      "level": "Level_4_ExtremePanic",
+      "rate": "+18%",
+      "lead_in": "0.45s",
+      "duration": 21.0,
+      "file": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/rate_benchmark_demos/03_Dialogue_Level_4_ExtremePanic_rate_plus_18%.mp3"
+    }
+  ]
+}

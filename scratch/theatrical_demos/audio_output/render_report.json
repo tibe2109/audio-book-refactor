@@ -1,0 +1,50 @@
+[
+  {
+    "demo_id": 1,
+    "title": "Tiệc Rượu Lạc Dương: Đổng Trác Uy Hiếp Phế Lập - Lư Thực Khảng Khái Can Gián",
+    "genre": "Cổ phong Cung đình Triều chính / Sử thi bi tráng",
+    "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/audio_output/Demo_01_Tiệc_Rượu_Lạc_Dương__Đổng_Trác.mp3",
+    "duration_seconds": 51.02,
+    "size_bytes": 1225196
+  },
+  {
+    "demo_id": 2,
+    "title": "Đào Viên Kết Nghĩa: Ba Anh Em Thề Tế Cáo Trời Đất",
+    "genre": "Sử thi Anh hùng Hào sảng / Lễ nghi Thề nguyện",
+    "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/audio_output/Demo_02_Đào_Viên_Kết_Nghĩa__Ba_Anh_Em_.mp3",
+    "duration_seconds": 39.14,
+    "size_bytes": 940076
+  },
+  {
+    "demo_id": 11,
+    "title": "Đòi Lương Thiện Đẫm Máu (Chí Phèo x Cụ Bá Kiến)",
+    "genre": "Hiện thực phê phán / Bi kịch lầm than",
+    "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/audio_output/Demo_11_Đòi_Lương_Thiện_Đẫm_Máu__Chí_P.mp3",
+    "duration_seconds": 64.92,
+    "size_bytes": 1558700
+  },
+  {
+    "demo_id": 20,
+    "title": "Tiếng Kêu Xé Lòng Lúc Nửa Đêm (Lão Hạc x Ông Giáo)",
+    "genre": "Hiện thực phê phán / Bi kịch lương tâm",
+    "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/audio_output/Demo_20_Tiếng_Kêu_Xé_Lòng_Lúc_Nửa_Đêm_.mp3",
+    "duration_seconds": 52.51,
+    "size_bytes": 1260908
+  },
+  {
+    "demo_id": 21,
+    "title": "Victor Hugo - Les Misérables: Cuộc Đối Đầu Tại Bệnh Viện Arras",
+    "genre": "Văn học cổ điển phương Tây / Hiện thực lãng mạn bi tráng",
+    "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/audio_output/Demo_21_Victor_Hugo_-_Les_Misérables__.mp3",
+    "duration_seconds": 30.62,
+    "size_bytes": 735596
+  },
+  {
+    "demo_id": 29,
+    "title": "Antoine de Saint-Exupéry - Hoàng Tử Bé: Sự Thuần Hóa Giữa Sa Mạc Cát",
+    "genre": "Văn học ngụ ngôn triết lý trữ tình Pháp",
+    "file_path": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/scratch/theatrical_demos/audio_output/Demo_29_Antoine_de_Saint-Exupéry_-_Hoà.mp3",
+    "duration_seconds": 32.71,
+    "size_bytes": 785708
+  }
+]

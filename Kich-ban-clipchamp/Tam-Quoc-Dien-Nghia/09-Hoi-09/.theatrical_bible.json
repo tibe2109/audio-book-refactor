@@ -7,7 +7,7 @@
   "narrator_lines": 62,
   "poem_lines": 8,
   "dialogue_lines": 36,
-  "characters_cast_count": 13,
+  "characters_cast_count": 10,
   "characters": {
     "Narrator": {
       "name": "Người dẫn chuyện",
@@ -29,43 +29,38 @@
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
       "temperament": "giao_hoat_nham_hiem",
-      "timbre_eq": "sharp_cunning",
+      "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi",
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "+0Hz",
-      "base_rate": "+0%"
+      "dialogue_count": 3
     },
     "Dong_Trac": {
       "name": "Đổng Trác",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
+      "age_stage": "trung_nien",
       "temperament": "hach_dich_bao_nguoc",
-      "timbre_eq": "chest_resonance",
+      "timbre_eq": "tyrant_arrogant",
       "sample_emotions": [
         "binh_than_tu_nhien",
+        "hoan_ca_dac_thang",
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 8,
-      "base_pitch": "+3Hz",
-      "base_rate": "+6%"
+      "dialogue_count": 8
     },
     "Dieu_Thuyen": {
       "name": "Điêu Thuyền",
       "gender": "female",
       "voice": "vi-VN-HoaiMyNeural",
-      "age_stage": "nien_thieu",
-      "temperament": "lang_man_bay_bong",
+      "age_stage": "thanh_xuan",
+      "temperament": "trong_sang_thanh_thien",
       "timbre_eq": "youth_bright",
       "sample_emotions": [
-        "binh_than_tu_nhien"
+        "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "+7Hz",
-      "base_rate": "+4%"
+      "dialogue_count": 1
     },
     "La_Bo": {
       "name": "Lã Bố",
@@ -73,59 +68,27 @@
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
       "temperament": "hach_dich_bao_nguoc",
-      "timbre_eq": "chest_resonance",
+      "timbre_eq": "tyrant_arrogant",
       "sample_emotions": [
         "dau_don_trang_troi",
         "binh_than_tu_nhien",
         "cuong_no"
       ],
-      "dialogue_count": 7,
-      "base_pitch": "+3Hz",
-      "base_rate": "+6%"
+      "dialogue_count": 7
     },
-    "Nho": {
-      "name": "Nho",
+    "Vuong_Doan": {
+      "name": "Vương Doãn",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "+1Hz",
-      "base_rate": "+2%"
-    },
-    "Doan": {
-      "name": "Doãn",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "age_stage": "lao_hoa",
+      "temperament": "tram_uat_dan_vat",
+      "timbre_eq": "aged_gravel",
       "sample_emotions": [
         "dau_don_trang_troi",
         "binh_than_tu_nhien",
         "cuong_no"
       ],
-      "dialogue_count": 5,
-      "base_pitch": "+1Hz",
-      "base_rate": "+2%"
-    },
-    "Doan_Voi_Vang": {
-      "name": "Doãn Vội Vàng",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
-      "sample_emotions": [
-        "dau_don_trang_troi"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "+1Hz",
-      "base_rate": "+2%"
+      "dialogue_count": 7
     },
     "Thuy": {
       "name": "Thụy",
@@ -137,12 +100,10 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "+1Hz",
-      "base_rate": "+2%"
+      "dialogue_count": 1
     },
-    "Uyen": {
-      "name": "Uyển",
+    "Ha_Hau_Uyen": {
+      "name": "Hạ Hầu Uyên",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
@@ -151,67 +112,45 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "+1Hz",
-      "base_rate": "+2%"
+      "dialogue_count": 1
     },
-    "Tuc": {
-      "name": "Túc",
+    "Lo_Tuc": {
+      "name": "Lỗ Túc",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "temperament": "trong_sang_thanh_thien",
+      "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi",
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 6,
-      "base_pitch": "+1Hz",
-      "base_rate": "+2%"
+      "dialogue_count": 6
     },
     "Me": {
       "name": "Mẹ",
       "gender": "female",
       "voice": "vi-VN-HoaiMyNeural",
       "age_stage": "thanh_xuan",
-      "temperament": "anh_hung_hao_sang",
+      "temperament": "trong_sang_thanh_thien",
       "timbre_eq": "youth_bright",
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "+1Hz",
-      "base_rate": "+2%"
+      "dialogue_count": 1
     },
-    "Ung_Xin_Nhan_Toi": {
-      "name": "Ung Xin Nhận Tội",
+    "Gian_Ung": {
+      "name": "Giản Ung",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "thanh_xuan",
       "temperament": "teu_tao_hom_hinh",
-      "timbre_eq": "warm_authority",
+      "timbre_eq": "tragic_grief",
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "+3Hz",
-      "base_rate": "+5%"
-    },
-    "Vuong_Doan": {
-      "name": "Vương Doãn",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "lao_hoa",
-      "temperament": "tram_uat_dan_vat",
-      "timbre_eq": "aged_gravel",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 1,
-      "base_pitch": "-8Hz",
-      "base_rate": "-20%"
+      "dialogue_count": 1
     }
   },
-  "directed_at": "2026-09-15T11:13:14.690983"
+  "directed_at": "2026-09-17T10:33:44.406025"
 }

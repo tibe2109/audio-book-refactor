@@ -4,10 +4,10 @@
   "chapter_title": "Hồi 87: Đánh nam khấu, thừa tướng cất quân; Chống thiên binh, Man vương bị bắt",
   "genre": "classical_epic_literature",
   "total_theatrical_lines": 79,
-  "narrator_lines": 46,
+  "narrator_lines": 49,
   "poem_lines": 0,
-  "dialogue_lines": 33,
-  "characters_cast_count": 12,
+  "dialogue_lines": 30,
+  "characters_cast_count": 11,
   "characters": {
     "Narrator": {
       "name": "Người dẫn chuyện",
@@ -21,21 +21,19 @@
         "epic",
         "suspense"
       ],
-      "dialogue_count": 46
+      "dialogue_count": 49
     },
     "Luu_Thien": {
       "name": "Lưu Thiền",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "thanh_xuan",
+      "age_stage": "lao_hoa",
       "temperament": "xun_xoe_don_hen",
-      "timbre_eq": "sharp_cunning",
+      "timbre_eq": "aged_gravel",
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "+4Hz",
-      "base_rate": "+6%"
+      "dialogue_count": 2
     },
     "Gia_Cat_Luong": {
       "name": "Gia Cát Lượng",
@@ -48,9 +46,7 @@
         "binh_than_tu_nhien",
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 11,
-      "base_pitch": "-5Hz",
-      "base_rate": "-10%"
+      "dialogue_count": 11
     },
     "Lien": {
       "name": "Liên",
@@ -62,23 +58,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
-    },
-    "Lai": {
-      "name": "Lại",
-      "gender": "male",
-      "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "lao_hoa",
-      "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "aged_gravel",
-      "sample_emotions": [
-        "binh_than_tu_nhien"
-      ],
-      "dialogue_count": 3,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     },
     "Ngac_Hoan": {
       "name": "Ngạc Hoán",
@@ -91,12 +71,10 @@
         "dau_don_trang_troi",
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 2
     },
-    "Dinh": {
-      "name": "Định",
+    "Quan_Dinh": {
+      "name": "Quan Định",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
       "age_stage": "lao_hoa",
@@ -107,9 +85,7 @@
         "dau_don_trang_troi",
         "cuong_no"
       ],
-      "dialogue_count": 6,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 6
     },
     "Cang": {
       "name": "Cang",
@@ -121,9 +97,7 @@
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     },
     "Toc": {
       "name": "Tốc",
@@ -135,9 +109,7 @@
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 2
     },
     "Hoach": {
       "name": "Hoạch",
@@ -149,23 +121,19 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 2,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 2
     },
     "Trieu_Van": {
       "name": "Triệu Vân",
       "gender": "male",
       "voice": "vi-VN-NamMinhNeural",
-      "age_stage": "trung_nien",
+      "age_stage": "lao_hoa",
       "temperament": "anh_hung_hao_sang",
-      "timbre_eq": "warm_authority",
+      "timbre_eq": "aged_gravel",
       "sample_emotions": [
         "dau_don_trang_troi"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-4Hz",
-      "base_rate": "-6%"
+      "dialogue_count": 1
     },
     "Nguy_Dien": {
       "name": "Ngụy Diên",
@@ -177,9 +145,7 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-5Hz",
-      "base_rate": "-12%"
+      "dialogue_count": 1
     },
     "Quan_Man": {
       "name": "Quân Man",
@@ -191,10 +157,8 @@
       "sample_emotions": [
         "binh_than_tu_nhien"
       ],
-      "dialogue_count": 1,
-      "base_pitch": "-7Hz",
-      "base_rate": "-16%"
+      "dialogue_count": 1
     }
   },
-  "directed_at": "2026-09-15T11:13:15.422412"
+  "directed_at": "2026-09-17T10:33:45.280196"
 }
