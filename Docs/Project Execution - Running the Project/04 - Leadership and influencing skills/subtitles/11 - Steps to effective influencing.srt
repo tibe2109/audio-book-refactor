@@ -1,0 +1,744 @@
+1
+00:00:00,200 --> 00:00:02,985
+Hi again. In this video,
+
+2
+00:00:02,985 --> 00:00:06,315
+we're going to discuss influencing
+the people around you.
+
+3
+00:00:06,315 --> 00:00:08,250
+I'll describe the four steps of
+
+4
+00:00:08,250 --> 00:00:11,565
+influencing and some common
+influencing mistakes.
+
+5
+00:00:11,565 --> 00:00:13,560
+There are a few techniques that
+
+6
+00:00:13,560 --> 00:00:15,045
+project managers can use to
+
+7
+00:00:15,045 --> 00:00:16,665
+influence the people
+they work with,
+
+8
+00:00:16,665 --> 00:00:19,145
+both within a team and beyond it.
+
+9
+00:00:19,145 --> 00:00:22,879
+But first, what do we
+mean by influencing?
+
+10
+00:00:22,879 --> 00:00:25,385
+Influencing is the ability to
+
+11
+00:00:25,385 --> 00:00:28,805
+alter another person's
+thinking or behaviors.
+
+12
+00:00:28,805 --> 00:00:31,610
+We'll discuss the concept
+of influencing in
+
+13
+00:00:31,610 --> 00:00:35,555
+the context of our Plant Pals
+project at Office Green.
+
+14
+00:00:35,555 --> 00:00:38,330
+Let's say that your team
+would like to partner with
+
+15
+00:00:38,330 --> 00:00:39,950
+a well-known chocolate
+manufacturer
+
+16
+00:00:39,950 --> 00:00:41,740
+to create a bundle deal.
+
+17
+00:00:41,740 --> 00:00:44,900
+With this deal, the client
+could choose to add on
+
+18
+00:00:44,900 --> 00:00:46,355
+a high-quality chocolate bar
+
+19
+00:00:46,355 --> 00:00:48,550
+with each plant they purchase.
+
+20
+00:00:48,550 --> 00:00:51,650
+You decide to send an initial
+email to a partnership
+
+21
+00:00:51,650 --> 00:00:53,479
+Manager at the
+chocolate manufacturer
+
+22
+00:00:53,479 --> 00:00:55,369
+to gauge their
+interest in the idea,
+
+23
+00:00:55,369 --> 00:00:58,535
+and ultimately influence
+them to work with you.
+
+24
+00:00:58,535 --> 00:01:01,820
+So, how do you go about
+writing that email that
+
+25
+00:01:01,820 --> 00:01:03,770
+effectively influences
+your audience
+
+26
+00:01:03,770 --> 00:01:05,495
+to consider your idea?
+
+27
+00:01:05,495 --> 00:01:08,180
+Well, it turns out
+there are four tried
+
+28
+00:01:08,180 --> 00:01:10,850
+and true steps of
+effective influencing.
+
+29
+00:01:10,850 --> 00:01:14,450
+Leadership expert, Dr.
+Jay A Conger identifies
+
+30
+00:01:14,450 --> 00:01:16,685
+the steps to
+effective influencing
+
+31
+00:01:16,685 --> 00:01:18,820
+as: establish credibility,
+
+32
+00:01:18,820 --> 00:01:20,420
+frame for common ground,
+
+33
+00:01:20,420 --> 00:01:23,630
+provide evidence and
+connect emotionally.
+
+34
+00:01:23,630 --> 00:01:25,935
+Let's discuss each step.
+
+35
+00:01:25,935 --> 00:01:27,230
+The first step to
+
+36
+00:01:27,230 --> 00:01:30,775
+effective influencing is
+to establish credibility.
+
+37
+00:01:30,775 --> 00:01:33,230
+During this step,
+you make the case
+
+38
+00:01:33,230 --> 00:01:35,615
+for why your audience
+should listen to you.
+
+39
+00:01:35,615 --> 00:01:37,670
+According to Dr. Conger,
+
+40
+00:01:37,670 --> 00:01:40,130
+credibility comes
+from two sources,
+
+41
+00:01:40,130 --> 00:01:43,015
+expertise, and relationships.
+
+42
+00:01:43,015 --> 00:01:45,500
+You need to demonstrate
+to your audience
+
+43
+00:01:45,500 --> 00:01:47,810
+that you're an expert
+on a given topic,
+
+44
+00:01:47,810 --> 00:01:49,895
+whether that's through
+professional experience,
+
+45
+00:01:49,895 --> 00:01:51,125
+extensive research,
+
+46
+00:01:51,125 --> 00:01:53,900
+or something else, and
+you need to demonstrate
+
+47
+00:01:53,900 --> 00:01:55,490
+relationship credibility by
+
+48
+00:01:55,490 --> 00:01:57,080
+establishing that you're honest,
+
+49
+00:01:57,080 --> 00:02:00,460
+trustworthy, and someone
+who they want to work with.
+
+50
+00:02:00,460 --> 00:02:03,410
+To establish credibility,
+you might kick off
+
+51
+00:02:03,410 --> 00:02:04,730
+your Office Green email by
+
+52
+00:02:04,730 --> 00:02:06,335
+greeting the recipient by name,
+
+53
+00:02:06,335 --> 00:02:07,885
+then writing something like,
+
+54
+00:02:07,885 --> 00:02:11,310
+"I'm Elita, a lead project
+manager at Office Green.
+
+55
+00:02:11,310 --> 00:02:14,890
+Your colleague, Alex, passed
+on your contact information.
+
+56
+00:02:14,890 --> 00:02:17,960
+Alex and I worked together
+to launch new services at
+
+57
+00:02:17,960 --> 00:02:21,020
+Office Green before she
+joined your organization."
+
+58
+00:02:21,020 --> 00:02:24,050
+In these opening lines,
+you've established expertise,
+
+59
+00:02:24,050 --> 00:02:25,820
+credibility by
+introducing your role
+
+60
+00:02:25,820 --> 00:02:26,990
+at office green and by
+
+61
+00:02:26,990 --> 00:02:28,310
+suddenly highlighting that you've
+
+62
+00:02:28,310 --> 00:02:30,370
+launched new services
+in the past.
+
+63
+00:02:30,370 --> 00:02:32,899
+To demonstrate
+relationship credibility,
+
+64
+00:02:32,899 --> 00:02:34,850
+you've established that
+you and the recipient
+
+65
+00:02:34,850 --> 00:02:36,950
+have a shared contact
+who has worked closely
+
+66
+00:02:36,950 --> 00:02:38,960
+with you in the past
+and can vouch for
+
+67
+00:02:38,960 --> 00:02:42,140
+your trustworthiness and
+emotional intelligence.
+
+68
+00:02:42,140 --> 00:02:45,280
+The second step is to
+frame for common ground.
+
+69
+00:02:45,280 --> 00:02:47,480
+In this step, you'll
+make the case
+
+70
+00:02:47,480 --> 00:02:50,270
+for how your idea can
+benefit your audience.
+
+71
+00:02:50,270 --> 00:02:52,370
+To determine this, you'll need
+
+72
+00:02:52,370 --> 00:02:55,445
+a strong understanding of your
+audience and their values.
+
+73
+00:02:55,445 --> 00:02:58,900
+In essence, what about your
+idea will appeal to them,
+
+74
+00:02:58,900 --> 00:03:00,470
+and how will they stand to
+
+75
+00:03:00,470 --> 00:03:03,600
+benefit from agreeing
+to your idea?
+
+76
+00:03:03,620 --> 00:03:06,080
+In our Office Green email,
+
+77
+00:03:06,080 --> 00:03:07,550
+you might establish that you've
+
+78
+00:03:07,550 --> 00:03:09,620
+researched their
+organization extensively
+
+79
+00:03:09,620 --> 00:03:11,300
+and believe that this new service
+
+80
+00:03:11,300 --> 00:03:13,325
+might align with their
+current offerings.
+
+81
+00:03:13,325 --> 00:03:16,390
+For example, you might
+write something like this,
+
+82
+00:03:16,390 --> 00:03:18,530
+"We're launching a
+service to provide
+
+83
+00:03:18,530 --> 00:03:21,230
+top clients with desk
+plants and we'd like to
+
+84
+00:03:21,230 --> 00:03:23,120
+explore a bundle offering to pair
+
+85
+00:03:23,120 --> 00:03:25,720
+high-quality chocolate
+with each plant order.
+
+86
+00:03:25,720 --> 00:03:27,470
+I've admired your organizations
+
+87
+00:03:27,470 --> 00:03:29,330
+push in recent years to work with
+
+88
+00:03:29,330 --> 00:03:31,670
+other lifestyle and
+wellness brands and I
+
+89
+00:03:31,670 --> 00:03:33,320
+think there may be
+a great opportunity
+
+90
+00:03:33,320 --> 00:03:35,430
+for us to collaborate."
+
+91
+00:03:35,630 --> 00:03:38,195
+In this portion of the email,
+
+92
+00:03:38,195 --> 00:03:39,590
+you've established
+that you've done
+
+93
+00:03:39,590 --> 00:03:41,480
+your research on the
+organization and that
+
+94
+00:03:41,480 --> 00:03:43,340
+their previous
+partnerships indicate that
+
+95
+00:03:43,340 --> 00:03:45,790
+working together
+might be a great fit.
+
+96
+00:03:45,790 --> 00:03:48,480
+The next step is to
+provide evidence.
+
+97
+00:03:48,480 --> 00:03:50,750
+In this step, you'll
+make your case through
+
+98
+00:03:50,750 --> 00:03:53,365
+hard data and persuasive
+storytelling.
+
+99
+00:03:53,365 --> 00:03:55,610
+Numbers aren't strong
+enough on their own.
+
+100
+00:03:55,610 --> 00:03:57,940
+They need stories
+to liven them up.
+
+101
+00:03:57,940 --> 00:03:59,705
+In our Office Green email,
+
+102
+00:03:59,705 --> 00:04:02,680
+you might appeal to your
+recipient with a line like,
+
+103
+00:04:02,680 --> 00:04:04,730
+"We recently surveyed clients to
+
+104
+00:04:04,730 --> 00:04:06,560
+gauge interest in this
+kind of offering,
+
+105
+00:04:06,560 --> 00:04:09,680
+and your brand came
+up again and again."
+
+106
+00:04:09,680 --> 00:04:11,690
+In this example, you
+
+107
+00:04:11,690 --> 00:04:13,520
+provided evidence
+through the results of
+
+108
+00:04:13,520 --> 00:04:15,020
+client surveys which showed
+
+109
+00:04:15,020 --> 00:04:17,314
+overwhelmingly positive
+brand recognition
+
+110
+00:04:17,314 --> 00:04:19,040
+for our shared audience.
+
+111
+00:04:19,040 --> 00:04:21,715
+The last step is to
+connect emotionally.
+
+112
+00:04:21,715 --> 00:04:23,360
+In this step, you'll
+
+113
+00:04:23,360 --> 00:04:25,640
+demonstrate to your audience
+that you're emotionally
+
+114
+00:04:25,640 --> 00:04:27,560
+committed to your
+idea and you'll do
+
+115
+00:04:27,560 --> 00:04:30,155
+your best to match
+their emotional state.
+
+116
+00:04:30,155 --> 00:04:31,835
+In our Office Green email,
+
+117
+00:04:31,835 --> 00:04:34,130
+you might demonstrate
+an emotional connection
+
+118
+00:04:34,130 --> 00:04:36,635
+by tapping into
+their brand ethos.
+
+119
+00:04:36,635 --> 00:04:39,620
+For example, you might
+write something like,
+
+120
+00:04:39,620 --> 00:04:41,270
+"We've been following
+your profile
+
+121
+00:04:41,270 --> 00:04:42,920
+on Instagram and love your posts
+
+122
+00:04:42,920 --> 00:04:44,270
+on chocolate's connection to
+
+123
+00:04:44,270 --> 00:04:46,820
+living a well and
+balanced lifestyle.
+
+124
+00:04:46,820 --> 00:04:48,770
+Perhaps we can discuss combining
+
+125
+00:04:48,770 --> 00:04:50,990
+forces to bring this
+message to an even
+
+126
+00:04:50,990 --> 00:04:53,240
+wider audience," and then
+
+127
+00:04:53,240 --> 00:04:55,880
+you end your note with
+a friendly closer,
+
+128
+00:04:55,880 --> 00:04:58,085
+something like, "If
+you're interested,
+
+129
+00:04:58,085 --> 00:04:59,600
+I'd love to connect
+and share what
+
+130
+00:04:59,600 --> 00:05:01,940
+our partner program
+is all about."
+
+131
+00:05:01,940 --> 00:05:05,090
+To recap, establishing
+credibility,
+
+132
+00:05:05,090 --> 00:05:06,800
+framing for common ground,
+
+133
+00:05:06,800 --> 00:05:09,290
+providing evidence and
+connecting emotionally,
+
+134
+00:05:09,290 --> 00:05:11,450
+are four proven, effective steps
+
+135
+00:05:11,450 --> 00:05:14,375
+you can apply when attempting
+to influence others.
+
+136
+00:05:14,375 --> 00:05:16,910
+Dr. Conger also identified four
+
+137
+00:05:16,910 --> 00:05:18,620
+common mistakes that people make
+
+138
+00:05:18,620 --> 00:05:20,720
+when attempting to
+influence others.
+
+139
+00:05:20,720 --> 00:05:23,615
+They'll often approach their
+audience too aggressively,
+
+140
+00:05:23,615 --> 00:05:26,975
+and that tends to put
+people off ideas entirely.
+
+141
+00:05:26,975 --> 00:05:29,435
+They might also
+resist compromise,
+
+142
+00:05:29,435 --> 00:05:32,585
+which is crucial for any
+kind of mutual agreement.
+
+143
+00:05:32,585 --> 00:05:35,510
+They'll focus too much on
+developing their argument for
+
+144
+00:05:35,510 --> 00:05:38,675
+the idea and not enough time
+establishing credibility,
+
+145
+00:05:38,675 --> 00:05:40,340
+framing for common ground,
+
+146
+00:05:40,340 --> 00:05:42,095
+providing evidence and connecting
+
+147
+00:05:42,095 --> 00:05:43,790
+emotionally, and they'll
+
+148
+00:05:43,790 --> 00:05:45,560
+assume that they can work out
+
+149
+00:05:45,560 --> 00:05:48,655
+an agreement through
+just one conversation.
+
+150
+00:05:48,655 --> 00:05:51,620
+These mistakes can
+jeopardize your attempts to
+
+151
+00:05:51,620 --> 00:05:53,390
+influence others and limit
+
+152
+00:05:53,390 --> 00:05:55,790
+your ability to
+build relationships,
+
+153
+00:05:55,790 --> 00:05:58,970
+so be mindful of these common
+mistakes when preparing
+
+154
+00:05:58,970 --> 00:06:02,305
+to pitch another person
+on your big idea.
+
+155
+00:06:02,305 --> 00:06:05,935
+Great job. Now you know the
+four steps of influencing,
+
+156
+00:06:05,935 --> 00:06:08,120
+as well as some common
+mistakes that people
+
+157
+00:06:08,120 --> 00:06:10,670
+make when attempting
+to influence others.
+
+158
+00:06:10,670 --> 00:06:12,890
+Coming up, you'll
+learn more about
+
+159
+00:06:12,890 --> 00:06:16,415
+personal and organizational
+sources of influencing power.
+
+160
+00:06:16,415 --> 00:06:18,810
+Meet you in the next video.

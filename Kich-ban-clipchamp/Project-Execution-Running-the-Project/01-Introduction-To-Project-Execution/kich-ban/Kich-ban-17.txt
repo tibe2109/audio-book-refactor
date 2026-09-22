@@ -1,0 +1,14 @@
+Nhóm thứ hai là Các yếu tố ngoại cảnh từ môi trường bên ngoài, tức External Factors, 
+Thứ nhất là sự biến động của thị trường và đối thủ cạnh tranh, Một đối thủ bất ngờ ra mắt một sản phẩm tương tự với mức giá rẻ hơn, buộc ban lãnh đạo doanh nghiệp của bạn phải nhanh chóng thay đổi chiến lược dự án để thích ứng.
+Thứ hai là sự chậm trễ từ các nhà cung ứng và đối tác bên ngoài, Chuỗi cung ứng bị gián đoạn, linh kiện bị thiếu hụt, hoặc đối tác phần mềm chậm bàn giao dịch vụ đều là những sự cố nằm ngoài tầm kiểm soát trực tiếp của bạn nhưng lại tác động tức thì đến dự án.
+Thứ ba là những thay đổi về khung pháp lý và chính sách, Các quy định mới của chính phủ về bảo mật dữ liệu, thuế khóa hoặc tiêu chuẩn môi trường có thể buộc dự án của bạn phải thiết kế lại một phần quy trình để đảm bảo tuân thủ pháp luật.
+
+Thay đổi và rủi ro không phải là dấu hiệu của một kế hoạch tồi, chúng là bản chất tự nhiên của việc tạo ra những điều mới mẻ trong một thế giới không ngừng vận động. Nhiệm vụ của bạn không phải là mơ ước về một dự án không có thay đổi, mà là xây dựng một hệ thống quản trị rủi ro linh hoạt và vững chắc để điều hướng dự án vượt qua mọi biến động.
+
+NHẬN DIỆN VÀ THEO DÕI CÁC MỐI QUAN HỆ PHỤ THUỘC, IDENTIFYING AND TRACKING DEPENDENCIES.
+. ......
+Trong bất kỳ dự án nào, các công việc hiếm khi tồn tại biệt lập và độc lập hoàn toàn với nhau. Trái lại, chúng thường đan xen và gắn kết chặt chẽ qua các mối quan hệ phụ thuộc, tức Dependencies. Một mối quan hệ phụ thuộc xảy ra khi việc bắt đầu hoặc kết thúc của một công việc này chịu ảnh hưởng trực tiếp bởi việc bắt đầu hoặc kết thúc của một công việc khác.
+
+Việc nhận diện sai hoặc bỏ sót các mối quan hệ phụ thuộc chính là một trong những nguyên nhân phổ biến nhất dẫn tới tình trạng dự án bị đình trệ và vỡ trận lịch trình. Do đó, người quản lý dự án cần nắm vững bốn loại quan hệ phụ thuộc cơ bản sau đây,
+
+Loại thứ nhất là Kết thúc để Bắt đầu, tức Finish-to-Start, F-S, Đây là mối quan hệ phổ biến và tự nhiên nhất trong thực tế. Công việc B không thể bắt đầu cho đến khi công việc A đã hoàn tất. Ví dụ điển hình, Bạn không thể bắt đầu sơn tường nếu như đội thợ chưa hoàn thành việc xây xong bức tường đó. Trong dự án phần mềm, bạn không thể tiến hành kiểm thử tính năng nếu như lập trình viên chưa viết xong mã nguồn của tính năng đó.

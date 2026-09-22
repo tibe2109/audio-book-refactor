@@ -1,0 +1,16 @@
+HỌC PHẦN SÁU, ĐÓNG DỰ ÁN THÀNH CÔNG, CLOSING A PROJECT.
+. ......
+LỜI MỞ ĐẦU, ĐÓNG DỰ ÁN, INTRODUCTION, CLOSING A PROJECT.
+. ......
+Chào mừng bạn đã đến với học phần cuối cùng của khóa học Thực thi Dự án! Ở học phần này, chúng ta sẽ cùng nhau tìm hiểu về cách thức đóng một dự án một cách chuyên nghiệp và bài bản.
+
+Trong các bài học này, bạn sẽ học cách giải thích tại sao việc đóng dự án lại có ý nghĩa vô cùng quan trọng, xác định chính xác khi nào một dự án được coi là đã hoàn thành trọn vẹn, và phác thảo quy trình đóng dự án từng bước chi tiết. Chúng ta sẽ cùng nhau hiểu rằng giai đoạn đóng dự án phục vụ như một khía cạnh không thể thiếu của vòng đời dự án và giúp tổ chức tránh được những kịch bản bất lợi không mong muốn. Hãy cùng tôi bước vào bài học đầu tiên!
+
+TẦM QUAN TRỌNG CỦA VIỆC ĐÓNG DỰ ÁN, THE IMPORTANCE OF PROJECT CLOSURE.
+. ......
+Chào mừng bạn đã quay trở lại. Trong bài học này, chúng ta sẽ thảo luận sâu sắc về giai đoạn đóng dự án, tức Project Closing. Chúng ta sẽ cùng nhau trả lời ba câu hỏi cốt lõi, Đóng dự án thực chất có nghĩa là gì? Tại sao nó lại quan trọng đến vậy? Và khi nào thì quy trình này chính thức diễn ra?
+
+Đóng dự án bao gồm một tập hợp các quy trình được thực hiện để chính thức hoàn thành dự án, kết thúc giai đoạn hiện tại và hoàn tất mọi nghĩa vụ theo hợp đồng đã ký kết.
+
+Điều đầu tiên mà bạn bắt buộc phải phân biệt rạch ròi là, Hoàn thành công việc của dự án không đồng nghĩa với việc Đóng dự án!
+Rất nhiều người quản lý dự án thiếu kinh nghiệm thường mắc phải sai lầm nghiêm trọng này, Khi thấy sản phẩm đã được lập trình xong, tòa nhà đã được xây xong hoặc sự kiện đã được tổ chức xong, họ vội vã tuyên bố dự án kết thúc và lập tức chuyển sang công việc mới. Tuy nhiên, nếu bạn không thực hiện quy trình đóng dự án chính thức, dự án của bạn vẫn chưa thực sự kết thúc.

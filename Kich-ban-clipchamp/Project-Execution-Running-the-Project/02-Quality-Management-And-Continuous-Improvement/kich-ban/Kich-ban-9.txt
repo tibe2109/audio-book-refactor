@@ -1,0 +1,11 @@
+Bước thứ hai là Tuyển chọn đúng đối tượng người dùng thử nghiệm, Hãy đảm bảo rằng những người tham gia U-A-T thực sự đại diện cho đối tượng người dùng cuối của sản phẩm, chứ không chỉ là những thành viên nội bộ trong nhóm phát triển. Sự tham gia của những người dùng thực tế với đa dạng mức độ thành thạo công nghệ sẽ giúp phát hiện ra những vấn đề trải nghiệm người dùng quý giá mà đội ngũ kỹ thuật có thể đã bỏ qua.
+
+Bước thứ ba là Xây dựng các kịch bản thử nghiệm bám sát thực tế, tức Test Scenarios, Thay vì chỉ hướng dẫn người dùng bấm vào các nút chức năng đơn lẻ, hãy đặt họ vào các tình huống công việc thực tế trong đời sống. Ví dụ, Hãy đăng nhập vào hệ thống, tìm kiếm sản phẩm chậu cây cảnh xương rồng, thêm vào giỏ hàng, áp dụng mã giảm giá và hoàn tất thủ tục giao hàng tới văn phòng.
+
+Bước thứ tư là Thiết lập môi trường thử nghiệm tách biệt và quy trình ghi nhận lỗi thuận tiện, Môi trường U-A-T phải mô phỏng chính xác dữ liệu và điều kiện vận hành thực tế nhưng hoàn toàn độc lập với hệ thống đang chạy chính thức để không làm ảnh hưởng tới hoạt động kinh doanh. Hãy trang bị cho người thử nghiệm một công cụ hoặc biểu mẫu báo cáo lỗi trực quan, dễ sử dụng, cho phép họ chụp ảnh màn hình và mô tả lại các bước dẫn đến lỗi một cách dễ dàng.
+
+Và bước thứ năm là Ký duyệt biên bản nghiệm thu chính thức, tức Sign-off, Khi toàn bộ các kịch bản thử nghiệm trọng yếu đã hoàn thành xuất sắc và các lỗi nghiêm trọng đã được khắc phục triệt để, đại diện khách hàng sẽ chính thức ký vào biên bản nghiệm thu U-A-T. Chữ ký này chính là tấm giấy thông hành mở đường cho sản phẩm tự tin bước ra thị trường.
+
+SUE, TẦM QUAN TRỌNG CỦA VIỆC THẤU HIỂU NHU CẦU KHÁCH HÀNG, SUE, THE IMPORTANCE OF UNDERSTANDING CUSTOMER NEEDS.
+. ......
+Xin chào các bạn, tôi là Sue. Trong suốt hành trình làm việc tại Google, tôi đã chứng kiến không ít dự án sở hữu công nghệ vô cùng tân tiến và được xây dựng bởi những kỹ sư xuất sắc nhất, nhưng cuối cùng lại gặp khó khăn khi ra mắt. Lý do vì sao? Bởi vì, đội ngũ đã quá say mê với giải pháp kỹ thuật của chính mình mà quên mất việc lắng nghe và thấu hiểu nhu cầu thực tế của khách hàng.

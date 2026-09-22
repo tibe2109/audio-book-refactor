@@ -1,0 +1,337 @@
+1
+00:00:00,110 --> 00:00:03,765
+Hi there. If you've gone
+through our previous courses,
+
+2
+00:00:03,765 --> 00:00:05,025
+you've spent a lot of time
+
+3
+00:00:05,025 --> 00:00:06,720
+digging into the intricacies and
+
+4
+00:00:06,720 --> 00:00:10,245
+significance of setting
+up a project for success.
+
+5
+00:00:10,245 --> 00:00:13,305
+And now, we're at the
+project execution stage
+
+6
+00:00:13,305 --> 00:00:15,855
+where all of that
+hard work comes together.
+
+7
+00:00:15,855 --> 00:00:18,660
+If you haven't gone through
+our previous courses yet,
+
+8
+00:00:18,660 --> 00:00:20,490
+we recommend checking them out.
+
+9
+00:00:20,490 --> 00:00:22,320
+Before we get started,
+
+10
+00:00:22,320 --> 00:00:23,865
+let me introduce myself.
+
+11
+00:00:23,865 --> 00:00:25,470
+My name's Elita, and I'll
+
+12
+00:00:25,470 --> 00:00:27,520
+be your instructor
+for this course.
+
+13
+00:00:27,520 --> 00:00:30,935
+I work as a Senior Engineering
+Program Manager at Google,
+
+14
+00:00:30,935 --> 00:00:32,750
+where I currently
+lead the team behind
+
+15
+00:00:32,750 --> 00:00:35,075
+routing and navigation
+on Google Maps.
+
+16
+00:00:35,075 --> 00:00:37,355
+I joined the company in 2007,
+
+17
+00:00:37,355 --> 00:00:38,480
+working on teams across
+
+18
+00:00:38,480 --> 00:00:40,330
+Google's engineering
+organization in
+
+19
+00:00:40,330 --> 00:00:42,545
+New York, London, and Seattle.
+
+20
+00:00:42,545 --> 00:00:44,600
+In 2013, I joined
+
+21
+00:00:44,600 --> 00:00:47,270
+the Google Maps team and
+launched popular features like
+
+22
+00:00:47,270 --> 00:00:49,520
+holiday hours and
+attributes on businesses,
+
+23
+00:00:49,520 --> 00:00:51,050
+while leading global teams from
+
+24
+00:00:51,050 --> 00:00:53,330
+New York to Sydney to Hyderabad.
+
+25
+00:00:53,330 --> 00:00:54,830
+Generally, I like solving
+
+26
+00:00:54,830 --> 00:00:56,840
+problems and learning new things.
+
+27
+00:00:56,840 --> 00:01:00,215
+Every new project and team
+allows me to do both.
+
+28
+00:01:00,215 --> 00:01:02,300
+I'm excited to lead you
+through this course and
+
+29
+00:01:02,300 --> 00:01:05,480
+demonstrate how to put a
+project plan into action.
+
+30
+00:01:05,480 --> 00:01:07,580
+First step, you'll
+learn more about
+
+31
+00:01:07,580 --> 00:01:10,190
+risks and unforeseen changes
+through the project.
+
+32
+00:01:10,190 --> 00:01:12,170
+If you've taken our
+previous courses,
+
+33
+00:01:12,170 --> 00:01:14,390
+you might recall that
+change is inevitable.
+
+34
+00:01:14,390 --> 00:01:16,820
+And to combat that, we've covered
+
+35
+00:01:16,820 --> 00:01:20,120
+the concept of risk mitigation
+during the planning phase.
+
+36
+00:01:20,120 --> 00:01:23,090
+And now we'll take it one step
+further and discuss what
+
+37
+00:01:23,090 --> 00:01:25,985
+to do when a risk
+actually materializes.
+
+38
+00:01:25,985 --> 00:01:29,465
+Next, I'll discuss
+tracking and quality.
+
+39
+00:01:29,465 --> 00:01:31,490
+You'll learn how to
+track and measure
+
+40
+00:01:31,490 --> 00:01:34,280
+your project's progress, and
+you'll learn how to use
+
+41
+00:01:34,280 --> 00:01:37,310
+continuous improvement and
+quality management techniques
+
+42
+00:01:37,310 --> 00:01:40,540
+to keep the project on
+track and running smoothly.
+
+43
+00:01:40,540 --> 00:01:43,400
+These best practices are
+valuable to just about
+
+44
+00:01:43,400 --> 00:01:44,960
+any role, and I'm looking
+
+45
+00:01:44,960 --> 00:01:46,780
+forward to taking
+you through them.
+
+46
+00:01:46,780 --> 00:01:48,440
+Other big aspects of running
+
+47
+00:01:48,440 --> 00:01:50,420
+a project include
+decision-making.
+
+48
+00:01:50,420 --> 00:01:53,090
+You'll learn to both
+use and analyze data
+
+49
+00:01:53,090 --> 00:01:55,940
+to inform your decision-making,
+and then, in turn,
+
+50
+00:01:55,940 --> 00:01:57,620
+use that data to explore and
+
+51
+00:01:57,620 --> 00:02:00,130
+explain key aspects
+of your project.
+
+52
+00:02:00,130 --> 00:02:02,420
+I'll also discuss team management
+
+53
+00:02:02,420 --> 00:02:04,445
+and the fundamentals
+of influencing.
+
+54
+00:02:04,445 --> 00:02:07,280
+So much of the success
+of a project relies
+
+55
+00:02:07,280 --> 00:02:10,205
+on teamwork, and you'll
+learn more about how you,
+
+56
+00:02:10,205 --> 00:02:11,330
+as a project manager,
+
+57
+00:02:11,330 --> 00:02:14,320
+can effectively lead your
+team to the finish line.
+
+58
+00:02:14,320 --> 00:02:16,130
+Speaking of teamwork, I'll
+
+59
+00:02:16,130 --> 00:02:17,780
+share some of the
+tools that provide
+
+60
+00:02:17,780 --> 00:02:20,090
+effective team
+communication along with
+
+61
+00:02:20,090 --> 00:02:22,990
+tips for organizing and
+facilitating meetings.
+
+62
+00:02:22,990 --> 00:02:26,870
+And then, we'll wrap up by discussing
+how to close a project.
+
+63
+00:02:26,870 --> 00:02:29,960
+You'll learn the steps required
+to finish a project and
+
+64
+00:02:29,960 --> 00:02:31,235
+the importance of celebrating
+
+65
+00:02:31,235 --> 00:02:33,020
+a job well done with your team.
+
+66
+00:02:33,020 --> 00:02:34,600
+Sounds kind of fun, right?
+
+67
+00:02:34,600 --> 00:02:36,180
+After all that planning,
+
+68
+00:02:36,180 --> 00:02:38,330
+this is the point in the
+project life cycle where
+
+69
+00:02:38,330 --> 00:02:41,120
+work gets done and
+everything comes together.
+
+70
+00:02:41,120 --> 00:02:42,710
+Ready to get started?
+
+71
+00:02:42,710 --> 00:02:44,315
+Meet me in the next video,
+
+72
+00:02:44,315 --> 00:02:45,890
+where you'll learn
+about the importance of
+
+73
+00:02:45,890 --> 00:02:49,290
+tracking and measuring
+project progress.

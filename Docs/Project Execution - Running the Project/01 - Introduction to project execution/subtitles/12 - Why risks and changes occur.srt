@@ -1,0 +1,805 @@
+1
+00:00:00,140 --> 00:00:03,630
+Welcome back. In
+an earlier video,
+
+2
+00:00:03,630 --> 00:00:04,920
+we learned about how to
+
+3
+00:00:04,920 --> 00:00:07,395
+identify risks when
+planning projects.
+
+4
+00:00:07,395 --> 00:00:10,920
+In this module, we'll learn
+why risks and changes might
+
+5
+00:00:10,920 --> 00:00:12,570
+occur during a project and how
+
+6
+00:00:12,570 --> 00:00:14,895
+that can impact your
+project's scope.
+
+7
+00:00:14,895 --> 00:00:17,310
+You may remember that a risk is
+
+8
+00:00:17,310 --> 00:00:19,260
+a potential event that might
+
+9
+00:00:19,260 --> 00:00:21,530
+occur and could
+impact your project.
+
+10
+00:00:21,530 --> 00:00:22,920
+When you think about risks in
+
+11
+00:00:22,920 --> 00:00:24,900
+the context of
+project management,
+
+12
+00:00:24,900 --> 00:00:27,360
+you'll think about
+them as hypothetical.
+
+13
+00:00:27,360 --> 00:00:29,280
+In other words, these might not
+
+14
+00:00:29,280 --> 00:00:31,200
+be events that will
+definitely happen,
+
+15
+00:00:31,200 --> 00:00:33,990
+but because there's a possibility
+that they could happen,
+
+16
+00:00:33,990 --> 00:00:36,735
+it's your responsibility
+as a project manager
+
+17
+00:00:36,735 --> 00:00:39,120
+to identify and plan
+for those risks.
+
+18
+00:00:39,120 --> 00:00:42,110
+Let's revisit some
+examples of risks.
+
+19
+00:00:42,111 --> 00:00:42,965
+A project risk might be
+
+20
+00:00:42,965 --> 00:00:44,630
+a contractor missing a deadline,
+
+21
+00:00:44,630 --> 00:00:46,880
+or introducing a tool that may
+
+22
+00:00:46,880 --> 00:00:49,250
+lead to communication
+breakdown within your team,
+
+23
+00:00:49,250 --> 00:00:51,500
+or unexpected,
+additional work because
+
+24
+00:00:51,500 --> 00:00:54,130
+of an unforeseen policy
+being put in place.
+
+25
+00:00:54,130 --> 00:00:55,925
+When any risk occurs,
+
+26
+00:00:55,925 --> 00:00:59,045
+the consequence is a change
+to the project plan.
+
+27
+00:00:59,045 --> 00:01:03,019
+A change is anything that
+alters or impacts the tasks,
+
+28
+00:01:03,019 --> 00:01:05,840
+structures, or processes
+within a project.
+
+29
+00:01:05,840 --> 00:01:08,330
+Changes are typically unexpected.
+
+30
+00:01:08,330 --> 00:01:09,845
+More often than not,
+
+31
+00:01:09,845 --> 00:01:12,230
+they have a negative
+impact on the project,
+
+32
+00:01:12,230 --> 00:01:14,285
+and you'll have to
+learn to navigate that.
+
+33
+00:01:14,285 --> 00:01:16,250
+But sometimes, and I'm placing
+
+34
+00:01:16,250 --> 00:01:18,995
+a heavy emphasis on sometimes,
+
+35
+00:01:18,995 --> 00:01:21,355
+changes can have a
+positive impact.
+
+36
+00:01:21,355 --> 00:01:23,720
+Changes can encompass
+any variance from
+
+37
+00:01:23,720 --> 00:01:25,130
+the original project plan in
+
+38
+00:01:25,130 --> 00:01:27,170
+regards to the triple constraint.
+
+39
+00:01:27,170 --> 00:01:30,125
+This may entail changing
+priorities and scope,
+
+40
+00:01:30,125 --> 00:01:33,625
+budget and resources, or changes
+to the project timeline.
+
+41
+00:01:33,625 --> 00:01:36,890
+We'll discuss how the internal
+and external dependencies
+
+42
+00:01:36,890 --> 00:01:40,405
+of a project impact each
+other and bring about change.
+
+43
+00:01:40,405 --> 00:01:42,380
+Let's go through a few types of
+
+44
+00:01:42,380 --> 00:01:44,315
+changes that can
+affect your project.
+
+45
+00:01:44,315 --> 00:01:46,190
+Some examples of changes may
+
+46
+00:01:46,190 --> 00:01:48,680
+include new or
+changing dependencies.
+
+47
+00:01:48,680 --> 00:01:51,080
+Dependencies are
+tasks, activities,
+
+48
+00:01:51,080 --> 00:01:54,205
+or milestones that are
+reliant on one another.
+
+49
+00:01:54,205 --> 00:01:56,735
+So if one task isn't
+completed on time,
+
+50
+00:01:56,735 --> 00:01:59,105
+it may put your
+other tasks behind.
+
+51
+00:01:59,105 --> 00:02:00,800
+You might be in
+charge of renovations
+
+52
+00:02:00,800 --> 00:02:02,920
+on a home where there
+are dependencies.
+
+53
+00:02:02,920 --> 00:02:05,180
+In a bathroom remodel,
+for instance,
+
+54
+00:02:05,180 --> 00:02:07,085
+a new sink cannot be installed
+
+55
+00:02:07,085 --> 00:02:09,310
+until the vanity and
+plumbing are in place.
+
+56
+00:02:09,310 --> 00:02:11,465
+Next, is changing priorities.
+
+57
+00:02:11,465 --> 00:02:13,640
+The scope of the
+remodel changes if
+
+58
+00:02:13,640 --> 00:02:16,070
+your client's in-laws
+suddenly have to move in,
+
+59
+00:02:16,070 --> 00:02:17,930
+and you have to move
+up planned work on
+
+60
+00:02:17,930 --> 00:02:21,205
+the spare bedroom before
+completing the bathroom remodel.
+
+61
+00:02:21,205 --> 00:02:24,695
+Next up, the capacity and
+people available could change.
+
+62
+00:02:24,695 --> 00:02:26,765
+Maybe you have to
+replace the plumber
+
+63
+00:02:26,765 --> 00:02:29,100
+because you had issues
+on the job site.
+
+64
+00:02:29,100 --> 00:02:31,235
+Another type of
+change could include
+
+65
+00:02:31,235 --> 00:02:33,890
+a new limitation on your
+budget or resources.
+
+66
+00:02:33,890 --> 00:02:35,810
+For example, you need to
+
+67
+00:02:35,810 --> 00:02:38,300
+reduce design costs
+in the new bathroom
+
+68
+00:02:38,300 --> 00:02:40,490
+by 10 percent because
+your quotes for
+
+69
+00:02:40,490 --> 00:02:43,010
+electrical work come in
+higher than expected.
+
+70
+00:02:43,010 --> 00:02:45,255
+Another change could
+be scope creep.
+
+71
+00:02:45,255 --> 00:02:47,375
+Scope creep is when changes,
+
+72
+00:02:47,375 --> 00:02:50,500
+growth, and other factors
+affect the project scope.
+
+73
+00:02:50,500 --> 00:02:53,270
+For instance, your clients
+are so happy with the tile in
+
+74
+00:02:53,270 --> 00:02:54,680
+the new bathroom
+that they'd like to
+
+75
+00:02:54,680 --> 00:02:57,185
+replace the tile in all
+of their bathrooms.
+
+76
+00:02:57,185 --> 00:02:59,135
+Finally, force majeure.
+
+77
+00:02:59,135 --> 00:03:01,400
+This is another change
+that could occur due
+
+78
+00:03:01,400 --> 00:03:03,805
+to a national or
+international crisis.
+
+79
+00:03:03,805 --> 00:03:05,840
+If you aren't familiar
+with this term,
+
+80
+00:03:05,840 --> 00:03:08,810
+it means an unforeseen
+circumstance that prevents
+
+81
+00:03:08,810 --> 00:03:10,595
+someone from fulfilling
+the contract
+
+82
+00:03:10,595 --> 00:03:12,415
+due to a major crisis.
+
+83
+00:03:12,415 --> 00:03:14,715
+Force majeure is pretty uncommon.
+
+84
+00:03:14,715 --> 00:03:17,780
+But for instance, if a
+union goes on strike,
+
+85
+00:03:17,780 --> 00:03:20,870
+certain vendors won't be able
+to fulfill their contracts.
+
+86
+00:03:20,870 --> 00:03:22,355
+If there's a pandemic,
+
+87
+00:03:22,355 --> 00:03:25,555
+all production on your new
+product might be halted.
+
+88
+00:03:25,555 --> 00:03:27,860
+Changes should be
+measured against
+
+89
+00:03:27,860 --> 00:03:29,915
+the baseline estimates of scope,
+
+90
+00:03:29,915 --> 00:03:31,580
+budget, and time allotted for
+
+91
+00:03:31,580 --> 00:03:34,250
+your project, given the
+original requirements.
+
+92
+00:03:34,250 --> 00:03:37,650
+Be mindful that when you change
+any one of those things,
+
+93
+00:03:37,650 --> 00:03:39,560
+there may be knock-on
+effects which
+
+94
+00:03:39,560 --> 00:03:41,740
+could be positive or negative.
+
+95
+00:03:41,740 --> 00:03:44,270
+For instance, your
+clients may believe they
+
+96
+00:03:44,270 --> 00:03:46,685
+have beautiful hardwood
+floors hiding underneath
+
+97
+00:03:46,685 --> 00:03:49,280
+old living room carpet
+and want to pull up
+
+98
+00:03:49,280 --> 00:03:50,540
+the old carpet and use
+
+99
+00:03:50,540 --> 00:03:52,465
+the original hardwood
+floors underneath.
+
+100
+00:03:52,465 --> 00:03:54,020
+You, the project manager
+
+101
+00:03:54,020 --> 00:03:55,825
+on this particular
+construction job—you've
+
+102
+00:03:55,826 --> 00:03:58,490
+budgeted to have
+the carpet removed and
+
+103
+00:03:58,490 --> 00:04:01,740
+the old floors sanded
+and stained. Bad news.
+
+104
+00:04:01,740 --> 00:04:03,410
+You pull up the carpet and find
+
+105
+00:04:03,410 --> 00:04:05,615
+the floors are in bad
+shape and rotting.
+
+106
+00:04:05,615 --> 00:04:07,415
+They'll need to be
+replaced or repaired,
+
+107
+00:04:07,415 --> 00:04:08,900
+which could be costly,
+
+108
+00:04:08,900 --> 00:04:11,650
+so your timeline and budget
+are likely to take a hit.
+
+109
+00:04:11,650 --> 00:04:13,370
+When it comes to who takes on
+
+110
+00:04:13,370 --> 00:04:15,770
+the responsibility of
+managing the changing scope,
+
+111
+00:04:15,770 --> 00:04:17,900
+it'll be you—the
+project manager.
+
+112
+00:04:17,900 --> 00:04:19,415
+But depending on the project,
+
+113
+00:04:19,415 --> 00:04:21,580
+you probably won't do it alone.
+
+114
+00:04:21,580 --> 00:04:23,655
+In order to properly
+manage changes,
+
+115
+00:04:23,655 --> 00:04:25,460
+you'll want to refer
+to documents like
+
+116
+00:04:25,460 --> 00:04:27,610
+your Statement of Work
+and the RACI chart.
+
+117
+00:04:27,610 --> 00:04:30,980
+But you might also have to
+create some new documentation.
+
+118
+00:04:30,980 --> 00:04:33,740
+You'll want to create or
+familiarize yourself with
+
+119
+00:04:33,740 --> 00:04:35,300
+the processes for requesting
+
+120
+00:04:35,300 --> 00:04:38,150
+changes for your team
+or organization.
+
+121
+00:04:38,150 --> 00:04:42,095
+These processes might include
+a change request form.
+
+122
+00:04:42,095 --> 00:04:44,945
+Let's discuss change
+request forms.
+
+123
+00:04:44,945 --> 00:04:46,475
+You and your stakeholders will
+
+124
+00:04:46,475 --> 00:04:48,170
+use these forms in order to stay
+
+125
+00:04:48,170 --> 00:04:51,845
+on top of, and adequately
+manage, any changes.
+
+126
+00:04:51,845 --> 00:04:54,200
+Since a lot of people
+with different roles
+
+127
+00:04:54,200 --> 00:04:56,060
+on the project can
+fill out these forms,
+
+128
+00:04:56,060 --> 00:04:57,800
+it's important for
+the forms to be
+
+129
+00:04:57,800 --> 00:05:00,340
+self-explanatory
+and very thorough.
+
+130
+00:05:00,340 --> 00:05:01,895
+In the provided template,
+
+131
+00:05:01,895 --> 00:05:04,145
+which uses a 2-by-10 table,
+
+132
+00:05:04,145 --> 00:05:06,530
+you'll need to include
+information in the cells,
+
+133
+00:05:06,530 --> 00:05:09,140
+such as: the project name,
+
+134
+00:05:09,140 --> 00:05:11,180
+the discussion owner, who's
+
+135
+00:05:11,180 --> 00:05:13,370
+taking the lead on this
+discussion from the team,
+
+136
+00:05:13,370 --> 00:05:15,440
+discussion type.
+You'll want to let
+
+137
+00:05:15,440 --> 00:05:17,750
+your audience know if you'll
+be discussing a risk,
+
+138
+00:05:17,750 --> 00:05:20,150
+opportunity, or anything else.
+
+139
+00:05:20,150 --> 00:05:22,070
+You'll want to identify the teams
+
+140
+00:05:22,070 --> 00:05:24,920
+involved and the expected
+outcome of the discussion,
+
+141
+00:05:24,920 --> 00:05:28,100
+which might be a change in
+priorities, schedule change,
+
+142
+00:05:28,100 --> 00:05:30,110
+or an official call
+on how to proceed
+
+143
+00:05:30,110 --> 00:05:32,240
+with an issue. Add
+the target date for
+
+144
+00:05:32,240 --> 00:05:34,595
+discussion, and identify
+which milestones
+
+145
+00:05:34,595 --> 00:05:36,625
+or goals might be impacted.
+
+146
+00:05:36,625 --> 00:05:38,510
+Provide a short description of
+
+147
+00:05:38,510 --> 00:05:40,580
+the current situation,
+the change,
+
+148
+00:05:40,580 --> 00:05:41,690
+and any difference you
+
+149
+00:05:41,690 --> 00:05:43,520
+expect to make to
+the plan of record,
+
+150
+00:05:43,520 --> 00:05:45,970
+like a snapshot of
+the before and after.
+
+151
+00:05:45,970 --> 00:05:48,500
+Then go into in-depth
+proposal for
+
+152
+00:05:48,500 --> 00:05:51,290
+the necessary changes and
+address any trade-offs.
+
+153
+00:05:51,290 --> 00:05:54,065
+Finally, provide any
+background information
+
+154
+00:05:54,065 --> 00:05:56,815
+so that everyone shares
+the same context.
+
+155
+00:05:56,815 --> 00:06:00,080
+You can also refer to your
+statement of work, or SOW,
+
+156
+00:06:00,080 --> 00:06:01,790
+for more information about who
+
+157
+00:06:01,790 --> 00:06:04,120
+needs to be involved
+in that conversation.
+
+158
+00:06:04,120 --> 00:06:06,200
+If you find that one or more of
+
+159
+00:06:06,200 --> 00:06:08,990
+your milestones are at risk
+of not being completed,
+
+160
+00:06:08,990 --> 00:06:10,400
+then you'll need
+to get a customer
+
+161
+00:06:10,400 --> 00:06:12,200
+sign-off before the scope,
+
+162
+00:06:12,200 --> 00:06:14,030
+deadline, or budget are changed,
+
+163
+00:06:14,030 --> 00:06:17,140
+and all parties involved
+need to be informed.
+
+164
+00:06:17,140 --> 00:06:19,640
+Great work. We've reviewed how
+
+165
+00:06:19,640 --> 00:06:21,770
+to define risk and
+know more about how
+
+166
+00:06:21,770 --> 00:06:23,750
+to identify the reasons why risks
+
+167
+00:06:23,750 --> 00:06:26,270
+and changes might occur
+during a project.
+
+168
+00:06:26,270 --> 00:06:28,055
+And now we can explain the impact
+
+169
+00:06:28,055 --> 00:06:29,830
+of increasing a project scope.
+
+170
+00:06:29,830 --> 00:06:31,490
+In the next video, we're going
+
+171
+00:06:31,490 --> 00:06:33,080
+to discuss the role dependencies
+
+172
+00:06:33,080 --> 00:06:34,520
+play and how to properly
+
+173
+00:06:34,520 --> 00:06:37,470
+manage them. We'll
+meet you there.

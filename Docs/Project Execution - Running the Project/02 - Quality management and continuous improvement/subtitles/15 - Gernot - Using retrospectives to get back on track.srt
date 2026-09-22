@@ -1,0 +1,352 @@
+1
+00:00:03,740 --> 00:00:05,820
+My name is Gernot, and I'm
+
+2
+00:00:05,820 --> 00:00:08,060
+a senior program manager
+here at Google, New York.
+
+3
+00:00:08,060 --> 00:00:11,010
+I work for a
+department called GEO,
+
+4
+00:00:11,010 --> 00:00:13,080
+which is responsible
+for Google Maps and
+
+5
+00:00:13,080 --> 00:00:15,195
+our maps products
+on Google Search.
+
+6
+00:00:15,195 --> 00:00:16,530
+A senior program manager is
+
+7
+00:00:16,530 --> 00:00:18,510
+typically responsible
+for a set of
+
+8
+00:00:18,510 --> 00:00:20,490
+projects and initiatives all
+
+9
+00:00:20,490 --> 00:00:22,185
+the way from the ideation stage,
+
+10
+00:00:22,185 --> 00:00:25,380
+all the way through to getting
+them launched and landed.
+
+11
+00:00:25,380 --> 00:00:26,730
+Something that happens to any
+
+12
+00:00:26,730 --> 00:00:28,320
+project manager on
+pretty much almost on
+
+13
+00:00:28,320 --> 00:00:30,060
+a daily basis is that
+there's something
+
+14
+00:00:30,060 --> 00:00:32,835
+unforeseen that happens,
+and projects go off track.
+
+15
+00:00:32,835 --> 00:00:36,000
+Retrospectives are a
+really important tool
+
+16
+00:00:36,000 --> 00:00:38,695
+in the toolbox that every
+project manager should have.
+
+17
+00:00:38,695 --> 00:00:41,150
+Often people say at the
+end of a project, "Okay,
+
+18
+00:00:41,150 --> 00:00:43,055
+now it's time to
+do a retrospective,"
+
+19
+00:00:43,055 --> 00:00:44,450
+and you're sort of carefully looking
+
+20
+00:00:44,450 --> 00:00:45,890
+at what are the things that
+
+21
+00:00:45,890 --> 00:00:48,090
+happened that went well
+and that didn't go well,
+
+22
+00:00:48,090 --> 00:00:49,520
+and what are some of the
+learnings that you can
+
+23
+00:00:49,520 --> 00:00:50,990
+apply to future projects.
+
+24
+00:00:50,990 --> 00:00:52,190
+But I really think
+of this more as
+
+25
+00:00:52,190 --> 00:00:54,470
+a continuous exercise
+along the way.
+
+26
+00:00:54,470 --> 00:00:56,225
+Like, you really should be
+
+27
+00:00:56,225 --> 00:00:59,410
+continuously checking in on
+how is the project going.
+
+28
+00:00:59,410 --> 00:01:01,190
+One example of
+where a retrospective
+
+29
+00:01:01,190 --> 00:01:03,005
+has helped us get
+back on track is,
+
+30
+00:01:03,005 --> 00:01:04,370
+we were working on the project,
+
+31
+00:01:04,370 --> 00:01:06,125
+where we are launching
+something on
+
+32
+00:01:06,125 --> 00:01:08,270
+Google Search. Halfway
+along the way,
+
+33
+00:01:08,270 --> 00:01:11,630
+we realized there's
+actually a better way to do
+
+34
+00:01:11,630 --> 00:01:13,160
+this that would realize
+
+35
+00:01:13,160 --> 00:01:14,880
+much bigger benefits
+to our users.
+
+36
+00:01:14,880 --> 00:01:16,175
+As a result of that,
+
+37
+00:01:16,175 --> 00:01:17,660
+we really got the
+whole project team
+
+38
+00:01:17,660 --> 00:01:18,830
+together, and we really sort of
+
+39
+00:01:18,830 --> 00:01:22,400
+talked through, what
+have we done so far?
+
+40
+00:01:22,400 --> 00:01:24,530
+What is it that the current
+state of the project is?
+
+41
+00:01:24,530 --> 00:01:26,330
+What are our options to
+go forward to help us
+
+42
+00:01:26,330 --> 00:01:27,620
+address some of the shortcomings
+
+43
+00:01:27,620 --> 00:01:28,940
+that we have not identified?
+
+44
+00:01:28,940 --> 00:01:31,280
+And then collectively
+replan the rest of
+
+45
+00:01:31,280 --> 00:01:33,980
+the project to make sure
+we're sort of in a clear path
+
+46
+00:01:33,980 --> 00:01:36,770
+forward and we have a clear
+understanding of how to get
+
+47
+00:01:36,770 --> 00:01:39,800
+to that new understanding
+of adjusted success.
+
+48
+00:01:39,800 --> 00:01:42,050
+It's incredibly important to be
+
+49
+00:01:42,050 --> 00:01:45,460
+flexible and adjust
+direction if needed.
+
+50
+00:01:45,460 --> 00:01:48,140
+Like, if you know that there's
+a change that's needed
+
+51
+00:01:48,140 --> 00:01:49,550
+and you know that the project
+
+52
+00:01:49,550 --> 00:01:51,035
+is going in a bad direction,
+
+53
+00:01:51,035 --> 00:01:53,360
+continuing in that bad direction,
+
+54
+00:01:53,360 --> 00:01:54,950
+obviously, is the worst
+thing you could do for
+
+55
+00:01:54,950 --> 00:01:56,645
+the project and for the company.
+
+56
+00:01:56,645 --> 00:01:59,690
+It's really important to,
+as quickly as possible,
+
+57
+00:01:59,690 --> 00:02:02,745
+initiate that process
+of analyzing,
+
+58
+00:02:02,745 --> 00:02:04,715
+what are the options in terms of
+
+59
+00:02:04,715 --> 00:02:06,590
+things that we can do
+to course correct and
+
+60
+00:02:06,590 --> 00:02:08,555
+make sure the project is
+off in a good direction
+
+61
+00:02:08,555 --> 00:02:11,945
+and embark on that new direction
+as quickly as possible.
+
+62
+00:02:11,945 --> 00:02:13,850
+Obviously, while taking
+enough time to make
+
+63
+00:02:13,850 --> 00:02:15,860
+sure it's a data-driven decision—all
+
+64
+00:02:15,861 --> 00:02:18,155
+the stakeholders and
+sponsors are on board.
+
+65
+00:02:18,155 --> 00:02:19,970
+The most important things
+to keep track of as
+
+66
+00:02:19,970 --> 00:02:22,100
+a project manager really depend
+
+67
+00:02:22,100 --> 00:02:24,500
+a little bit on the project
+that you're involved in.
+
+68
+00:02:24,500 --> 00:02:26,675
+So really I think tightly
+managing the scope,
+
+69
+00:02:26,675 --> 00:02:28,865
+tightly managing the resources,
+
+70
+00:02:28,865 --> 00:02:31,610
+tightly managing against the
+timeline that you set out,
+
+71
+00:02:31,610 --> 00:02:33,830
+and really carefully
+assessing how things are
+
+72
+00:02:33,830 --> 00:02:35,240
+going as you compare them to
+
+73
+00:02:35,240 --> 00:02:37,190
+the plan that you
+laid out originally,
+
+74
+00:02:37,190 --> 00:02:38,690
+and then use it to make
+
+75
+00:02:38,690 --> 00:02:40,040
+course corrections
+as needed based
+
+76
+00:02:40,040 --> 00:02:42,420
+on the things that you see.

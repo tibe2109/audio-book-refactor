@@ -1,0 +1,24 @@
+Sự chân thành ấy đã phá vỡ tảng băng ngờ vực. Từng người một bắt đầu trải lòng. Và một sự thật bất ngờ đã lộ diện, Hóa ra, các kỹ sư lập trình không hề cẩu thả, mà do họ phải nhận tài liệu yêu cầu tính năng quá sơ sài và thay đổi liên tục từ bộ phận quản lý sản phẩm, khiến họ phải vừa đoán vừa viết mã, trong khi nhóm kiểm thử lại không hề được tham gia vào các buổi thảo luận ban đầu nên không hiểu đúng tiêu chí nghiệm thu.
+
+Ngay tại phiên Retro đó, chúng tôi đã thống nhất ba hành động cải tiến mang tính bước ngoặt, 
+Thứ nhất, Đại diện kiểm thử bắt buộc phải tham gia cùng lập trình viên ngay từ khâu phân tích yêu cầu ban đầu để thống nhất tiêu chí chấp nhận.
+Thứ hai, Thiết lập quy tắc Definition of Ready, Một tính năng chỉ được bắt đầu viết mã khi yêu cầu đã được mô tả rõ ràng và có sự đồng thuận của cả ba bên.
+Thứ ba, Áp dụng kiểm thử tự động hàng ngày để phát hiện lỗi ngay trong vòng hai mươi tư giờ.
+
+Kết quả thật kỳ diệu, Chỉ sau ba tuần áp dụng các quy trình mới, số lượng lỗi tồn đọng đã giảm sáu mươi phần trăm, tốc độ bàn giao tăng gấp đôi, và quan trọng nhất là nụ cười cùng sự tin tưởng đã quay trở lại trên gương mặt của từng thành viên. Dự án sau đó đã cán đích thành công vang dội. Phiên họp hồi tưởng chính là chiếc phao cứu sinh đã xoay chuyển hoàn toàn vận mệnh của dự án đó.
+
+BIỂU MẪU PHIÊN HỌP HỒI TƯỞNG, RETROSPECTIVE TEMPLATE.
+. ......
+Để giúp bạn và đội ngũ có thể tổ chức các phiên họp hồi tưởng một cách nhanh chóng và bài bản, dưới đây là biểu mẫu chuẩn mực mà bạn có thể áp dụng ngay vào thực tế công việc,
+
+Thông tin chung, 
+Tên dự án, Điền tên dự án, 
+Giai đoạn hoặc Chu kỳ hồi tưởng, Ví dụ, Sprint bốn hoặc Giai đoạn thử nghiệm UAT, 
+Ngày thực hiện, Điền ngày tháng, 
+Người điều phối, Tên Project Manager hoặc Scrum Master, 
+Thành viên tham dự, Danh sách toàn thể đội ngũ,
+
+Nội dung ghi nhận ý kiến, Bảng ba cột, 
+một. Cột Vận hành tốt, Went Well, Ghi nhận các thành công, công cụ hữu ích, tinh thần tương trợ và những phương pháp làm việc hiệu quả cần tiếp tục phát huy.
+hai. Cột Cần cải thiện, Needs Improvement, Ghi nhận các điểm nghẽn, sự cố quy trình, khó khăn giao tiếp và các trở ngại cần tháo gỡ.
+ba. Cột Ý tưởng mới và Bài học, Ideas và Learnings, Ghi nhận các sáng kiến mới, giải pháp công nghệ đề xuất và những bài học kinh nghiệm sâu sắc đúc kết được.

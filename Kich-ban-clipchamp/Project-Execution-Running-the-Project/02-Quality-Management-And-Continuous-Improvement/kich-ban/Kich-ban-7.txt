@@ -1,0 +1,13 @@
+Phương pháp thứ ba là Khảo sát Chỉ số Nỗ lực của Khách hàng, tức Customer Effort Score, viết tắt là C-E-S, Chỉ số này đo lường mức độ dễ dàng hay khó khăn mà khách hàng phải trải qua khi tương tác với sản phẩm hoặc giải quyết một vấn đề. Khách hàng càng phải tốn ít công sức để đạt được mục tiêu của họ thì mức độ gắn kết và hài lòng càng cao.
+
+Bên cạnh các con số định lượng, phương pháp thứ tư không kém phần quan trọng là Phỏng vấn sâu và Nhóm tập trung, tức Qualitative Interviews and Focus Groups, Việc ngồi lại trò chuyện trực tiếp với một nhóm khách hàng tiêu biểu sẽ giúp bạn thu thập được những câu chuyện phong phú, bối cảnh thực tế và những ý kiến đóng góp sâu sắc về những khía cạnh mà các bảng khảo sát số liệu đơn thuần không thể nắm bắt hết được.
+
+ĐẢM BẢO TÍNH TIẾP CẬN TRONG THU THẬP PHẢN HỒI, ENSURING ACCESSIBILITY DURING FEEDBACK COLLECTION.
+. ......
+Khi thiết kế các quy trình thu thập ý kiến phản hồi và đo lường sự hài lòng của khách hàng, một trách nhiệm đạo đức và chuyên môn quan trọng của người quản lý dự án là đảm bảo Tính tiếp cận, tức Accessibility. Một quy trình thu thập phản hồi đạt chuẩn tiếp cận là quy trình cho phép tất cả mọi người, bao gồm cả những người khuyết tật về thị giác, thính giác, vận động hoặc nhận thức, đều có thể tham gia đóng góp tiếng nói của mình một cách bình đẳng và thuận tiện nhất.
+
+Nếu bạn bỏ qua tính tiếp cận, bạn sẽ vô tình loại trừ một bộ phận khách hàng quan trọng và tạo ra những điểm mù lớn trong dữ liệu chất lượng của dự án. Để đảm bảo tính tiếp cận tối đa trong thu thập phản hồi, bạn cần chú ý các nguyên tắc thực tế sau,
+
+Thứ nhất là Khả năng tương thích với công nghệ hỗ trợ, Đảm bảo rằng các biểu mẫu khảo sát trực tuyến của bạn hoàn toàn tương thích với các phần mềm đọc màn hình, tức Screen Readers, mà người khiếm thị thường sử dụng. Các trường nhập liệu, nút bấm và hình ảnh phải luôn có nhãn văn bản thay thế, tức Alt Text, rõ ràng và đầy đủ ngữ nghĩa.
+
+Thứ hai là Độ tương phản màu sắc và kích thước văn bản, Tránh sử dụng những cặp màu sắc có độ tương phản quá thấp, chẳng hạn như chữ xám nhạt trên nền trắng, gây khó đọc cho người thị lực kém hoặc người mắc hội chứng mù màu. Kích thước chữ phải đủ lớn, dễ nhìn và cho phép người dùng dễ dàng phóng to thu nhỏ giao diện mà không làm vỡ bố cục trang.

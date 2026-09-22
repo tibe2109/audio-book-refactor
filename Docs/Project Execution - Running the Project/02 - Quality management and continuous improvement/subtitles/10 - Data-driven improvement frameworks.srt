@@ -1,0 +1,447 @@
+1
+00:00:00,320 --> 00:00:02,580
+In the last video,
+
+2
+00:00:02,580 --> 00:00:05,490
+I introduced the concept of
+continuous improvements.
+
+3
+00:00:05,490 --> 00:00:07,920
+We explored in depth
+how working in
+
+4
+00:00:07,920 --> 00:00:11,430
+a controlled environment
+can optimize your outcomes.
+
+5
+00:00:11,430 --> 00:00:13,800
+In this video, we're
+going to keep on
+
+6
+00:00:13,800 --> 00:00:15,480
+that same path of uncovering
+
+7
+00:00:15,480 --> 00:00:17,745
+methods for continuous
+improvements.
+
+8
+00:00:17,745 --> 00:00:20,955
+We'll start with data-driven
+improvement frameworks.
+
+9
+00:00:20,955 --> 00:00:23,850
+Data-driven improvement
+frameworks are techniques
+
+10
+00:00:23,850 --> 00:00:27,045
+used to make decisions
+based on actual data.
+
+11
+00:00:27,045 --> 00:00:30,510
+The first data-driven improvement
+framework we'll cover
+
+12
+00:00:30,510 --> 00:00:32,250
+may be familiar to you since
+
+13
+00:00:32,250 --> 00:00:34,230
+we discussed it in
+a previous course.
+
+14
+00:00:34,230 --> 00:00:41,499
+Recall that D-M-A-I-C, or DMAIC,
+stands for define, measure,
+
+15
+00:00:41,499 --> 00:00:45,530
+analyze, improve, and
+control, and it maps
+
+16
+00:00:45,530 --> 00:00:47,330
+out five steps that you can
+
+17
+00:00:47,330 --> 00:00:50,110
+take when working toward
+continuous improvements.
+
+18
+00:00:50,110 --> 00:00:51,770
+When considering how you
+
+19
+00:00:51,770 --> 00:00:53,630
+can improve customer experiences,
+
+20
+00:00:53,630 --> 00:00:55,025
+start with the following:
+
+21
+00:00:55,025 --> 00:00:57,770
+First, you'll need to define
+the business problem, goals,
+
+22
+00:00:57,770 --> 00:01:01,145
+resources, project scope,
+and project timeline.
+
+23
+00:01:01,145 --> 00:01:03,200
+Next, measure.
+
+24
+00:01:03,200 --> 00:01:06,380
+Here, you'll conduct
+performance metrics and data
+
+25
+00:01:06,380 --> 00:01:10,175
+collection to establish
+baselines and measure success.
+
+26
+00:01:10,175 --> 00:01:12,830
+Then, analyze. Work to find
+
+27
+00:01:12,830 --> 00:01:16,060
+the root causes of problems
+and understand their impact.
+
+28
+00:01:16,060 --> 00:01:17,925
+Next, improve.
+
+29
+00:01:17,925 --> 00:01:19,414
+This means implementing
+
+30
+00:01:19,414 --> 00:01:21,805
+a reasonable solution
+to the problem.
+
+31
+00:01:21,805 --> 00:01:23,695
+Lastly, control.
+
+32
+00:01:23,695 --> 00:01:25,070
+This is where you'll implement
+
+33
+00:01:25,070 --> 00:01:26,720
+the changes and stay on top of
+
+34
+00:01:26,720 --> 00:01:30,955
+monitoring the updated
+processes you've established.
+
+35
+00:01:30,955 --> 00:01:34,550
+Another framework you can
+refer to when working through
+
+36
+00:01:34,550 --> 00:01:38,200
+continuous improvements is PDCA.
+
+37
+00:01:38,200 --> 00:01:41,150
+PDCA is a four-step process
+
+38
+00:01:41,150 --> 00:01:43,925
+that focuses on
+identifying a problem,
+
+39
+00:01:43,925 --> 00:01:46,850
+fixing that issue, assessing
+whether the fix was
+
+40
+00:01:46,850 --> 00:01:50,075
+successful, and fine-tuning
+the final fix.
+
+41
+00:01:50,075 --> 00:01:54,510
+The steps are as
+follows: First, plan.
+
+42
+00:01:54,510 --> 00:01:56,750
+Here, you'll identify
+the issue and
+
+43
+00:01:56,750 --> 00:02:00,290
+root cause and brainstorm
+solutions to the problem.
+
+44
+00:02:00,290 --> 00:02:03,200
+Let's say that one type of
+plant isn't selling well,
+
+45
+00:02:03,200 --> 00:02:04,640
+which means the warehouse is
+
+46
+00:02:04,640 --> 00:02:07,219
+full of a particular species.
+
+47
+00:02:07,219 --> 00:02:09,755
+If you don't do something fast,
+
+48
+00:02:09,755 --> 00:02:11,850
+the plants may die soon.
+
+49
+00:02:11,850 --> 00:02:14,540
+What are some viable solutions?
+
+50
+00:02:14,540 --> 00:02:17,360
+You propose moving the
+items from the bottom
+
+51
+00:02:17,360 --> 00:02:19,985
+of the sales page on
+the website to the top so
+
+52
+00:02:19,985 --> 00:02:22,085
+those plants are
+front and center.
+
+53
+00:02:22,085 --> 00:02:24,950
+You could also send out
+email marketing campaigns
+
+54
+00:02:24,950 --> 00:02:28,475
+featuring that plant, where you
+offer customers a buy one,
+
+55
+00:02:28,475 --> 00:02:30,785
+get one offer on the plant.
+
+56
+00:02:30,785 --> 00:02:34,135
+Second, do, or fix the problem.
+
+57
+00:02:34,135 --> 00:02:36,920
+In this case, your sponsor
+decided that they didn't
+
+58
+00:02:36,920 --> 00:02:38,270
+feel comfortable giving plants
+
+59
+00:02:38,270 --> 00:02:39,770
+away if they could still profit.
+
+60
+00:02:39,770 --> 00:02:42,440
+You've decided to go
+with the first option:
+
+61
+00:02:42,440 --> 00:02:46,145
+moving the plant to a more
+prominent part of the website.
+
+62
+00:02:46,145 --> 00:02:49,085
+Your hypothesis is that
+the best way to shift
+
+63
+00:02:49,085 --> 00:02:50,750
+older inventory is to put it in
+
+64
+00:02:50,750 --> 00:02:52,990
+a place that
+customers can't miss.
+
+65
+00:02:52,990 --> 00:02:55,505
+The next part of this
+framework is check.
+
+66
+00:02:55,505 --> 00:02:57,230
+Compare your results to the goal
+
+67
+00:02:57,230 --> 00:02:59,375
+to find out if the
+problem is fixed.
+
+68
+00:02:59,375 --> 00:03:01,850
+Now you wait one
+week and notice if
+
+69
+00:03:01,850 --> 00:03:04,775
+the sales numbers go up for
+that plant. If they did,
+
+70
+00:03:04,775 --> 00:03:07,340
+your hypothesis is
+correct and you've saved
+
+71
+00:03:07,340 --> 00:03:08,630
+some plant lives and helped
+
+72
+00:03:08,630 --> 00:03:10,460
+Office Green avoid
+financial loss.
+
+73
+00:03:10,460 --> 00:03:13,415
+Nice job! Finally, act,
+
+74
+00:03:13,415 --> 00:03:16,840
+or fine-tune the fix to ensure
+continuous improvement.
+
+75
+00:03:16,840 --> 00:03:20,435
+In our example, you decide
+to reorganize the website.
+
+76
+00:03:20,435 --> 00:03:22,835
+In the future, all
+overstocked plants
+
+77
+00:03:22,835 --> 00:03:25,405
+will get a prominent
+place on the website.
+
+78
+00:03:25,405 --> 00:03:28,960
+Both PDCA and DMAIC are
+
+79
+00:03:28,960 --> 00:03:31,360
+great problem-solving
+frameworks to apply in
+
+80
+00:03:31,360 --> 00:03:34,269
+your day-to-day life
+and in the workplace.
+
+81
+00:03:34,269 --> 00:03:37,390
+These frameworks help
+you to identify issues,
+
+82
+00:03:37,390 --> 00:03:40,690
+reduce errors, and
+optimize your processes.
+
+83
+00:03:40,690 --> 00:03:42,610
+I encourage you to think about
+
+84
+00:03:42,610 --> 00:03:44,500
+these techniques next
+time you encounter
+
+85
+00:03:44,500 --> 00:03:46,240
+a problem or notice room for
+
+86
+00:03:46,240 --> 00:03:48,370
+improvement within a workflow.
+
+87
+00:03:48,370 --> 00:03:50,320
+You'll be surprised at how
+
+88
+00:03:50,320 --> 00:03:54,215
+a simple framework can help
+set you up for success.
+
+89
+00:03:54,215 --> 00:03:56,695
+Awesome! Now you know more about
+
+90
+00:03:56,695 --> 00:03:59,695
+advocating for and creating
+continuous improvements.
+
+91
+00:03:59,695 --> 00:04:02,680
+We also defined and went
+through some examples of using
+
+92
+00:04:02,680 --> 00:04:07,640
+frameworks DMAIC and PDCA
+for process improvements.
+
+93
+00:04:07,640 --> 00:04:09,650
+Now that you know the basics of
+
+94
+00:04:09,650 --> 00:04:12,065
+continuous improvement
+and process improvement,
+
+95
+00:04:12,065 --> 00:04:13,790
+we'll discuss the
+differences between
+
+96
+00:04:13,790 --> 00:04:16,595
+projects and programs
+and how they intersect.
+
+97
+00:04:16,595 --> 00:04:19,080
+I'll meet you in the next video.

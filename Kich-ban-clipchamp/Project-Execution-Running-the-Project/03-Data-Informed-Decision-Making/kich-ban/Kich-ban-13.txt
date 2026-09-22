@@ -1,0 +1,11 @@
+Đạo đức dữ liệu, 
+Là một người quản lý dự án, việc thu thập và phân tích dữ liệu sẽ là một phần cốt lõi trong các dự án của bạn. Như bạn đã học, bạn sẽ thu thập dữ liệu từ rất nhiều nguồn khác nhau, bao gồm các nhóm tập trung Focus Groups, các cuộc phỏng vấn và các bảng câu hỏi khảo sát.
+Dữ liệu bạn thu thập thường sẽ chứa thông tin nhận dạng cá nhân, tức P-I-I, Personally Identifiable Information. Đây là những thông tin có thể được sử dụng để trực tiếp nhận dạng, liên hệ hoặc xác định vị trí của một cá nhân cụ thể. Rất nhiều lần, bạn cũng sẽ cần báo cáo về dữ liệu bạn thu thập được cho các bên liên quan, khách hàng và đội ngũ dự án của mình. Việc thu thập, phân tích và chia sẻ dữ liệu này một cách có đạo đức là điều vô cùng quan trọng để duy trì tính chính trực của tổ chức, dự án và chính vị trí công tác của bạn.
+Đạo đức dữ liệu là việc nghiên cứu và đánh giá các thách thức đạo đức liên quan đến việc thu thập và phân tích dữ liệu. Điều này bao gồm việc tạo ra, ghi lại, tuyển chọn, xử lý, chia sẻ và sử dụng dữ liệu nhằm đưa ra các giải pháp có đạo đức. Các doanh nghiệp áp dụng các thực hành đạo đức dữ liệu để họ có thể, 
+Tuân thủ các quy định của pháp luật.
+Chứng minh rằng họ là tổ chức đáng tin cậy.
+Đảm bảo việc sử dụng dữ liệu công bằng và hợp lý.
+Giảm thiểu tối đa các định kiến và thiên lệch.
+Phát triển một hình ảnh nhận thức tích cực trong mắt công chúng.
+
+Đạo đức dữ liệu bắt nguồn từ nhiều nguyên tắc. Trong tài liệu này, chúng ta sẽ tập trung vào hai nguyên tắc nền tảng nhất, Quyền riêng tư dữ liệu và Định kiến dữ liệu.

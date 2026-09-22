@@ -1,0 +1,19 @@
+Hoạt động thứ nhất, Tổ chức Phiên họp Hồi tưởng Đóng dự án, tức Final Project Retrospective.
+Khác với các phiên hồi tưởng ngắn sau mỗi Sprint, phiên hồi tưởng đóng dự án nhìn lại toàn bộ bức tranh hành trình từ ngày đầu khởi động cho đến khi về đích.
+Mục tiêu là trả lời ba câu hỏi then chốt, 
+Điều gì đã diễn ra xuất sắc mà chúng ta cần biến thành chuẩn mực cho các dự án tương lai?
+Những sai lầm, trục trặc nào đã xảy ra và nguyên nhân gốc rễ của chúng là gì?
+Những bài học kinh nghiệm đắt giá nào chúng ta cần đúc kết lại để không bao giờ lặp lại trong tương lai?
+Người quản lý dự án phải tạo ra một bầu không khí an toàn tâm lý tuyệt đối, nơi mọi người có thể thành thật chia sẻ mà không sợ bị phán xét hay đổ lỗi.
+
+Hoạt động thứ hai, Đúc kết và Lưu trữ Bài học Kinh nghiệm, tức Documenting Lessons Learned.
+Tất cả những hiểu biết sâu sắc từ phiên hồi tưởng phải được văn bản hóa thành tài liệu Bài học kinh nghiệm và đưa vào kho tri thức chung của tổ chức, giúp các thế hệ quản lý dự án đi sau có thể học hỏi và kế thừa.
+
+Hoạt động thứ ba, Ăn mừng và Công nhận thành tích, tức Celebrating Success and Recognition.
+Đừng bao giờ để một dự án kết thúc trong sự lặng lẽ! Đội ngũ của bạn đã cùng nhau thức khuya dậy sớm, vượt qua biết bao áp lực và thử thách căng thẳng để đưa dự án về đích. Hãy tổ chức một buổi lễ tổng kết ấm cúng, gửi những lời cảm ơn chân thành tới từng cá nhân, nêu bật những đóng góp đặc biệt của từng thành viên và cùng nhau nâng ly ăn mừng chiến thắng. Sự công nhận xứng đáng sẽ để lại những kỷ niệm đẹp đẽ và tạo động lực mạnh mẽ cho mọi người trong những chặng đường tiếp theo.
+
+SARAH, TẠI SAO TÔI YÊU THÍCH CÁC PHIÊN HỌP HỒI TƯỞNG, SARAH, WHY I LOVE RETROSPECTIVES.
+. ......
+Xin chào, tôi là Sarah. Tôi là Quản lý Chương trình thuộc Đội ngũ Giáo dục Kỹ thuật tại Google.
+
+Với tư cách là một người quản lý chương trình, tôi điều hành các đội ngũ đa chức năng trong việc thiết kế, ra mắt và phát triển các Chương trình Giáo dục Khoa học Máy tính tại Google. Hiện tại, phạm vi công việc chính của tôi là hợp tác chặt chẽ với các tổ chức giáo dục tại thành phố New York để nỗ lực mang lại nhiều trải nghiệm giáo dục công nghệ và cơ hội phát triển hơn nữa, cho thanh thiếu niên trong khu vực.

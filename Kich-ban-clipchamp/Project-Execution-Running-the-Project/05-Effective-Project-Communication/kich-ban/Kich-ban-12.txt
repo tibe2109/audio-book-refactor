@@ -1,0 +1,7 @@
+Mỗi dự án đều có rất nhiều cuộc họp. Mặc dù mỗi cuộc họp đều mang tính độc nhất, nhưng việc quen thuộc với các dạng cuộc họp quản trị dự án phổ biến nhất sẽ giúp bạn xác định rõ hơn các mục tiêu, cấu trúc và hoạt động phù hợp nhất cho từng loại.
+
+Có bốn loại cuộc họp quản trị dự án phổ biến nhất, Cuộc họp khởi động dự án, cuộc họp cập nhật trạng thái tiến độ, cuộc họp đánh giá với các bên liên quan, và cuộc họp đánh giá tổng kết dự án,
+
+một. Cuộc họp Khởi động Dự án, tức Project Kick-off Meeting, 
+Đây là cuộc họp quan trọng nhất đánh dấu sự khởi đầu chính thức của một dự án. Nó phục vụ như một phương thức để sắp xếp sự hiểu biết của đội ngũ về các mục tiêu dự án sao cho ăn khớp hoàn hảo với các kế hoạch và quy trình thực tế. Các thành viên trong đội ngũ của bạn là những người tham dự chính của cuộc họp khởi động. Tuy nhiên, sự tham gia của ban lãnh đạo cấp cao và các bên liên quan chủ chốt cũng là điều bắt buộc để đảm bảo sự ủng hộ chính thức Buy-in và duy trì sự liên kết chặt chẽ với các mục tiêu chiến lược của dự án.
+Bầu không khí trong buổi họp này cần trang trọng, rõ ràng và tràn đầy cảm hứng để tiếp thêm ngọn lửa nhiệt huyết cho toàn đội trước khi bước vào giai đoạn thực thi gian nan.

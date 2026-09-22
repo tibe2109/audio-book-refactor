@@ -1,0 +1,15 @@
+Thứ ba là Cung cấp đa dạng các phương thức phản hồi, Không phải ai cũng cảm thấy thoải mái khi điền một biểu mẫu văn bản trực tuyến dài dòng. Hãy linh hoạt mở ra nhiều kênh tiếp nhận phản hồi khác nhau, Khảo sát trực tuyến, gọi điện thoại thoại, phỏng vấn trực tiếp bằng giọng nói, hoặc cung cấp tài liệu có phụ đề và ngôn ngữ ký hiệu nếu cần thiết.
+
+Thứ tư là Ngôn từ rõ ràng, giản dị và dễ hiểu, Tránh sử dụng quá nhiều thuật ngữ chuyên ngành phức tạp, từ ngữ viết tắt khó hiểu hoặc những câu văn cấu trúc đa tầng rườm rà. Ngôn ngữ càng trong sáng, mạch lạc thì người tham gia khảo sát càng dễ nắm bắt câu hỏi và đưa ra câu trả lời chuẩn xác.
+
+Bằng cách xây dựng các công cụ thu thập phản hồi hòa nhập và dễ tiếp cận, bạn không chỉ thu hoạch được nguồn dữ liệu chất lượng toàn diện hơn, mà còn thể hiện được cam kết nhân văn và trách nhiệm xã hội sâu sắc của dự án.
+
+THỬ NGHIỆM CHẤP NHẬN CỦA NGƯỜI DÙNG UAT, USER ACCEPTANCE TESTING, GOALS, BEST PRACTICES, AND MANAGEMENT.
+. ......
+Một trong những cột mốc kiểm soát chất lượng quan trọng bậc nhất trước khi một sản phẩm chính thức được phát hành ra thị trường chính là Thử nghiệm chấp nhận của người dùng, tức User Acceptance Testing, viết tắt là U-A-T. Đây là giai đoạn kiểm thử cuối cùng trong quy trình phát triển sản phẩm, nơi người dùng thực tế hoặc khách hàng đích thân trải nghiệm và xác nhận xem hệ thống có thực sự đáp ứng đúng các yêu cầu nghiệp vụ thực tế của họ hay không.
+
+Mục tiêu tối thượng của U-A-T không phải là tìm kiếm các lỗi cú pháp lập trình đơn thuần, việc đó vốn đã được đội ngũ kỹ thuật xử lý ở các vòng kiểm thử trước, mà là trả lời câu hỏi mang tính quyết định, Sản phẩm này có thực sự hoạt động đúng như mong đợi trong môi trường thực tế hàng ngày của người dùng hay không?
+
+Để tổ chức và quản lý một kỳ thử nghiệm U-A-T thành công rực rỡ, bạn cần nắm vững các bước thực hành tối ưu sau,
+
+Bước thứ nhất là Xác định rõ ràng Tiêu chí chấp nhận, tức Acceptance Criteria, Ngay từ giai đoạn lập kế hoạch, các tiêu chí nghiệm thu cụ thể phải được thống nhất bằng văn bản giữa đội ngũ dự án và khách hàng. Một tiêu chí chấp nhận tốt phải đo lường được, rõ ràng và không có sự mập mờ. Ví dụ, Người dùng có thể hoàn tất việc thanh toán đơn hàng bằng thẻ tín dụng trong vòng dưới ba mươi giây mà không gặp bất kỳ lỗi hệ thống nào.

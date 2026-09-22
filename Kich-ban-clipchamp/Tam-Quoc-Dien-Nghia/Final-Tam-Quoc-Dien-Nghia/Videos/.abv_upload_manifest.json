@@ -2,11 +2,11 @@
   "book_name": "Tam-Quoc-Dien-Nghia",
   "final_video_dir": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/Final-Tam-Quoc-Dien-Nghia/Videos",
   "created_at": "2026-09-21T02:39:11.088032+00:00",
-  "updated_at": "2026-09-21T02:39:11.089224+00:00",
+  "updated_at": "2026-09-21T04:28:39.978361+00:00",
   "total_videos": 120,
-  "uploaded_count": 1,
-  "pending_count": 119,
-  "failed_count": 0,
+  "uploaded_count": 11,
+  "pending_count": 107,
+  "failed_count": 2,
   "videos": {
     "Final_Video_01-Hoi-01_Part1.mp4": {
       "video_file": "Final_Video_01-Hoi-01_Part1.mp4",
@@ -15,88 +15,98 @@
       "video_id": "OUkuc46XzU0",
       "youtube_url": "https://youtu.be/OUkuc46XzU0",
       "uploaded_at": "2026-09-18T18:15:50Z",
-      "error": null
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_02-Hoi-02_Part1.mp4": {
       "video_file": "Final_Video_02-Hoi-02_Part1.mp4",
       "chapter_slug": "02-Hoi-02",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+      "status": "uploaded",
+      "video_id": "gX4nCYgFc-w",
+      "youtube_url": "https://youtu.be/gX4nCYgFc-w",
+      "uploaded_at": "2026-09-21T03:01:00.800414+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_03-Hoi-03_Part1.mp4": {
       "video_file": "Final_Video_03-Hoi-03_Part1.mp4",
       "chapter_slug": "03-Hoi-03",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+      "status": "uploaded",
+      "video_id": "YwbmLbJzJiY",
+      "youtube_url": "https://youtu.be/YwbmLbJzJiY",
+      "uploaded_at": "2026-09-21T03:01:37.008369+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_04-Hoi-04_Part1.mp4": {
       "video_file": "Final_Video_04-Hoi-04_Part1.mp4",
       "chapter_slug": "04-Hoi-04",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+      "status": "uploaded",
+      "video_id": "yEBLoLZJZAE",
+      "youtube_url": "https://youtu.be/yEBLoLZJZAE",
+      "uploaded_at": "2026-09-21T03:02:04.723618+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_05-Hoi-05_Part1.mp4": {
       "video_file": "Final_Video_05-Hoi-05_Part1.mp4",
       "chapter_slug": "05-Hoi-05",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+      "status": "uploaded",
+      "video_id": "ejo6urjRllM",
+      "youtube_url": "https://youtu.be/ejo6urjRllM",
+      "uploaded_at": "2026-09-21T03:02:37.356608+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_06-Hoi-06_Part1.mp4": {
       "video_file": "Final_Video_06-Hoi-06_Part1.mp4",
       "chapter_slug": "06-Hoi-06",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+      "status": "uploaded",
+      "video_id": "oUWk27df3OU",
+      "youtube_url": "https://youtu.be/oUWk27df3OU",
+      "uploaded_at": "2026-09-21T03:03:02.631931+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_07-Hoi-07_Part1.mp4": {
       "video_file": "Final_Video_07-Hoi-07_Part1.mp4",
       "chapter_slug": "07-Hoi-07",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+      "status": "uploaded",
+      "video_id": "8sH1a1HbB4E",
+      "youtube_url": "https://youtu.be/8sH1a1HbB4E",
+      "uploaded_at": "2026-09-21T03:03:28.068726+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_08-Hoi-08_Part1.mp4": {
       "video_file": "Final_Video_08-Hoi-08_Part1.mp4",
       "chapter_slug": "08-Hoi-08",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+      "status": "uploaded",
+      "video_id": "DHk8MYo038I",
+      "youtube_url": "https://youtu.be/DHk8MYo038I",
+      "uploaded_at": "2026-09-21T03:03:56.873160+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_09-Hoi-09_Part1.mp4": {
       "video_file": "Final_Video_09-Hoi-09_Part1.mp4",
       "chapter_slug": "09-Hoi-09",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+      "status": "uploaded",
+      "video_id": "1Q91IwPWl0U",
+      "youtube_url": "https://youtu.be/1Q91IwPWl0U",
+      "uploaded_at": "2026-09-21T03:04:25.679569+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_10-Hoi-10_Part1.mp4": {
       "video_file": "Final_Video_10-Hoi-10_Part1.mp4",
       "chapter_slug": "10-Hoi-10",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+      "status": "uploaded",
+      "video_id": "-HNjsNSx4tg",
+      "youtube_url": "https://youtu.be/-HNjsNSx4tg",
+      "uploaded_at": "2026-09-21T03:04:48.958786+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_100-Hoi-100_Part1.mp4": {
       "video_file": "Final_Video_100-Hoi-100_Part1.mp4",
@@ -191,11 +201,12 @@
     "Final_Video_11-Hoi-11_Part1.mp4": {
       "video_file": "Final_Video_11-Hoi-11_Part1.mp4",
       "chapter_slug": "11-Hoi-11",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+      "status": "uploaded",
+      "video_id": "hMz3okrct30",
+      "youtube_url": "https://youtu.be/hMz3okrct30",
+      "uploaded_at": "2026-09-21T03:05:19.344896+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
     "Final_Video_110-Hoi-110_Part1.mp4": {
       "video_file": "Final_Video_110-Hoi-110_Part1.mp4",
@@ -290,11 +301,11 @@
     "Final_Video_12-Hoi-12_Part1.mp4": {
       "video_file": "Final_Video_12-Hoi-12_Part1.mp4",
       "chapter_slug": "12-Hoi-12",
-      "status": "pending",
+      "status": "failed",
       "video_id": null,
       "youtube_url": null,
       "uploaded_at": null,
-      "error": null
+      "error": "Failed to initialize upload (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
     },
     "Final_Video_120-Hoi-120_Part1.mp4": {
       "video_file": "Final_Video_120-Hoi-120_Part1.mp4",
@@ -326,11 +337,11 @@
     "Final_Video_15-Hoi-15_Part1.mp4": {
       "video_file": "Final_Video_15-Hoi-15_Part1.mp4",
       "chapter_slug": "15-Hoi-15",
-      "status": "pending",
+      "status": "failed",
       "video_id": null,
       "youtube_url": null,
       "uploaded_at": null,
-      "error": null
+      "error": "Failed to initialize upload (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
     },
     "Final_Video_16-Hoi-16_Part1.mp4": {
       "video_file": "Final_Video_16-Hoi-16_Part1.mp4",
@@ -1088,5 +1099,8 @@
       "uploaded_at": null,
       "error": null
     }
-  }
+  },
+  "playlist_id": "PLW4YT639QMO4",
+  "playlist_url": "https://www.youtube.com/playlist?list=PLW4YT639QMO4",
+  "playlist_title": "Tam Quốc Diễn Nghĩa - La Quán Trung (Phan Kế Bính Dịch)"
 }

@@ -1,0 +1,575 @@
+1
+00:00:00,410 --> 00:00:03,300
+Hi. You've learned the process
+
+2
+00:00:03,300 --> 00:00:05,370
+of crafting a narrative
+about your project,
+
+3
+00:00:05,370 --> 00:00:06,959
+and you've learned
+how to visualize
+
+4
+00:00:06,959 --> 00:00:10,065
+key data points that help
+you to tell that story.
+
+5
+00:00:10,065 --> 00:00:12,990
+Now it's time to
+bring it all together.
+
+6
+00:00:12,990 --> 00:00:14,430
+In this video, we'll highlight
+
+7
+00:00:14,430 --> 00:00:17,010
+some useful presentation
+techniques.
+
+8
+00:00:17,010 --> 00:00:19,950
+Think about one of your
+favorite public speakers
+
+9
+00:00:19,950 --> 00:00:22,485
+and why you enjoy their
+presentations so much.
+
+10
+00:00:22,485 --> 00:00:24,885
+Is it their voice,
+their knowledge,
+
+11
+00:00:24,885 --> 00:00:27,375
+or the confidence they
+exude while speaking?
+
+12
+00:00:27,375 --> 00:00:30,125
+Brene Brown is one of
+my favorite speakers.
+
+13
+00:00:30,125 --> 00:00:32,675
+She's widely known
+for her 2010 TED Talk,
+
+14
+00:00:32,675 --> 00:00:34,190
+The Power of Vulnerability,
+
+15
+00:00:34,190 --> 00:00:37,895
+which received 60
+million views worldwide.
+
+16
+00:00:37,895 --> 00:00:40,940
+Brown didn't begin her
+career as a public speaker,
+
+17
+00:00:40,940 --> 00:00:44,465
+but as a research professor
+at the University of Houston.
+
+18
+00:00:44,465 --> 00:00:47,630
+Today, she uses public
+speaking as a way to
+
+19
+00:00:47,630 --> 00:00:51,295
+teach executives and leaders
+about courage and empathy.
+
+20
+00:00:51,295 --> 00:00:53,480
+Public speakers spend a lot
+
+21
+00:00:53,480 --> 00:00:55,085
+of time working on their craft.
+
+22
+00:00:55,085 --> 00:00:57,440
+Speaking to an audience—whether
+to inform,
+
+23
+00:00:57,440 --> 00:01:00,430
+entertain, or share—isn't
+always easy,
+
+24
+00:01:00,430 --> 00:01:03,560
+and data alone isn't enough to
+convince people that you've
+
+25
+00:01:03,560 --> 00:01:05,120
+made the right decisions or that
+
+26
+00:01:05,120 --> 00:01:07,115
+your project was impactful.
+
+27
+00:01:07,115 --> 00:01:10,100
+An effective presentation
+helps convey
+
+28
+00:01:10,100 --> 00:01:11,390
+the important work that you and
+
+29
+00:01:11,390 --> 00:01:14,035
+your team are accomplishing
+on your project.
+
+30
+00:01:14,035 --> 00:01:15,920
+And throughout the project, you'll
+
+31
+00:01:15,920 --> 00:01:17,480
+likely have many opportunities to
+
+32
+00:01:17,480 --> 00:01:19,850
+present—from your
+initial kickoff meeting
+
+33
+00:01:19,850 --> 00:01:21,560
+to your weekly status updates
+
+34
+00:01:21,560 --> 00:01:24,445
+to your final project
+presentation.
+
+35
+00:01:24,445 --> 00:01:26,720
+As you begin to craft
+your narrative,
+
+36
+00:01:26,720 --> 00:01:28,205
+think about your audience.
+
+37
+00:01:28,205 --> 00:01:31,685
+Ask yourself: What do I
+want my audience to know,
+
+38
+00:01:31,685 --> 00:01:34,730
+think, or do as a result
+of this presentation?
+
+39
+00:01:34,730 --> 00:01:36,890
+Create your presentation around
+
+40
+00:01:36,890 --> 00:01:39,625
+the big picture, and
+keep it simple.
+
+41
+00:01:39,625 --> 00:01:42,110
+Now let's discuss three ways to
+
+42
+00:01:42,110 --> 00:01:44,375
+help you give an
+effective presentation.
+
+43
+00:01:44,375 --> 00:01:48,775
+Those are being precise,
+flexible, and memorable.
+
+44
+00:01:48,775 --> 00:01:52,130
+First, to give an
+effective presentation,
+
+45
+00:01:52,130 --> 00:01:55,025
+you need to be precise
+about your key points.
+
+46
+00:01:55,025 --> 00:01:57,890
+Identify the problem you're
+solving for your audience and
+
+47
+00:01:57,890 --> 00:02:01,375
+remove any content that
+dilutes your narrative.
+
+48
+00:02:01,375 --> 00:02:03,470
+One way I ensure that
+
+49
+00:02:03,470 --> 00:02:06,140
+my slideshow presentations
+are as precise as they can
+
+50
+00:02:06,140 --> 00:02:08,060
+be is by using a technique
+
+51
+00:02:08,060 --> 00:02:10,550
+called "designing
+for five seconds."
+
+52
+00:02:10,550 --> 00:02:13,220
+The idea is that your
+audience should be
+
+53
+00:02:13,220 --> 00:02:15,850
+able to understand a slide
+within five seconds.
+
+54
+00:02:15,850 --> 00:02:19,085
+So I keep my presentation
+slides simple,
+
+55
+00:02:19,085 --> 00:02:22,325
+including only the most
+relevant data points, to avoid
+
+56
+00:02:22,325 --> 00:02:23,630
+overloading my audience with
+
+57
+00:02:23,630 --> 00:02:26,075
+text they don't
+have time to read.
+
+58
+00:02:26,075 --> 00:02:28,505
+To give an effective
+presentation,
+
+59
+00:02:28,505 --> 00:02:30,635
+you also need to be flexible.
+
+60
+00:02:30,635 --> 00:02:32,660
+Flexibility is a huge part
+
+61
+00:02:32,660 --> 00:02:34,385
+of your job as a project manager.
+
+62
+00:02:34,385 --> 00:02:36,140
+For example, it's possible
+
+63
+00:02:36,140 --> 00:02:38,000
+that a stakeholder
+may have to leave
+
+64
+00:02:38,000 --> 00:02:39,980
+your presentation unexpectedly or
+
+65
+00:02:39,980 --> 00:02:42,325
+that other attendees
+may arrive late.
+
+66
+00:02:42,325 --> 00:02:45,470
+Consider the approach
+you'd take if you had to
+
+67
+00:02:45,470 --> 00:02:48,230
+shorten your presentation
+from an hour to 30 minutes,
+
+68
+00:02:48,230 --> 00:02:50,015
+or even just five.
+
+69
+00:02:50,015 --> 00:02:52,070
+Know the most important points
+
+70
+00:02:52,070 --> 00:02:53,660
+you want to make, and be prepared
+
+71
+00:02:53,660 --> 00:02:57,330
+to share only those points,
+should the unexpected occur.
+
+72
+00:02:57,330 --> 00:02:59,240
+Preparing ahead of time also
+
+73
+00:02:59,240 --> 00:03:01,745
+helps you be more
+flexible when presenting.
+
+74
+00:03:01,745 --> 00:03:04,220
+Ample preparation
+helps you to avoid
+
+75
+00:03:04,220 --> 00:03:05,300
+small mistakes that can
+
+76
+00:03:05,300 --> 00:03:07,250
+potentially distract
+from your narrative,
+
+77
+00:03:07,250 --> 00:03:09,050
+like stumbling over sentences or
+
+78
+00:03:09,050 --> 00:03:11,800
+struggling to pull up a
+slideshow presentation.
+
+79
+00:03:11,800 --> 00:03:13,460
+To prepare ahead of time,
+
+80
+00:03:13,460 --> 00:03:15,170
+you might practice delivering
+
+81
+00:03:15,170 --> 00:03:17,270
+your presentation to
+members of your team
+
+82
+00:03:17,270 --> 00:03:18,965
+and invite them to
+offer feedback,
+
+83
+00:03:18,965 --> 00:03:21,725
+ask questions, or share concerns.
+
+84
+00:03:21,725 --> 00:03:24,200
+Preparing ahead of time also
+
+85
+00:03:24,200 --> 00:03:26,315
+gives you space to
+identify and come up with
+
+86
+00:03:26,315 --> 00:03:27,800
+answers to the types of questions
+
+87
+00:03:27,800 --> 00:03:31,120
+your audience might have
+about your presentation.
+
+88
+00:03:31,120 --> 00:03:34,460
+It also gives you time to
+imagine and prepare for
+
+89
+00:03:34,460 --> 00:03:36,320
+possible objections
+your audience might
+
+90
+00:03:36,320 --> 00:03:38,660
+have to the decisions
+you want to make.
+
+91
+00:03:38,660 --> 00:03:41,105
+Lastly, be memorable.
+
+92
+00:03:41,105 --> 00:03:43,190
+Develop a strategy that helps
+
+93
+00:03:43,190 --> 00:03:45,635
+make your narrative
+unforgettable.
+
+94
+00:03:45,635 --> 00:03:48,424
+Think back to effective
+storytelling.
+
+95
+00:03:48,424 --> 00:03:50,330
+This is the point
+where you want to
+
+96
+00:03:50,330 --> 00:03:51,980
+tie in your data analysis,
+
+97
+00:03:51,980 --> 00:03:54,230
+effective visualization, and put
+
+98
+00:03:54,230 --> 00:03:55,370
+the finishing touches on
+
+99
+00:03:55,370 --> 00:03:57,470
+your narrative to
+bring it all together.
+
+100
+00:03:57,470 --> 00:04:00,200
+Use stories or
+include repetition to
+
+101
+00:04:00,200 --> 00:04:01,430
+help your audience remember
+
+102
+00:04:01,430 --> 00:04:03,215
+the information moving forward.
+
+103
+00:04:03,215 --> 00:04:05,030
+Another helpful tip is to be aware
+
+104
+00:04:05,030 --> 00:04:07,130
+of your body
+language when presenting.
+
+105
+00:04:07,130 --> 00:04:08,990
+Maintain an upright posture
+
+106
+00:04:08,990 --> 00:04:11,030
+and rest your hands at your side.
+
+107
+00:04:11,030 --> 00:04:12,650
+When making a point, try
+
+108
+00:04:12,650 --> 00:04:15,185
+elevating your tone of
+voice for emphasis.
+
+109
+00:04:15,185 --> 00:04:19,310
+Pace yourself by using
+intentional pauses and
+
+110
+00:04:19,310 --> 00:04:20,960
+speak about half
+the speed you would
+
+111
+00:04:20,960 --> 00:04:23,990
+normally speak while keeping
+your sentences short.
+
+112
+00:04:23,990 --> 00:04:26,330
+Make eye contact with
+your audience and keep
+
+113
+00:04:26,330 --> 00:04:29,000
+your facial expressions
+warm and friendly.
+
+114
+00:04:29,000 --> 00:04:30,795
+Finally, have confidence.
+
+115
+00:04:30,795 --> 00:04:32,435
+You've done the
+research and are well-prepared,
+
+116
+00:04:32,435 --> 00:04:35,070
+you can set your worries aside.
+
+117
+00:04:35,070 --> 00:04:37,720
+If you're precise, flexible,
+
+118
+00:04:37,720 --> 00:04:40,520
+and memorable, you'll give
+a great presentation.
+
+119
+00:04:40,520 --> 00:04:43,520
+Now that you've analyzed the
+data and crafted your story,
+
+120
+00:04:43,520 --> 00:04:46,480
+your job is to present
+your findings effectively.
+
+121
+00:04:46,480 --> 00:04:48,350
+Use these tips to deliver
+
+122
+00:04:48,350 --> 00:04:51,275
+a presentation worthy
+of a standing ovation.
+
+123
+00:04:51,275 --> 00:04:52,985
+In the next video,
+
+124
+00:04:52,985 --> 00:04:54,620
+we'll wrap up and
+review what we've
+
+125
+00:04:54,620 --> 00:04:57,840
+recently learned. I'll
+meet you over there.

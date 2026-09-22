@@ -1,0 +1,342 @@
+1
+00:00:01,190 --> 00:00:05,610
+Earlier we talked at length about
+identifying and managing risks.
+
+2
+00:00:05,610 --> 00:00:09,240
+Risk management is absolutely
+critical to a project success.
+
+3
+00:00:09,240 --> 00:00:13,900
+So in this video, we'll introduce
+additional techniques for managing risks.
+
+4
+00:00:13,900 --> 00:00:17,990
+Let's start with a reminder of
+the definition of risk management:
+
+5
+00:00:17,990 --> 00:00:21,556
+Risk management is the process of
+identifying potential risks and
+
+6
+00:00:21,556 --> 00:00:24,675
+issues which could impact a project,
+then evaluating and
+
+7
+00:00:24,675 --> 00:00:29,450
+applying steps to address the effects
+of the identified risks and issues.
+
+8
+00:00:29,450 --> 00:00:30,755
+One way to manage risks, and
+
+9
+00:00:30,755 --> 00:00:34,315
+hopefully, prevent any risks from
+materializing is to focus on managing
+
+10
+00:00:34,315 --> 00:00:37,889
+the changes and dependencies, as well
+as any scope creep in your project.
+
+11
+00:00:39,290 --> 00:00:42,177
+If you can manage those two things,
+both changes and
+
+12
+00:00:42,177 --> 00:00:47,510
+dependencies and scope creep, other types
+of risks become much easier to manage.
+
+13
+00:00:47,510 --> 00:00:49,417
+If your dependencies are met on time,
+
+14
+00:00:49,417 --> 00:00:52,250
+your team is less likely
+to fall behind schedule.
+
+15
+00:00:52,250 --> 00:00:56,063
+If your scope is tightly-managed, you're
+less likely to incur changes to your
+
+16
+00:00:56,063 --> 00:00:58,280
+budget or
+be forced to extend your timeline.
+
+17
+00:00:59,480 --> 00:01:02,758
+Brainstorming with your team is one
+of the most effective techniques for
+
+18
+00:01:02,758 --> 00:01:05,030
+identifying risks in a project.
+
+19
+00:01:05,030 --> 00:01:09,094
+Your teammates likely bring skills and
+experience from previous projects,
+
+20
+00:01:09,094 --> 00:01:13,970
+which can help suss out similarities and
+keep you from repeating any issues.
+
+21
+00:01:13,970 --> 00:01:18,120
+As we brainstorm with our team,
+it's best to create a risk register.
+
+22
+00:01:18,120 --> 00:01:20,784
+As a refresher,
+a risk register is a table or
+
+23
+00:01:20,784 --> 00:01:24,270
+chart that contains your
+team's list of risks.
+
+24
+00:01:24,270 --> 00:01:26,647
+You want to pose questions
+to your team, like
+
+25
+00:01:26,647 --> 00:01:31,730
+what could improve the outcome of the
+project, or what could hurt or hinder it?
+
+26
+00:01:31,730 --> 00:01:34,340
+You'll list them all as if/then statements.
+
+27
+00:01:34,340 --> 00:01:40,850
+For example, if a given event happens,
+then here's how the project is impacted.
+
+28
+00:01:40,850 --> 00:01:43,806
+To help prioritize risks
+within your risk register,
+
+29
+00:01:43,806 --> 00:01:45,980
+you can calculate your risk exposure.
+
+30
+00:01:46,980 --> 00:01:49,567
+Risk exposure is a way
+to measure the potential
+
+31
+00:01:49,567 --> 00:01:53,600
+future loss resulting from
+a specific activity or event.
+
+32
+00:01:53,600 --> 00:01:58,600
+A good method to calculate risk exposure
+is to build a matrix like this one.
+
+33
+00:01:58,600 --> 00:02:03,358
+When building out your matrix,
+you'll use two variables: risk impact and
+
+34
+00:02:03,358 --> 00:02:04,750
+probability.
+
+35
+00:02:04,751 --> 00:02:08,307
+Write "risk impact" at the top,
+horizontal axis, and
+
+36
+00:02:08,307 --> 00:02:12,590
+write "probability" on the side,
+vertical axis.
+
+37
+00:02:12,590 --> 00:02:17,583
+Mark high, medium, and low along each
+axis as well, across the top from left
+
+38
+00:02:17,583 --> 00:02:20,594
+to right and
+down the side from top to bottom,
+
+39
+00:02:20,594 --> 00:02:24,573
+because that's how you're
+going to chart risk exposure.
+
+40
+00:02:24,573 --> 00:02:29,171
+Add each risk to the chart at the cross
+section of the impact the risk might have
+
+41
+00:02:29,171 --> 00:02:34,320
+on your project and probability or
+likelihood of the risk coming to pass.
+
+42
+00:02:34,320 --> 00:02:38,208
+This is one technique, but
+whatever strategy you use to examine
+
+43
+00:02:38,208 --> 00:02:41,952
+your risk exposure,
+your risks will need to be prioritized so
+
+44
+00:02:41,952 --> 00:02:46,490
+that you know and your team knows which
+ones to give immediate attention to.
+
+45
+00:02:46,490 --> 00:02:50,764
+For anything that has a high impact
+on your project, even if it has a low
+
+46
+00:02:50,764 --> 00:02:55,270
+probability of occurring, make sure
+to have a mitigation plan in place.
+
+47
+00:02:56,720 --> 00:03:00,590
+How will you handle this risk
+if it actually materializes?
+
+48
+00:03:00,590 --> 00:03:02,652
+While a risk register is a great tool,
+
+49
+00:03:02,652 --> 00:03:05,819
+it's still likely that some
+unforeseen risk will arise.
+
+50
+00:03:06,990 --> 00:03:08,850
+It's almost impossible to account for
+
+51
+00:03:08,850 --> 00:03:11,740
+every single risk over
+the course of a project.
+
+52
+00:03:11,740 --> 00:03:14,824
+That's where the ROAM technique can help.
+
+53
+00:03:14,824 --> 00:03:19,500
+The ROAM technique—which stands for
+resolved, owned, accepted, and
+
+54
+00:03:19,500 --> 00:03:23,619
+mitigated—is used to help manage
+actions after risks arise.
+
+55
+00:03:24,660 --> 00:03:28,930
+Once a risk has materialized,
+you need to decide what to do with it.
+
+56
+00:03:28,930 --> 00:03:32,034
+If a risk has been eliminated and
+will not be a problem,
+
+57
+00:03:32,034 --> 00:03:34,620
+it goes into your "resolved" category.
+
+58
+00:03:34,620 --> 00:03:38,666
+If you give a team member ownership over
+a certain risk and entrust them to handle
+
+59
+00:03:38,666 --> 00:03:43,640
+it, that risk goes into the "owned" category and is monitored through to completion.
+
+60
+00:03:43,640 --> 00:03:48,310
+If the risk has been "accepted," it has been agreed that nothing will be done about it.
+
+61
+00:03:48,310 --> 00:03:52,669
+Finally, if some action has been taken
+such that the risk has been mitigated,
+
+62
+00:03:52,669 --> 00:03:55,445
+either reducing the likelihood
+of it occurring or
+
+63
+00:03:55,445 --> 00:04:00,420
+reducing the impact to the project,
+it goes into the "mitigated" category.
+
+64
+00:04:00,420 --> 00:04:04,842
+After each risk is placed into a category,
+the team will discuss each risk and
+
+65
+00:04:04,842 --> 00:04:07,950
+decide which should be prioritized.
+
+66
+00:04:07,950 --> 00:04:08,980
+Awesome.
+
+67
+00:04:08,980 --> 00:04:12,089
+Now you've learned a bit more about
+how to differentiate risks and
+
+68
+00:04:12,089 --> 00:04:16,228
+issues, as well as some new
+techniques to manage various risks.
+
+69
+00:04:16,228 --> 00:04:19,724
+Next, we'll learn about how to share
+these risks with your stakeholders and
+
+70
+00:04:19,724 --> 00:04:21,748
+a technique called escalation.
+
+71
+00:04:21,748 --> 00:04:23,198
+Sound intriguing?
+
+72
+00:04:23,198 --> 00:04:24,828
+Head to the next video to learn more.

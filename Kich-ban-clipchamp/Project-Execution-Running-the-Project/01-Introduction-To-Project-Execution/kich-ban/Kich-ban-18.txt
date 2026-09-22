@@ -1,0 +1,16 @@
+Loại thứ hai là Bắt đầu để Bắt đầu, tức Start-to-Start, S-S, Công việc B có thể bắt đầu cùng lúc hoặc ngay sau khi công việc A bắt đầu. Hai công việc này diễn ra song song với nhau. Ví dụ, Ngay khi hoạt động đào móng công trình bắt đầu, đội ngũ kỹ thuật có thể đồng thời, bắt đầu việc bơm nước chống ngập cho khu vực thi công.
+
+Loại thứ ba là Kết thúc để Kết thúc, tức Finish-to-Finish, F-F, Công việc B không thể kết thúc cho đến khi công việc A kết thúc. Ví dụ, Hoạt động giám sát thi công chỉ có thể chính thức kết thúc khi toàn bộ công trình xây dựng đã hoàn thành nghiệm thu.
+
+Loại thứ tư là Bắt đầu để Kết thúc, tức Start-to-Finish, S-F, Công việc B không thể kết thúc cho đến khi công việc A bắt đầu. Đây là mối quan hệ hiếm gặp nhất trong thực tế, thường áp dụng trong các ca trực đổi gác hoặc chuyển giao hệ thống, Ca trực cũ không thể kết thúc công việc cho đến khi nhân sự của ca trực mới đã có mặt và bắt đầu nhận bàn giao.
+
+Bên cạnh đó, các mối quan hệ phụ thuộc còn được phân loại theo tính chất, 
+Phụ thuộc bắt buộc, tức Mandatory Dependencies, Là những ràng buộc tất yếu về mặt vật lý hoặc kỹ thuật không thể đảo ngược, như phải đổ móng trước khi dựng cột.
+Phụ thuộc tùy ý, tức Discretionary Dependencies, Là những trình tự công việc được thiết lập dựa trên kinh nghiệm thực hành tối ưu của đội ngũ, nhưng hoàn toàn có thể sắp xếp lại linh hoạt nếu cần rút ngắn tiến độ.
+Phụ thuộc bên ngoài, tức External Dependencies, Ràng buộc giữa công việc của dự án với các yếu tố nằm ngoài tổ chức, ví dụ như chờ cơ quan chức năng phê duyệt giấy phép xây dựng.
+
+Để theo dõi hiệu quả các mối quan hệ phụ thuộc, hãy sử dụng biểu đồ mạng dự án, tức Network Diagram, hoặc biểu đồ Gantt để trực quan hóa các đường liên kết. Khi một nhiệm vụ đầu vào bị chậm trễ, hãy lập tức đánh giá tác động dây chuyền tới các nhiệm vụ tiếp nối để có phương án điều chỉnh kịp thời.
+
+CÁC KỸ THUẬT GIÚP QUẢN LÝ RỦI RO, TECHNIQUES TO HELP MANAGE RISKS.
+. ......
+Quản lý rủi ro không phải là một công việc dựa vào trực giác hay may rủi, mà là một quy trình khoa học được hỗ trợ bởi các công cụ và kỹ thuật đã được chuẩn hóa qua nhiều thập kỷ trong ngành quản trị dự án. Dưới đây là những kỹ thuật kinh điển và hiệu quả nhất mà bạn nên áp dụng,

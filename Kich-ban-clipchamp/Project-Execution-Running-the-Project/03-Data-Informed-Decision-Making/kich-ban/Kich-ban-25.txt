@@ -1,0 +1,15 @@
+hai. So sánh các giá trị, 
+Biểu đồ hình cột và biểu đồ thanh, tức Bar Graphs, sử dụng sự tương phản về kích thước chiều dài để so sánh hai hoặc nhiều giá trị với nhau. 
+Ví dụ, thời gian trong ngày được so sánh với mức độ động lực làm việc của một người trong suốt cả ngày làm việc. Bằng cách so sánh dữ liệu này, chúng ta có thể nhận thấy động lực của người này ở mức thấp vào đầu ngày làm việc, và ngày càng tăng cao hơn về cuối ngày. Biểu đồ thanh cũng là một cách tuyệt vời để làm rõ các xu hướng và nhận diện các quy luật.
+Thực hành tốt nhất cho biểu đồ thanh, 
+Sử dụng màu sắc nhất quán trong toàn bộ biểu đồ.
+Sử dụng các màu nhấn Accent Colors để làm nổi bật các điểm dữ liệu quan trọng hoặc các thay đổi lớn theo thời gian.
+Sử dụng các nhãn chữ nằm ngang để người xem dễ đọc nhất mà không phải nghiêng đầu.
+
+ba. Minh họa cơ cấu thành phần, 
+Bây giờ chúng ta hãy xem xét một dạng trực quan hóa rất quen thuộc, Biểu đồ hình tròn, tức Pie Chart. Biểu đồ tròn cho chúng ta thấy cơ cấu thành phần cấu thành của một tổng thể, nói cách khác, là mỗi phần nhỏ đóng góp bao nhiêu phần vào cái toàn thể một trăm phần trăm.
+Ví dụ, một biểu đồ tròn hiển thị tất cả các hoạt động cấu thành nên một ngày của một người, Một nửa ngày được dành cho công việc, điều này được thể hiện rõ bởi diện tích mà phần màu xanh lam chiếm giữ. Chỉ bằng một cái nhìn thoáng qua vào biểu đồ tròn này, bạn có thể dễ dàng nhận ra những hoạt động nào chiếm phần lớn thời gian trong ngày và những hoạt động nào chiếm ít thời gian hơn.
+Thực hành tốt nhất cho biểu đồ tròn, 
+Tránh đưa vào quá nhiều danh mục để người xem dễ dàng so sánh các lát cắt, lý tưởng nhất là dưới năm danh mục.
+Đảm bảo rằng tổng giá trị của các lát cắt cộng lại phải đúng bằng một trăm phần trăm.
+Sắp xếp thứ tự các lát cắt theo kích thước từ lớn nhất đến nhỏ nhất theo chiều kim đồng hồ.

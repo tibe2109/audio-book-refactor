@@ -1,0 +1,2581 @@
+{
+  "Kich-ban-1.txt": [
+    {
+      "lang": "vi",
+      "text": "HỌC PHẦN MỘT, GIỚI THIỆU VỀ THỰC THI DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "INTRODUCTION TO PROJECT EXECUTION.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "GIỚI THIỆU VỀ KHÓA HỌC BỐN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "INTRODUCTION TO COURSE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "BỐN, Xin chào các bạn! Nếu bạn đã đồng hành cùng chúng tôi qua các khóa học trước, bạn đã dành rất nhiều thời gian đào sâu vào những điều phức tạp và ý nghĩa to lớn của việc thiết lập một dự án vững chắc để hướng tới thành công. Giờ đây, chúng ta đã chính thức bước sang giai đoạn thực thi dự án, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Execution,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nơi mà toàn bộ những nỗ lực làm việc chăm chỉ trước đó cùng hội tụ và đơm hoa kết trái. Nếu bạn chưa kịp tham gia các khóa học trước, tôi thực lòng khuyên bạn nên dành thời gian trải nghiệm chúng để có được nền tảng vững vàng nhất. Trước khi bắt đầu, cho phép tôi được tự giới thiệu đôi nét về bản thân. Tên tôi là Elita, và tôi sẽ là người đồng hành hướng dẫn bạn xuyên suốt khóa học này. Tôi hiện đang công tác với tư cách là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Senior Engineering Program Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nơi tôi đang trực tiếp dẫn dắt đội ngũ phụ trách tính năng định tuyến và điều hướng trên ứng dụng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Maps.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi gia nhập",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "từ năm hai nghìn bảy, từng tham gia nhiều nhóm kỹ thuật khác nhau tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "New York, London",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Seattle.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đến năm hai nghìn mười ba, tôi chính thức gia nhập đội ngũ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Maps",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và đã cho ra mắt những tính năng phổ biến như hiển thị giờ làm việc ngày lễ và các thuộc tính chi tiết của doanh nghiệp, đồng thời, điều phối các đội ngũ kỹ thuật toàn cầu từ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "New York",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tới",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Sydney",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Hyderabad.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Nhìn chung, niềm đam mê lớn nhất của tôi là giải quyết các vấn đề hóc búa và không ngừng học hỏi những điều mới mẻ. Mỗi dự án và mỗi đội ngũ mới đều trao cho tôi cơ hội tuyệt vời để thực hiện cả hai điều đó. Tôi rất hào hứng được dẫn dắt bạn qua khóa học này và chỉ cho bạn thấy cách đưa một bản kế hoạch dự án bước vào đời thực. Bước đầu tiên, bạn sẽ tìm hiểu sâu hơn về các rủi ro cùng những thay đổi khó lường phát sinh trong suốt vòng đời dự án. Nếu bạn nhớ lại những bài học trước, bạn sẽ thấy rằng thay đổi là điều không thể tránh khỏi. Để ứng phó với điều đó, chúng ta đã từng đề cập đến khái niệm giảm thiểu rủi ro, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Mitigation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "trong giai đoạn lập kế hoạch. Giờ đây, chúng ta sẽ tiến thêm một bước xa hơn và thảo luận xem cần phải hành động cụ thể ra sao khi một rủi ro thực sự biến thành hiện thực.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-2.txt": [
+    {
+      "lang": "vi",
+      "text": "Tiếp theo, tôi sẽ chia sẻ về công tác theo dõi tiến độ và quản lý chất lượng dự án. Bạn sẽ học cách đo lường sát sao tiến trình phát triển của dự án, đồng thời, biết cách áp dụng các kỹ thuật cải tiến liên tục, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Continuous Improvement,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cùng các phương pháp quản lý chất lượng để giữ cho dự án luôn đi đúng quỹ đạo và vận hành êm ả. Những phương pháp thực hành tối ưu này mang lại giá trị to lớn cho hầu như mọi vị trí công việc, và tôi rất mong chờ được chia sẻ chúng cùng bạn. Một khía cạnh then chốt khác của việc điều hành dự án chính là việc ra quyết định. Bạn sẽ học cách vừa thu thập, vừa phân tích dữ liệu để đưa ra các quyết sách sáng suốt, và sau đó vận dụng chính nguồn dữ liệu đó để giải thích các khía cạnh trọng yếu của dự án cho mọi người cùng thấu hiểu. Tôi cũng sẽ cùng bạn thảo luận về nghệ thuật quản lý đội ngũ và các nguyên lý cơ bản của kỹ năng gây ảnh hưởng. Phần lớn sự thành bại của một dự án đều dựa vào tinh thần đồng đội, và bạn sẽ học được cách một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "dẫn dắt đội ngũ của mình cán đích thành công một cách xuất sắc nhất. Nhắc đến tinh thần đồng đội, tôi sẽ giới thiệu các công cụ giao tiếp hiệu quả dành cho đội ngũ cùng những mẹo thực tế để tổ chức và điều phối các buổi họp năng suất. Và cuối cùng, chúng ta sẽ khép lại khóa học bằng việc thảo luận về cách đóng dự án, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Closing a Project.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bạn sẽ nắm được các bước cần thiết để hoàn tất dự án và thấu hiểu tầm quan trọng của việc ăn mừng thành quả cùng đồng nghiệp. Nghe thật thú vị phải không nào? Sau tất cả các bước chuẩn bị lập kế hoạch, đây chính là thời khắc công việc thực tế được triển khai và mọi mảnh ghép kết nối lại với nhau. Bạn đã sẵn sàng chưa? Hẹn gặp lại bạn ở bài học tiếp theo, nơi chúng ta sẽ khám phá tầm quan trọng của việc theo dõi và đo lường tiến độ dự án. TỔNG QUAN VỀ KHÓA HỌC BỐN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "COURSE",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "BỐN",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "OVERVIEW.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chào bạn! Chào mừng bạn đến với khóa học thứ tư trong chuỗi bảy khóa học thuộc chương trình Chứng chỉ Quản trị Dự án Chuyên nghiệp của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google Project Management Certificate program.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Để bạn có được cái nhìn tổng thể về lộ trình học tập, chúng ta hãy cùng điểm lại các học phần cốt lõi.",
+      "pause_type": "emphasis"
+    }
+  ],
+  "Kich-ban-3.txt": [
+    {
+      "lang": "vi",
+      "text": "Thứ nhất là Khóa học Nền tảng Quản trị Dự án,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Foundations of Project Management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Nơi bạn tìm hiểu các nguyên lý căn bản của ngành quản lý dự án, chuẩn bị hành trang ứng tuyển vào các vị trí trong nhiều lĩnh vực ngành nghề khác nhau, khám phá các lộ trình nghề nghiệp, vai trò, kỹ năng thiết yếu của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tầm quan trọng của vòng đời dự án, các phương pháp luận quản lý dự án phổ biến cũng như tác động của cơ cấu tổ chức và văn hóa doanh nghiệp đến việc quản trị dự án. Thứ hai là Khóa học Khởi động Dự án, Bắt đầu một Dự án Thành công,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Initiation, Starting a Successful Project,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Khám phá cách chuẩn bị bệ phóng hoàn hảo cho một dự án, tìm hiểu về các bên liên quan, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Stakeholders,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mức độ ảnh hưởng của họ và cách huy động sự ủng hộ của họ, đồng thời, xác định phạm vi dự án, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scope,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mục tiêu, sản phẩm bàn giao, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Deliverables,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cùng các tiêu chí thành công cụ thể. Thứ ba là Khóa học Lập Kế hoạch Dự án, Kết nối Tất cả các Mảnh ghép,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Planning, Putting it All Together,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Khám phá cách lập sơ đồ chi tiết cho dự án trong giai đoạn thứ hai của vòng đời dự án. Nghiên cứu các thành phần cấu thành một kế hoạch dự án, cách ước lượng thời gian chính xác và cách thiết lập các cột mốc quan trọng, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Milestones.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Thứ tư là Khóa học Thực thi Dự án, Điều hành Dự án trong Thực tế,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Project Execution, Running the Project,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chính là khóa học hiện tại của chúng ta. Bạn sẽ đi sâu vào giai đoạn thực thi và kết thúc dự án. Bạn sẽ học được những khía cạnh nào của dự án cần được theo dõi và cách theo dõi chúng ra sao, cũng như cách quản lý và truyền thông hiệu quả trước các thay đổi, các mối quan hệ phụ thuộc và những rủi ro phát sinh. Thứ năm là Khóa học Quản trị Dự án Linh hoạt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Agile Project Management,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Khám phá lịch sử, cách tiếp cận và triết lý quản trị dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Agile,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bao gồm cả khung làm việc",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scrum.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tìm hiểu cách phân biệt và kết hợp linh hoạt giữa phương pháp",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Agile",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "với các phương pháp quản trị truyền thống khác, tìm hiểu các trụ cột và giá trị cốt lõi của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scrum",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và so sánh các vai trò trọng yếu trong đội ngũ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scrum.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Thứ sáu là Dự án Tốt nghiệp Thực chiến, Vận dụng Quản trị Dự án trong Thế giới Thực, Capstone,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Applying Project Management in the Real World,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Phát triển một bộ hồ sơ năng lực chuyên nghiệp chứa các sản phẩm dự án thực tế để minh chứng cho các kỹ năng bạn đã tích lũy trong toàn bộ chương trình, chẳng hạn như năng lực quản lý các bên liên quan, lãnh đạo đội ngũ, tổ chức kế hoạch và giao tiếp hiệu quả.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-4.txt": [
+    {
+      "lang": "vi",
+      "text": "Và cuối cùng là Khóa học Tăng tốc Tìm kiếm Việc làm với Trí tuệ Nhân tạo,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Accelerate Your Job Search with AI,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Thu thập các chiến lược tìm việc thực tế và học cách vận dụng các công cụ trí tuệ nhân tạo như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gemini",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "NotebookLM",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "để khai mở những kỹ năng giá trị nhất của bản thân, lập kế hoạch tìm việc, quản lý hồ sơ ứng tuyển và luyện tập phỏng vấn một cách tự tin. Trong khóa học này, chúng ta sẽ tập trung cao độ vào hai giai đoạn, thực thi và đóng dự án. Bạn sẽ biết rõ những gì cần theo dõi và cách thức theo dõi chúng. Bạn sẽ học cách làm chủ các biến động, giải quyết sự phụ thuộc giữa các đầu việc và chế ngự rủi ro. Khi đi sâu vào mảng quản trị chất lượng, bạn sẽ nắm được phương pháp đo lường mức độ hài lòng của khách hàng và triển khai các kỹ thuật cải tiến quy trình liên tục. Tiếp theo, bạn sẽ rèn luyện kỹ năng ưu tiên dữ liệu, biết cách dùng số liệu thực tế để định hướng cho các quyết định của mình và trình bày những dữ liệu đó một cách thuyết phục nhất trước các bên liên quan. Sau đó, năng lực lãnh đạo của bạn sẽ được củng cố khi chúng ta cùng nghiên cứu các giai đoạn phát triển của một đội ngũ và cách thức làm chủ động lực nhóm. Bạn cũng sẽ khám phá các công cụ hỗ trợ giao tiếp hiệu quả, nghệ thuật tổ chức các cuộc họp bài bản và cách cập nhật trạng thái dự án minh bạch. Cuối cùng, bạn sẽ cùng tôi trải qua từng bước của quy trình kết thúc dự án và học cách lập báo cáo tổng kết chuyên nghiệp. Các chuyên gia quản lý dự án giàu kinh nghiệm tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "sẽ tiếp tục đồng hành và mang đến cho bạn những phương pháp tiếp cận thực chiến nhất, đồng thời, giới thiệu những công cụ và nguồn tài nguyên đắc lực nhất cho công việc. Nếu bạn là người mới bước vào chương trình, xin nồng nhiệt chào đón bạn! Chúng tôi đã thiết kế chương trình này một cách tỉ mỉ để giúp mọi học viên, dù xuất phát điểm ra sao, đều có thể hoàn thành xuất sắc chứng chỉ và sẵn sàng tự tin bước vào nghề quản trị dự án mà không đòi hỏi bất kỳ kinh nghiệm nào từ trước. Theo số liệu từ Viện Quản trị Dự án Quốc tế, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Management Institute,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "lực lượng lao động trong ngành quản trị dự án tại bảy lĩnh vực kinh tế trọng điểm dự kiến sẽ tăng trưởng ba mươi ba phần trăm, tạo ra gần hai mươi hai triệu việc làm mới vào năm hai nghìn hai mươi bảy. Chúng tôi vô cùng phấn khởi được đồng hành cùng bạn trên hành trình chinh phục một trong những ngành nghề có nhu cầu tuyển dụng cao nhất hiện nay.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-5.txt": [
+    {
+      "lang": "vi",
+      "text": "Khóa học bốn bao gồm sáu học phần nội dung phong phú. Mỗi học phần sẽ mang đến cho bạn nhiều cơ hội học tập tương tác, các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "bài giảng do chính nhân viên",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "trực tiếp hướng dẫn, các bài đọc chuyên sâu để giới thiệu khái niệm mới và các tình huống thực tế, các câu hỏi tương tác trong",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "để bạn tự kiểm tra kiến thức tức thì, cùng các bài tập thực hành áp dụng kiến thức vào thực tế. Mỗi người trong chúng ta đều có tốc độ tiếp thu khác nhau, vì vậy, chương trình được thiết kế linh hoạt để bạn có thể học tập theo nhịp độ riêng của mình. Hãy nhớ rằng các mốc thời gian gợi ý chỉ mang tính chất định hướng, bạn hoàn toàn có thể chủ động sắp xếp thời gian biểu sao cho phù hợp nhất với cuộc sống của bản thân. Để gặt hái kết quả tốt nhất, chúng tôi khuyên bạn nên theo dõi các bài học theo đúng trình tự, tận dụng tối đa các bài đọc và tài liệu tham khảo bổ trợ, và đừng ngần ngại xem lại các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "nếu có điểm nào chưa hoàn toàn thấu suốt. Xin chúc mừng bạn đã bước những bước đi vững chắc đầu tiên vào thế giới quản trị dự án đầy triển vọng! CÁC NGUỒN TÀI LIỆU HỮU ÍCH ĐỂ BẮT ĐẦU,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "HELPFUL RESOURCES TO GET STARTED.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Khóa học Quản trị Dự án của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "sẽ mang đến cho bạn nhiều bài học bổ ích trong mỗi học phần. Như bạn đã biết, mỗi bài học bao gồm chuỗi các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bài đọc, hoạt động thực hành, câu hỏi ôn tập và các bài kiểm tra được chấm điểm. Trong bài đọc này, bạn sẽ tìm hiểu cách đóng góp ý kiến phản hồi về nội dung khóa học, điều kiện để nhận chứng chỉ chính thức, cũng như các thói quen học tập hữu ích giúp bạn hoàn thành chương trình một cách xuất sắc nhất. Trước hết, về việc đóng góp phản hồi nội dung, Chúng tôi luôn mong muốn lắng nghe ý kiến của bạn về các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bài đọc và tài liệu học tập. Bất cứ khi nào học tập, bạn đều có thể nhấn vào biểu tượng thích hoặc không thích để bày tỏ cảm nhận, hoặc nhấn vào biểu tượng lá cờ để báo cáo các vấn đề kỹ thuật cụ thể. Những phản hồi quý giá này sẽ được chuyển trực tiếp tới đội ngũ phát triển chương trình để liên tục nâng cấp chất lượng khóa học ngày càng hoàn thiện hơn. Về điều kiện nhận Chứng chỉ Quản trị Dự án của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Để nhận được chứng chỉ chính thức, bạn cần vượt qua toàn bộ các bài tập được chấm điểm trong cả sáu khóa học của chương trình chứng chỉ với điểm số đạt từ tám mươi phần trăm trở lên cho mỗi khóa học, đồng thời, hoàn thành các thủ tục học phí hoặc nhận học bổng hỗ trợ theo quy định của nền tảng.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-6.txt": [
+    {
+      "lang": "vi",
+      "text": "Về những thói quen học tập giúp bạn thành công, Các chuyên gia thiết kế khóa học đã đúc kết một số thói quen học tập then chốt mà bạn nên áp dụng, Thứ nhất là lập kế hoạch quản lý thời gian, Việc thiết lập các khung giờ học tập cố định và duy trì đều đặn mỗi tuần sẽ biến việc học thành một phần tự nhiên trong thói quen sinh hoạt của bạn. Hãy sử dụng lịch làm việc hoặc thời gian biểu cá nhân để phân chia công việc thành các mục tiêu nhỏ có thể đạt được mỗi ngày, đồng thời, tạo cho mình một không gian học tập yên tĩnh để có thể tập trung tối đa. Thứ hai là nuôi dưỡng tinh thần tò mò học hỏi, Nếu bạn bắt gặp một ý tưởng khiến bạn cảm thấy hứng thú, hãy lập tức hành động. Hãy đặt câu hỏi, tìm kiếm thêm thông tin trên",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "internet,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "ghi chép lại những phát hiện mới mẻ. Những việc làm nhỏ bé nhưng kiên trì ấy sẽ giúp vốn tri thức của bạn ngày càng mở rộng và mở ra nhiều cánh cửa cơ hội nghề nghiệp trong tương lai. Thứ ba là chăm chỉ ghi chép, Ghi chép là phương pháp hữu hiệu nhất để lưu giữ những thông tin quan trọng mà bạn có thể cần dùng đến sau này khi đi làm thực tế. Đây cũng là cách tuyệt vời để kết nối các chủ đề kiến thức lại với nhau và giúp bạn hiểu sâu sắc bản chất của vấn đề. Thứ tư là xây dựng bản sắc nghề nghiệp cá nhân, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Career Identity,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Bản sắc nghề nghiệp chính là giá trị độc đáo và riêng biệt mà bạn mang lại cho tổ chức. Việc thấu hiểu và định hình rõ bản sắc nghề nghiệp sẽ giúp bạn tự tin lựa chọn con đường sự nghiệp phù hợp với thế mạnh, hệ giá trị và mục tiêu của bản thân. Thứ năm là tích cực kết nối với cộng đồng học viên, Nếu bạn gặp phải một vướng mắc nào đó, rất có thể những người khác cũng đang có cùng băn khoăn. Hãy tham gia vào cộng đồng học viên để mở rộng mạng lưới quan hệ, cùng nhau thảo luận và chia sẻ kinh nghiệm học tập. Bên cạnh đó, bạn cũng nên chủ động tìm hiểu thêm các nguồn tài nguyên trực tuyến uy tín về quản trị dự án, tiêu biểu như Viện Quản trị Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "P-M-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nơi cung cấp các bộ tiêu chuẩn ngành nghề, các biểu mẫu tài liệu và hướng dẫn chuyên môn hàng đầu thế giới, hoặc tài liệu hướng dẫn",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scrum Guide",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "từ tổ chức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scrum.org",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "để nắm vững các quy tắc vận hành linh hoạt trong quản lý dự án hiện đại. Bạn cũng sẽ được làm quen và thực hành trên nhiều biểu mẫu tài liệu kỹ thuật số, bảng tính và bản trình chiếu thực tế mà các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "chuyên nghiệp vẫn sử dụng hàng ngày để điều hành công việc. TẦM QUAN TRỌNG CỦA VIỆC THEO DÕI DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "THE IMPORTANCE OF TRACKING.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-7.txt": [
+    {
+      "lang": "vi",
+      "text": "Chào mừng bạn quay trở lại! Trong các học phần trước, chúng ta đã thảo luận kỹ lưỡng về việc lập kế hoạch dự án. Khi kế hoạch đã được thiết lập và công việc thực thi chính thức bắt đầu, trách nhiệm của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là phải theo dõi sát sao tiến độ để đảm bảo mọi việc diễn ra đúng như dự tính. Vậy việc theo dõi, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Tracking,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "thực chất mang lại những ý nghĩa sống còn nào? Theo dõi dự án là quá trình liên tục giám sát, thu thập và ghi nhận các thông tin về tiến trình thực hiện công việc so với kế hoạch cơ sở đã được phê duyệt. Lý do đầu tiên và quan trọng nhất khiến chúng ta phải theo dõi dự án là để phát hiện sớm các nguy cơ đi chệch hướng. Trong thực tế, không có dự án nào diễn ra hoàn toàn hoàn hảo từ đầu đến cuối mà không gặp bất kỳ trở ngại nào. Một thành viên trong nhóm có thể bị ốm, một nhà cung ứng có thể giao hàng chậm trễ, hoặc một tính năng kỹ thuật có thể đòi hỏi nhiều thời gian xử lý hơn so với ước lượng ban đầu. Nếu bạn không theo dõi sát sao từng ngày, những chậm trễ nhỏ bé ban đầu sẽ nhanh chóng tích tụ thành những sự chậm trễ khổng lồ và đẩy dự án vào nguy cơ vỡ tiến độ hoặc vượt ngân sách nghiêm trọng. Lý do thứ hai là để duy trì trách nhiệm và sự minh bạch trong toàn đội ngũ. Khi mọi người biết rõ công việc nào đang được theo dõi, ai là người chịu trách nhiệm chính và tiến độ hiện tại đang ở mức nào, tinh thần tự giác và sự phối hợp giữa các thành viên sẽ được nâng cao rõ rệt. Việc theo dõi cũng giúp loại bỏ những phỏng đoán mơ hồ và thay thế bằng những dữ liệu thực tế đáng tin cậy. Lý do thứ ba là để cung cấp thông tin minh bạch, kịp thời cho các bên liên quan. Các nhà tài trợ dự án, khách hàng và cấp quản lý cấp cao luôn muốn biết dự án đang tiến triển ra sao, ngân sách đã chi tiêu bao nhiêu và liệu sản phẩm có thể ra mắt đúng thời hạn hay không. Nhờ có quy trình theo dõi bài bản, bạn sẽ luôn nắm trong tay những số liệu chuẩn xác để báo cáo một cách tự tin và chuyên nghiệp. Và cuối cùng, việc theo dõi giúp bạn đưa ra những điều chỉnh kịp thời. Khi phát hiện một công việc đang bị nghẽn lại, bạn có thể ngay lập tức can thiệp, điều chuyển thêm nhân sự hỗ trợ, thương lượng lại phạm vi công việc, hoặc tìm kiếm một giải pháp kỹ thuật thay thế. Theo dõi không phải là để săm soi hay bắt lỗi đội ngũ, mà là chiếc la bàn giúp người thuyền trưởng nhận biết sớm những cơn sóng ngầm để điều khiển con tàu dự án vượt qua bão tố an toàn. CÁC HẠNG MỤC PHỔ BIẾN CẦN THEO DÕI,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "COMMON ITEMS TO TRACK.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-8.txt": [
+    {
+      "lang": "vi",
+      "text": "Khi nói đến việc theo dõi dự án, câu hỏi đặt ra là, Cụ thể chúng ta cần phải theo dõi những yếu tố nào? Là một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bạn không thể và cũng không nên cố gắng theo dõi tất cả mọi chi tiết vụn vặt, bởi điều đó sẽ biến bạn thành một người quản lý vi mô, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Micromanager,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "gây ức chế cho đội ngũ và làm lãng phí thời gian quý báu. Thay vào đó, bạn cần tập trung vào các hạng mục cốt lõi nhất sau đây, Thứ nhất là nhiệm vụ và các cột mốc, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Tasks and Milestones,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Bạn cần theo dõi tiến độ hoàn thành của từng nhiệm vụ cụ thể và đặc biệt chú ý đến các cột mốc quan trọng. Một cột mốc đánh dấu sự hoàn thành của một giai đoạn hay một sản phẩm bàn giao then chốt. Việc theo dõi sát các cột mốc giúp bạn biết được liệu dự án có đang bám sát lộ trình tổng thể hay không. Thứ hai là tiến độ thời gian và thời hạn chót, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Schedule and Deadlines,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Bạn cần nắm rõ ngày bắt đầu thực tế, ngày hoàn thành dự kiến của từng công việc, và so sánh chúng với kế hoạch cơ sở ban đầu. Việc này giúp bạn sớm phát hiện các dấu hiệu chậm trễ trước khi chúng kịp tác động tiêu cực đến thời hạn phát hành chung của toàn bộ dự án. Thứ ba là chi phí và ngân sách, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Costs and Budget,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Bạn cần liên tục kiểm soát các khoản chi tiêu thực tế so với định mức ngân sách đã được cấp. Hãy theo dõi các chi phí nhân công, chi phí mua sắm thiết bị, phần mềm và dịch vụ từ các nhà thầu bên ngoài để đảm bảo dự án không rơi vào tình trạng bội chi tài chính. Thứ tư là chất lượng sản phẩm, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Quality,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Việc hoàn thành công việc đúng hạn và trong phạm vi ngân sách sẽ trở nên vô nghĩa nếu sản phẩm bàn giao không đạt các tiêu chuẩn chất lượng đã cam kết. Do đó, bạn cần theo dõi các chỉ số chất lượng, kết quả kiểm thử, số lượng lỗi phát sinh và mức độ hài lòng của người dùng thử nghiệm. Thứ năm là rủi ro và các vấn đề phát sinh, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risks and Issues,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Rủi ro là những điều có thể xảy ra trong tương lai, còn vấn đề là những trục trặc đang diễn ra ngay trong hiện tại. Bạn cần liên tục cập nhật nhật ký rủi ro để biết được tình trạng của từng mối đe dọa, hiệu quả của các biện pháp giảm thiểu, cũng như tiến trình xử lý các sự cố đang phát sinh. Bằng cách theo dõi đều đặn năm hạng mục cốt lõi này, bạn sẽ luôn nắm giữ bức tranh toàn cảnh về sức khỏe của dự án và sẵn sàng đưa ra các quyết sách điều chỉnh kịp thời. CÁC PHƯƠNG PHÁP THEO DÕI KHÁC NHAU,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "DIFFERENT TRACKING METHODS.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-9.txt": [
+    {
+      "lang": "vi",
+      "text": "Để theo dõi hiệu quả năm hạng mục cốt lõi kể trên, người quản lý dự án có thể lựa chọn nhiều phương pháp và công cụ khác nhau tùy thuộc vào quy mô, tính chất của dự án và văn hóa làm việc của tổ chức. Dưới đây là những phương pháp theo dõi phổ biến và mang lại hiệu quả cao nhất, Phương pháp thứ nhất là sử dụng Biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt Charts,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là một dạng đồ thị trực quan biểu diễn lịch trình dự án theo trục thời gian nằm ngang. Mỗi thanh ngang đại diện cho một nhiệm vụ, với độ dài biểu thị khoảng thời gian cần thiết để hoàn thành. Biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đặc biệt xuất sắc trong việc thể hiện các mối quan hệ phụ thuộc giữa các công việc, ví dụ như công việc",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "B",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "chỉ có thể bắt đầu sau khi công việc A đã hoàn tất. Nhờ đó, bạn và đội ngũ có thể dễ dàng nhận ra đường găng của dự án, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Critical Path,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và thấy rõ việc chậm trễ ở một nhiệm vụ nào đó sẽ kéo lùi toàn bộ lịch trình chung ra sao. Phương pháp thứ hai là Bảng trực quan Kanban, tức Kanban",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Boards,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là phương pháp theo dõi trực quan rất được ưa chuộng trong các dự án linh hoạt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Agile.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bảng Kanban thường được chia thành các cột trạng thái cơ bản như, Cần làm, To Do, Đang làm,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "In Progress,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và Đã hoàn thành,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Done.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Các công việc được thể hiện dưới dạng các thẻ ghi chú và di chuyển từ trái sang phải qua các cột khi tiến độ thay đổi. Bảng Kanban giúp toàn đội ngũ nhìn thấy ngay khối lượng công việc đang được xử lý đồng thời, từ đó hạn chế tình trạng quá tải và phát hiện nhanh các điểm nghẽn trong quy trình làm việc. Phương pháp thứ ba là Bảng điều khiển dự án, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Dashboards,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Bảng điều khiển là một trang tổng quan hiển thị các chỉ số hiệu suất chính, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "K-P-I,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "và các dữ liệu quan trọng nhất của dự án dưới dạng đồ thị, biểu đồ tròn và hệ thống mã màu cảnh báo. Một bảng điều khiển tốt sẽ giúp các bên liên quan và cấp quản lý nắm bắt được tình trạng sức khỏe tổng thể của dự án chỉ trong vài giây lướt nhìn. Phương pháp thứ tư là Bảng tính điện tử, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Spreadsheets,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Các công cụ như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Trang tính hay",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Microsoft Excel",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "vẫn luôn là giải pháp theo dõi vô cùng linh hoạt và mạnh mẽ, đặc biệt là đối với các dự án vừa và nhỏ hoặc khi theo dõi ngân sách chi tiết. Bạn có thể dễ dàng tùy biến các cột thông tin, lập công thức tính toán tự động và chia sẻ quyền truy cập cho toàn bộ đội ngũ.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-10.txt": [
+    {
+      "lang": "vi",
+      "text": "Phương pháp thứ năm là Các cuộc họp cập nhật trạng thái định kỳ, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Status Meetings,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Dù các công cụ số có hiện đại đến đâu, việc trao đổi trực tiếp giữa con người với con người vẫn luôn đóng vai trò không thể thay thế. Các buổi họp nhanh hàng ngày, như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Daily Standup",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "trong",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scrum",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "kéo dài mười lăm phút, hoặc các cuộc họp cập nhật tiến độ hàng tuần là cơ hội tuyệt vời để các thành viên chia sẻ những gì mình đã làm, những việc sắp làm và những khó khăn đang cần sự hỗ trợ.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "BELINDA,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "THEO DÕI VÀ QUẢN LÝ NGÂN SÁCH DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "BELINDA, TRACKING AND MANAGING A BUDGET.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chào các bạn, tôi là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Belinda.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hôm nay tôi muốn chia sẻ với các bạn một câu chuyện thực tế từ trải nghiệm làm việc của chính tôi tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "về cách theo dõi và quản lý ngân sách dự án sao cho hiệu quả. Khi mới bắt đầu sự nghiệp quản lý dự án, tôi từng nghĩ rằng việc quản lý ngân sách chỉ đơn giản là lập ra một bảng tính, ghi lại số tiền được cấp và sau đó ghi trừ dần các hóa đơn thanh toán khi chúng xuất hiện. Nhưng thực tế đã dạy cho tôi một bài học sâu sắc hơn rất nhiều, Quản lý ngân sách là một hoạt động theo dõi mang tính chủ động và liên tục, chứ tuyệt đối không phải là một công việc kế toán ghi sổ thụ động. Trong một dự án quy mô lớn mà tôi từng dẫn dắt, chúng tôi phải phối hợp với nhiều đối tác cung cấp dịch vụ công nghệ bên ngoài. Ban đầu, mọi thứ diễn ra rất thuận lợi và các khoản chi đều nằm trong tầm kiểm soát. Thế nhưng, khi dự án bước sang giai đoạn cao điểm, một đối tác kỹ thuật thông báo rằng họ cần bổ sung thêm chuyên gia tư vấn cao cấp để xử lý một lỗ hổng bảo mật phức tạp ngoài dự kiến. Chi phí phát sinh này đe dọa làm thổi bay toàn bộ khoản dự phòng tài chính của chúng tôi. Lúc đó, điều đã cứu nguy cho dự án chính là thói quen theo dõi sát sao chênh lệch ngân sách, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Variance Analysis,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "mà tôi duy trì hàng tuần. Nhờ liên tục đối chiếu chi phí thực tế với ngân sách dự kiến, tôi nhận thấy có một số hạng mục mua sắm phần cứng đã được đàm phán giảm giá thành công ở giai đoạn trước, giúp chúng tôi dôi dư ra một khoản tiền tiết kiệm đáng kể. Tôi đã ngay lập tức lập phương án tái phân bổ nguồn ngân sách tiết kiệm đó để bù đắp cho chi phí bảo mật phát sinh mà không cần phải xin cấp thêm ngân sách từ ban lãnh đạo cấp cao.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-11.txt": [
+    {
+      "lang": "vi",
+      "text": "Bài học rút ra ở đây là gì? Thứ nhất, bạn phải luôn theo dõi ngân sách theo thời gian thực và đừng bao giờ đợi đến cuối tháng mới kiểm tra các con số. Thứ hai, luôn xây dựng một khoản dự phòng rủi ro tài chính, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Contingency Reserve,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "trong ngân sách ban đầu. Và thứ ba, hãy luôn duy trì mối quan hệ giao tiếp cởi mở và minh bạch với các đối tác cũng như bộ phận tài chính. Khi bạn nắm vững từng đồng chi phí, bạn sẽ luôn làm chủ được tình thế và bảo vệ dự án của mình cập bến an toàn. LỰA CHỌN PHƯƠNG PHÁP THEO DÕI PHÙ HỢP CHO DỰ ÁN CỦA BẠN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "CHOOSE THE RIGHT TRACKING METHOD FOR YOUR PROJECT.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Không có một phương pháp hay công cụ theo dõi duy nhất nào là hoàn hảo cho mọi trường hợp. Một công cụ theo dõi cực kỳ hiệu quả đối với một nhóm kỹ sư phần mềm có thể lại trở nên rườm rà và không phù hợp với một dự án tổ chức sự kiện cộng đồng. Do đó, kỹ năng quan trọng của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là biết cách đánh giá và lựa chọn phương pháp theo dõi tối ưu nhất cho dự án cụ thể của mình. Để đưa ra quyết định đúng đắn, bạn cần cân nhắc các yếu tố then chốt sau, Yếu tố thứ nhất là Quy mô và độ phức tạp của dự án, Với những dự án nhỏ, có thời gian thực hiện ngắn và ít thành viên tham gia, một bảng tính đơn giản hoặc một bảng Kanban trực quan có thể đã hoàn toàn đủ đáp ứng nhu cầu. Ngược lại, với những dự án lớn kéo dài nhiều tháng, liên quan đến hàng chục phòng ban và hàng trăm đầu việc phụ thuộc lẫn nhau, bạn chắc chắn sẽ cần đến các công cụ quản lý dự án chuyên sâu hỗ trợ biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và khả năng tự động tính toán đường găng như Asana,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Jira hay Microsoft Project.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Yếu tố thứ hai là Phương pháp luận mà dự án đang áp dụng, Nếu dự án của bạn vận hành theo phương pháp truyền thống",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Waterfall,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nơi các giai đoạn nối tiếp nhau tuần tự, thì biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và các cột mốc cố định sẽ là lựa chọn tự nhiên nhất. Nhưng nếu bạn đang làm việc trong môi trường linh hoạt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Agile",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scrum,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nơi yêu cầu thay đổi liên tục theo từng chu kỳ ngắn hạn, thì bảng Kanban cùng các buổi họp",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Standup",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "ngắn hàng ngày sẽ phát huy tối đa hiệu quả.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-12.txt": [
+    {
+      "lang": "vi",
+      "text": "Yếu tố thứ ba là Nhu cầu và sở thích của các bên liên quan, Hãy tìm hiểu xem các nhà tài trợ dự án và khách hàng của bạn thích nhận thông tin theo hình thức nào. Một số nhà quản lý cấp cao chỉ muốn nhìn vào một bảng điều khiển tóm tắt với các chỉ số đèn tín hiệu xanh, vàng, đỏ, trong khi các quản lý kỹ thuật lại muốn xem các báo cáo chi tiết về từng lỗi phát sinh và tiến độ phân bổ tài nguyên. Việc điều chỉnh phương thức theo dõi phù hợp với đối tượng tiếp nhận sẽ giúp thông tin được truyền tải hiệu quả nhất. Yếu tố thứ tư là Sự quen thuộc và khả năng tiếp cận công cụ của đội ngũ, Việc áp dụng một phần mềm quản lý dự án mới toanh có thể mang lại nhiều tính năng hiện đại, nhưng nếu đội ngũ của bạn phải mất hàng tuần lễ để làm quen và cảm thấy phức tạp khi cập nhật dữ liệu, thì công cụ đó sẽ phản tác dụng. Hãy ưu tiên những công cụ mà đội ngũ cảm thấy dễ sử dụng, thuận tiện và có thể tích hợp mượt mà vào thói quen làm việc hàng ngày của họ. Bằng cách cân nhắc kỹ lưỡng bốn yếu tố trên, bạn sẽ thiết lập được một hệ thống theo dõi vừa vặn, tinh gọn và mang lại giá trị thiết thực nhất cho toàn bộ dự án.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "en",
+      "text": "PRANJAL,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "QUẢN LÝ NHIỀU LUỒNG CÔNG VIỆC SONG SONG,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "PRANJAL, MANAGING MULTIPLE TRACKS.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chào các bạn, tôi tên là",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Pranjal.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong vai trò quản lý dự án tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "một trong những thách thức thường xuyên và thú vị nhất mà tôi phải đối mặt chính là việc điều phối và quản lý đồng thời, nhiều luồng công việc song song, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Multiple Tracks.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hôm nay, tôi rất vui được chia sẻ cùng các bạn một vài kinh nghiệm thực chiến về vấn đề này. Trong các dự án phát triển sản phẩm công nghệ quy mô lớn, hiếm khi nào công việc diễn ra theo một đường thẳng tắp. Thay vào đó, bạn sẽ thường xuyên chứng kiến đội ngũ thiết kế giao diện đang làm việc cùng lúc với đội ngũ lập trình viên phụ trách hệ thống máy chủ, trong khi nhóm chuyên viên dữ liệu đang xây dựng thuật toán và bộ phận tiếp thị đang chuẩn bị chiến dịch ra mắt. Mỗi luồng công việc đều có tiến độ riêng, các ưu tiên riêng và những thách thức kỹ thuật hoàn toàn khác nhau. Vậy làm thế nào để bạn, với tư cách là người điều phối tổng thể, không bị choáng ngợp và giữ cho tất cả các bánh xe cùng quay nhịp nhàng?.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-13.txt": [
+    {
+      "lang": "vi",
+      "text": "Bí quyết đầu tiên của tôi là xác định rõ các điểm giao cắt và phụ thuộc then chốt giữa các luồng công việc, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Key Dependencies.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Ví dụ, đội ngũ giao diện người dùng không thể hoàn thiện thiết kế nếu chưa nhận được quy chuẩn dữ liệu từ đội ngũ kỹ thuật máy chủ. Bằng cách vẽ ra sơ đồ liên kết giữa các luồng công việc ngay từ đầu, tôi luôn biết trước mắt xích nào đang là yếu tố quyết định tốc độ của toàn bộ hệ thống. Bí quyết thứ hai là thiết lập một nhịp điệu đồng bộ chung, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Sync Cadence.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Thay vì tổ chức hàng chục cuộc họp riêng lẻ gây phân mảnh thời gian, tôi duy trì một cuộc họp đồng bộ ngắn vào đầu tuần với đại diện trưởng nhóm của từng luồng công việc. Trong buổi họp này, mỗi người chỉ tập trung trả lời ba câu hỏi, Luồng công việc của bạn có đang đúng tiến độ không? Có rào cản nào đang cản trở bạn không? Và bạn có đang cần sự hỗ trợ nào từ các luồng công việc khác hay không? Và bí quyết thứ ba là sử dụng một nguồn thông tin duy nhất đáng tin cậy, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Single Source of Truth.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Chúng tôi sử dụng một bảng điều khiển trực quan chung nơi trạng thái của mọi luồng công việc đều được cập nhật công khai. Khi mọi người cùng nhìn vào một bức tranh chung, sự thấu hiểu và tinh thần tương trợ lẫn nhau giữa các nhóm chức năng sẽ tự động được củng cố mạnh mẽ. BÁO CÁO TRẠNG THÁI DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "PROJECT STATUS REPORTS.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một trong những công cụ giao tiếp và theo dõi quan trọng bậc nhất trong tay người quản lý dự án chính là Báo cáo trạng thái dự án, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Status Report.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là tài liệu định kỳ tóm lược toàn bộ tình hình hoạt động của dự án nhằm cung cấp cho các bên liên quan cái nhìn minh bạch, chuẩn xác và kịp thời về tiến độ thực hiện công việc. Mục đích cốt lõi của một bản báo cáo trạng thái không chỉ đơn thuần là liệt kê những việc đã làm, mà quan trọng hơn, nó tạo ra sự liên kết chặt chẽ giữa đội ngũ thực thi và các bên liên quan, duy trì trách nhiệm giải trình và giúp nhận diện sớm các nguy cơ tiềm ẩn để kịp thời tháo gỡ. Một bản báo cáo trạng thái dự án chuẩn mực và chuyên nghiệp thường bao gồm các thành phần trọng yếu sau, Thứ nhất là Tóm tắt điều hành, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Executive Summary,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là phần cô đọng nhất nằm ngay đầu báo cáo, tóm lược tình trạng tổng thể của dự án trong một vài câu ngắn gọn. Các nhà lãnh đạo bận rộn thường chỉ có vài phút để nắm bắt thông tin, do đó, phần tóm tắt này cần nêu bật được thông điệp cốt lõi nhất, Dự án đang diễn tiến ra sao và có vấn đề nào cần cấp trên can thiệp hay không.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-14.txt": [
+    {
+      "lang": "vi",
+      "text": "Thứ hai là Đèn tín hiệu trạng thái, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-Y-G Status Indicator,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Sử dụng hệ thống màu sắc trực quan đỏ, vàng, xanh lá cây để phản ánh nhanh tình trạng sức khỏe của từng khía cạnh dự án, Màu xanh lá cây,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Green,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nghĩa là mọi việc đang hoàn toàn đúng kế hoạch, tiến độ, ngân sách và phạm vi đều nằm trong tầm kiểm soát. Màu vàng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Yellow,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "cảnh báo rằng đang có một số khó khăn hoặc chậm trễ phát sinh có nguy cơ ảnh hưởng đến dự án nếu không được xử lý kịp thời. Màu đỏ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Red,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "báo hiệu tình trạng báo động nghiêm trọng, dự án đã bị trễ hạn, vượt ngân sách hoặc gặp phải trở ngại lớn đòi hỏi sự hỗ trợ giải quyết khẩn cấp từ các bên liên quan cấp cao. Thứ ba là Các cột mốc đã hoàn thành, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Milestones Achieved,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Liệt kê rõ ràng những thành tựu và đầu việc quan trọng mà đội ngũ đã hoàn thành xuất sắc trong kỳ báo cáo vừa qua. Điều này giúp ghi nhận nỗ lực của tập thể và tạo dựng niềm tin vững chắc cho khách hàng và nhà tài trợ. Thứ tư là Các nhiệm vụ trọng tâm sắp tới, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Next Steps,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Nêu rõ các mục tiêu và công việc chính mà đội ngũ sẽ tập trung triển khai trong kỳ báo cáo tiếp theo, giúp các bên liên quan biết trước những gì sắp diễn ra. Và thứ năm là Các rủi ro và trở ngại cần hỗ trợ, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Blockers and Risks,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Trình bày thẳng thắn những khó khăn đang cản trở tiến độ, các rủi ro tiềm ẩn đang theo dõi và nêu rõ yêu cầu hỗ trợ cụ thể nếu cần sự can thiệp từ phía các bên liên quan. Một báo cáo trạng thái xuất sắc cần đảm bảo tính ngắn gọn, chính xác, trung thực và luôn tập trung vào các thông tin hữu ích có thể dẫn tới hành động thực tế. HOẠT ĐỘNG MẪU, XÂY DỰNG VÀ DIỄN GIẢI BÁO CÁO TRẠNG THÁI DỰ ÁN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "ACTIVITY EXEMPLAR, BUILD AND EXPLAIN A PROJECT STATUS REPORT.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Để giúp bạn hình dung rõ ràng cách xây dựng một bản báo cáo trạng thái trong thực tế, chúng ta hãy cùng phân tích một ví dụ cụ thể áp dụng cho dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại công ty",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Office Green,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "một dự án quen thuộc mà chúng ta đã cùng theo dõi từ các khóa học trước. Bối cảnh, Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đang bước vào tuần thứ tám của giai đoạn thực thi. Mục tiêu tổng thể là xây dựng trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thương mại điện tử và chuẩn bị chuỗi cung ứng cây cảnh văn phòng để ra mắt vào cuối quý này. Dưới đây là cấu trúc của bản báo cáo trạng thái tuần mà người quản lý dự án đã thiết lập, Tiêu đề, Báo cáo Trạng thái Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "- Tuần thứ tám. Người lập báo cáo, Quản lý Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Lead Project Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đối tượng tiếp nhận, Ban chỉ đạo dự án và các bên liên quan chủ chốt.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-15.txt": [
+    {
+      "lang": "vi",
+      "text": "Phần thứ nhất, Tóm tắt tổng quan và Đèn tín hiệu trạng thái",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-Y-G,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Trạng thái tổng thể toàn dự án, Màu vàng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Yellow.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tiến độ lịch trình, Màu vàng,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Yellow.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tình hình ngân sách, Màu xanh lá cây,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Green.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Phạm vi công việc, Màu xanh lá cây,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Green.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Đánh giá chất lượng, Màu xanh lá cây,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Green.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tóm tắt điều hành, Tiến độ chung của dự án hiện đang được đánh dấu màu vàng do phát sinh một sự chậm trễ nhỏ trong việc tích hợp cổng thanh toán trực tuyến trên trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tuy nhiên, các hạng mục thu mua cây trồng và thiết kế bao bì đóng gói vẫn đang diễn ra hoàn toàn đúng tiến độ và ngân sách chi tiêu hiện tại vẫn tiết kiệm được năm phần trăm so với dự toán ban đầu. Phần thứ hai, Các cột mốc quan trọng đã hoàn thành trong tuần này, Đã hoàn tất một trăm phần trăm thiết kế giao diện trang chủ và trang chi tiết sản phẩm. Đã ký kết hợp đồng cung ứng chính thức với hai vườn ươm địa phương đáp ứng đầy đủ tiêu chuẩn chất lượng. Đã hoàn thành đợt thử nghiệm người dùng đầu tiên với hai mươi khách hàng nội bộ và thu được phản hồi rất tích cực. Phần thứ ba, Các nhiệm vụ trọng tâm trong tuần tới, Đội ngũ kỹ thuật tập trung xử lý dứt điểm phần tích hợp",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "API",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cổng thanh toán với đối tác ngân hàng. Bắt đầu tiến hành chụp ảnh sản phẩm thực tế để đưa lên hệ thống cơ sở dữ liệu trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Hoàn thiện tài liệu hướng dẫn chăm sóc cây dành riêng cho khách hàng văn phòng. Phần thứ tư, Các trở ngại và đề xuất hỗ trợ, Trở ngại chính, Đơn vị cung cấp giải pháp cổng thanh toán đang phản hồi chậm hơn thỏa thuận về việc cấp khóa xác thực bảo mật, có nguy cơ kéo dài thời gian thử nghiệm thêm ba ngày làm việc. Hành động đề xuất, Người quản lý dự án đã liên hệ trực tiếp với giám đốc quan hệ đối tác của cổng thanh toán để thúc đẩy tiến độ. Nếu đến thứ Tư tới vẫn chưa được cấp khóa xác thực, chúng tôi sẽ đề xuất ban chỉ đạo hỗ trợ liên hệ ở cấp lãnh đạo điều hành để giải quyết dứt điểm. Qua ví dụ thực tế này, bạn có thể thấy một bản báo cáo trạng thái đạt chuẩn luôn mang lại sự rõ ràng, không giấu giếm khó khăn và luôn đi kèm giải pháp hành động cụ thể để các bên liên quan hoàn toàn yên tâm. VÌ SAO RỦI RO VÀ CÁC THAY ĐỔI LUÔN XUẤT HIỆN,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "WHY RISKS AND CHANGES OCCUR.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-16.txt": [
+    {
+      "lang": "vi",
+      "text": "Trong quản lý dự án, có một câu nói kinh điển mà mọi",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "dày dạn kinh nghiệm đều khắc cốt ghi tâm, Điều duy nhất không bao giờ thay đổi chính là sự thay đổi. Bất kể bạn đã dành bao nhiêu tuần lễ để lập kế hoạch tỉ mỉ, bất kể bản kế hoạch của bạn trông hoàn hảo và chi tiết đến mức nào trên trang giấy, rủi ro và sự thay đổi chắc chắn vẫn sẽ gõ cửa dự án của bạn. Hiểu được nguyên nhân gốc rễ vì sao rủi ro và các biến động luôn xuất hiện sẽ giúp bạn đón nhận chúng với một tâm thế chủ động, bình tĩnh và chuyên nghiệp, thay vì hoang mang hay thất vọng. Các nguyên nhân này thường bắt nguồn từ hai nhóm yếu tố chính, Nhóm thứ nhất là Các yếu tố nội tại bên trong dự án và tổ chức, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Internal Factors,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Thứ nhất là sự phình to phạm vi dự án, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scope Creep,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là hiện tượng các yêu cầu, tính năng mới liên tục được bổ sung vào dự án mà không đi kèm với việc điều chỉnh tăng thêm thời gian hoặc ngân sách tương ứng. Ban đầu, khách hàng có thể chỉ xin thêm một nút bấm nhỏ, nhưng dần dần, hàng chục yêu cầu nhỏ bé ấy sẽ làm biến dạng toàn bộ phạm vi ban đầu và gây áp lực khủng khiếp lên tiến độ của đội ngũ. Thứ hai là biến động về nguồn lực nhân sự, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Resource Turnover,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Thành viên chủ chốt có thể đột ngột chuyển công tác, nghỉ ốm dài ngày hoặc rời khỏi tổ chức. Việc mất đi chuyên môn then chốt giữa chừng dự án luôn tạo ra những khoảng trống năng lực đòi hỏi thời gian đào tạo người thay thế. Thứ ba là những đánh giá ước lượng chưa sát thực tế, Khi lập kế hoạch, con người thường có xu hướng lạc quan thái quá về năng suất lao động và thời gian hoàn thành công việc. Khi bước vào thực tế, các rào cản kỹ thuật phức tạp chưa từng lường trước sẽ kéo dài thời gian xử lý ngoài dự tính.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-17.txt": [
+    {
+      "lang": "vi",
+      "text": "Nhóm thứ hai là Các yếu tố ngoại cảnh từ môi trường bên ngoài, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "External Factors,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Thứ nhất là sự biến động của thị trường và đối thủ cạnh tranh, Một đối thủ bất ngờ ra mắt một sản phẩm tương tự với mức giá rẻ hơn, buộc ban lãnh đạo doanh nghiệp của bạn phải nhanh chóng thay đổi chiến lược dự án để thích ứng. Thứ hai là sự chậm trễ từ các nhà cung ứng và đối tác bên ngoài, Chuỗi cung ứng bị gián đoạn, linh kiện bị thiếu hụt, hoặc đối tác phần mềm chậm bàn giao dịch vụ đều là những sự cố nằm ngoài tầm kiểm soát trực tiếp của bạn nhưng lại tác động tức thì đến dự án. Thứ ba là những thay đổi về khung pháp lý và chính sách, Các quy định mới của chính phủ về bảo mật dữ liệu, thuế khóa hoặc tiêu chuẩn môi trường có thể buộc dự án của bạn phải thiết kế lại một phần quy trình để đảm bảo tuân thủ pháp luật. Thay đổi và rủi ro không phải là dấu hiệu của một kế hoạch tồi, chúng là bản chất tự nhiên của việc tạo ra những điều mới mẻ trong một thế giới không ngừng vận động. Nhiệm vụ của bạn không phải là mơ ước về một dự án không có thay đổi, mà là xây dựng một hệ thống quản trị rủi ro linh hoạt và vững chắc để điều hướng dự án vượt qua mọi biến động. NHẬN DIỆN VÀ THEO DÕI CÁC MỐI QUAN HỆ PHỤ THUỘC,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "IDENTIFYING AND TRACKING DEPENDENCIES.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong bất kỳ dự án nào, các công việc hiếm khi tồn tại biệt lập và độc lập hoàn toàn với nhau. Trái lại, chúng thường đan xen và gắn kết chặt chẽ qua các mối quan hệ phụ thuộc, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Dependencies.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một mối quan hệ phụ thuộc xảy ra khi việc bắt đầu hoặc kết thúc của một công việc này chịu ảnh hưởng trực tiếp bởi việc bắt đầu hoặc kết thúc của một công việc khác. Việc nhận diện sai hoặc bỏ sót các mối quan hệ phụ thuộc chính là một trong những nguyên nhân phổ biến nhất dẫn tới tình trạng dự án bị đình trệ và vỡ trận lịch trình. Do đó, người quản lý dự án cần nắm vững bốn loại quan hệ phụ thuộc cơ bản sau đây, Loại thứ nhất là Kết thúc để Bắt đầu, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Finish-to-Start, F-S,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là mối quan hệ phổ biến và tự nhiên nhất trong thực tế. Công việc",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "B",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "không thể bắt đầu cho đến khi công việc A đã hoàn tất. Ví dụ điển hình, Bạn không thể bắt đầu sơn tường nếu như đội thợ chưa hoàn thành việc xây xong bức tường đó. Trong dự án phần mềm, bạn không thể tiến hành kiểm thử tính năng nếu như lập trình viên chưa viết xong mã nguồn của tính năng đó.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-18.txt": [
+    {
+      "lang": "vi",
+      "text": "Loại thứ hai là Bắt đầu để Bắt đầu, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Start-to-Start, S-S,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Công việc",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "B",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "có thể bắt đầu cùng lúc hoặc ngay sau khi công việc A bắt đầu. Hai công việc này diễn ra song song với nhau. Ví dụ, Ngay khi hoạt động đào móng công trình bắt đầu, đội ngũ kỹ thuật có thể đồng thời, bắt đầu việc bơm nước chống ngập cho khu vực thi công. Loại thứ ba là Kết thúc để Kết thúc, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Finish-to-Finish, F-F,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Công việc",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "B",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "không thể kết thúc cho đến khi công việc A kết thúc. Ví dụ, Hoạt động giám sát thi công chỉ có thể chính thức kết thúc khi toàn bộ công trình xây dựng đã hoàn thành nghiệm thu. Loại thứ tư là Bắt đầu để Kết thúc, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Start-to-Finish, S-F,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Công việc",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "B",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "không thể kết thúc cho đến khi công việc A bắt đầu. Đây là mối quan hệ hiếm gặp nhất trong thực tế, thường áp dụng trong các ca trực đổi gác hoặc chuyển giao hệ thống, Ca trực cũ không thể kết thúc công việc cho đến khi nhân sự của ca trực mới đã có mặt và bắt đầu nhận bàn giao. Bên cạnh đó, các mối quan hệ phụ thuộc còn được phân loại theo tính chất, Phụ thuộc bắt buộc, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Mandatory Dependencies,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Là những ràng buộc tất yếu về mặt vật lý hoặc kỹ thuật không thể đảo ngược, như phải đổ móng trước khi dựng cột. Phụ thuộc tùy ý, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Discretionary Dependencies,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Là những trình tự công việc được thiết lập dựa trên kinh nghiệm thực hành tối ưu của đội ngũ, nhưng hoàn toàn có thể sắp xếp lại linh hoạt nếu cần rút ngắn tiến độ. Phụ thuộc bên ngoài, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "External Dependencies,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Ràng buộc giữa công việc của dự án với các yếu tố nằm ngoài tổ chức, ví dụ như chờ cơ quan chức năng phê duyệt giấy phép xây dựng. Để theo dõi hiệu quả các mối quan hệ phụ thuộc, hãy sử dụng biểu đồ mạng dự án, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Network Diagram,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hoặc biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "để trực quan hóa các đường liên kết. Khi một nhiệm vụ đầu vào bị chậm trễ, hãy lập tức đánh giá tác động dây chuyền tới các nhiệm vụ tiếp nối để có phương án điều chỉnh kịp thời. CÁC KỸ THUẬT GIÚP QUẢN LÝ RỦI RO,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "TECHNIQUES TO HELP MANAGE RISKS.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Quản lý rủi ro không phải là một công việc dựa vào trực giác hay may rủi, mà là một quy trình khoa học được hỗ trợ bởi các công cụ và kỹ thuật đã được chuẩn hóa qua nhiều thập kỷ trong ngành quản trị dự án. Dưới đây là những kỹ thuật kinh điển và hiệu quả nhất mà bạn nên áp dụng.",
+      "pause_type": "emphasis"
+    }
+  ],
+  "Kich-ban-19.txt": [
+    {
+      "lang": "vi",
+      "text": "Kỹ thuật thứ nhất là Bảng nhật ký rủi ro, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Risk Register,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là tài liệu trung tâm ghi nhận toàn bộ thông tin chi tiết về mọi rủi ro tiềm ẩn được nhận diện trong dự án. Một bảng nhật ký rủi ro chuẩn mực thường bao gồm, Mã định danh rủi ro, mô tả rủi ro, nguyên nhân gốc rễ, xác suất xảy ra, mức độ tác động, mức độ ưu tiên tổng thể, người chịu trách nhiệm theo dõi và kế hoạch hành động giảm thiểu tương ứng. Bảng nhật ký rủi ro cần được xem xét và cập nhật định kỳ trong suốt các cuộc họp trạng thái của dự án. Kỹ thuật thứ hai là Ma trận Xác suất và Tác động, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Probability and Impact Matrix,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Kỹ thuật này giúp bạn lượng hóa và ưu tiên các rủi ro để tập trung nguồn lực xử lý những mối đe dọa nguy hiểm nhất. Ma trận được chia thành hai trục, trục tung thể hiện xác suất xảy ra từ thấp đến cao, và trục hoành thể hiện mức độ tác động từ nhẹ đến nghiêm trọng. Những rủi ro rơi vào ô có xác suất cao và tác động lớn sẽ được xếp vào mức độ ưu tiên hàng đầu đòi hỏi kế hoạch hành động khẩn cấp, ngược lại, những rủi ro có xác suất thấp và tác động nhẹ có thể chỉ cần đưa vào danh sách theo dõi định kỳ. Kỹ thuật thứ ba là Động não tập thể, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Brainstorming,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Tổ chức các buổi thảo luận mở cùng toàn thể đội ngũ dự án, các chuyên gia kỹ thuật và đại diện các bên liên quan để cùng nhau suy nghĩ về những điều có thể đi chệch hướng. Sự đa dạng về góc nhìn và kinh nghiệm thực chiến của các thành viên sẽ giúp phát hiện ra những điểm mù mà một cá nhân người quản lý dự án khó lòng nhìn thấy hết được. Kỹ thuật thứ tư là Biểu đồ Nguyên nhân và Kết quả, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Cause-and-Effect Diagram,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "hay còn được gọi là Biểu đồ Xương cá",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Ishikawa,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Công cụ này giúp bạn truy tìm tận gốc các nguyên nhân sâu xa dẫn đến một rủi ro hoặc sự cố tiềm tàng. Bằng cách phân chia các nhánh nguyên nhân thành các nhóm như con người, quy trình, công nghệ, môi trường và vật liệu, bạn sẽ nhìn thấu được mắt xích yếu nhất trong hệ thống để gia cố kịp thời trước khi sự cố xảy ra. Kỹ thuật thứ năm là Phân tích theo mô hình",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "ROAM,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "một khung làm việc rất trực quan và hiệu quả để phân loại và xử lý rủi ro mà chúng ta sẽ đi sâu khám phá ngay trong bài học tiếp theo. NGHIÊN CỨU TÌNH HUỐNG, VẬN DỤNG CÁC CÔNG CỤ QUẢN TRỊ RỦI RO,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "CASE STUDY, USING RISK MANAGEMENT TOOLS.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Để hiểu sâu sắc cách vận dụng các công cụ quản trị rủi ro trong một bối cảnh đời thực, chúng ta hãy cùng theo dõi một tình huống thực tế xảy ra tại một công ty công nghệ chuyên cung cấp giải pháp giáo dục trực tuyến.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-20.txt": [
+    {
+      "lang": "vi",
+      "text": "Bối cảnh tình huống, Công ty EduTech đang triển khai một dự án trọng điểm kéo dài sáu tháng mang tên",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "EduConnect,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "nhằm nâng cấp toàn diện nền tảng học tập trực tuyến để phục vụ cho năm trăm nghìn học sinh chuẩn bị bước vào năm học mới. Dự án bao gồm việc tái cấu trúc hệ thống máy chủ, tích hợp tính năng lớp học ảo tương tác",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và phát hành ứng dụng di động mới. Người quản lý dự án là anh Minh. Ngay từ giai đoạn khởi động và lập kế hoạch, Minh đã nhận thức rõ đây là một dự án phức tạp với thời hạn chót không thể thương lượng, Toàn bộ hệ thống phải sẵn sàng vận hành trước ngày khai giảng mùng năm tháng Chín. Bước thứ nhất, Nhận diện rủi ro qua buổi Động não tập thể, Minh đã tập hợp các kỹ sư trưởng, chuyên viên trải nghiệm người dùng và đại diện chăm sóc khách hàng vào một buổi hội thảo kéo dài hai giờ. Thông qua thảo luận cởi mở, nhóm đã liệt kê được hơn hai mươi rủi ro tiềm ẩn. Trong đó, có ba rủi ro nổi bật nhất, Rủi ro A, Nhà cung cấp dịch vụ máy chủ đám mây có thể bị quá tải băng thông trong giờ cao điểm của tuần lễ đầu tiên. Rủi ro",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "B,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Quy trình kiểm duyệt ứng dụng trên kho ứng dụng di động của bên thứ ba có thể kéo dài hơn dự kiến, khiến ứng dụng không kịp xuất hiện trước ngày khai giảng. Rủi ro C, Giáo viên và phụ huynh gặp khó khăn khi làm quen với giao diện lớp học ảo mới, dẫn đến tình trạng đường dây nóng hỗ trợ bị nghẽn mạch. Bước thứ hai, Đánh giá và Phân loại bằng Ma trận Xác suất và Tác động, Minh đưa các rủi ro vào Ma trận Xác suất và Tác động, Rủi ro",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "B",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "được xếp vào ô Đỏ khẩn cấp, Xác suất xảy ra ở mức trung bình nhưng tác động cực kỳ nghiêm trọng vì nếu không có ứng dụng di động, học sinh sẽ không thể tham gia lớp học đúng ngày. Rủi ro C được xếp vào ô Vàng, Xác suất xảy ra rất cao nhưng mức độ tác động ở mức vừa phải vì có thể khắc phục dần qua hướng dẫn. Rủi ro A được xếp vào ô Vàng, Xác suất thấp nhưng tác động cao. Bước thứ ba, Lập Kế hoạch Giảm thiểu và Gán trách nhiệm cụ thể, Đối với Rủi ro",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "B,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Minh quyết định áp dụng chiến lược đẩy sớm lịch trình, Toàn bộ phiên bản ứng dụng di động phải được hoàn thiện và nộp lên kho ứng dụng trước ngày khai giảng tối thiểu bốn tuần, thay vì hai tuần như kế hoạch ban đầu, nhằm tạo ra một vùng đệm an toàn đề phòng việc bị yêu cầu sửa đổi bổ sung. Đối với Rủi ro C, đội ngũ đã chủ động ghi hình các",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "video",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "hướng dẫn sử dụng ngắn gọn dài hai phút và gửi tới phụ huynh trước hai tuần, đồng thời, thiết lập hệ thống câu hỏi thường gặp tự động để giải tỏa áp lực cho bộ phận hỗ trợ khách hàng.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-21.txt": [
+    {
+      "lang": "vi",
+      "text": "Kết quả thực tế, Đúng như dự đoán của Minh, kho ứng dụng di động đã yêu cầu đội ngũ cập nhật lại một chứng chỉ bảo mật, khiến quá trình kiểm duyệt kéo dài thêm mười ngày. Tuy nhiên, nhờ đã chủ động nộp hồ sơ sớm bốn tuần, ứng dụng",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "EduConnect",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "vẫn được phê duyệt chính thức trước ngày khai giảng mười ngày. Dự án đã ra mắt thành công vang dội mà không gặp bất kỳ sự cố lớn nào. Tình huống thực tế này chứng minh rằng, Quản trị rủi ro không phải là việc ngồi lo lắng về những điều tồi tệ, mà là nghệ thuật nhìn xa trông rộng để biến những nguy cơ tiềm tàng thành những kế hoạch hành động chủ động và đắc thắng. HOẠT ĐỘNG MẪU, THỰC HIỆN PHÂN TÍCH THEO MÔ HÌNH",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "ROAM, ACTIVITY EXEMPLAR, PUT TOGETHER A ROAM ANALYSIS.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong số các phương pháp quản lý rủi ro hiện đại, mô hình",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "ROAM",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là một công cụ vô cùng trực quan, súc tích và thường xuyên được áp dụng trong các tổ chức lớn như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cũng như trong các khung làm việc linh hoạt như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Scaled Agile. ROAM",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là từ viết tắt của bốn phương án hành động đối với mỗi rủi ro,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Resolved,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đã giải quyết,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Owned,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đã giao quyền,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Accepted,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Chấp nhận, và",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Mitigated,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Giảm thiểu. Chúng ta hãy cùng phân tích ý nghĩa và cách vận dụng cụ thể của từng chữ cái trong mô hình",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "ROAM,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Chữ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đại diện cho",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Resolved,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đã giải quyết, Rủi ro này đã được xem xét và xử lý triệt để ngay tại thời điểm nhận diện, hoặc đã không còn là mối đe dọa đối với dự án nữa. Ví dụ, Bạn lo ngại rằng phần mềm chưa tương thích với hệ điều hành mới, nhưng sau khi đội ngũ kỹ thuật tiến hành thử nghiệm nhanh thì xác nhận hệ thống hoàn toàn tương thích, rủi ro này chính thức được chuyển sang trạng thái",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Resolved.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Chữ O đại diện cho",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Owned,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đã giao quyền sở hữu, Rủi ro này chưa thể giải quyết ngay lập tức, nhưng đã được giao cho một cá nhân cụ thể chịu trách nhiệm chính để theo dõi sát sao, tìm hiểu thêm thông tin và dẫn dắt kế hoạch hành động khi cần. Việc gán người sở hữu, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Owner,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "đảm bảo rằng rủi ro không bị rơi vào quên lãng và luôn có người chịu trách nhiệm giải trình. Chữ A đại diện cho",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Accepted,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Chấp nhận, Đội ngũ dự án và các bên liên quan đã cân nhắc kỹ lưỡng và quyết định chấp nhận rủi ro này mà không thực hiện bất kỳ hành động phòng ngừa tốn kém nào. Quyết định chấp nhận thường áp dụng khi chi phí để phòng ngừa rủi ro vượt quá thiệt hại mà rủi ro đó có thể gây ra, hoặc khi khả năng xảy ra là cực kỳ thấp và tác động không đáng kể. Tuy nhiên, việc chấp nhận rủi ro phải luôn đi kèm với sự thấu hiểu và đồng thuận rõ ràng từ phía các bên liên quan.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-22.txt": [
+    {
+      "lang": "vi",
+      "text": "Chữ M đại diện cho",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Mitigated,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Giảm thiểu, Đây là cách tiếp cận phổ biến nhất đối với các rủi ro trọng yếu. Đội ngũ đã chủ động xây dựng và triển khai một kế hoạch hành động cụ thể nhằm làm giảm xác suất xảy ra của rủi ro, hoặc làm giảm mức độ thiệt hại nếu rủi ro đó thực sự biến thành hiện thực. Ví dụ áp dụng thực tế, Trong dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "khi đội ngũ nhận thấy rủi ro thiếu hụt chậu cây gốm sứ do nhà xưởng tại địa phương có thể bị đình công, quản lý dự án đã thực hiện phân tích",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "ROAM",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "như sau, Rủi ro được xếp vào nhóm",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Mitigated,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Giảm thiểu. Hành động giảm thiểu, Ký kết thêm một thỏa thuận nguyên tắc dự phòng với một nhà xưởng gốm sứ thứ hai ở tỉnh lân cận và đặt cọc trước mười phần trăm đơn hàng để đảm bảo luôn có nguồn cung thay thế trong vòng bốn mươi tám giờ nếu nhà xưởng chính gặp sự cố. Người sở hữu theo dõi,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Owned,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Giao cho Trưởng bộ phận thu mua chịu trách nhiệm cập nhật tình hình sản xuất hàng tuần. Mô hình",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "ROAM",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "giúp toàn bộ đội ngũ nắm bắt nhanh gọn tình trạng xử lý của từng rủi ro mà không bị chìm ngập trong những bảng biểu quá phức tạp. BÁO CÁO LEO THANG KHI XẢY RA SỰ CỐ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "ESCALATING ISSUES.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong quá trình điều hành dự án, sẽ có những thời điểm bạn đối mặt với những vấn đề phát sinh vượt quá thẩm quyền, ngoài tầm kiểm soát hoặc vượt quá nguồn lực sẵn có của bạn và đội ngũ. Khi đó, kỹ năng sống còn của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "là biết cách báo cáo leo thang, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Escalation,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "một cách chuyên nghiệp và đúng thời điểm. Nhiều người mới làm quen với nghề quản trị dự án thường mang tâm lý e ngại việc báo cáo leo thang, bởi họ sợ rằng việc báo cáo sự cố lên cấp trên sẽ bị coi là dấu hiệu của sự yếu kém, bất lực hoặc thiếu năng lực giải quyết vấn đề. Nhưng trên thực tế tại các tập đoàn chuyên nghiệp như",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "báo cáo leo thang không phải là sự thừa nhận thất bại, mà là một cơ chế quản trị lành mạnh, một hành động thể hiện tinh thần trách nhiệm cao độ nhằm bảo vệ lợi ích tối cao của dự án và tổ chức. Vậy khi nào là thời điểm chuẩn xác để bạn kích hoạt quy trình báo cáo leo thang? Thứ nhất là Khi vấn đề đe dọa trực tiếp tới ba ràng buộc cốt lõi của dự án, Nếu sự cố phát sinh có nguy cơ làm vỡ thời hạn chót của dự án, vượt quá ngân sách được ủy quyền hoặc làm suy giảm nghiêm trọng chất lượng sản phẩm bàn giao mà bạn không thể tự cân đối nội bộ, bạn bắt buộc phải báo cáo leo thang ngay lập tức.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-23.txt": [
+    {
+      "lang": "vi",
+      "text": "Thứ hai là Khi phát sinh xung đột về quyền ưu tiên tài nguyên giữa các bộ phận, Ví dụ, một kỹ sư lập trình chủ chốt đang làm việc cho dự án của bạn bất ngờ bị một trưởng phòng ban khác điều động sang một nhiệm vụ khẩn cấp khác. Đây là sự việc vượt quá thẩm quyền quyết định của bạn và cần sự phân xử ở cấp quản lý lãnh đạo. Thứ ba là Khi bạn cần sự hỗ trợ hoặc quyền quyết định vượt ngoài thẩm quyền, Ví dụ, cần phê duyệt một khoản chi phí bổ sung ngoài hạn mức, hoặc cần đàm phán lại các điều khoản hợp đồng mang tính pháp lý với một nhà cung cấp chiến lược. Khi thực hiện báo cáo leo thang, bạn cần tuân thủ các nguyên tắc vàng sau, Đừng bao giờ mang đến cho cấp trên một vấn đề đơn thuần mà không đi kèm với các phương án giải quyết đề xuất. Hãy trình bày rõ ràng, Vấn đề là gì, tác động ra sao, và bạn đề xuất hai đến ba lựa chọn xử lý kèm theo ưu nhược điểm của từng lựa chọn. Hãy giữ thái độ khách quan, trung thực và tập trung vào sự kiện thực tế, tuyệt đối không đổ lỗi hay chỉ trích cá nhân. Nêu rõ hành động cụ thể mà bạn đang kỳ vọng từ người nhận báo cáo, cũng như thời hạn cần đưa ra quyết định để không làm đình trệ công việc tiếp theo. TRUYỀN THÔNG VÀ THÔNG BÁO THAY ĐỔI TỚI ĐỘI NGŨ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "COMMUNICATING CHANGES TO THE TEAM.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Khi một sự thay đổi về kế hoạch, phạm vi, tiến độ hoặc phương thức làm việc chính thức được ban lãnh đạo thông qua, nhiệm vụ tiếp theo của người quản lý dự án là truyền đạt sự thay đổi đó tới toàn thể đội ngũ thực thi. Cách thức bạn truyền thông về sự thay đổi sẽ quyết định trực tiếp việc đội ngũ đón nhận nó với tinh thần hợp tác tích cực hay với thái độ hoang mang, phản kháng và suy giảm nhu lực. Để truyền thông thay đổi thành công, bạn nên áp dụng các bước chiến lược sau, Bước thứ nhất là Giải thích rõ ràng lý do vì sao thay đổi lại xuất hiện, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Explain the Why,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Con người tự nhiên thường có tâm lý ngại thay đổi, đặc biệt là khi họ đã dành nhiều công sức cho kế hoạch cũ. Nếu bạn chỉ đơn thuần ra lệnh, Kể từ hôm nay chúng ta sẽ làm theo cách mới, đội ngũ sẽ cảm thấy nỗ lực trước đây của họ bị coi thường. Thay vào đó, hãy giải thích cặn kẽ bối cảnh, Tại sao khách hàng lại yêu cầu điều này? Thay đổi này sẽ giúp sản phẩm cạnh tranh tốt hơn ra sao? Hoặc nó sẽ giải quyết rủi ro lớn nào cho công ty? Khi thấu hiểu được mục đích sâu xa, đội ngũ sẽ dễ dàng đồng thuận và ủng hộ hơn rất nhiều.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-24.txt": [
+    {
+      "lang": "vi",
+      "text": "Bước thứ hai là Làm rõ những tác động cụ thể đối với từng cá nhân và bộ phận, Đừng chỉ nói chung chung về bức tranh lớn. Hãy chỉ rõ cho từng thành viên biết, Thay đổi này ảnh hưởng cụ thể thế nào đến khối lượng công việc của họ? Thời hạn hoàn thành mới là khi nào? Có quy trình hay công cụ nào mới cần sử dụng hay không? Sự rõ ràng sẽ dập tắt những nỗi sợ hãi và tin đồn thất thiệt. Bước thứ ba là Lắng nghe tích cực và tạo không gian cho đội ngũ bày tỏ phản hồi, Sau khi công bố thay đổi, hãy dành thời gian để đội ngũ đặt câu hỏi, chia sẻ những lo lắng và đóng góp ý kiến. Các thành viên kỹ thuật trực tiếp làm việc có thể nhìn thấy những trở ngại thực tế mà cấp quản lý chưa nhận ra. Việc lắng nghe chân thành không chỉ giúp bạn hoàn thiện kế hoạch mới mà còn khiến đội ngũ cảm thấy tiếng nói của mình luôn được tôn trọng. Bước thứ tư là Cập nhật đồng bộ toàn bộ tài liệu dự án, Ngay sau buổi thông báo, hãy cập nhật ngay lập tức các kế hoạch dự án, bảng công việc, nhật ký thay đổi và gửi",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tóm tắt bằng văn bản cho toàn đội ngũ để đảm bảo mọi người đều có cùng một điểm tham chiếu chuẩn xác. Và bước thứ năm là Duy trì sự đồng hành và hỗ trợ liên tục, Quá trình chuyển đổi luôn cần thời gian thích nghi. Hãy thường xuyên hỏi han, động viên và kịp thời tháo gỡ khó khăn cho các thành viên trong những ngày đầu triển khai kế hoạch mới. VIẾT MỘT BỨC",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "EMAIL",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "BÁO CÁO LEO THANG HIỆU QUẢ,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "WRITING AN EFFECTIVE ESCALATION EMAIL.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Trong môi trường làm việc hiện đại,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "thường là phương tiện chính thức và hữu hiệu nhất để bạn thực hiện việc báo cáo leo thang một vấn đề lên các nhà lãnh đạo cấp cao hoặc các bên liên quan chủ chốt. Một bức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "báo cáo leo thang được viết bài bản, súc tích và đúng chuẩn mực sẽ giúp người nhận nắm bắt ngay bản chất vấn đề và nhanh chóng đưa ra quyết định hỗ trợ cần thiết. Dưới đây là công thức cấu trúc chuẩn cho một bức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "báo cáo leo thang hiệu quả cao, Thành phần thứ nhất là Dòng tiêu đề rõ ràng và khẩn cấp, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Clear Subject Line,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Tiêu đề",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "cần ngắn gọn nhưng phải phản ánh ngay tính chất khẩn cấp và nội dung cốt lõi của sự việc. Hãy bắt đầu bằng tiền tố viết hoa để thu hút sự chú ý tức thì. Ví dụ, CẦN QUYẾT ĐỊNH KHẨN, Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "- Sự cố tích hợp Cổng thanh toán trực tuyến. Thành phần thứ hai là Tóm tắt bối cảnh và Vấn đề phát sinh, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Context and Issue,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Hãy đi thẳng vào vấn đề ngay trong một hoặc hai câu đầu tiên mà không vòng vo rườm rà. Nêu rõ sự cố là gì, xảy ra từ khi nào và nguyên nhân bắt nguồn từ đâu.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-25.txt": [
+    {
+      "lang": "vi",
+      "text": "Thành phần thứ ba là Đánh giá tác động đối với dự án, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Impact,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đây là phần tối quan trọng để người nhận hiểu được mức độ nghiêm trọng của sự việc. Hãy lượng hóa tác động bằng các con số cụ thể nếu có thể, Vấn đề này sẽ làm dự án bị trễ hạn bao nhiêu ngày? Nguy cơ phát sinh thêm bao nhiêu chi phí? Hoặc nó ảnh hưởng trực tiếp đến cam kết nào với khách hàng? Thành phần thứ tư là Các phương án giải quyết đề xuất, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Proposed Solutions,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Đừng bao giờ chỉ ném vấn đề cho cấp trên xử lý. Hãy thể hiện năng lực chủ động của một",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Project Manager",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "bằng cách đưa ra từ hai đến ba phương án giải quyết khả thi, phân tích ngắn gọn ưu nhược điểm của từng phương án và nêu rõ phương án nào mà bạn cùng đội ngũ đang khuyến nghị lựa chọn. Thành phần thứ năm là Yêu cầu hành động cụ thể và Thời hạn chót, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Specific Ask and Deadline,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Hãy nói rõ ràng bạn đang cần người nhận làm điều gì cụ thể, Phê duyệt kinh phí bổ sung, can thiệp ở cấp lãnh đạo với đối tác, hay phê duyệt gia hạn thời gian? Kèm theo đó, hãy ghi rõ thời hạn chót bạn cần nhận được phản hồi để không làm đình trệ các công việc tiếp nối. Ví dụ thực tế một bức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "báo cáo leo thang, Kính gửi, Chị",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Sarah,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Giám đốc Điều hành Dự án, Đồng kính gửi, Ban Chỉ đạo Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Tiêu đề, CẦN CAN THIỆP GẤP, Dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "- Chậm trễ cấp khóa xác thực",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "API",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Cổng thanh toán",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "PayGate",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "Thưa chị",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Sarah,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi viết",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "này để báo cáo khẩn cấp về một trở ngại kỹ thuật ngoài tầm kiểm soát của đội ngũ dự án",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Plant Pals",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và xin ý kiến can thiệp của chị. một. Bối cảnh và Vấn đề, Đội ngũ dự án đã hoàn tất một trăm phần trăm phần mã nguồn tích hợp cổng thanh toán trực tuyến cho trang",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "web.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tuy nhiên, đơn vị đối tác cung cấp dịch vụ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "PayGate",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đã chậm trễ năm ngày làm việc trong việc cấp khóa xác thực môi trường thử nghiệm chính thức theo hợp đồng đã ký kết. Mặc dù tôi đã liên hệ trực tiếp ba lần với chuyên viên phụ trách của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "PayGate,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chúng tôi vẫn chưa nhận được phản hồi cụ thể. hai. Tác động tới dự án, Nếu không có khóa xác thực trước mười bảy giờ chiều thứ Sáu tuần này, ngày mười lăm tháng Tám, toàn bộ giai đoạn thử nghiệm người dùng UAT sẽ bị hoãn lại tối thiểu một tuần, dẫn tới nguy cơ không thể ra mắt dịch vụ đúng ngày khai trương mùng một tháng Chín như đã cam kết với ban lãnh đạo.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-26.txt": [
+    {
+      "lang": "vi",
+      "text": "ba. Các phương án đề xuất, Phương án một, Khuyến nghị, Nhờ chị",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Sarah",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "liên hệ trực tiếp với Phó Tổng giám đốc Kinh doanh của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "PayGate",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "để thúc đẩy việc cấp khóa xác thực đặc cách ngay trong ngày mai. Phương án hai, Tạm thời chuyển hướng sang tích hợp cổng thanh toán dự phòng phụ mà chúng ta đã có sẵn hợp đồng khung, tuy nhiên, việc này sẽ đòi hỏi đội ngũ lập trình viên phải làm việc thêm cuối tuần và phát sinh khoảng hai mươi triệu đồng chi phí ngoài giờ. bốn. Đề xuất hành động, Rất mong chị",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Sarah",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "xem xét và hỗ trợ liên hệ với lãnh đạo",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "PayGate",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "theo Phương án một. Chúng tôi rất cần nhận được quyết định hoặc phản hồi của chị trước mười hai giờ trưa mai, thứ Năm ngày mười bốn tháng Tám, để đội ngũ có thể chủ động kích hoạt Phương án hai kịp thời nếu cần. Tôi xin chân thành cảm ơn sự hỗ trợ kịp thời của chị! Trân trọng, Elita,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Senior Program Manager.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Một bức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "chuẩn mực như trên sẽ giúp mọi sự cố phức tạp được giải quyết nhanh chóng, minh bạch và chuyên nghiệp. TỔNG KẾT HỌC PHẦN MỘT,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "WRAP-UP.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Xin chúc mừng bạn đã xuất sắc hoàn thành học phần đầu tiên của Khóa học Thực thi Dự án! Trong học phần này, chúng ta đã cùng nhau đi qua một hành trình tri thức vô cùng phong phú và thực tế. Chúng ta đã khám phá tầm quan trọng sống còn của việc theo dõi và đo lường tiến độ dự án, nắm vững năm hạng mục cốt lõi cần giám sát bao gồm nhiệm vụ, lịch trình, ngân sách, chất lượng và rủi ro. Bạn đã được trang bị các phương pháp theo dõi trực quan và hiện đại như biểu đồ",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Gantt,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bảng Kanban, bảng điều khiển dự án và các cuộc họp cập nhật định kỳ. Thông qua câu chuyện thực tế đầy cảm hứng của",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Belinda",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "và",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Pranjal",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "tại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Google,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "bạn đã học được cách làm chủ ngân sách dự án và nghệ thuật điều phối nhiều luồng công việc song song mà không bị quá tải. Bạn cũng đã nắm vững cấu trúc của một bản báo cáo trạng thái dự án chuẩn mực với hệ thống đèn tín hiệu",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "R-Y-G,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "thấu hiểu nguyên nhân vì sao rủi ro và thay đổi luôn xuất hiện, cũng như cách nhận diện bốn loại quan hệ phụ thuộc công việc cơ bản. Đặc biệt, bạn đã được trang bị những công cụ quản trị rủi ro đắc lực như bảng nhật ký rủi ro, ma trận xác suất tác động và mô hình phân loại hành động",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "ROAM.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bạn cũng đã nắm vững nghệ thuật báo cáo leo thang sự cố một cách chuyên nghiệp, cách viết",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "email",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "leo thang chuẩn mực và phương pháp truyền thông thay đổi thấu cảm tới đội ngũ.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-27.txt": [
+    {
+      "lang": "vi",
+      "text": "Trong học phần tiếp theo, chúng ta sẽ bước sang một chủ đề vô cùng thú vị và mang tính quyết định, Quản trị chất lượng và Cải tiến liên tục, tức",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Quality Management and Continuous Improvement.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Bạn sẽ học cách đo lường sự hài lòng của khách hàng, vận dụng các quy trình kiểm thử chấp nhận của người dùng UAT và khám phá sức mạnh của các phiên họp hồi tưởng cải tiến quy trình",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Retrospective.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Cảm ơn bạn rất nhiều và hẹn gặp lại bạn trong học phần hai!.",
+      "pause_type": "terminal"
+    }
+  ]
+}

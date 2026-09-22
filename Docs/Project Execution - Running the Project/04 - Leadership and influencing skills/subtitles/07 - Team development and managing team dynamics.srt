@@ -1,0 +1,466 @@
+1
+00:00:01,220 --> 00:00:05,390
+Imagine that you're starting a new
+project with a brand new team of people.
+
+2
+00:00:05,390 --> 00:00:07,702
+No one on the team has
+worked together before,
+
+3
+00:00:07,702 --> 00:00:10,030
+so this will be a new experience for
+everyone.
+
+4
+00:00:11,060 --> 00:00:14,363
+To better understand how your
+team might develop over time,
+
+5
+00:00:14,363 --> 00:00:19,870
+let's discuss the psychologist Bruce
+Tuckman's five stages of team development.
+
+6
+00:00:19,870 --> 00:00:25,186
+Forming, storming, norming,
+performing and adjourning.
+
+7
+00:00:25,186 --> 00:00:29,397
+These stages of development illustrate
+how teams grow from a disparate group
+
+8
+00:00:29,397 --> 00:00:31,610
+of people into a high functioning unit.
+
+9
+00:00:32,650 --> 00:00:35,607
+You might even recognize
+the characteristics of each stage from
+
+10
+00:00:35,607 --> 00:00:38,240
+previous experiences working on a team.
+
+11
+00:00:38,240 --> 00:00:42,370
+Tuchman's first stage of team
+development is the forming stage.
+
+12
+00:00:42,370 --> 00:00:44,940
+At this point everything feels shiny and
+new.
+
+13
+00:00:44,940 --> 00:00:47,515
+Individuals on the team are just
+getting to know on another, and
+
+14
+00:00:47,515 --> 00:00:49,240
+they're eager to make a good impression.
+
+15
+00:00:49,240 --> 00:00:53,020
+And typically they're excited for
+the work to begin.
+
+16
+00:00:53,020 --> 00:00:57,330
+During this stage, you as a project
+manager should clarify project goals,
+
+17
+00:00:57,330 --> 00:01:00,270
+roles, and context about the project.
+
+18
+00:01:00,270 --> 00:01:04,121
+People are seeking guidance and
+it's your job to provide that guidance.
+
+19
+00:01:04,121 --> 00:01:07,336
+The second stage of team
+development is the storming stage,
+
+20
+00:01:07,336 --> 00:01:10,100
+this is where things get a bit trickier.
+
+21
+00:01:10,100 --> 00:01:13,884
+As people settle into their roles and
+the work on their project begins,
+
+22
+00:01:13,884 --> 00:01:17,809
+the people on your team are interacting
+more and maybe disagreeing a bit.
+
+23
+00:01:17,809 --> 00:01:21,320
+This is where feelings of
+frustration might emerge.
+
+24
+00:01:21,320 --> 00:01:25,611
+Individuals might take issues with certain
+processes they feel are inefficient, or
+
+25
+00:01:25,611 --> 00:01:29,484
+other teammates they disagree with,
+especially when the team is navigating
+
+26
+00:01:29,484 --> 00:01:32,480
+tasks that are much more complex
+than they first appeared.
+
+27
+00:01:32,480 --> 00:01:33,770
+It makes sense, right?
+
+28
+00:01:33,770 --> 00:01:37,068
+If you're working closely with a new
+group of people for the first time,
+
+29
+00:01:37,068 --> 00:01:40,140
+there's bound to be some
+interpersonal conflict.
+
+30
+00:01:40,140 --> 00:01:42,295
+Teammates might disagree on time, and
+
+31
+00:01:42,295 --> 00:01:45,691
+effort estimations, vary in their
+levels of independence, or
+
+32
+00:01:45,691 --> 00:01:50,160
+prefer to prioritize certain tasks
+over other equally important tasks.
+
+33
+00:01:50,160 --> 00:01:53,960
+As the project manager, it's your
+job to focus on conflict resolution.
+
+34
+00:01:53,960 --> 00:01:56,471
+Listen as the team addresses
+problems to solve and
+
+35
+00:01:56,471 --> 00:01:59,650
+share insights on how the team
+might better function as a unit.
+
+36
+00:02:00,870 --> 00:02:05,280
+After storming comes Tuchman's
+third stage, the norming stage.
+
+37
+00:02:05,280 --> 00:02:06,082
+At this point,
+
+38
+00:02:06,082 --> 00:02:10,229
+the team has resolved some of its internal
+conflict by establishing new norms.
+
+39
+00:02:10,229 --> 00:02:15,410
+Like processes and workflows that make it
+easier for everyone to get things done.
+
+40
+00:02:15,410 --> 00:02:19,730
+The team feels better equipped to work
+together efficiently and effectively.
+
+41
+00:02:19,730 --> 00:02:22,674
+You, as the project manager
+should codify the team norms,
+
+42
+00:02:22,674 --> 00:02:27,560
+ensuring that the team is aware of those
+norms and reinforce them when needed.
+
+43
+00:02:27,560 --> 00:02:32,137
+For example, if you've agreed to discuss
+solutions to issues during weekly team
+
+44
+00:02:32,137 --> 00:02:37,240
+meetings, ensure that your weekly agenda
+budgets time for this topic each week.
+
+45
+00:02:37,240 --> 00:02:40,570
+Tuchman's fourth stage
+is the performing stage.
+
+46
+00:02:40,570 --> 00:02:44,863
+During this time, the team works together
+relatively seamlessly to complete tasks,
+
+47
+00:02:44,863 --> 00:02:48,900
+reach milestones and
+make progress toward the project goal.
+
+48
+00:02:48,900 --> 00:02:52,015
+In the performing stage,
+you as the project manager should focus on
+
+49
+00:02:52,015 --> 00:02:56,590
+delegating, motivating and providing
+feedback to keep up the team's momentum.
+
+50
+00:02:56,590 --> 00:03:00,960
+The fifth and final stage of team
+development is the adjourning stage.
+
+51
+00:03:00,960 --> 00:03:05,690
+In this stage the project is wrapping up
+and it's time for the team to disband.
+
+52
+00:03:05,690 --> 00:03:07,622
+It can be a bittersweet time for
+the team and
+
+53
+00:03:07,622 --> 00:03:10,530
+you might want to mark the end of
+the project with a celebration.
+
+54
+00:03:11,620 --> 00:03:15,588
+You as the project manager should set up
+time to celebrate the final milestones and
+
+55
+00:03:15,588 --> 00:03:17,267
+success of the project as a group.
+
+56
+00:03:17,267 --> 00:03:21,310
+And be sure each member of your
+team knows what's next for them.
+
+57
+00:03:21,310 --> 00:03:25,664
+Okay, to recap, Tuckman's five stages
+of team development are forming,
+
+58
+00:03:25,664 --> 00:03:28,667
+storming, norming,
+performing and adjourning.
+
+59
+00:03:28,667 --> 00:03:31,758
+These stages of team
+development come together to
+
+60
+00:03:31,758 --> 00:03:36,690
+form a helpful framework you can use to
+assess and recognize team dynamics, and
+
+61
+00:03:36,690 --> 00:03:39,791
+then adjust your management
+style accordingly.
+
+62
+00:03:39,791 --> 00:03:43,921
+Team dynamics refer to the forces
+both conscious and unconscious,
+
+63
+00:03:43,921 --> 00:03:46,680
+that impact team behavior and performance.
+
+64
+00:03:47,830 --> 00:03:52,320
+Managing team dynamics is a big part of
+determining how to motivate your team.
+
+65
+00:03:52,320 --> 00:03:57,060
+It might be tempting to assume that people
+can go full-speed ahead into a project.
+
+66
+00:03:57,060 --> 00:04:00,222
+But in reality,
+it's important to take time to understand
+
+67
+00:04:00,222 --> 00:04:05,470
+the dynamics of your team overall and how
+individual team members are fitting in.
+
+68
+00:04:05,470 --> 00:04:09,015
+This is especially important during
+the more precarious forming and
+
+69
+00:04:09,015 --> 00:04:10,000
+storming stages.
+
+70
+00:04:11,130 --> 00:04:14,660
+Let's break down why managing
+team dynamics is so important.
+
+71
+00:04:14,660 --> 00:04:17,801
+First, teams have individuals
+with different skill sets,
+
+72
+00:04:17,801 --> 00:04:20,889
+varying degrees of autonomy,
+and competing priorities.
+
+73
+00:04:21,960 --> 00:04:25,848
+It's your job to forge consensus and
+set clear purposes, goals,
+
+74
+00:04:25,848 --> 00:04:28,980
+dependencies and accountability.
+
+75
+00:04:28,980 --> 00:04:33,950
+When teams function cohesively, they can
+focus on the tasks and objectives at hand.
+
+76
+00:04:33,950 --> 00:04:37,646
+Another reason why it's important to
+manage team dynamics is that it helps you
+
+77
+00:04:37,646 --> 00:04:41,680
+to create a collaborative and
+psychologically safe environment.
+
+78
+00:04:41,680 --> 00:04:45,228
+When team members feel safe,
+they're willing to help one another, and
+
+79
+00:04:45,228 --> 00:04:47,640
+accept help when they need it.
+
+80
+00:04:47,640 --> 00:04:51,440
+This benefits the entire project
+by keeping schedules on track.
+
+81
+00:04:51,440 --> 00:04:54,234
+Though it can take time to
+get to the performing stage,
+
+82
+00:04:54,234 --> 00:04:58,064
+using the norming stage as a time to
+foster a collaborative environment can
+
+83
+00:04:58,064 --> 00:04:59,550
+help you get there quicker.
+
+84
+00:05:01,030 --> 00:05:01,929
+Understanding and
+
+85
+00:05:01,929 --> 00:05:06,630
+managing team dynamics can also help you
+understand how to motivate your team.
+
+86
+00:05:06,630 --> 00:05:10,711
+Motivated team members are likely to
+contribute more to discussions, complete
+
+87
+00:05:10,711 --> 00:05:14,980
+their tasks and actively participate
+in other project activities.
+
+88
+00:05:14,980 --> 00:05:18,700
+A positive team atmosphere can
+help employees feel empowered.
+
+89
+00:05:18,700 --> 00:05:21,093
+More comfortable taking calculated risks,
+and
+
+90
+00:05:21,093 --> 00:05:25,100
+more likely to seek out innovative
+solutions to complex problems.
+
+91
+00:05:25,100 --> 00:05:29,040
+Remember, so much of team dynamics
+happens under the surface.
+
+92
+00:05:29,040 --> 00:05:33,047
+Identifying and understanding the stages
+of team development can help you make
+
+93
+00:05:33,047 --> 00:05:35,630
+sense of how dynamics
+are playing out on your team.
+
+94
+00:05:36,680 --> 00:05:38,699
+This can help you to be a better leader.
+
+95
+00:05:39,750 --> 00:05:42,629
+Coming up, we'll discuss what
+it means to promote ethical and
+
+96
+00:05:42,629 --> 00:05:45,070
+inclusive leadership in the workplace.
+
+97
+00:05:45,070 --> 00:05:45,570
+Meet you there.

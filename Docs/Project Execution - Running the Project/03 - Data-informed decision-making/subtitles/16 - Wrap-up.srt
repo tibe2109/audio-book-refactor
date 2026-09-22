@@ -1,0 +1,129 @@
+1
+00:00:00,080 --> 00:00:03,270
+Congrats on reaching
+the end of this module.
+
+2
+00:00:03,270 --> 00:00:04,890
+So what did we learn?
+
+3
+00:00:04,890 --> 00:00:09,135
+We learned that data plays a
+key part in the success of
+
+4
+00:00:09,135 --> 00:00:10,830
+any organization and it
+
+5
+00:00:10,830 --> 00:00:13,560
+impacts your role as
+a project manager.
+
+6
+00:00:13,560 --> 00:00:15,765
+We've learned what data is,
+
+7
+00:00:15,765 --> 00:00:18,270
+the value that data
+provides for your projects,
+
+8
+00:00:18,270 --> 00:00:21,870
+and how it empowers you to
+achieve your project's goals.
+
+9
+00:00:21,870 --> 00:00:24,900
+You learned about the
+different types of data,
+
+10
+00:00:24,900 --> 00:00:26,805
+like metrics and projections,
+
+11
+00:00:26,805 --> 00:00:29,490
+and how to identify and
+discern what information
+
+12
+00:00:29,490 --> 00:00:32,610
+to watch for and to
+communicate to stakeholders.
+
+13
+00:00:32,610 --> 00:00:36,120
+We also discussed how important
+data is to help you make
+
+14
+00:00:36,120 --> 00:00:38,610
+informed decisions and
+showcase areas where
+
+15
+00:00:38,610 --> 00:00:41,245
+you and your team are
+being most effective,
+
+16
+00:00:41,245 --> 00:00:44,640
+flagging potential risks, and
+opportunities to advance.
+
+17
+00:00:44,640 --> 00:00:46,745
+We reviewed data visualization
+
+18
+00:00:46,745 --> 00:00:48,350
+and data tools and learned that
+
+19
+00:00:48,350 --> 00:00:49,880
+facts are usually easier to
+
+20
+00:00:49,880 --> 00:00:52,495
+remember when there's
+a visual alongside it.
+
+21
+00:00:52,495 --> 00:00:55,400
+We also discussed ways
+for you to present all of
+
+22
+00:00:55,400 --> 00:00:58,610
+your insights to stakeholders,
+colleagues, and customers.
+
+23
+00:00:58,610 --> 00:01:00,530
+So let's pause so you can give
+
+24
+00:01:00,530 --> 00:01:02,815
+yourself a high five
+for coming this far.
+
+25
+00:01:02,815 --> 00:01:04,680
+Next up, we'll discuss
+
+26
+00:01:04,680 --> 00:01:06,920
+leadership and the
+fundamentals of teamwork.
+
+27
+00:01:06,920 --> 00:01:08,105
+Keep up the great work,
+
+28
+00:01:08,105 --> 00:01:10,920
+and we'll meet you there
+when you're ready.

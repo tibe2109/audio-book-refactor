@@ -1,0 +1,8 @@
+Trong quản lý dự án, có một câu nói kinh điển mà mọi Project Manager dày dạn kinh nghiệm đều khắc cốt ghi tâm, Điều duy nhất không bao giờ thay đổi chính là sự thay đổi. Bất kể bạn đã dành bao nhiêu tuần lễ để lập kế hoạch tỉ mỉ, bất kể bản kế hoạch của bạn trông hoàn hảo và chi tiết đến mức nào trên trang giấy, rủi ro và sự thay đổi chắc chắn vẫn sẽ gõ cửa dự án của bạn.
+
+Hiểu được nguyên nhân gốc rễ vì sao rủi ro và các biến động luôn xuất hiện sẽ giúp bạn đón nhận chúng với một tâm thế chủ động, bình tĩnh và chuyên nghiệp, thay vì hoang mang hay thất vọng. Các nguyên nhân này thường bắt nguồn từ hai nhóm yếu tố chính,
+
+Nhóm thứ nhất là Các yếu tố nội tại bên trong dự án và tổ chức, tức Internal Factors, 
+Thứ nhất là sự phình to phạm vi dự án, tức Scope Creep, Đây là hiện tượng các yêu cầu, tính năng mới liên tục được bổ sung vào dự án mà không đi kèm với việc điều chỉnh tăng thêm thời gian hoặc ngân sách tương ứng. Ban đầu, khách hàng có thể chỉ xin thêm một nút bấm nhỏ, nhưng dần dần, hàng chục yêu cầu nhỏ bé ấy sẽ làm biến dạng toàn bộ phạm vi ban đầu và gây áp lực khủng khiếp lên tiến độ của đội ngũ.
+Thứ hai là biến động về nguồn lực nhân sự, tức Resource Turnover, Thành viên chủ chốt có thể đột ngột chuyển công tác, nghỉ ốm dài ngày hoặc rời khỏi tổ chức. Việc mất đi chuyên môn then chốt giữa chừng dự án luôn tạo ra những khoảng trống năng lực đòi hỏi thời gian đào tạo người thay thế.
+Thứ ba là những đánh giá ước lượng chưa sát thực tế, Khi lập kế hoạch, con người thường có xu hướng lạc quan thái quá về năng suất lao động và thời gian hoàn thành công việc. Khi bước vào thực tế, các rào cản kỹ thuật phức tạp chưa từng lường trước sẽ kéo dài thời gian xử lý ngoài dự tính.

@@ -1,0 +1,14 @@
+Nhóm thứ ba, Công cụ quản lý công việc và Cộng tác trực tuyến, tức Work Management and Collaboration Tools.
+Đây chính là nguồn chân lý duy nhất, tức Single Source of Truth, của toàn bộ dự án, 
+Các tài liệu cộng tác đám mây như Google Docs, Google Sheets, Google Slides, Cho phép nhiều thành viên cùng lúc chỉnh sửa một văn bản, để lại các bình luận phản biện và theo dõi lịch sử thay đổi theo thời gian thực mà không bao giờ lo bị nhầm lẫn phiên bản tệp tin.
+Các phần mềm quản lý dự án chuyên dụng như Asana, Jira, Trello, Giúp bạn chuyển hóa các kế hoạch chiến lược thành những nhiệm vụ cụ thể, gán người phụ trách, đặt thời hạn hoàn thành và trực quan hóa tiến độ công việc trên các bảng Kanban hoặc biểu đồ Gantt.
+
+Khi bạn kết hợp thông minh và đồng bộ các công cụ này lại với nhau, bạn sẽ tạo nên một cỗ máy giao tiếp vận hành trơn tru, thông suốt và đưa dự án băng băng tiến về đích.
+
+CÁCH TỔ CHỨC NHỮNG CUỘC HỌP HIỆU QUẢ, HOW TO ORGANIZE EFFECTIVE MEETINGS.
+. ......
+Chào mừng bạn đã quay trở lại. Các cuộc họp có thể là một phương thức vô cùng hiệu quả để phân phối thông tin, giao tiếp với đội ngũ và các bên liên quan, đồng thời, giúp giữ cho dự án luôn đi đúng hướng. Trong bài học này, bạn sẽ học cách tổ chức và điều phối những cuộc họp đội ngũ hiệu quả dẫn tới một dự án thành công.
+
+Mặc dù quy mô, mục đích và định dạng của các cuộc họp có thể khác nhau, nhưng những cuộc họp hiệu quả luôn có bốn yếu tố nền tảng chung, Chúng có cấu trúc rõ ràng Structured, có chủ ý rõ rệt Intentional, mang tính cộng tác cao Collaborative, và mang tính hòa nhập toàn diện Inclusive.
+
+Chúng ta hãy cùng nhau phân tích chi tiết từng yếu tố để tổ chức một cuộc họp hoàn hảo,

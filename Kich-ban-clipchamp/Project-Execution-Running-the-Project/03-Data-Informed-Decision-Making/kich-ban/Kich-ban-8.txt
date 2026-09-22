@@ -1,0 +1,10 @@
+ba. Nhóm chỉ số Hạnh phúc và Mức độ Hài lòng, tức Happiness and Satisfaction Metrics, 
+Các nhà quản lý dự án tại Google sử dụng một nhóm chỉ số đo lường con gọi là các chỉ số hạnh phúc, tức Happiness Metrics, cũng liên quan trực tiếp đến chất lượng. Đây là các chỉ số liên quan đến các khía cạnh khác nhau của sự hài lòng tổng thể của người dùng đối với một sản phẩm hoặc dịch vụ, chẳng hạn như sức hấp dẫn về mặt thị giác, mức độ người dùng sẵn sàng giới thiệu sản phẩm cho người khác, và tính dễ sử dụng.
+Các chỉ số hạnh phúc thường có thể được thu thập thông qua một bản khảo sát được thiết kế bài bản, hoặc bằng cách theo dõi doanh thu tạo ra, tỷ lệ giữ chân khách hàng, hoặc tỷ lệ trả lại sản phẩm.
+Điểm số hài lòng của khách hàng, tức Customer Satisfaction Scores, phản ánh thái độ, mức độ thỏa mãn của người dùng hoặc nhận thức về tính dễ sử dụng. Các điểm số này đo lường mức độ dự án đã bàn giao tốt như thế nào những gì đã cam kết và đáp ứng tốt đến đâu các nhu cầu của khách hàng và các bên liên quan. Điểm số hài lòng của khách hàng thường đại diện cho một chỉ số kết hợp, tức tổng hợp của nhiều chỉ số hạnh phúc khác nhau.
+Ví dụ, trong một bản khảo sát mức độ hài lòng, một khách hàng có thể đánh giá riêng rẽ diện mạo của sản phẩm là sáu trên mười điểm, tính dễ sử dụng là bảy trên mười điểm, và khả năng họ sẽ giới thiệu hoặc tiếp tục sử dụng lại sản phẩm là tám trên mười điểm. Điểm số hài lòng của khách hàng tổng thể sau đó sẽ là bảy trên mười điểm. Bạn sẽ cần xác định mức điểm số nào là chấp nhận được cho dự án của mình bằng cách thảo luận với các bên liên quan xem những khía cạnh nào là quan trọng nhất đối với dự án.
+
+bốn. Nhóm chỉ số Tiếp nhận và Tương tác, tức Adoption and Engagement Metrics, 
+Một bộ chỉ số khác liên quan chặt chẽ đến chất lượng là sự tiếp nhận và mức độ tương tác. 
+Sự tiếp nhận, tức Adoption, đề cập đến việc một sản phẩm, dịch vụ hoặc quy trình có được chấp nhận và đưa vào sử dụng hay không.
+Mức độ tương tác, tức Engagement, đề cập đến mức độ mà sản phẩm đó được sử dụng, Tần suất sử dụng, lượng thời gian dành ra để sử dụng nó, và phạm vi sử dụng.

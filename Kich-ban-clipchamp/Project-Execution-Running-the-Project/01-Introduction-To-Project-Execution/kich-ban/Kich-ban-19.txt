@@ -1,0 +1,13 @@
+Kỹ thuật thứ nhất là Bảng nhật ký rủi ro, tức Risk Register, Đây là tài liệu trung tâm ghi nhận toàn bộ thông tin chi tiết về mọi rủi ro tiềm ẩn được nhận diện trong dự án. Một bảng nhật ký rủi ro chuẩn mực thường bao gồm, Mã định danh rủi ro, mô tả rủi ro, nguyên nhân gốc rễ, xác suất xảy ra, mức độ tác động, mức độ ưu tiên tổng thể, người chịu trách nhiệm theo dõi và kế hoạch hành động giảm thiểu tương ứng. Bảng nhật ký rủi ro cần được xem xét và cập nhật định kỳ trong suốt các cuộc họp trạng thái của dự án.
+
+Kỹ thuật thứ hai là Ma trận Xác suất và Tác động, tức Probability and Impact Matrix, Kỹ thuật này giúp bạn lượng hóa và ưu tiên các rủi ro để tập trung nguồn lực xử lý những mối đe dọa nguy hiểm nhất. Ma trận được chia thành hai trục, trục tung thể hiện xác suất xảy ra từ thấp đến cao, và trục hoành thể hiện mức độ tác động từ nhẹ đến nghiêm trọng. Những rủi ro rơi vào ô có xác suất cao và tác động lớn sẽ được xếp vào mức độ ưu tiên hàng đầu đòi hỏi kế hoạch hành động khẩn cấp, ngược lại, những rủi ro có xác suất thấp và tác động nhẹ có thể chỉ cần đưa vào danh sách theo dõi định kỳ.
+
+Kỹ thuật thứ ba là Động não tập thể, tức Brainstorming, Tổ chức các buổi thảo luận mở cùng toàn thể đội ngũ dự án, các chuyên gia kỹ thuật và đại diện các bên liên quan để cùng nhau suy nghĩ về những điều có thể đi chệch hướng. Sự đa dạng về góc nhìn và kinh nghiệm thực chiến của các thành viên sẽ giúp phát hiện ra những điểm mù mà một cá nhân người quản lý dự án khó lòng nhìn thấy hết được.
+
+Kỹ thuật thứ tư là Biểu đồ Nguyên nhân và Kết quả, tức Cause-and-Effect Diagram, hay còn được gọi là Biểu đồ Xương cá Ishikawa, Công cụ này giúp bạn truy tìm tận gốc các nguyên nhân sâu xa dẫn đến một rủi ro hoặc sự cố tiềm tàng. Bằng cách phân chia các nhánh nguyên nhân thành các nhóm như con người, quy trình, công nghệ, môi trường và vật liệu, bạn sẽ nhìn thấu được mắt xích yếu nhất trong hệ thống để gia cố kịp thời trước khi sự cố xảy ra.
+
+Kỹ thuật thứ năm là Phân tích theo mô hình ROAM, một khung làm việc rất trực quan và hiệu quả để phân loại và xử lý rủi ro mà chúng ta sẽ đi sâu khám phá ngay trong bài học tiếp theo.
+
+NGHIÊN CỨU TÌNH HUỐNG, VẬN DỤNG CÁC CÔNG CỤ QUẢN TRỊ RỦI RO, CASE STUDY, USING RISK MANAGEMENT TOOLS.
+. ......
+Để hiểu sâu sắc cách vận dụng các công cụ quản trị rủi ro trong một bối cảnh đời thực, chúng ta hãy cùng theo dõi một tình huống thực tế xảy ra tại một công ty công nghệ chuyên cung cấp giải pháp giáo dục trực tuyến.

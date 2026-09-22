@@ -1,0 +1,12 @@
+Sai sót thứ tư, Tài liệu dự án không được lưu trữ và đóng gói ngăn nắp.
+Chuyện gì đã xảy ra, Sáu tháng sau khi dự án kết thúc, khi công ty muốn phát triển phiên bản nâng cấp của ống heo tiết kiệm, họ nhận thấy rằng không ai biết mã nguồn phần mềm gốc được lưu trữ ở đâu, sơ đồ mạch điện tử nằm trong máy tính của kỹ sư nào, và các hợp đồng thỏa thuận bản quyền âm nhạc được cất giữ ở ngăn kéo nào. Toàn bộ đội ngũ mới đã phải mất hàng trăm giờ làm việc để tìm kiếm và xây dựng lại từ đầu những gì đã bị thất lạc.
+
+Bài học rút ra từ Tillys Toys là vô cùng đắt giá, Một giai đoạn đóng dự án nghiêm túc không phải là thủ tục hành chính rườm rà, nó chính là chiếc chốt an toàn bảo vệ toàn bộ thành quả lao động của đội ngũ và danh tiếng của doanh nghiệp!
+
+QUY TRÌNH ĐÓNG DỰ ÁN DÀNH CHO KHÁCH HÀNG VÀ CÁC BÊN LIÊN QUAN, THE CLOSING PROCESS FOR CLIENTS AND STAKEHOLDERS.
+. ......
+Trong bài học trước, chúng ta đã thảo luận về lý do tại sao quy trình đóng dự án lại quan trọng về mặt tổng thể. Trong bài học này, chúng ta sẽ đi vào cụ thể hơn, Tại sao việc đóng dự án lại tối quan trọng đối với khách hàng và các bên liên quan.
+
+Một quy trình đóng dự án chính thức là vô cùng cần thiết, không chỉ bởi vì, việc đóng dự án không đúng cách có thể khiến bạn vướng vào các hợp đồng dở dang hoặc phạm vi công việc chưa hoàn tất, mà còn bởi vì, bạn muốn các bên liên quan cảm thấy rằng các nhu cầu và kỳ vọng của họ đã được đáp ứng trọn vẹn. Mối quan hệ của đội ngũ dự án với khách hàng, người dùng và các nhà cung cấp có thể bị tổn hại nghiêm trọng bởi những đầu việc dở dang còn sót lại. Nếu các mối quan hệ này bị ảnh hưởng tiêu cực, uy tín của đội ngũ bạn sẽ bị sụt giảm.
+
+Thông thường, các bên liên quan sẽ cùng với người quản lý dự án thiết lập các mục tiêu và phạm vi của dự án ngay từ đầu, do đó, một người quản lý dự án giỏi sẽ luôn muốn đảm bảo rằng các bên liên quan hoàn toàn hài lòng với chất lượng của các sản phẩm bàn giao và sản phẩm cuối cùng.

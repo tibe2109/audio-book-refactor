@@ -1,0 +1,15 @@
+Nguyên tắc thứ ba, Lắng nghe và ưu tiên các mối quan tâm hàng đầu của các bên liên quan.
+Mỗi nhóm bên liên quan lại có những mối bận tâm hoàn toàn khác biệt, 
+Ban giám đốc điều hành và các nhà tài trợ tài chính thường chỉ quan tâm tới các chỉ số vĩ mô, Lợi tức đầu tư R-O-I, tổng chi phí thực tế so với ngân sách dự toán, và ngày dự kiến ra mắt thị trường.
+Khách hàng và người dùng cuối quan tâm tới tính năng, độ ổn định, tính thân thiện của giao diện và tốc độ phản hồi dịch vụ.
+Đội ngũ kỹ sư và phát triển lại quan tâm sâu sắc tới các chỉ số vi mô, Tốc độ xử lý công việc Velocity, nợ kỹ thuật, số lượng lỗi tồn đọng và thời gian hoàn thành các nhiệm vụ kỹ thuật.
+Hãy chủ động trò chuyện với từng nhóm bên liên quan để tìm hiểu xem họ cần những thông tin gì để đưa ra quyết định của mình, từ đó thiết lập các báo cáo tùy biến phù hợp với đúng đối tượng.
+
+Nguyên tắc thứ tư, Ưu tiên dữ liệu có khả năng dẫn đến hành động cụ thể, tức Actionable Data.
+Tránh xa những số liệu phù phiếm chỉ để trưng bày cho đẹp mắt, tức Vanity Metrics. Ví dụ, việc ứng dụng của bạn có mười nghìn lượt tải về là một con số ấn tượng, nhưng nếu dữ liệu chỉ ra rằng có tới chín mươi lăm phần trăm người dùng xóa ứng dụng ngay sau một ngày sử dụng, thì tỷ lệ duy trì người dùng Retention Rate mới chính là dữ liệu hành động mà bạn bắt buộc phải tập trung giải quyết.
+
+Biết cách gạn đục khơi trong, chọn đúng số liệu then chốt sẽ giúp bạn tiết kiệm năng lượng, đưa ra quyết định sắc bén và giữ cho toàn bộ đội ngũ luôn tập trung vào những điều thực sự tạo ra giá trị.
+
+NHỮNG CÂN NHẮC VỀ ĐẠO ĐỨC DỮ LIỆU, DATA ETHICS CONSIDERATIONS.
+. ......
+Trong bài học trước, bạn đã học cách sử dụng kiến thức để phân biệt dữ liệu và cách các tín hiệu giúp ưu tiên dữ liệu. Tài liệu đọc này sẽ đề cập đến tầm quan trọng của đạo đức dữ liệu và hai nguyên tắc then chốt, Quyền riêng tư của dữ liệu và Định kiến trong dữ liệu.

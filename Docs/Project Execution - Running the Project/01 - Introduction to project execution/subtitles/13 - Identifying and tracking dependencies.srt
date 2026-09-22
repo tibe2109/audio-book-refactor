@@ -1,0 +1,369 @@
+1
+00:00:01,170 --> 00:00:04,051
+So we've covered risks and
+how they affect a project,
+
+2
+00:00:04,051 --> 00:00:07,847
+but we haven't fully discussed
+dependencies—arguably one of
+
+3
+00:00:07,847 --> 00:00:09,856
+the biggest factors in a project.
+
+4
+00:00:09,856 --> 00:00:14,340
+In this video, we'll discuss
+dependencies—both internal and external—how
+
+5
+00:00:14,341 --> 00:00:18,007
+to identify and track them,
+as well as their importance.
+
+6
+00:00:18,007 --> 00:00:20,817
+There are a few different
+types of dependencies, and
+
+7
+00:00:20,817 --> 00:00:23,176
+we'll discuss a few examples of each one.
+
+8
+00:00:23,176 --> 00:00:25,730
+So what exactly are dependencies?
+
+9
+00:00:25,730 --> 00:00:29,561
+Dependencies are the links that
+connect one project task to another,
+
+10
+00:00:29,561 --> 00:00:34,380
+and as we mentioned, they're often
+the greatest source of risk to a project.
+
+11
+00:00:34,380 --> 00:00:38,954
+Two or more project tasks may have
+a relationship with one another in which
+
+12
+00:00:38,954 --> 00:00:43,528
+the completion of one task is reliant
+on the initiation of another task, and
+
+13
+00:00:43,528 --> 00:00:44,363
+vice versa.
+
+14
+00:00:44,363 --> 00:00:47,237
+Think of these tasks
+like a line of dominoes
+
+15
+00:00:47,237 --> 00:00:49,970
+toppling each other over, one by one.
+
+16
+00:00:49,970 --> 00:00:54,624
+If one domino falls, it'll knock
+the next one over and so on and so on.
+
+17
+00:00:54,624 --> 00:00:58,970
+For instance, a construction company may
+have a number of jobs across the city.
+
+18
+00:01:00,110 --> 00:01:04,091
+Each project requires a foreman and
+a project manager to be chosen before
+
+19
+00:01:04,091 --> 00:01:08,342
+the requirements, timeline, and budget
+get signed off and the crew is chosen.
+
+20
+00:01:08,342 --> 00:01:12,521
+You wouldn't choose a crew and tell them
+to get to work before the work has been
+
+21
+00:01:12,521 --> 00:01:15,113
+clearly scoped and
+the contracts were signed.
+
+22
+00:01:15,113 --> 00:01:17,833
+That's an example of
+an internal dependency,
+
+23
+00:01:17,833 --> 00:01:22,330
+which describes the relationship between
+two tasks within the same project.
+
+24
+00:01:23,430 --> 00:01:28,201
+External dependencies, on the other hand,
+refer to tasks that are reliant on outside
+
+25
+00:01:28,201 --> 00:01:31,303
+factors, like regulatory agencies or
+other projects.
+
+26
+00:01:31,303 --> 00:01:35,477
+For instance, if a construction company
+is scheduled to demolish a building site,
+
+27
+00:01:35,477 --> 00:01:38,789
+they'll have to wait until their
+project is approved by the city.
+
+28
+00:01:38,789 --> 00:01:42,811
+External dependencies aren't always
+in the project manager's control, but
+
+29
+00:01:42,811 --> 00:01:46,590
+it's important to be aware of them so
+that the project stays on track.
+
+30
+00:01:46,590 --> 00:01:50,762
+Mandatory dependencies are tasks that
+are legally or contractually required.
+
+31
+00:01:50,762 --> 00:01:54,872
+For instance, when that construction
+company finishes the demolition and
+
+32
+00:01:54,872 --> 00:01:58,917
+starts the rebuild, they'll first have
+to pour a concrete foundation and
+
+33
+00:01:58,917 --> 00:02:01,676
+then have it inspected by
+the city to ensure it meets
+
+34
+00:02:01,676 --> 00:02:05,682
+their standards before the construction
+company can continue to build.
+
+35
+00:02:05,682 --> 00:02:10,011
+Lastly, discretionary dependencies
+are defined by the project team.
+
+36
+00:02:10,011 --> 00:02:13,208
+These are dependencies that
+could occur on their own, but
+
+37
+00:02:13,208 --> 00:02:17,071
+the team saw a need to make those
+dependencies reliant on one another.
+
+38
+00:02:17,071 --> 00:02:21,836
+For instance, the construction company may
+be using concrete from a new supplier and
+
+39
+00:02:21,836 --> 00:02:22,908
+want to run a test,
+
+40
+00:02:22,908 --> 00:02:26,942
+pouring a portion of the foundation to
+get a better estimate of the total amount
+
+41
+00:02:26,942 --> 00:02:31,158
+of product they'll need to complete the
+foundation, rather than buying too much or
+
+42
+00:02:31,158 --> 00:02:32,705
+too little product up front.
+
+43
+00:02:32,705 --> 00:02:35,903
+The task of pouring a portion
+of the foundation comes first,
+
+44
+00:02:35,903 --> 00:02:39,552
+because the team needed more
+information before making a decision.
+
+45
+00:02:39,552 --> 00:02:44,460
+A project manager has to work diligently
+to incorporate dependency management.
+
+46
+00:02:44,460 --> 00:02:49,227
+Dependency management is the process of
+managing all of these interrelated tasks
+
+47
+00:02:49,227 --> 00:02:53,511
+and resources within the project
+to ensure that your overall project is
+
+48
+00:02:53,511 --> 00:02:56,293
+completed successfully on time and
+in budget.
+
+49
+00:02:56,293 --> 00:02:58,413
+To pursue effective dependency management,
+
+50
+00:02:58,413 --> 00:03:01,690
+there are four important steps
+that a project manager can take:
+
+51
+00:03:01,690 --> 00:03:06,063
+proper identification, recording
+dependencies, continuous monitoring and
+
+52
+00:03:06,063 --> 00:03:08,255
+control, and efficient communication.
+
+53
+00:03:08,255 --> 00:03:11,622
+The first step is proper identification.
+
+54
+00:03:11,622 --> 00:03:15,466
+A project manager will have to
+brainstorm all possible project
+
+55
+00:03:15,466 --> 00:03:19,463
+dependencies with their team and
+categorize them accordingly.
+
+56
+00:03:19,463 --> 00:03:22,243
+Next step is recording dependencies.
+
+57
+00:03:22,243 --> 00:03:27,010
+After all dependencies are identified,
+a risk register should be created.
+
+58
+00:03:27,010 --> 00:03:31,304
+A risk register is a table or
+chart that contains your list of risks and
+
+59
+00:03:31,304 --> 00:03:32,351
+dependencies.
+
+60
+00:03:32,351 --> 00:03:36,132
+The risk register should include
+a description of the dependency,
+
+61
+00:03:36,132 --> 00:03:41,350
+the date, and all activities or tasks
+that may be impacted by the dependency.
+
+62
+00:03:41,350 --> 00:03:45,809
+Then, a project manager will want to
+maintain continuous monitoring and
+
+63
+00:03:45,809 --> 00:03:46,485
+control.
+
+64
+00:03:46,485 --> 00:03:50,197
+This means you will want to schedule
+regular meetings to check in on
+
+65
+00:03:50,197 --> 00:03:51,666
+the interrelated tasks,
+
+66
+00:03:51,666 --> 00:03:55,581
+staying up-to-date on any progress
+being made and double checking for
+
+67
+00:03:55,581 --> 00:03:57,854
+changes that will impact other tasks.
+
+68
+00:03:57,854 --> 00:04:00,462
+Last step is efficient communication.
+
+69
+00:04:00,462 --> 00:04:05,078
+Keeping the project team and stakeholders
+updated can help resolve dependencies and
+
+70
+00:04:05,078 --> 00:04:07,450
+keep the project going strong.
+
+71
+00:04:07,450 --> 00:04:12,643
+To recap, we just discussed how to define
+dependencies, both internal and external,
+
+72
+00:04:12,643 --> 00:04:16,658
+and we learned the importance of
+managing and tracking dependencies.
+
+73
+00:04:16,658 --> 00:04:20,875
+We also discussed the importance of
+clearly defining dependencies at
+
+74
+00:04:20,875 --> 00:04:24,162
+the project outset,
+like in our foundation example,
+
+75
+00:04:24,162 --> 00:04:26,811
+and learned about dependency management.
+
+76
+00:04:26,811 --> 00:04:27,819
+In the next video,
+
+77
+00:04:27,819 --> 00:04:31,730
+we'll give you concrete techniques
+to manage the risks in your project.
+
+78
+00:04:31,730 --> 00:04:32,876
+I'll meet you there.

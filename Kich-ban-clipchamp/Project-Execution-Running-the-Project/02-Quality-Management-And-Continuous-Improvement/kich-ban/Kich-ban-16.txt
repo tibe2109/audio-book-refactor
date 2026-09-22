@@ -1,0 +1,15 @@
+Và mục đích thứ tư là Chốt lại các hành động cải tiến cụ thể, tức Action Items, Một phiên Retro sẽ trở thành một cuộc trò chuyện phiếm vô nghĩa nếu kết thúc mà không có bất kỳ hành động nào được đưa ra. Mỗi phiên Retro thành công phải kết thúc bằng việc thống nhất từ một đến ba hành động cải tiến thiết thực nhất, có phân công người chịu trách nhiệm rõ ràng và thời hạn hoàn thành cụ thể cho giai đoạn tiếp theo.
+
+ĐIỀU PHỐI MỘT PHIÊN HỌP HỒI TƯỞNG, CONDUCTING A RETROSPECTIVE.
+. ......
+Điều phối một phiên họp hồi tưởng thành công đòi hỏi người quản lý dự án phải có sự chuẩn bị chu đáo và khả năng dẫn dắt khéo léo để cuộc họp diễn ra hào hứng, cởi mở và tập trung vào kết quả hành động. Dưới đây là quy trình năm bước chuẩn mực để bạn tổ chức một phiên Retro xuất sắc,
+
+Bước thứ nhất là Chuẩn bị bối cảnh và Tạo tâm lý thoải mái, tức Set the Stage, Hãy bắt đầu buổi họp bằng việc nhắc lại, mục đích cao đẹp của phiên Retro và tái khẳng định tinh thần an toàn tâm lý, Cuộc họp này là để cùng nhau tiến bộ, không phải để đổ lỗi. Bạn có thể sử dụng một câu hỏi khởi động ngắn gọn, tức Icebreaker, để giúp mọi người thư giãn tinh thần và sẵn sàng chia sẻ.
+
+Bước thứ hai là Thu thập dữ liệu thực tế, tức Gather Data, Cùng đội ngũ điểm lại những sự kiện chính, các cột mốc đã đạt được và các chỉ số hiệu suất trong kỳ vừa qua. Bạn có thể sử dụng bảng viết trực tiếp hoặc các công cụ trực tuyến như Miro, Mural hay Jamboard, chia bảng thành ba cột câu hỏi kinh điển, 
+Cột một, Những điều gì đã vận hành rất tốt?, What went well?, 
+Cột hai, Những điều gì chưa tốt hoặc cần cải thiện?, What didnt go well?, 
+Cột ba, Những điều gì chúng ta đã học được hoặc có ý tưởng mới?, What did we learn What puzzle us?, 
+Hãy dành cho các thành viên từ năm đến mười phút trong yên lặng để tự do viết ý kiến của mình lên các mảnh giấy ghi chú và dán vào các cột tương ứng.
+
+Bước thứ ba là Tạo ra những nhận thức sâu sắc, tức Generate Insights, Sau khi các ý kiến đã được dán lên bảng, hãy cùng đội ngũ nhóm các ý kiến tương tự lại với nhau theo từng chủ đề. Sau đó, tổ chức bình chọn biểu quyết, tức Dot Voting, để xác định xem chủ đề nào đang là mối quan tâm lớn nhất và cấp bách nhất mà toàn đội ngũ muốn tập trung thảo luận sâu sắc trong buổi họp hôm nay. Sử dụng kỹ thuật hỏi Tại sao năm lần, tức năm Whys, để cùng nhau đào sâu vào nguyên nhân gốc rễ của vấn đề.

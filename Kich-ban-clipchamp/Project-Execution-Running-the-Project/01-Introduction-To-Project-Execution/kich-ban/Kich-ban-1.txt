@@ -1,0 +1,11 @@
+HỌC PHẦN MỘT, GIỚI THIỆU VỀ THỰC THI DỰ ÁN, INTRODUCTION TO PROJECT EXECUTION.
+. ......
+GIỚI THIỆU VỀ KHÓA HỌC BỐN, INTRODUCTION TO COURSE BỐN.
+. ......
+Xin chào các bạn! Nếu bạn đã đồng hành cùng chúng tôi qua các khóa học trước, bạn đã dành rất nhiều thời gian đào sâu vào những điều phức tạp và ý nghĩa to lớn của việc thiết lập một dự án vững chắc để hướng tới thành công. Giờ đây, chúng ta đã chính thức bước sang giai đoạn thực thi dự án, tức Project Execution, nơi mà toàn bộ những nỗ lực làm việc chăm chỉ trước đó cùng hội tụ và đơm hoa kết trái. Nếu bạn chưa kịp tham gia các khóa học trước, tôi thực lòng khuyên bạn nên dành thời gian trải nghiệm chúng để có được nền tảng vững vàng nhất.
+
+Trước khi bắt đầu, cho phép tôi được tự giới thiệu đôi nét về bản thân. Tên tôi là Elita, và tôi sẽ là người đồng hành hướng dẫn bạn xuyên suốt khóa học này. Tôi hiện đang công tác với tư cách là Senior Engineering Program Manager tại Google, nơi tôi đang trực tiếp dẫn dắt đội ngũ phụ trách tính năng định tuyến và điều hướng trên ứng dụng Google Maps. Tôi gia nhập Google từ năm hai nghìn bảy, từng tham gia nhiều nhóm kỹ thuật khác nhau tại New York, London và Seattle. Đến năm hai nghìn mười ba, tôi chính thức gia nhập đội ngũ Google Maps và đã cho ra mắt những tính năng phổ biến như hiển thị giờ làm việc ngày lễ và các thuộc tính chi tiết của doanh nghiệp, đồng thời, điều phối các đội ngũ kỹ thuật toàn cầu từ New York tới Sydney và Hyderabad.
+
+Nhìn chung, niềm đam mê lớn nhất của tôi là giải quyết các vấn đề hóc búa và không ngừng học hỏi những điều mới mẻ. Mỗi dự án và mỗi đội ngũ mới đều trao cho tôi cơ hội tuyệt vời để thực hiện cả hai điều đó. Tôi rất hào hứng được dẫn dắt bạn qua khóa học này và chỉ cho bạn thấy cách đưa một bản kế hoạch dự án bước vào đời thực.
+
+Bước đầu tiên, bạn sẽ tìm hiểu sâu hơn về các rủi ro cùng những thay đổi khó lường phát sinh trong suốt vòng đời dự án. Nếu bạn nhớ lại những bài học trước, bạn sẽ thấy rằng thay đổi là điều không thể tránh khỏi. Để ứng phó với điều đó, chúng ta đã từng đề cập đến khái niệm giảm thiểu rủi ro, tức Risk Mitigation, trong giai đoạn lập kế hoạch. Giờ đây, chúng ta sẽ tiến thêm một bước xa hơn và thảo luận xem cần phải hành động cụ thể ra sao khi một rủi ro thực sự biến thành hiện thực.

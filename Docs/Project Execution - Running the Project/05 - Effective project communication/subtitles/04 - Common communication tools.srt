@@ -1,0 +1,476 @@
+1
+00:00:01,190 --> 00:00:03,994
+Hi again,
+let's explore some of the common tools for
+
+2
+00:00:03,994 --> 00:00:08,260
+effectively communicating with your
+project team and stakeholders.
+
+3
+00:00:08,260 --> 00:00:11,631
+In this video, we'll focus on messaging,
+virtual meetings and
+
+4
+00:00:11,631 --> 00:00:14,630
+work management and collaboration tools.
+
+5
+00:00:14,630 --> 00:00:16,910
+Let's start with messaging and email.
+
+6
+00:00:16,910 --> 00:00:19,487
+Email is standard for
+business communications, so
+
+7
+00:00:19,487 --> 00:00:23,560
+it's important to streamline
+the number of emails that you send out.
+
+8
+00:00:23,560 --> 00:00:25,776
+At Google, I get tons of emails a day.
+
+9
+00:00:25,776 --> 00:00:29,889
+It's a lot of work to figure out which
+ones I need to read immediately,
+
+10
+00:00:29,889 --> 00:00:34,480
+which ones can wait and
+which ones require a reply right away.
+
+11
+00:00:34,480 --> 00:00:38,280
+It's important that you understand how
+to use email in a professional context.
+
+12
+00:00:38,280 --> 00:00:43,190
+A quick internet search will provide
+you with lots of tips and examples.
+
+13
+00:00:43,190 --> 00:00:47,746
+Here's some of my key tips for you to
+keep in mind, carefully select who you're
+
+14
+00:00:47,746 --> 00:00:52,652
+sending an email to, and most importantly,
+be conscious of why you're sending it.
+
+15
+00:00:52,652 --> 00:00:56,691
+Make sure the subject field clearly
+states what the email is about.
+
+16
+00:00:56,691 --> 00:01:00,694
+If it's urgent or requires a response,
+add that to the subject and
+
+17
+00:01:00,694 --> 00:01:02,419
+the first line of the email.
+
+18
+00:01:03,800 --> 00:01:07,300
+Keep your messages as short as
+possible and stay on topic.
+
+19
+00:01:08,770 --> 00:01:12,508
+If there's a lot of information to share,
+consider placing the information
+
+20
+00:01:12,508 --> 00:01:15,510
+into a digital document you can link or
+attach to the email.
+
+21
+00:01:16,690 --> 00:01:19,600
+Then summarize what you
+want readers to focus on.
+
+22
+00:01:19,600 --> 00:01:24,403
+If there's a specific action you need
+from the recipient, state it clearly so
+
+23
+00:01:24,403 --> 00:01:27,914
+that they understand what's
+expected of them and when.
+
+24
+00:01:27,914 --> 00:01:32,321
+Your language choices matter, so
+avoid slang, acronyms, and shortcuts for
+
+25
+00:01:32,321 --> 00:01:35,070
+words that might be more appropriate for
+texts.
+
+26
+00:01:36,180 --> 00:01:38,821
+And one more thing,
+write in an appropriate tone for
+
+27
+00:01:38,821 --> 00:01:41,020
+the person receiving the email.
+
+28
+00:01:41,020 --> 00:01:46,530
+It's generally best practice to be
+friendly, motivating, clear, and specific.
+
+29
+00:01:46,530 --> 00:01:50,940
+As I mentioned earlier, most people,
+especially other managers, directors and
+
+30
+00:01:50,940 --> 00:01:53,100
+executive get lots of emails.
+
+31
+00:01:53,100 --> 00:01:54,063
+With that in mind,
+
+32
+00:01:54,063 --> 00:01:58,450
+you may want to consider instant messaging
+tools like Google Meet or Slack.
+
+33
+00:01:58,450 --> 00:02:02,180
+This can be an alternative to email
+when you just have a quick question, or
+
+34
+00:02:02,180 --> 00:02:05,830
+update or as a way to alert someone
+to please check their inbox.
+
+35
+00:02:05,830 --> 00:02:09,280
+Instant messaging helps
+reduce back and forth emails or
+
+36
+00:02:09,280 --> 00:02:13,766
+phone calls that can quickly clear up
+miscommunications or let you know if and
+
+37
+00:02:13,766 --> 00:02:16,259
+when you should take
+an issue to a meeting.
+
+38
+00:02:16,259 --> 00:02:19,411
+Be mindful of when you decide
+to use instant messaging.
+
+39
+00:02:19,411 --> 00:02:23,709
+This kind of quick communication could
+lead to distraction and informality.
+
+40
+00:02:24,740 --> 00:02:28,769
+It can easily become an outlet to
+share non work related information or
+
+41
+00:02:28,769 --> 00:02:31,513
+information that sensitive or
+confidential.
+
+42
+00:02:31,513 --> 00:02:34,517
+It can also be difficult
+to track instant messages.
+
+43
+00:02:34,517 --> 00:02:38,147
+Later on, if you need to reference
+information that you chatted about,
+
+44
+00:02:38,147 --> 00:02:41,420
+you might not be able to easily
+find it with instant messaging.
+
+45
+00:02:42,430 --> 00:02:45,846
+It's a good idea to ask people's
+preferences on how they like to be
+
+46
+00:02:45,846 --> 00:02:46,950
+communicated with.
+
+47
+00:02:48,040 --> 00:02:52,120
+Even if instant messaging is faster
+the person might prefer to use email.
+
+48
+00:02:52,120 --> 00:02:55,173
+With experience, you'll be able
+to determine the most effective
+
+49
+00:02:55,173 --> 00:02:57,430
+ways to communicate with your team.
+
+50
+00:02:57,430 --> 00:02:59,839
+Next up, we'll discuss some tools for
+remote meetings.
+
+51
+00:03:00,990 --> 00:03:04,270
+Virtual meeting tools like Google Meet and
+Zoom are great for
+
+52
+00:03:04,270 --> 00:03:08,520
+communicating, especially as
+remote work becomes more standard.
+
+53
+00:03:08,520 --> 00:03:13,780
+Better yet, each of these tools are easy
+to access and easy to learn how to use.
+
+54
+00:03:13,780 --> 00:03:17,711
+Well run online meetings can be
+extremely effective, they allow you and
+
+55
+00:03:17,711 --> 00:03:19,782
+your team to interact in real-time.
+
+56
+00:03:19,782 --> 00:03:21,525
+Which can help boost morale and
+
+57
+00:03:21,525 --> 00:03:26,150
+create a sense of team when it's not
+possible to be together in person.
+
+58
+00:03:26,150 --> 00:03:29,946
+Virtual meetings can be highly engaging,
+as attendees can access and
+
+59
+00:03:29,946 --> 00:03:31,760
+share files during the meeting.
+
+60
+00:03:31,760 --> 00:03:36,186
+And then there are work management and
+collaboration tools like Google Drive,
+
+61
+00:03:36,186 --> 00:03:38,530
+Asana, and Smartsheet.
+
+62
+00:03:38,530 --> 00:03:43,276
+These kinds of tools make it easier to
+share information among teams, even better
+
+63
+00:03:43,276 --> 00:03:48,920
+with work management and collaboration
+tools information sharing goes both ways.
+
+64
+00:03:48,920 --> 00:03:52,448
+Team members can easily update
+their progress without the need for
+
+65
+00:03:52,448 --> 00:03:54,460
+extra meetings or phone calls.
+
+66
+00:03:54,460 --> 00:03:58,849
+These tools can accomplish many different
+things like tracking progress on tasks,
+
+67
+00:03:58,849 --> 00:04:01,240
+deliverables, and milestones.
+
+68
+00:04:01,240 --> 00:04:05,372
+They can also help you to manage a budget,
+build helpful charts and diagrams,
+
+69
+00:04:05,372 --> 00:04:09,570
+manage contracts and licenses and
+keep stakeholders informed.
+
+70
+00:04:09,570 --> 00:04:13,772
+Work management and collaboration tools
+allow you to focus your communications
+
+71
+00:04:13,772 --> 00:04:18,450
+within the context of specific tasks,
+project details and timeline.
+
+72
+00:04:18,450 --> 00:04:22,528
+Rather than writing an email and linking
+to the relevant information when you're
+
+73
+00:04:22,528 --> 00:04:26,369
+working and communicating in a tool,
+the information is already there in one
+
+74
+00:04:26,369 --> 00:04:29,680
+place for easy reference and
+decision making.
+
+75
+00:04:29,680 --> 00:04:33,236
+Another great aspect of these kinds
+of tools is that the work gets done
+
+76
+00:04:33,236 --> 00:04:34,690
+in real time.
+
+77
+00:04:34,690 --> 00:04:37,347
+These tools allow remote
+teams to collaborate and
+
+78
+00:04:37,347 --> 00:04:41,725
+communicate as though they're physically
+working in the same office together.
+
+79
+00:04:41,725 --> 00:04:45,987
+Encouraging your teams to check in and
+update their progress regularly helps to
+
+80
+00:04:45,987 --> 00:04:49,790
+maintain the real-time feel of
+interacting with coworkers.
+
+81
+00:04:49,790 --> 00:04:52,843
+There are many different types
+of work management software
+
+82
+00:04:52,843 --> 00:04:56,456
+that automatically make project
+planning and tracking a lot easier.
+
+83
+00:04:56,456 --> 00:05:00,162
+And they are much more efficient
+than manual project tracking.
+
+84
+00:05:00,162 --> 00:05:03,626
+A quick word of caution before
+we move on the use, access or
+
+85
+00:05:03,626 --> 00:05:07,601
+sharing of confidential or
+need to know information externally,
+
+86
+00:05:07,601 --> 00:05:11,996
+including financial and business data,
+user data and information about our
+
+87
+00:05:11,996 --> 00:05:18,070
+products and services is likely prohibited
+unless you're given explicit permission.
+
+88
+00:05:18,070 --> 00:05:22,355
+When using shared work management tools,
+just be mindful of who wants and
+
+89
+00:05:22,355 --> 00:05:23,261
+needs access
+
+90
+00:05:23,261 --> 00:05:28,680
+versus who doesn't need access, to do your
+part in keeping important data safe.
+
+91
+00:05:28,680 --> 00:05:31,877
+There are so many different ways
+to share information to your team,
+
+92
+00:05:31,877 --> 00:05:36,730
+whether if through meetings, emails, instant
+messages, spreadsheets, and trackers.
+
+93
+00:05:36,730 --> 00:05:40,158
+By becoming familiar with some of
+the more common communication tools,
+
+94
+00:05:40,158 --> 00:05:42,639
+you can choose the right one for
+your project needs.
+
+95
+00:05:43,790 --> 00:05:47,310
+Now you've learned a bit more about
+the importance of team communication and
+
+96
+00:05:47,310 --> 00:05:52,140
+some tools that effectively communicate
+and foster collaboration within your team.
+
+97
+00:05:52,140 --> 00:05:54,690
+In the next video,
+we'll learn how to organize and
+
+98
+00:05:54,690 --> 00:05:58,120
+facilitate team meetings
+to ensure project success.
+
+99
+00:05:58,120 --> 00:05:58,700
+I'll meet you there.

@@ -1,0 +1,9 @@
+Dưới đây là các trách nhiệm hành chính và tác nghiệp cụ thể mà bạn cần hoàn tất, 
+một. Đóng toàn bộ các mã tài khoản kế toán và chi phí dự án, Làm việc với phòng kế toán tài chính để khóa các mã số chi phí dự án, đảm bảo không có bất kỳ khoản chi tiêu phát sinh nào tiếp tục bị tính vào ngân sách của dự án đã đóng.
+hai. Giải phóng và tái phân bổ nguồn lực, Chính thức thông báo cho các Trưởng phòng ban chức năng rằng các nhân sự dự án đã hoàn thành nhiệm vụ và sẵn sàng nhận các nhiệm vụ mới. Trả lại các trang thiết bị mượn, phần cứng thử nghiệm hoặc bản quyền phần mềm không còn sử dụng.
+ba. Đóng gói và Lưu trữ tài liệu dự án, tức Project Archiving, Tập hợp toàn bộ kế hoạch dự án, biên bản các cuộc họp, tài liệu thiết kế kiến trúc, hợp đồng nhà cung cấp và mã nguồn phần mềm vào một thư mục lưu trữ tập trung an toàn với cấu trúc thư mục rõ ràng và quyền truy cập được phân cấp chuẩn xác.
+bốn. Soạn thảo Báo cáo Tổng kết Đóng Dự án, tức Project Closeout Report, Đây là văn bản tổng kết chính thức khép lại toàn bộ vòng đời của dự án.
+
+BÀI TẬP THỰC HÀNH MẪU, SOẠN THẢO BÁO CÁO TỔNG KẾT ĐÓNG DỰ ÁN, ACTIVITY EXEMPLAR, CREATE A PROJECT CLOSEOUT REPORT.
+. ......
+Báo cáo Tổng kết Đóng Dự án, tức Project Closeout Report, là tài liệu mang tính bước ngoặt chính thức ghi nhận việc kết thúc của dự án và bàn giao sản phẩm cho tổ chức.

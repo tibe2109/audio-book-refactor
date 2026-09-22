@@ -1,0 +1,981 @@
+{
+  "course_title": "Project Execution: Running the Project",
+  "course_slug": "project-execution-google",
+  "course_id": "ru_BPAp9EeuMRxJm6C8Z2w",
+  "source_url": "https://www.coursera.org/learn/project-execution-google/home/module/1",
+  "modules": [
+    {
+      "module_number": 1,
+      "module_id": "fj3eW",
+      "module_name": "Introduction to project execution",
+      "folder_name": "01 - Introduction to project execution",
+      "description": "You will learn how the course is structured, what aspects of a project to track, and how to track them. You will also learn how to  effectively manage changes, dependencies, and risks and how to communicate critical risks to stakeholders. ",
+      "lessons": [
+        {
+          "lesson_id": "XBlBf",
+          "lesson_name": "Getting started with the course",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 1,
+              "name": "Introduction to Course 4",
+              "id": "XnqAf",
+              "txt_file": "01 - Introduction to project execution/01 - Introduction to Course 4.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/01 - Introduction to Course 4.srt",
+              "word_count": 482
+            },
+            {
+              "type": "supplement",
+              "order": 2,
+              "name": "Course 4 overview",
+              "id": "CUMrZ",
+              "md_file": "01 - Introduction to project execution/02 - Course 4 overview.md",
+              "word_count": 1189
+            },
+            {
+              "type": "supplement",
+              "order": 3,
+              "name": "Helpful resources to get started",
+              "id": "0SA1d",
+              "md_file": "01 - Introduction to project execution/03 - Helpful resources to get started.md",
+              "word_count": 945
+            }
+          ]
+        },
+        {
+          "lesson_id": "yCR7g",
+          "lesson_name": "Tracking and measuring project progress",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 4,
+              "name": "The importance of tracking",
+              "id": "qSjpk",
+              "txt_file": "01 - Introduction to project execution/04 - The importance of tracking.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/04 - The importance of tracking.srt",
+              "word_count": 494
+            },
+            {
+              "type": "lecture",
+              "order": 5,
+              "name": "Common items to track",
+              "id": "UNXx4",
+              "txt_file": "01 - Introduction to project execution/05 - Common items to track.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/05 - Common items to track.srt",
+              "word_count": 389
+            },
+            {
+              "type": "lecture",
+              "order": 6,
+              "name": "Different tracking methods",
+              "id": "7NvgN",
+              "txt_file": "01 - Introduction to project execution/06 - Different tracking methods.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/06 - Different tracking methods.srt",
+              "word_count": 1032
+            },
+            {
+              "type": "lecture",
+              "order": 7,
+              "name": "Belinda: tracking and managing a budget",
+              "id": "poVmN",
+              "txt_file": "01 - Introduction to project execution/07 - Belinda - tracking and managing a budget.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/07 - Belinda - tracking and managing a budget.srt",
+              "word_count": 601
+            },
+            {
+              "type": "supplement",
+              "order": 8,
+              "name": "Choose the right tracking method for your project",
+              "id": "LqgDa",
+              "md_file": "01 - Introduction to project execution/08 - Choose the right tracking method for your project.md",
+              "word_count": 619
+            },
+            {
+              "type": "lecture",
+              "order": 9,
+              "name": "Pranjal: Managing multiple tracks",
+              "id": "pY6tU",
+              "txt_file": "01 - Introduction to project execution/09 - Pranjal - Managing multiple tracks.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/09 - Pranjal - Managing multiple tracks.srt",
+              "word_count": 400
+            },
+            {
+              "type": "supplement",
+              "order": 10,
+              "name": "Project status reports",
+              "id": "OSBtK",
+              "md_file": "01 - Introduction to project execution/10 - Project status reports.md",
+              "word_count": 737
+            },
+            {
+              "type": "supplement",
+              "order": 11,
+              "name": "Activity Exemplar: Build and explain a project status report",
+              "id": "em9mY",
+              "md_file": "01 - Introduction to project execution/11 - Activity Exemplar - Build and explain a project status report.md",
+              "word_count": 384
+            }
+          ]
+        },
+        {
+          "lesson_id": "mLlXL",
+          "lesson_name": "Managing changes, risk and dependencies",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 12,
+              "name": "Why risks and changes occur",
+              "id": "KDV5g",
+              "txt_file": "01 - Introduction to project execution/12 - Why risks and changes occur.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/12 - Why risks and changes occur.srt",
+              "word_count": 1132
+            },
+            {
+              "type": "lecture",
+              "order": 13,
+              "name": "Identifying and tracking dependencies",
+              "id": "7UsB6",
+              "txt_file": "01 - Introduction to project execution/13 - Identifying and tracking dependencies.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/13 - Identifying and tracking dependencies.srt",
+              "word_count": 745
+            },
+            {
+              "type": "lecture",
+              "order": 14,
+              "name": "Techniques to help manage risks",
+              "id": "vpUv2",
+              "txt_file": "01 - Introduction to project execution/14 - Techniques to help manage risks.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/14 - Techniques to help manage risks.srt",
+              "word_count": 733
+            },
+            {
+              "type": "supplement",
+              "order": 15,
+              "name": "Case study: Using risk management tools",
+              "id": "01tL9",
+              "md_file": "01 - Introduction to project execution/15 - Case study - Using risk management tools.md",
+              "word_count": 969
+            },
+            {
+              "type": "supplement",
+              "order": 16,
+              "name": "Activity Exemplar: Put together a ROAM analysis",
+              "id": "ytIvZ",
+              "md_file": "01 - Introduction to project execution/16 - Activity Exemplar - Put together a ROAM analysis.md",
+              "word_count": 357
+            }
+          ]
+        },
+        {
+          "lesson_id": "yV2Rk",
+          "lesson_name": "Communicating issues to stakeholders",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 17,
+              "name": "Escalating issues",
+              "id": "JIUcL",
+              "txt_file": "01 - Introduction to project execution/17 - Escalating issues.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/17 - Escalating issues.srt",
+              "word_count": 569
+            },
+            {
+              "type": "lecture",
+              "order": 18,
+              "name": "Communicating changes to the team",
+              "id": "SsWLT",
+              "txt_file": "01 - Introduction to project execution/18 - Communicating changes to the team.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/18 - Communicating changes to the team.srt",
+              "word_count": 624
+            },
+            {
+              "type": "supplement",
+              "order": 19,
+              "name": "Writing an effective escalation email",
+              "id": "omu3H",
+              "md_file": "01 - Introduction to project execution/19 - Writing an effective escalation email.md",
+              "word_count": 1082
+            }
+          ]
+        },
+        {
+          "lesson_id": "CxkiP",
+          "lesson_name": "Review: Introduction to project execution",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 20,
+              "name": "Wrap-up",
+              "id": "3JLmI",
+              "txt_file": "01 - Introduction to project execution/20 - Wrap-up.txt",
+              "srt_file": "01 - Introduction to project execution/subtitles/20 - Wrap-up.srt",
+              "word_count": 201
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "module_id": "uE3J9",
+      "module_name": "Quality management and continuous improvement",
+      "folder_name": "02 - Quality management and continuous improvement",
+      "description": "You will learn how to manage quality using various techniques. You will learn how to effectively communicate with customers and different ways to measure customer satisfaction. You will also explore continuous improvement and process improvement techniques  and how to conduct a retrospective during the project to improve processes.",
+      "lessons": [
+        {
+          "lesson_id": "IUgBP",
+          "lesson_name": "Understanding quality management",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 1,
+              "name": "Introduction: Quality management and continuous improvement",
+              "id": "aDsNq",
+              "txt_file": "02 - Quality management and continuous improvement/01 - Introduction - Quality management and continuous improvement.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/01 - Introduction - Quality management and continuous improvement.srt",
+              "word_count": 117
+            },
+            {
+              "type": "lecture",
+              "order": 2,
+              "name": "Key quality management concepts",
+              "id": "CkVas",
+              "txt_file": "02 - Quality management and continuous improvement/02 - Key quality management concepts.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/02 - Key quality management concepts.srt",
+              "word_count": 1100
+            },
+            {
+              "type": "supplement",
+              "order": 3,
+              "name": "Recap: Quality management concepts",
+              "id": "fvoTU",
+              "md_file": "02 - Quality management and continuous improvement/03 - Recap - Quality management concepts.md",
+              "word_count": 355
+            },
+            {
+              "type": "lecture",
+              "order": 4,
+              "name": "Fostering customer relationships with communication skills",
+              "id": "dgvPY",
+              "txt_file": "02 - Quality management and continuous improvement/04 - Fostering customer relationships with communication skills.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/04 - Fostering customer relationships with communication skills.srt",
+              "word_count": 1045
+            },
+            {
+              "type": "lecture",
+              "order": 5,
+              "name": "Measuring customer satisfaction",
+              "id": "q3Xnd",
+              "txt_file": "02 - Quality management and continuous improvement/05 - Measuring customer satisfaction.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/05 - Measuring customer satisfaction.srt",
+              "word_count": 891
+            },
+            {
+              "type": "lecture",
+              "order": 6,
+              "name": "Ensuring accessibility during feedback collection",
+              "id": "HUybp",
+              "txt_file": "02 - Quality management and continuous improvement/06 - Ensuring accessibility during feedback collection.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/06 - Ensuring accessibility during feedback collection.srt",
+              "word_count": 449
+            },
+            {
+              "type": "supplement",
+              "order": 7,
+              "name": "User acceptance testing: Goals, best practices, and management",
+              "id": "8Nzb9",
+              "md_file": "02 - Quality management and continuous improvement/07 - User acceptance testing - Goals, best practices, and management.md",
+              "word_count": 943
+            },
+            {
+              "type": "lecture",
+              "order": 8,
+              "name": "Sue: The importance of understanding customer needs",
+              "id": "xw1Od",
+              "txt_file": "02 - Quality management and continuous improvement/08 - Sue - The importance of understanding customer needs.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/08 - Sue - The importance of understanding customer needs.srt",
+              "word_count": 455
+            }
+          ]
+        },
+        {
+          "lesson_id": "nQxf4",
+          "lesson_name": "Pursuing continuous improvement",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 9,
+              "name": "Continuous improvement and process improvement",
+              "id": "SMRvZ",
+              "txt_file": "02 - Quality management and continuous improvement/09 - Continuous improvement and process improvement.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/09 - Continuous improvement and process improvement.srt",
+              "word_count": 541
+            },
+            {
+              "type": "lecture",
+              "order": 10,
+              "name": "Data-driven improvement frameworks",
+              "id": "SrIBt",
+              "txt_file": "02 - Quality management and continuous improvement/10 - Data-driven improvement frameworks.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/10 - Data-driven improvement frameworks.srt",
+              "word_count": 628
+            },
+            {
+              "type": "lecture",
+              "order": 11,
+              "name": "Differentiating projects from programs",
+              "id": "OmwUF",
+              "txt_file": "02 - Quality management and continuous improvement/11 - Differentiating projects from programs.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/11 - Differentiating projects from programs.srt",
+              "word_count": 784
+            },
+            {
+              "type": "lecture",
+              "order": 12,
+              "name": "Jacob: Cultivating a continuous improvement mindset",
+              "id": "Z1baM",
+              "txt_file": "02 - Quality management and continuous improvement/12 - Jacob - Cultivating a continuous improvement mindset.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/12 - Jacob - Cultivating a continuous improvement mindset.srt",
+              "word_count": 545
+            }
+          ]
+        },
+        {
+          "lesson_id": "reEXj",
+          "lesson_name": "Using retrospectives for project success",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 13,
+              "name": "The purpose of a retrospective",
+              "id": "42Dau",
+              "txt_file": "02 - Quality management and continuous improvement/13 - The purpose of a retrospective.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/13 - The purpose of a retrospective.srt",
+              "word_count": 946
+            },
+            {
+              "type": "lecture",
+              "order": 14,
+              "name": "Conducting a retrospective",
+              "id": "LMSU5",
+              "txt_file": "02 - Quality management and continuous improvement/14 - Conducting a retrospective.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/14 - Conducting a retrospective.srt",
+              "word_count": 825
+            },
+            {
+              "type": "lecture",
+              "order": 15,
+              "name": "Gernot: Using retrospectives to get back on track",
+              "id": "g7wA6",
+              "txt_file": "02 - Quality management and continuous improvement/15 - Gernot - Using retrospectives to get back on track.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/15 - Gernot - Using retrospectives to get back on track.srt",
+              "word_count": 536
+            },
+            {
+              "type": "supplement",
+              "order": 16,
+              "name": "Retrospective Template",
+              "id": "Od5DF",
+              "md_file": "02 - Quality management and continuous improvement/16 - Retrospective Template.md",
+              "word_count": 55
+            }
+          ]
+        },
+        {
+          "lesson_id": "uvY9n",
+          "lesson_name": "Review: Quality management and continuous improvement",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 17,
+              "name": "Wrap-up",
+              "id": "RKwIH",
+              "txt_file": "02 - Quality management and continuous improvement/17 - Wrap-up.txt",
+              "srt_file": "02 - Quality management and continuous improvement/subtitles/17 - Wrap-up.srt",
+              "word_count": 172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "module_id": "t9IMC",
+      "module_name": "Data-informed decision-making",
+      "folder_name": "03 - Data-informed decision-making",
+      "description": "You will learn the value of gathering data, how to prioritize data to meet project needs, and how to use data to inform your decision-making. You will also learn how to explain your project data to stakeholders and team members using effective visuals and presentation techniques.",
+      "lessons": [
+        {
+          "lesson_id": "qB5Ej",
+          "lesson_name": "Gathering data for a project",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 1,
+              "name": "Introduction: Data-informed decision-making",
+              "id": "ySZ54",
+              "txt_file": "03 - Data-informed decision-making/01 - Introduction - Data-informed decision-making.txt",
+              "srt_file": "03 - Data-informed decision-making/subtitles/01 - Introduction - Data-informed decision-making.srt",
+              "word_count": 359
+            },
+            {
+              "type": "lecture",
+              "order": 2,
+              "name": "The value of data",
+              "id": "buQDb",
+              "txt_file": "03 - Data-informed decision-making/02 - The value of data.txt",
+              "srt_file": "03 - Data-informed decision-making/subtitles/02 - The value of data.srt",
+              "word_count": 471
+            },
+            {
+              "type": "lecture",
+              "order": 3,
+              "name": "Common types of project data",
+              "id": "K4rQB",
+              "txt_file": "03 - Data-informed decision-making/03 - Common types of project data.txt",
+              "srt_file": "03 - Data-informed decision-making/subtitles/03 - Common types of project data.srt",
+              "word_count": 757
+            },
+            {
+              "type": "supplement",
+              "order": 4,
+              "name": "Common data metrics for project management",
+              "id": "ctnBb",
+              "md_file": "03 - Data-informed decision-making/04 - Common data metrics for project management.md",
+              "word_count": 1783
+            }
+          ]
+        },
+        {
+          "lesson_id": "0ELDo",
+          "lesson_name": "Prioritizing and analyzing data",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 5,
+              "name": "Discerning important data",
+              "id": "ei8ec",
+              "txt_file": "03 - Data-informed decision-making/05 - Discerning important data.txt",
+              "srt_file": "03 - Data-informed decision-making/subtitles/05 - Discerning important data.srt",
+              "word_count": 795
+            },
+            {
+              "type": "supplement",
+              "order": 6,
+              "name": "Data ethics considerations",
+              "id": "hTEoP",
+              "md_file": "03 - Data-informed decision-making/06 - Data ethics considerations.md",
+              "word_count": 1042
+            },
+            {
+              "type": "lecture",
+              "order": 7,
+              "name": "Using data analysis to inform decisions",
+              "id": "m0j71",
+              "txt_file": "03 - Data-informed decision-making/07 - Using data analysis to inform decisions.txt",
+              "srt_file": "03 - Data-informed decision-making/subtitles/07 - Using data analysis to inform decisions.srt",
+              "word_count": 575
+            },
+            {
+              "type": "supplement",
+              "order": 8,
+              "name": "The six steps of data analysis",
+              "id": "LGs1v",
+              "md_file": "03 - Data-informed decision-making/08 - The six steps of data analysis.md",
+              "word_count": 937
+            }
+          ]
+        },
+        {
+          "lesson_id": "GiMmw",
+          "lesson_name": "Presenting and visualizing data",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 9,
+              "name": "Presenting data to tell a project's story",
+              "id": "5GZzH",
+              "txt_file": "03 - Data-informed decision-making/09 - Presenting data to tell a project's story.txt",
+              "srt_file": "03 - Data-informed decision-making/subtitles/09 - Presenting data to tell a project's story.srt",
+              "word_count": 928
+            },
+            {
+              "type": "lecture",
+              "order": 10,
+              "name": "Data visualization tools",
+              "id": "vKr58",
+              "txt_file": "03 - Data-informed decision-making/10 - Data visualization tools.txt",
+              "srt_file": "03 - Data-informed decision-making/subtitles/10 - Data visualization tools.srt",
+              "word_count": 900
+            },
+            {
+              "type": "supplement",
+              "order": 11,
+              "name": "Different ways to visualize data",
+              "id": "oqOzz",
+              "md_file": "03 - Data-informed decision-making/11 - Different ways to visualize data.md",
+              "word_count": 835
+            },
+            {
+              "type": "lecture",
+              "order": 12,
+              "name": "Effective presentation techniques",
+              "id": "GFzAA",
+              "txt_file": "03 - Data-informed decision-making/12 - Effective presentation techniques.txt",
+              "srt_file": "03 - Data-informed decision-making/subtitles/12 - Effective presentation techniques.srt",
+              "word_count": 788
+            },
+            {
+              "type": "supplement",
+              "order": 13,
+              "name": "Preparing an effective presentation",
+              "id": "qz5H4",
+              "md_file": "03 - Data-informed decision-making/13 - Preparing an effective presentation.md",
+              "word_count": 683
+            },
+            {
+              "type": "lecture",
+              "order": 14,
+              "name": "Making presentations accessible",
+              "id": "IEEnf",
+              "txt_file": "03 - Data-informed decision-making/14 - Making presentations accessible.txt",
+              "srt_file": "03 - Data-informed decision-making/subtitles/14 - Making presentations accessible.srt",
+              "word_count": 892
+            },
+            {
+              "type": "supplement",
+              "order": 15,
+              "name": "Activity Exemplar: Create a presentation ",
+              "id": "FAp8g",
+              "md_file": "03 - Data-informed decision-making/15 - Activity Exemplar - Create a presentation.md",
+              "word_count": 385
+            }
+          ]
+        },
+        {
+          "lesson_id": "6gpUw",
+          "lesson_name": "Review: Data-informed Decision-making",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 16,
+              "name": "Wrap-up",
+              "id": "QPRwt",
+              "txt_file": "03 - Data-informed decision-making/16 - Wrap-up.txt",
+              "srt_file": "03 - Data-informed decision-making/subtitles/16 - Wrap-up.srt",
+              "word_count": 196
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "module_id": "wyFgi",
+      "module_name": "Leadership and influencing skills",
+      "folder_name": "04 - Leadership and influencing skills",
+      "description": "You will learn the factors that influence team effectiveness, the stages of team development, and how to manage team dynamics. You will discover how to create an ethical and inclusive environment in which high-functioning teams work together to achieve project goals.  You will also explore how to use different techniques and sources of power to influence others.",
+      "lessons": [
+        {
+          "lesson_id": "CJBUt",
+          "lesson_name": "Cultivating effective teams",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 1,
+              "name": "Introduction: Leadership and influencing skills",
+              "id": "rPVZ3",
+              "txt_file": "04 - Leadership and influencing skills/01 - Introduction - Leadership and influencing skills.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/01 - Introduction - Leadership and influencing skills.srt",
+              "word_count": 74
+            },
+            {
+              "type": "lecture",
+              "order": 2,
+              "name": "The necessity of project teamwork",
+              "id": "u9qHH",
+              "txt_file": "04 - Leadership and influencing skills/02 - The necessity of project teamwork.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/02 - The necessity of project teamwork.srt",
+              "word_count": 620
+            },
+            {
+              "type": "lecture",
+              "order": 3,
+              "name": "The factors that impact team effectiveness",
+              "id": "Ml2Rl",
+              "txt_file": "04 - Leadership and influencing skills/03 - The factors that impact team effectiveness.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/03 - The factors that impact team effectiveness.srt",
+              "word_count": 809
+            }
+          ]
+        },
+        {
+          "lesson_id": "FFo31",
+          "lesson_name": "Effective project leadership",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 4,
+              "name": "Leading high-functioning teams",
+              "id": "rZiIU",
+              "txt_file": "04 - Leadership and influencing skills/04 - Leading high-functioning teams.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/04 - Leading high-functioning teams.srt",
+              "word_count": 1074
+            },
+            {
+              "type": "supplement",
+              "order": 5,
+              "name": "Providing “air cover” to your team",
+              "id": "gH4jD",
+              "md_file": "04 - Leadership and influencing skills/05 - Providing “air cover” to your team.md",
+              "word_count": 1084
+            },
+            {
+              "type": "lecture",
+              "order": 6,
+              "name": "Emilio: Learning to lead",
+              "id": "sSwlO",
+              "txt_file": "04 - Leadership and influencing skills/06 - Emilio - Learning to lead.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/06 - Emilio - Learning to lead.srt",
+              "word_count": 358
+            },
+            {
+              "type": "lecture",
+              "order": 7,
+              "name": "Team development and managing team dynamics",
+              "id": "xmpQZ",
+              "txt_file": "04 - Leadership and influencing skills/07 - Team development and managing team dynamics.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/07 - Team development and managing team dynamics.srt",
+              "word_count": 952
+            },
+            {
+              "type": "lecture",
+              "order": 8,
+              "name": "Rowena: Delegating the details",
+              "id": "svUo1",
+              "txt_file": "04 - Leadership and influencing skills/08 - Rowena - Delegating the details.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/08 - Rowena - Delegating the details.srt",
+              "word_count": 505
+            },
+            {
+              "type": "lecture",
+              "order": 9,
+              "name": "Ethical and inclusive leadership",
+              "id": "u5Fle",
+              "txt_file": "04 - Leadership and influencing skills/09 - Ethical and inclusive leadership.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/09 - Ethical and inclusive leadership.srt",
+              "word_count": 706
+            },
+            {
+              "type": "supplement",
+              "order": 10,
+              "name": "A framework for ethical decision-making",
+              "id": "ab8b6",
+              "md_file": "04 - Leadership and influencing skills/10 - A framework for ethical decision-making.md",
+              "word_count": 833
+            }
+          ]
+        },
+        {
+          "lesson_id": "dCJvr",
+          "lesson_name": "The elements of influencing",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 11,
+              "name": "Steps to effective influencing",
+              "id": "ePcFv",
+              "txt_file": "04 - Leadership and influencing skills/11 - Steps to effective influencing.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/11 - Steps to effective influencing.srt",
+              "word_count": 990
+            },
+            {
+              "type": "lecture",
+              "order": 12,
+              "name": "Using sources of power to influence",
+              "id": "ZDbfm",
+              "txt_file": "04 - Leadership and influencing skills/12 - Using sources of power to influence.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/12 - Using sources of power to influence.srt",
+              "word_count": 1025
+            },
+            {
+              "type": "lecture",
+              "order": 13,
+              "name": "Chris: Influencing others by demonstrating project impact",
+              "id": "QWwBL",
+              "txt_file": "04 - Leadership and influencing skills/13 - Chris - Influencing others by demonstrating project impact.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/13 - Chris - Influencing others by demonstrating project impact.srt",
+              "word_count": 614
+            },
+            {
+              "type": "supplement",
+              "order": 14,
+              "name": "Creating an effective influencing statement",
+              "id": "vxnJo",
+              "md_file": "04 - Leadership and influencing skills/14 - Creating an effective influencing statement.md",
+              "word_count": 1182
+            }
+          ]
+        },
+        {
+          "lesson_id": "YxFha",
+          "lesson_name": "Review: Leadership and influencing skills",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 15,
+              "name": "Wrap-up",
+              "id": "I3p91",
+              "txt_file": "04 - Leadership and influencing skills/15 - Wrap-up.txt",
+              "srt_file": "04 - Leadership and influencing skills/subtitles/15 - Wrap-up.srt",
+              "word_count": 161
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "module_id": "i8Q6k",
+      "module_name": "Effective project communication",
+      "folder_name": "05 - Effective project communication",
+      "description": "You will learn what tools provide effective project team communication, how to organize and facilitate meetings to ensure project success, and how to effectively communicate project status updates to project stakeholders and team members.",
+      "lessons": [
+        {
+          "lesson_id": "WzqMa",
+          "lesson_name": "Communication tools and techniques",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 1,
+              "name": "Introduction: Effective project communication",
+              "id": "1PNiC",
+              "txt_file": "05 - Effective project communication/01 - Introduction - Effective project communication.txt",
+              "srt_file": "05 - Effective project communication/subtitles/01 - Introduction - Effective project communication.srt",
+              "word_count": 73
+            },
+            {
+              "type": "lecture",
+              "order": 2,
+              "name": "Communicating in different ways",
+              "id": "tlFJ8",
+              "txt_file": "05 - Effective project communication/02 - Communicating in different ways.txt",
+              "srt_file": "05 - Effective project communication/subtitles/02 - Communicating in different ways.srt",
+              "word_count": 427
+            },
+            {
+              "type": "supplement",
+              "order": 3,
+              "name": "Principles of effective email writing",
+              "id": "xyxE6",
+              "md_file": "05 - Effective project communication/03 - Principles of effective email writing.md",
+              "word_count": 1068
+            },
+            {
+              "type": "lecture",
+              "order": 4,
+              "name": "Common communication tools ",
+              "id": "8rH7d",
+              "txt_file": "05 - Effective project communication/04 - Common communication tools.txt",
+              "srt_file": "05 - Effective project communication/subtitles/04 - Common communication tools.srt",
+              "word_count": 996
+            }
+          ]
+        },
+        {
+          "lesson_id": "XGMgK",
+          "lesson_name": "Organizing and facilitating project meetings",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 5,
+              "name": "How to organize effective meetings",
+              "id": "0BYg4",
+              "txt_file": "05 - Effective project communication/05 - How to organize effective meetings.txt",
+              "srt_file": "05 - Effective project communication/subtitles/05 - How to organize effective meetings.srt",
+              "word_count": 1345
+            },
+            {
+              "type": "supplement",
+              "order": 6,
+              "name": "Facilitating inclusive and accessible meetings",
+              "id": "6Ypg2",
+              "md_file": "05 - Effective project communication/06 - Facilitating inclusive and accessible meetings.md",
+              "word_count": 1158
+            },
+            {
+              "type": "supplement",
+              "order": 7,
+              "name": "Checklist for productive meetings",
+              "id": "eMpLs",
+              "md_file": "05 - Effective project communication/07 - Checklist for productive meetings.md",
+              "word_count": 554
+            },
+            {
+              "type": "lecture",
+              "order": 8,
+              "name": "Common types of project meetings",
+              "id": "hA97w",
+              "txt_file": "05 - Effective project communication/08 - Common types of project meetings.txt",
+              "srt_file": "05 - Effective project communication/subtitles/08 - Common types of project meetings.srt",
+              "word_count": 1206
+            }
+          ]
+        },
+        {
+          "lesson_id": "IoFjt",
+          "lesson_name": "Review: Effective project communication",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 9,
+              "name": "Wrap-up",
+              "id": "RVIak",
+              "txt_file": "05 - Effective project communication/09 - Wrap-up.txt",
+              "srt_file": "05 - Effective project communication/subtitles/09 - Wrap-up.srt",
+              "word_count": 103
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module_number": 6,
+      "module_id": "5I8uk",
+      "module_name": "Closing a project",
+      "folder_name": "06 - Closing a project",
+      "description": "You will learn how to determine when a project is finished and why closing a project is important. You will examine the steps of the closing process and how to create and share project closing documentation. ",
+      "lessons": [
+        {
+          "lesson_id": "jw6tw",
+          "lesson_name": "Understanding project closure",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 1,
+              "name": "Introduction: Closing a project",
+              "id": "5c4fp",
+              "txt_file": "06 - Closing a project/01 - Introduction - Closing a project.txt",
+              "srt_file": "06 - Closing a project/subtitles/01 - Introduction - Closing a project.srt",
+              "word_count": 206
+            },
+            {
+              "type": "lecture",
+              "order": 2,
+              "name": "The importance of project closure",
+              "id": "JAn1g",
+              "txt_file": "06 - Closing a project/02 - The importance of project closure.txt",
+              "srt_file": "06 - Closing a project/subtitles/02 - The importance of project closure.srt",
+              "word_count": 800
+            },
+            {
+              "type": "supplement",
+              "order": 3,
+              "name": "Case study: The impact of skipping project closure steps",
+              "id": "IXwBL",
+              "md_file": "06 - Closing a project/03 - Case study - The impact of skipping project closure steps.md",
+              "word_count": 753
+            }
+          ]
+        },
+        {
+          "lesson_id": "A9Rqg",
+          "lesson_name": "The steps of the closing process",
+          "items": [
+            {
+              "type": "lecture",
+              "order": 4,
+              "name": "The closing process for clients and stakeholders",
+              "id": "t61mX",
+              "txt_file": "06 - Closing a project/04 - The closing process for clients and stakeholders.txt",
+              "srt_file": "06 - Closing a project/subtitles/04 - The closing process for clients and stakeholders.srt",
+              "word_count": 1134
+            },
+            {
+              "type": "supplement",
+              "order": 5,
+              "name": "Demonstrating project impact to stakeholders",
+              "id": "etOc4",
+              "md_file": "06 - Closing a project/05 - Demonstrating project impact to stakeholders.md",
+              "word_count": 743
+            },
+            {
+              "type": "lecture",
+              "order": 6,
+              "name": "The closing process for the team ",
+              "id": "nxKrQ",
+              "txt_file": "06 - Closing a project/06 - The closing process for the team.txt",
+              "srt_file": "06 - Closing a project/subtitles/06 - The closing process for the team.srt",
+              "word_count": 613
+            },
+            {
+              "type": "lecture",
+              "order": 7,
+              "name": "Sarah: Why I love retrospectives",
+              "id": "igW8g",
+              "txt_file": "06 - Closing a project/07 - Sarah - Why I love retrospectives.txt",
+              "srt_file": "06 - Closing a project/subtitles/07 - Sarah - Why I love retrospectives.srt",
+              "word_count": 464
+            },
+            {
+              "type": "lecture",
+              "order": 8,
+              "name": "The closing process for the project manager",
+              "id": "XpTp0",
+              "txt_file": "06 - Closing a project/08 - The closing process for the project manager.txt",
+              "srt_file": "06 - Closing a project/subtitles/08 - The closing process for the project manager.srt",
+              "word_count": 710
+            },
+            {
+              "type": "supplement",
+              "order": 9,
+              "name": "Activity Exemplar: Create a project closeout report",
+              "id": "MLiAM",
+              "md_file": "06 - Closing a project/09 - Activity Exemplar - Create a project closeout report.md",
+              "word_count": 344
+            }
+          ]
+        },
+        {
+          "lesson_id": "NgjA5",
+          "lesson_name": "Course review: Project Execution: Running the Project",
+          "items": [
+            {
+              "type": "supplement",
+              "order": 10,
+              "name": "Reflect and connect with your peers",
+              "id": "IAMKN",
+              "md_file": "06 - Closing a project/10 - Reflect and connect with your peers.md",
+              "word_count": 83
+            },
+            {
+              "type": "lecture",
+              "order": 11,
+              "name": "Course wrap-up",
+              "id": "HNDbZ",
+              "txt_file": "06 - Closing a project/11 - Course wrap-up.txt",
+              "srt_file": "06 - Closing a project/subtitles/11 - Course wrap-up.srt",
+              "word_count": 355
+            },
+            {
+              "type": "supplement",
+              "order": 12,
+              "name": "Course 4 glossary",
+              "id": "bKssZ",
+              "md_file": "06 - Closing a project/12 - Course 4 glossary.md",
+              "word_count": 77
+            },
+            {
+              "type": "supplement",
+              "order": 13,
+              "name": "Getting started on Course 5",
+              "id": "XDgSN",
+              "md_file": "06 - Closing a project/13 - Getting started on Course 5.md",
+              "word_count": 68
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

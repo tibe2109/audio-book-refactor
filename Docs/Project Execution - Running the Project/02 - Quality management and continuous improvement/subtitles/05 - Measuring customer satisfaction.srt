@@ -1,0 +1,431 @@
+1
+00:00:01,290 --> 00:00:06,327
+Hi again! As promised, we're going to
+discuss user testing and feedback.
+
+2
+00:00:06,327 --> 00:00:11,282
+If the end goal of our project is to have
+a great quality product or service for
+
+3
+00:00:11,282 --> 00:00:14,225
+both our own organization and
+our customer,
+
+4
+00:00:14,225 --> 00:00:18,350
+we need to get an idea of
+what the customer wants.
+
+5
+00:00:18,350 --> 00:00:21,954
+We already learned how to make sure
+something is high quality on our end.
+
+6
+00:00:21,954 --> 00:00:26,310
+Now let's find out how to measure what
+clients want, so we can meet their needs,
+
+7
+00:00:26,310 --> 00:00:28,160
+expectations, and standards.
+
+8
+00:00:29,500 --> 00:00:34,307
+The best way to get an idea of what
+customers and users want is to ask them,
+
+9
+00:00:34,307 --> 00:00:37,440
+but we don't mean calling each
+of them up on the phone and
+
+10
+00:00:37,440 --> 00:00:41,049
+literally asking them. That might
+not be the best use of our time.
+
+11
+00:00:41,049 --> 00:00:45,220
+Fortunately, there are a few ways
+we can streamline that information.
+
+12
+00:00:45,220 --> 00:00:49,965
+We can conduct a series of surveys or
+tests with customers and users.
+
+13
+00:00:49,965 --> 00:00:54,531
+Some common ones are feedback surveys and
+user acceptance tests.
+
+14
+00:00:54,531 --> 00:00:56,404
+Let's start with feedback surveys.
+
+15
+00:00:56,404 --> 00:01:01,297
+Feedback surveys are a survey in which
+users provide feedback on features of
+
+16
+00:01:01,297 --> 00:01:03,903
+your product that they like or dislike.
+
+17
+00:01:03,903 --> 00:01:06,382
+These surveys can take
+place as you design,
+
+18
+00:01:06,382 --> 00:01:10,951
+before you launch, in order to find out if
+people like and understand the product,
+
+19
+00:01:10,951 --> 00:01:15,436
+or after you've launched, if you want to
+make sure the user experience is even
+
+20
+00:01:15,436 --> 00:01:16,570
+more satisfying.
+
+21
+00:01:17,900 --> 00:01:19,961
+So your users participate in a survey and
+
+22
+00:01:19,961 --> 00:01:22,880
+give you feedback on what
+features they like or dislike,
+
+23
+00:01:22,880 --> 00:01:26,620
+and potentially, which aspects
+they find to be fairly intuitive,
+
+24
+00:01:26,620 --> 00:01:28,945
+and which aspects are a little
+tougher to navigate.
+
+25
+00:01:28,945 --> 00:01:33,461
+After you get that feedback, you'll either
+be good to launch, if you haven't yet,
+
+26
+00:01:33,461 --> 00:01:37,605
+or you'll go back and iterate on
+the product, if it's already on the market.
+
+27
+00:01:37,605 --> 00:01:41,900
+Alternatively, you might
+conduct user acceptance tests.
+
+28
+00:01:41,900 --> 00:01:46,616
+In broader terms, a user acceptance test,
+or a UAT, is a test that helps
+
+29
+00:01:46,616 --> 00:01:51,430
+a business make sure that a product or
+solution works for its users.
+
+30
+00:01:51,430 --> 00:01:54,421
+A UAT must meet the agreed
+upon requirements and
+
+31
+00:01:54,421 --> 00:01:56,450
+deliver the expected results.
+
+32
+00:01:56,450 --> 00:02:00,920
+This test is typically used to
+assess the end-to-end experience for
+
+33
+00:02:00,920 --> 00:02:03,448
+the user of a new process or product.
+
+34
+00:02:03,448 --> 00:02:07,987
+A user acceptance test is incredibly
+important because it takes place near
+
+35
+00:02:07,987 --> 00:02:10,083
+the end of a product's development,
+
+36
+00:02:10,083 --> 00:02:14,317
+and therefore, is an overall user
+experience test of the entire product,
+
+37
+00:02:14,317 --> 00:02:15,546
+software, or service.
+
+38
+00:02:15,546 --> 00:02:19,452
+UATs are sometimes
+referred to as "beta tests."
+
+39
+00:02:19,452 --> 00:02:23,460
+Let's find out what a user acceptance
+test agenda might look like.
+
+40
+00:02:23,460 --> 00:02:27,044
+In a typical UAT setting,
+you'll welcome your users and
+
+41
+00:02:27,044 --> 00:02:29,069
+thank them for participating.
+
+42
+00:02:29,069 --> 00:02:31,692
+Then, you'll present the product to them.
+
+43
+00:02:31,692 --> 00:02:34,618
+This includes discussing
+testing guidelines and
+
+44
+00:02:34,618 --> 00:02:36,923
+demonstrating how the product works.
+
+45
+00:02:36,923 --> 00:02:39,594
+Next, you'll start your UAT test cases,
+
+46
+00:02:39,594 --> 00:02:43,092
+taking your audience through
+critical user journeys.
+
+47
+00:02:43,092 --> 00:02:48,031
+A critical user journey is a sequence
+of steps a user follows to accomplish
+
+48
+00:02:48,031 --> 00:02:49,633
+tasks in your product.
+
+49
+00:02:49,633 --> 00:02:54,137
+When presenting something you've built,
+you must give users a visual
+
+50
+00:02:54,137 --> 00:02:58,732
+representation or mock up of your
+product or have them go through a demo.
+
+51
+00:02:58,732 --> 00:03:02,276
+For example, if you're working on
+a construction-based project and
+
+52
+00:03:02,276 --> 00:03:05,513
+you intend to replace all appliances and
+hardware in the home,
+
+53
+00:03:05,513 --> 00:03:09,133
+you'll want to give the user some sort
+of vision of what that might entail.
+
+54
+00:03:09,133 --> 00:03:14,732
+This could include 3D models,
+digital blueprints, samples, and more.
+
+55
+00:03:14,732 --> 00:03:18,264
+Your UAT demo should focus
+on a call to action.
+
+56
+00:03:18,264 --> 00:03:20,474
+For instance, the call to action for
+
+57
+00:03:20,474 --> 00:03:24,833
+your project may be the need to test
+hardware in the client's future home.
+
+58
+00:03:24,833 --> 00:03:28,869
+Maybe the homeowners have requested a
+dishwasher that can be opened and
+
+59
+00:03:28,869 --> 00:03:32,453
+closed with very little force and
+doesn't make too much noise.
+
+60
+00:03:32,453 --> 00:03:33,359
+In that case,
+
+61
+00:03:33,359 --> 00:03:37,742
+you'll want to give the client real-life scenarios to work within.
+
+62
+00:03:37,742 --> 00:03:40,879
+Ask them to load the dishes and
+start the wash cycle.
+
+63
+00:03:40,879 --> 00:03:45,900
+Then ask questions like, "On a scale of
+one to 10, how much force was required to
+
+64
+00:03:45,900 --> 00:03:51,486
+open and close the dishwasher?" to determine if the washer meets their expectations.
+
+65
+00:03:51,486 --> 00:03:54,387
+During your presentation and
+walkthrough of the UAT,
+
+66
+00:03:54,387 --> 00:03:58,911
+you should be collecting feedback from
+the users on their overall experience.
+
+67
+00:03:58,911 --> 00:04:00,624
+During this part of testing,
+
+68
+00:04:00,624 --> 00:04:04,598
+your users will be able to help you
+identify edge cases. Edge cases
+
+69
+00:04:04,598 --> 00:04:08,721
+are rare—outliers that the original
+requirements didn't account for.
+
+70
+00:04:08,721 --> 00:04:13,152
+They deal with the extreme maximums and
+minimums of parameters.
+
+71
+00:04:13,152 --> 00:04:16,704
+For example, imagine that you
+created an app that allows for
+
+72
+00:04:16,704 --> 00:04:18,306
+unlimited photo uploads,
+
+73
+00:04:18,306 --> 00:04:23,331
+knowing that users will rarely upload more
+than 1000 photos in a single session.
+
+74
+00:04:23,331 --> 00:04:27,917
+How will the system deal with someone
+who actually does upload thousands of
+
+75
+00:04:27,917 --> 00:04:30,332
+photos, or millions, in a single upload?
+
+76
+00:04:30,332 --> 00:04:33,751
+It's unlikely, but
+it could be disastrous for your software.
+
+77
+00:04:33,751 --> 00:04:38,471
+After identifying edge cases, the last
+step of the UAT agenda is to recap
+
+78
+00:04:38,471 --> 00:04:41,431
+your findings, identify bugs or issues, and
+
+79
+00:04:41,431 --> 00:04:45,040
+prioritize which issues
+need to be addressed first.
+
+80
+00:04:45,040 --> 00:04:48,546
+When you've addressed the issue and
+determined next steps,
+
+81
+00:04:48,546 --> 00:04:52,403
+you'll be able close and
+conclude your user acceptance testing.
+
+82
+00:04:52,403 --> 00:04:54,033
+And there you have it!
+
+83
+00:04:54,033 --> 00:04:57,958
+So we've learned a bit more about the
+importance of listening to feedback from
+
+84
+00:04:57,958 --> 00:04:58,619
+customers
+
+85
+00:04:58,619 --> 00:05:03,194
+and discussed some common methods for
+measuring customer satisfaction, like
+
+86
+00:05:03,194 --> 00:05:06,793
+feedback surveys,
+user acceptance tests, and edge cases.
+
+87
+00:05:06,793 --> 00:05:08,072
+That's a lot to learn.
+
+88
+00:05:08,072 --> 00:05:08,893
+Keep it up!
+
+89
+00:05:08,893 --> 00:05:10,798
+You're doing great so far!
+
+90
+00:05:10,798 --> 00:05:14,885
+In our next video, we'll pivot to
+identifying reasons why risks and
+
+91
+00:05:14,885 --> 00:05:18,014
+changes might occur and
+how to manage dependencies.
+
+92
+00:05:18,014 --> 00:05:18,690
+I'll see you soon.

@@ -1,0 +1,12 @@
+Thứ năm, tối ưu hóa độ tương phản và kích thước chữ viết, 
+Một điều quan trọng khác cần ghi nhớ là đối với độ tương phản và kích thước chữ, càng nhiều thì càng tốt. Sự khác biệt giữa chữ viết và màu nền của nó được gọi là tỷ lệ tương phản Contrast Ratio. Tỷ lệ tương phản cao giúp mọi người dễ dàng đọc văn bản hoặc giải mã hình ảnh hơn, đặc biệt nếu họ đang ngồi ở khoảng cách xa hoặc có thị lực kém hay bị mù màu. Tỷ lệ tương phản lý tưởng là bảy trên một, tức bảy, một. Hiện có rất nhiều công cụ kiểm tra độ tương phản trực tuyến miễn phí, vì vậy, bạn hãy chắc chắn kiểm tra thử.
+Các khuyến nghị về kích thước chữ có thể khác nhau, nhưng nhìn chung, chữ càng to càng tốt. Trước khi bài thuyết trình bắt đầu, bạn hãy đi xuống tận cuối khán phòng và nhìn lên màn hình để chắc chắn rằng bạn có thể đọc rõ các trang chiếu của mình. Ngoài ra, việc sử dụng toàn bộ chữ in hoa All Caps sẽ khiến việc đọc văn bản trở nên khó khăn hơn đối với một số người, chẳng hạn như những người mắc chứng khó đọc Dyslexia. Khi có thể, hãy tránh viết hoa toàn bộ cả đoạn văn dài. Đây là một thay đổi rất đơn giản nhưng mang lại hiệu quả to lớn.
+
+Thứ sáu, chia sẻ nội dung bài thuyết trình từ trước, 
+Mẹo cuối cùng của tôi là hãy chia sẻ nội dung của bạn trước buổi họp. Nếu có thể, hãy gửi các trang chiếu cho khán giả của bạn vài ngày trước buổi thuyết trình. Điều này cho khán giả cơ hội xem trước nội dung, và nếu cần thiết, họ có thể sắp xếp để đáp ứng các nhu cầu và sở thích riêng của họ. Ví dụ, những khán giả khiếm thị có thể muốn theo dõi các trang chiếu trên thiết bị cá nhân của họ bằng phần mềm đọc màn hình.
+Nếu bạn không thể chia sẻ trước toàn bộ các trang chiếu, hãy cân nhắc việc gửi một tài liệu với dàn ý các gạch đầu dòng của bài thuyết trình. Nếu bạn đang sử dụng các từ viết tắt, thuật ngữ kỹ thuật hoặc thuật ngữ trừu tượng khó hiểu, hãy đưa vào một bảng thuật ngữ Glossary kèm theo các định nghĩa rõ ràng. Thông tin này đặc biệt hữu ích cho những người phiên dịch ngôn ngữ ký hiệu và những người gõ phụ đề.
+
+Tất cả những thực hành tốt nhất mà bạn vừa học sẽ giúp làm cho các bài thuyết trình của bạn trở nên dễ tiếp cận đối với tất cả các thành viên trong khán giả của bạn. Hãy nhớ rằng, Bạn không thể truyền đạt thông tin một cách hiệu quả nếu khán giả của bạn không thể tiếp cận nó một cách dễ dàng!
+
+BÀI TẬP THỰC HÀNH MẪU, THIẾT KẾ BÀI THUYẾT TRÌNH DỰ ÁN, ACTIVITY EXEMPLAR, CREATE A PRESENTATION.
+. ......

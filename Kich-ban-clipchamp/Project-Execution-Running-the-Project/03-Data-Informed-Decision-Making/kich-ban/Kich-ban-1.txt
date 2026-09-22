@@ -1,0 +1,19 @@
+HỌC PHẦN BA, RA QUYẾT ĐỊNH DỰA TRÊN DỮ LIỆU, DATA-INFORMED DECISION-MAKING.
+. ......
+LỜI MỞ ĐẦU, RA QUYẾT ĐỊNH DỰA TRÊN DỮ LIỆU, INTRODUCTION, DATA-INFORMED DECISION-MAKING.
+. ......
+Chào mừng bạn đã quay trở lại với khóa học Thực thi Dự án! Cho đến thời điểm này, chúng ta đã cùng nhau thảo luận rất chi tiết về cách theo dõi và đo lường tiến độ của dự án. Chúng ta cũng đã tìm hiểu sâu sắc về cách quản lý chất lượng thông qua nhiều kỹ thuật chuyên sâu khác nhau, cũng như những lợi ích to lớn của triết lý cải tiến liên tục.
+
+Giờ đây, tôi rất hào hứng được dẫn dắt bạn bước vào một chủ đề mang tính đột phá và là trái tim của mọi tổ chức hiện đại, Dữ liệu và Nghệ thuật ra quyết định dựa trên dữ liệu, tức Data-Informed Decision-Making.
+
+Trong học phần này, bạn sẽ khám phá cách mà dữ liệu tác động mạnh mẽ đến các quyết định chiến lược và tác nghiệp xuyên suốt hành trình dự án. Bạn sẽ hiểu được giá trị to lớn của dữ liệu đối với một Project Manager, nhận diện các loại dữ liệu và số liệu đo lường phổ biến, đồng thời, học cách chọn lọc thông tin quan trọng nhất để không bị choáng ngợp trong biển thông tin.
+
+Đặc biệt, chúng ta sẽ cùng nhau nắm vững sáu bước phân tích dữ liệu chuẩn mực của Google, cách trực quan hóa dữ liệu bằng các biểu đồ trực quan sinh động, và bí quyết kể một câu chuyện thuyết phục bằng dữ liệu để truyền cảm hứng cho các bên liên quan. Chúng ta cũng sẽ tìm hiểu về đạo đức dữ liệu và cách thiết kế bài thuyết trình dễ tiếp cận cho tất cả mọi người. Hãy cùng tôi bắt đầu ngay bài học đầu tiên!
+
+GIÁ TRỊ TO LỚN CỦA DỮ LIỆU, THE VALUE OF DATA.
+. ......
+Trong bài học này, chúng ta sẽ cùng nhau giải thích giá trị to lớn của dữ liệu và cách nó tác động sâu sắc đến sự thành bại của các dự án mà bạn phụ trách. Chúng ta cũng sẽ tìm hiểu phương thức sử dụng dữ liệu để giao tiếp minh bạch, thuyết phục và hiệu quả với các bên liên quan.
+
+Dữ liệu ngày nay thực sự là một ngành kinh doanh khổng lồ. Mỗi ngày trên thế giới có tới hai phẩy năm nghìn tỷ tỷ byte dữ liệu được tạo ra, tức hai phẩy năm quintillion bytes. Đó là một khối lượng dữ liệu và thông tin khổng lồ vượt xa sức tưởng tượng của con người! Nhưng trước hết, chúng ta hãy bắt đầu bằng việc thảo luận xem dữ liệu thực chất là gì.
+
+Dữ liệu, tức Data, là một tập hợp các sự thật, thông tin thô, quan sát hoặc số liệu được thu thập lại. Thông qua quá trình phân tích dữ liệu, bạn sẽ học cách biến những sự thật thô ráp đó thành những kết luận có giá trị, đưa ra các dự đoán chuẩn xác và ban hành những quyết định đúng đắn.

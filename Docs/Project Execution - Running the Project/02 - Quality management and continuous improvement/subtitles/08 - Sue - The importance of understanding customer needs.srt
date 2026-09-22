@@ -1,0 +1,318 @@
+1
+00:00:03,560 --> 00:00:05,925
+Hi. I'm Sue.
+
+2
+00:00:05,925 --> 00:00:07,635
+I'm a technical program manager
+
+3
+00:00:07,635 --> 00:00:09,775
+for Google's support platform.
+
+4
+00:00:09,775 --> 00:00:13,290
+A technical program
+manager is responsible
+
+5
+00:00:13,290 --> 00:00:15,480
+for making sure the team
+
+6
+00:00:15,480 --> 00:00:18,090
+delivers on what
+it sets out to do.
+
+7
+00:00:18,090 --> 00:00:21,375
+That means pulling together
+
+8
+00:00:21,375 --> 00:00:24,940
+a lot of different
+capabilities and
+
+9
+00:00:24,940 --> 00:00:28,310
+deliverables coming
+from across many teams
+
+10
+00:00:28,310 --> 00:00:30,275
+to pull together a product
+
+11
+00:00:30,275 --> 00:00:32,120
+that we deliver to our customers.
+
+12
+00:00:32,120 --> 00:00:33,890
+Without customers,
+
+13
+00:00:33,890 --> 00:00:37,790
+there's really no reason
+to be building anything.
+
+14
+00:00:37,790 --> 00:00:40,730
+And what's interesting about building
+
+15
+00:00:40,730 --> 00:00:43,970
+projects and working with
+customers and trying
+
+16
+00:00:43,970 --> 00:00:46,715
+to imagine what they want,
+
+17
+00:00:46,715 --> 00:00:50,255
+is it puts you in this
+really unique place
+
+18
+00:00:50,255 --> 00:00:53,675
+where you need to put
+yourself in their shoes
+
+19
+00:00:53,675 --> 00:00:55,760
+and imagine the world or
+
+20
+00:00:55,760 --> 00:00:58,280
+imagine the product
+through their eyes.
+
+21
+00:00:58,280 --> 00:01:00,365
+In a project management role,
+
+22
+00:01:00,365 --> 00:01:02,495
+being able to empathize and
+
+23
+00:01:02,495 --> 00:01:05,600
+understand how different
+people in the world will
+
+24
+00:01:05,600 --> 00:01:07,850
+interact with your
+product is really
+
+25
+00:01:07,850 --> 00:01:11,715
+important and gives you
+this amazing perspective.
+
+26
+00:01:11,715 --> 00:01:14,330
+Understanding the
+customer's needs
+
+27
+00:01:14,330 --> 00:01:16,130
+is a very difficult job,
+
+28
+00:01:16,130 --> 00:01:18,005
+but it's really important.
+
+29
+00:01:18,005 --> 00:01:20,870
+I believe it's a skill you
+can develop over time.
+
+30
+00:01:20,870 --> 00:01:23,029
+I actually consider a customer
+
+31
+00:01:23,029 --> 00:01:25,565
+just a certain kind
+of stakeholder.
+
+32
+00:01:25,565 --> 00:01:27,710
+I like to take my stakeholders
+
+33
+00:01:27,710 --> 00:01:29,780
+and group them into buckets,
+
+34
+00:01:29,780 --> 00:01:32,540
+so I have customers,
+and they are usually
+
+35
+00:01:32,540 --> 00:01:34,490
+the end users of a product or
+
+36
+00:01:34,490 --> 00:01:36,920
+the ones that are
+purchasing the product.
+
+37
+00:01:36,920 --> 00:01:40,051
+And then I have stakeholders
+that are sponsors,
+
+38
+00:01:40,051 --> 00:01:41,630
+rather—the people that are funding
+
+39
+00:01:41,630 --> 00:01:44,075
+the team that's
+actually building this.
+
+40
+00:01:44,075 --> 00:01:48,230
+Those two groups of people
+are very different, and I like
+
+41
+00:01:48,230 --> 00:01:52,510
+to treat a sponsor in
+a very special way.
+
+42
+00:01:52,510 --> 00:01:58,005
+They are looking to increase
+their return on investment,
+
+43
+00:01:58,005 --> 00:02:01,210
+and so you always need to
+be looking for ways to
+
+44
+00:02:01,210 --> 00:02:03,505
+quantify, how are you
+
+45
+00:02:03,505 --> 00:02:06,580
+generating a return
+on that investment?
+
+46
+00:02:06,580 --> 00:02:09,190
+There's always this little fear
+
+47
+00:02:09,190 --> 00:02:11,410
+that they're not going to
+get what they paid for,
+
+48
+00:02:11,410 --> 00:02:15,985
+and giving them
+information frequently
+
+49
+00:02:15,985 --> 00:02:18,070
+and at the right
+level of detail is
+
+50
+00:02:18,070 --> 00:02:20,790
+a really important skill to
+have as a project manager.
+
+51
+00:02:20,790 --> 00:02:23,110
+Sometimes you can
+overwhelm them with
+
+52
+00:02:23,110 --> 00:02:25,660
+too many details and they
+cannot see the forest
+
+53
+00:02:25,660 --> 00:02:27,910
+through the trees,
+and sometimes you
+
+54
+00:02:27,910 --> 00:02:30,550
+don't give them enough
+detail, and they don't
+
+55
+00:02:30,550 --> 00:02:32,630
+trust what you're
+telling them. And so
+
+56
+00:02:32,630 --> 00:02:35,660
+striking that balance
+is really important.
+
+57
+00:02:35,660 --> 00:02:38,570
+I really enjoy seeing
+a project from
+
+58
+00:02:38,570 --> 00:02:42,170
+the very beginning to the
+very end, when you actually
+
+59
+00:02:42,170 --> 00:02:44,210
+get to show it to a customer and
+
+60
+00:02:44,210 --> 00:02:46,430
+get their acknowledgment and
+
+61
+00:02:46,430 --> 00:02:48,875
+recognition and see
+their excitement
+
+62
+00:02:48,875 --> 00:02:51,350
+at seeing the product
+actually working;
+
+63
+00:02:51,350 --> 00:02:53,375
+something that, when
+you just started,
+
+64
+00:02:53,375 --> 00:02:57,050
+there was nothing—just
+ideas and maybe some papers.
+
+65
+00:02:57,050 --> 00:02:59,780
+Then, however many months
+
+66
+00:02:59,780 --> 00:03:03,005
+later you actually have a
+product that you can show off.
+
+67
+00:03:03,005 --> 00:03:05,810
+What I love about project
+management is it puts you in
+
+68
+00:03:05,810 --> 00:03:07,550
+that role, so you can really
+
+69
+00:03:07,550 --> 00:03:10,620
+see things from the
+beginning to the end.

@@ -1,0 +1,12 @@
+Để bạn dễ dàng hình dung hai khái niệm này, chúng ta hãy liên tưởng đến việc tổ chức một bữa tiệc, 
+Các chỉ số tiếp nhận Adoption của bạn sẽ tiết lộ cho bạn biết liệu mọi người có nhận lời mời và thực sự đến dự tiệc hay không.
+Trong khi đó, các chỉ số tương tác Engagement sẽ cho bạn biết họ hoạt động tích cực như thế nào tại bữa tiệc, Liệu họ có tham gia vào các trò chơi, có trò chuyện kết nối với những người tham dự khác hay không, họ có rủ thêm bạn bè cùng đến hay không, và họ ở lại bữa tiệc trong bao lâu.
+
+Các chỉ số tiếp nhận đối với việc phát hành một sản phẩm hoặc dịch vụ mới, như một ứng dụng, một chương trình phần mềm, một dịch vụ giao hàng, hoặc một gói thẻ thành viên phòng tập thể hình, cũng tương tự như ví dụ về bữa tiệc. Tuy nhiên, chúng có thể phức tạp hơn một chút nếu bạn cần theo dõi số liệu cho nhiều yếu tố, chẳng hạn như việc người dùng có mua thêm các sản phẩm bổ sung hoặc đăng ký các tính năng cao cấp hay không.
+Mỗi dự án sẽ cần xác định bộ chỉ số tiếp nhận thành công riêng của mình, chẳng hạn như, 
+Tỷ lệ chuyển đổi, tức Conversion Rates.
+Thời gian để đạt được giá trị, tức Time to Value, viết tắt là T-T-V.
+Tỷ lệ hoàn thành quy trình hướng dẫn ban đầu, tức Onboarding Completion Rates.
+Tần suất mua hàng của khách hàng.
+Việc người dùng cung cấp phản hồi và đánh giá sản phẩm hoặc dịch vụ.
+Tỷ lệ hoàn thành hồ sơ người dùng.

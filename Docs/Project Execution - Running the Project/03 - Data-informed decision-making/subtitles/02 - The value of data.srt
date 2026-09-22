@@ -1,0 +1,236 @@
+1
+00:00:01,480 --> 00:00:02,300
+Hi there!
+
+2
+00:00:02,300 --> 00:00:07,320
+In this video, we'll explain the value of
+data and how it impacts your projects.
+
+3
+00:00:07,320 --> 00:00:11,630
+We'll also cover how you'll use data
+to communicate with stakeholders.
+
+4
+00:00:11,630 --> 00:00:13,168
+Data is a big business.
+
+5
+00:00:13,168 --> 00:00:18,500
+There are 2.5 quintillion bytes
+of data created each day.
+
+6
+00:00:18,500 --> 00:00:22,000
+That's a lot of data and
+a lot of information!
+
+7
+00:00:22,000 --> 00:00:25,196
+Let's start by talking about what data is.
+
+8
+00:00:25,196 --> 00:00:28,890
+Data is a collection of facts or
+information,
+
+9
+00:00:28,890 --> 00:00:33,488
+and through data analysis, you'll learn
+how to use data to draw conclusions and
+
+10
+00:00:33,488 --> 00:00:35,532
+make predictions and decisions.
+
+11
+00:00:35,532 --> 00:00:39,970
+We use data daily to help us make
+decisions and improve performance.
+
+12
+00:00:39,970 --> 00:00:44,763
+For example, my friend is a runner who
+participates in annual five-kilometer and
+
+13
+00:00:44,763 --> 00:00:46,630
+ten-kilometer runs.
+
+14
+00:00:46,630 --> 00:00:48,451
+When she's training for a run,
+
+15
+00:00:48,451 --> 00:00:52,660
+she uses the data on her GPS watch
+to measure her time and distance.
+
+16
+00:00:52,660 --> 00:00:57,450
+She can even calculate her pace by
+measuring the minutes-per-kilometer.
+
+17
+00:00:57,450 --> 00:01:01,756
+She uses the minutes-per-kilometer data
+to track her performance over time so
+
+18
+00:01:01,756 --> 00:01:04,940
+that she can focus on improving for
+the future.
+
+19
+00:01:04,940 --> 00:01:08,972
+Similarly, companies use data and
+data analysis to improve and
+
+20
+00:01:08,972 --> 00:01:13,170
+bring value to their organization
+in a variety of ways.
+
+21
+00:01:13,170 --> 00:01:16,605
+For example, companies source
+data on customer behavior and
+
+22
+00:01:16,605 --> 00:01:20,780
+customer demand to provide better
+services and create new products.
+
+23
+00:01:20,780 --> 00:01:25,540
+Netflix is a great example of a company
+that uses data intelligence to predict
+
+24
+00:01:25,540 --> 00:01:26,939
+what customers want.
+
+25
+00:01:26,939 --> 00:01:32,540
+By observing data points surrounding types
+of genres, ratings, and number of repeated
+
+26
+00:01:32,540 --> 00:01:37,709
+viewings, Netflix recommends TV shows
+that they believe customers might like,
+
+27
+00:01:37,709 --> 00:01:40,880
+therefore improving
+the customer's viewing experience.
+
+28
+00:01:40,880 --> 00:01:42,939
+In the same way, as a project manager,
+
+29
+00:01:42,939 --> 00:01:46,660
+you can use data daily to make
+better decisions, solve problems,
+
+30
+00:01:46,660 --> 00:01:51,870
+understand performance, improve processes,
+and understand your users.
+
+31
+00:01:51,870 --> 00:01:55,970
+Let's examine how these
+benefits can impact a project.
+
+32
+00:01:55,970 --> 00:02:00,050
+Let's talk about how this can play out in
+our Plant Pals project at Office Green.
+
+33
+00:02:01,130 --> 00:02:03,981
+If you have the data on
+customer buying patterns and
+
+34
+00:02:03,981 --> 00:02:07,775
+identify that your best-selling
+products are all tropical plants,
+
+35
+00:02:07,775 --> 00:02:11,707
+you'll be able to make better decisions
+when placing new plant orders with your
+
+36
+00:02:11,707 --> 00:02:13,000
+supplier.
+
+37
+00:02:13,000 --> 00:02:15,620
+You'll also be able to better
+understand your users and
+
+38
+00:02:15,620 --> 00:02:19,420
+their preferences to improve
+your offerings and performance.
+
+39
+00:02:19,420 --> 00:02:24,020
+Another daily benefit of data within your
+project team is the opportunity to improve
+
+40
+00:02:24,020 --> 00:02:24,740
+processes.
+
+41
+00:02:25,985 --> 00:02:30,072
+If you have the data from your project
+tracker of the number of tasks completed,
+
+42
+00:02:30,072 --> 00:02:31,536
+the number of escalations, or
+
+43
+00:02:31,536 --> 00:02:35,026
+the number of issues that come up
+surrounding an internal process,
+
+44
+00:02:35,026 --> 00:02:38,725
+you'll be able to deduce where
+the majority of issues are stemming from.
+
+45
+00:02:39,815 --> 00:02:43,721
+This data will help inform your decision
+on where to focus your attention to
+
+46
+00:02:43,721 --> 00:02:44,905
+improve the process.
+
+47
+00:02:45,980 --> 00:02:47,898
+While these are simple examples,
+
+48
+00:02:47,898 --> 00:02:51,290
+through critical analysis,
+application, and execution,
+
+49
+00:02:51,290 --> 00:02:55,510
+data becomes a powerful tool to guide
+any project in the right direction.
+
+50
+00:02:56,720 --> 00:03:00,910
+Coming up, we'll discuss the types of
+project data you can use to do just that.

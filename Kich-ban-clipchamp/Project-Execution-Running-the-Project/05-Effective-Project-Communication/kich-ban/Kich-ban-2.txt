@@ -1,0 +1,23 @@
+Phương thức thứ nhất, Giao tiếp đồng bộ, tức Synchronous Communication.
+Đây là hình thức giao tiếp diễn ra trong thời gian thực, nơi người nói và người nghe tương tác trực tiếp với nhau ngay tại thời điểm đó.
+Ví dụ, Các cuộc họp trực tiếp mặt đối mặt, các cuộc gọi video qua Google Meet hay Zoom, hoặc các cuộc điện thoại nhanh.
+Ưu điểm, Mang lại sự phản hồi ngay lập tức, giúp giải quyết nhanh chóng các vấn đề khẩn cấp, xây dựng sự gắn kết cảm xúc sâu sắc và cho phép đọc vị ngôn ngữ cơ thể của nhau.
+Nhược điểm, Đòi hỏi mọi người phải có mặt cùng một lúc, dễ làm gián đoạn dòng chảy tập trung của các kỹ sư và gây khó khăn lớn khi làm việc với các thành viên ở các múi giờ khác nhau trên toàn cầu.
+
+Phương thức thứ hai, Giao tiếp bất đồng bộ, tức Asynchronous Communication.
+Đây là hình thức giao tiếp không đòi hỏi các bên phải phản hồi ngay lập tức. Thông điệp được gửi đi và người nhận có thể đọc, suy ngẫm và trả lời vào thời điểm thuận tiện nhất đối với họ.
+Ví dụ, Email công việc, các tin nhắn trên Slack hoặc Google Chat, các bình luận trong tài liệu Google Docs hoặc các nhiệm vụ trên Jira.
+Ưu điểm, Tôn trọng không gian làm việc tập trung sâu của đội ngũ, cho phép mọi người có thời gian suy nghĩ thấu đáo trước khi phản hồi, tạo ra một bản lưu trữ văn bản minh bạch có thể tra cứu lại bất cứ lúc nào, và xóa bỏ hoàn toàn rào cản về múi giờ.
+Nhược điểm, Tốc độ phản hồi chậm hơn, có thể dẫn đến hiểu lầm nếu người viết diễn đạt mơ hồ hoặc thiếu bối cảnh.
+
+Bí quyết của một Project Manager xuất sắc là biết cách phối hợp nhịp nhàng giữa hai phương thức này, Sử dụng giao tiếp bất đồng bộ cho phần lớn các công việc cập nhật thông tin hàng ngày, và chỉ kích hoạt giao tiếp đồng bộ cho những cuộc thảo luận chiến lược phức tạp hoặc những tình huống khủng hoảng khẩn cấp.
+
+CÁC NGUYÊN TẮC VIẾT EMAIL HIỆU QUẢ, PRINCIPLES OF EFFECTIVE EMAIL WRITING.
+. ......
+Email từ lâu đã là phương thức giao tiếp chính cho rất nhiều người trong giới kinh doanh, tuy nhiên, các thông điệp email lại rất dễ bị hiểu lầm hoặc bị ngó lơ hoàn toàn trong hộp thư đến ngập tràn mỗi ngày. Trong tài liệu này, chúng ta sẽ thảo luận về bốn nguyên tắc viết email hiệu quả giúp các email của bạn luôn nổi bật, được người đọc ghi nhớ sâu sắc và mang lại chính xác phản hồi mà bạn đang cần.
+
+Bốn nguyên tắc vàng đó là, 
+Nêu rõ những gì bạn muốn một cách rõ ràng.
+Giữ cho nội dung ngắn gọn và súc tích.
+Cấu trúc bài viết một cách khoa học.
+Kiểm tra kỹ lưỡng ngữ pháp, dấu câu và chính tả.

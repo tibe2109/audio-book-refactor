@@ -1,0 +1,377 @@
+1
+00:00:01,260 --> 00:00:02,240
+Hi again.
+
+2
+00:00:02,240 --> 00:00:05,880
+In the previous video, you
+learned about the value of data.
+
+3
+00:00:05,880 --> 00:00:10,138
+In this lesson, we'll discuss the common
+types of data that project managers
+
+4
+00:00:10,138 --> 00:00:12,010
+collect and analyze regularly.
+
+5
+00:00:13,030 --> 00:00:17,490
+We'll also discuss the tools you'll need
+to organize this data for your projects.
+
+6
+00:00:17,490 --> 00:00:18,950
+Ready to get started?
+
+7
+00:00:18,950 --> 00:00:19,910
+Okay, let's go!
+
+8
+00:00:21,230 --> 00:00:25,485
+As we discussed earlier, data is the
+collection of facts that can help inform
+
+9
+00:00:25,485 --> 00:00:29,999
+decisions. You may start to notice how
+the project data impacts the team's daily
+
+10
+00:00:29,999 --> 00:00:33,940
+activities and the overall progress and
+the success of the project.
+
+11
+00:00:35,020 --> 00:00:38,210
+This is done by using
+various types of metrics.
+
+12
+00:00:38,210 --> 00:00:42,279
+A metric is a quantifiable
+measurement that is used to track and
+
+13
+00:00:42,279 --> 00:00:44,287
+assess a business objective.
+
+14
+00:00:44,287 --> 00:00:46,870
+Metrics are based on selected goals.
+
+15
+00:00:46,870 --> 00:00:51,148
+They vary per project and
+serve as a key type of project data.
+
+16
+00:00:51,148 --> 00:00:55,001
+There are many types of project data
+you can use to determine progress and
+
+17
+00:00:55,001 --> 00:00:56,330
+efficiency.
+
+18
+00:00:56,330 --> 00:01:00,550
+You can group project metrics into
+productivity metrics and quality metrics.
+
+19
+00:01:01,620 --> 00:01:06,310
+Productivity typically measures
+progress and output over time.
+
+20
+00:01:06,310 --> 00:01:10,060
+Productivity metrics allow you
+to track the effectiveness and
+
+21
+00:01:10,060 --> 00:01:14,657
+efficiency of your project and
+include metrics like milestones, tasks,
+
+22
+00:01:14,657 --> 00:01:17,420
+projections, and duration.
+
+23
+00:01:17,420 --> 00:01:19,360
+Let's break down each metric.
+
+24
+00:01:19,360 --> 00:01:23,392
+As you may recall from an earlier course,
+a milestone is an important point
+
+25
+00:01:23,392 --> 00:01:26,592
+within the project schedule
+that indicates progress and
+
+26
+00:01:26,592 --> 00:01:31,330
+usually signifies completion of a
+deliverable or phase of the project.
+
+27
+00:01:31,330 --> 00:01:33,868
+And a project task is
+an activity that needs to be
+
+28
+00:01:33,868 --> 00:01:36,950
+accomplished within a set period of time.
+
+29
+00:01:36,950 --> 00:01:42,880
+A projection is how you predict an outcome
+based on the information you have now.
+
+30
+00:01:42,880 --> 00:01:47,168
+For example, you can predict that with
+the resources you have at the start of
+
+31
+00:01:47,168 --> 00:01:50,520
+the project, the project will
+be completed in six months.
+
+32
+00:01:51,560 --> 00:01:55,538
+The duration of a project is the total
+time it takes to complete a project from
+
+33
+00:01:55,538 --> 00:01:57,220
+start to finish.
+
+34
+00:01:57,220 --> 00:01:59,527
+Duration can also be used for
+milestones and
+
+35
+00:01:59,527 --> 00:02:02,020
+determining if you'll
+meet project deadlines.
+
+36
+00:02:03,260 --> 00:02:09,280
+This data is broken down into hours,
+days, weeks, months, and sometimes years.
+
+37
+00:02:09,280 --> 00:02:12,871
+So to recap,
+productivity metrics include milestones,
+
+38
+00:02:12,871 --> 00:02:15,300
+tasks, projections, and duration.
+
+39
+00:02:17,330 --> 00:02:19,355
+Now let's discuss quality metrics.
+
+40
+00:02:19,355 --> 00:02:22,945
+Quality metrics relates to
+achieving acceptable outcomes and
+
+41
+00:02:22,945 --> 00:02:25,855
+can include metrics such
+as the number of changes,
+
+42
+00:02:25,855 --> 00:02:29,120
+issues, and cost variance,
+which all affect quality.
+
+43
+00:02:30,150 --> 00:02:32,230
+Let's discuss each metric.
+
+44
+00:02:32,230 --> 00:02:37,330
+The number of changes during the project
+or project scope helps to monitor risks.
+
+45
+00:02:37,330 --> 00:02:42,160
+Changes show any inconsistencies from
+the initial requirements of the project.
+
+46
+00:02:43,190 --> 00:02:47,591
+A series of compounding small changes
+may indicate a bigger issue and
+
+47
+00:02:47,591 --> 00:02:50,463
+provide early warning
+signs of these issues.
+
+48
+00:02:50,463 --> 00:02:54,363
+Using a change log to keep a record
+of these changes is a useful tool for
+
+49
+00:02:54,363 --> 00:02:58,736
+communicating with stakeholders about
+why something is taking a long time or
+
+50
+00:02:58,736 --> 00:03:01,190
+costs more than expected.
+
+51
+00:03:01,190 --> 00:03:06,140
+A change log is a record of all of
+the notable changes on a project.
+
+52
+00:03:06,140 --> 00:03:11,520
+An issue is a known and real problem that
+may affect the ability to complete a task.
+
+53
+00:03:11,520 --> 00:03:15,067
+For example, an issue might be
+the delay of legal approval for
+
+54
+00:03:15,067 --> 00:03:17,797
+an advertisement you
+were hoping to launch or
+
+55
+00:03:17,797 --> 00:03:23,010
+the missing number of confirmed seats to
+secure a venue for a business conference.
+
+56
+00:03:23,010 --> 00:03:25,970
+Another quality metric is cost variance.
+
+57
+00:03:25,970 --> 00:03:30,140
+It illustrates the difference between
+the actual cost and the budget cost.
+
+58
+00:03:30,140 --> 00:03:30,830
+Simply put,
+
+59
+00:03:30,830 --> 00:03:35,580
+cost variance compares what you plan to
+spend versus what you actually spent.
+
+60
+00:03:35,580 --> 00:03:37,500
+Let's put it in an example.
+
+61
+00:03:37,500 --> 00:03:43,312
+If you budgeted to only host 250 attendees
+at an upcoming business conference but
+
+62
+00:03:43,312 --> 00:03:48,980
+275 people showed up and the venue
+charges you for those additional guests,
+
+63
+00:03:48,980 --> 00:03:53,403
+the actual costs will be higher than
+your initial budget or estimate.
+
+64
+00:03:53,403 --> 00:03:59,003
+So to recap, quality metrics can
+include things like number of changes,
+
+65
+00:03:59,003 --> 00:04:01,272
+issues, and cost variance.
+
+66
+00:04:01,272 --> 00:04:05,268
+While these data points are commonly
+tracked by project managers, there
+
+67
+00:04:05,268 --> 00:04:09,341
+are dozens more that you can leverage
+to inform decisions in your project.
+
+68
+00:04:09,341 --> 00:04:13,153
+The great news is that there's
+a lot of sophisticated software and
+
+69
+00:04:13,153 --> 00:04:17,110
+tools dedicated to project management and
+data analysis,
+
+70
+00:04:17,110 --> 00:04:21,136
+so you'll have help keeping track of all
+of these different types of data in one
+
+71
+00:04:21,136 --> 00:04:22,820
+centralized location.
+
+72
+00:04:22,820 --> 00:04:27,138
+Project management tools like
+Workfront and JIRA track activity and
+
+73
+00:04:27,138 --> 00:04:28,930
+provide readable results
+
+74
+00:04:28,930 --> 00:04:32,241
+so you can measure the overall
+health of your project.
+
+75
+00:04:32,241 --> 00:04:36,700
+Data analysis tools like Tableau
+are useful for data visualization.
+
+76
+00:04:36,700 --> 00:04:41,060
+Now you know a bit more about how
+to identify common types of data.
+
+77
+00:04:41,060 --> 00:04:43,866
+You can also ID common project
+management software and
+
+78
+00:04:43,866 --> 00:04:46,370
+tools that can help you manage and
+analyze data.
+
+79
+00:04:47,370 --> 00:04:51,580
+In the next lesson, we'll cover how data
+helps you to make informed decisions.
+
+80
+00:04:51,580 --> 00:04:52,390
+Meet you there.

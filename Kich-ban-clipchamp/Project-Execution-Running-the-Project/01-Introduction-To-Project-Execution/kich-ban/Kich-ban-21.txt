@@ -1,0 +1,15 @@
+Kết quả thực tế, Đúng như dự đoán của Minh, kho ứng dụng di động đã yêu cầu đội ngũ cập nhật lại một chứng chỉ bảo mật, khiến quá trình kiểm duyệt kéo dài thêm mười ngày. Tuy nhiên, nhờ đã chủ động nộp hồ sơ sớm bốn tuần, ứng dụng EduConnect vẫn được phê duyệt chính thức trước ngày khai giảng mười ngày. Dự án đã ra mắt thành công vang dội mà không gặp bất kỳ sự cố lớn nào.
+
+Tình huống thực tế này chứng minh rằng, Quản trị rủi ro không phải là việc ngồi lo lắng về những điều tồi tệ, mà là nghệ thuật nhìn xa trông rộng để biến những nguy cơ tiềm tàng thành những kế hoạch hành động chủ động và đắc thắng.
+
+HOẠT ĐỘNG MẪU, THỰC HIỆN PHÂN TÍCH THEO MÔ HÌNH ROAM, ACTIVITY EXEMPLAR, PUT TOGETHER A ROAM ANALYSIS.
+. ......
+Trong số các phương pháp quản lý rủi ro hiện đại, mô hình ROAM là một công cụ vô cùng trực quan, súc tích và thường xuyên được áp dụng trong các tổ chức lớn như Google cũng như trong các khung làm việc linh hoạt như Scaled Agile. ROAM là từ viết tắt của bốn phương án hành động đối với mỗi rủi ro, Resolved, Đã giải quyết, Owned, Đã giao quyền, Accepted, Chấp nhận, và Mitigated, Giảm thiểu.
+
+Chúng ta hãy cùng phân tích ý nghĩa và cách vận dụng cụ thể của từng chữ cái trong mô hình ROAM,
+
+Chữ R đại diện cho Resolved, Đã giải quyết, Rủi ro này đã được xem xét và xử lý triệt để ngay tại thời điểm nhận diện, hoặc đã không còn là mối đe dọa đối với dự án nữa. Ví dụ, Bạn lo ngại rằng phần mềm chưa tương thích với hệ điều hành mới, nhưng sau khi đội ngũ kỹ thuật tiến hành thử nghiệm nhanh thì xác nhận hệ thống hoàn toàn tương thích, rủi ro này chính thức được chuyển sang trạng thái Resolved.
+
+Chữ O đại diện cho Owned, Đã giao quyền sở hữu, Rủi ro này chưa thể giải quyết ngay lập tức, nhưng đã được giao cho một cá nhân cụ thể chịu trách nhiệm chính để theo dõi sát sao, tìm hiểu thêm thông tin và dẫn dắt kế hoạch hành động khi cần. Việc gán người sở hữu, tức Owner, đảm bảo rằng rủi ro không bị rơi vào quên lãng và luôn có người chịu trách nhiệm giải trình.
+
+Chữ A đại diện cho Accepted, Chấp nhận, Đội ngũ dự án và các bên liên quan đã cân nhắc kỹ lưỡng và quyết định chấp nhận rủi ro này mà không thực hiện bất kỳ hành động phòng ngừa tốn kém nào. Quyết định chấp nhận thường áp dụng khi chi phí để phòng ngừa rủi ro vượt quá thiệt hại mà rủi ro đó có thể gây ra, hoặc khi khả năng xảy ra là cực kỳ thấp và tác động không đáng kể. Tuy nhiên, việc chấp nhận rủi ro phải luôn đi kèm với sự thấu hiểu và đồng thuận rõ ràng từ phía các bên liên quan.

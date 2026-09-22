@@ -1,0 +1,13 @@
+Bài học quý giá nhất mà tôi đúc kết được sau nhiều năm làm việc tại Google Cloud là, Hãy học cách ủy quyền các chi tiết, tức Delegating the Details. 
+Công việc của bạn với tư cách là một Project Manager là làm chủ bức tranh vĩ mô, Xác định rõ mục tiêu cuối cùng là gì, thời hạn hoàn thành khi nào và các tiêu chuẩn chất lượng cần đạt được là gì. Sau đó, hãy tin tưởng trao quyền cho các kỹ sư và chuyên gia của bạn tự quyết định cách thức tốt nhất để hiện thực hóa mục tiêu đó. Khi bạn trao cho họ quyền tự chủ và sự tin tưởng tuyệt đối, họ sẽ làm việc với một niềm đam mê và tinh thần trách nhiệm vượt xa những gì bạn có thể tưởng tượng!
+
+LÃNH ĐẠO ĐẠO ĐỨC VÀ HÒA NHẬP, ETHICAL AND INCLUSIVE LEADERSHIP.
+. ......
+Chào mừng bạn đã quay trở lại. Dẫn dắt một đội ngũ dự án luôn đi kèm với trách nhiệm to lớn trong việc tạo ra một môi trường an toàn về mặt tâm lý cho những người xung quanh bạn. Thông qua phong cách lãnh đạo đạo đức và hòa nhập, bạn có thể kiến tạo nên một văn hóa đội ngũ phù hợp với tất cả mọi người và tạo động lực mạnh mẽ cho những người xung quanh cống hiến hết mình cho công việc. Trong bài học này, bạn sẽ nắm vững các định nghĩa về lãnh đạo đạo đức và lãnh đạo hòa nhập.
+
+Lãnh đạo đạo đức, tức Ethical Leadership, 
+Lãnh đạo đạo đức là hình thức lãnh đạo thúc đẩy, tôn vinh và đề cao các giá trị về sự trung thực, công lý, tôn trọng, tinh thần cộng đồng và tính chính trực. Là người đứng đầu một đội ngũ dự án, bạn được kỳ vọng sẽ giúp đội ngũ vươn tới thành công bằng cách luôn dẫn dắt bằng đạo đức.
+Việc xây dựng sự tôn trọng và niềm tin vững chắc với các đội ngũ mà bạn làm việc cùng, từ các cá nhân riêng lẻ, các đối tác bên ngoài cho đến các bên liên quan chủ chốt của dự án, đều bắt đầu từ việc thực hành các chuẩn mực hành vi đạo đức trong từng quyết định nhỏ nhất mỗi ngày.
+
+Lãnh đạo hòa nhập, tức Inclusive Leadership, 
+Lãnh đạo hòa nhập là khả năng dẫn dắt một đội ngũ đa dạng về nền tảng văn hóa, giới tính, chủng tộc, độ tuổi, phong cách tư duy và hoàn cảnh xuất thân, đồng thời, đảm bảo rằng mọi thành viên đều cảm thấy được tôn trọng, được lắng nghe, được trao quyền và có cảm giác thuộc về tập thể.

@@ -1,0 +1,26 @@
+Giai đoạn một, Trước cuộc họp, tức Pre-Meeting Checklist, 
+Mục đích cuộc họp đã được xác định rõ ràng hay chưa? Cuộc họp này có thực sự cần thiết không, hay có thể thay thế bằng email?
+Danh sách thành phần tham dự đã được tinh gọn chuẩn xác hay chưa? Đã mời đúng những người ra quyết định và những người chịu trách nhiệm chính chưa?
+Lộ trình nội dung Agenda đã được soạn thảo với các mốc thời gian cụ thể cho từng mục chưa?
+Lộ trình và các tài liệu đọc trước đã được gửi tới người tham dự ít nhất hai mươi tư giờ trước giờ họp hay chưa?
+Phòng họp thực tế đã được đặt trước hoặc đường liên kết phòng họp trực tuyến đã hoạt động trơn tru chưa?
+
+Giai đoạn hai, Trong cuộc họp, tức During Meeting Checklist, 
+Cuộc họp có được bắt đầu đúng giờ đã định hay không?
+Đã phân công rõ ràng người ghi chép biên bản Note-taker và người canh giữ thời gian Time-keeper chưa?
+Người điều phối có nhắc lại, mục tiêu cốt lõi của cuộc họp và các quy tắc ứng xử chung ngay từ đầu không?
+Cuộc thảo luận có bám sát lộ trình nội dung đã đề ra hay không? Kỹ thuật Bãi đỗ xe ý tưởng Parking Lot đã được sử dụng khéo léo khi có phát sinh lạc đề chưa?
+Mọi thành viên, đặc biệt là những người trầm tính hoặc làm việc từ xa, có được tạo cơ hội công bằng để đóng góp ý kiến hay không?
+Năm phút cuối cùng có được dành ra để tổng kết các quyết định và chốt lại các hành động cụ thể theo nguyên tắc Ai làm cái gì trước thời hạn nào hay không?
+
+Giai đoạn ba, Sau cuộc họp, tức Post-Meeting Checklist, 
+Biên bản cuộc họp tóm tắt ngắn gọn có được gửi tới tất cả các bên liên quan trong vòng hai mươi tư giờ hay không?
+Các nhiệm vụ hành động mới có được cập nhật ngay lập tức vào phần mềm theo dõi dự án như Jira hay Asana hay không?
+Người quản lý dự án có chủ động theo dõi tiến độ của các đầu việc đã được giao hay không?
+Bạn có dành ra hai phút để tự đánh giá lại hiệu quả của cuộc họp và tìm cách cải thiện cho buổi họp tiếp theo hay không?
+
+Áp dụng nghiêm ngặt danh sách kiểm tra này sẽ biến bạn thành một bậc thầy tổ chức cuộc họp chuyên nghiệp và mẫu mực trong mắt toàn bộ tổ chức.
+
+CÁC LOẠI CUỘC HỌP DỰ ÁN PHỔ BIẾN, COMMON TYPES OF PROJECT MEETINGS.
+. ......
+Chào bạn. Bây giờ bạn đã nắm vững các thành phần then chốt để tổ chức và điều phối một cuộc họp đội ngũ hiệu quả, chúng ta sẽ cùng nhau khám phá cụ thể một số dạng cuộc họp phổ biến nhất mà bạn sẽ cần phải chủ trì xuyên suốt vòng đời của một dự án.

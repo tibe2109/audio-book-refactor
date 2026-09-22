@@ -1,0 +1,13 @@
+Yếu tố thứ ba là Nhu cầu và sở thích của các bên liên quan, Hãy tìm hiểu xem các nhà tài trợ dự án và khách hàng của bạn thích nhận thông tin theo hình thức nào. Một số nhà quản lý cấp cao chỉ muốn nhìn vào một bảng điều khiển tóm tắt với các chỉ số đèn tín hiệu xanh, vàng, đỏ, trong khi các quản lý kỹ thuật lại muốn xem các báo cáo chi tiết về từng lỗi phát sinh và tiến độ phân bổ tài nguyên. Việc điều chỉnh phương thức theo dõi phù hợp với đối tượng tiếp nhận sẽ giúp thông tin được truyền tải hiệu quả nhất.
+
+Yếu tố thứ tư là Sự quen thuộc và khả năng tiếp cận công cụ của đội ngũ, Việc áp dụng một phần mềm quản lý dự án mới toanh có thể mang lại nhiều tính năng hiện đại, nhưng nếu đội ngũ của bạn phải mất hàng tuần lễ để làm quen và cảm thấy phức tạp khi cập nhật dữ liệu, thì công cụ đó sẽ phản tác dụng. Hãy ưu tiên những công cụ mà đội ngũ cảm thấy dễ sử dụng, thuận tiện và có thể tích hợp mượt mà vào thói quen làm việc hàng ngày của họ.
+
+Bằng cách cân nhắc kỹ lưỡng bốn yếu tố trên, bạn sẽ thiết lập được một hệ thống theo dõi vừa vặn, tinh gọn và mang lại giá trị thiết thực nhất cho toàn bộ dự án.
+
+PRANJAL, QUẢN LÝ NHIỀU LUỒNG CÔNG VIỆC SONG SONG, PRANJAL, MANAGING MULTIPLE TRACKS.
+. ......
+Xin chào các bạn, tôi tên là Pranjal. Trong vai trò quản lý dự án tại Google, một trong những thách thức thường xuyên và thú vị nhất mà tôi phải đối mặt chính là việc điều phối và quản lý đồng thời, nhiều luồng công việc song song, tức Multiple Tracks. Hôm nay, tôi rất vui được chia sẻ cùng các bạn một vài kinh nghiệm thực chiến về vấn đề này.
+
+Trong các dự án phát triển sản phẩm công nghệ quy mô lớn, hiếm khi nào công việc diễn ra theo một đường thẳng tắp. Thay vào đó, bạn sẽ thường xuyên chứng kiến đội ngũ thiết kế giao diện đang làm việc cùng lúc với đội ngũ lập trình viên phụ trách hệ thống máy chủ, trong khi nhóm chuyên viên dữ liệu đang xây dựng thuật toán và bộ phận tiếp thị đang chuẩn bị chiến dịch ra mắt. Mỗi luồng công việc đều có tiến độ riêng, các ưu tiên riêng và những thách thức kỹ thuật hoàn toàn khác nhau.
+
+Vậy làm thế nào để bạn, với tư cách là người điều phối tổng thể, không bị choáng ngợp và giữ cho tất cả các bánh xe cùng quay nhịp nhàng?

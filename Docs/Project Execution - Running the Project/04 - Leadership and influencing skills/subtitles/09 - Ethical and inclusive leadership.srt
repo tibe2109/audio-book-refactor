@@ -1,0 +1,348 @@
+1
+00:00:01,560 --> 00:00:02,640
+Welcome back.
+
+2
+00:00:02,640 --> 00:00:06,677
+Leading a project team comes with the
+responsibility to create a psychologically
+
+3
+00:00:06,677 --> 00:00:09,670
+safe environment for
+the people around you.
+
+4
+00:00:09,670 --> 00:00:13,649
+Through ethical and inclusive leadership,
+you can create a team culture that
+
+5
+00:00:13,649 --> 00:00:17,580
+works for everyone and motivates the
+people around you to do their best work.
+
+6
+00:00:18,620 --> 00:00:21,596
+In this video, you'll learn
+the definitions of ethical and
+
+7
+00:00:21,596 --> 00:00:23,400
+inclusive leadership.
+
+8
+00:00:23,400 --> 00:00:28,023
+You'll also learn about the importance of
+fostering a culture of respect, creating
+
+9
+00:00:28,023 --> 00:00:32,850
+equal opportunity to succeed, and ways to
+invite and integrate diverse perspectives.
+
+10
+00:00:34,140 --> 00:00:38,033
+So what do ethical and
+inclusive leadership entail in a team and
+
+11
+00:00:38,033 --> 00:00:39,066
+organization?
+
+12
+00:00:39,066 --> 00:00:41,730
+Let's start with ethical leadership.
+
+13
+00:00:41,730 --> 00:00:46,584
+Ethical leadership is a form of leadership
+that promotes and values honesty,
+
+14
+00:00:46,584 --> 00:00:50,600
+justice, respect, community and integrity.
+
+15
+00:00:50,600 --> 00:00:54,822
+You promote ethical leadership by defining
+and aligning values within your team and
+
+16
+00:00:54,822 --> 00:00:59,229
+demonstrating how adhering to those values
+benefits the mission of the organization.
+
+17
+00:01:00,330 --> 00:01:05,580
+For an example of this, consider how work
+culture has evolved in recent years.
+
+18
+00:01:05,580 --> 00:01:09,908
+Around the world, employees working for
+organizations of all kinds have
+
+19
+00:01:09,908 --> 00:01:13,887
+been calling on their employers to
+adopt ethical policy changes and
+
+20
+00:01:13,887 --> 00:01:16,569
+to state their positions
+on current events.
+
+21
+00:01:17,620 --> 00:01:21,559
+Companies can demonstrate ethical
+leadership by creating forums where
+
+22
+00:01:21,559 --> 00:01:24,399
+employees can raise their viewpoints,
+be heard and
+
+23
+00:01:24,399 --> 00:01:28,860
+receive follow-ups from company
+leaders on employee concerns.
+
+24
+00:01:28,860 --> 00:01:32,452
+Ethical leadership is closely
+tied to inclusive leadership.
+
+25
+00:01:32,452 --> 00:01:37,361
+If ethical leadership's aim is to create
+forums where employees' concerns can be
+
+26
+00:01:37,361 --> 00:01:42,270
+heard, inclusive leadership aims to put
+what we've heard into action to create
+
+27
+00:01:42,270 --> 00:01:44,383
+an environment that encourages.
+
+28
+00:01:44,383 --> 00:01:48,500
+And empowers each and
+every member of our community.
+
+29
+00:01:48,500 --> 00:01:52,595
+That in turn leads to more innovation and
+better solutions.
+
+30
+00:01:52,595 --> 00:01:55,945
+Here's how we think about
+inclusion here at Google.
+
+31
+00:01:55,945 --> 00:02:00,445
+Inclusive leadership is when everyone's
+unique identity, background and
+
+32
+00:02:00,445 --> 00:02:06,075
+experiences are respected, valued and
+integrated into how the team operates.
+
+33
+00:02:06,075 --> 00:02:09,383
+These differences improve
+the team culture, collaboration,
+
+34
+00:02:09,383 --> 00:02:11,645
+innovation and output.
+
+35
+00:02:11,645 --> 00:02:16,450
+Inclusive leadership is related to
+diversity in that diversity is the set of
+
+36
+00:02:16,450 --> 00:02:19,799
+differences each of us possesses,
+whether visible or
+
+37
+00:02:19,799 --> 00:02:25,320
+invisible that gives us each a unique
+perspective on the world and our work.
+
+38
+00:02:25,320 --> 00:02:29,630
+Inclusion is what the team does with that
+diversity of thought and perspective.
+
+39
+00:02:31,030 --> 00:02:36,030
+At Google, we've identified three ways
+that managers can lead inclusively.
+
+40
+00:02:36,030 --> 00:02:39,646
+These include fostering a culture
+of respect, creating equal
+
+41
+00:02:39,646 --> 00:02:44,160
+opportunity to succeed and inviting and
+integrating diverse perspectives.
+
+42
+00:02:44,160 --> 00:02:48,394
+To foster a culture of respect,
+it's your job as a project manager to
+
+43
+00:02:48,394 --> 00:02:53,860
+serve as a role model, set the tone for
+the team and take action when needed.
+
+44
+00:02:53,860 --> 00:02:56,979
+That means modeling the values
+of your organization,
+
+45
+00:02:56,979 --> 00:02:59,906
+taking appropriate action
+if misconduct occurs.
+
+46
+00:02:59,906 --> 00:03:04,258
+Creating an environment in which team
+members feel comfortable speaking up
+
+47
+00:03:04,258 --> 00:03:08,067
+with concerns, and
+recognizing team contributions regularly.
+
+48
+00:03:08,067 --> 00:03:12,787
+To create equal opportunity to succeed,
+you should ensure that each person on
+
+49
+00:03:12,787 --> 00:03:18,720
+the team has access to the information and
+resources they need to do their best work.
+
+50
+00:03:18,720 --> 00:03:22,823
+You do this through regular communication,
+accessible documentation, and
+
+51
+00:03:22,823 --> 00:03:26,677
+regular check-ins with the team to listen,
+share information, ask and
+
+52
+00:03:26,677 --> 00:03:29,630
+answer questions and provide support.
+
+53
+00:03:29,630 --> 00:03:30,818
+As a project manager,
+
+54
+00:03:30,818 --> 00:03:34,509
+you're in the perfect spot to identify
+work that might be a good fit for
+
+55
+00:03:34,509 --> 00:03:38,720
+a person who really wants it, but
+who shies away from asking for it.
+
+56
+00:03:38,720 --> 00:03:43,070
+Knowing an individual's aspirations will
+help you highlight these opportunities.
+
+57
+00:03:43,070 --> 00:03:46,488
+Finally, to invite and
+integrate diverse perspectives,
+
+58
+00:03:46,488 --> 00:03:51,272
+it's your role to cultivate a culture in
+which each team member's perspective can
+
+59
+00:03:51,272 --> 00:03:56,040
+be openly shared, heard and
+integrated into work related decisions.
+
+60
+00:03:56,040 --> 00:03:59,579
+You do this by creating a sense of
+psychological safety on the team and
+
+61
+00:03:59,579 --> 00:04:03,178
+by inviting teammates to share
+their thoughts, ideas and concerns,
+
+62
+00:04:03,178 --> 00:04:05,510
+regardless of their role or
+rank on the team.
+
+63
+00:04:07,590 --> 00:04:08,946
+Developing ethical and
+
+64
+00:04:08,946 --> 00:04:12,670
+inclusive leadership skills
+requires regular practice.
+
+65
+00:04:12,670 --> 00:04:16,113
+So whether you're leading
+a project team of two, or 20, or
+
+66
+00:04:16,113 --> 00:04:20,556
+200, you should be diligent in building
+up your inclusive leadership skill
+
+67
+00:04:20,556 --> 00:04:25,090
+set by creating an environment in which
+your team feels safe, heard and valued.
+
+68
+00:04:26,490 --> 00:04:30,963
+You can do this by fostering a culture of
+respect, creating equal opportunity to
+
+69
+00:04:30,963 --> 00:04:34,470
+succeed and inviting and
+integrating diverse perspectives.
+
+70
+00:04:35,750 --> 00:04:39,941
+In the next lesson, we'll discuss the
+fundamentals of influencing, as well as
+
+71
+00:04:39,941 --> 00:04:44,510
+some common mistakes that people make
+when attempting to influence others.
+
+72
+00:04:44,510 --> 00:04:45,420
+Meet you in the next video.

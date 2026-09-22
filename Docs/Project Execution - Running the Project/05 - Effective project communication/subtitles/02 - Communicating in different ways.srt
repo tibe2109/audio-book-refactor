@@ -1,0 +1,324 @@
+1
+00:00:00,470 --> 00:00:03,210
+By now, you should be aware
+
+2
+00:00:03,210 --> 00:00:04,995
+that effective team communication
+
+3
+00:00:04,995 --> 00:00:09,119
+is necessary to help ensure a
+successful project outcome.
+
+4
+00:00:09,119 --> 00:00:10,830
+In this video, I'll share
+
+5
+00:00:10,830 --> 00:00:13,230
+more tips for communicating
+with your team and
+
+6
+00:00:13,230 --> 00:00:15,720
+introduce you to tools
+that will help you and
+
+7
+00:00:15,720 --> 00:00:18,674
+your team communicate
+even more effectively.
+
+8
+00:00:18,674 --> 00:00:20,085
+As the project manager,
+
+9
+00:00:20,085 --> 00:00:21,600
+you are the one who connects
+
+10
+00:00:21,600 --> 00:00:24,285
+your team to the
+information they need.
+
+11
+00:00:24,285 --> 00:00:26,010
+Throughout the project, you'll
+
+12
+00:00:26,010 --> 00:00:27,600
+serve as the main resource for
+
+13
+00:00:27,600 --> 00:00:28,920
+your team when it comes to
+
+14
+00:00:28,920 --> 00:00:31,425
+communicating and
+clarifying goals,
+
+15
+00:00:31,425 --> 00:00:34,180
+action items,
+progress, and updates.
+
+16
+00:00:34,180 --> 00:00:35,940
+It's important to make sure that
+
+17
+00:00:35,940 --> 00:00:37,680
+you are carrying
+information forward
+
+18
+00:00:37,680 --> 00:00:40,850
+consistently and coherently
+so that everyone
+
+19
+00:00:40,850 --> 00:00:42,350
+understands what the
+current state of
+
+20
+00:00:42,350 --> 00:00:45,350
+the project is and
+what happens next.
+
+21
+00:00:45,350 --> 00:00:48,710
+Teams communicate in
+a myriad of ways.
+
+22
+00:00:48,710 --> 00:00:50,630
+Though project managers
+are constantly
+
+23
+00:00:50,630 --> 00:00:52,805
+communicating through
+check-ins and meetings,
+
+24
+00:00:52,805 --> 00:00:54,320
+project documents such as
+
+25
+00:00:54,320 --> 00:00:56,285
+project plans
+including schedules,
+
+26
+00:00:56,285 --> 00:00:57,530
+trackers, and meeting notes,
+
+27
+00:00:57,530 --> 00:01:00,430
+they're also hubs for
+team communication.
+
+28
+00:01:00,430 --> 00:01:02,690
+It's your responsibility
+to be clear
+
+29
+00:01:02,690 --> 00:01:05,030
+about how those
+documents get used,
+
+30
+00:01:05,030 --> 00:01:07,145
+who has access to
+those documents,
+
+31
+00:01:07,145 --> 00:01:10,340
+and how often the
+documents get updated.
+
+32
+00:01:10,340 --> 00:01:13,670
+Of course, in addition to
+those responsibilities,
+
+33
+00:01:13,670 --> 00:01:15,650
+you'll also have to field e-mails,
+
+34
+00:01:15,650 --> 00:01:17,870
+instant messages,
+and attend meetings.
+
+35
+00:01:17,870 --> 00:01:19,400
+All of these things are critical
+
+36
+00:01:19,400 --> 00:01:21,035
+in driving a project forward.
+
+37
+00:01:21,035 --> 00:01:22,340
+As a project manager,
+
+38
+00:01:22,340 --> 00:01:23,825
+you are the one who coordinates
+
+39
+00:01:23,825 --> 00:01:26,330
+incoming and outgoing
+information.
+
+40
+00:01:26,330 --> 00:01:29,150
+You connect individuals to
+the necessary details and
+
+41
+00:01:29,150 --> 00:01:31,400
+context and track who
+
+42
+00:01:31,400 --> 00:01:34,180
+needs to receive what
+information and when.
+
+43
+00:01:34,180 --> 00:01:37,145
+You'll need to communicate
+certain information
+
+44
+00:01:37,145 --> 00:01:40,645
+to your team multiple
+times and in various ways.
+
+45
+00:01:40,645 --> 00:01:42,755
+Some people learn by listening,
+
+46
+00:01:42,755 --> 00:01:44,375
+some people learn by watching,
+
+47
+00:01:44,375 --> 00:01:46,280
+and others learn by doing.
+
+48
+00:01:46,280 --> 00:01:48,440
+Communicating in various ways
+
+49
+00:01:48,440 --> 00:01:50,390
+ensures that you're
+sharing knowledge to
+
+50
+00:01:50,390 --> 00:01:52,070
+your team in a format that's
+
+51
+00:01:52,070 --> 00:01:55,030
+digestible and easy
+for them to take in.
+
+52
+00:01:55,030 --> 00:01:58,655
+Your team will have a lot
+of tasks to focus on.
+
+53
+00:01:58,655 --> 00:02:00,650
+Be proactive and reinforce
+
+54
+00:02:00,650 --> 00:02:02,795
+important information
+multiple times,
+
+55
+00:02:02,795 --> 00:02:06,160
+in multiple ways so that no
+one is left out of the loop.
+
+56
+00:02:06,160 --> 00:02:07,460
+There are many tools for
+
+57
+00:02:07,460 --> 00:02:09,770
+communicating with your
+team to make it easy to
+
+58
+00:02:09,770 --> 00:02:11,240
+keep in contact and be on
+
+59
+00:02:11,240 --> 00:02:13,820
+the same page throughout the
+duration of the project.
+
+60
+00:02:13,820 --> 00:02:16,504
+Some of these include:
+e-mail and messaging,
+
+61
+00:02:16,504 --> 00:02:19,190
+in-person meetings,
+video conferencing,
+
+62
+00:02:19,190 --> 00:02:21,730
+and work management and
+collaboration tools.
+
+63
+00:02:21,730 --> 00:02:23,300
+Your organization might have
+
+64
+00:02:23,300 --> 00:02:25,295
+some of these tools
+in place already,
+
+65
+00:02:25,295 --> 00:02:26,960
+or you might have
+the opportunity to
+
+66
+00:02:26,960 --> 00:02:29,120
+select some for a project.
+
+67
+00:02:29,120 --> 00:02:31,220
+In either case, it's good to be
+
+68
+00:02:31,220 --> 00:02:32,990
+familiar with what's out there.
+
+69
+00:02:32,990 --> 00:02:34,850
+We'll explore tools that provide
+
+70
+00:02:34,850 --> 00:02:37,040
+effective project
+team communication in
+
+71
+00:02:37,040 --> 00:02:41,150
+more detail in the next
+video. Meet you there.

@@ -1,0 +1,15 @@
+HỌC PHẦN HAI, QUẢN TRỊ CHẤT LƯỢNG VÀ CẢI TIẾN LIÊN TỤC, QUALITY MANAGEMENT AND CONTINUOUS IMPROVEMENT.
+. ......
+LỜI MỞ ĐẦU, QUẢN TRỊ CHẤT LƯỢNG VÀ CẢI TIẾN LIÊN TỤC, INTRODUCTION, QUALITY MANAGEMENT AND CONTINUOUS IMPROVEMENT.
+. ......
+Chào mừng bạn đã đến với học phần thứ hai của khóa học Thực thi Dự án! Trong học phần này, chúng ta sẽ cùng nhau khám phá một trong những yếu tố mang tính quyết định trực tiếp tới sự hài lòng của khách hàng và uy tín lâu dài của tổ chức, Quản trị chất lượng và Cải tiến liên tục, tức Quality Management and Continuous Improvement.
+
+Là một Project Manager, mục tiêu của bạn không chỉ là hoàn thành công việc đúng hạn và trong phạm vi ngân sách, mà còn phải đảm bảo rằng sản phẩm hay dịch vụ được tạo ra đáp ứng hoàn hảo các tiêu chuẩn chất lượng đã cam kết. Bạn sẽ học cách áp dụng các kỹ thuật quản lý chất lượng khác nhau, nắm vững nghệ thuật giao tiếp để nuôi dưỡng mối quan hệ bền chặt với khách hàng, và khám phá những phương thức chuẩn xác để đo lường mức độ hài lòng của họ.
+
+Bên cạnh đó, chúng ta sẽ đi sâu vào các phương pháp cải tiến quy trình liên tục, tìm hiểu sự khác biệt bản chất giữa dự án và chương trình, đồng thời, học cách tổ chức các phiên họp hồi tưởng cải tiến quy trình Retrospective để giúp đội ngũ không ngừng tiến bộ sau mỗi chặng đường. Hãy cùng tôi bắt đầu ngay bài học đầu tiên!
+
+CÁC KHÁI NIỆM CỐT LÕI VỀ QUẢN TRỊ CHẤT LƯỢNG, KEY QUALITY MANAGEMENT CONCEPTS.
+. ......
+Để quản lý chất lượng một cách khoa học và bài bản, trước hết chúng ta cần làm sáng tỏ chất lượng thực chất là gì trong bối cảnh quản trị dự án hiện đại. Trong đời sống thường nhật, khi nói đến chất lượng, hầu hết mọi người thường liên tưởng ngay đến những thứ xa xỉ, hào nhoáng, đắt tiền hoặc các dịch vụ thượng lưu. Nhưng trong chuyên ngành quản trị dự án theo chuẩn mực quốc tế của P-M-I và Google, định nghĩa của chất lượng hoàn toàn khác biệt, Chất lượng là mức độ mà một tập hợp các đặc tính vốn có của sản phẩm, dịch vụ hay kết quả đáp ứng đầy đủ và trọn vẹn các yêu cầu cùng kỳ vọng đã được xác định trước.
+
+Nói một cách giản dị và thực tế nhất, chất lượng chính là sự phù hợp hoàn hảo với mục đích sử dụng, tức Fitness for Use, và sự tuân thủ nghiêm ngặt các tiêu chuẩn kỹ thuật đã cam kết, tức Conformance to Requirements. Một sản phẩm dù đơn giản đến đâu, nhưng nếu nó vận hành trơn tru, bền bỉ và giải quyết chính xác bài toán mà người dùng đang tìm kiếm, thì sản phẩm đó đạt chuẩn chất lượng xuất sắc.

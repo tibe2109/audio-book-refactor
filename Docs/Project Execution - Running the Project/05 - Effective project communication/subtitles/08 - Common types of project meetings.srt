@@ -1,0 +1,886 @@
+1
+00:00:00,020 --> 00:00:04,245
+Hi again. Now that you've
+learned the key components for
+
+2
+00:00:04,245 --> 00:00:07,640
+organizing and facilitating
+an effective team meeting,
+
+3
+00:00:07,640 --> 00:00:09,690
+we'll explore the
+specifics of some of
+
+4
+00:00:09,690 --> 00:00:11,625
+the most common types of meetings
+
+5
+00:00:11,625 --> 00:00:14,100
+you'll need to have
+during a project.
+
+6
+00:00:14,100 --> 00:00:17,235
+Every project has meetings,
+lots of meetings.
+
+7
+00:00:17,235 --> 00:00:19,169
+While every meeting is unique,
+
+8
+00:00:19,169 --> 00:00:21,300
+being familiar with the
+most common types of
+
+9
+00:00:21,300 --> 00:00:23,130
+project management meetings will
+
+10
+00:00:23,130 --> 00:00:25,215
+help you better
+identify the goals,
+
+11
+00:00:25,215 --> 00:00:28,440
+structure, and activities
+best suited for each one.
+
+12
+00:00:28,440 --> 00:00:30,090
+There are four general types
+
+13
+00:00:30,090 --> 00:00:32,130
+of project management meetings,
+
+14
+00:00:32,130 --> 00:00:35,160
+project kick-off, status updates,
+
+15
+00:00:35,160 --> 00:00:38,220
+stakeholder reviews,
+and project reviews.
+
+16
+00:00:38,220 --> 00:00:40,010
+The first one we'll talk about
+
+17
+00:00:40,010 --> 00:00:41,945
+is the project kick-off meeting.
+
+18
+00:00:41,945 --> 00:00:43,850
+This is often considered the
+
+19
+00:00:43,850 --> 00:00:46,250
+official beginning of
+a project and serves
+
+20
+00:00:46,250 --> 00:00:48,530
+as a way to align the
+team's understanding of
+
+21
+00:00:48,530 --> 00:00:51,935
+the project goals with
+actual plans and procedures.
+
+22
+00:00:51,935 --> 00:00:53,300
+Members of your team are
+
+23
+00:00:53,300 --> 00:00:55,790
+the major attendees of
+your kickoff meeting.
+
+24
+00:00:55,790 --> 00:00:57,230
+But the participation of
+
+25
+00:00:57,230 --> 00:00:59,780
+senior management and
+key stakeholders is also
+
+26
+00:00:59,780 --> 00:01:01,700
+required for securing buy-in and
+
+27
+00:01:01,700 --> 00:01:03,835
+ensuring alignment
+with project goals.
+
+28
+00:01:03,835 --> 00:01:05,955
+The next type of
+meeting we'll discuss,
+
+29
+00:01:05,955 --> 00:01:07,640
+are status update meetings.
+
+30
+00:01:07,640 --> 00:01:09,560
+Status update meetings are one of
+
+31
+00:01:09,560 --> 00:01:11,485
+the most common
+types of meetings.
+
+32
+00:01:11,485 --> 00:01:14,300
+This category includes
+regular team meetings
+
+33
+00:01:14,300 --> 00:01:17,435
+where the primary goal is to
+align the team on updates,
+
+34
+00:01:17,435 --> 00:01:20,330
+progress, challenges,
+and next steps.
+
+35
+00:01:20,330 --> 00:01:22,400
+During the meeting,
+the project manager
+
+36
+00:01:22,400 --> 00:01:23,660
+may distribute or present
+
+37
+00:01:23,660 --> 00:01:25,760
+project performance
+reports and formal
+
+38
+00:01:25,760 --> 00:01:28,870
+status updates on key
+elements of the project.
+
+39
+00:01:28,870 --> 00:01:31,610
+This allows the team and
+stakeholders to gain
+
+40
+00:01:31,610 --> 00:01:33,875
+visibility into current
+performance levels
+
+41
+00:01:33,875 --> 00:01:35,270
+and task progress.
+
+42
+00:01:35,270 --> 00:01:37,745
+One of the project manager's
+key responsibilities
+
+43
+00:01:37,745 --> 00:01:40,370
+is to be aware of the
+status of the project at
+
+44
+00:01:40,370 --> 00:01:43,535
+any given time and to
+ensure that others are
+
+45
+00:01:43,535 --> 00:01:47,080
+up to speed or know where to
+find the latest information.
+
+46
+00:01:47,080 --> 00:01:48,455
+In order to do that,
+
+47
+00:01:48,455 --> 00:01:50,930
+status updates become a
+critical tool throughout
+
+48
+00:01:50,930 --> 00:01:53,900
+the life cycle of a project
+to check in on the project.
+
+49
+00:01:53,900 --> 00:01:56,135
+Typically, you'll
+assess the status of
+
+50
+00:01:56,135 --> 00:01:58,750
+each of the following
+topics during this meeting.
+
+51
+00:01:58,750 --> 00:02:01,095
+First, are task updates.
+
+52
+00:02:01,095 --> 00:02:03,800
+It is important for
+the attendees to know,
+
+53
+00:02:03,800 --> 00:02:06,680
+what is the status of
+the most urgent tasks?
+
+54
+00:02:06,680 --> 00:02:09,080
+How many tasks have
+been completed,
+
+55
+00:02:09,080 --> 00:02:11,315
+and how many open items remain?
+
+56
+00:02:11,315 --> 00:02:13,690
+Next, is schedule status.
+
+57
+00:02:13,690 --> 00:02:15,315
+Are we behind schedule?
+
+58
+00:02:15,315 --> 00:02:18,745
+Ahead of schedule? Or on
+pace with our projections?
+
+59
+00:02:18,745 --> 00:02:21,050
+Similarly, it's common to discuss
+
+60
+00:02:21,050 --> 00:02:22,235
+the budget status and
+
+61
+00:02:22,235 --> 00:02:25,240
+any new items that
+impact your bottom line.
+
+62
+00:02:25,240 --> 00:02:29,150
+Then you should discuss
+current or anticipated issues.
+
+63
+00:02:29,150 --> 00:02:31,565
+For example, changes, risks,
+
+64
+00:02:31,565 --> 00:02:34,700
+resource issues, vendor
+issues, and so on.
+
+65
+00:02:34,700 --> 00:02:37,580
+Particularly changes
+to quality and scope.
+
+66
+00:02:37,580 --> 00:02:39,590
+It's always a good idea to raise
+
+67
+00:02:39,590 --> 00:02:41,435
+these items on a recurring basis
+
+68
+00:02:41,435 --> 00:02:43,250
+so that no one is
+caught off guard
+
+69
+00:02:43,250 --> 00:02:45,580
+and you can discuss
+solutions together.
+
+70
+00:02:45,580 --> 00:02:48,540
+Lastly, you'll want to
+discuss action items.
+
+71
+00:02:48,540 --> 00:02:50,510
+An action item is a task on
+
+72
+00:02:50,510 --> 00:02:52,490
+your list that needs
+to be completed.
+
+73
+00:02:52,490 --> 00:02:55,370
+Assigning action items is
+a great way to wrap up
+
+74
+00:02:55,370 --> 00:02:56,630
+the meeting and make sure
+
+75
+00:02:56,630 --> 00:02:59,080
+the project keeps forging ahead.
+
+76
+00:02:59,080 --> 00:03:04,055
+Remember, every action item
+has an owner and a due date.
+
+77
+00:03:04,055 --> 00:03:06,170
+The status meeting is
+
+78
+00:03:06,170 --> 00:03:07,700
+a fundamental project tool
+
+79
+00:03:07,700 --> 00:03:09,790
+that keeps the project on track.
+
+80
+00:03:09,790 --> 00:03:12,470
+Most project managers
+recommend using
+
+81
+00:03:12,470 --> 00:03:15,830
+a relatively fixed agenda
+and time with this meeting.
+
+82
+00:03:15,830 --> 00:03:17,540
+To keep the team engaged,
+
+83
+00:03:17,540 --> 00:03:18,980
+follow the agenda, and hold
+
+84
+00:03:18,980 --> 00:03:21,025
+the meeting to a tight schedule.
+
+85
+00:03:21,025 --> 00:03:23,120
+Because the project
+manager should
+
+86
+00:03:23,120 --> 00:03:24,830
+be able to report up-to-date
+
+87
+00:03:24,830 --> 00:03:27,080
+information to the
+project sponsors
+
+88
+00:03:27,080 --> 00:03:28,700
+or clients at any time,
+
+89
+00:03:28,700 --> 00:03:31,930
+it's important to conduct
+status meetings regularly.
+
+90
+00:03:31,930 --> 00:03:34,580
+Status meetings are
+beneficial because they
+
+91
+00:03:34,580 --> 00:03:37,655
+provide an opportunity for
+recognizing milestones,
+
+92
+00:03:37,655 --> 00:03:40,960
+sharing information, and
+raising concerns to the team.
+
+93
+00:03:40,960 --> 00:03:43,100
+How often you decide to schedule
+
+94
+00:03:43,100 --> 00:03:45,604
+these meetings depends
+on several factors,
+
+95
+00:03:45,604 --> 00:03:47,615
+such as the project's complexity,
+
+96
+00:03:47,615 --> 00:03:49,100
+number of team members,
+
+97
+00:03:49,100 --> 00:03:51,230
+and the level of
+information required by
+
+98
+00:03:51,230 --> 00:03:54,050
+the project sponsor,
+clients, or others.
+
+99
+00:03:54,050 --> 00:03:55,700
+Don't be afraid to change up
+
+100
+00:03:55,700 --> 00:03:58,055
+the cadence as your
+project progresses.
+
+101
+00:03:58,055 --> 00:04:00,515
+Another type of project
+management meeting,
+
+102
+00:04:00,515 --> 00:04:01,955
+is a stakeholder meeting.
+
+103
+00:04:01,955 --> 00:04:03,860
+Stakeholder engagement
+is essential
+
+104
+00:04:03,860 --> 00:04:05,965
+for a successful
+project management.
+
+105
+00:04:05,965 --> 00:04:07,895
+The goal of a stakeholder meeting
+
+106
+00:04:07,895 --> 00:04:09,785
+is to get buy-in and support.
+
+107
+00:04:09,785 --> 00:04:11,870
+Stakeholders, each
+have their own set
+
+108
+00:04:11,870 --> 00:04:14,335
+of tools, know-how,
+and expertise.
+
+109
+00:04:14,335 --> 00:04:16,190
+Stakeholder meetings are where
+
+110
+00:04:16,190 --> 00:04:19,115
+these contributions are
+outlined and utilized.
+
+111
+00:04:19,115 --> 00:04:20,975
+You'll need to start
+by understanding
+
+112
+00:04:20,975 --> 00:04:23,255
+a stakeholder's
+challenges or problems.
+
+113
+00:04:23,255 --> 00:04:25,070
+Then respond accordingly and make
+
+114
+00:04:25,070 --> 00:04:27,895
+necessary adjustments to
+resolve those challenges.
+
+115
+00:04:27,895 --> 00:04:30,290
+Winning and sustaining
+the support of
+
+116
+00:04:30,290 --> 00:04:33,530
+your stakeholders is important
+to your project's success.
+
+117
+00:04:33,530 --> 00:04:36,155
+In some cases, you
+might want to have
+
+118
+00:04:36,155 --> 00:04:39,335
+stakeholder meetings
+on a one-on-one basis.
+
+119
+00:04:39,335 --> 00:04:41,510
+This allows you to dive deeper on
+
+120
+00:04:41,510 --> 00:04:44,005
+relevant details with
+each stakeholder.
+
+121
+00:04:44,005 --> 00:04:46,580
+Then you can cover the
+topics that are most
+
+122
+00:04:46,580 --> 00:04:49,685
+interesting and concerning
+to that particular person.
+
+123
+00:04:49,685 --> 00:04:53,105
+Other times you'll need to
+engage stakeholders in groups.
+
+124
+00:04:53,105 --> 00:04:56,165
+If you have a large number
+of stakeholders to manage,
+
+125
+00:04:56,165 --> 00:04:57,470
+focus the meeting on
+
+126
+00:04:57,470 --> 00:05:00,065
+your project's most
+influential stakeholders.
+
+127
+00:05:00,065 --> 00:05:02,060
+Identify appropriate stakeholders
+
+128
+00:05:02,060 --> 00:05:03,770
+for high touch communication.
+
+129
+00:05:03,770 --> 00:05:06,440
+For example, you may
+focus the meeting on
+
+130
+00:05:06,440 --> 00:05:07,940
+senior managers from each of
+
+131
+00:05:07,940 --> 00:05:09,845
+the groups you need to engage.
+
+132
+00:05:09,845 --> 00:05:13,205
+Other stakeholders can be
+informed using other methods,
+
+133
+00:05:13,205 --> 00:05:15,605
+such as email or meeting notes.
+
+134
+00:05:15,605 --> 00:05:17,270
+While there are a number of
+
+135
+00:05:17,270 --> 00:05:20,255
+potential topics to cover when
+meeting with stakeholders,
+
+136
+00:05:20,255 --> 00:05:21,830
+most meetings are limited
+
+137
+00:05:21,830 --> 00:05:24,290
+to communicating
+critical information.
+
+138
+00:05:24,290 --> 00:05:27,890
+You should always be able to
+present a project update.
+
+139
+00:05:27,890 --> 00:05:29,345
+Start the meeting with
+
+140
+00:05:29,345 --> 00:05:34,355
+a short overall project's
+status update of 2-5 minutes.
+
+141
+00:05:34,355 --> 00:05:36,800
+Another key reason to
+meet with stakeholders is
+
+142
+00:05:36,800 --> 00:05:39,230
+to seek out and
+listen to feedback.
+
+143
+00:05:39,230 --> 00:05:41,810
+Or you might meet with
+stakeholders to make
+
+144
+00:05:41,810 --> 00:05:42,980
+a decision or resolve
+
+145
+00:05:42,980 --> 00:05:45,380
+a major issue surrounding
+your project.
+
+146
+00:05:45,380 --> 00:05:47,660
+In this case, you'll
+often meet with
+
+147
+00:05:47,660 --> 00:05:49,925
+senior leaders and
+the project sponsor.
+
+148
+00:05:49,925 --> 00:05:51,920
+Decisions could include go,
+
+149
+00:05:51,920 --> 00:05:54,740
+or no-go decisions, a
+choice between options,
+
+150
+00:05:54,740 --> 00:05:56,660
+or signing off on investments.
+
+151
+00:05:56,660 --> 00:05:59,425
+Stakeholder meetings are
+generally more formal.
+
+152
+00:05:59,425 --> 00:06:01,000
+It's normal to prepare
+
+153
+00:06:01,000 --> 00:06:03,380
+reading materials and
+documents to review
+
+154
+00:06:03,380 --> 00:06:05,270
+ahead of time to help get people
+
+155
+00:06:05,270 --> 00:06:07,520
+in the right mindset
+for the meeting.
+
+156
+00:06:07,520 --> 00:06:10,450
+Stakeholder meetings can
+be regular and recurring,
+
+157
+00:06:10,450 --> 00:06:12,880
+or just a one-off
+project meeting.
+
+158
+00:06:12,880 --> 00:06:15,320
+The frequency will depend on why
+
+159
+00:06:15,320 --> 00:06:17,360
+the stakeholder is
+involved in the project.
+
+160
+00:06:17,360 --> 00:06:19,430
+Are they playing an advisory role
+
+161
+00:06:19,430 --> 00:06:21,605
+such as a consultant in a RACI,
+
+162
+00:06:21,605 --> 00:06:24,955
+or just someone to inform
+and keep in the loop?
+
+163
+00:06:24,955 --> 00:06:26,840
+Does their involvement
+center around
+
+164
+00:06:26,840 --> 00:06:28,640
+just one activity on the project,
+
+165
+00:06:28,640 --> 00:06:31,955
+or do they need to stay involved
+on a longer-term basis?
+
+166
+00:06:31,955 --> 00:06:35,500
+You'll need to decide on
+a case-by-case basis.
+
+167
+00:06:35,500 --> 00:06:38,540
+The end of the project or the
+end of the project phase is
+
+168
+00:06:38,540 --> 00:06:39,800
+an excellent opportunity to
+
+169
+00:06:39,800 --> 00:06:42,085
+review how the project unfolded.
+
+170
+00:06:42,085 --> 00:06:43,985
+This is called a retrospective,
+
+171
+00:06:43,985 --> 00:06:45,335
+and you'll learn
+more about this in
+
+172
+00:06:45,335 --> 00:06:46,700
+other sections of this course.
+
+173
+00:06:46,700 --> 00:06:49,325
+A typical retrospective
+meeting agenda
+
+174
+00:06:49,325 --> 00:06:51,635
+includes reviewing
+lessons learned
+
+175
+00:06:51,635 --> 00:06:52,970
+about what's going well,
+
+176
+00:06:52,970 --> 00:06:54,605
+what you should keep doing,
+
+177
+00:06:54,605 --> 00:06:56,720
+and what can be improved.
+
+178
+00:06:56,720 --> 00:06:59,630
+Equally important to
+reviewing lessons learned is
+
+179
+00:06:59,630 --> 00:07:00,860
+taking the opportunity to
+
+180
+00:07:00,860 --> 00:07:02,885
+celebrate the project's success.
+
+181
+00:07:02,885 --> 00:07:04,430
+Knowing the difference between
+
+182
+00:07:04,430 --> 00:07:06,710
+these project meeting
+types allows you
+
+183
+00:07:06,710 --> 00:07:08,420
+to maximize productivity and
+
+184
+00:07:08,420 --> 00:07:10,700
+ensure that you're
+not wasting time.
+
+185
+00:07:10,700 --> 00:07:13,400
+You'll get the right outcome
+for each type of meeting,
+
+186
+00:07:13,400 --> 00:07:15,320
+which will help
+drive decisions and
+
+187
+00:07:15,320 --> 00:07:17,945
+lead to proactive
+positive actions.
+
+188
+00:07:17,945 --> 00:07:20,900
+Amazing, you just learned
+about the common types of
+
+189
+00:07:20,900 --> 00:07:22,580
+project meetings and how to make
+
+190
+00:07:22,580 --> 00:07:24,940
+them effective for
+everyone in the room.
+
+191
+00:07:24,940 --> 00:07:26,555
+In the next video,
+
+192
+00:07:26,555 --> 00:07:28,490
+we'll recap what
+you've learned in
+
+193
+00:07:28,490 --> 00:07:31,710
+the past few videos.
+I'll meet you there.

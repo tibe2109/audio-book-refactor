@@ -1,0 +1,24 @@
+Nhóm thứ nhất là Dữ liệu Định lượng, tức Quantitative Data, Đây là tất cả những dữ liệu có thể đo đếm được bằng những con số cụ thể và phép tính toán học. Dữ liệu định lượng trả lời cho các câu hỏi mang tính xác thực như, Có bao nhiêu? Tốn bao nhiêu tiền? Mất bao nhiêu giờ? Tỷ lệ phần trăm là bao nhiêu?
+Ví dụ cụ thể về dữ liệu định lượng bao gồm, 
+Số giờ làm việc thực tế của các kỹ sư trong tuần vừa qua.
+Chi phí tài chính đã giải ngân cho nhà cung cấp phần cứng tính đến ngày hôm nay.
+Số lượng lỗi phần mềm, tức bugs, được đội ngũ kiểm thử ghi nhận trong phiên bản thử nghiệm.
+Thời gian tải trang web trung bình tính bằng giây.
+Tỷ lệ phần trăm công việc đã hoàn thành so với kế hoạch ban đầu.
+
+Nhóm thứ hai là Dữ liệu Định tính, tức Qualitative Data, Đây là những dữ liệu mô tả tính chất, đặc điểm, cảm xúc hoặc ý kiến mà không thể đo lường trực tiếp bằng những con số thuần túy. Dữ liệu định tính trả lời cho các câu hỏi, Tại sao? Như thế nào? Cảm nhận ra sao?
+Ví dụ cụ thể về dữ liệu định tính bao gồm, 
+Phản hồi bằng văn bản của người dùng về trải nghiệm sử dụng ứng dụng di động mới.
+Biên bản phỏng vấn các bên liên quan về mức độ hài lòng đối với tính năng vừa ra mắt.
+Ghi chú từ các phiên họp hồi tưởng cải tiến quy trình Retrospective, phản ánh tâm trạng, động lực và những khó khăn tâm lý mà các thành viên trong đội đang gặp phải.
+Ý kiến đánh giá của chuyên gia tư vấn về tính khả thi của một giải pháp kiến trúc công nghệ mới.
+
+Để thu thập và tổ chức các dạng dữ liệu này một cách ngăn nắp, một Project Manager cần thành thạo việc sử dụng các công cụ đắc lực, 
+Bảng tính điện tử, như Google Sheets hoặc Microsoft Excel, Đây là công cụ phổ biến và linh hoạt nhất để lưu trữ, tính toán các công thức toán học, lọc dữ liệu và tạo biểu đồ nhanh.
+Hệ thống cơ sở dữ liệu và công cụ quản lý dữ liệu lớn, Giúp lưu trữ các tập dữ liệu phức tạp của khách hàng và doanh nghiệp.
+Phần mềm quản lý dự án chuyên dụng, như Asana, Jira, Trello, Giúp tự động hóa việc theo dõi tiến độ công việc, đo lường thời gian thực hiện nhiệm vụ và trực quan hóa luồng công việc dưới dạng bảng Kanban hoặc biểu đồ Gantt.
+
+Sự kết hợp hài hòa giữa dữ liệu định lượng và định tính sẽ mang lại cho bạn cái nhìn toàn diện, Những con số định lượng cho bạn biết chuyện gì đang diễn ra, còn những phân tích định tính giúp bạn thấu hiểu sâu sắc tại sao chuyện đó lại xảy ra.
+
+CÁC CHỈ SỐ ĐO LƯỜNG DỮ LIỆU DỰ ÁN THƯỜNG GẶP, COMMON DATA METRICS FOR PROJECT MANAGEMENT.
+. ......

@@ -1,0 +1,16 @@
+Khi nói đến việc theo dõi dự án, câu hỏi đặt ra là, Cụ thể chúng ta cần phải theo dõi những yếu tố nào? Là một Project Manager, bạn không thể và cũng không nên cố gắng theo dõi tất cả mọi chi tiết vụn vặt, bởi điều đó sẽ biến bạn thành một người quản lý vi mô, tức Micromanager, gây ức chế cho đội ngũ và làm lãng phí thời gian quý báu. Thay vào đó, bạn cần tập trung vào các hạng mục cốt lõi nhất sau đây,
+
+Thứ nhất là nhiệm vụ và các cột mốc, tức Tasks and Milestones, Bạn cần theo dõi tiến độ hoàn thành của từng nhiệm vụ cụ thể và đặc biệt chú ý đến các cột mốc quan trọng. Một cột mốc đánh dấu sự hoàn thành của một giai đoạn hay một sản phẩm bàn giao then chốt. Việc theo dõi sát các cột mốc giúp bạn biết được liệu dự án có đang bám sát lộ trình tổng thể hay không.
+
+Thứ hai là tiến độ thời gian và thời hạn chót, tức Schedule and Deadlines, Bạn cần nắm rõ ngày bắt đầu thực tế, ngày hoàn thành dự kiến của từng công việc, và so sánh chúng với kế hoạch cơ sở ban đầu. Việc này giúp bạn sớm phát hiện các dấu hiệu chậm trễ trước khi chúng kịp tác động tiêu cực đến thời hạn phát hành chung của toàn bộ dự án.
+
+Thứ ba là chi phí và ngân sách, tức Costs and Budget, Bạn cần liên tục kiểm soát các khoản chi tiêu thực tế so với định mức ngân sách đã được cấp. Hãy theo dõi các chi phí nhân công, chi phí mua sắm thiết bị, phần mềm và dịch vụ từ các nhà thầu bên ngoài để đảm bảo dự án không rơi vào tình trạng bội chi tài chính.
+
+Thứ tư là chất lượng sản phẩm, tức Quality, Việc hoàn thành công việc đúng hạn và trong phạm vi ngân sách sẽ trở nên vô nghĩa nếu sản phẩm bàn giao không đạt các tiêu chuẩn chất lượng đã cam kết. Do đó, bạn cần theo dõi các chỉ số chất lượng, kết quả kiểm thử, số lượng lỗi phát sinh và mức độ hài lòng của người dùng thử nghiệm.
+
+Thứ năm là rủi ro và các vấn đề phát sinh, tức Risks and Issues, Rủi ro là những điều có thể xảy ra trong tương lai, còn vấn đề là những trục trặc đang diễn ra ngay trong hiện tại. Bạn cần liên tục cập nhật nhật ký rủi ro để biết được tình trạng của từng mối đe dọa, hiệu quả của các biện pháp giảm thiểu, cũng như tiến trình xử lý các sự cố đang phát sinh.
+
+Bằng cách theo dõi đều đặn năm hạng mục cốt lõi này, bạn sẽ luôn nắm giữ bức tranh toàn cảnh về sức khỏe của dự án và sẵn sàng đưa ra các quyết sách điều chỉnh kịp thời.
+
+CÁC PHƯƠNG PHÁP THEO DÕI KHÁC NHAU, DIFFERENT TRACKING METHODS.
+. ......

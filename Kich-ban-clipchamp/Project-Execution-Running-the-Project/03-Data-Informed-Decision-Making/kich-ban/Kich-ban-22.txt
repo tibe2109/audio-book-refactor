@@ -1,0 +1,16 @@
+Phần thứ nhất, Thiết lập bối cảnh ban đầu, tức The Beginning and Setting the Scene.
+Bạn mở đầu bằng việc nhắc lại, lý do tại sao dự án này tồn tại, Mục tiêu ban đầu là gì? Chúng ta đã kỳ vọng đạt được những điều gì? Tình hình thị trường và bối cảnh kinh doanh lúc đó ra sao? Điều này giúp kéo tất cả khán giả về cùng một điểm xuất phát và nhắc họ nhớ về tầm quan trọng của vấn đề.
+
+Phần thứ hai, Xung đột và Thách thức, tức The Middle and Conflict.
+Đây là phần cao trào của câu chuyện, nơi bạn đưa dữ liệu vào để phơi bày thực tế, Những con số đang cho thấy điều gì bất thường? Dự án đang gặp phải những nút thắt cổ chai nào? Chi phí đang tăng vọt ở khâu nào, hay năng suất đang bị sụt giảm ra sao? Bạn cho khán giả thấy khoảng cách giữa kỳ vọng ban đầu và thực tế đang diễn ra, tạo nên sự kịch tính cần thiết để kích thích tư duy tìm kiếm giải pháp.
+
+Phần thứ ba, Hướng giải quyết và Kết luận hành động, tức The End and Resolution.
+Bạn dẫn dắt khán giả đến với giải pháp dựa trên những hiểu biết sâu sắc từ dữ liệu, Dữ liệu mách bảo chúng ta điều gì? Con đường tối ưu nhất để vượt qua thử thách này là gì? Bạn đưa ra các khuyến nghị hành động cụ thể, phân tích lợi ích và rủi ro, đồng thời, vẽ nên bức tranh tương lai thành công khi kế hoạch được thực hiện.
+
+Khi bạn biết cách kết hợp các con số chính xác với một mạch kể chuyện lôi cuốn, bài thuyết trình của bạn sẽ không còn là một buổi báo cáo khô cứng, mà sẽ trở thành một cuộc đối thoại chiến lược đầy cảm hứng.
+
+CÔNG CỤ TRỰC QUAN HÓA DỮ LIỆU, DATA VISUALIZATION TOOLS.
+. ......
+Chào bạn. Trong bài học này, chúng ta sẽ thảo luận về trực quan hóa dữ liệu và cách nó giúp thông tin hóa các quyết định cho dự án của bạn.
+
+Trực quan hóa dữ liệu, tức Data Visualization, là việc biểu diễn thông tin bằng hình ảnh đồ họa để hỗ trợ và thúc đẩy sự thấu hiểu. Điều đó có thể bao gồm các đồ thị, bản đồ, và bảng biểu, cùng nhiều dạng khác.

@@ -1,0 +1,662 @@
+1
+00:00:00,170 --> 00:00:03,630
+Welcome back. In this video,
+
+2
+00:00:03,630 --> 00:00:07,215
+we'll discuss how to tell a
+powerful story using data.
+
+3
+00:00:07,215 --> 00:00:09,660
+We'll teach you how to
+gather and organize
+
+4
+00:00:09,660 --> 00:00:11,505
+your project data
+to present it to
+
+5
+00:00:11,505 --> 00:00:13,815
+others within your organization.
+
+6
+00:00:13,815 --> 00:00:16,770
+Presenting is a powerful
+way to communicate
+
+7
+00:00:16,770 --> 00:00:18,060
+your ideas and support
+
+8
+00:00:18,060 --> 00:00:20,505
+your decisions throughout
+the project journey.
+
+9
+00:00:20,505 --> 00:00:24,280
+Think of presenting as telling
+the story of your project.
+
+10
+00:00:24,280 --> 00:00:27,140
+Storytelling is the
+process of turning facts
+
+11
+00:00:27,140 --> 00:00:30,565
+into narrative to communicate
+something to your audience.
+
+12
+00:00:30,565 --> 00:00:33,535
+Storytelling is how you
+bring data to life
+
+13
+00:00:33,535 --> 00:00:36,050
+and is a useful way to
+tell stakeholders within
+
+14
+00:00:36,050 --> 00:00:38,975
+your organization
+about your project.
+
+15
+00:00:38,975 --> 00:00:41,900
+In a way, we're all
+storytellers using
+
+16
+00:00:41,900 --> 00:00:45,590
+information and experiences
+to share ideas with others.
+
+17
+00:00:45,590 --> 00:00:49,655
+Stories usually have a
+beginning, middle, and end.
+
+18
+00:00:49,655 --> 00:00:51,830
+To tell a great story using data,
+
+19
+00:00:51,830 --> 00:00:55,025
+we'll go over some best
+practices to make sure
+
+20
+00:00:55,025 --> 00:00:58,270
+your story is complete,
+accurate, and compelling.
+
+21
+00:00:58,270 --> 00:01:01,895
+In general, there are six
+main steps to storytelling.
+
+22
+00:01:01,895 --> 00:01:04,250
+First, define your audience.
+
+23
+00:01:04,250 --> 00:01:06,290
+Then, collect the data.
+
+24
+00:01:06,290 --> 00:01:09,010
+Next, filter and
+analyze the data.
+
+25
+00:01:09,010 --> 00:01:12,215
+Fourth, choose a
+visual representation.
+
+26
+00:01:12,215 --> 00:01:13,970
+Then, shape the story.
+
+27
+00:01:13,970 --> 00:01:16,495
+And finally, gather
+your feedback.
+
+28
+00:01:16,495 --> 00:01:18,840
+Now let's review each one.
+
+29
+00:01:18,840 --> 00:01:21,960
+Step 1: define your audience.
+
+30
+00:01:21,960 --> 00:01:23,585
+In this first step,
+
+31
+00:01:23,585 --> 00:01:26,200
+it's important to know
+who you're presenting to.
+
+32
+00:01:26,200 --> 00:01:28,230
+Are you presenting
+to project sponsors
+
+33
+00:01:28,230 --> 00:01:31,005
+or executives? Or
+to team members?
+
+34
+00:01:31,005 --> 00:01:32,990
+Define your audience and find
+
+35
+00:01:32,990 --> 00:01:35,185
+out what matters most to them.
+
+36
+00:01:35,185 --> 00:01:38,540
+Begin by asking yourself
+qualifying questions like:
+
+37
+00:01:38,540 --> 00:01:41,390
+What would my audience want
+to know about the project?
+
+38
+00:01:41,390 --> 00:01:44,495
+Or, what are their
+most urgent concerns?
+
+39
+00:01:44,495 --> 00:01:46,175
+Which key data points
+
+40
+00:01:46,175 --> 00:01:48,665
+influence the story
+and project outcome?
+
+41
+00:01:48,665 --> 00:01:50,360
+This will set you up to know
+
+42
+00:01:50,360 --> 00:01:51,740
+the type of story you want to
+
+43
+00:01:51,740 --> 00:01:55,055
+tell and the type of data
+you should use to tell it.
+
+44
+00:01:55,055 --> 00:01:57,425
+For example, years ago,
+
+45
+00:01:57,425 --> 00:01:59,795
+I was working on a
+project for Google Maps.
+
+46
+00:01:59,795 --> 00:02:01,910
+Our goal was to apply a label to
+
+47
+00:02:01,910 --> 00:02:04,100
+every business in the
+world: restaurants,
+
+48
+00:02:04,100 --> 00:02:06,370
+hotels, gas stations—you
+name it.
+
+49
+00:02:06,370 --> 00:02:07,655
+There are many, many,
+
+50
+00:02:07,655 --> 00:02:09,395
+many businesses in the world,
+
+51
+00:02:09,395 --> 00:02:12,455
+and I only had a small team
+of engineers to work with.
+
+52
+00:02:12,455 --> 00:02:15,290
+For this project, we
+tailored our storytelling to
+
+53
+00:02:15,290 --> 00:02:16,940
+an audience of vice presidents
+
+54
+00:02:16,940 --> 00:02:19,250
+from Google Maps and Google Search.
+
+55
+00:02:19,250 --> 00:02:21,095
+Both were important to consider,
+
+56
+00:02:21,095 --> 00:02:23,390
+because we were
+helping users find and
+
+57
+00:02:23,390 --> 00:02:24,860
+connect to businesses through
+
+58
+00:02:24,860 --> 00:02:27,695
+the Google Maps app and
+through Google Search.
+
+59
+00:02:27,695 --> 00:02:29,630
+I'll return to this
+example as I take
+
+60
+00:02:29,630 --> 00:02:31,745
+you through the steps
+of storytelling.
+
+61
+00:02:31,745 --> 00:02:33,515
+Next step is Step 2:
+
+62
+00:02:33,515 --> 00:02:35,240
+Find the data that connects to
+
+63
+00:02:35,240 --> 00:02:36,950
+the question you want to answer.
+
+64
+00:02:36,950 --> 00:02:39,530
+You'll need to begin
+searching for data from
+
+65
+00:02:39,530 --> 00:02:41,540
+trustworthy resources to support
+
+66
+00:02:41,540 --> 00:02:43,270
+the point you're trying to make.
+
+67
+00:02:43,270 --> 00:02:45,650
+Leverage the relevant
+project resources
+
+68
+00:02:45,650 --> 00:02:47,870
+in documents like
+your project plan or
+
+69
+00:02:47,870 --> 00:02:49,520
+work management software to
+
+70
+00:02:49,520 --> 00:02:52,805
+download and analyze
+key data points.
+
+71
+00:02:52,805 --> 00:02:54,905
+For my Google Maps project,
+
+72
+00:02:54,905 --> 00:02:57,110
+the question we were
+trying to answer was:
+
+73
+00:02:57,110 --> 00:02:59,840
+Where should we focus
+our attention first?
+
+74
+00:02:59,840 --> 00:03:02,165
+So to find the right
+data for this question,
+
+75
+00:03:02,165 --> 00:03:03,830
+we turned to the many businesses
+
+76
+00:03:03,830 --> 00:03:05,510
+in our internal database and
+
+77
+00:03:05,510 --> 00:03:07,640
+the available information
+about what types
+
+78
+00:03:07,640 --> 00:03:10,630
+of businesses users
+were searching for.
+
+79
+00:03:10,630 --> 00:03:13,335
+That brings us to Step 3:
+
+80
+00:03:13,335 --> 00:03:15,675
+Filter and analyze the data.
+
+81
+00:03:15,675 --> 00:03:17,840
+Now that you've
+collected your data,
+
+82
+00:03:17,840 --> 00:03:18,920
+you'll need to vet it for
+
+83
+00:03:18,920 --> 00:03:21,410
+credibility and filter
+the information.
+
+84
+00:03:21,410 --> 00:03:22,820
+For my Maps project,
+
+85
+00:03:22,820 --> 00:03:25,460
+we used search queries to
+determine the types of
+
+86
+00:03:25,460 --> 00:03:28,475
+businesses that users
+searched for most often,
+
+87
+00:03:28,475 --> 00:03:31,385
+which included restaurants,
+cafes, and hotels.
+
+88
+00:03:31,385 --> 00:03:33,225
+There were other categories—gas stations,
+
+89
+00:03:33,225 --> 00:03:35,395
+museums, etc.—but
+
+90
+00:03:35,395 --> 00:03:37,070
+they collectively made up
+
+91
+00:03:37,070 --> 00:03:41,365
+a much smaller percentage of
+geo-specific search traffic.
+
+92
+00:03:41,365 --> 00:03:45,135
+Step 4: Choose a
+visual representation.
+
+93
+00:03:45,135 --> 00:03:48,895
+Visualizations are a great
+way to help people remember
+
+94
+00:03:48,895 --> 00:03:50,840
+the information
+you're presenting and
+
+95
+00:03:50,840 --> 00:03:53,585
+are an essential piece
+of storytelling.
+
+96
+00:03:53,585 --> 00:03:56,210
+You can use data in
+different ways to tell
+
+97
+00:03:56,210 --> 00:03:58,280
+a story, like using dashboards,
+
+98
+00:03:58,280 --> 00:04:00,670
+charts, infographics,
+and mappings,
+
+99
+00:04:00,670 --> 00:04:02,210
+and we'll go over these examples
+
+100
+00:04:02,210 --> 00:04:04,375
+in more detail in the next video.
+
+101
+00:04:04,375 --> 00:04:06,110
+For my Maps project,
+
+102
+00:04:06,110 --> 00:04:08,720
+we decided on a pie chart
+to help tell our story,
+
+103
+00:04:08,720 --> 00:04:12,050
+which brings me to Step
+5: Shape the story.
+
+104
+00:04:12,050 --> 00:04:14,030
+After you've analyzed
+your data and
+
+105
+00:04:14,030 --> 00:04:15,725
+know how you'd like
+to visualize it,
+
+106
+00:04:15,725 --> 00:04:17,495
+it's time to tie it all together
+
+107
+00:04:17,495 --> 00:04:19,730
+into one cohesive narrative.
+
+108
+00:04:19,730 --> 00:04:21,410
+Take some time to think about
+
+109
+00:04:21,410 --> 00:04:22,850
+what you're hoping to achieve,
+
+110
+00:04:22,850 --> 00:04:24,185
+the points you want to make,
+
+111
+00:04:24,185 --> 00:04:26,660
+and the questions and
+concerns you want to answer.
+
+112
+00:04:26,660 --> 00:04:28,175
+For the Maps project,
+
+113
+00:04:28,175 --> 00:04:30,170
+we used the pie
+chart to show that
+
+114
+00:04:30,170 --> 00:04:32,720
+most geo-specific
+search queries are
+
+115
+00:04:32,720 --> 00:04:36,035
+covered by a relatively
+small number of businesses.
+
+116
+00:04:36,035 --> 00:04:38,785
+So we built a story
+about that data.
+
+117
+00:04:38,785 --> 00:04:42,170
+We wanted agreement from our
+VPs to work on improving
+
+118
+00:04:42,170 --> 00:04:43,700
+the data behind this set of
+
+119
+00:04:43,700 --> 00:04:45,890
+categories in a
+few major markets.
+
+120
+00:04:45,890 --> 00:04:47,900
+It needed to illustrate that
+
+121
+00:04:47,900 --> 00:04:50,045
+if we improved the category data,
+
+122
+00:04:50,045 --> 00:04:52,580
+we'd succeed in improving
+the search results for
+
+123
+00:04:52,580 --> 00:04:55,615
+more than 50% of geo searches.
+
+124
+00:04:55,615 --> 00:04:59,630
+Lastly is Step 6:
+Gather your feedback.
+
+125
+00:04:59,630 --> 00:05:02,015
+Similar to how you
+may ask a friend
+
+126
+00:05:02,015 --> 00:05:04,200
+to practice with you
+before an interview,
+
+127
+00:05:04,200 --> 00:05:06,515
+you want to be sure that
+before you present,
+
+128
+00:05:06,515 --> 00:05:08,450
+you do a trial run.
+
+129
+00:05:08,450 --> 00:05:10,520
+Try getting feedback from someone
+
+130
+00:05:10,520 --> 00:05:12,520
+who's not connected
+to the project.
+
+131
+00:05:12,520 --> 00:05:14,265
+Find out if it was interesting.
+
+132
+00:05:14,265 --> 00:05:17,355
+Did it make sense? What
+questions did they have?
+
+133
+00:05:17,355 --> 00:05:19,040
+Their feedback can help you
+
+134
+00:05:19,040 --> 00:05:21,170
+identify areas of
+your story that were
+
+135
+00:05:21,170 --> 00:05:23,450
+unclear or unmemorable and
+
+136
+00:05:23,450 --> 00:05:25,954
+give you a final chance
+to make adjustments.
+
+137
+00:05:25,954 --> 00:05:28,010
+To recap, you want to define
+
+138
+00:05:28,010 --> 00:05:29,855
+your audience, collect the data,
+
+139
+00:05:29,855 --> 00:05:31,630
+filter and analyze the data,
+
+140
+00:05:31,630 --> 00:05:33,620
+choose a visual representation,
+
+141
+00:05:33,620 --> 00:05:37,115
+shape the story, and finally,
+gather your feedback.
+
+142
+00:05:37,115 --> 00:05:39,665
+The key to effective
+storytelling is to be
+
+143
+00:05:39,665 --> 00:05:42,595
+organized, intentional,
+and prepared.
+
+144
+00:05:42,595 --> 00:05:45,480
+Coming up, we'll talk
+more about Step 4:
+
+145
+00:05:45,480 --> 00:05:48,910
+effective visualization.
+See you there.

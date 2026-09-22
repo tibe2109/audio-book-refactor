@@ -1,0 +1,13 @@
+Để bạn dễ dàng hình dung sự khác biệt giữa Q-A và Q-C trong thực tế, chúng ta hãy cùng tưởng tượng quy trình vận hành của một xưởng bánh thủ công cao cấp, 
+Đảm bảo chất lượng Q-A chính là việc bạn thiết lập quy định người làm bánh luôn phải rửa tay sát khuẩn trước khi làm việc, máy trộn bột được khử trùng đúng cách, lò nướng được bảo trì cân chỉnh nhiệt độ định kỳ hàng tuần, và nguồn nguyên liệu bơ sữa nhập về phải có nguồn gốc rõ ràng và còn nguyên hạn sử dụng. Toàn bộ những quy định này nhằm đảm bảo môi trường làm việc không thể tạo ra sản phẩm lỗi.
+Trong khi đó, Kiểm soát chất lượng Q-C chính là việc người bếp trưởng đích thân nếm thử một chiếc bánh vừa ra lò để kiểm tra độ xốp, độ ngọt, đo kích thước và quan sát màu sắc vỏ bánh xem có bị cháy xém hay không trước khi cho phép nhân viên đóng gói chuyển đi.
+
+Cả hai hoạt động này gắn kết hữu cơ với nhau, Nếu bạn làm tốt khâu Đảm bảo chất lượng Q-A, số lượng sản phẩm lỗi mà khâu Kiểm soát chất lượng Q-C phải loại bỏ sẽ giảm đi đáng kể, giúp tiết kiệm tối đa thời gian và chi phí cho toàn bộ dự án.
+
+Ngoài ra, hai khái niệm khác thường gây hiểu lầm tai hại trong quản trị dự án là Cấp độ, tức Grade, và Chất lượng, tức Quality, 
+Cấp độ là một danh mục được gán cho các sản phẩm hay dịch vụ có cùng mục đích sử dụng chức năng cơ bản nhưng khác nhau về đặc tính kỹ thuật, độ sang trọng hoặc tính năng bổ sung cao cấp.
+Chất lượng là mức độ mà sản phẩm đó hoàn thành đúng các cam kết ở cấp độ của nó.
+
+Lấy ví dụ trực quan trong ngành dịch vụ lưu trú, Một khách sạn bình dân hai sao và một khu nghỉ dưỡng năm sao sang trọng có cấp độ hoàn toàn khác nhau. Khách sạn hai sao cung cấp phòng ngủ đơn giản, không có bể bơi hay dịch vụ phòng đắt đỏ, nhưng phòng ốc luôn sạch bóng, ga trải giường trắng tinh thơm tho, điều hòa mát rượi, nước nóng ổn định và nhân viên tiếp đón ân cần lịch thiệp. Khi đó, khách sạn hai sao này được đánh giá là đạt chuẩn chất lượng xuất sắc ở cấp độ của nó. Ngược lại, một khu nghỉ dưỡng năm sao lộng lẫy nhưng khi khách bước vào phòng thì điều hòa bị hỏng, ga trải giường có vết ố bẩn và nhân viên phục vụ thô lỗ thì khu nghỉ dưỡng đó là một sản phẩm có chất lượng tồi tệ dẫu cấp độ của nó rất cao.
+
+Là một Project Manager, trách nhiệm của bạn không phải là cố gắng biến mọi sản phẩm thành cấp độ năm sao xa xỉ, mà là đảm bảo chất lượng hoàn hảo không tì vết cho đúng cấp độ mà dự án và khách hàng đã thỏa thuận trong bản tuyên ngôn phạm vi công việc.

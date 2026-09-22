@@ -1,0 +1,264 @@
+1
+00:00:00,620 --> 00:00:03,825
+Congratulations on
+finishing this course.
+
+2
+00:00:03,825 --> 00:00:05,250
+Making it this far in
+
+3
+00:00:05,250 --> 00:00:07,965
+the program is quite
+the accomplishment.
+
+4
+00:00:07,965 --> 00:00:10,680
+You should be excited
+about your progress.
+
+5
+00:00:10,680 --> 00:00:12,750
+You're this much
+closer to building
+
+6
+00:00:12,750 --> 00:00:15,660
+the know-how you need to
+be a project manager.
+
+7
+00:00:15,660 --> 00:00:17,730
+In this last set of videos,
+
+8
+00:00:17,730 --> 00:00:20,070
+I went over how to
+formally close a project
+
+9
+00:00:20,070 --> 00:00:23,055
+and explained why closing
+a project is important.
+
+10
+00:00:23,055 --> 00:00:26,295
+I defined what it means for
+a project to be complete,
+
+11
+00:00:26,295 --> 00:00:28,395
+detailed the steps in
+the closing phase,
+
+12
+00:00:28,395 --> 00:00:30,120
+and I demonstrated how to create
+
+13
+00:00:30,120 --> 00:00:32,340
+documentation for
+closing a project.
+
+14
+00:00:32,340 --> 00:00:34,395
+We learned that project closing,
+
+15
+00:00:34,395 --> 00:00:36,060
+when applied appropriately, is
+
+16
+00:00:36,060 --> 00:00:37,994
+a combination of assurance
+
+17
+00:00:37,994 --> 00:00:39,715
+that the work has been completed,
+
+18
+00:00:39,715 --> 00:00:41,930
+confirmation that all agreed upon
+
+19
+00:00:41,930 --> 00:00:43,490
+project management processes
+
+20
+00:00:43,490 --> 00:00:44,660
+have been executed,
+
+21
+00:00:44,660 --> 00:00:46,340
+and formal recognition that
+
+22
+00:00:46,340 --> 00:00:47,780
+the project
+requirements have been
+
+23
+00:00:47,780 --> 00:00:51,900
+met and everyone agrees that
+the project is, in fact, done.
+
+24
+00:00:51,900 --> 00:00:54,785
+We discussed different aspects
+of the closing process,
+
+25
+00:00:54,785 --> 00:00:57,500
+including conducting
+retrospectives for your team,
+
+26
+00:00:57,500 --> 00:00:59,655
+why impact reporting matters,
+
+27
+00:00:59,655 --> 00:01:02,515
+and the purpose of a
+project closeout report.
+
+28
+00:01:02,515 --> 00:01:04,430
+That was the end.
+
+29
+00:01:04,430 --> 00:01:06,065
+Throughout the entire course,
+
+30
+00:01:06,065 --> 00:01:07,790
+you learned how to run a project.
+
+31
+00:01:07,790 --> 00:01:09,365
+This is no small feat.
+
+32
+00:01:09,365 --> 00:01:10,910
+We discussed that tracking
+
+33
+00:01:10,910 --> 00:01:12,770
+a project helps to
+build and maintain
+
+34
+00:01:12,770 --> 00:01:14,540
+confidence within your team that
+
+35
+00:01:14,540 --> 00:01:16,520
+the project will be
+delivered on time,
+
+36
+00:01:16,520 --> 00:01:18,695
+on budget, and in-scope.
+
+37
+00:01:18,695 --> 00:01:21,380
+We learned about different
+external factors that impact
+
+38
+00:01:21,380 --> 00:01:24,350
+a project like dependencies,
+risk, and changes.
+
+39
+00:01:24,350 --> 00:01:26,030
+We discussed how to communicate
+
+40
+00:01:26,030 --> 00:01:27,920
+those factors to
+your team members.
+
+41
+00:01:27,920 --> 00:01:30,275
+We covered data,
+how to gather it,
+
+42
+00:01:30,275 --> 00:01:32,899
+how to use it to inform
+decision-making processes,
+
+43
+00:01:32,899 --> 00:01:34,640
+and how to discern and explain
+
+44
+00:01:34,640 --> 00:01:38,180
+project data using effective
+presentation techniques.
+
+45
+00:01:38,180 --> 00:01:40,700
+We discussed how
+projects, programs,
+
+46
+00:01:40,700 --> 00:01:42,350
+and portfolios relate to each
+
+47
+00:01:42,350 --> 00:01:44,285
+other and their key differences.
+
+48
+00:01:44,285 --> 00:01:47,210
+We also learned about the
+elements of teamwork and how
+
+49
+00:01:47,210 --> 00:01:50,000
+a successful project
+manager leads a team to
+
+50
+00:01:50,000 --> 00:01:51,905
+success with positive influence
+
+51
+00:01:51,905 --> 00:01:54,205
+and ethical considerations.
+
+52
+00:01:54,205 --> 00:01:56,180
+At this point, you should have
+
+53
+00:01:56,180 --> 00:01:57,890
+a good understanding of how to
+
+54
+00:01:57,890 --> 00:01:59,480
+organize and facilitate meetings
+
+55
+00:01:59,480 --> 00:02:01,145
+to ensure project success
+
+56
+00:02:01,145 --> 00:02:03,290
+and how to communicate effective
+
+57
+00:02:03,290 --> 00:02:05,980
+project status updates
+to stakeholders.
+
+58
+00:02:05,980 --> 00:02:09,650
+The next course is all about
+Agile project management.
+
+59
+00:02:09,650 --> 00:02:13,170
+Thanks for allowing me to
+share my knowledge with you.

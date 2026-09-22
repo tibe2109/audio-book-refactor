@@ -1,0 +1,14 @@
+Có rất nhiều loại dữ liệu dự án mà bạn có thể sử dụng để xác định tiến độ và hiệu quả của đội ngũ, đánh giá sự thành công của dự án, và định hướng cho các quyết định dự án. Mặc dù bạn không cần phải là một chuyên gia dữ liệu, việc biết cách đo lường, theo dõi và đánh giá đúng loại dữ liệu sẽ giúp bạn mang lại giá trị và tác động to lớn nhất.
+
+Tài liệu này sẽ tóm lược một số loại dữ liệu phổ biến từ bài học trước và giới thiệu thêm một vài điểm dữ liệu then chốt giúp bạn quản lý dự án và làm việc hiệu quả với các bên liên quan. Bài đọc cũng sẽ giới thiệu một vài phương thức diễn giải dữ liệu để bạn có thể giảm thiểu rủi ro và đưa ra những quyết định đúng đắn cho đội ngũ và dự án của mình.
+
+Lợi ích của việc phân tích dữ liệu trong quản trị dự án, 
+Là một người quản lý dự án, bạn có thể sử dụng dữ liệu hàng ngày để đưa ra các quyết định tốt hơn, giải quyết các vấn đề phát sinh, cải tiến hiệu suất và quy trình làm việc, đồng thời, thấu hiểu sâu sắc người dùng của bạn. 
+Ví dụ, nếu bạn có dữ liệu về thói quen mua sắm của khách hàng, bạn có thể xác định được những sản phẩm nào bán chạy nhất, và bạn sẽ có thể đưa ra các quyết định thông minh hơn khi đặt các đơn hàng sản phẩm mới với các nhà cung cấp của mình. Dữ liệu này cũng sẽ giúp bạn hiểu rõ hơn về người dùng và các sở thích của họ, từ đó bạn có thể cải thiện các dịch vụ sản phẩm và hiệu suất kinh doanh.
+Bạn cũng có thể sử dụng dữ liệu của đội ngũ dự án để giúp bạn hoàn thiện các quy trình làm việc của mình. Ví dụ, nếu đội ngũ của bạn đang gặp phải một vấn đề khó khăn, việc phân tích dữ liệu từ công cụ theo dõi dự án về số lượng nhiệm vụ đã hoàn thành, các yêu cầu báo cáo leo thang, hoặc các trục trặc trong quy trình nội bộ có thể giúp bạn tìm ra nguồn gốc của vấn đề. Điều này cho phép bạn đưa ra quyết định sáng suốt về việc nên tập trung nỗ lực vào đâu để cải tiến quy trình. Thông qua phân tích phản biện, ứng dụng thực tế và thực thi chuẩn xác, dữ liệu trở thành một công cụ mạnh mẽ để dẫn dắt bất kỳ dự án nào đi đúng hướng.
+
+Phân biệt Dữ liệu, Chỉ số đo lường và Phân tích phân tích, 
+Để dễ hình dung mối quan hệ giữa ba khái niệm này, bạn hãy tưởng tượng ba hình ảnh trực quan, 
+Hình ảnh thứ nhất là những con số được nhóm lại trong một vòng tròn đại diện cho Dữ liệu, tức Data.
+Hình ảnh thứ hai là một biểu đồ với các thước đo xếp dọc theo trục hoành và trục tung đại diện cho Chỉ số đo lường, tức Metrics.
+Hình ảnh thứ ba là hai người đang cùng nhau ghép một bức tranh xếp hình đại diện cho Phân tích, tức Analytics.

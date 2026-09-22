@@ -1,0 +1,30 @@
+Để củng cố toàn bộ những kiến thức đã học, chúng ta hãy cùng nhau phân tích một bài tập thực hành mẫu về cách xây dựng một bài thuyết trình dự án hoàn chỉnh.
+
+Tình huống giả định, 
+Bạn đang là người quản lý dự án cho chiến dịch ra mắt dòng sản phẩm thực phẩm hữu cơ dinh dưỡng mới của công ty. Sau ba tháng thử nghiệm tại thị trường khu vực, bạn cần chuẩn bị một bài thuyết trình dài mười phút trước Hội đồng quản trị để báo cáo kết quả và đề xuất kế hoạch mở rộng ra toàn quốc.
+
+Dưới đây là cấu trúc các trang chiếu chuẩn mực mà bạn sẽ thiết kế,
+
+Trang chiếu số một, Trang tiêu đề.
+Tiêu đề nổi bật, Báo cáo Đánh giá Thử nghiệm Chiến dịch Thực phẩm Hữu cơ và Lộ trình Mở rộng Toàn quốc. Đi kèm là tên của bạn, chức danh Quản lý Dự án, ngày tháng và logo công ty được căn chỉnh trang nhã.
+
+Trang chiếu số hai, Tóm tắt bức tranh toàn cảnh cho lãnh đạo, tức Executive Summary.
+Ba gạch đầu dòng then chốt, Thử nghiệm đạt doanh thu vượt mười lăm phần trăm so với chỉ tiêu, Tỷ lệ khách hàng hài lòng đạt tám mươi tám phần trăm, Khuyến nghị chính thức mở rộng thị trường vào quý ba tới.
+
+Trang chiếu số ba, Mạch truyện và Bối cảnh thị trường.
+Mô tả xu hướng người tiêu dùng ngày càng quan tâm tới sức khỏe sau đại dịch và cơ hội vàng để công ty chiếm lĩnh thị phần thực phẩm dinh dưỡng.
+
+Trang chiếu số tư, Dữ liệu kinh doanh cốt lõi - Trực quan hóa bằng Biểu đồ hình cột.
+Biểu đồ so sánh doanh số thực tế hàng tháng so với mục tiêu đề ra. Cột doanh số thực tế có màu xanh đậm nổi bật, đi kèm nhãn số cụ thể trên đầu mỗi cột.
+
+Trang chiếu số năm, Dữ liệu khách hàng - Trực quan hóa bằng Biểu đồ tròn kết hợp nhãn chữ.
+Cơ cấu phân khúc khách hàng theo độ tuổi và các kênh mua sắm chính, Kênh siêu thị truyền thống chiếm sáu mươi phần trăm, kênh thương mại điện tử chiếm bốn mươi phần trăm.
+
+Trang chiếu số sáu, Những thách thức đã gặp phải và Biện pháp khắc phục.
+Nêu rõ vấn đề đứt gãy chuỗi cung ứng cục bộ trong tuần thứ hai và cách đội ngũ đã phối hợp với nhà cung cấp địa phương để bổ sung nguồn hàng kịp thời, thể hiện năng lực giải quyết vấn đề sắc bén của bạn.
+
+Trang chiếu số bảy, Ba khuyến nghị hành động mang tính chiến lược.
+Đề xuất cụ thể về ngân sách mở rộng, kế hoạch nhân sự và lộ trình triển khai chi tiết cho chiến dịch toàn quốc.
+
+Trang chiếu số tám, Trang kết luận và Lời mời thảo luận.
+Tóm tắt thông điệp cốt lõi bằng một câu ngắn gọn, thông tin liên hệ của bạn và mở rộng diễn đàn cho phiên hỏi đáp.

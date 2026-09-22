@@ -1,0 +1,9 @@
+Chúng ta hãy cùng đi sâu vào từng nguyên tắc,
+
+Nguyên tắc thứ nhất, Nêu rõ những gì bạn muốn một cách rõ ràng, tức State what you want clearly.
+Khi bạn bắt tay vào soạn thảo một chiếc email, đó là vì có một điều gì đó bạn đang mong muốn từ người đọc của mình, Bạn có thể muốn nhận được một câu trả lời đơn giản, muốn thuyết phục ai đó về một điều gì đó, hoặc muốn sắp xếp một cuộc họp. Trước khi viết, hãy tự hỏi, Tôi muốn gì? Khi nào tôi cần điều đó? Và cách tốt nhất để đạt được điều đó là gì?
+Các mẹo thực chiến để nêu rõ yêu cầu của bạn, 
+Đưa trực tiếp yêu cầu vào dòng tiêu đề Subject Line của email, Ví dụ, thay vì viết một tiêu đề mơ hồ như Dự án X, hãy viết rõ ràng, Yêu cầu hành động, Xin phê duyệt ngân sách thử nghiệm trước mười bảy giờ thứ Sáu. Người nhận chỉ cần nhìn vào tiêu đề là biết ngay mức độ khẩn cấp và việc họ cần làm.
+Trình bày yêu cầu của bạn ngay trong hai đoạn văn đầu tiên của email, theo nguyên tắc Điểm mấu chốt đặt lên đầu, tức Bottom Line Up Front, viết tắt là B-L-U-F. Đừng bắt người đọc phải cuộn xuống tận cuối trang mới hiểu bạn đang cần gì.
+Nêu rõ lời kêu gọi hành động cụ thể gắn liền với yêu cầu của bạn, Chẳng hạn như Vui lòng phản hồi, Xin ý kiến đánh giá, hoặc Xác nhận tham dự R-S-V-P.
+Viết các câu văn ngắn gọn, rõ ràng khi cung cấp thông tin chi tiết. Định nghĩa rõ ràng các thuật ngữ và tránh sử dụng các từ viết tắt lạ lẫm mà người đọc có thể không biết để tránh gây hiểu lầm. Cung cấp thêm thông tin bối cảnh khi cần thiết để người nhận có đủ cơ sở đưa ra quyết định mà không cần phải gửi email hỏi lại nhiều lần.

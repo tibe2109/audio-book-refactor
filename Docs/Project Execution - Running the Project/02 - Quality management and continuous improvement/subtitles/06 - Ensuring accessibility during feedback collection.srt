@@ -1,0 +1,233 @@
+1
+00:00:01,030 --> 00:00:02,251
+Hello again! I'm Holly.
+
+2
+00:00:02,251 --> 00:00:05,048
+If you've been following this
+program from start to finish,
+
+3
+00:00:05,048 --> 00:00:07,051
+you may remember me
+from an earlier course
+
+4
+00:00:07,051 --> 00:00:10,301
+where I shared a bit about accessibility
+and why it's so
+
+5
+00:00:10,301 --> 00:00:13,098
+important to keep it in
+mind as a project manager.
+
+6
+00:00:13,098 --> 00:00:16,358
+So far, you've learned
+the importance of managing,
+
+7
+00:00:16,358 --> 00:00:18,885
+communicating, and measuring quality.
+
+8
+00:00:18,885 --> 00:00:23,404
+This is a great opportunity to also
+think about how to ensure the ways you
+
+9
+00:00:23,404 --> 00:00:25,149
+are collecting feedback
+
+10
+00:00:25,149 --> 00:00:29,440
+and the processes in place to measure
+quality are fair and accessible.
+
+11
+00:00:29,440 --> 00:00:32,817
+First, if you are collecting
+feedback through live interviews,
+
+12
+00:00:32,817 --> 00:00:37,584
+be sure to include an offer to provide
+accommodations in your correspondence when
+
+13
+00:00:37,584 --> 00:00:39,114
+setting up the sessions.
+
+14
+00:00:39,114 --> 00:00:42,539
+You may get requests for
+live captioning or an interpreter.
+
+15
+00:00:42,539 --> 00:00:45,106
+Other folks, such as those with anxiety or
+
+16
+00:00:45,106 --> 00:00:49,043
+on the autism spectrum,
+may ask to see the questions in advance
+
+17
+00:00:49,043 --> 00:00:52,511
+so that they have time to think about and
+prepare their answers.
+
+18
+00:00:52,511 --> 00:00:56,906
+Remember, what works for one person
+may not work for another person,
+
+19
+00:00:56,906 --> 00:01:00,125
+even if those two people
+have the same disability.
+
+20
+00:01:00,125 --> 00:01:03,183
+If you're conducting
+an interview on location,
+
+21
+00:01:03,183 --> 00:01:06,106
+examine the space with
+an accessibility lens,
+
+22
+00:01:06,106 --> 00:01:09,941
+like ensuring there's an accessible
+path into the building and to the room
+
+23
+00:01:09,941 --> 00:01:14,020
+and that hallways are clear of
+clutter that could block someone using
+
+24
+00:01:14,020 --> 00:01:14,940
+a wheelchair
+
+25
+00:01:14,940 --> 00:01:18,407
+or a walker or someone with
+a visual impairment from easily and
+
+26
+00:01:18,407 --> 00:01:19,817
+safely moving through.
+
+27
+00:01:19,817 --> 00:01:23,612
+If sending a survey or
+collecting feedback using technology,
+
+28
+00:01:23,612 --> 00:01:27,064
+check that the systems you
+are using are fully accessible.
+
+29
+00:01:27,064 --> 00:01:32,218
+If you're unsure, contact the system
+owner and ask if they are compliant
+
+30
+00:01:32,218 --> 00:01:36,724
+with the latest Web Content
+Accessibility Guidelines, or WCAG.
+
+31
+00:01:36,724 --> 00:01:38,770
+Be prepared to provide questions and
+
+32
+00:01:38,770 --> 00:01:41,748
+collect responses in
+an alternate manner, if needed.
+
+33
+00:01:41,748 --> 00:01:45,495
+Beyond collecting feedback,
+as a project manager, it's important for
+
+34
+00:01:45,495 --> 00:01:49,314
+you to make accessibility part of
+the conversation from the beginning,
+
+35
+00:01:49,314 --> 00:01:53,400
+especially if your project pertains
+to a process or a product.
+
+36
+00:01:53,400 --> 00:01:58,203
+Oftentimes, incorporating accessible
+features into a product is overlooked or
+
+37
+00:01:58,203 --> 00:02:00,504
+left to the final stages of a project.
+
+38
+00:02:00,504 --> 00:02:04,548
+and can lead to serious implications,
+like launch delays, or worse,
+
+39
+00:02:04,548 --> 00:02:08,527
+a product that can't be used by
+a percentage of the population.
+
+40
+00:02:08,527 --> 00:02:13,533
+Ensure your developers are familiar with
+accessibility requirements at the start.
+
+41
+00:02:13,533 --> 00:02:17,484
+If they're not, help connect them with
+appropriate resources or experts.
+
+42
+00:02:17,484 --> 00:02:22,080
+Include testers with various disabilities
+in your usability testing whenever
+
+43
+00:02:22,080 --> 00:02:22,774
+possible,
+
+44
+00:02:22,774 --> 00:02:25,451
+and at the very least,
+have the product tested for
+
+45
+00:02:25,451 --> 00:02:27,762
+adherence to accessibility guidelines.
+
+46
+00:02:27,762 --> 00:02:32,003
+In summary, think about
+accessibility early and often, and
+
+47
+00:02:32,003 --> 00:02:35,683
+encourage others on your
+project team to do so, too.
+
+48
+00:02:35,683 --> 00:02:39,248
+Coming up, you will practice
+ways to measure quality and
+
+49
+00:02:39,248 --> 00:02:44,460
+learn more about managing changes, risk,
+and so much more. Keep up the great work.

@@ -1,0 +1,18 @@
+Để giúp bạn thuận tiện tra cứu và ôn tập nhanh chóng, dưới đây là những thuật ngữ cốt lõi nhất xuyên suốt khóa học, 
+A-gile, Phương pháp quản trị dự án linh hoạt, thích ứng nhanh với các thay đổi thông qua các chu kỳ phát triển ngắn lặp đi lặp lại.
+Vùng phủ sóng bảo vệ, tức Air Cover, Sự bảo vệ và che chở mà người quản lý dự án dành cho đội ngũ trước những yêu cầu ngoài phạm vi hoặc chỉ trích từ ban lãnh đạo.
+Phân tích dữ liệu, tức Analytics, Việc sử dụng dữ liệu để trả lời các câu hỏi, phát hiện quy luật và dự đoán các kết quả tương lai.
+Giao tiếp bất đồng bộ, tức Asynchronous Communication, Hình thức giao tiếp không đòi hỏi các bên phải phản hồi ngay lập tức, như email hoặc tài liệu chia sẻ.
+Biểu đồ Burn-down, Biểu đồ trực quan thể hiện khối lượng công việc còn lại so với thời gian của một chu kỳ nước rút Sprint.
+Kiểm soát thay đổi, tức Change Control, Quy trình chính thức để tiếp nhận, đánh giá, phê duyệt hoặc từ chối các yêu cầu thay đổi trong dự án.
+Chỉ số hiệu suất chi phí, tức C-P-I, Tỷ lệ giữa giá trị công việc đạt được so với chi phí thực tế đã giải ngân.
+Chỉ số hiệu suất tiến độ, tức S-P-I, Tỷ lệ giữa giá trị công việc đạt được so với giá trị công việc đã lên kế hoạch.
+An toàn tâm lý, tức Psychological Safety, Niềm tin rằng các thành viên trong đội có thể tự do nêu ý kiến, thử nghiệm và thừa nhận sai lầm mà không sợ bị trừng phạt.
+Vòng tròn Deming, tức P-D-C-A, Mô hình cải tiến liên tục gồm bốn bước Lập kế hoạch, Thực hiện, Kiểm tra và Hành động.
+Phiên họp Hồi tưởng, tức Retrospective, Cuộc họp đội ngũ diễn ra định kỳ để cùng nhau nhìn nhận lại những điểm tốt, điểm chưa tốt và đưa ra hành động cải tiến quy trình.
+Kiểm tra chấp nhận của người dùng, tức U-A-T, Quá trình kiểm thử cuối cùng do chính người dùng hoặc khách hàng thực hiện để xác nhận sản phẩm đạt chuẩn bàn giao.
+Tốc độ hoàn thành công việc, tức Velocity, Khối lượng công việc hoặc số điểm công việc mà đội ngũ có thể hoàn tất trong một Sprint.
+
+SẴN SÀNG BƯỚC VÀO KHÓA HỌC NĂM, GETTING STARTED ON COURSE NĂM.
+. ......
+Hành trình chinh phục chứng chỉ Quản lý Dự án Chuyên nghiệp của Google vẫn đang tiếp tục vẫy gọi bạn với những chân trời tri thức mới đầy hấp dẫn!

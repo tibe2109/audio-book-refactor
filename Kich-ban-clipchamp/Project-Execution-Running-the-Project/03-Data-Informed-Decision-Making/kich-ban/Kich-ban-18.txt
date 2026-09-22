@@ -1,0 +1,15 @@
+Chúng ta hãy xem xét một tình huống thực tế điển hình, 
+Giả sử bạn đang quản lý một dự án phát triển phần mềm bán hàng trực tuyến cho một chuỗi siêu thị. Trong giai đoạn thử nghiệm, hệ thống liên tục ghi nhận các phản hồi tiêu cực từ người dùng về việc quá trình thanh toán bị lỗi. Thay vì hoảng loạn đổ lỗi cho các kỹ sư lập trình, bạn tiến hành phân tích dữ liệu một cách khoa học, 
+Bạn trích xuất dữ liệu nhật ký hệ thống, tức System Logs, và phát hiện ra rằng có tới tám mươi phần trăm lỗi thanh toán xảy ra khi khách hàng sử dụng một cổng thanh toán qua ví điện tử cụ thể.
+Bạn tiếp tục phân tích sâu hơn và nhận thấy cổng thanh toán này thường xuyên bị nghẽn mạng vào khung giờ cao điểm từ mười chín giờ đến hai mươi mốt giờ tối.
+Nhờ có dữ liệu phân tích chi tiết, bạn đã xác định chính xác nguyên nhân gốc rễ của vấn đề. Thay vì phải viết lại toàn bộ mã nguồn của trang web, quyết định của bạn là làm việc khẩn cấp với nhà cung cấp dịch vụ ví điện tử để mở rộng băng thông máy chủ và tích hợp thêm cổng thanh toán dự phòng.
+
+Đó chính là,
+. ......
+sức mạnh phi thường của việc phân tích dữ liệu, Nó giúp bạn loại bỏ mọi cảm xúc tiêu cực, nhìn thẳng vào sự thật, xác định chính xác vị trí cần can thiệp và đưa ra giải pháp hiệu quả với chi phí tối thiểu.
+
+SÁU BƯỚC PHÂN TÍCH DỮ LIỆU CHUẨN MỰC, THE SIX STEPS OF DATA ANALYSIS.
+. ......
+Trong bài học trước, bạn đã học được rằng phân tích dữ liệu là quá trình thu thập và tổ chức thông tin nhằm giúp rút ra các kết luận, giải quyết các vấn đề, đưa ra các quyết định sáng suốt và hỗ trợ các mục tiêu của bạn. Trong tài liệu này, chúng ta sẽ đi qua các phần then chốt của quy trình phân tích dữ liệu.
+
+Có sáu bước chính liên quan đến quy trình phân tích dữ liệu chuẩn mực được Google đúc kết, Đặt câu hỏi, Chuẩn bị, Xử lý, Phân tích, Chia sẻ và Hành động. Tức Ask, Prepare, Process, Analyze, Share, and Act. Chúng ta hãy cùng nhau phân tích chi tiết từng bước một.

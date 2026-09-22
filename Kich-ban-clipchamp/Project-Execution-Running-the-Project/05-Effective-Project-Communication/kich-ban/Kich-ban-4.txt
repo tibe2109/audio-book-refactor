@@ -1,0 +1,11 @@
+Nguyên tắc thứ hai, Giữ cho nội dung ngắn gọn và súc tích, tức Keep the content concise.
+Hãy tôn trọng thời gian quý báu của người nhận. Mọi người thường chỉ lướt nhanh qua email trên điện thoại di động giữa các cuộc họp bận rộn. Hãy loại bỏ những từ ngữ thừa thãi, những lời giải thích dài dòng và những chi tiết vụn vặt không cần thiết. 
+Nếu có quá nhiều thông tin chi tiết hoặc số liệu phức tạp cần chia sẻ, bạn hãy cân nhắc việc đưa thông tin đó vào một tài liệu số riêng biệt, chẳng hạn như tài liệu Google Docs hoặc bảng tính Google Sheets, rồi chèn đường liên kết đính kèm vào email. Sau đó, trong thân bài email, bạn chỉ cần tóm tắt ngắn gọn những điểm mấu chốt nhất mà bạn muốn người đọc tập trung vào.
+Mỗi email chỉ nên tập trung giải quyết duy nhất một chủ đề chính. Nếu bạn có ba vấn đề hoàn toàn khác nhau cần giải quyết với cùng một người, tốt nhất là nên tách thành các email riêng biệt với tiêu đề rõ ràng để họ dễ dàng theo dõi, tìm kiếm và xử lý từng việc một cách độc lập.
+
+Nguyên tắc thứ ba, Cấu trúc bài viết một cách khoa học, tức Structure your writing.
+Đừng bao giờ gửi đi một bức tường chữ dài dằng dặc khiến người đọc cảm thấy ngột ngạt và nản lòng. Hãy biến email của bạn thành một tài liệu dễ quét bằng mắt, 
+Sử dụng các tiêu đề phụ ngắn gọn để phân định rõ ràng các phần nội dung.
+Sử dụng các gạch đầu dòng Bullet Points hoặc đánh số thứ tự để liệt kê các ý tưởng, các nhiệm vụ cần thực hiện hoặc các số liệu thống kê.
+In đậm các thông tin mang tính sống còn như thời hạn hoàn thành Deadline, tên của người chịu trách nhiệm chính cho từng đầu việc, hoặc các con số then chốt cần lưu ý.
+Giữ các đoạn văn ngắn gọn, lý tưởng nhất là từ hai đến ba câu một đoạn, với khoảng trống dòng rõ ràng giữa các đoạn để tạo cảm giác thoáng đãng và dễ tiếp nhận.

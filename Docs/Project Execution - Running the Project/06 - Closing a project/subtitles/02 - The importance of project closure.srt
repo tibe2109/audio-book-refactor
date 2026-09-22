@@ -1,0 +1,591 @@
+1
+00:00:00,080 --> 00:00:03,135
+Welcome back. In this video,
+
+2
+00:00:03,135 --> 00:00:05,340
+we're going to discuss
+project closing.
+
+3
+00:00:05,340 --> 00:00:06,840
+We'll answer the questions,
+
+4
+00:00:06,840 --> 00:00:08,775
+what does project closing mean,
+
+5
+00:00:08,775 --> 00:00:11,805
+why is it important, and
+when does it occur?
+
+6
+00:00:11,805 --> 00:00:14,070
+Project closing consists of
+
+7
+00:00:14,070 --> 00:00:16,795
+the process performed to
+formally complete the project,
+
+8
+00:00:16,795 --> 00:00:19,860
+the current phase, and
+contractual obligations.
+
+9
+00:00:19,860 --> 00:00:22,340
+The first thing you should
+know is that completing
+
+10
+00:00:22,340 --> 00:00:26,240
+a project is not the same
+thing as closing a project.
+
+11
+00:00:26,240 --> 00:00:28,160
+Just because a project is done
+
+12
+00:00:28,160 --> 00:00:29,725
+doesn't mean it's closed.
+
+13
+00:00:29,725 --> 00:00:31,310
+In a restaurant, just
+
+14
+00:00:31,310 --> 00:00:33,230
+because you've ordered
+your meal and finished it,
+
+15
+00:00:33,230 --> 00:00:35,615
+doesn't mean your dining
+experience is over.
+
+16
+00:00:35,615 --> 00:00:37,585
+You have to pay the
+bill before you leave.
+
+17
+00:00:37,585 --> 00:00:39,925
+It's the same idea with projects.
+
+18
+00:00:39,925 --> 00:00:43,075
+What does it actually take
+for a project to be closed?
+
+19
+00:00:43,075 --> 00:00:47,035
+There are three criteria that
+make up a project closing.
+
+20
+00:00:47,035 --> 00:00:50,030
+You'll want to assure
+all work is done.
+
+21
+00:00:50,030 --> 00:00:51,560
+Ensure that the agreed upon
+
+22
+00:00:51,560 --> 00:00:53,225
+project management processes are
+
+23
+00:00:53,225 --> 00:00:55,790
+executed and get formal
+recognition from
+
+24
+00:00:55,790 --> 00:00:58,675
+stakeholders that
+the project is done.
+
+25
+00:00:58,675 --> 00:01:01,605
+First, you must assure
+all work is done.
+
+26
+00:01:01,605 --> 00:01:02,900
+There's a chance one of
+
+27
+00:01:02,900 --> 00:01:04,684
+your tasks may have
+been overlooked.
+
+28
+00:01:04,684 --> 00:01:06,950
+Let's say there was a
+change made that called for
+
+29
+00:01:06,950 --> 00:01:09,395
+reprioritizing work
+during the project.
+
+30
+00:01:09,395 --> 00:01:11,390
+For instance, when your team
+
+31
+00:01:11,390 --> 00:01:13,100
+completed user acceptance testing
+
+32
+00:01:13,100 --> 00:01:14,390
+for Project Plant Pals,
+
+33
+00:01:14,390 --> 00:01:16,150
+everything was finished
+and wrapped up.
+
+34
+00:01:16,150 --> 00:01:18,590
+But months later, a
+customer searches for
+
+35
+00:01:18,590 --> 00:01:20,420
+allergy information
+about the plants
+
+36
+00:01:20,420 --> 00:01:22,010
+on Office Green's site,
+
+37
+00:01:22,010 --> 00:01:24,670
+but that information is
+nowhere to be found.
+
+38
+00:01:24,670 --> 00:01:27,395
+If you did a review before
+wrapping the project,
+
+39
+00:01:27,395 --> 00:01:29,195
+you might have found
+that this task,
+
+40
+00:01:29,195 --> 00:01:31,220
+creating allergy
+documentation, was
+
+41
+00:01:31,220 --> 00:01:33,670
+overlooked and therefore
+not completed.
+
+42
+00:01:33,670 --> 00:01:35,600
+In doing a review of the project,
+
+43
+00:01:35,600 --> 00:01:38,000
+you double- and triple-check
+that all work is
+
+44
+00:01:38,000 --> 00:01:41,450
+done to avoid having to
+revisit the project later on.
+
+45
+00:01:41,450 --> 00:01:43,850
+Next, you must ensure
+that all agreed
+
+46
+00:01:43,850 --> 00:01:46,745
+upon project management
+processes are executed.
+
+47
+00:01:46,745 --> 00:01:49,840
+Sometimes, managerial
+tasks get overlooked.
+
+48
+00:01:49,840 --> 00:01:51,935
+If the task itself is finished,
+
+49
+00:01:51,935 --> 00:01:54,020
+the procedural or
+administrative work that
+
+50
+00:01:54,020 --> 00:01:56,480
+needs to take place afterwards
+might slip your mind.
+
+51
+00:01:56,480 --> 00:01:57,890
+An example might be
+
+52
+00:01:57,890 --> 00:02:00,110
+getting contracts
+signed and processed.
+
+53
+00:02:00,110 --> 00:02:01,550
+It might have been months since
+
+54
+00:02:01,550 --> 00:02:02,945
+the project was completed,
+
+55
+00:02:02,945 --> 00:02:04,670
+but when you revisit the contract
+
+56
+00:02:04,670 --> 00:02:05,795
+with your plant provider,
+
+57
+00:02:05,795 --> 00:02:07,415
+you realize that neither of you
+
+58
+00:02:07,415 --> 00:02:09,410
+ended up actually signing it.
+
+59
+00:02:09,410 --> 00:02:11,390
+This is a crucial misstep that
+
+60
+00:02:11,390 --> 00:02:13,430
+leaves both parties
+vulnerable, and
+
+61
+00:02:13,430 --> 00:02:15,380
+it's now taking place way after
+
+62
+00:02:15,380 --> 00:02:17,420
+the new services official launch.
+
+63
+00:02:17,420 --> 00:02:20,030
+Finally, you'll need
+formal recognition and
+
+64
+00:02:20,030 --> 00:02:21,380
+agreement that the project is
+
+65
+00:02:21,380 --> 00:02:23,480
+complete by key stakeholders.
+
+66
+00:02:23,480 --> 00:02:25,685
+If you don't have
+formal approval from
+
+67
+00:02:25,685 --> 00:02:27,935
+all stakeholders that
+a project is over,
+
+68
+00:02:27,935 --> 00:02:30,200
+certain stakeholders
+may still request
+
+69
+00:02:30,200 --> 00:02:31,805
+adjustments to the project
+
+70
+00:02:31,805 --> 00:02:33,920
+because they'll think
+it's still active.
+
+71
+00:02:33,920 --> 00:02:36,955
+This may affect various
+members of your team.
+
+72
+00:02:36,955 --> 00:02:38,190
+For instance, if
+
+73
+00:02:38,190 --> 00:02:40,250
+Office Green's
+contracted web developers
+
+74
+00:02:40,250 --> 00:02:42,680
+believe that the
+project is still active,
+
+75
+00:02:42,680 --> 00:02:44,180
+they may still be dedicating
+
+76
+00:02:44,180 --> 00:02:47,345
+time and even billing hours
+of work on this project,
+
+77
+00:02:47,345 --> 00:02:50,105
+which means wasted money
+for Office Green.
+
+78
+00:02:50,105 --> 00:02:51,950
+In the same way that all of
+
+79
+00:02:51,950 --> 00:02:53,030
+the previous phases of
+
+80
+00:02:53,030 --> 00:02:55,610
+the process, like
+initiation, planning,
+
+81
+00:02:55,610 --> 00:02:59,420
+executing, monitoring, and
+controlling serve a purpose,
+
+82
+00:02:59,420 --> 00:03:02,815
+closing serves its own,
+equally important purpose.
+
+83
+00:03:02,815 --> 00:03:05,270
+Closing a project is
+important because it
+
+84
+00:03:05,270 --> 00:03:08,515
+ensures that nothing has
+fallen through the cracks.
+
+85
+00:03:08,515 --> 00:03:11,700
+If a project isn't closed,
+your team's efforts,
+
+86
+00:03:11,700 --> 00:03:15,080
+time, and credibility may
+be negatively impacted.
+
+87
+00:03:15,080 --> 00:03:17,450
+To avoid negative
+impacts to your team,
+
+88
+00:03:17,450 --> 00:03:19,130
+there are a couple of
+different types of
+
+89
+00:03:19,130 --> 00:03:22,660
+projects that you'll want
+to know about and avoid.
+
+90
+00:03:22,660 --> 00:03:25,185
+These are the
+never-ending project
+
+91
+00:03:25,185 --> 00:03:26,805
+and the abandoned project.
+
+92
+00:03:26,805 --> 00:03:30,650
+The never-ending project exists
+when, for whatever reason,
+
+93
+00:03:30,650 --> 00:03:34,315
+the project deliverables and
+tasks cannot be completed.
+
+94
+00:03:34,315 --> 00:03:36,110
+This may occur when tasks are
+
+95
+00:03:36,110 --> 00:03:38,240
+delegated to team
+members who don't have
+
+96
+00:03:38,240 --> 00:03:40,640
+the skills necessary
+to complete the tasks
+
+97
+00:03:40,640 --> 00:03:43,420
+or when deadlines aren't
+properly communicated,
+
+98
+00:03:43,420 --> 00:03:45,920
+maybe when user
+acceptance testing yields
+
+99
+00:03:45,920 --> 00:03:48,290
+too many non-launch
+blocking bugs,
+
+100
+00:03:48,290 --> 00:03:50,285
+or when your client
+is unsatisfied,
+
+101
+00:03:50,285 --> 00:03:52,120
+despite meeting
+their requirements.
+
+102
+00:03:52,120 --> 00:03:53,450
+Pay special attention to
+
+103
+00:03:53,450 --> 00:03:55,370
+protecting the scope
+of your project,
+
+104
+00:03:55,370 --> 00:03:56,810
+and you're much more likely to
+
+105
+00:03:56,810 --> 00:03:58,525
+close a project successfully.
+
+106
+00:03:58,525 --> 00:04:00,740
+If it feels like the
+customer wants much more
+
+107
+00:04:00,740 --> 00:04:03,335
+from you than this project
+is slated to deliver,
+
+108
+00:04:03,335 --> 00:04:05,540
+maybe the best option
+is to commit to
+
+109
+00:04:05,540 --> 00:04:08,120
+a follow-up project and
+close the current one.
+
+110
+00:04:08,120 --> 00:04:10,130
+The abandoned project exists when
+
+111
+00:04:10,130 --> 00:04:13,270
+inadequate handoff of the
+project deliverables occurs.
+
+112
+00:04:13,270 --> 00:04:14,930
+Basically, the final deliverable
+
+113
+00:04:14,930 --> 00:04:16,790
+never makes it to your customer.
+
+114
+00:04:16,790 --> 00:04:19,160
+It wouldn't make sense
+to build a product and
+
+115
+00:04:19,160 --> 00:04:21,470
+then not be able to
+market it or sell it.
+
+116
+00:04:21,470 --> 00:04:23,000
+Making plans to ensure
+
+117
+00:04:23,000 --> 00:04:25,700
+an adequate handoff or
+transition deliverables is
+
+118
+00:04:25,700 --> 00:04:27,500
+crucial to ensure customers are
+
+119
+00:04:27,500 --> 00:04:30,070
+happy and projects
+are properly closed.
+
+120
+00:04:30,070 --> 00:04:31,985
+In summary, you'll want to do
+
+121
+00:04:31,985 --> 00:04:33,860
+everything you can
+to properly close
+
+122
+00:04:33,860 --> 00:04:35,690
+a project because
+it may leave you
+
+123
+00:04:35,690 --> 00:04:37,595
+on the hook for
+incomplete contracts,
+
+124
+00:04:37,595 --> 00:04:41,065
+incomplete scope, or
+non-compliant practices.
+
+125
+00:04:41,065 --> 00:04:42,515
+In the next video,
+
+126
+00:04:42,515 --> 00:04:44,990
+we'll discuss the necessary
+steps included in
+
+127
+00:04:44,990 --> 00:04:46,895
+a comprehensive closing process
+
+128
+00:04:46,895 --> 00:04:49,650
+for clients and stakeholders.

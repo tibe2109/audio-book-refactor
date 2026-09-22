@@ -1,0 +1,415 @@
+1
+00:00:00,200 --> 00:00:03,015
+Hi again. In this video,
+
+2
+00:00:03,015 --> 00:00:05,145
+we're going to learn
+about a common strategy
+
+3
+00:00:05,145 --> 00:00:07,965
+used to resolve
+problems in a project.
+
+4
+00:00:07,965 --> 00:00:10,035
+On top of several other tasks,
+
+5
+00:00:10,035 --> 00:00:12,180
+it's a project manager's
+responsibility
+
+6
+00:00:12,180 --> 00:00:13,335
+to resolve problems
+
+7
+00:00:13,335 --> 00:00:14,790
+and remove constraints that are
+
+8
+00:00:14,790 --> 00:00:17,310
+a detriment to the
+project's success.
+
+9
+00:00:17,310 --> 00:00:20,265
+One way to do this
+is to escalate.
+
+10
+00:00:20,265 --> 00:00:23,790
+Escalation is the process
+of enlisting the help of
+
+11
+00:00:23,790 --> 00:00:25,740
+higher-level project
+leadership or
+
+12
+00:00:25,740 --> 00:00:28,050
+management to remove an obstacle,
+
+13
+00:00:28,050 --> 00:00:30,285
+clarify or reinforce priorities,
+
+14
+00:00:30,285 --> 00:00:32,335
+and validate next steps.
+
+15
+00:00:32,335 --> 00:00:35,805
+Escalation may seem to have
+a negative connotation,
+
+16
+00:00:35,805 --> 00:00:38,025
+but that's not the case
+in project management.
+
+17
+00:00:38,025 --> 00:00:41,030
+In project management,
+escalation should be encouraged,
+
+18
+00:00:41,030 --> 00:00:43,489
+used often, and even celebrated.
+
+19
+00:00:43,489 --> 00:00:46,610
+Escalations are healthy
+and act as a checks and
+
+20
+00:00:46,610 --> 00:00:47,810
+balances tool to make
+
+21
+00:00:47,810 --> 00:00:49,910
+sure appropriate
+action is being taken.
+
+22
+00:00:49,910 --> 00:00:53,135
+They can result in speedy
+decision-making, and generally,
+
+23
+00:00:53,135 --> 00:00:55,025
+the quicker a
+problem is resolved,
+
+24
+00:00:55,025 --> 00:00:56,920
+the better off a project will be.
+
+25
+00:00:56,920 --> 00:00:58,790
+Instead of going back and forth
+
+26
+00:00:58,790 --> 00:01:01,115
+between two team members
+who can't agree,
+
+27
+00:01:01,115 --> 00:01:03,410
+an objective third
+party might help make
+
+28
+00:01:03,410 --> 00:01:06,280
+the call and reduce
+frustrations within the team.
+
+29
+00:01:06,280 --> 00:01:09,435
+Finally, escalations
+encourage participation.
+
+30
+00:01:09,435 --> 00:01:12,650
+Encouraging others to
+participate in solving or owning
+
+31
+00:01:12,650 --> 00:01:14,390
+problems can promote trust and
+
+32
+00:01:14,390 --> 00:01:16,580
+shared responsibility
+among teammates,
+
+33
+00:01:16,580 --> 00:01:19,540
+which are signs of a
+healthy, functional team.
+
+34
+00:01:19,540 --> 00:01:22,850
+Before starting work on a
+project, the project manager,
+
+35
+00:01:22,850 --> 00:01:24,950
+the team, and the
+project sponsor should
+
+36
+00:01:24,950 --> 00:01:27,970
+establish escalation
+standards and practices.
+
+37
+00:01:27,970 --> 00:01:29,525
+This means they'll specify
+
+38
+00:01:29,525 --> 00:01:31,325
+who the issues will be raised to,
+
+39
+00:01:31,325 --> 00:01:32,795
+how issues are raised,
+
+40
+00:01:32,795 --> 00:01:34,744
+and the forum for discussion.
+
+41
+00:01:34,744 --> 00:01:37,370
+A little upfront work
+will help escalations run
+
+42
+00:01:37,370 --> 00:01:40,360
+smoothly when and
+if they're needed.
+
+43
+00:01:40,360 --> 00:01:43,220
+So you know what an
+escalation is and when to
+
+44
+00:01:43,220 --> 00:01:45,890
+set the framework for
+managing escalations,
+
+45
+00:01:45,890 --> 00:01:48,245
+but how do you know
+when to escalate?
+
+46
+00:01:48,245 --> 00:01:50,840
+A project manager should
+escalate an issue at
+
+47
+00:01:50,840 --> 00:01:53,570
+the first sign of critical
+problems in the project.
+
+48
+00:01:53,570 --> 00:01:56,060
+Critical problems are
+issues that may cause
+
+49
+00:01:56,060 --> 00:01:58,580
+a delay to a major
+project milestone,
+
+50
+00:01:58,580 --> 00:02:00,515
+issues that cause
+budget overruns,
+
+51
+00:02:00,515 --> 00:02:03,050
+issues that can result in
+the loss of a customer,
+
+52
+00:02:03,050 --> 00:02:04,520
+and issues that push back
+
+53
+00:02:04,520 --> 00:02:06,625
+the estimated project
+completion date.
+
+54
+00:02:06,625 --> 00:02:08,150
+Basically, anything that will
+
+55
+00:02:08,150 --> 00:02:09,635
+affect your triple constraint,
+
+56
+00:02:09,635 --> 00:02:11,645
+time, budget, and scope
+
+57
+00:02:11,645 --> 00:02:13,580
+is something that
+should be escalated.
+
+58
+00:02:13,580 --> 00:02:15,230
+Escalation is great for
+
+59
+00:02:15,230 --> 00:02:18,215
+preventing two common
+issues within a project:
+
+60
+00:02:18,215 --> 00:02:20,935
+trench wars and bad compromises.
+
+61
+00:02:20,935 --> 00:02:24,530
+Trench wars occur when
+two peers or groups can't
+
+62
+00:02:24,530 --> 00:02:26,120
+seem to come to an agreement, and
+
+63
+00:02:26,120 --> 00:02:27,980
+neither party is
+willing to give in.
+
+64
+00:02:27,980 --> 00:02:30,650
+This leads to a standstill
+of the project and will
+
+65
+00:02:30,650 --> 00:02:34,150
+likely delay certain aspects
+of the project's progress.
+
+66
+00:02:34,150 --> 00:02:36,410
+Typically, we think
+of compromises
+
+67
+00:02:36,410 --> 00:02:38,995
+as a positive way
+to resolve issues,
+
+68
+00:02:38,995 --> 00:02:42,290
+but there is such a thing
+as a bad compromise.
+
+69
+00:02:42,290 --> 00:02:44,270
+A bad compromise occurs when
+
+70
+00:02:44,270 --> 00:02:47,225
+two parties settle on
+a so-called solution,
+
+71
+00:02:47,225 --> 00:02:49,450
+but the end product
+still suffers.
+
+72
+00:02:49,450 --> 00:02:53,100
+When it comes to compromising
+on important project goals,
+
+73
+00:02:53,100 --> 00:02:55,250
+it's not productive
+for either party to
+
+74
+00:02:55,250 --> 00:02:57,920
+settle simply because
+it's a means to an end.
+
+75
+00:02:57,920 --> 00:03:00,980
+Yes, compromise
+while also keeping
+
+76
+00:03:00,980 --> 00:03:02,675
+the larger project goals in mind
+
+77
+00:03:02,675 --> 00:03:04,775
+and working towards
+those together.
+
+78
+00:03:04,775 --> 00:03:06,880
+You may have to help
+your team or stakeholders
+
+79
+00:03:06,881 --> 00:03:10,120
+make hard choices
+for the greater good.
+
+80
+00:03:10,120 --> 00:03:12,530
+So now we've defined escalation,
+
+81
+00:03:12,530 --> 00:03:14,840
+how to use the triple
+constraints model when
+
+82
+00:03:14,840 --> 00:03:17,915
+communicating to stakeholders
+and negotiating changes,
+
+83
+00:03:17,915 --> 00:03:20,930
+and we learned about trench
+wars and bad compromises,
+
+84
+00:03:20,930 --> 00:03:23,305
+which are two common
+issues on a project.
+
+85
+00:03:23,305 --> 00:03:24,650
+In the next video,
+
+86
+00:03:24,650 --> 00:03:26,450
+we'll explain some
+more techniques
+
+87
+00:03:26,450 --> 00:03:27,995
+for communicating with your team,
+
+88
+00:03:27,995 --> 00:03:30,380
+including timeouts
+and retrospectives.
+
+89
+00:03:30,380 --> 00:03:32,340
+I'll meet you there.

@@ -1,0 +1,528 @@
+HỌC PHẦN BA, RA QUYẾT ĐỊNH DỰA TRÊN DỮ LIỆU, DATA-INFORMED DECISION-MAKING.
+. ......
+
+
+
+
+
+LỜI MỞ ĐẦU, RA QUYẾT ĐỊNH DỰA TRÊN DỮ LIỆU, INTRODUCTION, DATA-INFORMED DECISION-MAKING.
+. ......
+
+
+
+Chào mừng bạn đã quay trở lại với khóa học Thực thi Dự án! Cho đến thời điểm này, chúng ta đã cùng nhau thảo luận rất chi tiết về cách theo dõi và đo lường tiến độ của dự án. Chúng ta cũng đã tìm hiểu sâu sắc về cách quản lý chất lượng thông qua nhiều kỹ thuật chuyên sâu khác nhau, cũng như những lợi ích to lớn của triết lý cải tiến liên tục. 
+
+Giờ đây, tôi rất hào hứng được dẫn dắt bạn bước vào một chủ đề mang tính đột phá và là trái tim của mọi tổ chức hiện đại, Dữ liệu và Nghệ thuật ra quyết định dựa trên dữ liệu, tức Data-Informed Decision-Making.
+
+Trong học phần này, bạn sẽ khám phá cách mà dữ liệu tác động mạnh mẽ đến các quyết định chiến lược và tác nghiệp xuyên suốt hành trình dự án. Bạn sẽ hiểu được giá trị to lớn của dữ liệu đối với một Project Manager, nhận diện các loại dữ liệu và số liệu đo lường phổ biến, đồng thời, học cách chọn lọc thông tin quan trọng nhất để không bị choáng ngợp trong biển thông tin. 
+
+Đặc biệt, chúng ta sẽ cùng nhau nắm vững sáu bước phân tích dữ liệu chuẩn mực của Google, cách trực quan hóa dữ liệu bằng các biểu đồ trực quan sinh động, và bí quyết kể một câu chuyện thuyết phục bằng dữ liệu để truyền cảm hứng cho các bên liên quan. Chúng ta cũng sẽ tìm hiểu về đạo đức dữ liệu và cách thiết kế bài thuyết trình dễ tiếp cận cho tất cả mọi người. Hãy cùng tôi bắt đầu ngay bài học đầu tiên!
+
+
+
+GIÁ TRỊ TO LỚN CỦA DỮ LIỆU, THE VALUE OF DATA.
+. ......
+
+
+
+Trong bài học này, chúng ta sẽ cùng nhau giải thích giá trị to lớn của dữ liệu và cách nó tác động sâu sắc đến sự thành bại của các dự án mà bạn phụ trách. Chúng ta cũng sẽ tìm hiểu phương thức sử dụng dữ liệu để giao tiếp minh bạch, thuyết phục và hiệu quả với các bên liên quan.
+
+Dữ liệu ngày nay thực sự là một ngành kinh doanh khổng lồ. Mỗi ngày trên thế giới có tới hai phẩy năm nghìn tỷ tỷ byte dữ liệu được tạo ra, tức hai phẩy năm quintillion bytes. Đó là một khối lượng dữ liệu và thông tin khổng lồ vượt xa sức tưởng tượng của con người! Nhưng trước hết, chúng ta hãy bắt đầu bằng việc thảo luận xem dữ liệu thực chất là gì.
+
+Dữ liệu, tức Data, là một tập hợp các sự thật, thông tin thô, quan sát hoặc số liệu được thu thập lại. Thông qua quá trình phân tích dữ liệu, bạn sẽ học cách biến những sự thật thô ráp đó thành những kết luận có giá trị, đưa ra các dự đoán chuẩn xác và ban hành những quyết định đúng đắn.
+
+Một người quản lý dự án giỏi không bao giờ đưa ra quyết định chỉ dựa trên cảm tính, trực giác mơ hồ hay phỏng đoán. Khi bạn có dữ liệu vững chắc làm điểm tựa, quyết định của bạn sẽ có sức nặng thuyết phục tuyệt đối. Dữ liệu giúp bạn, 
+Thứ nhất, nhìn thấy bức tranh thực tế khách quan về tình trạng dự án, Dự án có đang thực sự đi đúng tiến độ hay không? Ngân sách có đang bị tiêu lạm hay không? Năng suất của đội ngũ đang tăng hay giảm?
+Thứ hai, dự báo trước các rủi ro tiềm ẩn, Bằng cách phân tích xu hướng của dữ liệu trong quá khứ và hiện tại, bạn có thể dự đoán được các điểm nghẽn cổ chai trước khi chúng gây ra khủng hoảng thực sự.
+Thứ ba, tối ưu hóa việc phân bổ nguồn lực, Dữ liệu chỉ rõ cho bạn biết công đoạn nào đang tốn nhiều thời gian nhất, thành viên nào đang bị quá tải, và nơi nào cần được bổ sung nhân lực kịp thời.
+Thứ tư, xây dựng niềm tin vững chắc với các bên liên quan và ban lãnh đạo, Khi bạn báo cáo tiến độ bằng các con số cụ thể, biểu đồ minh bạch và dữ kiện có thể kiểm chứng, nhà tài trợ dự án sẽ hoàn toàn an tâm và sẵn sàng phê duyệt các đề xuất điều chỉnh của bạn.
+
+Dữ liệu chính là bằng chứng xác thực nhất bảo vệ bạn và đội ngũ trước những tranh luận vô căn cứ, đồng thời, mở ra cánh cửa dẫn tới thành công bền vững cho dự án.
+
+
+
+CÁC LOẠI DỮ LIỆU DỰ ÁN PHỔ BIẾN, COMMON TYPES OF PROJECT DATA.
+. ......
+
+
+
+Sau khi đã hiểu rõ giá trị của dữ liệu, chúng ta hãy cùng phân loại các dạng dữ liệu phổ biến mà một Project Manager thường xuyên phải thu thập, quản lý và phân tích mỗi ngày. Chúng ta cũng sẽ thảo luận về các công cụ cần thiết để tổ chức dữ liệu này một cách khoa học cho các dự án của bạn.
+
+Như chúng ta đã cùng nhau thảo luận trước đó, dữ liệu là tập hợp các sự thật có thể giúp thông tin hóa các quyết định. Trong quản trị dự án, dữ liệu thường được phân chia thành hai nhóm lớn cơ bản, 
+
+Nhóm thứ nhất là Dữ liệu Định lượng, tức Quantitative Data, Đây là tất cả những dữ liệu có thể đo đếm được bằng những con số cụ thể và phép tính toán học. Dữ liệu định lượng trả lời cho các câu hỏi mang tính xác thực như, Có bao nhiêu? Tốn bao nhiêu tiền? Mất bao nhiêu giờ? Tỷ lệ phần trăm là bao nhiêu?
+Ví dụ cụ thể về dữ liệu định lượng bao gồm, 
+Số giờ làm việc thực tế của các kỹ sư trong tuần vừa qua.
+Chi phí tài chính đã giải ngân cho nhà cung cấp phần cứng tính đến ngày hôm nay.
+Số lượng lỗi phần mềm, tức bugs, được đội ngũ kiểm thử ghi nhận trong phiên bản thử nghiệm.
+Thời gian tải trang web trung bình tính bằng giây.
+Tỷ lệ phần trăm công việc đã hoàn thành so với kế hoạch ban đầu.
+
+Nhóm thứ hai là Dữ liệu Định tính, tức Qualitative Data, Đây là những dữ liệu mô tả tính chất, đặc điểm, cảm xúc hoặc ý kiến mà không thể đo lường trực tiếp bằng những con số thuần túy. Dữ liệu định tính trả lời cho các câu hỏi, Tại sao? Như thế nào? Cảm nhận ra sao?
+Ví dụ cụ thể về dữ liệu định tính bao gồm, 
+Phản hồi bằng văn bản của người dùng về trải nghiệm sử dụng ứng dụng di động mới.
+Biên bản phỏng vấn các bên liên quan về mức độ hài lòng đối với tính năng vừa ra mắt.
+Ghi chú từ các phiên họp hồi tưởng cải tiến quy trình Retrospective, phản ánh tâm trạng, động lực và những khó khăn tâm lý mà các thành viên trong đội đang gặp phải.
+Ý kiến đánh giá của chuyên gia tư vấn về tính khả thi của một giải pháp kiến trúc công nghệ mới.
+
+Để thu thập và tổ chức các dạng dữ liệu này một cách ngăn nắp, một Project Manager cần thành thạo việc sử dụng các công cụ đắc lực, 
+Bảng tính điện tử, như Google Sheets hoặc Microsoft Excel, Đây là công cụ phổ biến và linh hoạt nhất để lưu trữ, tính toán các công thức toán học, lọc dữ liệu và tạo biểu đồ nhanh.
+Hệ thống cơ sở dữ liệu và công cụ quản lý dữ liệu lớn, Giúp lưu trữ các tập dữ liệu phức tạp của khách hàng và doanh nghiệp.
+Phần mềm quản lý dự án chuyên dụng, như Asana, Jira, Trello, Giúp tự động hóa việc theo dõi tiến độ công việc, đo lường thời gian thực hiện nhiệm vụ và trực quan hóa luồng công việc dưới dạng bảng Kanban hoặc biểu đồ Gantt.
+
+Sự kết hợp hài hòa giữa dữ liệu định lượng và định tính sẽ mang lại cho bạn cái nhìn toàn diện, Những con số định lượng cho bạn biết chuyện gì đang diễn ra, còn những phân tích định tính giúp bạn thấu hiểu sâu sắc tại sao chuyện đó lại xảy ra.
+
+
+
+CÁC CHỈ SỐ ĐO LƯỜNG DỮ LIỆU DỰ ÁN THƯỜNG GẶP, COMMON DATA METRICS FOR PROJECT MANAGEMENT.
+. ......
+
+
+
+Có rất nhiều loại dữ liệu dự án mà bạn có thể sử dụng để xác định tiến độ và hiệu quả của đội ngũ, đánh giá sự thành công của dự án, và định hướng cho các quyết định dự án. Mặc dù bạn không cần phải là một chuyên gia dữ liệu, việc biết cách đo lường, theo dõi và đánh giá đúng loại dữ liệu sẽ giúp bạn mang lại giá trị và tác động to lớn nhất. 
+
+Tài liệu này sẽ tóm lược một số loại dữ liệu phổ biến từ bài học trước và giới thiệu thêm một vài điểm dữ liệu then chốt giúp bạn quản lý dự án và làm việc hiệu quả với các bên liên quan. Bài đọc cũng sẽ giới thiệu một vài phương thức diễn giải dữ liệu để bạn có thể giảm thiểu rủi ro và đưa ra những quyết định đúng đắn cho đội ngũ và dự án của mình.
+
+Lợi ích của việc phân tích dữ liệu trong quản trị dự án, 
+Là một người quản lý dự án, bạn có thể sử dụng dữ liệu hàng ngày để đưa ra các quyết định tốt hơn, giải quyết các vấn đề phát sinh, cải tiến hiệu suất và quy trình làm việc, đồng thời, thấu hiểu sâu sắc người dùng của bạn. 
+Ví dụ, nếu bạn có dữ liệu về thói quen mua sắm của khách hàng, bạn có thể xác định được những sản phẩm nào bán chạy nhất, và bạn sẽ có thể đưa ra các quyết định thông minh hơn khi đặt các đơn hàng sản phẩm mới với các nhà cung cấp của mình. Dữ liệu này cũng sẽ giúp bạn hiểu rõ hơn về người dùng và các sở thích của họ, từ đó bạn có thể cải thiện các dịch vụ sản phẩm và hiệu suất kinh doanh.
+Bạn cũng có thể sử dụng dữ liệu của đội ngũ dự án để giúp bạn hoàn thiện các quy trình làm việc của mình. Ví dụ, nếu đội ngũ của bạn đang gặp phải một vấn đề khó khăn, việc phân tích dữ liệu từ công cụ theo dõi dự án về số lượng nhiệm vụ đã hoàn thành, các yêu cầu báo cáo leo thang, hoặc các trục trặc trong quy trình nội bộ có thể giúp bạn tìm ra nguồn gốc của vấn đề. Điều này cho phép bạn đưa ra quyết định sáng suốt về việc nên tập trung nỗ lực vào đâu để cải tiến quy trình. Thông qua phân tích phản biện, ứng dụng thực tế và thực thi chuẩn xác, dữ liệu trở thành một công cụ mạnh mẽ để dẫn dắt bất kỳ dự án nào đi đúng hướng.
+
+Phân biệt Dữ liệu, Chỉ số đo lường và Phân tích phân tích, 
+Để dễ hình dung mối quan hệ giữa ba khái niệm này, bạn hãy tưởng tượng ba hình ảnh trực quan, 
+Hình ảnh thứ nhất là những con số được nhóm lại trong một vòng tròn đại diện cho Dữ liệu, tức Data.
+Hình ảnh thứ hai là một biểu đồ với các thước đo xếp dọc theo trục hoành và trục tung đại diện cho Chỉ số đo lường, tức Metrics.
+Hình ảnh thứ ba là hai người đang cùng nhau ghép một bức tranh xếp hình đại diện cho Phân tích, tức Analytics.
+
+Dữ liệu là thông tin thô. Đó là những con số và phản hồi sẵn có cho bạn về các khía cạnh khác nhau của dự án. 
+Chỉ số đo lường Metrics là cách bạn đo lường dữ liệu của mình. Chúng xác định thông tin quan trọng hoặc cụ thể mà bạn cần biết về dự án, chẳng hạn như năng suất, chất lượng, hoặc mức độ tương tác. 
+Một khi bạn đã xác định được các chỉ số đo lường của dự án, bạn tiến hành phân tích dữ liệu theo các chỉ số đó để tìm kiếm các quy luật và trả lời các câu hỏi về dự án. Quá trình này được gọi là Phân tích dữ liệu Analytics, Sử dụng dữ liệu để trả lời các câu hỏi, phát hiện các mối quan hệ tương quan, và dự đoán các kết quả chưa biết.
+
+Khi phân tích dữ liệu, bạn hãy tự đặt ra các câu hỏi sau, 
+Các chỉ số đo lường này có ý nghĩa gì đối với bạn?
+Bạn muốn sử dụng các chỉ số đo lường mà mình đã chọn như thế nào?
+Bạn có thể tìm thấy các quy luật để đưa ra các dự đoán về dự án của mình hay không?
+Bạn có thể tìm ra những cách thức để cải tiến hoặc tối ưu hóa một số khía cạnh nhất định của dự án hay không?
+Bạn có thể rút ra những bài học kinh nghiệm gì từ dữ liệu của dự án?
+
+Dưới đây là một số danh mục chỉ số đo lường phổ biến nhất được sử dụng trong quản trị dự án, 
+
+một. Nhóm chỉ số đo lường Năng suất, tức Productivity Metrics, 
+Các chỉ số năng suất thường đo lường tiến độ và sản lượng đầu ra theo thời gian. Chúng cho phép bạn theo dõi hoặc dự đoán hiệu quả và năng suất của đội ngũ dự án. Để theo dõi năng suất của đội ngũ theo thời gian, bạn hãy phân tích số lượng nhiệm vụ hoặc các mốc quan trọng Milestone đã hoàn thành trong một khung thời gian nhất định. 
+Hãy đặt ra những câu hỏi như, Tỷ lệ phần trăm các nhiệm vụ được hoàn thành đúng hạn là bao nhiêu, và thông thường chúng mất bao lâu để hoàn thành? Hoặc nếu các nhiệm vụ không được hoàn thành đúng hạn, thì phải mất thêm bao nhiêu thời gian so với dự kiến ban đầu để hoàn tất toàn bộ các nhiệm vụ đó?
+Tỷ lệ hoàn thành đúng hạn có thể giúp minh họa cho khách hàng và các bên liên quan thấy dự án đang tiến triển như thế nào và khi nào họ có thể kỳ vọng nhận được các sản phẩm bàn giao nhất định. Nếu tỷ lệ hoàn thành dự án của bạn ở mức cao, điều đó có nghĩa là bạn đang làm rất tốt việc đáp ứng các mục tiêu hoàn thành của mình. Nếu tỷ lệ này ở mức thấp, điều đó có nghĩa là bạn đang bị trễ hạn. Việc phân tích dữ liệu này có thể giúp bạn đưa ra các quyết định về việc cải tiến hoặc triển khai các quy trình mới, hoặc đánh giá lại cách bạn ước tính phạm vi, độ phức tạp và lộ trình thời gian của dự án.
+Việc tính toán thời lượng, tức khoảng thời gian để hoàn thành một công việc, có thể rất hữu ích cho việc thiết lập và đánh giá các nhiệm vụ và các mốc quan trọng, đồng thời, xác định xem bạn có đáp ứng được các thời hạn của dự án hay không. Theo dõi thời lượng nhiệm vụ có thể nâng cao độ chính xác của việc ước tính lộ trình thời gian dự án. Dữ liệu này được chia nhỏ thành các đơn vị giờ, ngày, tuần, tháng và đôi khi là năm.
+Bạn cũng có thể phân tích thông tin hiện tại để dự đoán các kết quả trong tương lai và đưa ra các dự báo Projections về xu hướng năng suất, thời lượng dự án, chi phí, hiệu suất hoặc chất lượng. Loại dữ liệu này trao quyền cho bạn chủ động quản lý dự án và các nguồn lực của mình, đồng thời, đo lường độ chính xác của các dự báo theo thời gian. Ví dụ, phân tích hiệu suất tổng thể hoặc tốc độ Velocity của đội ngũ có thể trả lời các câu hỏi như, Đội ngũ có đang hoàn thành các nhiệm vụ và mốc quan trọng của mình hay không? Tỷ lệ phần trăm các nhiệm vụ mà đội ngũ hoàn thành đúng hạn là bao nhiêu? Dự đoán tương lai có thể là điều bất khả thi, nhưng xây dựng sự hiểu biết tốt hơn về tương lai và hoàn thiện phương pháp đưa ra dự báo là hoàn toàn khả thi và có giá trị to lớn.
+
+hai. Nhóm chỉ số đo lường Chất lượng, tức Quality Metrics, 
+Các chỉ số chất lượng liên quan đến việc đạt được các kết quả đầu ra chấp nhận được và có thể bao gồm các chỉ số như số lượng thay đổi, số lượng vấn đề phát sinh, và độ lệch chi phí, tất cả những yếu tố này đều ảnh hưởng trực tiếp đến chất lượng.
+Các thay đổi, tức Changes, đề cập đến những sự khác biệt ở bất kỳ khía cạnh nào của dự án so với những gì đã được lên kế hoạch hoặc yêu cầu ban đầu.
+Các vấn đề phát sinh, tức Issues, là những trục trặc có thể ảnh hưởng đến việc hoàn thành nhiệm vụ và thường dẫn đến một sự thay đổi. Bạn hãy theo dõi số lượng các thay đổi và vấn đề phát sinh để nhận diện các quy luật lặp lại, hoàn thiện các quy trình làm việc, và chia sẻ thông tin minh bạch về dự án với các bên liên quan.
+Độ lệch chi phí hoặc ngân sách, tức Cost or Budget Variance, Đây là sự khác biệt giữa số tiền thực tế đã chi tiêu cho dự án và số tiền đã được dự toán ngân sách cho dự án đó. Theo thời gian, dữ liệu này có thể giúp bạn hiểu bạn đang ước tính ngân sách cho các dự án của mình tốt đến mức nào. Độ lệch thấp có nghĩa là bạn đã ước tính ngân sách dự án rất chuẩn xác. Độ lệch cao có nghĩa là bạn nên đánh giá lại quy trình ước tính của mình. Bạn có thể đang ước tính chi phí quá thấp hoặc quá cao cho ngân sách, hoặc bạn có thể đang không theo dõi các khoản chi tiêu một cách hiệu quả.
+
+ba. Nhóm chỉ số Hạnh phúc và Mức độ Hài lòng, tức Happiness and Satisfaction Metrics, 
+Các nhà quản lý dự án tại Google sử dụng một nhóm chỉ số đo lường con gọi là các chỉ số hạnh phúc, tức Happiness Metrics, cũng liên quan trực tiếp đến chất lượng. Đây là các chỉ số liên quan đến các khía cạnh khác nhau của sự hài lòng tổng thể của người dùng đối với một sản phẩm hoặc dịch vụ, chẳng hạn như sức hấp dẫn về mặt thị giác, mức độ người dùng sẵn sàng giới thiệu sản phẩm cho người khác, và tính dễ sử dụng.
+Các chỉ số hạnh phúc thường có thể được thu thập thông qua một bản khảo sát được thiết kế bài bản, hoặc bằng cách theo dõi doanh thu tạo ra, tỷ lệ giữ chân khách hàng, hoặc tỷ lệ trả lại sản phẩm.
+Điểm số hài lòng của khách hàng, tức Customer Satisfaction Scores, phản ánh thái độ, mức độ thỏa mãn của người dùng hoặc nhận thức về tính dễ sử dụng. Các điểm số này đo lường mức độ dự án đã bàn giao tốt như thế nào những gì đã cam kết và đáp ứng tốt đến đâu các nhu cầu của khách hàng và các bên liên quan. Điểm số hài lòng của khách hàng thường đại diện cho một chỉ số kết hợp, tức tổng hợp của nhiều chỉ số hạnh phúc khác nhau.
+Ví dụ, trong một bản khảo sát mức độ hài lòng, một khách hàng có thể đánh giá riêng rẽ diện mạo của sản phẩm là sáu trên mười điểm, tính dễ sử dụng là bảy trên mười điểm, và khả năng họ sẽ giới thiệu hoặc tiếp tục sử dụng lại sản phẩm là tám trên mười điểm. Điểm số hài lòng của khách hàng tổng thể sau đó sẽ là bảy trên mười điểm. Bạn sẽ cần xác định mức điểm số nào là chấp nhận được cho dự án của mình bằng cách thảo luận với các bên liên quan xem những khía cạnh nào là quan trọng nhất đối với dự án.
+
+bốn. Nhóm chỉ số Tiếp nhận và Tương tác, tức Adoption and Engagement Metrics, 
+Một bộ chỉ số khác liên quan chặt chẽ đến chất lượng là sự tiếp nhận và mức độ tương tác. 
+Sự tiếp nhận, tức Adoption, đề cập đến việc một sản phẩm, dịch vụ hoặc quy trình có được chấp nhận và đưa vào sử dụng hay không.
+Mức độ tương tác, tức Engagement, đề cập đến mức độ mà sản phẩm đó được sử dụng, Tần suất sử dụng, lượng thời gian dành ra để sử dụng nó, và phạm vi sử dụng.
+
+Để bạn dễ dàng hình dung hai khái niệm này, chúng ta hãy liên tưởng đến việc tổ chức một bữa tiệc, 
+Các chỉ số tiếp nhận Adoption của bạn sẽ tiết lộ cho bạn biết liệu mọi người có nhận lời mời và thực sự đến dự tiệc hay không.
+Trong khi đó, các chỉ số tương tác Engagement sẽ cho bạn biết họ hoạt động tích cực như thế nào tại bữa tiệc, Liệu họ có tham gia vào các trò chơi, có trò chuyện kết nối với những người tham dự khác hay không, họ có rủ thêm bạn bè cùng đến hay không, và họ ở lại bữa tiệc trong bao lâu.
+
+Các chỉ số tiếp nhận đối với việc phát hành một sản phẩm hoặc dịch vụ mới, như một ứng dụng, một chương trình phần mềm, một dịch vụ giao hàng, hoặc một gói thẻ thành viên phòng tập thể hình, cũng tương tự như ví dụ về bữa tiệc. Tuy nhiên, chúng có thể phức tạp hơn một chút nếu bạn cần theo dõi số liệu cho nhiều yếu tố, chẳng hạn như việc người dùng có mua thêm các sản phẩm bổ sung hoặc đăng ký các tính năng cao cấp hay không.
+Mỗi dự án sẽ cần xác định bộ chỉ số tiếp nhận thành công riêng của mình, chẳng hạn như, 
+Tỷ lệ chuyển đổi, tức Conversion Rates.
+Thời gian để đạt được giá trị, tức Time to Value, viết tắt là T-T-V.
+Tỷ lệ hoàn thành quy trình hướng dẫn ban đầu, tức Onboarding Completion Rates.
+Tần suất mua hàng của khách hàng.
+Việc người dùng cung cấp phản hồi và đánh giá sản phẩm hoặc dịch vụ.
+Tỷ lệ hoàn thành hồ sơ người dùng.
+
+Các chỉ số tương tác cho bạn biết một sản phẩm, dịch vụ hoặc quy trình đang được sử dụng ở mức độ nào. Chúng tiết lộ tần suất và hình thức tương tác cũng như sự tham gia của khách hàng theo thời gian. Các chỉ số tương tác có thể bao gồm tỷ lệ sử dụng hàng ngày của một tính năng thiết kế, hoặc việc theo dõi các đơn đặt hàng và các tương tác của khách hàng.
+Là một người quản lý dự án, bạn không chỉ quan tâm đến mức độ tương tác của người dùng cuối. Việc theo dõi mức độ tương tác của các bên liên quan và các thành viên trong đội ngũ cũng quan trọng không kém.
+Đo lường sự tham gia của các bên liên quan bằng cách theo dõi tần suất giao tiếp, các phản hồi đối với email hoặc các thông tin cập nhật, việc tham dự các cuộc họp, hoặc mức độ đóng góp ý kiến có thể cho bạn cảm nhận về việc liệu các bên liên quan có đang thấy được giá trị trong dự án hay không. Sự thiếu hụt tương tác có ý nghĩa có thể đẩy dự án của bạn vào tình thế rủi ro nguy hiểm. Các bên liên quan có thể không nắm được các thay đổi hoặc tiến độ chung của dự án, và do đó, kết quả cuối cùng của dự án có thể không đáp ứng được kỳ vọng của họ.
+Đo lường mức độ gắn kết của các thành viên trong đội ngũ là điều sống còn đối với sự thành công của dự án, bởi vì, họ càng gắn kết bao nhiêu, họ càng làm việc năng suất bấy nhiêu, và họ càng có nhiều khả năng tạo ra các kết quả chất lượng cao bấy nhiêu.
+Lý tưởng nhất là bạn muốn các chỉ số tiếp nhận và tương tác của mình không ngừng tăng lên, hoặc ít nhất là đạt được các chỉ số mục tiêu đã được thiết lập với các bên liên quan từ giai đoạn đầu của dự án. Nếu không có sự gia tăng, hoặc các chỉ số bị sụt giảm, thì tỷ lệ của bạn đang ở mức thấp và do đó, dự án chưa thực sự thành công.
+
+Bài học cốt lõi, Dữ liệu, các chỉ số đo lường và phân tích đều đóng vai trò quyết định đối với sự thành công của dự án. Bạn cần phải quen thuộc với cách thu thập và đo lường dữ liệu, cũng như cách sử dụng dữ liệu để hiểu về các khía cạnh khác nhau của dự án. Tùy thuộc vào dự án và các mục tiêu độc nhất của nó, một số chỉ số sẽ quan trọng hơn những chỉ số khác. Nhiệm vụ của bạn là đảm bảo bạn hiểu rõ các bên liên quan quan tâm nhất đến những chỉ số nào, và những yếu tố nào tác động đến khả năng của đội ngũ trong việc bàn giao các kết quả chất lượng đúng hạn và trong phạm vi ngân sách.
+
+
+
+CHỌN LỌC VÀ PHÂN BIỆT DỮ LIỆU QUAN TRỌNG, DISCERNING IMPORTANT DATA.
+. ......
+
+
+
+Chào mừng bạn đã quay trở lại. Hãy cùng tiếp tục thảo luận về tất cả những điều liên quan đến dữ liệu. Trước đó, chúng ta đã tìm hiểu về dữ liệu là gì, giá trị của nó đối với người quản lý dự án, và các loại dữ liệu khác nhau mà một Project Manager làm việc cùng. Trong bài học này, chúng ta sẽ thảo luận về cách xác định dữ liệu quan trọng nhất cho dự án của bạn, cách ưu tiên dữ liệu bạn thu thập, và cách thu thập hiệu quả các ưu tiên từ các bên liên quan để bạn đáp ứng trọn vẹn các mục tiêu đề ra.
+
+Một trong những thách thức lớn nhất mà người quản lý dự án trong thời đại số phải đối mặt không phải là thiếu thông tin, mà là bị ngập lụt trong quá nhiều dữ liệu rác, tức Data Overload. Nếu cố gắng thu thập và theo dõi mọi mẩu thông tin nhỏ nhặt, bạn sẽ kiệt sức và đánh mất phương hướng chiến lược. Do đó, kỹ năng chọn lọc và phân biệt dữ liệu quan trọng, tức Discerning Important Data, là một năng lực sống còn.
+
+Làm thế nào để bạn biết dữ liệu nào là thực sự quan trọng và đáng để đầu tư thời gian theo dõi? Hãy áp dụng các nguyên tắc sau, 
+
+Nguyên tắc thứ nhất, Phân biệt giữa tín hiệu và nhiễu, tức Signal versus Noise.
+Trong một hệ thống dữ liệu, tín hiệu Signal là những thông tin có ý nghĩa, phản ánh đúng bản chất vấn đề và chỉ ra các xu hướng quan trọng. Ngược lại, nhiễu Noise là những biến động ngẫu nhiên, số liệu vụn vặt không mang lại giá trị quản trị. Bạn cần học cách lắng nghe các tín hiệu cảnh báo sớm, Một sự sụt giảm nhẹ về tốc độ hoàn thành công việc trong hai Sprint liên tiếp là một tín hiệu, trong khi việc một kỹ sư nghỉ ốm một buổi chiều chỉ là một sự kiện ngẫu nhiên.
+
+Nguyên tắc thứ hai, Bám sát mục tiêu cốt lõi của dự án và các chỉ số đo lường thành công then chốt.
+Mỗi dữ liệu bạn thu thập phải phục vụ trực tiếp cho việc trả lời một câu hỏi quản trị cụ thể, Con số này có giúp tôi biết dự án có đạt mục tiêu hay không? Nó có giúp cải thiện thời gian giao hàng, tiết kiệm chi phí hay nâng cao chất lượng sản phẩm hay không? Nếu một số liệu không liên quan trực tiếp tới mục tiêu đã cam kết trong Bản điều lệ dự án, hãy mạnh dạn gạt nó sang một bên.
+
+Nguyên tắc thứ ba, Lắng nghe và ưu tiên các mối quan tâm hàng đầu của các bên liên quan.
+Mỗi nhóm bên liên quan lại có những mối bận tâm hoàn toàn khác biệt, 
+Ban giám đốc điều hành và các nhà tài trợ tài chính thường chỉ quan tâm tới các chỉ số vĩ mô, Lợi tức đầu tư R-O-I, tổng chi phí thực tế so với ngân sách dự toán, và ngày dự kiến ra mắt thị trường.
+Khách hàng và người dùng cuối quan tâm tới tính năng, độ ổn định, tính thân thiện của giao diện và tốc độ phản hồi dịch vụ.
+Đội ngũ kỹ sư và phát triển lại quan tâm sâu sắc tới các chỉ số vi mô, Tốc độ xử lý công việc Velocity, nợ kỹ thuật, số lượng lỗi tồn đọng và thời gian hoàn thành các nhiệm vụ kỹ thuật.
+Hãy chủ động trò chuyện với từng nhóm bên liên quan để tìm hiểu xem họ cần những thông tin gì để đưa ra quyết định của mình, từ đó thiết lập các báo cáo tùy biến phù hợp với đúng đối tượng.
+
+Nguyên tắc thứ tư, Ưu tiên dữ liệu có khả năng dẫn đến hành động cụ thể, tức Actionable Data.
+Tránh xa những số liệu phù phiếm chỉ để trưng bày cho đẹp mắt, tức Vanity Metrics. Ví dụ, việc ứng dụng của bạn có mười nghìn lượt tải về là một con số ấn tượng, nhưng nếu dữ liệu chỉ ra rằng có tới chín mươi lăm phần trăm người dùng xóa ứng dụng ngay sau một ngày sử dụng, thì tỷ lệ duy trì người dùng Retention Rate mới chính là dữ liệu hành động mà bạn bắt buộc phải tập trung giải quyết.
+
+Biết cách gạn đục khơi trong, chọn đúng số liệu then chốt sẽ giúp bạn tiết kiệm năng lượng, đưa ra quyết định sắc bén và giữ cho toàn bộ đội ngũ luôn tập trung vào những điều thực sự tạo ra giá trị.
+
+
+
+NHỮNG CÂN NHẮC VỀ ĐẠO ĐỨC DỮ LIỆU, DATA ETHICS CONSIDERATIONS.
+. ......
+
+
+
+Trong bài học trước, bạn đã học cách sử dụng kiến thức để phân biệt dữ liệu và cách các tín hiệu giúp ưu tiên dữ liệu. Tài liệu đọc này sẽ đề cập đến tầm quan trọng của đạo đức dữ liệu và hai nguyên tắc then chốt, Quyền riêng tư của dữ liệu và Định kiến trong dữ liệu.
+
+Đạo đức dữ liệu, 
+Là một người quản lý dự án, việc thu thập và phân tích dữ liệu sẽ là một phần cốt lõi trong các dự án của bạn. Như bạn đã học, bạn sẽ thu thập dữ liệu từ rất nhiều nguồn khác nhau, bao gồm các nhóm tập trung Focus Groups, các cuộc phỏng vấn và các bảng câu hỏi khảo sát.
+Dữ liệu bạn thu thập thường sẽ chứa thông tin nhận dạng cá nhân, tức P-I-I, Personally Identifiable Information. Đây là những thông tin có thể được sử dụng để trực tiếp nhận dạng, liên hệ hoặc xác định vị trí của một cá nhân cụ thể. Rất nhiều lần, bạn cũng sẽ cần báo cáo về dữ liệu bạn thu thập được cho các bên liên quan, khách hàng và đội ngũ dự án của mình. Việc thu thập, phân tích và chia sẻ dữ liệu này một cách có đạo đức là điều vô cùng quan trọng để duy trì tính chính trực của tổ chức, dự án và chính vị trí công tác của bạn.
+Đạo đức dữ liệu là việc nghiên cứu và đánh giá các thách thức đạo đức liên quan đến việc thu thập và phân tích dữ liệu. Điều này bao gồm việc tạo ra, ghi lại, tuyển chọn, xử lý, chia sẻ và sử dụng dữ liệu nhằm đưa ra các giải pháp có đạo đức. Các doanh nghiệp áp dụng các thực hành đạo đức dữ liệu để họ có thể, 
+Tuân thủ các quy định của pháp luật.
+Chứng minh rằng họ là tổ chức đáng tin cậy.
+Đảm bảo việc sử dụng dữ liệu công bằng và hợp lý.
+Giảm thiểu tối đa các định kiến và thiên lệch.
+Phát triển một hình ảnh nhận thức tích cực trong mắt công chúng.
+
+Đạo đức dữ liệu bắt nguồn từ nhiều nguyên tắc. Trong tài liệu này, chúng ta sẽ tập trung vào hai nguyên tắc nền tảng nhất, Quyền riêng tư dữ liệu và Định kiến dữ liệu.
+
+một. Quyền riêng tư dữ liệu, tức Data Privacy, 
+Quyền riêng tư dữ liệu là một phần then chốt của đạo đức dữ liệu. Quyền riêng tư dữ liệu giải quyết việc xử lý dữ liệu một cách đúng đắn. Điều này bao gồm mục đích thu thập và xử lý dữ liệu, các tùy chọn riêng tư của người dùng, cách thức các tổ chức quản lý dữ liệu cá nhân, và các quyền hợp pháp của các cá nhân. Nó tập trung vào việc đảm bảo rằng các cách thức chúng ta thu thập, xử lý, chia sẻ, lưu trữ và xóa bỏ dữ liệu đều hoàn toàn phù hợp với quy định của pháp luật.
+Là một người quản lý dự án, trách nhiệm của bạn là bảo vệ dữ liệu mà bạn thu thập. Bạn có thể giúp đảm bảo quyền riêng tư của dữ liệu thu thập được từ người dùng, các bên liên quan và những người khác bằng cách, 
+Nâng cao nhận thức về quyền riêng tư dữ liệu, Đảm bảo mọi thành viên trong đội ngũ dự án của bạn, cộng với các nhà cung cấp, nhà thầu phụ và các bên liên quan khác từ bên ngoài công ty, đều được phổ biến và nắm vững các giao thức bảo mật và quyền riêng tư dữ liệu của tổ chức bạn.
+Sử dụng các công cụ bảo mật, Các công cụ bảo mật miễn phí hoặc tiêu chuẩn, như các giải pháp lưu trữ mã hóa và trình quản lý mật khẩu, có thể làm giảm đáng kể mức độ dễ bị tổn thương của dự án trước một vụ vi phạm dữ liệu. Trong rất nhiều ứng dụng, chẳng hạn như các ứng dụng thuộc Google Workspace và Microsoft OneDrive, các cài đặt quyền riêng tư có thể được điều chỉnh để chỉ cấp quyền truy cập cho những cá nhân cụ thể được ủy quyền.
+Ẩn danh hóa dữ liệu, tức Anonymizing Data, Ẩn danh hóa dữ liệu đề cập đến một hoặc nhiều kỹ thuật như xóa trắng, băm mật mã Hashing, hoặc che dấu Masking các thông tin nhận dạng cá nhân để bảo vệ danh tính của những người có trong dữ liệu. Điều này giúp bảo vệ thông tin cá nhân của các cá nhân bằng cách giữ cho họ hoàn toàn ẩn danh. Một khi thông tin đã được ẩn danh hóa, nó có thể được sử dụng và chia sẻ một cách tự do mà không vi phạm quyền riêng tư. Các loại dữ liệu bắt buộc phải được ẩn danh hóa bao gồm, Họ và tên, số điện thoại, số an sinh xã hội hoặc căn cước công dân, địa chỉ email, hình ảnh chân dung và số tài khoản ngân hàng.
+
+hai. Định kiến trong dữ liệu, tức Data Bias, 
+Một thực hành đạo đức dữ liệu quan trọng khác là đảm bảo rằng dữ liệu bạn thu thập không thể hiện bất kỳ định kiến hay thiên vị nào. Định kiến dữ liệu là một dạng sai số có xu hướng làm sai lệch kết quả theo một hướng nhất định. Có thể các câu hỏi trong bản khảo sát của bạn có một góc nhìn thiên lệch để dẫn dụ câu trả lời, hoặc nhóm mẫu khảo sát của bạn không đại diện đầy đủ cho toàn bộ tổng thể quần thể mà bạn muốn nghiên cứu.
+Định kiến cũng có thể xảy ra nếu một nhóm mẫu thiếu tính bao hàm toàn diện. Ví dụ, nếu nhóm mẫu của bạn không bao gồm người khuyết tật. Cách bạn thu thập dữ liệu cũng có thể làm thiên lệch một tập dữ liệu. Giả sử bạn chỉ cho mọi người một khoảng thời gian rất ngắn để trả lời các câu hỏi, điều này có thể dẫn đến những câu trả lời vội vã. Khi mọi người bị hối thúc, họ có xu hướng mắc nhiều sai sót hơn, điều này có thể ảnh hưởng đến chất lượng dữ liệu và tạo ra các kết quả bị thiên lệch.
+Là một người quản lý dự án, bạn phải suy nghĩ về định kiến và tính công bằng từ khoảnh khắc bạn bắt đầu thu thập dữ liệu cho đến thời điểm bạn trình bày các kết luận của mình.
+
+Các loại định kiến phổ biến, 
+Dưới đây là bốn loại định kiến phổ biến nhất có thể tác động tiêu cực đến dữ liệu của bạn, 
+Định kiến chọn mẫu, tức Sampling Bias, Xảy ra khi một mẫu khảo sát không đại diện cho toàn bộ tổng thể quần thể. Ví dụ, mẫu của bạn có thể không bao gồm những người trên sáu mươi lăm tuổi, hoặc bạn đã vô tình loại trừ những người thuộc các nhóm kinh tế xã hội nhất định.
+Định kiến người quan sát, tức Observer Bias, Là xu hướng những người khác nhau quan sát và cảm nhận các sự việc theo cách khác nhau. Ví dụ, các bên liên quan đến từ các khu vực khác nhau trên thế giới có thể nhìn nhận cùng một dữ liệu theo cách khác nhau và rút ra các kết luận hoàn toàn khác biệt từ đó.
+Định kiến diễn giải, tức Interpretation Bias, Là xu hướng luôn diễn giải các tình huống không có câu trả lời rõ ràng theo một cách hoàn toàn tích cực hoặc hoàn toàn tiêu cực, trong khi trên thực tế có nhiều hơn một cách để thấu hiểu dữ liệu. Dữ liệu không cung cấp một tập hợp kết luận hiển nhiên thường khiến một số người cảm thấy lo lắng bất an, điều này dẫn tới định kiến diễn giải. Ví dụ, một thành viên trong đội có thể diễn giải kết quả khảo sát chưa ngã ngũ theo hướng tiêu cực, trong khi các thành viên khác lại có khả năng suy nghĩ cẩn trọng hơn và đánh giá dữ liệu từ nhiều góc độ đa chiều.
+Định kiến xác nhận, tức Confirmation Bias, Là xu hướng tìm kiếm hoặc diễn giải thông tin theo cách xác nhận các niềm tin có sẵn từ trước. Ví dụ, bạn có thể chỉ hỏi ý kiến phản hồi từ một số bên liên quan cụ thể về các phần của dự án vì bạn biết rằng họ là những người có nhiều khả năng có cùng quan điểm với bạn nhất.
+
+Mỗi loại định kiến này đều ảnh hưởng đến cách bạn thu thập và hiểu dữ liệu, do đó, điều quan trọng là bạn phải nhận thức sâu sắc về chúng khi thiết lập các quy trình thu thập dữ liệu của mình.
+
+Bài học cốt lõi, Theo Bộ Quy tắc Đạo đức và Ứng xử Nghề nghiệp của Viện Quản lý Dự án P-M-I, Đạo đức là việc đưa ra các quyết định tốt nhất có thể liên quan đến con người, nguồn lực và môi trường. Những lựa chọn có đạo đức sẽ làm giảm thiểu rủi ro, thúc đẩy các kết quả tích cực, gia tăng niềm tin, quyết định sự thành công lâu dài và xây dựng danh tiếng vững bền. Khả năng lãnh đạo phụ thuộc tuyệt đối vào các lựa chọn có đạo đức.
+Một cách then chốt để bạn thể hiện kỹ năng lãnh đạo của mình là thực thi sự phán đoán sáng suốt khi đề cập đến đạo đức dữ liệu. Để kể câu chuyện dựa trên dữ liệu của dự án cho các bên liên quan, các thành viên trong đội và những người khác một cách có đạo đức, bạn phải đảm bảo rằng bạn đã cân nhắc kỹ lưỡng cả những mối quan tâm liên quan đến quyền riêng tư và định kiến trong cách bạn tiến hành thu thập, phân tích và chia sẻ dữ liệu đó.
+
+
+
+ỨNG DỤNG PHÂN TÍCH DỮ LIỆU ĐỂ ĐƯA RA QUYẾT ĐỊNH, USING DATA ANALYSIS TO INFORM DECISIONS.
+. ......
+
+
+
+Chào bạn đã quay trở lại! Trong bài học này, chúng ta sẽ đi sâu vào phân tích dữ liệu và cách các nhà quản lý dự án sử dụng nó để đưa ra các quyết định sáng suốt xuyên suốt một dự án.
+
+Chúng ta sử dụng dữ liệu mỗi ngày để giúp chúng ta đưa ra cả những quyết định đơn giản lẫn quan trọng trong cuộc sống. Ví dụ, hãy tưởng tượng rằng bạn đang tiết kiệm tiền để mua một món đồ lớn. Có thể bạn đã quyết định rằng cách tốt nhất để đạt được mục tiêu sớm hơn là lập một kế hoạch ngân sách chi tiêu. Bạn bắt đầu bằng việc kiểm tra số dư tài khoản ngân hàng, thống kê các khoản chi tiêu bắt buộc hàng tháng, tính toán tỷ lệ tiết kiệm và cắt giảm những khoản ăn uống ngoài hàng không cần thiết. Toàn bộ quá trình đó chính là việc bạn đang phân tích dữ liệu cá nhân để đưa ra một quyết định tài chính đúng đắn.
+
+Trong quản trị dự án, quy trình này diễn ra với quy mô lớn hơn, tính chất phức tạp hơn và đòi hỏi sự chuẩn xác cao độ hơn. Phân tích dữ liệu giúp người quản lý dự án chuyển hóa từ trạng thái bị động đối phó sang thế chủ động dẫn dắt.
+
+Chúng ta hãy xem xét một tình huống thực tế điển hình, 
+Giả sử bạn đang quản lý một dự án phát triển phần mềm bán hàng trực tuyến cho một chuỗi siêu thị. Trong giai đoạn thử nghiệm, hệ thống liên tục ghi nhận các phản hồi tiêu cực từ người dùng về việc quá trình thanh toán bị lỗi. Thay vì hoảng loạn đổ lỗi cho các kỹ sư lập trình, bạn tiến hành phân tích dữ liệu một cách khoa học, 
+Bạn trích xuất dữ liệu nhật ký hệ thống, tức System Logs, và phát hiện ra rằng có tới tám mươi phần trăm lỗi thanh toán xảy ra khi khách hàng sử dụng một cổng thanh toán qua ví điện tử cụ thể.
+Bạn tiếp tục phân tích sâu hơn và nhận thấy cổng thanh toán này thường xuyên bị nghẽn mạng vào khung giờ cao điểm từ mười chín giờ đến hai mươi mốt giờ tối.
+Nhờ có dữ liệu phân tích chi tiết, bạn đã xác định chính xác nguyên nhân gốc rễ của vấn đề. Thay vì phải viết lại toàn bộ mã nguồn của trang web, quyết định của bạn là làm việc khẩn cấp với nhà cung cấp dịch vụ ví điện tử để mở rộng băng thông máy chủ và tích hợp thêm cổng thanh toán dự phòng.
+
+Đó chính là,
+. ......
+sức mạnh phi thường của việc phân tích dữ liệu, Nó giúp bạn loại bỏ mọi cảm xúc tiêu cực, nhìn thẳng vào sự thật, xác định chính xác vị trí cần can thiệp và đưa ra giải pháp hiệu quả với chi phí tối thiểu.
+
+
+
+SÁU BƯỚC PHÂN TÍCH DỮ LIỆU CHUẨN MỰC, THE SIX STEPS OF DATA ANALYSIS.
+. ......
+
+
+
+Trong bài học trước, bạn đã học được rằng phân tích dữ liệu là quá trình thu thập và tổ chức thông tin nhằm giúp rút ra các kết luận, giải quyết các vấn đề, đưa ra các quyết định sáng suốt và hỗ trợ các mục tiêu của bạn. Trong tài liệu này, chúng ta sẽ đi qua các phần then chốt của quy trình phân tích dữ liệu.
+
+Có sáu bước chính liên quan đến quy trình phân tích dữ liệu chuẩn mực được Google đúc kết, Đặt câu hỏi, Chuẩn bị, Xử lý, Phân tích, Chia sẻ và Hành động. Tức Ask, Prepare, Process, Analyze, Share, and Act. Chúng ta hãy cùng nhau phân tích chi tiết từng bước một.
+
+một. Bước thứ nhất, Đặt câu hỏi, tức Ask.
+Trong giai đoạn Đặt câu hỏi, bạn đặt ra những câu hỏi then chốt để giúp định hình khung phân tích của mình, bắt đầu bằng câu hỏi, Vấn đề ở đây là gì?
+Khi định nghĩa vấn đề, bạn hãy nhìn vào trạng thái hiện tại của doanh nghiệp và xác định xem nó đang khác biệt như thế nào so với trạng thái lý tưởng mong muốn. Thông thường, sẽ có một trở ngại cản đường hoặc một trục trặc nào đó cần phải được sửa chữa. Ở giai đoạn này, bạn muốn càng cụ thể càng tốt. Bạn cũng muốn tập trung cao độ vào chính vấn đề đó, chứ không chỉ nhìn vào các triệu chứng bề nổi.
+Ví dụ, hãy tưởng tượng bạn đang thực hiện phân tích dữ liệu cho một phòng tập thể hình đang liên tục bị mất hội viên. Bạn có thể hỏi một câu chung chung, Tại sao chúng ta lại tiếp tục mất hội viên? Nhưng một câu hỏi tốt hơn và cụ thể hơn nhiều sẽ là, Những yếu tố nào đang tác động tiêu cực đến trải nghiệm của hội viên? Bằng cách đó, khi bạn bắt tay vào nghiên cứu, bạn biết chính xác mình cần phải tìm kiếm điều gì.
+Một phần quan trọng khác của giai đoạn Đặt câu hỏi là xác định các bên liên quan của bạn và thấu hiểu các kỳ vọng của họ. Có thể có rất nhiều bên liên quan trong một dự án, và mỗi người trong số họ đều có thể đưa ra quyết định, gây ảnh hưởng đến các hành động và tham gia đóng góp ý kiến vào các chiến lược. Mỗi bên liên quan cũng sẽ có những mục tiêu cụ thể mà họ muốn đạt được. Việc một bên liên quan tìm đến bạn với một bài toán cần giải quyết là điều rất phổ biến. Nhưng trước khi bắt đầu phân tích, bạn cần phải làm rõ xem họ đang yêu cầu điều gì ở bạn.
+Ví dụ, nếu người quản lý giao cho bạn một dự án liên quan đến việc phân tích rủi ro kinh doanh của phòng tập thể hình, việc xác nhận lại xem họ muốn bạn phân tích tất cả các loại rủi ro có thể ảnh hưởng đến phòng tập hay chỉ phân tích các rủi ro liên quan đến thời tiết hoặc các xu hướng theo mùa sẽ là một ý tưởng rất khôn ngoan.
+
+hai. Bước thứ hai, Chuẩn bị, tức Prepare.
+Sau khi bạn đã có một định hướng rõ ràng, đã đến lúc bước sang giai đoạn Chuẩn bị. Đây là nơi bạn thu thập và lưu trữ dữ liệu mà bạn sẽ sử dụng cho quá trình phân tích sắp tới.
+Chúng ta hãy quay trở lại với ví dụ về phòng tập thể hình. Để thu thập dữ liệu về trải nghiệm của hội viên, bạn quyết định gửi các bản khảo sát tới các hội viên của phòng tập để xin ý kiến phản hồi về trải nghiệm của họ. Để đảm bảo bạn nhận được các câu trả lời cụ thể, bạn yêu cầu họ đưa ra phản hồi theo ba danh mục riêng biệt, Việc bảo trì cơ sở vật chất, dịch vụ chăm sóc khách hàng, và chi phí thẻ hội viên. Bạn cũng để lại một khoảng trống để họ có thể tự viết thêm câu trả lời mở của mình.
+Khi bạn nhận lại các bản khảo sát của hội viên, điều quan trọng là bạn phải có một hệ thống ngăn nắp để theo dõi và lưu trữ chúng một cách an toàn.
+
+ba. Bước thứ ba, Xử lý dữ liệu, tức Process.
+Giai đoạn này là lúc bạn tiến hành Xử lý dữ liệu của mình. Trong bước này, bạn sẽ làm sạch dữ liệu, tức Clean your data. Điều này có nghĩa là bạn sẽ nhập dữ liệu của mình vào một bảng tính điện tử hoặc một công cụ khác do bạn lựa chọn, và loại bỏ bất kỳ sự không nhất quán và thiếu chính xác nào có thể cản trở kết quả.
+Trong khi xử lý dữ liệu, hãy chắc chắn rằng bạn đã loại bỏ mọi câu trả lời bị trùng lặp. Bạn cũng cần chuẩn hóa các định dạng, sửa các lỗi chính tả và quyết định cách xử lý các trường thông tin bị bỏ trống. Việc làm sạch dữ liệu đảm bảo rằng các kết luận bạn rút ra sau này sẽ hoàn toàn chuẩn xác và đáng tin cậy.
+
+bốn. Bước thứ tư, Phân tích dữ liệu, tức Analyze.
+Bây giờ là lúc bạn thực sự phân tích dữ liệu đã được làm sạch. Bạn sử dụng các công thức tính toán, hàm số thống kê hoặc các bảng tổng hợp Pivot Tables để tìm kiếm các xu hướng, quy luật và mối quan hệ tương quan.
+Quay lại ví dụ phòng tập thể hình, Khi phân tích các con số, bạn phát hiện ra rằng điểm số đánh giá về chi phí thẻ hội viên và dịch vụ khách hàng đều ở mức khá cao, đạt tám trên mười điểm. Tuy nhiên, điểm số dành cho việc bảo trì cơ sở vật chất lại rất thấp, chỉ đạt bốn trên mười điểm. Khi đọc kỹ các phản hồi mở, bạn nhận thấy có rất nhiều lời phàn nàn về việc các máy chạy bộ thường xuyên bị hỏng hóc và phòng thay đồ không được vệ sinh sạch sẽ vào buổi tối. Nhờ phân tích dữ liệu, bạn đã khám phá ra nguyên nhân gốc rễ chính xác khiến hội viên rời bỏ phòng tập.
+
+năm. Bước thứ năm, Chia sẻ dữ liệu, tức Share.
+Sau khi đã rút ra được những hiểu biết sâu sắc Insights từ dữ liệu, bạn bước sang giai đoạn Chia sẻ. Bạn tổng hợp các phát hiện của mình thành một bài báo cáo hoặc bài thuyết trình mạch lạc, sử dụng các biểu đồ trực quan để minh họa rõ nét sự khác biệt giữa các danh mục. Bạn trình bày câu chuyện dữ liệu trước người quản lý phòng tập và các bên liên quan, giải thích rõ ràng mối liên hệ giữa việc cơ sở vật chất xuống cấp và tỷ lệ hội viên hủy thẻ.
+
+sáu. Bước thứ sáu, Hành động, tức Act.
+Bước cuối cùng và quan trọng nhất là Hành động. Dựa trên những phân tích thuyết phục mà bạn đã chia sẻ, ban quản lý phòng tập quyết định hành động ngay lập tức, Họ ký hợp đồng bảo trì định kỳ với nhà cung cấp thiết bị để sửa chữa toàn bộ máy chạy bộ hỏng trong vòng một tuần, đồng thời, thuê thêm nhân viên vệ sinh ca tối. Ba tháng sau, dữ liệu khảo sát mới cho thấy tỷ lệ hài lòng về cơ sở vật chất đã tăng vọt lên chín trên mười điểm, và số lượng hội viên đăng ký mới tăng trở lại.
+
+Đó chính là,
+. ......
+trọn vẹn sức mạnh của quy trình sáu bước phân tích dữ liệu, Từ một vấn đề mơ hồ ban đầu, thông qua dữ liệu, bạn đã tạo ra những thay đổi tích cực và mang lại thành công rực rỡ cho tổ chức.
+
+
+
+KỂ CÂU CHUYỆN DỰ ÁN BẰNG DỮ LIỆU, PRESENTING DATA TO TELL A PROJECTS STORY.
+. ......
+
+
+
+Chào mừng bạn đã quay trở lại. Trong bài học này, chúng ta sẽ thảo luận về cách kể một câu chuyện đầy sức mạnh bằng cách sử dụng dữ liệu. Chúng tôi sẽ hướng dẫn bạn cách thu thập và sắp xếp dữ liệu dự án của mình để trình bày nó trước những người khác trong tổ chức của bạn.
+
+Thuyết trình là một phương thức mạnh mẽ để truyền đạt các ý tưởng của bạn và củng cố các quyết định của bạn xuyên suốt hành trình dự án. Hãy nghĩ về việc thuyết trình như nghệ thuật kể câu chuyện về dự án của bạn, tức Storytelling with Data.
+
+Tại sao chúng ta lại cần kể chuyện bằng dữ liệu? Bộ não con người không được tạo ra để ghi nhớ các con số trừu tượng hay các bảng tính khô khan. Nhưng con người từ hàng ngàn năm nay luôn kết nối sâu sắc với các câu chuyện. Một câu chuyện dữ liệu xuất sắc sẽ mang lại linh hồn cho các con số, tạo ra sự đồng cảm và thôi thúc người nghe hành động.
+
+Một câu chuyện dữ liệu hấp dẫn thường được xây dựng dựa trên cấu trúc ba phần kinh điển, 
+
+Phần thứ nhất, Thiết lập bối cảnh ban đầu, tức The Beginning and Setting the Scene.
+Bạn mở đầu bằng việc nhắc lại, lý do tại sao dự án này tồn tại, Mục tiêu ban đầu là gì? Chúng ta đã kỳ vọng đạt được những điều gì? Tình hình thị trường và bối cảnh kinh doanh lúc đó ra sao? Điều này giúp kéo tất cả khán giả về cùng một điểm xuất phát và nhắc họ nhớ về tầm quan trọng của vấn đề.
+
+Phần thứ hai, Xung đột và Thách thức, tức The Middle and Conflict.
+Đây là phần cao trào của câu chuyện, nơi bạn đưa dữ liệu vào để phơi bày thực tế, Những con số đang cho thấy điều gì bất thường? Dự án đang gặp phải những nút thắt cổ chai nào? Chi phí đang tăng vọt ở khâu nào, hay năng suất đang bị sụt giảm ra sao? Bạn cho khán giả thấy khoảng cách giữa kỳ vọng ban đầu và thực tế đang diễn ra, tạo nên sự kịch tính cần thiết để kích thích tư duy tìm kiếm giải pháp.
+
+Phần thứ ba, Hướng giải quyết và Kết luận hành động, tức The End and Resolution.
+Bạn dẫn dắt khán giả đến với giải pháp dựa trên những hiểu biết sâu sắc từ dữ liệu, Dữ liệu mách bảo chúng ta điều gì? Con đường tối ưu nhất để vượt qua thử thách này là gì? Bạn đưa ra các khuyến nghị hành động cụ thể, phân tích lợi ích và rủi ro, đồng thời, vẽ nên bức tranh tương lai thành công khi kế hoạch được thực hiện.
+
+Khi bạn biết cách kết hợp các con số chính xác với một mạch kể chuyện lôi cuốn, bài thuyết trình của bạn sẽ không còn là một buổi báo cáo khô cứng, mà sẽ trở thành một cuộc đối thoại chiến lược đầy cảm hứng.
+
+
+
+CÔNG CỤ TRỰC QUAN HÓA DỮ LIỆU, DATA VISUALIZATION TOOLS.
+. ......
+
+
+
+Chào bạn. Trong bài học này, chúng ta sẽ thảo luận về trực quan hóa dữ liệu và cách nó giúp thông tin hóa các quyết định cho dự án của bạn.
+
+Trực quan hóa dữ liệu, tức Data Visualization, là việc biểu diễn thông tin bằng hình ảnh đồ họa để hỗ trợ và thúc đẩy sự thấu hiểu. Điều đó có thể bao gồm các đồ thị, bản đồ, và bảng biểu, cùng nhiều dạng khác.
+
+Các nhà quản lý dự án sử dụng các biểu diễn trực quan này vì một vài lý do then chốt, 
+Thứ nhất, chúng cực kỳ hữu ích để truyền đạt dữ liệu tới những người khác, bởi vì, chúng giúp sàng lọc thông tin bằng cách tập trung sự chú ý của khán giả vào những điểm dữ liệu và những hiểu biết sâu sắc quan trọng nhất. Bộ não con người xử lý hình ảnh nhanh hơn hàng chục ngàn lần so với việc đọc văn bản. Một biểu đồ được thiết kế tốt có thể truyền tải thông điệp chỉ trong vài giây.
+Thứ hai, trực quan hóa giúp làm nổi bật các mối quan hệ tương quan, các quy luật lặp lại, và các điểm dị biệt bất thường mà bạn gần như không thể nhận ra nếu chỉ nhìn vào một bảng tính gồm hàng nghìn hàng số liệu.
+Thứ ba, nó giúp kết nối các nhóm khán giả khác nhau. Một nhà tài trợ dự án cấp cao có thể không hiểu hết các thuật ngữ kỹ thuật phức tạp, nhưng họ hoàn toàn có thể hiểu ngay lập tức một biểu đồ đường thể hiện xu hướng chi phí đang tăng vọt.
+
+Có rất nhiều công cụ mạnh mẽ hỗ trợ việc trực quan hóa dữ liệu hiện nay, 
+Các phần mềm bảng tính quen thuộc, như Google Sheets và Microsoft Excel, Cho phép bạn nhanh chóng biến đổi các bảng dữ liệu thành các biểu đồ cột, biểu đồ thanh, biểu đồ đường hoặc biểu đồ tròn chỉ bằng vài cú nhấp chuột.
+Các nền tảng bảng điều khiển thông tin doanh nghiệp, tức Business Intelligence Platforms, như Google Looker Studio, Tableau, hay Microsoft Power B-I, Giúp bạn xây dựng các bảng điều khiển tương tác Dashboards kết nối trực tiếp với nhiều nguồn dữ liệu theo thời gian thực, cho phép người xem tự lọc và khám phá dữ liệu theo nhu cầu.
+Các công cụ quản lý dự án chuyên sâu, như Jira Dashboards hay Asana Reporting, Cung cấp sẵn các biểu đồ tiến độ như Burn-down Chart hay Biểu đồ Gantt trực quan.
+
+Lựa chọn đúng công cụ và dạng biểu diễn trực quan phù hợp sẽ giúp thông điệp của bạn được truyền tải một cách mạnh mẽ và chuẩn xác nhất.
+
+
+
+CÁC CÁCH KHÁC NHAU ĐỂ TRỰC QUAN HÓA DỮ LIỆU, DIFFERENT WAYS TO VISUALIZE DATA.
+. ......
+
+
+
+Trước đó, chúng ta đã thảo luận về các thực hành tốt nhất để thu thập và phân tích dữ liệu. Khi đến lúc trình bày dữ liệu của bạn trước khán giả, bạn không chỉ muốn nói cho họ biết về các phát hiện của bạn và ý nghĩa của chúng, mà bạn còn muốn chỉ cho họ thấy tận mắt. Trực quan hóa dữ liệu giúp chúng ta tổ chức dữ liệu và biến nó thành thông tin rõ ràng, dễ tiếp thu đối với khán giả. Trong tài liệu này, chúng ta sẽ đi qua nhiều dạng biểu đồ và đồ thị khác nhau mà bạn có thể sử dụng để biểu diễn dữ liệu trực quan.
+
+Trước khi chuyển đổi dữ liệu của bạn thành một biểu đồ hoặc đồ thị, bạn cần phải làm rõ xem mình muốn chỉ cho khán giả thấy điều gì, Bạn muốn thông báo cho khán giả về một xu hướng mới hay một thông tin giá trị? Bạn muốn chỉ ra mối quan hệ giữa các tập dữ liệu? Hay bạn cần so sánh các giá trị, tìm hiểu cơ cấu cấu thành của một tổng thể, hoặc phân tích các xu hướng và hành vi theo các khoảng thời gian nhất định?
+Loại dữ liệu bạn có, và thông tin bạn muốn hiển thị hoặc tìm hiểu, sẽ giúp bạn xác định được dạng trực quan hóa dữ liệu chuẩn xác nhất để sử dụng. Chúng ta hãy cùng đi qua một số tình huống thực tế và thảo luận xem biểu đồ nào là phù hợp nhất cho từng trường hợp, 
+
+một. Thể hiện các mối quan hệ tương quan, 
+Biểu đồ phân tán, tức Scatter Plot, đôi khi được gọi là biểu đồ tán xạ, sử dụng các điểm chấm để biểu diễn các giá trị cho hai biến số khác nhau. Vị trí của mỗi điểm chấm trên trục hoành và trục tung cho biết các giá trị của một điểm dữ liệu riêng lẻ. Các biểu đồ phân tán đôi khi sẽ có một đường thẳng được vẽ cắt ngang qua tâm của nó. Đường này được gọi là đường xu hướng, tức Trend Line, và nó làm nổi bật hướng mà các điểm dữ liệu đang có xu hướng dịch chuyển về đó.
+Biểu đồ phân tán cho thấy mối quan hệ giữa các tập dữ liệu và có thể giúp chúng ta hiểu được tác động của một yếu tố lên một yếu tố khác.
+Ví dụ, một biểu đồ phân tán có thể cho thấy mối quan hệ giữa tuổi thọ trung bình của người dân sống tại một quốc gia và mức độ hạnh phúc của những người dân đó, Biến số thứ nhất là điểm số hạnh phúc được phản ánh trên trục tung, tức trục Y, biến số thứ hai là tuổi thọ trung bình nằm trên trục hoành, tức trục X. Bằng cách nhìn vào biểu đồ phân tán này, chúng ta có thể nhận ra ngay rằng khi điểm số hạnh phúc của một người tăng lên, thì tuổi thọ của họ cũng tăng theo tỷ lệ thuận.
+Thực hành tốt nhất cho biểu đồ phân tán, Luôn bắt đầu trục Y từ giá trị không để đại diện dữ liệu một cách chính xác và trung thực nhất.
+
+hai. So sánh các giá trị, 
+Biểu đồ hình cột và biểu đồ thanh, tức Bar Graphs, sử dụng sự tương phản về kích thước chiều dài để so sánh hai hoặc nhiều giá trị với nhau. 
+Ví dụ, thời gian trong ngày được so sánh với mức độ động lực làm việc của một người trong suốt cả ngày làm việc. Bằng cách so sánh dữ liệu này, chúng ta có thể nhận thấy động lực của người này ở mức thấp vào đầu ngày làm việc, và ngày càng tăng cao hơn về cuối ngày. Biểu đồ thanh cũng là một cách tuyệt vời để làm rõ các xu hướng và nhận diện các quy luật.
+Thực hành tốt nhất cho biểu đồ thanh, 
+Sử dụng màu sắc nhất quán trong toàn bộ biểu đồ.
+Sử dụng các màu nhấn Accent Colors để làm nổi bật các điểm dữ liệu quan trọng hoặc các thay đổi lớn theo thời gian.
+Sử dụng các nhãn chữ nằm ngang để người xem dễ đọc nhất mà không phải nghiêng đầu.
+
+ba. Minh họa cơ cấu thành phần, 
+Bây giờ chúng ta hãy xem xét một dạng trực quan hóa rất quen thuộc, Biểu đồ hình tròn, tức Pie Chart. Biểu đồ tròn cho chúng ta thấy cơ cấu thành phần cấu thành của một tổng thể, nói cách khác, là mỗi phần nhỏ đóng góp bao nhiêu phần vào cái toàn thể một trăm phần trăm.
+Ví dụ, một biểu đồ tròn hiển thị tất cả các hoạt động cấu thành nên một ngày của một người, Một nửa ngày được dành cho công việc, điều này được thể hiện rõ bởi diện tích mà phần màu xanh lam chiếm giữ. Chỉ bằng một cái nhìn thoáng qua vào biểu đồ tròn này, bạn có thể dễ dàng nhận ra những hoạt động nào chiếm phần lớn thời gian trong ngày và những hoạt động nào chiếm ít thời gian hơn.
+Thực hành tốt nhất cho biểu đồ tròn, 
+Tránh đưa vào quá nhiều danh mục để người xem dễ dàng so sánh các lát cắt, lý tưởng nhất là dưới năm danh mục.
+Đảm bảo rằng tổng giá trị của các lát cắt cộng lại phải đúng bằng một trăm phần trăm.
+Sắp xếp thứ tự các lát cắt theo kích thước từ lớn nhất đến nhỏ nhất theo chiều kim đồng hồ.
+
+bốn. Phân tích xu hướng và hành vi theo thời gian, 
+Theo dõi xu hướng có thể giúp chúng ta hiểu được những sự chuyển dịch hoặc thay đổi trong dữ liệu của mình. Biểu đồ đường, tức Line Graphs, là một công cụ tuyệt vời để hiển thị trực quan sự thay đổi theo thời gian, nhưng chúng cũng có thể được kết hợp với các yếu tố khác.
+Ví dụ, chúng ta sử dụng hai đường thẳng trên cùng một biểu đồ để so sánh mức độ phổ biến giữa loài mèo và loài chó trong một khoảng thời gian nhất định. Bởi vì, biểu đồ sử dụng hai màu đường khác nhau, chúng ta có thể ngay lập tức nhận ra rằng chó luôn phổ biến hơn mèo. Ngay cả khi các đường thẳng dao động lên xuống, vẫn có một xu hướng chung đi lên, và đường dành cho chó luôn nằm cao hơn đường dành cho mèo.
+Thực hành tốt nhất cho biểu đồ đường, 
+Để tránh làm rối mắt người xem, không nên hiển thị quá bốn danh mục đường trên cùng một biểu đồ.
+Sắp xếp các dữ liệu có mức độ biến thiên cao ở phía trên của biểu đồ để dễ đọc hơn.
+
+Biểu đồ phân tán, biểu đồ thanh, biểu đồ tròn và biểu đồ đường là những dạng trực quan hóa dữ liệu phổ biến nhất mà bạn sẽ sử dụng xuyên suốt sự nghiệp quản lý dự án của mình. Để thực hành tạo các biểu đồ này, bạn có thể tham khảo các hướng dẫn từng bước bằng Google Sheets hoặc Microsoft Excel.
+
+
+
+KỸ THUẬT THUYẾT TRÌNH HIỆU QUẢ, EFFECTIVE PRESENTATION TECHNIQUES.
+. ......
+
+
+
+Chào bạn. Bạn đã học được quy trình xây dựng một mạch truyện kể về dự án của mình, và bạn cũng đã học được cách trực quan hóa các điểm dữ liệu then chốt giúp bạn kể câu chuyện đó. Bây giờ là lúc kết hợp tất cả lại với nhau. Trong bài học này, chúng ta sẽ nêu bật một số kỹ thuật thuyết trình hữu ích.
+
+Hãy nghĩ về một trong những diễn giả trước công chúng mà bạn yêu thích nhất và tự hỏi tại sao bạn lại thích các bài thuyết trình của họ đến vậy. Có phải vì phong thái tự tin, giọng nói truyền cảm, cách họ tương tác với khán giả hay những câu chuyện sâu sắc mà họ chia sẻ?
+
+Dưới đây là những kỹ thuật thuyết trình then chốt giúp bạn nâng tầm bài nói của mình, 
+
+Thứ nhất, thấu hiểu sâu sắc khán giả của bạn, 
+Trước khi bước lên sân khấu hay mở micrô trong phòng họp trực tuyến, bạn phải biết rõ mình đang nói chuyện với ai, Họ là ai? Họ có kiến thức nền tảng về kỹ thuật hay không? Mục tiêu lớn nhất của họ khi tham dự buổi thuyết trình này là gì? Ban giám đốc điều hành cần bức tranh tổng thể và tác động tài chính, trong khi đội ngũ phát triển cần các bước hành động cụ thể và giải pháp kỹ thuật. Hãy điều chỉnh ngôn ngữ và cách tiếp cận của bạn cho phù hợp với từng đối tượng.
+
+Thứ hai, làm chủ ngôn ngữ cơ thể và giao tiếp bằng mắt, 
+Ngôn ngữ cơ thể truyền tải thông điệp mạnh mẽ hơn lời nói. Hãy giữ tư thế đứng thẳng, hai vai mở rộng tự nhiên để toát lên sự tự tin và đĩnh đạc. Giao tiếp bằng mắt với những người tham dự ở các góc khác nhau trong phòng để tạo sự gắn kết. Tránh khoanh tay trước ngực, đút tay vào túi quần hoặc nhìn chằm chằm vào màn hình máy tính.
+
+Thứ ba, điều biến âm lượng và nhịp điệu giọng nói, 
+Đừng nói bằng một tông giọng đều đều đơn điệu. Hãy nhấn mạnh vào những từ ngữ quan trọng, tăng tốc độ khi truyền tải sự phấn khởi và làm chậm lại khi chia sẻ những bài học sâu sắc. Đặc biệt, hãy học cách sử dụng những khoảng lặng phát thanh, Sau khi nêu ra một số liệu quan trọng hoặc một kết luận then chốt, hãy dừng lại một đến hai giây để người nghe có thời gian tiếp thu và suy ngẫm.
+
+Thứ tư, chuẩn bị chu đáo cho phần hỏi đáp Q-and-A, 
+Phần hỏi đáp là cơ hội vàng để bạn chứng minh sự thấu hiểu sâu sắc của mình về dự án. Hãy lường trước những câu hỏi khó mà các bên liên quan có thể đặt ra và chuẩn bị sẵn các dữ liệu để phản hồi. Nếu ai đó đặt một câu hỏi mà bạn chưa có câu trả lời ngay lập tức, hãy bình tĩnh và chân thành nói rằng, Đó là một câu hỏi rất hay, tôi hiện chưa có số liệu chính xác cho phần này ngay tại đây, tôi sẽ kiểm tra lại và gửi phản hồi chi tiết cho bạn vào cuối ngày hôm nay. Sự trung thực luôn được tôn trọng hơn sự phỏng đoán bừa bãi.
+
+
+
+CHUẨN BỊ MỘT BÀI THUYẾT TRÌNH ĐỈNH CAO, PREPARING AN EFFECTIVE PRESENTATION.
+. ......
+
+
+
+Tại các thời điểm khác nhau xuyên suốt một dự án, rất có thể bạn sẽ được yêu cầu thực hiện một bài thuyết trình trước các thành viên trong đội ngũ, các bên liên quan chủ chốt, các nhà lãnh đạo cấp cao hoặc khách hàng. Hãy sử dụng các mẹo và thực hành tốt nhất sau đây để giúp bạn chuẩn bị một bài thuyết trình thực sự hiệu quả.
+
+Giai đoạn Chuẩn bị, 
+Làm rõ mục tiêu và mục đích của bài thuyết trình, Hãy rõ ràng và cụ thể về những gì bạn muốn đạt được sau cuộc họp, sau đó định hình cuộc thảo luận xoay quanh mục tiêu đó. Ví dụ, hãy nói cụ thể, Chúng tôi cần thêm hai kỹ sư đã từng có kinh nghiệm làm việc trong ngành này, thay vì nói một cách mơ hồ, Chúng tôi cần thêm nguồn lực.
+Tìm kiếm ý kiến đóng góp và thiết lập kỳ vọng, Hãy hỏi người quản lý của bạn hoặc kiểm tra lại với các bên liên quan về các mục tiêu của bài thuyết trình. Hãy xin ý kiến đóng góp và phản hồi của họ từ trước. Nếu bạn được mời đến thuyết trình, hãy đảm bảo rằng bạn hiểu trước chính xác người yêu cầu đang hy vọng thu được điều gì từ bài thuyết trình của bạn.
+Xây dựng kế hoạch truyền tải nội dung, Xác định một tiêu đề Headline cho mỗi trang chiếu Slide, đó là một câu luận điểm chính duy nhất mà bạn đang cố gắng minh họa bằng trang chiếu đó. Tạo ra một vài điểm bổ trợ để tăng thêm tính hấp dẫn cho tiêu đề, chẳng hạn như những giai thoại thực tế, các biểu đồ, dữ liệu, v.v.
+Xây dựng các biển chỉ dẫn lộ trình Signposts, Đây là những cách thức để báo hiệu cho khán giả biết bạn đang dẫn họ đi tới đâu và họ nên kỳ vọng điều gì tiếp theo trong bài thuyết trình của bạn.
+Giới hạn số lượng trang chiếu trong bài thuyết trình chính, Đồng thời, hãy cân nhắc việc tạo ra các trang chiếu dự phòng Backup Slides để dành cho các thách thức tiềm ẩn, các câu hỏi khó, các sự đánh đổi Trade-offs, hoặc các giải pháp thay thế. Bạn có thể ẩn các trang chiếu dự phòng này ở cuối bài thuyết trình nếu bạn không cần dùng đến chúng, hoặc mở chúng ra khi có người chất vấn.
+Tôn trọng thời gian của khán giả, Chỉ mời những người thực sự cần phải có mặt. Nếu có thể, hãy gửi trước tài liệu thuyết trình để mọi người có thời gian xem trước.
+Xây dựng chiến lược giúp bài thuyết trình đáng nhớ, Hãy sử dụng các câu chuyện thực tế và lặp lại các điểm nhấn then chốt. Hãy bắt đầu bằng một phần mở đầu thật mạnh mẽ. Hãy dành thêm thời gian chuẩn bị cho phần mở đầu, bởi vì, đây là lúc bạn thường cảm thấy hồi hộp và lo lắng nhất, việc thực hiện thành công phần mở đầu sẽ giúp bạn nhanh chóng lấy lại sự tự tin.
+
+Giai đoạn Luyện tập, 
+Dẫn dắt khán giả đi qua bài thuyết trình của bạn, Hãy giúp họ nhận ra những gì bạn nhận ra, và chuyển tiếp nhịp nhàng giữa các trang chiếu bằng cách sử dụng các cụm từ chuyển ý như, Tiếp nối điểm này, hoặc Như tôi đã đề cập trước đó
+Thực hiện một buổi thuyết trình thử Mock Presentation với đội ngũ của bạn, Nếu có nhiều hơn một người thuyết trình, hãy phối hợp rõ ràng xem mỗi người sẽ phụ trách phần nào và bạn sẽ quản lý việc chuyển giao lượt nói Handoffs ra sao.
+Luyện tập phiên hỏi đáp Q-and-A, Dự đoán trước các dạng câu hỏi mà người tham dự có thể đặt ra để bạn sẵn sàng đưa ra câu trả lời nhanh chóng và tự tin. Ngoài ra, hãy luyện tập những gì bạn sẽ nói nếu gặp phải một câu hỏi mà bạn không biết câu trả lời.
+Sẵn sàng tự mình điều hành toàn bộ cuộc họp, Nếu một người đồng thuyết trình không may vắng mặt đột xuất, bạn đã sẵn sàng để bước lên thay thế họ hay chưa?
+Lên lịch trình thời gian để luyện tập, Một khi bạn đã phác thảo những gì mình muốn nói, hãy luyện tập nó, lý tưởng nhất là trước một chiếc gương, hoặc tự ghi âm lại bài nói của mình. Điều này có thể giúp bạn nhận diện các cụm từ diễn đạt vụng về, chỉnh sửa ngôn ngữ cơ thể và kiểm soát thời lượng một cách hoàn hảo.
+
+
+
+THIẾT KẾ BÀI THUYẾT TRÌNH DỄ TIẾP CẬN CHO TẤT CẢ MỌI NGƯỜI, MAKING PRESENTATIONS ACCESSIBLE.
+. ......
+
+
+
+Xin chào bạn. Bạn vừa học được rất nhiều thực hành tốt nhất về thuyết trình từ đồng nghiệp của tôi. Giống như việc bạn cần phải có chiến lược, chuẩn bị kỹ lưỡng và rõ ràng về những dữ liệu bạn muốn chia sẻ, bạn cũng cần phải có chủ ý trong việc đảm bảo rằng các bài thuyết trình của mình dễ tiếp cận, tức Accessible, và có thể được tiêu thụ cũng như thấu hiểu bởi tất cả mọi người. Hãy cùng đi sâu vào một số mẹo về tính dễ tiếp cận để giúp bạn thành công, bắt đầu từ việc thiết kế bài thuyết trình của bạn.
+
+Thứ nhất, tạo ra các trang chiếu rõ ràng và đơn giản, 
+Tránh sử dụng quá nhiều hình ảnh đồ họa, quá nhiều chữ viết hoặc quá nhiều hiệu ứng hoạt họa Animation. Sự phức tạp về mặt thị giác khiến mọi người khó tiếp thu thông tin hơn trong suốt bài thuyết trình của bạn, đặc biệt là đối với những người bị suy giảm thị lực hoặc khiếm khuyết về nhận thức. Nếu trang chiếu của bạn sử dụng hiệu ứng hoạt họa, hãy đảm bảo rằng bạn không bỏ rơi người xem bằng cách làm cho những nội dung quan trọng biến mất quá nhanh. Nếu mọi người đọc chậm hơn hoặc phải dựa vào người phiên dịch ngôn ngữ ký hiệu, họ có thể cần thêm một chút thời gian để tiếp thu nội dung.
+Tránh sử dụng các hiệu ứng hoạt họa lặp đi lặp lại, như nhấp nháy hoặc chớp giật, vì điều này có thể gây mất tập trung và có thể kích hoạt các cơn co giật đối với những người mắc chứng động kinh quang cảm. Đơn giản không có nghĩa là nhàm chán. Một trang chiếu đơn giản vẫn có thể đẹp mắt và giàu thông tin. Chỉ là bạn đừng cố nhồi nhét quá nhiều thông tin hoặc hoạt động vào một trang chiếu duy nhất. 
+Nếu bạn thường không có thói quen sử dụng trang chiếu khi nói chuyện, hãy cân nhắc thử nghiệm, ngay cả khi bạn chỉ tạo ra một trang chiếu duy nhất tóm tắt các luận điểm chính của mình. Nếu bạn chỉ dựa duy nhất vào giọng nói của mình mà không cung cấp bất kỳ sự đồng hành trực quan nào, một số người có thể gặp khó khăn trong việc thấu hiểu, cho dù là do rào cản ngôn ngữ, khiếm thính hoặc khiếm khuyết nhận thức.
+
+Thứ hai, đưa vào văn bản thay thế Alt Text cho hình ảnh, 
+Một mẹo quan trọng khác là hãy bổ sung văn bản thay thế, còn gọi là Alt Text, cho bất kỳ hình ảnh, bản vẽ hoặc sơ đồ nào. Làm như vậy sẽ mô tả thông tin được truyền tải trong hình ảnh đồ họa để làm cho nó dễ tiếp cận đối với những người dựa vào phần mềm đọc màn hình Screen Readers. Để thêm văn bản thay thế trong Google Slides hoặc PowerPoint, bạn chỉ cần nhấp chuột phải vào đối tượng hình ảnh, sau đó chọn Alt Text và nhập phần mô tả ngắn gọn.
+Cân nhắc tương tự này cũng áp dụng cho các biểu đồ. Các biểu đồ có thể rất khó giải mã, đặc biệt nếu chúng sử dụng phông chữ nhỏ để nhồi nhét thêm dữ liệu. Nếu trang chiếu của bạn bao gồm các biểu đồ hoặc đồ thị nặng về dữ liệu, hãy chắc chắn rằng bạn đã nêu rõ bài học cốt lõi Takeaway ngay trên chính trang chiếu đó hoặc trong phần ghi chú của người thuyết trình Speaker Notes.
+
+Thứ ba, luôn sử dụng chữ viết cho các thông tin quan trọng, 
+Không bao giờ dựa duy nhất vào màu sắc hoặc các định dạng thị giác khác để truyền tải thông tin quan trọng trên biểu đồ hoặc trang chiếu. Việc phụ thuộc quá nhiều vào định dạng thị giác sẽ loại trừ bất kỳ ai bị mù màu hoặc không thể nhìn thấy màn hình.
+Ví dụ, để làm nổi bật một phần mới của lưu đồ quy trình Flowchart, bạn đừng chỉ đơn giản là đổi sang một màu sắc khác. Cùng với việc thay đổi màu sắc, hãy thêm vào một gợi ý bằng chữ, chẳng hạn như từ Mới hoặc New. Nếu bài thuyết trình của bạn phụ thuộc nhiều vào hình ảnh, hãy cân nhắc đưa vào một bản tóm tắt bằng văn bản ở cuối bài thuyết trình để mọi người có thể đọc các điểm chính của bạn một cách dễ dàng tại một nơi tập trung.
+
+Thứ tư, cung cấp phụ đề cho nội dung video và trong thời gian thực, 
+Hãy cung cấp phụ đề cho tất cả các bản ghi âm thanh hoặc video được chia sẻ trong bài thuyết trình của bạn. Nếu bạn đang sử dụng một video trên YouTube, hãy kiểm tra xem tính năng tạo phụ đề tự động của YouTube có chính xác hay không. Nếu không chính xác, hãy yêu cầu phụ đề chi tiết Closed Captioning thông qua một dịch vụ làm phụ đề chuyên nghiệp.
+Hãy sử dụng tính năng tạo phụ đề theo thời gian thực Real-time Captioning cho bài thuyết trình của bạn nếu có sẵn. Cùng với việc giúp đỡ các thành viên khán giả bị khiếm thính hoặc lãng tai, phụ đề thời gian thực còn cực kỳ hữu ích nếu trong khán phòng có nhiều chất giọng vùng miền và ngôn ngữ đa dạng, nếu người thuyết trình nói quá nhanh, nếu hệ thống micrô gặp sự cố âm thanh, hoặc nếu bạn có những khán giả thích trò chuyện thì thầm làm mất tập trung những người xung quanh.
+
+Thứ năm, tối ưu hóa độ tương phản và kích thước chữ viết, 
+Một điều quan trọng khác cần ghi nhớ là đối với độ tương phản và kích thước chữ, càng nhiều thì càng tốt. Sự khác biệt giữa chữ viết và màu nền của nó được gọi là tỷ lệ tương phản Contrast Ratio. Tỷ lệ tương phản cao giúp mọi người dễ dàng đọc văn bản hoặc giải mã hình ảnh hơn, đặc biệt nếu họ đang ngồi ở khoảng cách xa hoặc có thị lực kém hay bị mù màu. Tỷ lệ tương phản lý tưởng là bảy trên một, tức bảy, một. Hiện có rất nhiều công cụ kiểm tra độ tương phản trực tuyến miễn phí, vì vậy, bạn hãy chắc chắn kiểm tra thử.
+Các khuyến nghị về kích thước chữ có thể khác nhau, nhưng nhìn chung, chữ càng to càng tốt. Trước khi bài thuyết trình bắt đầu, bạn hãy đi xuống tận cuối khán phòng và nhìn lên màn hình để chắc chắn rằng bạn có thể đọc rõ các trang chiếu của mình. Ngoài ra, việc sử dụng toàn bộ chữ in hoa All Caps sẽ khiến việc đọc văn bản trở nên khó khăn hơn đối với một số người, chẳng hạn như những người mắc chứng khó đọc Dyslexia. Khi có thể, hãy tránh viết hoa toàn bộ cả đoạn văn dài. Đây là một thay đổi rất đơn giản nhưng mang lại hiệu quả to lớn.
+
+Thứ sáu, chia sẻ nội dung bài thuyết trình từ trước, 
+Mẹo cuối cùng của tôi là hãy chia sẻ nội dung của bạn trước buổi họp. Nếu có thể, hãy gửi các trang chiếu cho khán giả của bạn vài ngày trước buổi thuyết trình. Điều này cho khán giả cơ hội xem trước nội dung, và nếu cần thiết, họ có thể sắp xếp để đáp ứng các nhu cầu và sở thích riêng của họ. Ví dụ, những khán giả khiếm thị có thể muốn theo dõi các trang chiếu trên thiết bị cá nhân của họ bằng phần mềm đọc màn hình.
+Nếu bạn không thể chia sẻ trước toàn bộ các trang chiếu, hãy cân nhắc việc gửi một tài liệu với dàn ý các gạch đầu dòng của bài thuyết trình. Nếu bạn đang sử dụng các từ viết tắt, thuật ngữ kỹ thuật hoặc thuật ngữ trừu tượng khó hiểu, hãy đưa vào một bảng thuật ngữ Glossary kèm theo các định nghĩa rõ ràng. Thông tin này đặc biệt hữu ích cho những người phiên dịch ngôn ngữ ký hiệu và những người gõ phụ đề.
+
+Tất cả những thực hành tốt nhất mà bạn vừa học sẽ giúp làm cho các bài thuyết trình của bạn trở nên dễ tiếp cận đối với tất cả các thành viên trong khán giả của bạn. Hãy nhớ rằng, Bạn không thể truyền đạt thông tin một cách hiệu quả nếu khán giả của bạn không thể tiếp cận nó một cách dễ dàng!
+
+
+
+BÀI TẬP THỰC HÀNH MẪU, THIẾT KẾ BÀI THUYẾT TRÌNH DỰ ÁN, ACTIVITY EXEMPLAR, CREATE A PRESENTATION.
+. ......
+
+
+
+Để củng cố toàn bộ những kiến thức đã học, chúng ta hãy cùng nhau phân tích một bài tập thực hành mẫu về cách xây dựng một bài thuyết trình dự án hoàn chỉnh.
+
+Tình huống giả định, 
+Bạn đang là người quản lý dự án cho chiến dịch ra mắt dòng sản phẩm thực phẩm hữu cơ dinh dưỡng mới của công ty. Sau ba tháng thử nghiệm tại thị trường khu vực, bạn cần chuẩn bị một bài thuyết trình dài mười phút trước Hội đồng quản trị để báo cáo kết quả và đề xuất kế hoạch mở rộng ra toàn quốc.
+
+Dưới đây là cấu trúc các trang chiếu chuẩn mực mà bạn sẽ thiết kế, 
+
+Trang chiếu số một, Trang tiêu đề.
+Tiêu đề nổi bật, Báo cáo Đánh giá Thử nghiệm Chiến dịch Thực phẩm Hữu cơ và Lộ trình Mở rộng Toàn quốc. Đi kèm là tên của bạn, chức danh Quản lý Dự án, ngày tháng và logo công ty được căn chỉnh trang nhã.
+
+Trang chiếu số hai, Tóm tắt bức tranh toàn cảnh cho lãnh đạo, tức Executive Summary.
+Ba gạch đầu dòng then chốt, Thử nghiệm đạt doanh thu vượt mười lăm phần trăm so với chỉ tiêu, Tỷ lệ khách hàng hài lòng đạt tám mươi tám phần trăm, Khuyến nghị chính thức mở rộng thị trường vào quý ba tới.
+
+Trang chiếu số ba, Mạch truyện và Bối cảnh thị trường.
+Mô tả xu hướng người tiêu dùng ngày càng quan tâm tới sức khỏe sau đại dịch và cơ hội vàng để công ty chiếm lĩnh thị phần thực phẩm dinh dưỡng.
+
+Trang chiếu số tư, Dữ liệu kinh doanh cốt lõi - Trực quan hóa bằng Biểu đồ hình cột.
+Biểu đồ so sánh doanh số thực tế hàng tháng so với mục tiêu đề ra. Cột doanh số thực tế có màu xanh đậm nổi bật, đi kèm nhãn số cụ thể trên đầu mỗi cột.
+
+Trang chiếu số năm, Dữ liệu khách hàng - Trực quan hóa bằng Biểu đồ tròn kết hợp nhãn chữ.
+Cơ cấu phân khúc khách hàng theo độ tuổi và các kênh mua sắm chính, Kênh siêu thị truyền thống chiếm sáu mươi phần trăm, kênh thương mại điện tử chiếm bốn mươi phần trăm.
+
+Trang chiếu số sáu, Những thách thức đã gặp phải và Biện pháp khắc phục.
+Nêu rõ vấn đề đứt gãy chuỗi cung ứng cục bộ trong tuần thứ hai và cách đội ngũ đã phối hợp với nhà cung cấp địa phương để bổ sung nguồn hàng kịp thời, thể hiện năng lực giải quyết vấn đề sắc bén của bạn.
+
+Trang chiếu số bảy, Ba khuyến nghị hành động mang tính chiến lược.
+Đề xuất cụ thể về ngân sách mở rộng, kế hoạch nhân sự và lộ trình triển khai chi tiết cho chiến dịch toàn quốc.
+
+Trang chiếu số tám, Trang kết luận và Lời mời thảo luận.
+Tóm tắt thông điệp cốt lõi bằng một câu ngắn gọn, thông tin liên hệ của bạn và mở rộng diễn đàn cho phiên hỏi đáp.
+
+Một bài thuyết trình có cấu trúc chặt chẽ, hình ảnh trực quan sắc nét và thông điệp hành động rõ ràng như vậy chắc chắn sẽ nhận được sự đồng thuận tuyệt đối từ ban lãnh đạo.
+
+
+
+TỔNG KẾT HỌC PHẦN BA, WRAP-UP.
+. ......
+
+
+
+Xin chúc mừng bạn đã xuất sắc đi đến cuối học phần này! Vậy chúng ta đã học được những gì trong suốt chặng đường vừa qua?
+
+Chúng ta đã học được rằng dữ liệu đóng một vai trò then chốt trong sự thành công của bất kỳ tổ chức nào và nó tác động sâu sắc đến vai trò của bạn với tư cách là một người quản lý dự án. Chúng ta đã tìm hiểu dữ liệu là gì, giá trị to lớn mà dữ liệu mang lại cho các dự án của bạn, và cách dữ liệu trao quyền cho bạn để đạt được các mục tiêu của dự án.
+
+Bạn đã học về các loại dữ liệu khác nhau, như các chỉ số đo lường Metrics và các dự báo Projections, cùng cách thức xác định và phân biệt thông tin nào cần theo dõi sát sao và thông tin nào cần truyền đạt tới các bên liên quan. Bạn đã thấm nhuần các nguyên tắc đạo đức dữ liệu cốt lõi về quyền riêng tư, ẩn danh hóa P-I-I và loại bỏ bốn loại định kiến phổ biến, Định kiến chọn mẫu, định kiến người quan sát, định kiến diễn giải và định kiến xác nhận.
+
+Bạn đã làm chủ sáu bước phân tích dữ liệu kinh điển của Google, Đặt câu hỏi, Chuẩn bị, Xử lý, Phân tích, Chia sẻ và Hành động. Bạn cũng đã học cách sử dụng trực quan hóa dữ liệu để kể một câu chuyện dự án đầy sức hút bằng các biểu đồ phân tán, biểu đồ thanh, biểu đồ tròn và biểu đồ đường, đồng thời, thành thạo các kỹ thuật thuyết trình hiệu quả và thiết kế trang chiếu dễ tiếp cận cho tất cả mọi người.
+
+Tất cả những kiến thức và kỹ năng thực chiến này sẽ là hành trang vô giá giúp bạn luôn tự tin dẫn dắt dự án bằng sức mạnh của dữ liệu. Xin chúc mừng bạn và hẹn gặp lại bạn trong học phần tiếp theo!

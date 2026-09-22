@@ -1,0 +1,11 @@
+Chào mừng bạn đã quay trở lại. Hãy cùng tiếp tục thảo luận về tất cả những điều liên quan đến dữ liệu. Trước đó, chúng ta đã tìm hiểu về dữ liệu là gì, giá trị của nó đối với người quản lý dự án, và các loại dữ liệu khác nhau mà một Project Manager làm việc cùng. Trong bài học này, chúng ta sẽ thảo luận về cách xác định dữ liệu quan trọng nhất cho dự án của bạn, cách ưu tiên dữ liệu bạn thu thập, và cách thu thập hiệu quả các ưu tiên từ các bên liên quan để bạn đáp ứng trọn vẹn các mục tiêu đề ra.
+
+Một trong những thách thức lớn nhất mà người quản lý dự án trong thời đại số phải đối mặt không phải là thiếu thông tin, mà là bị ngập lụt trong quá nhiều dữ liệu rác, tức Data Overload. Nếu cố gắng thu thập và theo dõi mọi mẩu thông tin nhỏ nhặt, bạn sẽ kiệt sức và đánh mất phương hướng chiến lược. Do đó, kỹ năng chọn lọc và phân biệt dữ liệu quan trọng, tức Discerning Important Data, là một năng lực sống còn.
+
+Làm thế nào để bạn biết dữ liệu nào là thực sự quan trọng và đáng để đầu tư thời gian theo dõi? Hãy áp dụng các nguyên tắc sau,
+
+Nguyên tắc thứ nhất, Phân biệt giữa tín hiệu và nhiễu, tức Signal versus Noise.
+Trong một hệ thống dữ liệu, tín hiệu Signal là những thông tin có ý nghĩa, phản ánh đúng bản chất vấn đề và chỉ ra các xu hướng quan trọng. Ngược lại, nhiễu Noise là những biến động ngẫu nhiên, số liệu vụn vặt không mang lại giá trị quản trị. Bạn cần học cách lắng nghe các tín hiệu cảnh báo sớm, Một sự sụt giảm nhẹ về tốc độ hoàn thành công việc trong hai Sprint liên tiếp là một tín hiệu, trong khi việc một kỹ sư nghỉ ốm một buổi chiều chỉ là một sự kiện ngẫu nhiên.
+
+Nguyên tắc thứ hai, Bám sát mục tiêu cốt lõi của dự án và các chỉ số đo lường thành công then chốt.
+Mỗi dữ liệu bạn thu thập phải phục vụ trực tiếp cho việc trả lời một câu hỏi quản trị cụ thể, Con số này có giúp tôi biết dự án có đạt mục tiêu hay không? Nó có giúp cải thiện thời gian giao hàng, tiết kiệm chi phí hay nâng cao chất lượng sản phẩm hay không? Nếu một số liệu không liên quan trực tiếp tới mục tiêu đã cam kết trong Bản điều lệ dự án, hãy mạnh dạn gạt nó sang một bên.

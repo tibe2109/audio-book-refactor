@@ -1,0 +1,17 @@
+Khung làm việc thứ nhất là Chu trình P-D-C-A, còn được gọi là Vòng tròn Deming, Đây là mô hình cải tiến liên tục gồm bốn bước lặp đi lặp lại, 
+Chữ P đại diện cho Plan, Lập kế hoạch, Nhận diện vấn đề đang tồn tại, thu thập dữ liệu ban đầu, phân tích nguyên nhân gốc rễ và thiết lập một kế hoạch hành động cụ thể kèm theo các mục tiêu đo lường được.
+Chữ D đại diện cho Do, Thực hiện, Triển khai thử nghiệm giải pháp đề xuất trên quy mô nhỏ hoặc trong một môi trường kiểm soát để đánh giá hiệu quả mà không gây rủi ro xáo trộn lớn cho toàn bộ hệ thống.
+Chữ C đại diện cho Check, Kiểm tra, Đo lường và phân tích các kết quả thu được sau đợt thử nghiệm, so sánh dữ liệu thực tế với các mục tiêu đã đề ra trong giai đoạn Plan để xem giải pháp có thực sự mang lại sự cải thiện như mong đợi hay không.
+Chữ A đại diện cho Act, Hành động chuẩn hóa, Nếu giải pháp thành công rực rỡ, hãy chính thức chuẩn hóa nó thành quy trình mới và áp dụng rộng rãi trên toàn bộ tổ chức. Nếu kết quả chưa đạt, hãy đúc kết bài học kinh nghiệm và bắt đầu một chu trình P-D-C-A mới với các giả định đã được điều chỉnh.
+
+Khung làm việc thứ hai là Mô hình D-M-A-I-C thuộc phương pháp luận Six Sigma, Đây là quy trình năm bước có cấu trúc vô cùng chặt chẽ, chuyên sâu về dữ liệu nhằm loại bỏ sai lỗi và biến thiên trong quy trình, 
+Bước một, Define, Xác định, Nêu rõ vấn đề kinh doanh là gì, mục tiêu cải tiến cần đạt được và xác định tiếng nói của khách hàng, tức Voice of the Customer.
+Bước hai, Measure, Đo lường, Thu thập dữ liệu thực tế về hiệu suất hiện tại của quy trình để thiết lập đường cơ sở so sánh chuẩn xác.
+Bước ba, Analyze, Phân tích, Sử dụng các công cụ thống kê để đào sâu vào dữ liệu, truy tìm chính xác nguyên nhân gốc rễ gây ra lỗi hoặc sự chậm trễ.
+Bước bốn, Improve, Cải tiến, Động não phát triển các giải pháp sáng tạo để triệt tiêu nguyên nhân gốc rễ, thử nghiệm và triển khai các thay đổi vào thực tế.
+Bước năm, Control, Kiểm soát, Thiết lập các cơ chế giám sát định kỳ, biểu đồ kiểm soát và tài liệu quy trình chuẩn để đảm bảo những thành quả cải tiến được duy trì lâu dài và không bị tái diễn lỗi cũ.
+
+Việc vận dụng thuần thục các khung làm việc này sẽ giúp các quyết định cải tiến của bạn luôn dựa trên bằng chứng dữ liệu thực tế vững chắc, thay vì những phỏng đoán cảm tính.
+
+PHÂN BIỆT DỰ ÁN VÀ CHƯƠNG TRÌNH, DIFFERENTIATING PROJECTS FROM PROGRAMS.
+. ......

@@ -1,0 +1,13 @@
+Tôi muốn chia sẻ với các bạn một câu chuyện đáng nhớ. Trong một dự án phát triển công cụ quản lý nội bộ dành cho các nhân viên văn phòng, nhóm của chúng tôi đã dành nhiều tháng trời để thiết kế một giao diện vô cùng lộng lẫy với hàng chục bộ lọc dữ liệu chuyên sâu và các biểu đồ ba chiều phức tạp. Chúng tôi vô cùng tự hào về thành quả kỹ thuật của mình và tin chắc rằng người dùng sẽ phát cuồng vì nó.
+
+Thế nhưng, khi chúng tôi bước vào giai đoạn thử nghiệm người dùng U-A-T đầu tiên, kết quả thực tế đã giáng một đòn mạnh vào sự tự mãn của chúng tôi. Thay vì hào hứng, các nhân viên văn phòng lại tỏ ra bối rối và cảm thấy bị quá tải trước giao diện rườm rà. Họ chia sẻ thẳng thắn, Chúng tôi không cần những biểu đồ ba chiều bóng bẩy này. Hàng ngày chúng tôi chỉ cần tìm kiếm nhanh một tập tài liệu trong vòng năm giây và tải nó xuống để gửi cho khách hàng. Công cụ mới này khiến chúng tôi mất nhiều thao tác hơn cả cách làm cũ!
+
+Đó là một khoảnh khắc thức tỉnh lớn đối với cá nhân tôi và toàn đội ngũ. Chúng tôi nhận ra mình đã mắc phải cái bẫy kinh điển, Giải quyết vấn đề mà chúng tôi nghĩ là khách hàng cần, thay vì giải quyết vấn đề thực tế mà họ đang thực sự đối mặt hàng ngày.
+
+Ngay sau buổi thử nghiệm đó, tôi đã cho tạm dừng việc bổ sung tính năng mới và tổ chức lại giao diện theo hướng tối giản, Đặt một thanh tìm kiếm thông minh nổi bật ngay chính giữa màn hình và cắt giảm bảy mươi phần trăm các nút bấm không cần thiết. Khi phiên bản tinh gọn mới được đưa vào thử nghiệm lại, mức độ hài lòng của người dùng đã tăng vọt lên chín mươi lăm phần trăm.
+
+Bài học quý giá nhất mà tôi muốn gửi gắm tới bạn là, Đừng bao giờ giả định rằng bạn biết rõ khách hàng muốn gì hơn chính bản thân họ. Hãy luôn khiêm tốn lắng nghe, đặt câu hỏi và để nhu cầu thực tế của khách hàng dẫn đường cho mọi quyết định chất lượng của dự án.
+
+CẢI TIẾN LIÊN TỤC VÀ CẢI TIẾN QUY TRÌNH, CONTINUOUS IMPROVEMENT AND PROCESS IMPROVEMENT.
+. ......
+Trong một môi trường kinh doanh đầy biến động và cạnh tranh khốc liệt, việc chỉ duy trì chất lượng ở mức hiện tại đồng nghĩa với việc bạn đang dần tụt hậu lại phía sau. Để giữ vững vị thế dẫn đầu, các tổ chức thành công luôn thấm nhuần triết lý Cải tiến liên tục, tức Continuous Improvement, và Cải tiến quy trình, tức Process Improvement.

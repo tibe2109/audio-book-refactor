@@ -1,0 +1,15 @@
+Bước thứ tư là Quyết định các hành động cụ thể, tức Decide What to Do, Đừng tham lam ôm đồm quá nhiều mục tiêu. Hãy hướng dẫn đội ngũ chỉ chọn ra từ một đến hai cải tiến quan trọng nhất và xây dựng thành các hành động SMART, Cụ thể, đo lường được, khả thi, thực tế và có thời hạn chót. Mỗi hành động bắt buộc phải có một người đứng tên chịu trách nhiệm theo dõi đôn đốc.
+
+Bước thứ năm là Khép lại phiên họp hồi tưởng, tức Close the Retrospective, Tóm tắt lại các hành động cải tiến đã được thống nhất, gửi lời cảm ơn chân thành tới sự đóng góp thẳng thắn và nhiệt tình của tất cả các thành viên. Hãy lưu lại kết quả phiên họp và gửi email tóm tắt cho toàn đội ngũ ngay sau buổi họp.
+
+GERNOT, SỬ DỤNG PHIÊN HỌP HỒI TƯỞNG ĐỂ ĐƯA DỰ ÁN TRỞ LẠI ĐÚNG HƯỚNG, GERNOT, USING RETROSPECTIVES TO GET BACK ON TRACK.
+. ......
+Xin chào các bạn, tôi tên là Gernot. Hôm nay tôi muốn chia sẻ với các bạn một câu chuyện có thật về sức mạnh kỳ diệu của phiên họp hồi tưởng Retrospective trong việc giải cứu một dự án đang trên bờ vực đổ vỡ tại Google.
+
+Vài năm trước, tôi được giao nhiệm vụ tiếp quản một dự án kỹ thuật đang rơi vào tình trạng báo động đỏ nghiêm trọng, Tiến độ phát triển phần mềm đã bị trễ hạn hơn hai tháng, tinh thần đồng đội xuống dốc thảm hại, các kỹ sư lập trình liên tục xảy ra tranh cãi nảy lửa với đội ngũ kiểm thử, và niềm tin của khách hàng thì gần như đã cạn kiệt.
+
+Khi tôi mới bước vào, bầu không khí làm việc căng thẳng đến mức ngột ngạt. Mọi người đều phòng thủ và tìm cách đổ lỗi cho nhau, Nhóm lập trình nói nhóm kiểm thử kiểm tra quá chậm, còn nhóm kiểm thử lại tố cáo nhóm lập trình bàn giao mã nguồn quá nhiều lỗi cẩu thả.
+
+Thay vì tổ chức một cuộc họp khiển trách hay áp đặt thêm các quy định khắt khe từ trên xuống, tôi đã quyết định làm một điều hoàn toàn khác, Tôi tổ chức một phiên họp hồi tưởng khẩn cấp kéo dài hai giờ đồng hồ bên ngoài khuôn viên văn phòng, tại một quán cà phê yên tĩnh.
+
+Tôi mở đầu buổi họp bằng việc cam kết tuyệt đối, Hôm nay chúng ta ngồi đây không phải để xem ai đúng ai sai, mà để cùng nhau tháo gỡ khó khăn cho nhau. Tôi xin chịu hoàn toàn trách nhiệm trước ban giám đốc về sự chậm trễ vừa qua, và nhiệm vụ của các bạn lúc này chỉ là chia sẻ thật lòng xem điều gì đang thực sự cản trở các bạn làm tốt công việc của mình.

@@ -1,0 +1,16 @@
+TÓM LƯỢC, CÁC KHÁI NIỆM QUẢN TRỊ CHẤT LƯỢNG, RECAP, QUALITY MANAGEMENT CONCEPTS.
+. ......
+Chúng ta hãy cùng tóm lược lại những điểm cốt lõi nhất về quản trị chất lượng để bạn luôn ghi nhớ và vận dụng thành thạo trong công việc hàng ngày,
+
+Thứ nhất, Chất lượng trong quản lý dự án không phải là sự xa hoa hay cầu toàn vô tận, mà là sự đáp ứng chính xác tuyệt đối các yêu cầu đã cam kết của khách hàng và các tiêu chí thành công đã được phê duyệt trong bản điều lệ dự án. Việc tự ý bổ sung thêm các tính năng hay chi tiết xa xỉ vượt ngoài phạm vi yêu cầu ban đầu mà không có sự đồng thuận của khách hàng, trong chuyên môn gọi là hiện tượng mạ vàng sản phẩm, tức Gold Plating. Đây là một hành vi bị nghiêm cấm trong quản trị chuyên nghiệp vì nó làm lãng phí công sức, ngân sách và dễ phát sinh các lỗi kỹ thuật mới mà khách hàng hoàn toàn không có nhu cầu sử dụng.
+
+Thứ hai, Hãy luôn ghi nhớ mô hình tam giác quản trị chất lượng, Lập kế hoạch chất lượng vạch ra các tiêu chuẩn chuẩn mực, Đảm bảo chất lượng Q-A tối ưu hóa quy trình làm việc để ngăn ngừa lỗi phát sinh từ gốc rễ, và Kiểm soát chất lượng Q-C trực tiếp kiểm tra, đo lường sản phẩm thực tế để loại bỏ khiếm khuyết trước khi bàn giao.
+
+Thứ ba, Khái niệm Chi phí của chất lượng, tức Cost of Quality, luôn bao gồm hai mặt đối lập mà bạn cần cân bằng khôn ngoan, 
+Chi phí tuân thủ, tức Conformance Costs, Là toàn bộ số tiền bạn chủ động đầu tư vào các hoạt động phòng ngừa từ sớm, bao gồm chi phí đào tạo nâng cao tay nghề cho đội ngũ, chi phí xây dựng quy trình chuẩn, chi phí mua sắm công cụ kiểm thử tự động và thời gian dành cho các đợt rà soát chất lượng định kỳ.
+Chi phí không tuân thủ, tức Nonconformance Costs, Là những thiệt hại nặng nề phát sinh khi sản phẩm bị lỗi, bao gồm chi phí nhân công phải làm việc ngoài giờ để vá lỗi khẩn cấp, chi phí bồi thường hợp đồng, chi phí thu hồi sản phẩm hỏng, và tổn thất vô hình nghiêm trọng nhất chính là sự sụp đổ niềm tin và uy tín thương hiệu của công ty trên thị trường.
+
+Các nghiên cứu thực nghiệm trong ngành quản trị dự án toàn cầu đã chỉ ra rằng, Mỗi một đồng chi phí bạn bỏ ra cho công tác phòng ngừa chất lượng từ sớm ở khâu lập kế hoạch sẽ giúp bạn tiết kiệm được từ mười đến một trăm đồng chi phí khắc phục hậu quả khi sản phẩm đã lọt ra ngoài thị trường. Đầu tư vào chất lượng ngay từ đầu chính là cách tiết kiệm thông minh và sinh lời bền vững nhất cho mọi dự án.
+
+XÂY DỰNG QUAN HỆ KHÁCH HÀNG BẰNG KỸ NĂNG GIAO TIẾP, FOSTERING CUSTOMER RELATIONSHIPS WITH COMMUNICATION SKILLS.
+. ......

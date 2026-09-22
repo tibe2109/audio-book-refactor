@@ -1,0 +1,10 @@
+Chúng ta hãy cùng nhau nhìn lại toàn bộ bức tranh kiến thức đồ sộ mà bạn đã chinh phục được qua sáu học phần của khóa học này, 
+Học phần một, Bạn đã học cách theo dõi và đo lường tiến độ dự án, quản lý các yếu tố thay đổi, và làm chủ nghệ thuật quản trị rủi ro bằng phương pháp R-O-A-M.
+Học phần hai, Bạn đã nắm vững các khái niệm cốt lõi về quản trị chất lượng Q-A, Q-C, áp dụng vòng lặp cải tiến liên tục P-D-C-A và thấu hiểu tầm quan trọng của sự hài lòng của khách hàng.
+Học phần ba, Bạn đã làm chủ dữ liệu và nghệ thuật ra quyết định dựa trên dữ liệu, thấm nhuần sáu bước phân tích dữ liệu chuẩn mực của Google, đạo đức dữ liệu và kỹ thuật kể chuyện bằng trực quan hóa biểu đồ.
+Học phần bốn, Bạn đã khám phá các bí quyết lãnh đạo đội ngũ hiệu suất cao từ Dự án Aristotle, mô hình phát triển năm giai đoạn của Tuckman, cung cấp vùng phủ sóng bảo vệ Air Cover cho đội ngũ, và nghệ thuật gây ảnh hưởng không cần chức danh.
+Học phần năm, Bạn đã thành thạo các kỹ năng giao tiếp dự án đỉnh cao từ viết email súc tích B-L-U-F, tổ chức cuộc họp tinh gọn Timeboxing, đến điều phối các buổi thảo luận hòa nhập và dễ tiếp cận.
+Và Học phần sáu, Bạn đã nắm trọn vẹn quy trình đóng dự án bài bản, bảo vệ thành quả của tổ chức, tri ân đội ngũ qua phiên hồi tưởng và xuất bản Báo cáo Tổng kết Đóng Dự án mẫu mực.
+
+BẢNG THUẬT NGỮ KHÓA HỌC BỐN, COURSE BỐN GLOSSARY.
+. ......

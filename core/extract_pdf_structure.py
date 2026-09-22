@@ -251,8 +251,38 @@ def extract_docx_glossary(docx_path):
             formatted.append(f"{e}\n")
     return '\n'.join(formatted).strip()
 
+def clean_markdown_text(text):
+    """Cleans markdown reading articles, stripping URLs, images and reconstructing clean prose."""
+    text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r'!\[[^\]]*\]\([^)]+\)', '', text)
+    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
+    text = re.sub(r'[*_~`#]+', '', text)
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    cleaned_lines = []
+    for l in lines:
+        if re.match(r'^-{3,}$', l):
+            continue
+        cleaned_lines.append(l)
+    return clean_transcript_text('\n'.join(cleaned_lines))
+
 def resolve_source_file(source_dir, target_name):
-    """Resolves file path tolerating stray newlines or whitespaces in filenames."""
+    """Resolves file path tolerating nested subdirectories, stray newlines or whitespaces."""
+    direct_path = os.path.join(source_dir, target_name)
+    if os.path.exists(direct_path):
+        return direct_path
+        
+    sub_dir = os.path.dirname(target_name)
+    base_file = os.path.basename(target_name)
+    check_dir = os.path.join(source_dir, sub_dir) if sub_dir else source_dir
+    
+    if os.path.exists(check_dir) and os.path.isdir(check_dir):
+        disk_files = os.listdir(check_dir)
+        target_clean = re.sub(r'[\r\n\t]+', '', base_file).strip()
+        for f in disk_files:
+            f_clean = re.sub(r'[\r\n\t]+', '', f).strip()
+            if f_clean == target_clean:
+                return os.path.join(check_dir, f)
+
     disk_files = os.listdir(source_dir)
     target_clean = re.sub(r'[\r\n\t]+', '', target_name).strip()
     for f in disk_files:
@@ -543,6 +573,44 @@ COURSERA_COURSE_3_CONFIG = {
 
 def detect_coursera_course(source_dir):
     """Auto-detects Coursera Course configuration based on directory files or name."""
+    # Priority: Auto-detect course_structure.json if present
+    course_json_path = os.path.join(source_dir, "course_structure.json")
+    if os.path.exists(course_json_path):
+        try:
+            with open(course_json_path, "r", encoding="utf-8") as f:
+                cdata = json.load(f)
+            c_title = cdata.get("course_title", "Project Execution: Running the Project")
+            full_title = f"Google Project Management Certificate - Course 4: {c_title}" if "course 4" not in c_title.lower() else c_title
+            c_slug = "Project-Execution-Running-the-Project"
+            modules = []
+            for mod_idx, mod in enumerate(cdata.get("modules", [])):
+                mod_num = mod.get("module_number", mod_idx + 1)
+                mod_name = mod.get("module_name", f"Module {mod_num}")
+                clean_mod_slug = re.sub(r'[^a-zA-Z0-9]+', '-', mod_name).strip('-').title()
+                folder_name = f"{mod_num:02d}-{clean_mod_slug}"
+                
+                mod_files = []
+                for lesson in mod.get("lessons", []):
+                    for item in lesson.get("items", []):
+                        f_path = item.get("txt_file") or item.get("md_file")
+                        if f_path:
+                            mod_files.append((f_path, item.get("name", "")))
+                            
+                modules.append({
+                    "index": mod_idx,
+                    "folder": folder_name,
+                    "title": f"Module {mod_num}: {mod_name.title()}",
+                    "files": mod_files
+                })
+            return {
+                "title": full_title,
+                "slug": c_slug,
+                "author": "Google Career Certificates",
+                "modules": modules
+            }
+        except Exception as e:
+            print(f"[!] Warning reading course_structure.json: {e}")
+
     files = set(os.listdir(source_dir))
     
     # Check for modular text courses (e.g. 01 - ...txt)
@@ -583,6 +651,9 @@ def detect_coursera_course(source_dir):
         return COURSERA_COURSE_1_CONFIG
 
     path_lower = source_dir.lower()
+    if "execution" in path_lower or "running" in path_lower or "course 4" in path_lower or "course-4" in path_lower:
+        # Fallback if course_structure.json missing
+        pass
     if "planning" in path_lower or "course 3" in path_lower or "course-3" in path_lower:
         return COURSERA_COURSE_3_CONFIG
     if "initiation" in path_lower or "course 2" in path_lower or "course-2" in path_lower:
@@ -669,6 +740,9 @@ def extract_coursera_chapters(source_dir, output_dir, book_slug=None, session_id
                     content = extract_pdf_clean(resolved_path)
                 elif ext == ".docx":
                     content = extract_docx_glossary(resolved_path)
+                elif ext == ".md":
+                    with open(resolved_path, "r", encoding="utf-8") as f:
+                        content = clean_markdown_text(f.read())
                 else:
                     with open(resolved_path, "r", encoding="utf-8") as f:
                         content = f.read().strip()

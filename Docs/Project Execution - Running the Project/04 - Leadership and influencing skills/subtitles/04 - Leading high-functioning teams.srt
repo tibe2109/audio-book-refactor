@@ -1,0 +1,546 @@
+1
+00:00:01,730 --> 00:00:05,785
+Hi again, there are a few key ways
+that project managers help build high-
+
+2
+00:00:05,785 --> 00:00:09,830
+functioning teams who work
+together to meet project goals.
+
+3
+00:00:09,830 --> 00:00:13,190
+They create systems that
+turn chaos into order;
+
+4
+00:00:13,190 --> 00:00:17,482
+They communicate and listen; they
+promote trust and psychological safety;
+
+5
+00:00:17,482 --> 00:00:21,080
+they demonstrate empathy and
+create motivation;
+
+6
+00:00:21,080 --> 00:00:23,656
+they delegate responsibility and
+prioritize; and
+
+7
+00:00:23,656 --> 00:00:26,040
+they celebrate team's success.
+
+8
+00:00:26,040 --> 00:00:29,380
+Let's go through each of
+those points one by one.
+
+9
+00:00:29,380 --> 00:00:33,572
+Good project managers lead their teams
+by creating systems that turn chaos
+
+10
+00:00:33,572 --> 00:00:35,170
+into order.
+
+11
+00:00:35,170 --> 00:00:39,286
+You can do this by creating,
+implementing, and improving: standardize,
+
+12
+00:00:39,286 --> 00:00:43,680
+measurable, repeatable and scalable
+workflows and processes for your team.
+
+13
+00:00:44,740 --> 00:00:48,336
+For example, if you find that you're
+usually chasing down teammates for
+
+14
+00:00:48,336 --> 00:00:51,294
+progress on their work,
+you might set up a process for how and
+
+15
+00:00:51,294 --> 00:00:54,600
+when a teammate should let you know
+that they've completed a task.
+
+16
+00:00:55,750 --> 00:00:59,720
+Think of creating systems as
+a kind of connect the dots puzzle.
+
+17
+00:00:59,720 --> 00:01:03,200
+Being a project manager is sort of
+like that, but there are no numbers,
+
+18
+00:01:03,200 --> 00:01:04,720
+just dots and a partial image.
+
+19
+00:01:05,760 --> 00:01:07,800
+But we don't need the numbers.
+
+20
+00:01:07,800 --> 00:01:10,207
+We can notice the dots,
+know their importance and
+
+21
+00:01:10,207 --> 00:01:13,720
+string them together to help everyone
+visualize the project as a whole.
+
+22
+00:01:14,810 --> 00:01:18,585
+You find the system through the chaos and
+help other people to find it, too.
+
+23
+00:01:19,955 --> 00:01:23,917
+Another way that project managers lead
+is through communicating and listening.
+
+24
+00:01:23,917 --> 00:01:27,563
+As the project manager, it's your job
+to ensure that everyone on your team
+
+25
+00:01:27,563 --> 00:01:31,365
+is on the same page regarding
+the status of your project.
+
+26
+00:01:31,365 --> 00:01:34,646
+For example, you might communicate
+with the team via daily or
+
+27
+00:01:34,646 --> 00:01:38,680
+weekly status update emails and
+regular team meetings.
+
+28
+00:01:38,680 --> 00:01:41,220
+Team meetings also provide a space for
+listening,
+
+29
+00:01:41,220 --> 00:01:44,080
+whether you're gathering feedback
+on a workflow or process, or
+
+30
+00:01:44,080 --> 00:01:46,420
+fielding questions from the group.
+
+31
+00:01:46,420 --> 00:01:49,762
+You can also solicit feedback or
+questions via status update emails,
+
+32
+00:01:49,762 --> 00:01:53,059
+since some people might feel more
+comfortable speaking in private.
+
+33
+00:01:54,490 --> 00:01:57,588
+In addition to communicating and
+listening to the wider team,
+
+34
+00:01:57,588 --> 00:02:02,350
+it's also your responsibility to regularly
+connect with individual teammates.
+
+35
+00:02:02,350 --> 00:02:05,776
+You do this by gaining an understanding
+of communication styles and
+
+36
+00:02:05,776 --> 00:02:09,560
+by asking people on your team
+how they prefer to communicate.
+
+37
+00:02:09,560 --> 00:02:13,220
+What's important to know is that
+everyone communicates differently.
+
+38
+00:02:13,220 --> 00:02:17,560
+For example, I might make small talk
+with colleagues who I know enjoy it.
+
+39
+00:02:17,560 --> 00:02:20,390
+Or I might get straight to the point
+with colleagues who prefer not to chat.
+
+40
+00:02:21,860 --> 00:02:26,004
+Project managers also lead by promoting
+trust and psychological safety within
+
+41
+00:02:26,004 --> 00:02:27,630
+their team.
+
+42
+00:02:27,630 --> 00:02:32,061
+As a reminder, psychological safety
+refers to an individual's perception of
+
+43
+00:02:32,061 --> 00:02:34,979
+the consequences of taking
+an interpersonal risk.
+
+44
+00:02:36,190 --> 00:02:40,448
+Team members need to trust that they're
+safe and speaking up if they have feedback
+
+45
+00:02:40,448 --> 00:02:45,020
+or concerns about the project as a whole
+or about their individual tasks.
+
+46
+00:02:45,020 --> 00:02:49,509
+It's your job to create a team atmosphere
+where different opinions are welcome, and
+
+47
+00:02:49,509 --> 00:02:53,890
+all members remain respectful of one
+another during challenging conversations.
+
+48
+00:02:55,110 --> 00:02:58,829
+For example, during weekly status
+meetings, you might schedule time for
+
+49
+00:02:58,829 --> 00:03:02,070
+open, thoughtful and
+inclusive discussions.
+
+50
+00:03:02,070 --> 00:03:03,701
+You might model this by asking for
+
+51
+00:03:03,701 --> 00:03:07,190
+help solving a problem
+that's impacting the team.
+
+52
+00:03:07,190 --> 00:03:10,644
+You should encourage contributions
+from all team members regardless of
+
+53
+00:03:10,644 --> 00:03:12,200
+role or rank.
+
+54
+00:03:12,200 --> 00:03:15,578
+By doing this, you make clear to
+your teammates that they should feel
+
+55
+00:03:15,578 --> 00:03:18,840
+comfortable challenging processes and
+workflows.
+
+56
+00:03:18,840 --> 00:03:22,632
+And you make clear that critiques of
+the project and plans are welcomed and
+
+57
+00:03:22,632 --> 00:03:25,120
+valued no matter who they come from.
+
+58
+00:03:25,120 --> 00:03:28,220
+While it can feel challenging
+to provide and accept feedback,
+
+59
+00:03:28,220 --> 00:03:31,610
+it's a healthy part of project
+management and usually makes for
+
+60
+00:03:31,610 --> 00:03:33,060
+a better project outcome.
+
+61
+00:03:34,310 --> 00:03:38,504
+On an individual level, project
+managers lead by practicing empathy and
+
+62
+00:03:38,504 --> 00:03:41,720
+creating motivation for
+their team members.
+
+63
+00:03:41,720 --> 00:03:45,890
+It's possible you've heard the phrase,
+"there's no I in team,"
+
+64
+00:03:45,890 --> 00:03:49,611
+and while that's true that teams need
+to work together to be effective,
+
+65
+00:03:49,611 --> 00:03:54,003
+it's also important to remember that teams
+are made up of individuals with differing
+
+66
+00:03:54,003 --> 00:03:57,070
+motivations and lives outside of work.
+
+67
+00:03:57,070 --> 00:04:01,254
+You can demonstrate empathy for your
+teammates by being present, listening, and
+
+68
+00:04:01,254 --> 00:04:02,970
+asking questions.
+
+69
+00:04:02,970 --> 00:04:04,554
+During one on one conversations,
+
+70
+00:04:04,554 --> 00:04:09,000
+avoid making assumptions about what
+the other person is thinking and feeling.
+
+71
+00:04:09,000 --> 00:04:12,080
+If you're quiet and curious,
+there's always more to learn.
+
+72
+00:04:13,090 --> 00:04:16,968
+In addition to showing empathy for my
+team, I also like to create motivation by
+
+73
+00:04:16,968 --> 00:04:20,110
+recognizing a job well done
+through public forums.
+
+74
+00:04:20,110 --> 00:04:21,830
+Like in a meeting or a group email.
+
+75
+00:04:22,980 --> 00:04:26,056
+Recognition tells people that
+they're doing the right things, and
+
+76
+00:04:26,056 --> 00:04:28,850
+motivates them to keep up the good work.
+
+77
+00:04:28,850 --> 00:04:32,110
+Be sure to recognize good work,
+and not just heroic efforts.
+
+78
+00:04:33,680 --> 00:04:38,160
+Project managers also lead by delegating
+responsibility and prioritizing.
+
+79
+00:04:39,260 --> 00:04:43,560
+Most projects will likely have multiple
+tasks taking place simultaneously.
+
+80
+00:04:43,560 --> 00:04:47,376
+And it's your job to keep the team focused
+and heading toward the project goals and
+
+81
+00:04:47,376 --> 00:04:48,660
+deliverables.
+
+82
+00:04:48,660 --> 00:04:52,913
+By delegating responsibility for specific
+tasks to individuals on your team,
+
+83
+00:04:52,913 --> 00:04:55,641
+you provide your teammates
+with the opportunity to
+
+84
+00:04:55,641 --> 00:04:59,190
+add value using their
+particular set of skills.
+
+85
+00:04:59,190 --> 00:05:02,380
+You also give yourself space to
+focus on the project as a whole.
+
+86
+00:05:03,480 --> 00:05:06,946
+By prioritizing tasks, you reduce
+ambiguity and provide clarity for
+
+87
+00:05:06,946 --> 00:05:08,190
+your team.
+
+88
+00:05:08,190 --> 00:05:11,170
+If you think that a task is important,
+but your team doesn't,
+
+89
+00:05:11,170 --> 00:05:13,940
+they might work on
+whatever tasks they like.
+
+90
+00:05:13,940 --> 00:05:17,565
+By prioritizing and
+making that prioritization known,
+
+91
+00:05:17,565 --> 00:05:19,156
+you keep the team focused.
+
+92
+00:05:19,156 --> 00:05:22,691
+Work with your team to build consensus
+around priorities, explaining your
+
+93
+00:05:22,691 --> 00:05:26,623
+rationale can help you get their buy-in
+and increase their commitment to the work.
+
+94
+00:05:26,623 --> 00:05:30,068
+Lastly, project managers lead
+by celebrating team success,
+
+95
+00:05:30,068 --> 00:05:33,640
+both at the end of the project and
+throughout it.
+
+96
+00:05:33,640 --> 00:05:37,468
+This includes celebrating big and
+small wins like reaching a milestone or
+
+97
+00:05:37,468 --> 00:05:40,135
+receiving positive feedback
+from stakeholders.
+
+98
+00:05:40,135 --> 00:05:42,491
+Celebrating success is
+an important tool for
+
+99
+00:05:42,491 --> 00:05:46,900
+motivating the team because it increases
+morale and boosts the team's engagement.
+
+100
+00:05:48,850 --> 00:05:52,227
+You might celebrate the team with
+a group lunch, a small gift or
+
+101
+00:05:52,227 --> 00:05:54,990
+even just a congratulatory email.
+
+102
+00:05:54,990 --> 00:05:59,370
+Simple gestures like these demonstrate
+appreciation for the team's hard work.
+
+103
+00:05:59,370 --> 00:06:02,114
+And when people feel appreciated,
+they tend to work harder and
+
+104
+00:06:02,114 --> 00:06:03,420
+their teams perform better.
+
+105
+00:06:04,530 --> 00:06:09,653
+To recap, project managers build high
+functioning teams in a few key ways:
+
+106
+00:06:09,653 --> 00:06:15,370
+creating systems that turn chaos into
+order; communicating and listening;
+
+107
+00:06:15,370 --> 00:06:19,547
+promoting trust and psychological safety;
+demonstrating empathy and
+
+108
+00:06:19,547 --> 00:06:23,793
+creating motivation; delegating
+responsibility and prioritizing; and
+
+109
+00:06:23,793 --> 00:06:25,652
+celebrating team success.
+
+110
+00:06:25,652 --> 00:06:30,536
+As you grow in your career, you'll
+strengthen your ability to lead bigger and
+
+111
+00:06:30,536 --> 00:06:36,030
+more complex teams, but the principles
+of teamwork will remain the same.
+
+112
+00:06:36,030 --> 00:06:39,191
+Coming up, you'll learn about
+the stages of team development and
+
+113
+00:06:39,191 --> 00:06:41,020
+how to manage team dynamics.
+
+114
+00:06:41,020 --> 00:06:41,620
+I'll see you soon.

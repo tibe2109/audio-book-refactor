@@ -231,6 +231,17 @@ def normalize_text_for_tts(text):
         return f"\n\nHỒI {w}\n. ......\n\n"
     text = re.sub(r'^[ \t]*HỒI\s+(\d+)\b', replace_hoi_simple, text, flags=re.MULTILINE | re.IGNORECASE)
 
+    # Pre-normalize non-fiction course modules & section headings e.g. "# Học phần 1: ...", "## ..."
+    def replace_markdown_headers(match):
+        title = match.group(2).strip().rstrip(":;.,")
+        def rep_num_in_title(nm):
+            return num2words_vi(nm.group(0))
+        title_num_clean = re.sub(r'\b\d+\b', rep_num_in_title, title)
+        title_clean = re.sub(r'[\(\)"“”:;—–\[\]]', ', ', title_num_clean)
+        title_clean = re.sub(r',\s*,+', ',', title_clean).strip().rstrip(',').upper()
+        return f"\n\n{title_clean}.\n. ......\n\n"
+    text = re.sub(r'^[ \t]*(#{1,6})[ \t]+([^\n]+)', replace_markdown_headers, text, flags=re.MULTILINE)
+
     # Format cliffhangers e.g. "Chưa biết Hám Trạch dâng thư làm sao, xem đến hồi sau sẽ rõ."
     def replace_cliffhanger(match):
         content = match.group(0).strip()
@@ -626,7 +637,7 @@ def format_script_structure(content):
 
     # Format chapter headers & ALL-CAPS titles with . ......
     res = re.sub(r'^(CHƯƠNG\s+[^\n]+)', r'\1\n. ......', res, flags=re.MULTILINE)
-    res = re.sub(r'(^(?:CHƯƠNG|PHẦN|BẢNG|SƠ ĐỒ|\b[a-z0-9\s]+phẩy[a-z0-9\s]+\b|[A-Z0-9\s\-,]{5,})\b.*?)(?=\n|$)', r'\1\n. ......', res, flags=re.MULTILINE)
+    res = re.sub(r'(^(?:HỌC PHẦN|CHƯƠNG|PHẦN|BÀI HỌC|TỔNG KẾT|BẢNG|SƠ ĐỒ|\b[a-z0-9\s]+phẩy[a-z0-9\s]+\b|[A-Z0-9\s\-,]{5,})\b.*?)(?=\n|$)', r'\1\n. ......', res, flags=re.MULTILINE)
     res = re.sub(r'(\. \.\.\.\.\.\.\s*)+', r'. ......\n', res)
 
     # 4. Clean raw triple dots
@@ -754,7 +765,7 @@ def process_chapter_scripts(chap_dir, chap_name):
     for i, chunk in enumerate(chunks, 1):
         formatted_chunk = chunk
         # Format pause markers . ...... at major section transitions & headers
-        formatted_chunk = re.sub(r'(^(?:CHƯƠNG|PHẦN|BẢNG|SƠ ĐỒ|\b[a-z0-9\s]+phẩy[a-z0-9\s]+\b|[A-Z0-9\s\-,]{5,})\b.*?)(?=\n|$)', r'\1\n. ......', formatted_chunk, flags=re.MULTILINE)
+        formatted_chunk = re.sub(r'(^(?:HỌC PHẦN|CHƯƠNG|PHẦN|BÀI HỌC|TỔNG KẾT|BẢNG|SƠ ĐỒ|\b[a-z0-9\s]+phẩy[a-z0-9\s]+\b|[A-Z0-9\s\-,]{5,})\b.*?)(?=\n|$)', r'\1\n. ......', formatted_chunk, flags=re.MULTILINE)
         # Clean duplicate pause markers
         formatted_chunk = re.sub(r'(\. \.\.\.\.\.\.\s*)+', r'. ......\n', formatted_chunk)
 

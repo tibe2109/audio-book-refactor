@@ -1,0 +1,20 @@
+Kế hoạch hành động cải tiến, Action Plan, 
+Hành động một, Mô tả cụ thể công việc cần làm, - Người chịu trách nhiệm, Họ và tên, - Hạn hoàn thành, Ngày cụ thể.
+Hành động hai, Mô tả cụ thể công việc cần làm, - Người chịu trách nhiệm, Họ và tên, - Hạn hoàn thành, Ngày cụ thể.
+Hành động ba, Mô tả cụ thể công việc cần làm, - Người chịu trách nhiệm, Họ và tên, - Hạn hoàn thành, Ngày cụ thể.
+
+Hãy lưu trữ biểu mẫu này vào kho tài liệu chung của dự án và mở ra xem xét lại vào đầu phiên Retro tiếp theo để kiểm tra tiến độ hoàn thành của các hành động đã cam kết.
+
+TỔNG KẾT HỌC PHẦN HAI, WRAP-UP.
+. ......
+Xin chúc mừng bạn đã hoàn thành xuất sắc học phần thứ hai về Quản trị chất lượng và Cải tiến liên tục!
+
+Trong học phần này, chúng ta đã cùng nhau làm chủ định nghĩa khoa học về chất lượng trong quản trị dự án, phân biệt rạch ròi giữa Lập kế hoạch chất lượng, Đảm bảo chất lượng Q-A và Kiểm soát chất lượng Q-C. Bạn đã thấu hiểu sự khác biệt sâu sắc giữa Cấp độ sản phẩm và Chất lượng, cũng như tầm quan trọng của việc tối ưu hóa chi phí chất lượng thông qua phòng ngừa từ sớm.
+
+Chúng ta đã khám phá nghệ thuật xây dựng mối quan hệ chân thành với khách hàng bằng kỹ năng lắng nghe thấu cảm, các phương pháp đo lường khoa học mức độ hài lòng của khách hàng thông qua chỉ số C-S-A-T, N-P-S và C-E-S, đồng thời, nhận thức sâu sắc về trách nhiệm đảm bảo tính tiếp cận bình đẳng trong thu thập phản hồi.
+
+Bạn cũng đã nắm vững quy trình tổ chức thử nghiệm chấp nhận của người dùng U-A-T, học được bài học đắt giá từ Sue về việc luôn đặt nhu cầu thực tế của khách hàng lên hàng đầu, và làm chủ các khung làm việc cải tiến quy trình dựa trên dữ liệu như chu trình P-D-C-A và mô hình D-M-A-I-C.
+
+Cuối cùng, câu chuyện truyền cảm hứng của Jacob và Gernot đã cho bạn thấy sức mạnh phi thường của tư duy cải tiến liên tục và cách sử dụng phiên họp hồi tưởng Retrospective để gắn kết đội ngũ và đưa dự án vượt qua bão giông về đích thắng lợi.
+
+Trong học phần thứ ba tiếp theo, chúng ta sẽ bước sang một địa hạt vô cùng quyền năng, Ra quyết định dựa trên dữ liệu, tức Data-Informed Decision-Making. Bạn sẽ học cách thu thập, sàng lọc, phân tích các chỉ số dữ liệu dự án và nghệ thuật kể chuyện bằng dữ liệu để thuyết phục các bên liên quan. Cảm ơn bạn rất nhiều và hẹn gặp lại bạn trong học phần ba!

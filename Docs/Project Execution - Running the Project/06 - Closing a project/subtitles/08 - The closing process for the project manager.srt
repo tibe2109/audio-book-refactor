@@ -1,0 +1,343 @@
+1
+00:00:01,070 --> 00:00:01,961
+Welcome back.
+
+2
+00:00:01,961 --> 00:00:05,476
+Let's discuss what the project
+closure process means for you,
+
+3
+00:00:05,476 --> 00:00:07,550
+the project manager.
+
+4
+00:00:07,550 --> 00:00:11,365
+For a project manager, it's important
+to close the project properly for
+
+5
+00:00:11,365 --> 00:00:12,480
+a number of reasons.
+
+6
+00:00:12,480 --> 00:00:16,005
+Closing provides an opportunity
+to reflect on how you and
+
+7
+00:00:16,005 --> 00:00:19,384
+your team performed, ensure
+every task is completed, and
+
+8
+00:00:19,384 --> 00:00:22,698
+prevent confusion around
+the project in the future.
+
+9
+00:00:22,698 --> 00:00:26,840
+I'll detail the importance of
+these closing practices, as well as
+
+10
+00:00:26,840 --> 00:00:30,917
+the necessary documentation to
+successfully close a project.
+
+11
+00:00:30,917 --> 00:00:34,313
+One of the most important aspects
+of thoroughly closing a project is
+
+12
+00:00:34,313 --> 00:00:36,670
+the project closeout report.
+
+13
+00:00:36,670 --> 00:00:41,530
+A project closeout report is a document
+created by project managers for
+
+14
+00:00:41,530 --> 00:00:46,799
+project managers. A project closeout
+report serves three major purposes.
+
+15
+00:00:46,799 --> 00:00:50,736
+First, it's a blueprint to
+document what the team did,
+
+16
+00:00:50,736 --> 00:00:53,533
+how they did it, and what they delivered.
+
+17
+00:00:53,533 --> 00:00:58,143
+Second, it provides an evaluation
+of the quality of work. And third,
+
+18
+00:00:58,143 --> 00:01:03,481
+it evaluates the project's performance
+with respect to budget and schedule.
+
+19
+00:01:03,481 --> 00:01:08,380
+Similar to the retrospective, the project
+closeout report can be used to determine
+
+20
+00:01:08,380 --> 00:01:11,283
+best practices when it
+comes to future projects.
+
+21
+00:01:11,283 --> 00:01:15,846
+Think of it as a transfer of knowledge
+from you to future project managers.
+
+22
+00:01:15,846 --> 00:01:20,245
+For instance, once a project closes,
+there's a chance a similar project or
+
+23
+00:01:20,245 --> 00:01:24,137
+a continuation of that project will
+come up within the organization,
+
+24
+00:01:24,137 --> 00:01:27,015
+and maybe a different
+project manager is assigned
+
+25
+00:01:27,015 --> 00:01:29,970
+to this new project while
+you go on to other things.
+
+26
+00:01:29,970 --> 00:01:34,192
+If you create an in-depth closeout report,
+it will help the newly-assigned
+
+27
+00:01:34,192 --> 00:01:38,973
+project manager immensely to know what
+happened previously on a similar project.
+
+28
+00:01:38,973 --> 00:01:42,395
+Your closeout report could include
+things that worked out well and
+
+29
+00:01:42,395 --> 00:01:44,360
+things that didn't work out so well.
+
+30
+00:01:44,360 --> 00:01:48,447
+Creating a closeout report will also
+reduce the time you spend answering
+
+31
+00:01:48,447 --> 00:01:51,540
+questions as the new project
+manager gets up to speed.
+
+32
+00:01:51,540 --> 00:01:55,719
+It's safe to assume that the people
+reading your report in the future will be
+
+33
+00:01:55,719 --> 00:01:59,131
+unfamiliar with the project,
+so be as detailed as possible.
+
+34
+00:01:59,131 --> 00:02:03,629
+That way the new project team will be able
+to form an understanding of the purpose,
+
+35
+00:02:03,629 --> 00:02:07,230
+execution, and outcome of the project
+based on your report alone.
+
+36
+00:02:08,360 --> 00:02:12,502
+In your project closeout report, you'll
+want to include the following things:
+
+37
+00:02:12,502 --> 00:02:14,041
+An executive summary:
+
+38
+00:02:14,041 --> 00:02:18,182
+this means a description of the process
+and what the purpose of the project was.
+
+39
+00:02:18,182 --> 00:02:23,561
+This should be short and concise;
+a few sentences to a paragraph, maximum.
+
+40
+00:02:23,561 --> 00:02:27,031
+If an executive did not have time
+to read the entire document and
+
+41
+00:02:27,031 --> 00:02:31,353
+only had time to read this executive
+summary, would they be able to understand
+
+42
+00:02:31,353 --> 00:02:35,673
+the project highlights? A list of key
+accomplishments: think of this as a way to
+
+43
+00:02:35,673 --> 00:02:41,310
+highlight the team's accomplishments, as
+well as the overall impact of the project.
+
+44
+00:02:41,310 --> 00:02:45,252
+Include any lessons learned,
+like: what went well, and why?
+
+45
+00:02:45,252 --> 00:02:47,210
+What went wrong, and why?
+
+46
+00:02:47,210 --> 00:02:51,930
+What were the major effects of key
+problem areas, such as scope creep and
+
+47
+00:02:51,930 --> 00:02:53,052
+schedule slip?
+
+48
+00:02:53,052 --> 00:02:57,707
+Any open items: this could be things
+you didn't quite get to or ideas for
+
+49
+00:02:57,707 --> 00:03:00,851
+changes you'd make if
+you'd had the time.
+
+50
+00:03:00,851 --> 00:03:04,966
+Your next steps: things like, are there
+expected follow up projects, and
+
+51
+00:03:04,966 --> 00:03:07,720
+is there any ongoing maintenance required?
+
+52
+00:03:09,090 --> 00:03:12,913
+You also want to include important
+information about the schedule and
+
+53
+00:03:12,913 --> 00:03:17,333
+important deadlines, like: what were your
+milestones, and how did you choose them?
+
+54
+00:03:17,333 --> 00:03:19,430
+How long did the project take?
+
+55
+00:03:19,430 --> 00:03:25,001
+Did the project stay on track? And
+any information about major setbacks.
+
+56
+00:03:25,001 --> 00:03:29,279
+Be sure to list resources and
+team members. Explain who is involved and
+
+57
+00:03:29,279 --> 00:03:30,739
+what their roles were.
+
+58
+00:03:30,739 --> 00:03:35,036
+This is also a key way to acknowledge
+people who contributed to the project's
+
+59
+00:03:35,036 --> 00:03:39,213
+completion. And finally, include
+a resources and project archive section.
+
+60
+00:03:39,213 --> 00:03:43,002
+This will include links to things
+like your original project plan,
+
+61
+00:03:43,002 --> 00:03:47,533
+any documented stakeholder communication
+and feedback (like meeting notes),
+
+62
+00:03:47,533 --> 00:03:51,017
+and documentation used to track,
+monitor, and report,
+
+63
+00:03:51,017 --> 00:03:55,946
+and any technical information related
+to the project deliverables like user
+
+64
+00:03:55,946 --> 00:03:57,322
+guides and manuals.
+
+65
+00:03:57,322 --> 00:04:01,879
+Hopefully by now, you understand how
+project closeout reports are beneficial to
+
+66
+00:04:01,879 --> 00:04:06,150
+not only the organization, but
+the project manager as well.
+
+67
+00:04:06,150 --> 00:04:10,240
+Project closeout reports promote
+visibility among team members and
+
+68
+00:04:10,240 --> 00:04:12,714
+create more efficient future projects.
+
+69
+00:04:12,714 --> 00:04:16,319
+All right, we've covered a lot
+of information. Great job for
+
+70
+00:04:16,319 --> 00:04:17,413
+sticking with it!
+
+71
+00:04:17,413 --> 00:04:18,328
+In the next video,
+
+72
+00:04:18,328 --> 00:04:21,660
+we'll revisit the concepts you've
+learned as we recap the module.

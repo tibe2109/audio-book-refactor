@@ -1,0 +1,798 @@
+1
+00:00:00,350 --> 00:00:03,270
+In the last video,
+we talked about why
+
+2
+00:00:03,270 --> 00:00:05,520
+the closing process is
+important in general.
+
+3
+00:00:05,520 --> 00:00:08,640
+We'll get more specific in
+this video as we discuss
+
+4
+00:00:08,640 --> 00:00:11,955
+why closing is important for
+clients and stakeholders.
+
+5
+00:00:11,955 --> 00:00:15,645
+A formal closing process is
+important not only because
+
+6
+00:00:15,645 --> 00:00:17,700
+improper closing may
+leave you on the hook for
+
+7
+00:00:17,700 --> 00:00:20,175
+incomplete contracts
+or incomplete scope,
+
+8
+00:00:20,175 --> 00:00:21,950
+but also because you want
+
+9
+00:00:21,950 --> 00:00:25,090
+stakeholders to feel like
+their needs were met.
+
+10
+00:00:25,090 --> 00:00:26,915
+As we mentioned earlier,
+
+11
+00:00:26,915 --> 00:00:29,615
+a project team's relationship
+with customers,
+
+12
+00:00:29,615 --> 00:00:31,820
+users, vendors, and so on
+
+13
+00:00:31,820 --> 00:00:33,950
+can be impacted by loose ends.
+
+14
+00:00:33,950 --> 00:00:36,364
+If relationships are
+impacted negatively,
+
+15
+00:00:36,364 --> 00:00:38,855
+your team's credibility
+may be impacted.
+
+16
+00:00:38,855 --> 00:00:41,390
+Typically, stakeholders
+set the goals and scope
+
+17
+00:00:41,390 --> 00:00:43,895
+of the project alongside
+the project manager,
+
+18
+00:00:43,895 --> 00:00:45,635
+so a good project manager will
+
+19
+00:00:45,635 --> 00:00:47,810
+always want to make sure
+those stakeholders are
+
+20
+00:00:47,810 --> 00:00:49,460
+satisfied with the quality of
+
+21
+00:00:49,460 --> 00:00:52,060
+deliverables and the
+end product too.
+
+22
+00:00:52,060 --> 00:00:54,470
+So how can you make
+sure that clients and
+
+23
+00:00:54,470 --> 00:00:57,440
+key stakeholders are happy
+with the project closing?
+
+24
+00:00:57,440 --> 00:01:00,440
+First, you'll want to
+decide if your project
+
+25
+00:01:00,440 --> 00:01:02,375
+warrants a small closing process
+
+26
+00:01:02,375 --> 00:01:04,040
+at the end of each milestone
+
+27
+00:01:04,040 --> 00:01:05,870
+or a formal and more
+
+28
+00:01:05,870 --> 00:01:08,930
+comprehensive closing
+phase near the very end.
+
+29
+00:01:08,930 --> 00:01:10,640
+You may even decide to do
+
+30
+00:01:10,640 --> 00:01:12,740
+both the small closing
+process at the end of
+
+31
+00:01:12,740 --> 00:01:15,665
+each milestone and a more
+formal closing phase
+
+32
+00:01:15,665 --> 00:01:17,105
+at the very end.
+
+33
+00:01:17,105 --> 00:01:19,505
+You'll determine this
+by asking yourself
+
+34
+00:01:19,505 --> 00:01:21,845
+if a particular
+milestone is final,
+
+35
+00:01:21,845 --> 00:01:24,110
+meaning the milestone
+will not need to be
+
+36
+00:01:24,110 --> 00:01:26,755
+readdressed at a later
+time in the project.
+
+37
+00:01:26,755 --> 00:01:30,410
+If so, having a short,
+formal closeout will
+
+38
+00:01:30,410 --> 00:01:32,000
+ensure that everyone is clear on
+
+39
+00:01:32,000 --> 00:01:34,495
+the outcomes of that
+particular milestone.
+
+40
+00:01:34,495 --> 00:01:36,530
+For example, let's put this in
+
+41
+00:01:36,530 --> 00:01:39,815
+the context of the Project
+Plant Pals website launch.
+
+42
+00:01:39,815 --> 00:01:42,890
+Launching the website is
+an official milestone,
+
+43
+00:01:42,890 --> 00:01:44,660
+so having a formal close out to
+
+44
+00:01:44,660 --> 00:01:46,930
+the website launch
+might make sense.
+
+45
+00:01:46,930 --> 00:01:48,680
+Yes, there will still be
+
+46
+00:01:48,680 --> 00:01:50,945
+ongoing updates and
+maintenance to the site,
+
+47
+00:01:50,945 --> 00:01:52,610
+but it won't be launched again.
+
+48
+00:01:52,610 --> 00:01:55,175
+The launch is a one-time event.
+
+49
+00:01:55,175 --> 00:01:58,625
+You need to make sure you're
+handing over deliverables,
+
+50
+00:01:58,625 --> 00:02:00,735
+putting together the
+proper documentation,
+
+51
+00:02:00,735 --> 00:02:02,320
+and alerting all stakeholders
+
+52
+00:02:02,320 --> 00:02:04,040
+that you've reached
+that milestone and
+
+53
+00:02:04,040 --> 00:02:07,385
+that that portion of the
+project is now closed.
+
+54
+00:02:07,385 --> 00:02:08,720
+If you decide to conduct
+
+55
+00:02:08,720 --> 00:02:11,629
+closing processes after
+each phase or milestone,
+
+56
+00:02:11,629 --> 00:02:14,755
+here is what that will
+look like for your team.
+
+57
+00:02:14,755 --> 00:02:17,360
+First, you'll ensure
+that the project has
+
+58
+00:02:17,360 --> 00:02:19,025
+satisfied the strategic goals
+
+59
+00:02:19,025 --> 00:02:20,945
+that it was intended to meet.
+
+60
+00:02:20,945 --> 00:02:23,360
+To begin, you'll want to refer to
+
+61
+00:02:23,360 --> 00:02:26,090
+prior documentation such
+as your statement of work,
+
+62
+00:02:26,090 --> 00:02:29,885
+request for proposal, risk
+register, and RACI chart.
+
+63
+00:02:29,885 --> 00:02:32,195
+You recall that these documents
+
+64
+00:02:32,195 --> 00:02:33,950
+were discussed in
+previous sections,
+
+65
+00:02:33,950 --> 00:02:37,045
+so feel free to revisit
+those as a refresher.
+
+66
+00:02:37,045 --> 00:02:39,335
+While doing so, ask yourself,
+
+67
+00:02:39,335 --> 00:02:42,305
+was all of the required work
+in the elapsed phase done?
+
+68
+00:02:42,305 --> 00:02:44,900
+Were all identified
+issues addressed?
+
+69
+00:02:44,900 --> 00:02:48,610
+Did every team member complete
+their assigned tasks?
+
+70
+00:02:48,610 --> 00:02:50,900
+Then you'll put together closing
+
+71
+00:02:50,900 --> 00:02:53,825
+documentation such as
+creating closeout reports,
+
+72
+00:02:53,825 --> 00:02:55,940
+which we'll cover in depth later.
+
+73
+00:02:55,940 --> 00:02:57,725
+You'll build and review
+
+74
+00:02:57,725 --> 00:02:59,630
+that documentation
+with team members to
+
+75
+00:02:59,630 --> 00:03:01,160
+make sure that every aspect of
+
+76
+00:03:01,160 --> 00:03:03,370
+the project has been discussed.
+
+77
+00:03:03,370 --> 00:03:05,440
+You'll also review notes from
+
+78
+00:03:05,440 --> 00:03:08,575
+any retrospectives you and
+your team participated in.
+
+79
+00:03:08,575 --> 00:03:11,050
+This way, your team members
+will get a chance to
+
+80
+00:03:11,050 --> 00:03:13,990
+speak about the aspects
+they liked or didn't like,
+
+81
+00:03:13,990 --> 00:03:16,385
+and they'll leave with
+a sense of closure.
+
+82
+00:03:16,385 --> 00:03:19,295
+Next, you'll conduct
+administrative closure
+
+83
+00:03:19,295 --> 00:03:20,985
+of the procurement process.
+
+84
+00:03:20,985 --> 00:03:23,005
+Close any contracts necessary,
+
+85
+00:03:23,005 --> 00:03:24,775
+deliver the payments to vendors,
+
+86
+00:03:24,775 --> 00:03:26,680
+and retrieve all
+final deliverables
+
+87
+00:03:26,680 --> 00:03:28,220
+from contracted workers.
+
+88
+00:03:28,220 --> 00:03:29,980
+This is really important so
+
+89
+00:03:29,980 --> 00:03:31,450
+that external stakeholders and
+
+90
+00:03:31,450 --> 00:03:33,490
+contracted workers
+can understand that
+
+91
+00:03:33,490 --> 00:03:36,310
+the phase or the project
+is officially over.
+
+92
+00:03:36,310 --> 00:03:38,350
+Then you'll want to formally
+
+93
+00:03:38,350 --> 00:03:41,255
+recognize the completion
+of the phase, if necessary.
+
+94
+00:03:41,255 --> 00:03:43,510
+Make sure all
+stakeholders are aware
+
+95
+00:03:43,510 --> 00:03:45,995
+that a phase or
+project is ending.
+
+96
+00:03:45,995 --> 00:03:49,010
+This may be as simple as
+sending out an email
+
+97
+00:03:49,010 --> 00:03:50,690
+notifying them that
+you've achieved
+
+98
+00:03:50,690 --> 00:03:53,705
+this milestone or may
+warrant a larger meeting.
+
+99
+00:03:53,705 --> 00:03:57,140
+Finally, you'll complete any
+necessary follow-up work.
+
+100
+00:03:57,140 --> 00:03:59,090
+This includes things
+like gathering
+
+101
+00:03:59,090 --> 00:04:01,820
+final feedback and
+conducting closing surveys.
+
+102
+00:04:01,820 --> 00:04:04,790
+This way, you'll proactively
+help stakeholders with
+
+103
+00:04:04,790 --> 00:04:08,080
+future issues by following
+up and offering support.
+
+104
+00:04:08,080 --> 00:04:11,330
+If ,instead of closing
+after certain phases or
+
+105
+00:04:11,330 --> 00:04:13,160
+milestones, you've decided to
+
+106
+00:04:13,160 --> 00:04:15,080
+close at the very
+end of your project,
+
+107
+00:04:15,080 --> 00:04:17,320
+your process may be a
+little bit different.
+
+108
+00:04:17,320 --> 00:04:19,155
+Here is what that
+might look like.
+
+109
+00:04:19,155 --> 00:04:22,205
+First, provide the
+necessary training tools,
+
+110
+00:04:22,205 --> 00:04:25,280
+documentation, and capabilities
+to use your product.
+
+111
+00:04:25,280 --> 00:04:28,370
+This includes things like
+manuals and how-to guides,
+
+112
+00:04:28,370 --> 00:04:29,780
+which gives your customers and
+
+113
+00:04:29,780 --> 00:04:31,610
+users an understanding of how to
+
+114
+00:04:31,610 --> 00:04:35,155
+use your product or service
+after the project is closed.
+
+115
+00:04:35,155 --> 00:04:37,400
+Next, ensure that the project has
+
+116
+00:04:37,400 --> 00:04:40,100
+satisfied its goals
+and desired outcomes.
+
+117
+00:04:40,100 --> 00:04:42,860
+Review the project to make
+sure that all tasks and
+
+118
+00:04:42,860 --> 00:04:46,145
+deliverables were completed
+and nothing is missing.
+
+119
+00:04:46,145 --> 00:04:48,565
+Did you accomplish what
+you set out to do?
+
+120
+00:04:48,565 --> 00:04:50,820
+Is the full scope
+of work completed?
+
+121
+00:04:50,820 --> 00:04:53,075
+You'll also want to
+document acceptance from
+
+122
+00:04:53,075 --> 00:04:55,930
+all stakeholders like
+clients and sponsors.
+
+123
+00:04:55,930 --> 00:04:57,560
+Ensuring that you have
+
+124
+00:04:57,560 --> 00:04:59,120
+written proof that
+stakeholders are
+
+125
+00:04:59,120 --> 00:05:00,455
+happy with the deliverables and
+
+126
+00:05:00,455 --> 00:05:02,495
+outcomes is very important.
+
+127
+00:05:02,495 --> 00:05:04,350
+This could be in retrospectives,
+
+128
+00:05:04,350 --> 00:05:05,885
+a project completion document,
+
+129
+00:05:05,885 --> 00:05:08,260
+or any other formal signoff.
+
+130
+00:05:08,260 --> 00:05:10,250
+Then review all contracts and
+
+131
+00:05:10,250 --> 00:05:12,580
+documentation with
+your project team.
+
+132
+00:05:12,580 --> 00:05:16,220
+This includes things
+like your SOW, RFP,
+
+133
+00:05:16,220 --> 00:05:18,395
+RACI chart, risk register,
+
+134
+00:05:18,395 --> 00:05:21,515
+and the procurement documents
+that we discussed earlier.
+
+135
+00:05:21,515 --> 00:05:24,155
+Including your whole team
+in this review process
+
+136
+00:05:24,155 --> 00:05:26,560
+will help you make sure
+that nothing is missed.
+
+137
+00:05:26,560 --> 00:05:28,400
+Always document your
+lessons learned
+
+138
+00:05:28,400 --> 00:05:30,410
+by conducting a
+formal retrospective.
+
+139
+00:05:30,410 --> 00:05:33,080
+Include your team, any
+other teams involved,
+
+140
+00:05:33,080 --> 00:05:35,915
+your stakeholders, and outside
+vendors in this meeting.
+
+141
+00:05:35,915 --> 00:05:38,905
+We'll go over this in more
+detail in the next video.
+
+142
+00:05:38,905 --> 00:05:43,105
+Finally, you can disband
+and thank the project team.
+
+143
+00:05:43,105 --> 00:05:45,560
+The next important
+step in closing
+
+144
+00:05:45,560 --> 00:05:48,380
+a project for the stakeholders
+is impact reporting.
+
+145
+00:05:48,380 --> 00:05:50,645
+Impact reporting is a
+presentation that's
+
+146
+00:05:50,645 --> 00:05:53,510
+given at the end of a project
+for key stakeholders,
+
+147
+00:05:53,510 --> 00:05:55,640
+which typically includes
+the stakeholders you
+
+148
+00:05:55,640 --> 00:05:58,450
+had in the initial
+kick-off meeting.
+
+149
+00:05:58,450 --> 00:06:01,700
+The purpose of impact reporting
+is to demonstrate how
+
+150
+00:06:01,700 --> 00:06:03,320
+the project went and discuss
+
+151
+00:06:03,320 --> 00:06:05,575
+the impact of your
+product or service.
+
+152
+00:06:05,575 --> 00:06:07,685
+It's important for
+the project manager
+
+153
+00:06:07,685 --> 00:06:10,160
+because you'll be able to
+demonstrate the success of
+
+154
+00:06:10,160 --> 00:06:12,320
+your project on your terms and
+
+155
+00:06:12,320 --> 00:06:15,745
+present the work you did to
+add value to the business.
+
+156
+00:06:15,745 --> 00:06:18,830
+In this presentation, you'll
+cover how the project
+
+157
+00:06:18,830 --> 00:06:21,820
+landed in terms of time,
+scope, and budget.
+
+158
+00:06:21,820 --> 00:06:24,230
+You'll state when the
+new service or product
+
+159
+00:06:24,230 --> 00:06:27,530
+launch and discuss any
+available feedback from users,
+
+160
+00:06:27,530 --> 00:06:29,000
+and you'll explain how
+
+161
+00:06:29,000 --> 00:06:31,855
+the desired outcomes
+were achieved.
+
+162
+00:06:31,855 --> 00:06:33,740
+Now you know more about how
+
+163
+00:06:33,740 --> 00:06:35,330
+stakeholders and customers can
+
+164
+00:06:35,330 --> 00:06:38,480
+get a clear understanding
+that your project is closed.
+
+165
+00:06:38,480 --> 00:06:39,800
+We've discussed why that's
+
+166
+00:06:39,800 --> 00:06:42,170
+necessary and how
+your reputation and
+
+167
+00:06:42,170 --> 00:06:44,480
+credibility can be
+affected if you don't
+
+168
+00:06:44,480 --> 00:06:47,665
+do extensive work to close
+the project completely.
+
+169
+00:06:47,665 --> 00:06:49,235
+In the next video,
+
+170
+00:06:49,235 --> 00:06:52,010
+we'll discuss how your team
+can be impacted by closing
+
+171
+00:06:52,010 --> 00:06:56,280
+a project properly and
+improperly. I'll meet you there.

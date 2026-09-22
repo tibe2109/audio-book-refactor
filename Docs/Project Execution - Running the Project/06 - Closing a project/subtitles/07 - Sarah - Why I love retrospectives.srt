@@ -1,0 +1,219 @@
+1
+00:00:00,182 --> 00:00:04,955
+[MUSIC]
+
+2
+00:00:04,955 --> 00:00:06,955
+Hi, I'm Sarah and I'm a program manager,
+
+3
+00:00:06,955 --> 00:00:09,580
+on the Engineering Education
+team at Google.
+
+4
+00:00:09,580 --> 00:00:12,945
+As a program manager, I manage cross
+functional teams on designing,
+
+5
+00:00:12,945 --> 00:00:16,865
+launching and growing Computer
+Science Education Programs at Google.
+
+6
+00:00:16,865 --> 00:00:21,414
+So right now my primary remit and my scope
+is essentially working with organizations
+
+7
+00:00:21,414 --> 00:00:25,129
+in New York City to try to provide
+more tech education experiences and
+
+8
+00:00:25,129 --> 00:00:27,970
+growth opportunities to youth in the area.
+
+9
+00:00:27,970 --> 00:00:31,565
+During one of our biggest tech
+education moments of the year,
+
+10
+00:00:31,565 --> 00:00:36,061
+one of the programs that I work on relies
+on a third party's platform to be able
+
+11
+00:00:36,061 --> 00:00:38,152
+to run our activities and content.
+
+12
+00:00:38,152 --> 00:00:41,549
+And during a moment where
+1000s of students and
+
+13
+00:00:41,549 --> 00:00:47,160
+teachers were getting ready to code
+online, the platform completely broke.
+
+14
+00:00:47,160 --> 00:00:50,038
+And so you can imagine that
+the number of emails and bugs and
+
+15
+00:00:50,038 --> 00:00:53,420
+requests that were coming
+into our team were plentiful.
+
+16
+00:00:53,420 --> 00:00:54,540
+Don't panic.
+
+17
+00:00:54,540 --> 00:00:58,180
+Communicate openly and
+quickly on the latter side of the issue.
+
+18
+00:00:58,180 --> 00:01:02,062
+Once you've already, kind of, fixed
+the problem focus on a retrospective and
+
+19
+00:01:02,062 --> 00:01:06,259
+a clear post-mortem that's going to help
+your team and then future teams be able
+
+20
+00:01:06,259 --> 00:01:10,850
+to prevent and mitigate something like
+that from happening in the future.
+
+21
+00:01:10,850 --> 00:01:12,190
+I love retrospectives.
+
+22
+00:01:12,190 --> 00:01:15,365
+I do them all the time at Google just
+because they're a great way to be able
+
+23
+00:01:15,365 --> 00:01:18,610
+to coalesce your entire team to look
+at the great impact that you've had.
+
+24
+00:01:18,610 --> 00:01:21,341
+But then also reflect on some of
+the things that you've learned and
+
+25
+00:01:21,341 --> 00:01:23,790
+could potentially do better for
+the future.
+
+26
+00:01:23,790 --> 00:01:25,850
+And particularly at Google.
+
+27
+00:01:25,850 --> 00:01:29,284
+What I love about retrospectives
+is that we have in engineering, and
+
+28
+00:01:29,284 --> 00:01:33,409
+then across a lot of other operational
+roles, including project management,
+
+29
+00:01:33,409 --> 00:01:35,778
+a culture of blamelessness,
+
+30
+00:01:35,778 --> 00:01:37,553
+right?
+If something goes wrong and
+
+31
+00:01:37,553 --> 00:01:41,417
+something breaks, instead of pointing at
+your engineering team to say you weren't
+
+32
+00:01:41,417 --> 00:01:45,210
+prepared, or to point at your comms
+team and say there was an error,
+
+33
+00:01:45,210 --> 00:01:47,480
+the whole team should be
+taking responsibility.
+
+34
+00:01:47,480 --> 00:01:50,787
+And the whole team can actually look at
+that as an opportunity to improve and
+
+35
+00:01:50,787 --> 00:01:53,810
+learn for future iterations
+of what you're working on.
+
+36
+00:01:53,810 --> 00:01:57,790
+I've learned everything from big lessons
+around the way that you should be building
+
+37
+00:01:57,790 --> 00:02:01,658
+more flexibility into your timeline,
+to very, very small tactical changes that
+
+38
+00:02:01,658 --> 00:02:06,290
+you're going to need to make in order to
+be running your project more effectively.
+
+39
+00:02:06,290 --> 00:02:09,562
+And so I think it's critical to be
+capturing not only these very big
+
+40
+00:02:09,562 --> 00:02:12,140
+strategic level changes that
+you might want to make.
+
+41
+00:02:12,140 --> 00:02:15,290
+But some of these small tactical things
+you might be able to tweak to improve
+
+42
+00:02:15,290 --> 00:02:17,000
+efficiency going forward.
+
+43
+00:02:17,000 --> 00:02:20,715
+Sometimes when you have assumptions or
+anticipations about the direction that
+
+44
+00:02:20,715 --> 00:02:24,153
+somethings going to go and then they
+completely shift the other direction or
+
+45
+00:02:24,153 --> 00:02:27,355
+they show something completely
+different than what you expected.
+
+46
+00:02:27,355 --> 00:02:29,557
+[SOUND]

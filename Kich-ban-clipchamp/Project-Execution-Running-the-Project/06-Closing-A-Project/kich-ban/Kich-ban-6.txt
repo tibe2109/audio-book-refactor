@@ -1,0 +1,15 @@
+Đừng chỉ dừng lại ở việc báo cáo, Chúng tôi đã hoàn thành một trăm nhiệm vụ đúng hạn. Các nhà tài trợ dự án muốn nhìn thấy tác động kinh doanh thực chất, 
+Tác động về mặt tài chính, Dự án đã giúp công ty tăng bao nhiêu phần trăm doanh thu? Đã giúp tiết kiệm bao nhiêu chi phí vận hành hàng năm? Tỷ suất hoàn vốn đầu tư R-O-I thực tế đạt được là bao nhiêu so với dự toán ban đầu trong Bản hồ sơ kinh doanh Business Case?
+Tác động về mặt vận hành, Thời gian xử lý đơn hàng đã giảm từ ba ngày xuống còn ba giờ như thế nào? Tỷ lệ sai sót trong quy trình đã giảm đi bao nhiêu phần trăm?
+Tác động đến khách hàng và thị trường, Điểm số hài lòng của khách hàng C-S-A-T tăng lên bao nhiêu điểm? Tỷ lệ tiếp nhận sản phẩm Adoption Rate của người dùng đạt bao nhiêu phần trăm trong tháng đầu tiên ra mắt?
+Tác động chiến lược lâu dài, Dự án đã giúp tổ chức mở ra những cơ hội thị trường mới nào, nâng cao năng lực cạnh tranh ra sao và nâng tầm thương hiệu của công ty trên thị trường quốc tế như thế nào?
+
+Hãy chuẩn bị một bài báo cáo tổng kết điều hành Executive Summary thật trang nhã, kết hợp các biểu đồ trực quan sinh động và những câu chuyện phản hồi tích cực từ người dùng thực tế. Khi bạn chứng minh được tác động rõ ràng của dự án, bạn không chỉ khẳng định năng lực lãnh đạo xuất chúng của bản thân mà còn mở ra những cơ hội thăng tiến to lớn trong sự nghiệp.
+
+QUY TRÌNH ĐÓNG DỰ ÁN DÀNH CHO ĐỘI NGŨ, THE CLOSING PROCESS FOR THE TEAM.
+. ......
+Chào bạn. Trong bài học trước, chúng ta đã tập trung vào cách thức đóng dự án đối với khách hàng và các bên liên quan. Trong bài học này, chúng ta sẽ thảo luận về các thực hành tốt nhất để đóng dự án cùng với đội ngũ của bạn. Bạn cũng sẽ học cách sử dụng phiên họp hồi tưởng Retrospective để đóng dự án và ăn mừng những thành tựu tuyệt vời của đội ngũ.
+
+Tôi đã chia sẻ với bạn về các phiên họp hồi tưởng khá nhiều xuyên suốt chương trình học này, và đó là bởi vì, thực sự không có một công cụ nào tốt hơn để suy ngẫm và cải tiến liên tục!
+
+Quy trình đóng dự án cùng đội ngũ bao gồm ba hoạt động cốt lõi,

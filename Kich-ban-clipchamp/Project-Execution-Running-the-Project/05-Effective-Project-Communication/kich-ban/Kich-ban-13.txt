@@ -1,0 +1,12 @@
+hai. Cuộc họp Cập nhật Tiến độ, tức Status Update Meetings, 
+Cuộc họp cập nhật tiến độ là một trong những dạng cuộc họp phổ biến nhất trong đời sống thường nhật của một dự án. Danh mục này bao gồm các cuộc họp đội ngũ định kỳ, nơi mục tiêu chính là đồng bộ hóa đội ngũ về các thông tin cập nhật mới nhất, tiến độ công việc, các thách thức đang gặp phải và các bước đi tiếp theo.
+Trong cuộc họp, người quản lý dự án có thể phân phối hoặc trình bày các báo cáo hiệu suất dự án và các bản cập nhật trạng thái chính thức về các yếu tố then chốt. Điều này cho phép đội ngũ và các bên liên quan có được khả năng quan sát minh bạch Visibility về các mức hiệu suất hiện tại và tiến độ hoàn thành nhiệm vụ. Một trong những trách nhiệm cốt lõi của người quản lý dự án là phải luôn nắm rõ trạng thái của dự án tại bất kỳ thời điểm nào và đảm bảo rằng những người khác cũng bắt kịp tốc độ hoặc biết nơi tìm thấy thông tin mới nhất.
+Để làm được điều đó, các cuộc họp cập nhật trạng thái trở thành một công cụ thiết yếu xuyên suốt vòng đời dự án. Thông thường, bạn sẽ đánh giá trạng thái của từng chủ đề then chốt sau đây trong cuộc họp, 
+Cập nhật về các nhiệm vụ công việc, Người tham dự cần biết trạng thái của các nhiệm vụ khẩn cấp nhất là gì? Bao nhiêu nhiệm vụ đã hoàn thành xong xuôi, và còn bao nhiêu hạng mục công việc vẫn đang mở?
+Trạng thái về lịch trình tiến độ, Dự án có đang bị chậm tiến độ không? Đang chạy trước tiến độ hay đang đi đúng nhịp độ dự kiến ban đầu?
+Trạng thái về ngân sách và chi phí, Thảo luận về các khoản chi tiêu thực tế so với dự toán ngân sách và bất kỳ yếu tố mới nào tác động tới dòng tiền của dự án.
+Các rủi ro hiện tại và các trở ngại tiềm ẩn, Nhận diện những khó khăn có thể cản trở bước tiến của đội ngũ để kịp thời dỡ bỏ.
+
+ba. Cuộc họp Đánh giá với Các bên liên quan, tức Stakeholder Review Meetings, 
+Cuộc họp này thường được tổ chức định kỳ hàng tháng hoặc tại các mốc bàn giao Milestone quan trọng của dự án. Người quản lý dự án sẽ trình bày một bản tóm tắt điều hành Executive Summary về toàn bộ bức tranh dự án trước các nhà tài trợ tài chính và ban lãnh đạo.
+Mục tiêu là chứng minh giá trị thực tế mà dự án đã tạo ra, báo cáo các chỉ số hiệu suất chi phí C-P-I và tiến độ S-P-I, xin phê duyệt chính thức cho các mốc quan trọng tiếp theo, và thảo luận về các yêu cầu thay đổi phạm vi nếu có.

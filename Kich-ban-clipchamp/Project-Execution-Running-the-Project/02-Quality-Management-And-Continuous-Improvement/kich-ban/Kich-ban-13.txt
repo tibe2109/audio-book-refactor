@@ -1,0 +1,13 @@
+Khi bạn tiến bước sâu hơn vào thế giới quản trị chuyên nghiệp, bạn sẽ thường xuyên nghe thấy hai thuật ngữ, Quản lý Dự án, tức Project Management, và Quản lý Chương trình, tức Program Management. Mặc dù có mối liên hệ mật thiết với nhau, hai khái niệm này đại diện cho hai cấp độ quản trị hoàn toàn khác nhau về quy mô, tầm nhìn chiến lược và phương thức điều phối.
+
+Việc thấu hiểu rõ ràng sự khác biệt giữa dự án và chương trình sẽ giúp bạn định vị chính xác vai trò của mình trong bức tranh tổng thể của tổ chức.
+
+Trước hết, chúng ta hãy nhắc lại, định nghĩa của một Dự án, tức Project, Một dự án là một nỗ lực tạm thời được thực hiện để tạo ra một sản phẩm, dịch vụ hoặc kết quả duy nhất. Đặc trưng nổi bật của dự án là luôn có điểm bắt đầu và điểm kết thúc rõ ràng về mặt thời gian, có phạm vi công việc được xác định cụ thể và được cấp một khoản ngân sách nhất định. Người quản lý dự án tập trung vào việc thực thi chi tiết, Quản lý các công việc hàng ngày, phân bổ nguồn lực, theo dõi lịch trình và kiểm soát chất lượng của sản phẩm bàn giao cụ thể đó.
+
+Trong khi đó, một Chương trình, tức Program, được định nghĩa là một nhóm các dự án liên quan, các chương trình con và các hoạt động chương trình được quản lý một cách phối hợp nhịp nhàng nhằm đạt được những lợi ích chiến lược và sự kiểm soát mà việc quản lý từng dự án riêng lẻ không thể có được.
+
+Những điểm khác biệt cốt lõi giữa quản lý dự án và quản lý chương trình bao gồm,
+
+Thứ nhất là về Mục tiêu và Tầm nhìn, Mục tiêu của dự án thường mang tính cụ thể, hữu hình và ngắn hạn hơn, ví dụ, Xây dựng xong ứng dụng di động mới. Mục tiêu của chương trình mang tính chiến lược dài hạn và tập trung vào các lợi ích kinh doanh tổng thể, ví dụ, Chương trình chuyển đổi số toàn diện dịch vụ ngân hàng bán lẻ, bao gồm nhiều dự án con như dự án ứng dụng di động, dự án nâng cấp bảo mật hệ thống ngân hàng lõi, và dự án đào tạo nhân viên.
+
+Thứ hai là về Quản lý Thay đổi, Trong một dự án, người quản lý dự án luôn cố gắng kiểm soát và hạn chế tối đa các thay đổi để bảo vệ phạm vi và lịch trình ban đầu. Ngược lại, trong một chương trình, người quản lý chương trình, tức Program Manager, luôn chủ động đón nhận sự thay đổi từ môi trường kinh doanh bên ngoài để điều chỉnh phương hướng của các dự án con sao cho toàn bộ tổ chức đạt được lợi ích chiến lược tối đa.

@@ -1,0 +1,19 @@
+Bối cảnh tình huống, Công ty EduTech đang triển khai một dự án trọng điểm kéo dài sáu tháng mang tên EduConnect, nhằm nâng cấp toàn diện nền tảng học tập trực tuyến để phục vụ cho năm trăm nghìn học sinh chuẩn bị bước vào năm học mới. Dự án bao gồm việc tái cấu trúc hệ thống máy chủ, tích hợp tính năng lớp học ảo tương tác video và phát hành ứng dụng di động mới.
+
+Người quản lý dự án là anh Minh. Ngay từ giai đoạn khởi động và lập kế hoạch, Minh đã nhận thức rõ đây là một dự án phức tạp với thời hạn chót không thể thương lượng, Toàn bộ hệ thống phải sẵn sàng vận hành trước ngày khai giảng mùng năm tháng Chín.
+
+Bước thứ nhất, Nhận diện rủi ro qua buổi Động não tập thể, 
+Minh đã tập hợp các kỹ sư trưởng, chuyên viên trải nghiệm người dùng và đại diện chăm sóc khách hàng vào một buổi hội thảo kéo dài hai giờ. Thông qua thảo luận cởi mở, nhóm đã liệt kê được hơn hai mươi rủi ro tiềm ẩn. Trong đó, có ba rủi ro nổi bật nhất, 
+Rủi ro A, Nhà cung cấp dịch vụ máy chủ đám mây có thể bị quá tải băng thông trong giờ cao điểm của tuần lễ đầu tiên.
+Rủi ro B, Quy trình kiểm duyệt ứng dụng trên kho ứng dụng di động của bên thứ ba có thể kéo dài hơn dự kiến, khiến ứng dụng không kịp xuất hiện trước ngày khai giảng.
+Rủi ro C, Giáo viên và phụ huynh gặp khó khăn khi làm quen với giao diện lớp học ảo mới, dẫn đến tình trạng đường dây nóng hỗ trợ bị nghẽn mạch.
+
+Bước thứ hai, Đánh giá và Phân loại bằng Ma trận Xác suất và Tác động, 
+Minh đưa các rủi ro vào Ma trận Xác suất và Tác động, 
+Rủi ro B được xếp vào ô Đỏ khẩn cấp, Xác suất xảy ra ở mức trung bình nhưng tác động cực kỳ nghiêm trọng vì nếu không có ứng dụng di động, học sinh sẽ không thể tham gia lớp học đúng ngày.
+Rủi ro C được xếp vào ô Vàng, Xác suất xảy ra rất cao nhưng mức độ tác động ở mức vừa phải vì có thể khắc phục dần qua hướng dẫn.
+Rủi ro A được xếp vào ô Vàng, Xác suất thấp nhưng tác động cao.
+
+Bước thứ ba, Lập Kế hoạch Giảm thiểu và Gán trách nhiệm cụ thể, 
+Đối với Rủi ro B, Minh quyết định áp dụng chiến lược đẩy sớm lịch trình, Toàn bộ phiên bản ứng dụng di động phải được hoàn thiện và nộp lên kho ứng dụng trước ngày khai giảng tối thiểu bốn tuần, thay vì hai tuần như kế hoạch ban đầu, nhằm tạo ra một vùng đệm an toàn đề phòng việc bị yêu cầu sửa đổi bổ sung.
+Đối với Rủi ro C, đội ngũ đã chủ động ghi hình các video hướng dẫn sử dụng ngắn gọn dài hai phút và gửi tới phụ huynh trước hai tuần, đồng thời, thiết lập hệ thống câu hỏi thường gặp tự động để giải tỏa áp lực cho bộ phận hỗ trợ khách hàng.

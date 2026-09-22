@@ -1,0 +1,15 @@
+Bí quyết đầu tiên của tôi là xác định rõ các điểm giao cắt và phụ thuộc then chốt giữa các luồng công việc, tức Key Dependencies. Ví dụ, đội ngũ giao diện người dùng không thể hoàn thiện thiết kế nếu chưa nhận được quy chuẩn dữ liệu từ đội ngũ kỹ thuật máy chủ. Bằng cách vẽ ra sơ đồ liên kết giữa các luồng công việc ngay từ đầu, tôi luôn biết trước mắt xích nào đang là yếu tố quyết định tốc độ của toàn bộ hệ thống.
+
+Bí quyết thứ hai là thiết lập một nhịp điệu đồng bộ chung, tức Sync Cadence. Thay vì tổ chức hàng chục cuộc họp riêng lẻ gây phân mảnh thời gian, tôi duy trì một cuộc họp đồng bộ ngắn vào đầu tuần với đại diện trưởng nhóm của từng luồng công việc. Trong buổi họp này, mỗi người chỉ tập trung trả lời ba câu hỏi, Luồng công việc của bạn có đang đúng tiến độ không? Có rào cản nào đang cản trở bạn không? Và bạn có đang cần sự hỗ trợ nào từ các luồng công việc khác hay không?
+
+Và bí quyết thứ ba là sử dụng một nguồn thông tin duy nhất đáng tin cậy, tức Single Source of Truth. Chúng tôi sử dụng một bảng điều khiển trực quan chung nơi trạng thái của mọi luồng công việc đều được cập nhật công khai. Khi mọi người cùng nhìn vào một bức tranh chung, sự thấu hiểu và tinh thần tương trợ lẫn nhau giữa các nhóm chức năng sẽ tự động được củng cố mạnh mẽ.
+
+BÁO CÁO TRẠNG THÁI DỰ ÁN, PROJECT STATUS REPORTS.
+. ......
+Một trong những công cụ giao tiếp và theo dõi quan trọng bậc nhất trong tay người quản lý dự án chính là Báo cáo trạng thái dự án, tức Project Status Report. Đây là tài liệu định kỳ tóm lược toàn bộ tình hình hoạt động của dự án nhằm cung cấp cho các bên liên quan cái nhìn minh bạch, chuẩn xác và kịp thời về tiến độ thực hiện công việc.
+
+Mục đích cốt lõi của một bản báo cáo trạng thái không chỉ đơn thuần là liệt kê những việc đã làm, mà quan trọng hơn, nó tạo ra sự liên kết chặt chẽ giữa đội ngũ thực thi và các bên liên quan, duy trì trách nhiệm giải trình và giúp nhận diện sớm các nguy cơ tiềm ẩn để kịp thời tháo gỡ.
+
+Một bản báo cáo trạng thái dự án chuẩn mực và chuyên nghiệp thường bao gồm các thành phần trọng yếu sau,
+
+Thứ nhất là Tóm tắt điều hành, tức Executive Summary, Đây là phần cô đọng nhất nằm ngay đầu báo cáo, tóm lược tình trạng tổng thể của dự án trong một vài câu ngắn gọn. Các nhà lãnh đạo bận rộn thường chỉ có vài phút để nắm bắt thông tin, do đó, phần tóm tắt này cần nêu bật được thông điệp cốt lõi nhất, Dự án đang diễn tiến ra sao và có vấn đề nào cần cấp trên can thiệp hay không.

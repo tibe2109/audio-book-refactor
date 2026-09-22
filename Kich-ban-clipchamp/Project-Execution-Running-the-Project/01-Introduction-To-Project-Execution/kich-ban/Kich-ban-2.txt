@@ -1,0 +1,11 @@
+Tiếp theo, tôi sẽ chia sẻ về công tác theo dõi tiến độ và quản lý chất lượng dự án. Bạn sẽ học cách đo lường sát sao tiến trình phát triển của dự án, đồng thời, biết cách áp dụng các kỹ thuật cải tiến liên tục, tức Continuous Improvement, cùng các phương pháp quản lý chất lượng để giữ cho dự án luôn đi đúng quỹ đạo và vận hành êm ả. Những phương pháp thực hành tối ưu này mang lại giá trị to lớn cho hầu như mọi vị trí công việc, và tôi rất mong chờ được chia sẻ chúng cùng bạn.
+
+Một khía cạnh then chốt khác của việc điều hành dự án chính là việc ra quyết định. Bạn sẽ học cách vừa thu thập, vừa phân tích dữ liệu để đưa ra các quyết sách sáng suốt, và sau đó vận dụng chính nguồn dữ liệu đó để giải thích các khía cạnh trọng yếu của dự án cho mọi người cùng thấu hiểu. Tôi cũng sẽ cùng bạn thảo luận về nghệ thuật quản lý đội ngũ và các nguyên lý cơ bản của kỹ năng gây ảnh hưởng. Phần lớn sự thành bại của một dự án đều dựa vào tinh thần đồng đội, và bạn sẽ học được cách một Project Manager dẫn dắt đội ngũ của mình cán đích thành công một cách xuất sắc nhất.
+
+Nhắc đến tinh thần đồng đội, tôi sẽ giới thiệu các công cụ giao tiếp hiệu quả dành cho đội ngũ cùng những mẹo thực tế để tổ chức và điều phối các buổi họp năng suất. Và cuối cùng, chúng ta sẽ khép lại khóa học bằng việc thảo luận về cách đóng dự án, tức Closing a Project. Bạn sẽ nắm được các bước cần thiết để hoàn tất dự án và thấu hiểu tầm quan trọng của việc ăn mừng thành quả cùng đồng nghiệp. Nghe thật thú vị phải không nào? Sau tất cả các bước chuẩn bị lập kế hoạch, đây chính là thời khắc công việc thực tế được triển khai và mọi mảnh ghép kết nối lại với nhau. Bạn đã sẵn sàng chưa? Hẹn gặp lại bạn ở bài học tiếp theo, nơi chúng ta sẽ khám phá tầm quan trọng của việc theo dõi và đo lường tiến độ dự án.
+
+TỔNG QUAN VỀ KHÓA HỌC BỐN, COURSE BỐN OVERVIEW.
+. ......
+Xin chào bạn! Chào mừng bạn đến với khóa học thứ tư trong chuỗi bảy khóa học thuộc chương trình Chứng chỉ Quản trị Dự án Chuyên nghiệp của Google, tức Google Project Management Certificate program.
+
+Để bạn có được cái nhìn tổng thể về lộ trình học tập, chúng ta hãy cùng điểm lại các học phần cốt lõi,

@@ -1,0 +1,16 @@
+Thứ hai là Khi phát sinh xung đột về quyền ưu tiên tài nguyên giữa các bộ phận, Ví dụ, một kỹ sư lập trình chủ chốt đang làm việc cho dự án của bạn bất ngờ bị một trưởng phòng ban khác điều động sang một nhiệm vụ khẩn cấp khác. Đây là sự việc vượt quá thẩm quyền quyết định của bạn và cần sự phân xử ở cấp quản lý lãnh đạo.
+
+Thứ ba là Khi bạn cần sự hỗ trợ hoặc quyền quyết định vượt ngoài thẩm quyền, Ví dụ, cần phê duyệt một khoản chi phí bổ sung ngoài hạn mức, hoặc cần đàm phán lại các điều khoản hợp đồng mang tính pháp lý với một nhà cung cấp chiến lược.
+
+Khi thực hiện báo cáo leo thang, bạn cần tuân thủ các nguyên tắc vàng sau, 
+Đừng bao giờ mang đến cho cấp trên một vấn đề đơn thuần mà không đi kèm với các phương án giải quyết đề xuất. Hãy trình bày rõ ràng, Vấn đề là gì, tác động ra sao, và bạn đề xuất hai đến ba lựa chọn xử lý kèm theo ưu nhược điểm của từng lựa chọn.
+Hãy giữ thái độ khách quan, trung thực và tập trung vào sự kiện thực tế, tuyệt đối không đổ lỗi hay chỉ trích cá nhân.
+Nêu rõ hành động cụ thể mà bạn đang kỳ vọng từ người nhận báo cáo, cũng như thời hạn cần đưa ra quyết định để không làm đình trệ công việc tiếp theo.
+
+TRUYỀN THÔNG VÀ THÔNG BÁO THAY ĐỔI TỚI ĐỘI NGŨ, COMMUNICATING CHANGES TO THE TEAM.
+. ......
+Khi một sự thay đổi về kế hoạch, phạm vi, tiến độ hoặc phương thức làm việc chính thức được ban lãnh đạo thông qua, nhiệm vụ tiếp theo của người quản lý dự án là truyền đạt sự thay đổi đó tới toàn thể đội ngũ thực thi. Cách thức bạn truyền thông về sự thay đổi sẽ quyết định trực tiếp việc đội ngũ đón nhận nó với tinh thần hợp tác tích cực hay với thái độ hoang mang, phản kháng và suy giảm nhu lực.
+
+Để truyền thông thay đổi thành công, bạn nên áp dụng các bước chiến lược sau,
+
+Bước thứ nhất là Giải thích rõ ràng lý do vì sao thay đổi lại xuất hiện, tức Explain the Why, Con người tự nhiên thường có tâm lý ngại thay đổi, đặc biệt là khi họ đã dành nhiều công sức cho kế hoạch cũ. Nếu bạn chỉ đơn thuần ra lệnh, Kể từ hôm nay chúng ta sẽ làm theo cách mới, đội ngũ sẽ cảm thấy nỗ lực trước đây của họ bị coi thường. Thay vào đó, hãy giải thích cặn kẽ bối cảnh, Tại sao khách hàng lại yêu cầu điều này? Thay đổi này sẽ giúp sản phẩm cạnh tranh tốt hơn ra sao? Hoặc nó sẽ giải quyết rủi ro lớn nào cho công ty? Khi thấu hiểu được mục đích sâu xa, đội ngũ sẽ dễ dàng đồng thuận và ủng hộ hơn rất nhiều.

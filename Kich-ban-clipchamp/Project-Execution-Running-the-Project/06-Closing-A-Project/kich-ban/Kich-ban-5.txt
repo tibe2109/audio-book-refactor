@@ -1,0 +1,14 @@
+Làm thế nào để bạn đảm bảo rằng khách hàng và các bên liên quan chủ chốt đều hạnh phúc với giai đoạn đóng dự án?
+Trước hết, bạn cần quyết định xem liệu dự án của bạn có nên áp dụng một quy trình đóng dự án quy mô nhỏ ở cuối mỗi mốc quan trọng Milestone, hay một giai đoạn đóng dự án chính thức và toàn diện hơn ở gần cuối cùng. Bạn thậm chí có thể quyết định thực hiện cả hai, Vừa đóng dự án quy mô nhỏ sau mỗi mốc quan trọng, vừa tiến hành đóng dự án chính thức ở thời điểm kết thúc toàn bộ dự án. Bạn xác định điều này bằng cách tự hỏi xem liệu một mốc quan trọng cụ thể đã là kết quả cuối cùng hay chưa, nghĩa là mốc đó sẽ không cần phải xem xét lại trong tương lai.
+
+Dưới đây là các bước then chốt khi đóng dự án với khách hàng và các bên liên quan, 
+một. Tiến hành kiểm tra nghiệm thu chính thức của người dùng, tức U-A-T, User Acceptance Testing, Đảm bảo rằng khách hàng đích thân kiểm tra và xác nhận sản phẩm đáp ứng hoàn hảo các tiêu chí đã cam kết.
+hai. Thu thập chữ ký nghiệm thu chính thức bằng văn bản, tức Formal Sign-off, Đây là tài liệu pháp lý quan trọng nhất khẳng định khách hàng đã đồng ý tiếp nhận sản phẩm và dự án đã hoàn thành nghĩa vụ.
+ba. Kế hoạch chuyển giao sang vận hành, tức Handover Plan, Chuyển giao toàn bộ tài liệu kỹ thuật, hướng dẫn sử dụng, đào tạo người dùng cuối và thiết lập các thỏa thuận mức độ dịch vụ hỗ trợ kỹ thuật, tức S-L-A, Service Level Agreement.
+bốn. Thanh lý hợp đồng và tất toán tài chính, Đảm bảo các hóa đơn cuối cùng được thanh toán đầy đủ, giải phóng các khoản tiền bảo lãnh bảo hành và chính thức đóng hợp đồng với các nhà cung cấp.
+
+Khi khách hàng cảm thấy họ được chăm sóc chu đáo đến tận giây phút cuối cùng, họ sẽ luôn sẵn sàng quay trở lại hợp tác với bạn trong những dự án tiếp theo.
+
+CHỨNG MINH TÁC ĐỘNG CỦA DỰ ÁN TRƯỚC CÁC BÊN LIÊN QUAN, DEMONSTRATING PROJECT IMPACT TO STAKEHOLDERS.
+. ......
+Một trong những nhiệm vụ vinh quang nhất của người quản lý dự án trong giai đoạn đóng dự án là chứng minh giá trị thực tế và tác động to lớn mà dự án đã mang lại cho tổ chức và các bên liên quan.

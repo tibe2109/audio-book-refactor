@@ -1,0 +1,267 @@
+1
+00:00:00,410 --> 00:00:03,450
+So we've discussed that
+tracking monitors
+
+2
+00:00:03,450 --> 00:00:05,685
+the progress of
+project activities.
+
+3
+00:00:05,685 --> 00:00:07,395
+But you may still be wondering,
+
+4
+00:00:07,395 --> 00:00:09,735
+what specifically
+should you be tracking?
+
+5
+00:00:09,735 --> 00:00:11,760
+I'll take you through a few of
+
+6
+00:00:11,760 --> 00:00:13,770
+the most commonly
+tracked items that I
+
+7
+00:00:13,770 --> 00:00:16,545
+found helpful when managing
+projects at Google.
+
+8
+00:00:16,545 --> 00:00:19,965
+First, you should always
+track the project schedule.
+
+9
+00:00:19,965 --> 00:00:22,970
+This is made up of tasks
+and activities that ensure
+
+10
+00:00:22,970 --> 00:00:24,350
+that the project is effectively
+
+11
+00:00:24,350 --> 00:00:25,870
+heading toward its
+completion date.
+
+12
+00:00:25,870 --> 00:00:27,860
+After all, your
+ultimate goal is to
+
+13
+00:00:27,860 --> 00:00:30,340
+complete your
+deliverables on time.
+
+14
+00:00:30,340 --> 00:00:33,515
+Equally important is tracking
+the status of action items,
+
+15
+00:00:33,515 --> 00:00:35,690
+key tasks, and
+activities to ensure
+
+16
+00:00:35,690 --> 00:00:38,045
+that that work is
+actually getting done.
+
+17
+00:00:38,045 --> 00:00:40,070
+Tracking tasks also helps to
+
+18
+00:00:40,070 --> 00:00:42,745
+track your team's progress
+toward milestones.
+
+19
+00:00:42,745 --> 00:00:44,810
+We learned a bit
+more about tracking
+
+20
+00:00:44,810 --> 00:00:47,555
+progress toward milestones
+earlier in the course,
+
+21
+00:00:47,555 --> 00:00:50,060
+and we stressed the
+importance of creating tasks
+
+22
+00:00:50,060 --> 00:00:52,720
+and milestones to keep
+everyone on track.
+
+23
+00:00:52,720 --> 00:00:54,765
+When you're in the
+middle of a project,
+
+24
+00:00:54,765 --> 00:00:57,135
+new tasks will come
+up all the time.
+
+25
+00:00:57,135 --> 00:00:59,195
+In order to avoid
+missing deadlines,
+
+26
+00:00:59,195 --> 00:01:01,370
+it's imperative to
+track tasks as they
+
+27
+00:01:01,370 --> 00:01:04,120
+progress and as you
+approach key milestones.
+
+28
+00:01:04,120 --> 00:01:07,520
+Next, you'll also need to
+track costs to ensure that
+
+29
+00:01:07,520 --> 00:01:10,900
+you don't overspend or
+underspend on project tasks.
+
+30
+00:01:10,900 --> 00:01:12,320
+As I mentioned earlier,
+
+31
+00:01:12,320 --> 00:01:13,790
+all projects have budgets,
+
+32
+00:01:13,790 --> 00:01:16,325
+and whether or not you're
+overseeing the entire budget,
+
+33
+00:01:16,325 --> 00:01:18,170
+you may be overseeing tasks and
+
+34
+00:01:18,170 --> 00:01:20,740
+resources that have
+budget implications.
+
+35
+00:01:20,740 --> 00:01:24,215
+Finally, you'll need to track
+key decisions, changes,
+
+36
+00:01:24,215 --> 00:01:26,690
+dependencies, and
+risks to the project,
+
+37
+00:01:26,690 --> 00:01:29,165
+including any agreed
+upon scope changes.
+
+38
+00:01:29,165 --> 00:01:31,640
+This way, your team and
+stakeholders are aligned
+
+39
+00:01:31,640 --> 00:01:34,280
+on what needs to be done
+for the project to succeed.
+
+40
+00:01:34,280 --> 00:01:36,440
+We will cover this in
+more detail throughout
+
+41
+00:01:36,440 --> 00:01:39,340
+the course since it's a big
+part of running the project.
+
+42
+00:01:39,340 --> 00:01:42,320
+To recap, the items that are
+helpful to track throughout
+
+43
+00:01:42,320 --> 00:01:45,710
+the project execution phase
+include the project schedule,
+
+44
+00:01:45,710 --> 00:01:48,304
+which contains the key
+tasks and activities,
+
+45
+00:01:48,304 --> 00:01:50,180
+the status of action items,
+
+46
+00:01:50,180 --> 00:01:52,900
+progress toward milestones, costs,
+
+47
+00:01:52,900 --> 00:01:54,960
+and key decisions and changes.
+
+48
+00:01:54,960 --> 00:01:56,810
+There are many moving parts to be
+
+49
+00:01:56,810 --> 00:01:58,805
+aware of once a
+project is underway.
+
+50
+00:01:58,805 --> 00:02:01,220
+Tracking them closely
+benefits you and
+
+51
+00:02:01,220 --> 00:02:03,805
+your team as you head
+toward the project goal.
+
+52
+00:02:03,805 --> 00:02:05,750
+I've taken you through
+an introduction
+
+53
+00:02:05,750 --> 00:02:07,265
+to tracking, and coming up,
+
+54
+00:02:07,265 --> 00:02:09,380
+we'll discuss project
+management tools and
+
+55
+00:02:09,380 --> 00:02:12,200
+templates you can use to
+track project activities.
+
+56
+00:02:12,200 --> 00:02:16,050
+Meet me in the next video
+to expand your toolkit.

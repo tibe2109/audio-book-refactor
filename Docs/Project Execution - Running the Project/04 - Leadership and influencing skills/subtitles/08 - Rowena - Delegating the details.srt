@@ -1,0 +1,343 @@
+1
+00:00:03,590 --> 00:00:08,170
+Hi. I'm Rowena, a
+Senior Program Manager
+
+2
+00:00:08,170 --> 00:00:09,860
+in the Systems Productivity and
+
+3
+00:00:09,860 --> 00:00:12,155
+Reporting Team in Google Cloud.
+
+4
+00:00:12,155 --> 00:00:13,355
+As a project manager,
+
+5
+00:00:13,355 --> 00:00:14,780
+you'll find that
+you're not actually
+
+6
+00:00:14,780 --> 00:00:17,965
+the direct manager of
+people in their roles.
+
+7
+00:00:17,965 --> 00:00:21,290
+The key soft skill
+to have here is
+
+8
+00:00:21,290 --> 00:00:25,365
+around influence; influencing
+without authority.
+
+9
+00:00:25,365 --> 00:00:27,250
+It's the ability to be able to
+
+10
+00:00:27,250 --> 00:00:29,770
+communicate with people
+and make sure that
+
+11
+00:00:29,770 --> 00:00:32,020
+they understand your
+goals and objectives and
+
+12
+00:00:32,020 --> 00:00:35,045
+take them along on a shared
+vision and shared journey.
+
+13
+00:00:35,045 --> 00:00:37,720
+When I first became
+a project manager,
+
+14
+00:00:37,720 --> 00:00:40,870
+one of the mistakes that I
+often made was trying to do
+
+15
+00:00:40,870 --> 00:00:44,290
+everything for myself
+and not asking for help.
+
+16
+00:00:44,290 --> 00:00:46,810
+Over the course of the
+last couple of years,
+
+17
+00:00:46,810 --> 00:00:49,060
+I've really learned how
+to delegate and work
+
+18
+00:00:49,060 --> 00:00:51,700
+with others as part
+of a team to make
+
+19
+00:00:51,700 --> 00:00:54,940
+sure that I'm effectively
+managing a project as
+
+20
+00:00:54,940 --> 00:00:57,490
+a project manager
+regardless of whether I
+
+21
+00:00:57,490 --> 00:01:00,850
+have management or authority
+over the project team,
+
+22
+00:01:00,850 --> 00:01:02,590
+and allowing those SMEs to
+
+23
+00:01:02,590 --> 00:01:04,730
+really do what they're
+really good at.
+
+24
+00:01:04,730 --> 00:01:09,540
+Delegating for me in my
+day-to-day role looks like this:
+
+25
+00:01:09,540 --> 00:01:12,970
+I try to find subject matter
+experts or people that
+
+26
+00:01:12,970 --> 00:01:15,310
+really enjoy doing a
+specific something
+
+27
+00:01:15,310 --> 00:01:17,040
+that may not actually
+be their role.
+
+28
+00:01:17,040 --> 00:01:19,210
+One of the best
+pieces of advice I
+
+29
+00:01:19,210 --> 00:01:21,370
+ever got from a
+mentor was around
+
+30
+00:01:21,370 --> 00:01:24,040
+finding people in the
+organization that
+
+31
+00:01:24,040 --> 00:01:27,265
+enjoy doing something and
+delegating your work to them.
+
+32
+00:01:27,265 --> 00:01:29,740
+That way you can focus
+on overall project
+
+33
+00:01:29,740 --> 00:01:32,170
+or program management
+without having to get
+
+34
+00:01:32,170 --> 00:01:33,550
+bogged down in the weeds by
+
+35
+00:01:33,550 --> 00:01:35,710
+certain details that
+actually you might not enjoy
+
+36
+00:01:35,710 --> 00:01:39,385
+doing or someone else
+really enjoys doing.
+
+37
+00:01:39,385 --> 00:01:42,190
+Psychological safety
+is really important in
+
+38
+00:01:42,190 --> 00:01:43,570
+teams because it brings
+
+39
+00:01:43,570 --> 00:01:46,140
+diversity of thought
+to the table.
+
+40
+00:01:46,140 --> 00:01:49,510
+One thing that I'm really
+working on is making sure
+
+41
+00:01:49,510 --> 00:01:52,915
+that we practice
+inclusive meetings.
+
+42
+00:01:52,915 --> 00:01:54,430
+An example of that could
+
+43
+00:01:54,430 --> 00:01:56,650
+be in a meeting if
+you notice that
+
+44
+00:01:56,650 --> 00:01:58,630
+one or two participants
+
+45
+00:01:58,630 --> 00:02:01,330
+are usually quiet
+or don't speak up,
+
+46
+00:02:01,330 --> 00:02:03,370
+try to encourage
+them to be a part
+
+47
+00:02:03,370 --> 00:02:05,550
+of the conversation. Even better,
+
+48
+00:02:05,550 --> 00:02:07,300
+have a coffee with
+them before and
+
+49
+00:02:07,300 --> 00:02:09,685
+ask them what they think
+of the upcoming topic.
+
+50
+00:02:09,685 --> 00:02:12,810
+Encourage them to bring
+those ideas to the table.
+
+51
+00:02:12,810 --> 00:02:16,775
+Having diversity of thought
+in the room is so important.
+
+52
+00:02:16,775 --> 00:02:18,220
+Otherwise, you're
+going to end up
+
+53
+00:02:18,220 --> 00:02:20,230
+with one person in the room
+
+54
+00:02:20,230 --> 00:02:22,210
+constantly just
+bringing their thoughts
+
+55
+00:02:22,210 --> 00:02:23,680
+and ideas to the table.
+
+56
+00:02:23,680 --> 00:02:25,565
+That's not very diverse.
+
+57
+00:02:25,565 --> 00:02:27,879
+One thing with
+psychological safety
+
+58
+00:02:27,879 --> 00:02:34,005
+is this partnership with
+mentorship and sponsorship.
+
+59
+00:02:34,005 --> 00:02:38,120
+To delegate, I make sure
+that I sponsor people.
+
+60
+00:02:38,120 --> 00:02:40,640
+I make sure that I showcase
+
+61
+00:02:40,640 --> 00:02:44,120
+their best quality work across
+the whole project team.
+
+62
+00:02:44,120 --> 00:02:46,425
+It's really important
+for morale.
+
+63
+00:02:46,425 --> 00:02:48,705
+On the other side
+with mentorship,
+
+64
+00:02:48,705 --> 00:02:50,300
+if there's a junior team member
+
+65
+00:02:50,300 --> 00:02:51,770
+on a team that
+maybe doesn't have
+
+66
+00:02:51,770 --> 00:02:55,430
+the experience or isn't
+as confident speaking up,
+
+67
+00:02:55,430 --> 00:02:57,350
+I usually delegate
+smaller tasks to
+
+68
+00:02:57,350 --> 00:02:59,615
+them to build up
+their confidence or
+
+69
+00:02:59,615 --> 00:03:02,090
+delegate something that they
+might actually consider to
+
+70
+00:03:02,090 --> 00:03:04,775
+be fun that's not in their
+normal day-to-day work.
+
+71
+00:03:04,775 --> 00:03:07,220
+Finding those unique balances is
+
+72
+00:03:07,220 --> 00:03:10,680
+the best way to delegate
+and prioritize.

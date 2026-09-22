@@ -1,0 +1,13 @@
+Một bài thuyết trình có cấu trúc chặt chẽ, hình ảnh trực quan sắc nét và thông điệp hành động rõ ràng như vậy chắc chắn sẽ nhận được sự đồng thuận tuyệt đối từ ban lãnh đạo.
+
+TỔNG KẾT HỌC PHẦN BA, WRAP-UP.
+. ......
+Xin chúc mừng bạn đã xuất sắc đi đến cuối học phần này! Vậy chúng ta đã học được những gì trong suốt chặng đường vừa qua?
+
+Chúng ta đã học được rằng dữ liệu đóng một vai trò then chốt trong sự thành công của bất kỳ tổ chức nào và nó tác động sâu sắc đến vai trò của bạn với tư cách là một người quản lý dự án. Chúng ta đã tìm hiểu dữ liệu là gì, giá trị to lớn mà dữ liệu mang lại cho các dự án của bạn, và cách dữ liệu trao quyền cho bạn để đạt được các mục tiêu của dự án.
+
+Bạn đã học về các loại dữ liệu khác nhau, như các chỉ số đo lường Metrics và các dự báo Projections, cùng cách thức xác định và phân biệt thông tin nào cần theo dõi sát sao và thông tin nào cần truyền đạt tới các bên liên quan. Bạn đã thấm nhuần các nguyên tắc đạo đức dữ liệu cốt lõi về quyền riêng tư, ẩn danh hóa P-I-I và loại bỏ bốn loại định kiến phổ biến, Định kiến chọn mẫu, định kiến người quan sát, định kiến diễn giải và định kiến xác nhận.
+
+Bạn đã làm chủ sáu bước phân tích dữ liệu kinh điển của Google, Đặt câu hỏi, Chuẩn bị, Xử lý, Phân tích, Chia sẻ và Hành động. Bạn cũng đã học cách sử dụng trực quan hóa dữ liệu để kể một câu chuyện dự án đầy sức hút bằng các biểu đồ phân tán, biểu đồ thanh, biểu đồ tròn và biểu đồ đường, đồng thời, thành thạo các kỹ thuật thuyết trình hiệu quả và thiết kế trang chiếu dễ tiếp cận cho tất cả mọi người.
+
+Tất cả những kiến thức và kỹ năng thực chiến này sẽ là hành trang vô giá giúp bạn luôn tự tin dẫn dắt dự án bằng sức mạnh của dữ liệu. Xin chúc mừng bạn và hẹn gặp lại bạn trong học phần tiếp theo!

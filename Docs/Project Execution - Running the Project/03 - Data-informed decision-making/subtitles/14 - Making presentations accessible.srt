@@ -1,0 +1,646 @@
+1
+00:00:00,080 --> 00:00:03,405
+Hello again. You
+just learned a lot
+
+2
+00:00:03,405 --> 00:00:06,405
+about presentation best
+practices from my colleague.
+
+3
+00:00:06,405 --> 00:00:08,339
+Just like you need
+to be strategic,
+
+4
+00:00:08,339 --> 00:00:11,595
+prepared, and clear about
+which data you want to share,
+
+5
+00:00:11,595 --> 00:00:13,515
+you also need to be intentional
+
+6
+00:00:13,515 --> 00:00:15,540
+about ensuring your
+presentations are
+
+7
+00:00:15,540 --> 00:00:17,010
+accessible and can be
+
+8
+00:00:17,010 --> 00:00:19,890
+consumed and understood
+by everyone.
+
+9
+00:00:19,890 --> 00:00:22,350
+Let's dive into some
+accessibility tips
+
+10
+00:00:22,350 --> 00:00:24,030
+to set you up for success,
+
+11
+00:00:24,030 --> 00:00:26,655
+starting with the design
+of your presentation.
+
+12
+00:00:26,655 --> 00:00:29,910
+First, create clear,
+simple slides.
+
+13
+00:00:29,910 --> 00:00:32,175
+Avoid using too many graphics,
+
+14
+00:00:32,175 --> 00:00:35,895
+too much text, or
+too much animation.
+
+15
+00:00:35,895 --> 00:00:38,190
+Visual complexity makes
+it harder for people
+
+16
+00:00:38,190 --> 00:00:40,840
+to absorb information
+during your presentation,
+
+17
+00:00:40,840 --> 00:00:42,290
+especially for those with
+
+18
+00:00:42,290 --> 00:00:44,690
+a visual or cognitive impairment.
+
+19
+00:00:44,690 --> 00:00:47,195
+If your slide uses animation,
+
+20
+00:00:47,195 --> 00:00:49,415
+make sure that you don't
+leave people behind
+
+21
+00:00:49,415 --> 00:00:51,905
+by making important
+content disappear.
+
+22
+00:00:51,905 --> 00:00:55,745
+If people read more slowly
+or rely on an interpreter,
+
+23
+00:00:55,745 --> 00:00:59,125
+they might need a bit more
+time to absorb the content.
+
+24
+00:00:59,125 --> 00:01:01,475
+Avoid using repetitive animation,
+
+25
+00:01:01,475 --> 00:01:03,155
+like flashing or flickering,
+
+26
+00:01:03,155 --> 00:01:06,170
+since it can be distracting
+and can trigger seizures.
+
+27
+00:01:06,170 --> 00:01:08,645
+Simple doesn't have to
+mean boring, though.
+
+28
+00:01:08,645 --> 00:01:12,140
+A simple slide can still be
+beautiful and informative.
+
+29
+00:01:12,140 --> 00:01:13,490
+Just don't try to crowd
+
+30
+00:01:13,490 --> 00:01:17,240
+too much information or
+activity into a single slide.
+
+31
+00:01:17,240 --> 00:01:20,570
+If you generally don't use
+slides when giving a talk,
+
+32
+00:01:20,570 --> 00:01:22,615
+consider giving it a try—even
+
+33
+00:01:22,615 --> 00:01:26,360
+if you create just one
+slide with your main points.
+
+34
+00:01:26,360 --> 00:01:28,910
+If you rely only on your voice,
+
+35
+00:01:28,910 --> 00:01:31,945
+that is, you don't provide
+any visual accompaniment,
+
+36
+00:01:31,945 --> 00:01:35,330
+some people might have
+difficulty understanding, whether
+
+37
+00:01:35,330 --> 00:01:36,965
+because of a language barrier
+
+38
+00:01:36,965 --> 00:01:39,020
+or hearing or
+cognitive impairment.
+
+39
+00:01:39,020 --> 00:01:42,050
+Another tip is to include
+alternative text,
+
+40
+00:01:42,050 --> 00:01:44,510
+also called "alt text," for
+
+41
+00:01:44,510 --> 00:01:47,495
+any images, drawings,
+or diagrams.
+
+42
+00:01:47,495 --> 00:01:50,885
+Doing so describes the
+information relayed in a graphic
+
+43
+00:01:50,885 --> 00:01:52,580
+to make it accessible to people
+
+44
+00:01:52,580 --> 00:01:54,760
+who rely on screen readers.
+
+45
+00:01:54,760 --> 00:01:58,490
+To add alt text in Google
+Slides or PowerPoint,
+
+46
+00:01:58,490 --> 00:02:00,335
+simply select the object,
+
+47
+00:02:00,335 --> 00:02:03,340
+right-click, and then
+select "alt text."
+
+48
+00:02:03,340 --> 00:02:06,465
+The same consideration
+applies to charts.
+
+49
+00:02:06,465 --> 00:02:08,885
+Charts can be
+difficult to decipher,
+
+50
+00:02:08,885 --> 00:02:10,130
+especially if they use
+
+51
+00:02:10,130 --> 00:02:12,970
+a small font in order
+to fit more data.
+
+52
+00:02:12,970 --> 00:02:17,085
+If your slide includes
+data-heavy charts or graphs,
+
+53
+00:02:17,085 --> 00:02:19,520
+be sure to specify the
+takeaway either on
+
+54
+00:02:19,520 --> 00:02:21,905
+the slide itself or
+in the speaker notes.
+
+55
+00:02:21,905 --> 00:02:25,610
+Next, always use text for
+critical information.
+
+56
+00:02:25,610 --> 00:02:28,175
+Never rely only on color or
+
+57
+00:02:28,175 --> 00:02:29,780
+other visual formatting to convey
+
+58
+00:02:29,780 --> 00:02:32,350
+critical information
+on a chart or slide.
+
+59
+00:02:32,350 --> 00:02:35,360
+Relying too heavily
+on visual formatting
+
+60
+00:02:35,360 --> 00:02:37,070
+excludes anyone who is
+
+61
+00:02:37,070 --> 00:02:39,760
+color-blind or unable
+to see the screen.
+
+62
+00:02:39,760 --> 00:02:43,609
+For example, to highlight a
+new section of a flowchart,
+
+63
+00:02:43,609 --> 00:02:46,280
+don't simply use a
+different color.
+
+64
+00:02:46,280 --> 00:02:49,205
+Along with the color change,
+add a textual cue,
+
+65
+00:02:49,205 --> 00:02:50,885
+such as the word "new."
+
+66
+00:02:50,885 --> 00:02:54,170
+If your presentation
+relies heavily on images,
+
+67
+00:02:54,170 --> 00:02:56,990
+consider including a written
+summary at the end of
+
+68
+00:02:56,990 --> 00:02:58,970
+the presentation
+so that people can
+
+69
+00:02:58,970 --> 00:03:01,885
+read your main points
+easily in one place.
+
+70
+00:03:01,885 --> 00:03:04,550
+Another tip is to
+include captions for
+
+71
+00:03:04,550 --> 00:03:07,025
+video content and in real-time.
+
+72
+00:03:07,025 --> 00:03:10,730
+Provide captions for all
+audio or video recordings
+
+73
+00:03:10,730 --> 00:03:12,760
+shared in your presentation.
+
+74
+00:03:12,760 --> 00:03:15,290
+If you're using a YouTube video,
+
+75
+00:03:15,290 --> 00:03:18,800
+check that the YouTube automatic
+captioning is accurate.
+
+76
+00:03:18,800 --> 00:03:20,615
+If it's not, request
+
+77
+00:03:20,615 --> 00:03:23,285
+closed captioning through
+a captioning service.
+
+78
+00:03:23,285 --> 00:03:25,100
+Use real-time captioning for
+
+79
+00:03:25,100 --> 00:03:26,990
+your presentation, if available.
+
+80
+00:03:26,990 --> 00:03:28,730
+Along with helping deaf or
+
+81
+00:03:28,730 --> 00:03:30,515
+hard-of-hearing audience members,
+
+82
+00:03:30,515 --> 00:03:32,750
+real-time captioning
+is useful if there
+
+83
+00:03:32,750 --> 00:03:35,165
+are diverse accents and
+languages in the room,
+
+84
+00:03:35,165 --> 00:03:37,805
+if the presenter
+speaks too quickly,
+
+85
+00:03:37,805 --> 00:03:40,610
+if there are microphone
+issues, or if you
+
+86
+00:03:40,610 --> 00:03:41,960
+have chatty audience members
+
+87
+00:03:41,960 --> 00:03:43,625
+who are distracting
+their neighbors.
+
+88
+00:03:43,625 --> 00:03:45,650
+Another thing to remember is for
+
+89
+00:03:45,650 --> 00:03:48,785
+contrast and text
+size, more is better.
+
+90
+00:03:48,785 --> 00:03:50,600
+The difference between text and
+
+91
+00:03:50,600 --> 00:03:54,080
+its background color is
+called contrast ratio.
+
+92
+00:03:54,080 --> 00:03:56,780
+A high-contrast ratio
+makes it easier for
+
+93
+00:03:56,780 --> 00:03:59,420
+people to read text
+or decipher images,
+
+94
+00:03:59,420 --> 00:04:01,730
+especially if they're
+sitting far away
+
+95
+00:04:01,730 --> 00:04:04,010
+or have low vision
+or color blindness.
+
+96
+00:04:04,010 --> 00:04:08,215
+An ideal contrast ratio is 7:1.
+
+97
+00:04:08,215 --> 00:04:10,895
+There are contrast checker
+tools available online,
+
+98
+00:04:10,895 --> 00:04:12,980
+so be sure to check those out.
+
+99
+00:04:12,980 --> 00:04:15,350
+Recommendations for text size
+
+100
+00:04:15,350 --> 00:04:18,080
+vary, but bigger is
+usually better.
+
+101
+00:04:18,080 --> 00:04:20,090
+Before your presentation begins,
+
+102
+00:04:20,090 --> 00:04:21,890
+go to the back of
+the room and make
+
+103
+00:04:21,890 --> 00:04:24,055
+sure you can read your slides.
+
+104
+00:04:24,055 --> 00:04:26,675
+Also, the use of
+all capital letters
+
+105
+00:04:26,675 --> 00:04:29,615
+makes reading texts more
+difficult for some people,
+
+106
+00:04:29,615 --> 00:04:31,820
+such as people with dyslexia.
+
+107
+00:04:31,820 --> 00:04:34,775
+When possible, avoid
+using all caps.
+
+108
+00:04:34,775 --> 00:04:38,000
+This is a simple change
+that can go a long way.
+
+109
+00:04:38,000 --> 00:04:41,620
+My final tip is to share
+your content in advance.
+
+110
+00:04:41,620 --> 00:04:43,940
+If possible, send slides to
+
+111
+00:04:43,940 --> 00:04:46,940
+your audience a few days
+before your presentation.
+
+112
+00:04:46,940 --> 00:04:48,770
+This gives the
+audience a chance to
+
+113
+00:04:48,770 --> 00:04:50,765
+review the content, and if needed,
+
+114
+00:04:50,765 --> 00:04:52,580
+make arrangements to accommodate
+
+115
+00:04:52,580 --> 00:04:54,785
+their own needs and preferences.
+
+116
+00:04:54,785 --> 00:04:56,750
+For example, visually-impaired
+
+117
+00:04:56,750 --> 00:04:58,760
+audience members
+might want to follow
+
+118
+00:04:58,760 --> 00:05:00,230
+along with your slides on
+
+119
+00:05:00,230 --> 00:05:03,550
+their own device with
+screen-reading software.
+
+120
+00:05:03,550 --> 00:05:06,770
+If you aren't able to share
+your slides in advance,
+
+121
+00:05:06,770 --> 00:05:08,840
+consider sending a document with
+
+122
+00:05:08,840 --> 00:05:11,600
+a bulleted outline of
+your presentation.
+
+123
+00:05:11,600 --> 00:05:13,580
+If you're using acronyms or
+
+124
+00:05:13,580 --> 00:05:15,890
+technical or obscure terminology,
+
+125
+00:05:15,890 --> 00:05:18,485
+include a glossary
+with definitions.
+
+126
+00:05:18,485 --> 00:05:20,860
+This information is
+especially helpful
+
+127
+00:05:20,860 --> 00:05:23,525
+for sign language
+interpreters and captioners.
+
+128
+00:05:23,525 --> 00:05:26,990
+All of these best practices
+you just learned will help
+
+129
+00:05:26,990 --> 00:05:28,670
+make your presentations
+accessible
+
+130
+00:05:28,670 --> 00:05:30,730
+to all of your audience members.
+
+131
+00:05:30,730 --> 00:05:33,590
+Remember, you can't
+communicate information
+
+132
+00:05:33,590 --> 00:05:37,205
+effectively if your audience
+can't easily access it.
+
+133
+00:05:37,205 --> 00:05:40,190
+For these and other best
+practices on how to make
+
+134
+00:05:40,190 --> 00:05:42,860
+your documents and
+presentations more accessible,
+
+135
+00:05:42,860 --> 00:05:45,130
+check out the resources tab.
+
+136
+00:05:45,130 --> 00:05:47,300
+Coming up, you will learn about
+
+137
+00:05:47,300 --> 00:05:49,970
+team communication
+and best practices.
+
+138
+00:05:49,970 --> 00:05:52,070
+Good work so far! You're making
+
+139
+00:05:52,070 --> 00:05:53,240
+real progress, and I'm
+
+140
+00:05:53,240 --> 00:05:55,770
+excited to be a part
+of your journey.

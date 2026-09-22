@@ -1,0 +1,16 @@
+Cải tiến liên tục không phải là việc tạo ra những cuộc cách mạng chấn động hay những thay đổi đột ngột làm đảo lộn toàn bộ tổ chức, mà là thói quen bền bỉ tìm kiếm những cải tiến nhỏ bé, từng bước một, diễn ra đều đặn mỗi ngày. Khái niệm này có nguồn gốc sâu xa từ triết lý Kaizen nổi tiếng của Nhật Bản, trong đó Kai có nghĩa là thay đổi và Zen có nghĩa là tốt hơn. Khi toàn bộ đội ngũ từ nhân viên thực thi trực tiếp đến cấp lãnh đạo cao nhất đều không ngừng suy nghĩ cách làm sao để công việc hôm nay hiệu quả hơn hôm qua một chút, sức mạnh cộng dồn của hàng trăm cải tiến vi mô ấy sau một năm sẽ tạo ra bước nhảy vọt thần kỳ về năng suất và chất lượng.
+
+Vậy sự khác biệt giữa cải tiến liên tục và cải tiến quy trình là gì?
+Cải tiến liên tục là tư duy văn hóa và tinh thần cam kết của tổ chức, Luôn tin rằng mọi thứ đều có thể làm tốt hơn và không bao giờ thỏa mãn với hiện trạng.
+Cải tiến quy trình là các phương pháp và hành động cụ thể nhằm nhận diện, phân tích và tối ưu hóa các luồng công việc hiện tại để loại bỏ các khâu lãng phí, rút ngắn thời gian chu kỳ và nâng cao độ chính xác.
+
+Những mục tiêu cốt lõi của cải tiến quy trình bao gồm, 
+Loại bỏ lãng phí, tức Waste Elimination, Cắt giảm các bước phê duyệt rườm rà, hạn chế việc chuyển giao công việc qua quá nhiều tầng nấc trung gian, và xóa bỏ những cuộc họp kéo dài vô bổ.
+Chuẩn hóa quy trình làm việc, tức Standardization, Khi tìm ra một phương thức làm việc hiệu quả nhất, hãy văn bản hóa nó thành quy trình chuẩn để mọi thành viên đều có thể áp dụng đồng bộ và duy trì chất lượng nhất quán.
+Tự động hóa các tác vụ lặp đi lặp lại, Vận dụng công nghệ để tự động hóa các thao tác thủ công tốn thời gian, giải phóng nguồn lực con người để tập trung vào các công việc đòi hỏi tư duy sáng tạo và phân tích chiến lược.
+
+Bằng cách vun đắp văn hóa cải tiến liên tục, bạn sẽ biến đội ngũ dự án của mình thành một cỗ máy học hỏi không ngừng và luôn tràn đầy sinh khí đổi mới.
+
+CÁC KHUNG CẢI TIẾN DỰA TRÊN DỮ LIỆU, DATA-DRIVEN IMPROVEMENT FRAMEWORKS.
+. ......
+Để biến tinh thần cải tiến liên tục thành những kết quả thực tế đo lường được, các chuyên gia quản lý dự án trên thế giới đã phát triển và chuẩn hóa nhiều khung làm việc dựa trên dữ liệu, tức Data-Driven Improvement Frameworks. Hai khung làm việc kinh điển và quyền năng nhất mà bạn cần nắm vững là Chu trình P-D-C-A và Mô hình D-M-A-I-C.

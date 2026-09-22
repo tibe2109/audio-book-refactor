@@ -1,0 +1,704 @@
+1
+00:00:00,410 --> 00:00:03,060
+Have you ever looked back on
+
+2
+00:00:03,060 --> 00:00:05,880
+an event in your life and
+wished it went differently?
+
+3
+00:00:05,880 --> 00:00:08,745
+Well, we can't help
+you go back in time,
+
+4
+00:00:08,745 --> 00:00:11,190
+but there are things you
+can do to ensure you
+
+5
+00:00:11,190 --> 00:00:14,235
+don't experience the
+same missteps again.
+
+6
+00:00:14,235 --> 00:00:16,035
+In the last video,
+
+7
+00:00:16,035 --> 00:00:18,675
+we discussed continuous
+improvements.
+
+8
+00:00:18,675 --> 00:00:20,160
+One way to ensure
+
+9
+00:00:20,160 --> 00:00:23,580
+continuous improvements is
+to conduct a retrospective,
+
+10
+00:00:23,580 --> 00:00:26,775
+so let's discuss that a
+little more in depth.
+
+11
+00:00:26,775 --> 00:00:30,135
+A retrospective is a
+workshop or meeting
+
+12
+00:00:30,135 --> 00:00:33,870
+that gives project teams time
+to reflect on a project.
+
+13
+00:00:33,870 --> 00:00:37,230
+Retrospectives, sometimes
+known as retros,
+
+14
+00:00:37,230 --> 00:00:39,195
+should happen throughout
+the life cycle
+
+15
+00:00:39,195 --> 00:00:41,270
+of a project, but mostly
+
+16
+00:00:41,270 --> 00:00:43,550
+are implemented after
+major milestones,
+
+17
+00:00:43,550 --> 00:00:46,870
+or most commonly, after
+a project is completed.
+
+18
+00:00:46,870 --> 00:00:50,540
+Retrospectives give you a
+chance to discuss successes
+
+19
+00:00:50,540 --> 00:00:51,980
+and setbacks that took
+
+20
+00:00:51,980 --> 00:00:54,470
+place within the
+project or phases.
+
+21
+00:00:54,470 --> 00:00:56,840
+You can think of
+them as a form of
+
+22
+00:00:56,840 --> 00:00:59,615
+process improvement
+within your project.
+
+23
+00:00:59,615 --> 00:01:02,885
+Retrospectives serve
+three main purposes:
+
+24
+00:01:02,885 --> 00:01:04,940
+First, they encourage
+team building,
+
+25
+00:01:04,940 --> 00:01:07,220
+because they allow team
+members to understand
+
+26
+00:01:07,220 --> 00:01:09,940
+different perspectives
+within their team.
+
+27
+00:01:09,940 --> 00:01:11,840
+Second, they facilitate
+
+28
+00:01:11,840 --> 00:01:14,525
+improved collaboration
+on future projects.
+
+29
+00:01:14,525 --> 00:01:17,045
+Third, they promote
+positive changes
+
+30
+00:01:17,045 --> 00:01:19,460
+in future procedures
+and processes.
+
+31
+00:01:19,460 --> 00:01:22,465
+Let's detail each one.
+
+32
+00:01:22,465 --> 00:01:24,360
+Retrospectives are great for
+
+33
+00:01:24,360 --> 00:01:26,750
+team-building since they
+enable teams to understand
+
+34
+00:01:26,750 --> 00:01:28,520
+each other better and facilitate
+
+35
+00:01:28,520 --> 00:01:31,790
+better collaboration, which
+improves productivity.
+
+36
+00:01:31,790 --> 00:01:33,890
+The emphasis in retrospectives is
+
+37
+00:01:33,890 --> 00:01:35,820
+on continuous improvement
+and change,
+
+38
+00:01:35,820 --> 00:01:39,140
+instead of recycling old—
+and potentially bad—habits,
+
+39
+00:01:39,140 --> 00:01:41,350
+procedures, and processes.
+
+40
+00:01:41,350 --> 00:01:44,045
+Retrospectives are
+helpful because
+
+41
+00:01:44,045 --> 00:01:46,910
+even if we plan for
+every possible risk,
+
+42
+00:01:46,910 --> 00:01:49,625
+odds are that something
+will sneak up on us.
+
+43
+00:01:49,625 --> 00:01:51,380
+When something does fall through
+
+44
+00:01:51,380 --> 00:01:53,820
+the cracks and you need to
+reflect on it with the team,
+
+45
+00:01:53,820 --> 00:01:56,360
+you may want to conduct
+a retrospective.
+
+46
+00:01:56,360 --> 00:01:59,630
+Some additional reasons that
+you might want to conduct
+
+47
+00:01:59,630 --> 00:02:03,395
+a retrospective include missed
+deadlines or expectations,
+
+48
+00:02:03,395 --> 00:02:06,865
+or miscommunications
+between stakeholders.
+
+49
+00:02:06,865 --> 00:02:09,230
+You may also want to hold
+
+50
+00:02:09,230 --> 00:02:11,450
+a retrospective at
+the end of a sprint.
+
+51
+00:02:11,450 --> 00:02:13,490
+As a reminder, a sprint is
+
+52
+00:02:13,490 --> 00:02:16,765
+a series of ordered
+tasks ending in a goal.
+
+53
+00:02:16,765 --> 00:02:18,995
+You could also hold
+a retrospective
+
+54
+00:02:18,995 --> 00:02:21,520
+after product launches
+and landings.
+
+55
+00:02:21,520 --> 00:02:23,509
+These are all great opportunities
+
+56
+00:02:23,509 --> 00:02:25,055
+to record key lessons that
+
+57
+00:02:25,055 --> 00:02:26,750
+other people might learn from as
+
+58
+00:02:26,750 --> 00:02:29,095
+they work on their own projects.
+
+59
+00:02:29,095 --> 00:02:32,460
+Identifying the stumbling
+blocks and successes in
+
+60
+00:02:32,460 --> 00:02:35,595
+a project helps improve
+future processes,
+
+61
+00:02:35,595 --> 00:02:37,160
+but the way you decide to
+
+62
+00:02:37,160 --> 00:02:39,245
+conduct a retrospective can vary.
+
+63
+00:02:39,245 --> 00:02:41,300
+There's no exact formula or
+
+64
+00:02:41,300 --> 00:02:43,700
+template for a productive
+retrospective;
+
+65
+00:02:43,700 --> 00:02:45,470
+the way you choose to structure
+
+66
+00:02:45,470 --> 00:02:47,180
+your retrospective will depend
+
+67
+00:02:47,180 --> 00:02:49,460
+on your team and workplace.
+
+68
+00:02:49,460 --> 00:02:51,830
+You may decide to
+conduct a formal,
+
+69
+00:02:51,830 --> 00:02:53,750
+in-person retrospective
+if your team
+
+70
+00:02:53,750 --> 00:02:56,210
+prefers to debrief
+in that setting.
+
+71
+00:02:56,210 --> 00:02:58,160
+You can incorporate sticky notes,
+
+72
+00:02:58,160 --> 00:02:59,720
+documents, or any other kind of
+
+73
+00:02:59,720 --> 00:03:02,215
+physical tools to help
+your team debrief.
+
+74
+00:03:02,215 --> 00:03:04,820
+Or if you find that
+your team often
+
+75
+00:03:04,820 --> 00:03:07,325
+gets off track during
+in-person meetings,
+
+76
+00:03:07,325 --> 00:03:10,625
+you may decide a virtual
+or online retrospective
+
+77
+00:03:10,625 --> 00:03:12,050
+is a better option.
+
+78
+00:03:12,050 --> 00:03:13,970
+In this case, surveys
+
+79
+00:03:13,970 --> 00:03:16,345
+might help to get
+thoughts organized.
+
+80
+00:03:16,345 --> 00:03:19,520
+Although there's no one way
+to conduct retrospectives,
+
+81
+00:03:19,520 --> 00:03:22,310
+there are certain best
+practices to keep in mind.
+
+82
+00:03:22,310 --> 00:03:24,230
+As we previously mentioned,
+
+83
+00:03:24,230 --> 00:03:26,945
+you'll want your retrospectives
+to be blameless.
+
+84
+00:03:26,945 --> 00:03:28,970
+Making sure that everyone
+
+85
+00:03:28,970 --> 00:03:30,770
+feels comfortable
+giving feedback as
+
+86
+00:03:30,770 --> 00:03:32,555
+candidly as possible will
+
+87
+00:03:32,555 --> 00:03:35,485
+result in the most
+productive retrospective.
+
+88
+00:03:35,485 --> 00:03:38,000
+To navigate through
+awkward situations
+
+89
+00:03:38,000 --> 00:03:39,170
+or sensitive subjects,
+
+90
+00:03:39,170 --> 00:03:40,835
+it may be necessary to encourage
+
+91
+00:03:40,835 --> 00:03:43,550
+anonymous or private feedback.
+
+92
+00:03:43,550 --> 00:03:46,310
+A couple of tactics
+a project manager
+
+93
+00:03:46,310 --> 00:03:48,470
+can use to ensure
+the process remains
+
+94
+00:03:48,470 --> 00:03:50,870
+blameless are changing
+perspective and
+
+95
+00:03:50,870 --> 00:03:54,050
+switching from "you"
+language to "we" language.
+
+96
+00:03:54,050 --> 00:03:56,060
+Changing perspective
+means putting
+
+97
+00:03:56,060 --> 00:03:58,325
+yourself in someone else's shoes.
+
+98
+00:03:58,325 --> 00:04:01,520
+If your team is quick to blame
+the delivery company for
+
+99
+00:04:01,520 --> 00:04:02,900
+their plants not arriving at
+
+100
+00:04:02,900 --> 00:04:04,595
+the customer's office on time,
+
+101
+00:04:04,595 --> 00:04:06,260
+think about the situation from
+
+102
+00:04:06,260 --> 00:04:08,335
+the delivery company's
+perspective.
+
+103
+00:04:08,335 --> 00:04:10,565
+Was the delivery company's route
+
+104
+00:04:10,565 --> 00:04:13,670
+optimized and tested
+to avoid traffic?
+
+105
+00:04:13,670 --> 00:04:15,500
+If not, maybe that should have
+
+106
+00:04:15,500 --> 00:04:17,860
+been a task in your project.
+
+107
+00:04:17,860 --> 00:04:21,530
+Using "you" language can get
+you in trouble because it can
+
+108
+00:04:21,530 --> 00:04:23,030
+feel like everyone in the room is
+
+109
+00:04:23,030 --> 00:04:25,505
+judging the person
+receiving the blame.
+
+110
+00:04:25,505 --> 00:04:28,820
+For example, telling your
+project's sponsor that
+
+111
+00:04:28,820 --> 00:04:31,250
+"You didn't make it clear
+that we didn't have money
+
+112
+00:04:31,250 --> 00:04:33,800
+for a contingency
+budget when plants die"
+
+113
+00:04:33,800 --> 00:04:35,300
+is not as productive as saying
+
+114
+00:04:35,300 --> 00:04:37,235
+"The lack of a contingency budget
+
+115
+00:04:37,235 --> 00:04:38,510
+wasn't made fully clear from
+
+116
+00:04:38,510 --> 00:04:40,190
+the get-go, and that's
+something that we can
+
+117
+00:04:40,190 --> 00:04:42,290
+improve upon for next time."
+
+118
+00:04:42,290 --> 00:04:45,185
+The project sponsor may feel
+attacked and wonder why you,
+
+119
+00:04:45,185 --> 00:04:47,030
+the project manager, didn't ask
+
+120
+00:04:47,030 --> 00:04:49,265
+the right questions
+in the early stages.
+
+121
+00:04:49,265 --> 00:04:50,840
+Maybe the fact of the matter
+
+122
+00:04:50,840 --> 00:04:53,030
+is that both of you
+could have done a little
+
+123
+00:04:53,030 --> 00:04:54,230
+bit more to include
+
+124
+00:04:54,230 --> 00:04:56,795
+a contingency budget,
+and that's okay.
+
+125
+00:04:56,795 --> 00:04:59,890
+Make sure you aren't only
+focusing on the negative.
+
+126
+00:04:59,890 --> 00:05:02,120
+Retrospectives are
+about reflecting on
+
+127
+00:05:02,120 --> 00:05:05,050
+the positive aspects
+of projects too,
+
+128
+00:05:05,050 --> 00:05:08,790
+so talk about what went
+well. What was fun?
+
+129
+00:05:08,790 --> 00:05:10,850
+What new things
+will you be able to
+
+130
+00:05:10,850 --> 00:05:13,340
+carry with you into
+future projects?
+
+131
+00:05:13,340 --> 00:05:15,170
+Maybe the sales and
+marketing teams
+
+132
+00:05:15,170 --> 00:05:16,325
+don't work together often,
+
+133
+00:05:16,325 --> 00:05:18,835
+but this gave them an
+opportunity to bond.
+
+134
+00:05:18,835 --> 00:05:20,630
+Maybe you enjoyed working with
+
+135
+00:05:20,630 --> 00:05:22,190
+the Project Plant Pals contracted
+
+136
+00:05:22,190 --> 00:05:24,020
+website designer so
+much that the team
+
+137
+00:05:24,020 --> 00:05:26,285
+has decided to hire
+them full-time.
+
+138
+00:05:26,285 --> 00:05:29,600
+Whatever the positives were,
+they're worth celebrating.
+
+139
+00:05:29,600 --> 00:05:31,220
+You could even order some dinner
+
+140
+00:05:31,220 --> 00:05:33,725
+or dessert as a thank
+you to everyone.
+
+141
+00:05:33,725 --> 00:05:36,545
+Finally, you'll want to make sure
+
+142
+00:05:36,545 --> 00:05:39,025
+that you enact the
+changes you've discussed.
+
+143
+00:05:39,025 --> 00:05:41,600
+You'll put the discussed
+changes in place and
+
+144
+00:05:41,600 --> 00:05:42,920
+decide to handle the project a
+
+145
+00:05:42,920 --> 00:05:45,065
+little differently
+in the next phase.
+
+146
+00:05:45,065 --> 00:05:47,150
+People don't want
+to participate in
+
+147
+00:05:47,150 --> 00:05:49,100
+retrospectives if they
+feel their feedback
+
+148
+00:05:49,100 --> 00:05:53,395
+isn't fully taken into
+consideration and implemented.
+
+149
+00:05:53,395 --> 00:05:57,020
+Now that you have a general
+overview for retrospectives,
+
+150
+00:05:57,020 --> 00:05:59,840
+we'll build upon this
+foundation in the next video,
+
+151
+00:05:59,840 --> 00:06:01,700
+where we'll demonstrate
+how to conduct
+
+152
+00:06:01,700 --> 00:06:04,890
+your own retrospective.
+Meet you there.

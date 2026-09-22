@@ -1,0 +1,14 @@
+Nghiên cứu điển hình, Câu chuyện về Công ty Đồ chơi Tillys Toys.
+Để hiểu rõ hơn điều gì có thể xảy ra khi một dự án không được đóng lại đúng cách, chúng ta hãy cùng phân tích một tình huống giả định thực tế, 
+Tillys Toys là một nhà sản xuất đồ chơi trẻ em quy mô nhỏ. Họ đã phát triển một sản phẩm ống heo tiết kiệm điện tử tương tác hoàn toàn mới có khả năng phát ra tiếng nói và các bài hát vui nhộn để giúp trẻ em học nhận biết chữ số, đếm số và thực hiện các phép cộng đơn giản.
+
+Dưới đây là một loạt các sai sót nghiêm trọng đã xảy ra do đội ngũ dự án bỏ qua quy trình đóng dự án chính thức,
+
+Sai sót thứ nhất, Không phải tất cả khối lượng công việc đều đã được hoàn thành.
+Chuyện gì đã xảy ra, Khi sản phẩm ống heo tiết kiệm của Tillys Toys được tung ra thị trường vào dịp Giáng sinh, các phụ huynh bắt đầu phàn nàn gay gắt rằng tính năng dạy đếm số bằng tiếng Tây Ban Nha đã được quảng cáo rầm rộ trên vỏ hộp nhưng hoàn toàn không hoạt động trong phần mềm. Hóa ra, đội ngũ lập trình trước đó đã gặp phải một lỗi kỹ thuật nhỏ ở mô-đun ngôn ngữ này và dự định sẽ quay lại sửa sau. Nhưng vì người quản lý dự án không tiến hành kiểm tra đối soát danh mục hoàn thành cuối cùng, lỗi này đã bị bỏ quên và sản phẩm lỗi vẫn được đưa vào dây chuyền sản xuất hàng loạt. Hậu quả là hàng ngàn sản phẩm bị trả lại, gây thiệt hại nặng nề về doanh thu.
+
+Sai sót thứ hai, Các hợp đồng với nhà cung cấp bên ngoài không được thanh lý chính thức.
+Chuyện gì đã xảy ra, Đội ngũ dự án đã thuê một công ty gia công phần mềm bên ngoài để lập trình các bài hát thiếu nhi cho ống heo. Hợp đồng quy định rõ thời hạn bảo hành sửa lỗi miễn phí trong vòng sáu mươi ngày sau khi bàn giao. Tuy nhiên, vì người quản lý dự án không gửi thông báo nghiệm thu chính thức, thời hạn bảo hành đã trôi qua mà công ty không hề hay biết. Khi các lỗi âm thanh phát sinh trên thực tế, công ty đối tác từ chối sửa chữa miễn phí và yêu cầu Tillys Toys phải ký một hợp đồng dịch vụ mới với chi phí rất cao.
+
+Sai sót thứ ba, Thiếu văn bản nghiệm thu chính thức từ các bên liên quan.
+Chuyện gì đã xảy ra, Ban giám đốc kinh doanh và các nhà phân phối bán lẻ lớn tuyên bố rằng sản phẩm thực tế không đạt đúng tiêu chuẩn kích thước và độ bền như đã cam kết ban đầu. Vì người quản lý dự án không tổ chức buổi nghiệm thu chính thức có chữ ký xác nhận của đại diện kinh doanh trước khi sản xuất hàng loạt, hai bên đã rơi vào một cuộc tranh cãi pháp lý gay gắt kéo dài nhiều tháng, làm đình trệ toàn bộ chiến dịch phân phối.

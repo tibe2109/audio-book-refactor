@@ -1,0 +1,524 @@
+1
+00:00:01,017 --> 00:00:05,236
+By now, you probably understand
+that communication is paramount to
+
+2
+00:00:05,236 --> 00:00:09,833
+a project successful landing—
+it's the lifeblood of the whole project.
+
+3
+00:00:09,833 --> 00:00:13,040
+Communication starts before
+the project even begins and
+
+4
+00:00:13,040 --> 00:00:16,590
+carries on steadily throughout
+the remainder of the project.
+
+5
+00:00:16,590 --> 00:00:21,205
+In this video, I'm going to explain how
+using soft skills like negotiation,
+
+6
+00:00:21,205 --> 00:00:23,453
+delivering messages with empathy,
+
+7
+00:00:23,453 --> 00:00:27,898
+and asking questions for clarity helps
+to foster and strengthen communication.
+
+8
+00:00:27,898 --> 00:00:32,961
+We'll also discuss feedback as
+a foundation for iterating on a product.
+
+9
+00:00:32,961 --> 00:00:37,239
+According to the Project Management
+Institute, it's been found that most
+
+10
+00:00:37,239 --> 00:00:40,971
+projects experience a communication
+breakdown of some kind,
+
+11
+00:00:40,971 --> 00:00:45,244
+even though project managers spend
+about 90% of their time working on
+
+12
+00:00:45,244 --> 00:00:46,653
+communication alone.
+
+13
+00:00:46,653 --> 00:00:51,722
+It's in a project manager's best interest
+to communicate tactfully, not only with
+
+14
+00:00:51,722 --> 00:00:56,459
+the members of their own organization, but
+also with customers and vendors.
+
+15
+00:00:56,459 --> 00:01:00,055
+When done well,
+strategic communication with a customer or
+
+16
+00:01:00,055 --> 00:01:02,668
+client can instill
+a sense of confidence
+
+17
+00:01:02,668 --> 00:01:07,283
+that you're doing a good job and
+that you're a trustworthy partner.
+
+18
+00:01:07,284 --> 00:01:11,692
+So how should a project manager approach
+communication with a customer?
+
+19
+00:01:11,692 --> 00:01:16,293
+Using soft skills like negotiation,
+empathetic listening, and trust building,
+
+20
+00:01:16,293 --> 00:01:20,259
+will help foster a good relationship
+between you and your customers,
+
+21
+00:01:20,259 --> 00:01:25,391
+and a good project manager knows how and
+when to apply these skills.
+
+22
+00:01:25,391 --> 00:01:29,151
+A key practice for negotiation,
+empathetic listening, and
+
+23
+00:01:29,151 --> 00:01:31,567
+trust building is asking questions.
+
+24
+00:01:31,567 --> 00:01:35,844
+It's important to ask open-ended questions
+and actively listen to understand
+
+25
+00:01:35,844 --> 00:01:39,160
+the customer's current state
+versus their desired state
+
+26
+00:01:39,160 --> 00:01:44,384
+and what might help them get from here to
+there. If you ask open-ended questions,
+
+27
+00:01:44,384 --> 00:01:48,423
+you'll find out where you can make
+your customers feel more secure.
+
+28
+00:01:48,423 --> 00:01:52,433
+You'll be able to negotiate to ensure
+both of your needs are met, and
+
+29
+00:01:52,433 --> 00:01:56,673
+you'll build the necessary trust
+to have a successful partnership.
+
+30
+00:01:56,673 --> 00:02:00,781
+High-performing project managers set
+clear expectations about when they'll
+
+31
+00:02:00,781 --> 00:02:03,402
+communicate certain things
+to their customers.
+
+32
+00:02:03,402 --> 00:02:04,112
+For example,
+
+33
+00:02:04,112 --> 00:02:08,324
+you might want to set an expectation that
+you'll provide weekly progress updates
+
+34
+00:02:08,324 --> 00:02:10,141
+to keep clients informed,
+
+35
+00:02:10,141 --> 00:02:14,013
+rather than expecting them to
+come to you with questions.
+
+36
+00:02:14,013 --> 00:02:18,571
+When troubleshooting an issue with the
+product, it might not be necessary to fill
+
+37
+00:02:18,571 --> 00:02:21,884
+the customer in on an issue
+that won't affect the outcome.
+
+38
+00:02:21,884 --> 00:02:25,621
+Let's say a designer on your team quit and
+you had to replace them,
+
+39
+00:02:25,621 --> 00:02:27,173
+you may be able to replace
+
+40
+00:02:27,173 --> 00:02:31,450
+that designer with a new one fairly
+quickly and not even skip a beat in
+
+41
+00:02:31,450 --> 00:02:33,083
+your project's progress.
+
+42
+00:02:33,083 --> 00:02:37,960
+You can complete the task at hand without
+giving the customer any additional worry.
+
+43
+00:02:37,960 --> 00:02:43,131
+The level of visibility between customers
+and clients on a given project may vary,
+
+44
+00:02:43,131 --> 00:02:46,750
+and you'll have to use your judgment
+regarding what's important to communicate
+
+45
+00:02:46,750 --> 00:02:47,489
+to your client.
+
+46
+00:02:48,550 --> 00:02:51,494
+Sometimes, you'll want to tell
+your client if there's an issue.
+
+47
+00:02:51,494 --> 00:02:53,106
+If you reach a point in the project
+
+48
+00:02:53,106 --> 00:02:56,833
+where you can't possibly move forward
+without their help and input,
+
+49
+00:02:56,833 --> 00:03:00,633
+you'll have to communicate the issue
+to them calmly and with empathy.
+
+50
+00:03:00,633 --> 00:03:04,426
+Let's put this into Project Plant Pals
+context, where we're troubleshooting
+
+51
+00:03:04,426 --> 00:03:06,730
+an issue with broken planters.
+
+52
+00:03:06,730 --> 00:03:10,177
+Maybe when we were putting
+together our quality standards,
+
+53
+00:03:10,177 --> 00:03:14,584
+we left some room for supplier error and
+accounted for some broken planters.
+
+54
+00:03:14,584 --> 00:03:19,151
+We'll say we figured an acceptable
+number of broken planters was two out of
+
+55
+00:03:19,151 --> 00:03:19,930
+every 50.
+
+56
+00:03:19,930 --> 00:03:23,676
+But let's imagine that the customer
+received a shipment and
+
+57
+00:03:23,676 --> 00:03:25,814
+there were five broken planters.
+
+58
+00:03:25,814 --> 00:03:28,846
+At that point,
+we'll need to meet with the customer and
+
+59
+00:03:28,846 --> 00:03:31,051
+ask important negotiation questions.
+
+60
+00:03:31,051 --> 00:03:35,572
+We'll need to decide if the five broken
+planters out of every 50 is an acceptable
+
+61
+00:03:35,572 --> 00:03:36,170
+outcome,
+
+62
+00:03:36,170 --> 00:03:40,001
+or we'll need to discuss whether
+the customer would consider investing in
+
+63
+00:03:40,001 --> 00:03:43,120
+a higher tier of planters that
+may be less prone to breaking.
+
+64
+00:03:44,880 --> 00:03:49,299
+Presenting a solution like using sturdier
+planters will affect their budget, and
+
+65
+00:03:49,299 --> 00:03:51,392
+they'll need to adjust accordingly.
+
+66
+00:03:51,392 --> 00:03:56,548
+Is the customer okay with that change?
+Would that lead to another trade off?
+
+67
+00:03:56,548 --> 00:04:00,309
+Keeping in mind that the main goal here
+is customer satisfaction throughout
+
+68
+00:04:00,309 --> 00:04:01,670
+the negotiation process,
+
+69
+00:04:01,670 --> 00:04:05,989
+you'll want to be considerate of
+their feelings and limitations.
+
+70
+00:04:05,989 --> 00:04:08,684
+You can do this by exhibiting empathy:
+
+71
+00:04:08,684 --> 00:04:12,130
+understanding their frustrations,
+addressing them, and
+
+72
+00:04:12,130 --> 00:04:15,313
+finding a solution that's beneficial for
+both of you.
+
+73
+00:04:15,313 --> 00:04:18,756
+You may have held a customer-facing
+role in the past,
+
+74
+00:04:18,756 --> 00:04:21,033
+whether that's in a call center,
+
+75
+00:04:21,033 --> 00:04:26,616
+as a retail associate, as a server in
+a restaurant, or any number of positions.
+
+76
+00:04:26,616 --> 00:04:29,538
+Even if you haven't,
+you've probably been an advocate for
+
+77
+00:04:29,538 --> 00:04:33,820
+yourself while conversing with
+a customer service representative.
+
+78
+00:04:33,820 --> 00:04:34,946
+Because of this,
+
+79
+00:04:34,946 --> 00:04:39,763
+you'll probably have a good idea of
+what good customer service looks like.
+
+80
+00:04:39,763 --> 00:04:44,603
+Good customer service results in choosing
+to go back to the same hair salon, bakery,
+
+81
+00:04:44,603 --> 00:04:45,607
+or coffee shop
+
+82
+00:04:45,607 --> 00:04:48,286
+because you liked the way
+that you were treated and
+
+83
+00:04:48,286 --> 00:04:50,980
+the service you received
+(even if you had an issue),
+
+84
+00:04:50,980 --> 00:04:55,874
+versus choosing not to go back to those
+places if you don't receive that level
+
+85
+00:04:55,874 --> 00:04:56,485
+of care.
+
+86
+00:04:56,485 --> 00:04:59,764
+Your past experiences have taught
+you to manage relationships and
+
+87
+00:04:59,764 --> 00:05:02,830
+to avoid delivering something
+that's low quality.
+
+88
+00:05:02,830 --> 00:05:07,733
+It doesn't feel great when you're on the
+receiving end. In order to yield better
+
+89
+00:05:07,733 --> 00:05:12,509
+results in future projects, it's
+necessary to get feedback from customers.
+
+90
+00:05:12,509 --> 00:05:16,078
+Sometimes, this feedback will come
+during the process, and sometimes,
+
+91
+00:05:16,078 --> 00:05:18,381
+it'll come after the project is completed,
+
+92
+00:05:18,381 --> 00:05:21,236
+depending on how you map it
+out in the initiation phase.
+
+93
+00:05:21,236 --> 00:05:26,096
+The matter of when you receive feedback
+may come down to what you actually want
+
+94
+00:05:26,096 --> 00:05:28,133
+to accomplish in your project.
+
+95
+00:05:28,133 --> 00:05:31,341
+If your business is launching
+an e-commerce site,
+
+96
+00:05:31,341 --> 00:05:33,131
+you will want user feedback
+
+97
+00:05:33,131 --> 00:05:37,425
+so you can make adjustments to optimize
+the customers' shopping experience.
+
+98
+00:05:37,425 --> 00:05:40,501
+If your business is an on-demand
+cookie delivery service,
+
+99
+00:05:40,501 --> 00:05:42,464
+you may want to deliver the cookies
+
+100
+00:05:42,464 --> 00:05:46,666
+and then get user feedback to
+know how your customers felt
+
+101
+00:05:46,666 --> 00:05:50,353
+about the cookies and
+the delivery experience as a whole.
+
+102
+00:05:50,353 --> 00:05:52,478
+User feedback helps to close any gaps and
+
+103
+00:05:52,478 --> 00:05:56,739
+understanding between the customer's
+expectation and the project's needs.
+
+104
+00:05:56,739 --> 00:06:01,392
+So to summarize very briefly, soft skills
+like negotiation, empathetic listening,
+
+105
+00:06:01,392 --> 00:06:02,693
+and trust-building
+
+106
+00:06:02,693 --> 00:06:06,340
+will help create a good relationship
+between you and your customers,
+
+107
+00:06:06,340 --> 00:06:11,629
+and getting feedback from those customers
+will help you to iterate on a product or
+
+108
+00:06:11,629 --> 00:06:12,343
+service.
+
+109
+00:06:12,343 --> 00:06:15,088
+That's a lot of information—great job taking it all in!
+
+110
+00:06:15,088 --> 00:06:19,020
+We'll get a little more specific with user
+testing and feedback in the next video.
+
+111
+00:06:19,020 --> 00:06:20,270
+I'll meet you there.

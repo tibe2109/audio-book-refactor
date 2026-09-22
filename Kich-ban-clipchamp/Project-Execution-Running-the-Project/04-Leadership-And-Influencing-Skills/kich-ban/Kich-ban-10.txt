@@ -1,0 +1,15 @@
+năm. Giai đoạn năm, Tan rã và Đóng gói, tức Adjourning.
+Khi dự án hoàn thành, các mục tiêu đã đạt được, đã đến lúc đội ngũ phải giải tán để các thành viên chuyển sang các dự án mới hoặc quay trở lại phòng ban chức năng của họ. Giai đoạn này thường đi kèm với cảm giác bùi ngùi, lưu luyến và đôi chút hụt hẫng sau một chặng đường dài gắn bó.
+Vai trò của người quản lý dự án, Hãy tổ chức một buổi lễ tổng kết ấm cúng để chính thức ghi nhận những đóng góp của từng cá nhân, thực hiện phiên họp hồi tưởng Retrospective để đúc kết những bài học kinh nghiệm quý giá, và hỗ trợ các thành viên chuyển giao công việc suôn sẻ sang các giai đoạn tiếp theo.
+
+Hiểu rõ chu kỳ phát triển của Tuckman sẽ giúp bạn luôn giữ được sự bình tĩnh, biết trước những gì sắp diễn ra và có phương pháp can thiệp chuẩn xác ở từng thời điểm.
+
+ROWENA, NGHỆ THUẬT ỦY QUYỀN CHI TIẾT, ROWENA, DELEGATING THE DETAILS.
+. ......
+Xin chào bạn. Tôi là Rowena, Quản lý Chương trình Cấp cao thuộc Đội ngũ Năng suất Hệ thống và Báo cáo tại Google Cloud.
+
+Là một người quản lý dự án, bạn sẽ sớm nhận ra một thực tế thú vị rằng, Bạn thực chất không phải là người quản lý trực tiếp của các thành viên trong đội ngũ xét theo sơ đồ tổ chức nhân sự. Bạn không có quyền tăng lương, giáng chức hay ký quyết định sa thải họ. Do đó, kỹ năng mềm then chốt nhất mà bạn bắt buộc phải có chính là nghệ thuật gây ảnh hưởng, Gây ảnh hưởng mà không cần dựa vào quyền lực chức danh, tức Influencing without Authority.
+
+Đó là khả năng giao tiếp khéo léo với mọi người, đảm bảo rằng họ thấu hiểu trọn vẹn các mục tiêu, mục đích của bạn, và dẫn dắt họ cùng đồng hành trên một tầm nhìn chung, và một hành trình chung.
+
+Khi mới bắt đầu sự nghiệp, rất nhiều người quản lý dự án mắc phải sai lầm là cố gắng ôm đồm tất cả mọi việc. Họ muốn tự mình kiểm tra từng dòng mã, tự mình chỉnh sửa từng chi tiết thiết kế đồ họa, và can thiệp sâu vào cách các chuyên gia thực hiện công việc. Điều này không chỉ khiến bạn kiệt sức mà còn làm triệt tiêu sự tự tin và lòng tự trọng của đội ngũ.

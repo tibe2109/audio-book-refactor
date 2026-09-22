@@ -1,0 +1,270 @@
+1
+00:00:01,080 --> 00:00:04,908
+In this video, we'll explore how to
+advocate for and create continuous
+
+2
+00:00:04,908 --> 00:00:09,060
+improvements in a project by
+learning about process improvements.
+
+3
+00:00:09,060 --> 00:00:13,830
+Continuous improvement is an ongoing
+effort to improve products or services.
+
+4
+00:00:13,830 --> 00:00:18,185
+It helps ensure that a product steadily
+makes its way toward the best possible
+
+5
+00:00:18,185 --> 00:00:19,720
+outcome.
+
+6
+00:00:19,720 --> 00:00:23,475
+Continuous improvement begins with
+recognizing when processes and
+
+7
+00:00:23,475 --> 00:00:27,350
+tasks need to be created,
+eliminated, or improved.
+
+8
+00:00:27,350 --> 00:00:31,736
+Then a project manager must plan for and
+implement changes to keep the project on
+
+9
+00:00:31,736 --> 00:00:35,090
+track. That's where process
+improvement comes from.
+
+10
+00:00:35,090 --> 00:00:38,698
+Process improvement is the practice
+of identifying, analyzing,
+
+11
+00:00:38,698 --> 00:00:42,813
+and improving existing processes to
+enhance the performance of your team and
+
+12
+00:00:42,813 --> 00:00:44,346
+to develop best practices
+
+13
+00:00:44,346 --> 00:00:47,178
+or to optimize consumer experiences.
+
+14
+00:00:47,178 --> 00:00:49,760
+When working with your
+process improvements,
+
+15
+00:00:49,760 --> 00:00:52,601
+using a controlled environment
+in an experiment can
+
+16
+00:00:52,601 --> 00:00:57,220
+help you understand if the changes
+you're considering fix your problem.
+
+17
+00:00:57,220 --> 00:00:58,843
+A control is an experiment or
+
+18
+00:00:58,843 --> 00:01:02,900
+observation designed to minimize
+the effects of variables.
+
+19
+00:01:02,900 --> 00:01:06,772
+Control groups are representative
+samples that help you to determine that
+
+20
+00:01:06,772 --> 00:01:09,599
+the differences between your
+experimental groups and
+
+21
+00:01:09,599 --> 00:01:12,740
+the norm are due to your changes,
+rather than something else.
+
+22
+00:01:13,741 --> 00:01:16,800
+They eliminate alternative
+explanations for your results.
+
+23
+00:01:17,801 --> 00:01:22,240
+If you aren't familiar with this, that's
+okay, because I'll break it down for you.
+
+24
+00:01:22,240 --> 00:01:27,910
+For example, you observe a problem with
+your process and put forward a hypothesis,
+
+25
+00:01:27,910 --> 00:01:32,750
+which is an educated guess about what's
+causing the problem and how you'd fix it.
+
+26
+00:01:32,750 --> 00:01:35,402
+Then you change one
+variable in the system,
+
+27
+00:01:35,402 --> 00:01:39,640
+keeping the control group the same,
+and observe your results again.
+
+28
+00:01:41,450 --> 00:01:44,850
+Let's put this in the context
+of Project Plant Pal scenario.
+
+29
+00:01:44,850 --> 00:01:47,581
+Business is booming for
+Office Green, and demand for
+
+30
+00:01:47,581 --> 00:01:51,280
+your team's new Plant Pal
+service is rapidly growing.
+
+31
+00:01:51,280 --> 00:01:55,409
+To meet the demand, suppliers have
+streamlined their process of packing boxes
+
+32
+00:01:55,409 --> 00:01:58,690
+and putting all plants into
+a one-size-fits-all box.
+
+33
+00:01:58,690 --> 00:02:02,969
+Let's say you're using just one box
+size to ship all of your plants.
+
+34
+00:02:02,969 --> 00:02:07,954
+For smaller plants, there's more padding
+added to the box to fill the extra space,
+
+35
+00:02:07,954 --> 00:02:11,160
+and the plants usually arrive intact.
+
+36
+00:02:11,160 --> 00:02:15,832
+But larger plants have to be squeezed into
+the boxes and sometimes arrive damaged,
+
+37
+00:02:15,832 --> 00:02:18,020
+according to customer surveys.
+
+38
+00:02:18,020 --> 00:02:23,160
+To fix this problem, you hypothesize
+a potential solution by posing a question.
+
+39
+00:02:23,160 --> 00:02:26,848
+Would more of the large plants have
+arrived intact if they were shipped in
+
+40
+00:02:26,848 --> 00:02:30,118
+bigger boxes using the same padding
+we use for the small plants?
+
+41
+00:02:30,118 --> 00:02:32,450
+Here is where your control comes in.
+
+42
+00:02:32,450 --> 00:02:36,280
+You continue to ship half of the larger
+plants in the original boxes.
+
+43
+00:02:36,280 --> 00:02:37,909
+This is your control group.
+
+44
+00:02:37,909 --> 00:02:42,290
+And you experiment by shipping
+the other half in bigger boxes.
+
+45
+00:02:42,290 --> 00:02:45,730
+Nothing else is different about
+the boxes except the size.
+
+46
+00:02:45,730 --> 00:02:49,146
+The shape, thickness,
+box supplier, delivery
+addresses—absolutely
+
+47
+00:02:49,147 --> 00:02:52,730
+everything else
+stays exactly the same.
+
+48
+00:02:52,730 --> 00:02:56,590
+After the larger plants are delivered,
+you conduct a new survey.
+
+49
+00:02:56,590 --> 00:03:00,770
+If more larger plants arrived intact,
+your hypothesis is confirmed.
+
+50
+00:03:01,780 --> 00:03:04,762
+If the results are the same as
+they were before the experiment,
+
+51
+00:03:04,762 --> 00:03:09,510
+you'll need to try something else to
+solve the problem of your damaged plants.
+
+52
+00:03:09,510 --> 00:03:13,059
+Working in a controlled environment
+isn't the only way to ensure continuous
+
+53
+00:03:13,059 --> 00:03:14,540
+improvements.
+
+54
+00:03:14,540 --> 00:03:19,700
+There are various data-driven improvement
+frameworks, like DMAIC and PDCA.
+
+55
+00:03:21,530 --> 00:03:25,640
+I'll define those and present them in the
+context of Plant Pals in the next video.
+
+56
+00:03:25,640 --> 00:03:26,200
+See you there.

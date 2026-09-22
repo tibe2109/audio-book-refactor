@@ -1,0 +1,317 @@
+1
+00:00:01,300 --> 00:00:04,415
+Think of a leader who you admire and
+respect.
+
+2
+00:00:04,415 --> 00:00:07,090
+What qualities do they have
+that makes them a good leader?
+
+3
+00:00:08,180 --> 00:00:10,219
+Maybe they're an active listener.
+
+4
+00:00:10,219 --> 00:00:13,200
+Maybe they're great at fostering a sense
+of community for people around them.
+
+5
+00:00:14,450 --> 00:00:18,275
+As a project manager,
+leadership is a big part of the job.
+
+6
+00:00:18,275 --> 00:00:21,977
+But being a great project manager is
+about more than simply leading a team to
+
+7
+00:00:21,977 --> 00:00:23,920
+complete a project.
+
+8
+00:00:23,920 --> 00:00:27,981
+It's about supporting the people on
+your team to do their best work, and
+
+9
+00:00:27,981 --> 00:00:30,922
+enabling people to build
+things they're proud of.
+
+10
+00:00:30,922 --> 00:00:34,618
+In this video, we'll define teamwork and
+explain why it's important for
+
+11
+00:00:34,618 --> 00:00:36,329
+successful project management.
+
+12
+00:00:37,590 --> 00:00:41,141
+The best leaders are able to
+get people to work together.
+
+13
+00:00:41,141 --> 00:00:43,993
+That's why a project manager's
+ability to develop and
+
+14
+00:00:43,993 --> 00:00:47,510
+lead teams that work well together is so
+important.
+
+15
+00:00:47,510 --> 00:00:53,933
+But before we go further, let's pause and
+consider, what exactly is a team?
+
+16
+00:00:53,933 --> 00:00:56,910
+Though there are many different
+definitions of the word team,
+
+17
+00:00:56,910 --> 00:00:58,940
+here's how we describe it here at Google.
+
+18
+00:01:00,030 --> 00:01:05,862
+A team is a group of people who plan,
+solve problems, make decisions, and
+
+19
+00:01:05,862 --> 00:01:11,059
+review progress in service of
+a specific project, or objective.
+
+20
+00:01:11,059 --> 00:01:14,290
+Team members rely on each
+other to get things done.
+
+21
+00:01:14,290 --> 00:01:19,184
+For example, a software engineering
+team might be tasked with creating one
+
+22
+00:01:19,184 --> 00:01:22,787
+seamless software experience
+that meets users needs.
+
+23
+00:01:22,787 --> 00:01:26,239
+Beyond coordinating with the project
+manager members of the software
+
+24
+00:01:26,239 --> 00:01:30,217
+engineering team will also coordinate with
+one another as they work toward their
+
+25
+00:01:30,217 --> 00:01:31,550
+shared goal.
+
+26
+00:01:31,550 --> 00:01:33,744
+Teams differ from workgroups,
+
+27
+00:01:33,744 --> 00:01:38,956
+which we define as being based on
+organizational or managerial hierarchy.
+
+28
+00:01:38,956 --> 00:01:42,688
+Though people within a workgroup might
+be working toward a common goal,
+
+29
+00:01:42,688 --> 00:01:45,747
+their work is more likely to
+be coordinated, controlled or
+
+30
+00:01:45,747 --> 00:01:48,580
+assigned by single person or entity.
+
+31
+00:01:48,580 --> 00:01:53,191
+For example, a workgroup focused on
+quality assurance testing might be
+
+32
+00:01:53,191 --> 00:01:55,770
+tasked with running a set of test plans.
+
+33
+00:01:55,770 --> 00:01:58,776
+The group manager might
+split up that work and
+
+34
+00:01:58,776 --> 00:02:02,506
+assign each quality assurance
+tester a plan to review.
+
+35
+00:02:02,506 --> 00:02:03,598
+But unlike a team,
+
+36
+00:02:03,598 --> 00:02:08,460
+the testers will work independently of
+one another to complete their tasks.
+
+37
+00:02:08,460 --> 00:02:11,388
+And will coordinate mainly
+with the manager and
+
+38
+00:02:11,388 --> 00:02:14,673
+the development team of
+the feature they're testing.
+
+39
+00:02:14,673 --> 00:02:19,780
+Teams and work groups each have unique
+benefits within a larger organization.
+
+40
+00:02:19,780 --> 00:02:23,296
+But for the purpose of this program,
+we'll focus on teams.
+
+41
+00:02:23,296 --> 00:02:26,961
+More specifically, we'll discuss
+how project managers develop and
+
+42
+00:02:26,961 --> 00:02:30,010
+lead effective teams by
+fostering a culture of teamwork.
+
+43
+00:02:31,280 --> 00:02:35,501
+Teamwork is an effective
+collaborative way of working in which
+
+44
+00:02:35,501 --> 00:02:39,652
+each person is committed to and
+heading toward a shared goal.
+
+45
+00:02:39,652 --> 00:02:44,285
+Teamwork maximizes the individual
+strength of each team member to
+
+46
+00:02:44,285 --> 00:02:46,690
+bring out the best in each person.
+
+47
+00:02:46,690 --> 00:02:47,792
+As you might imagine,
+
+48
+00:02:47,792 --> 00:02:51,750
+teamwork is a crucial part of
+successful project management.
+
+49
+00:02:51,750 --> 00:02:53,876
+There are a few reasons for this.
+
+50
+00:02:53,876 --> 00:02:57,080
+For one, teamwork fosters creativity.
+
+51
+00:02:57,080 --> 00:03:00,232
+A team might leverage the diverse
+perspectives, skills and
+
+52
+00:03:00,232 --> 00:03:03,385
+experiences of their members
+to devise better solutions and
+
+53
+00:03:03,385 --> 00:03:07,525
+build products that address more diverse
+user needs than they might have if they
+
+54
+00:03:07,525 --> 00:03:09,842
+were working independently of each other.
+
+55
+00:03:09,842 --> 00:03:12,950
+Teamwork also encourages accountability.
+
+56
+00:03:12,950 --> 00:03:17,878
+The knowledge that the execution of
+your tasks directly impacts the tasks of
+
+57
+00:03:17,878 --> 00:03:21,040
+the rest of the team can
+be a powerful motivator.
+
+58
+00:03:21,040 --> 00:03:25,580
+And most importantly,
+teamwork helps you get stuff done.
+
+59
+00:03:25,580 --> 00:03:30,510
+Big complex projects need smart,
+capable people to complete tasks and
+
+60
+00:03:30,510 --> 00:03:33,807
+to reach milestones to
+meet the project goals.
+
+61
+00:03:33,807 --> 00:03:38,280
+As the project manager, it's your job to
+encourage others to actively engage in
+
+62
+00:03:38,280 --> 00:03:42,756
+working together as a team to foster
+creativity, encourage accountability and
+
+63
+00:03:42,756 --> 00:03:43,830
+to get stuff done.
+
+64
+00:03:45,030 --> 00:03:49,639
+Teamwork is an effective collaborative
+way of working and when done right,
+
+65
+00:03:49,639 --> 00:03:54,330
+it can positively impact both measurable
+team results and the team culture.
+
+66
+00:03:54,330 --> 00:03:58,003
+Coming up, we'll take you through
+the elements of effective teams.
+
+67
+00:03:58,003 --> 00:03:58,600
+Meet you there.

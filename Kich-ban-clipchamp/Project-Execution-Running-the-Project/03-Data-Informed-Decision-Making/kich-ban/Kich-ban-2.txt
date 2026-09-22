@@ -1,0 +1,13 @@
+Một người quản lý dự án giỏi không bao giờ đưa ra quyết định chỉ dựa trên cảm tính, trực giác mơ hồ hay phỏng đoán. Khi bạn có dữ liệu vững chắc làm điểm tựa, quyết định của bạn sẽ có sức nặng thuyết phục tuyệt đối. Dữ liệu giúp bạn, 
+Thứ nhất, nhìn thấy bức tranh thực tế khách quan về tình trạng dự án, Dự án có đang thực sự đi đúng tiến độ hay không? Ngân sách có đang bị tiêu lạm hay không? Năng suất của đội ngũ đang tăng hay giảm?
+Thứ hai, dự báo trước các rủi ro tiềm ẩn, Bằng cách phân tích xu hướng của dữ liệu trong quá khứ và hiện tại, bạn có thể dự đoán được các điểm nghẽn cổ chai trước khi chúng gây ra khủng hoảng thực sự.
+Thứ ba, tối ưu hóa việc phân bổ nguồn lực, Dữ liệu chỉ rõ cho bạn biết công đoạn nào đang tốn nhiều thời gian nhất, thành viên nào đang bị quá tải, và nơi nào cần được bổ sung nhân lực kịp thời.
+Thứ tư, xây dựng niềm tin vững chắc với các bên liên quan và ban lãnh đạo, Khi bạn báo cáo tiến độ bằng các con số cụ thể, biểu đồ minh bạch và dữ kiện có thể kiểm chứng, nhà tài trợ dự án sẽ hoàn toàn an tâm và sẵn sàng phê duyệt các đề xuất điều chỉnh của bạn.
+
+Dữ liệu chính là bằng chứng xác thực nhất bảo vệ bạn và đội ngũ trước những tranh luận vô căn cứ, đồng thời, mở ra cánh cửa dẫn tới thành công bền vững cho dự án.
+
+CÁC LOẠI DỮ LIỆU DỰ ÁN PHỔ BIẾN, COMMON TYPES OF PROJECT DATA.
+. ......
+Sau khi đã hiểu rõ giá trị của dữ liệu, chúng ta hãy cùng phân loại các dạng dữ liệu phổ biến mà một Project Manager thường xuyên phải thu thập, quản lý và phân tích mỗi ngày. Chúng ta cũng sẽ thảo luận về các công cụ cần thiết để tổ chức dữ liệu này một cách khoa học cho các dự án của bạn.
+
+Như chúng ta đã cùng nhau thảo luận trước đó, dữ liệu là tập hợp các sự thật có thể giúp thông tin hóa các quyết định. Trong quản trị dự án, dữ liệu thường được phân chia thành hai nhóm lớn cơ bản,

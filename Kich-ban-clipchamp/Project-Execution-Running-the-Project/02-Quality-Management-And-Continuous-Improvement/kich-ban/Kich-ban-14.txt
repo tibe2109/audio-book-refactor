@@ -1,0 +1,16 @@
+Thứ ba là về Quản lý Mối quan hệ phụ thuộc, Người quản lý dự án tập trung giải quyết sự phụ thuộc giữa các công việc nội bộ trong dự án của mình. Người quản lý chương trình chịu trách nhiệm điều phối sự phụ thuộc đa tầng giữa các dự án con với nhau, giải quyết xung đột tài nguyên giữa các Project Manager và tối ưu hóa việc phân bổ ngân sách tổng thể của toàn chương trình.
+
+Nói một cách ngắn gọn và hình tượng, Nếu một dự án giống như việc xây dựng nên một ngôi nhà riêng lẻ vững chắc, thì một chương trình chính là việc quy hoạch và phát triển cả một khu đô thị văn minh, hiện đại và đồng bộ.
+
+JACOB, RÈN LUYỆN TƯ DUY CẢI TIẾN LIÊN TỤC, JACOB, CULTIVATING A CONTINUOUS IMPROVEMENT MINDSET.
+. ......
+Xin chào các bạn, tôi là Jacob. Hôm nay tôi muốn tâm sự với các bạn về một trong những phẩm chất quan trọng nhất đã định hình nên sự nghiệp của tôi tại Google, Đó chính là việc rèn luyện Tư duy cải tiến liên tục, tức Continuous Improvement Mindset.
+
+Khi mới bắt đầu làm việc trong các dự án công nghệ lớn, tôi từng mang một nỗi sợ hãi cố hữu, Nỗi sợ sự không hoàn hảo. Tôi luôn muốn mọi thứ mình tạo ra phải lập tức trở nên hoàn hảo không tì vết ngay trong lần đầu tiên. Nhưng chính tư duy cầu toàn thái quá ấy đã từng khiến tôi và đội ngũ rơi vào trạng thái tê liệt vì phân tích, trì hoãn việc ra mắt sản phẩm và liên tục bị trễ hạn chót.
+
+Sau nhiều vấp ngã thực tế, tôi đã học được rằng, Không có thứ gì sinh ra đã hoàn hảo ngay từ ngày đầu tiên. Giá trị thực sự của một người quản lý dự án xuất sắc không nằm ở việc tạo ra một bản thiết kế ban đầu không có tì vết, mà nằm ở năng lực tạo ra một cỗ máy học hỏi không ngừng sau mỗi chu kỳ thực hiện.
+
+Tại Google, chúng tôi có một câu khẩu hiệu rất tâm đắc, Hoàn thành tốt hơn hoàn hảo, nhưng hãy cải tiến mỗi ngày. Tư duy cải tiến liên tục không phải là một bộ công cụ phức tạp mà là một lăng kính sống, 
+Đó là việc bạn không coi sai sót là dấu chấm hết hay lý do để đổ lỗi, mà coi mỗi sự cố là một cơ hội học tập vô giá để tìm ra lỗ hổng trong quy trình và gia cố nó lại.
+Đó là việc bạn luôn khiêm tốn tự hỏi sau mỗi cột mốc, Điều gì chúng ta đã làm rất tốt? Điều gì chúng ta có thể làm tốt hơn nữa, trong lần tiếp theo?
+Và quan trọng nhất, đó là việc bạn khuyến khích và tôn vinh những cải tiến nhỏ bé nhất từ mọi thành viên trong nhóm. Khi một lập trình viên trẻ tuổi chia sẻ một phím tắt giúp rút ngắn năm phút kiểm thử mã nguồn, hãy công khai khen ngợi sáng kiến đó trước toàn đội ngũ.

@@ -1,0 +1,250 @@
+1
+00:00:00,000 --> 00:00:04,714
+[MUSIC].
+
+2
+00:00:04,714 --> 00:00:05,530
+I'm Jacob.
+
+3
+00:00:05,530 --> 00:00:07,503
+I'm a Product Operations Manager
+at Google.
+
+4
+00:00:07,503 --> 00:00:10,780
+Product Operations is not that
+different from a program manager.
+
+5
+00:00:10,780 --> 00:00:12,180
+I've had lots of different titles.
+
+6
+00:00:12,180 --> 00:00:13,740
+I've been a Solutions Consultant.
+
+7
+00:00:13,740 --> 00:00:15,740
+I've been a Program Manager.
+
+8
+00:00:15,740 --> 00:00:18,510
+Now I'm in Product
+Operations as a manager.
+
+9
+00:00:18,510 --> 00:00:20,823
+And really, it's the same set of skills:
+
+10
+00:00:20,823 --> 00:00:24,935
+being able to organize people, take
+really complex ideas, make it simple for
+
+11
+00:00:24,935 --> 00:00:28,770
+people to understand, so
+that our teams can then work on those.
+
+12
+00:00:28,770 --> 00:00:32,190
+Products Operations Manager is a
+really diverse role.
+
+13
+00:00:32,190 --> 00:00:34,701
+Not only do we work with engineers,
+we work with the product,
+
+14
+00:00:34,701 --> 00:00:37,690
+we work with legal, but
+we're really the voice of the customer.
+
+15
+00:00:37,690 --> 00:00:42,540
+And so we have a really unique position
+where we get to take customer feedback,
+
+16
+00:00:42,540 --> 00:00:45,775
+whether that's coming in
+from a support channel, and
+
+17
+00:00:45,775 --> 00:00:49,540
+then be able to kind of work with
+product to build a solution.
+
+18
+00:00:49,540 --> 00:00:53,988
+Process improvement is looking at
+data to understand how we can make
+
+19
+00:00:53,988 --> 00:00:57,940
+something more effective or
+cost efficient.
+
+20
+00:00:57,940 --> 00:01:01,417
+When we work on projects, we're always
+taking a look at how we're managing things
+
+21
+00:01:01,417 --> 00:01:03,180
+to see if we can be better.
+
+22
+00:01:03,180 --> 00:01:06,708
+One example I can give is just
+taking notes—seems super simple, but
+
+23
+00:01:06,708 --> 00:01:10,740
+a lot of times what will happen is notes
+get taken, and we forget to send it out
+
+24
+00:01:10,740 --> 00:01:14,410
+again, we forget to send the email after so that people are updated.
+
+25
+00:01:14,410 --> 00:01:18,246
+So we're constantly looking at new
+ways to do things like take notes.
+
+26
+00:01:18,246 --> 00:01:21,820
+How do we organize the skills and
+the projects that we have?
+
+27
+00:01:21,820 --> 00:01:25,268
+So that's part of the process improvement
+is definitely looking at the tools at our
+
+28
+00:01:25,268 --> 00:01:27,301
+disposal and
+seeing if there's something new.
+
+29
+00:01:27,301 --> 00:01:31,944
+Continuous improvement's more a mentality
+that we have on the team of constantly
+
+30
+00:01:31,944 --> 00:01:36,810
+pushing ourselves, even if we feel like the product is at a good place to be better.
+
+31
+00:01:38,270 --> 00:01:41,110
+Working with technology,
+things are constantly changing,
+
+32
+00:01:41,110 --> 00:01:45,990
+and so we have to have that mindset of
+continually trying to improve
+
+33
+00:01:45,990 --> 00:01:47,150
+things.
+
+34
+00:01:47,150 --> 00:01:50,376
+You can plan things out perfectly, or
+what you think is perfect, and
+
+35
+00:01:50,376 --> 00:01:52,899
+there's always going to
+be something to come up.
+
+36
+00:01:53,950 --> 00:01:57,687
+Once you get something out in the wild,
+people will use the product in ways
+
+37
+00:01:57,687 --> 00:01:59,690
+that you didn't even think about,
+
+38
+00:01:59,690 --> 00:02:03,640
+and so that's where that idea of
+continuous improvement comes in.
+
+39
+00:02:03,640 --> 00:02:07,488
+Because even when you think it's great,
+you need to be able to look at it,
+
+40
+00:02:07,488 --> 00:02:08,542
+let your ego down, and
+
+41
+00:02:08,542 --> 00:02:12,960
+be able to solve those problems once you
+see how people are actually using it.
+
+42
+00:02:12,960 --> 00:02:16,280
+It's critical to technology
+because it moves so fast.
+
+43
+00:02:16,280 --> 00:02:18,490
+Things change so quickly.
+
+44
+00:02:18,490 --> 00:02:21,454
+If we aren't constantly improving
+the things that we do or
+
+45
+00:02:21,454 --> 00:02:25,640
+looking at the processes that we have,
+we're going to get behind.
+
+46
+00:02:25,640 --> 00:02:27,400
+We're always adding new features,
+
+47
+00:02:27,400 --> 00:02:31,170
+and so those always make new problems for
+us to try to solve.
+
+48
+00:02:31,170 --> 00:02:34,660
+If you believe that what you're trying
+to do is really for people, and
+
+49
+00:02:34,660 --> 00:02:38,505
+you forget about the numbers, you forget
+about all of that stuff, you remember
+
+50
+00:02:38,505 --> 00:02:41,999
+that your product is going to
+potentially make someone really happy or
+
+51
+00:02:41,999 --> 00:02:45,350
+make someone potentially more
+successful in their business.
+
+52
+00:02:45,351 --> 00:02:49,119
+Those are the kinds of things that
+really make me excited to work and
+
+53
+00:02:49,119 --> 00:02:52,300
+puts away all of that frustration
+of the kind of lead up.

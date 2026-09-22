@@ -1,0 +1,18 @@
+Chữ M đại diện cho Mitigated, Giảm thiểu, Đây là cách tiếp cận phổ biến nhất đối với các rủi ro trọng yếu. Đội ngũ đã chủ động xây dựng và triển khai một kế hoạch hành động cụ thể nhằm làm giảm xác suất xảy ra của rủi ro, hoặc làm giảm mức độ thiệt hại nếu rủi ro đó thực sự biến thành hiện thực.
+
+Ví dụ áp dụng thực tế, Trong dự án Plant Pals, khi đội ngũ nhận thấy rủi ro thiếu hụt chậu cây gốm sứ do nhà xưởng tại địa phương có thể bị đình công, quản lý dự án đã thực hiện phân tích ROAM như sau, 
+Rủi ro được xếp vào nhóm Mitigated, Giảm thiểu.
+Hành động giảm thiểu, Ký kết thêm một thỏa thuận nguyên tắc dự phòng với một nhà xưởng gốm sứ thứ hai ở tỉnh lân cận và đặt cọc trước mười phần trăm đơn hàng để đảm bảo luôn có nguồn cung thay thế trong vòng bốn mươi tám giờ nếu nhà xưởng chính gặp sự cố.
+Người sở hữu theo dõi, Owned, Giao cho Trưởng bộ phận thu mua chịu trách nhiệm cập nhật tình hình sản xuất hàng tuần.
+
+Mô hình ROAM giúp toàn bộ đội ngũ nắm bắt nhanh gọn tình trạng xử lý của từng rủi ro mà không bị chìm ngập trong những bảng biểu quá phức tạp.
+
+BÁO CÁO LEO THANG KHI XẢY RA SỰ CỐ, ESCALATING ISSUES.
+. ......
+Trong quá trình điều hành dự án, sẽ có những thời điểm bạn đối mặt với những vấn đề phát sinh vượt quá thẩm quyền, ngoài tầm kiểm soát hoặc vượt quá nguồn lực sẵn có của bạn và đội ngũ. Khi đó, kỹ năng sống còn của một Project Manager là biết cách báo cáo leo thang, tức Escalation, một cách chuyên nghiệp và đúng thời điểm.
+
+Nhiều người mới làm quen với nghề quản trị dự án thường mang tâm lý e ngại việc báo cáo leo thang, bởi họ sợ rằng việc báo cáo sự cố lên cấp trên sẽ bị coi là dấu hiệu của sự yếu kém, bất lực hoặc thiếu năng lực giải quyết vấn đề. Nhưng trên thực tế tại các tập đoàn chuyên nghiệp như Google, báo cáo leo thang không phải là sự thừa nhận thất bại, mà là một cơ chế quản trị lành mạnh, một hành động thể hiện tinh thần trách nhiệm cao độ nhằm bảo vệ lợi ích tối cao của dự án và tổ chức.
+
+Vậy khi nào là thời điểm chuẩn xác để bạn kích hoạt quy trình báo cáo leo thang?
+
+Thứ nhất là Khi vấn đề đe dọa trực tiếp tới ba ràng buộc cốt lõi của dự án, Nếu sự cố phát sinh có nguy cơ làm vỡ thời hạn chót của dự án, vượt quá ngân sách được ủy quyền hoặc làm suy giảm nghiêm trọng chất lượng sản phẩm bàn giao mà bạn không thể tự cân đối nội bộ, bạn bắt buộc phải báo cáo leo thang ngay lập tức.

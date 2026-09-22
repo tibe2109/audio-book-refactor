@@ -1,0 +1,90 @@
+1
+00:00:00,440 --> 00:00:02,970
+Welcome back. You're
+cruising right
+
+2
+00:00:02,970 --> 00:00:04,770
+along into your next topic.
+
+3
+00:00:04,770 --> 00:00:06,450
+In this section of the course,
+
+4
+00:00:06,450 --> 00:00:08,160
+we'll teach you all about how to
+
+5
+00:00:08,160 --> 00:00:10,820
+manage quality and meet
+quality standards.
+
+6
+00:00:10,820 --> 00:00:12,030
+You'll also learn about
+
+7
+00:00:12,030 --> 00:00:14,460
+quality assurance
+and quality control.
+
+8
+00:00:14,460 --> 00:00:17,060
+We'll take a look at
+continuous improvement and
+
+9
+00:00:17,060 --> 00:00:19,490
+how to use data-driven
+frameworks such
+
+10
+00:00:19,490 --> 00:00:21,695
+as DMAIC and PDCA
+
+11
+00:00:21,695 --> 00:00:24,670
+in order to work toward
+continuous improvements.
+
+12
+00:00:24,670 --> 00:00:27,555
+You'll also learn how to
+conduct retrospectives.
+
+13
+00:00:27,555 --> 00:00:28,910
+These will help you reflect on
+
+14
+00:00:28,910 --> 00:00:31,585
+the successes and
+setbacks of a project.
+
+15
+00:00:31,585 --> 00:00:33,350
+Finally, you'll learn about
+
+16
+00:00:33,350 --> 00:00:35,120
+the importance of
+maintaining a positive,
+
+17
+00:00:35,120 --> 00:00:37,415
+blameless tone
+throughout the process.
+
+18
+00:00:37,415 --> 00:00:39,290
+Are you ready to jump right in?
+
+19
+00:00:39,290 --> 00:00:41,210
+Let's start with
+quality management.
+
+20
+00:00:41,210 --> 00:00:43,530
+I'll meet you in the next video.

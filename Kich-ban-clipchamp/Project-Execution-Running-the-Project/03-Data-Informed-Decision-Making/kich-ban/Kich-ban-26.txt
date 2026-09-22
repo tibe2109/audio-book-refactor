@@ -1,0 +1,19 @@
+bốn. Phân tích xu hướng và hành vi theo thời gian, 
+Theo dõi xu hướng có thể giúp chúng ta hiểu được những sự chuyển dịch hoặc thay đổi trong dữ liệu của mình. Biểu đồ đường, tức Line Graphs, là một công cụ tuyệt vời để hiển thị trực quan sự thay đổi theo thời gian, nhưng chúng cũng có thể được kết hợp với các yếu tố khác.
+Ví dụ, chúng ta sử dụng hai đường thẳng trên cùng một biểu đồ để so sánh mức độ phổ biến giữa loài mèo và loài chó trong một khoảng thời gian nhất định. Bởi vì, biểu đồ sử dụng hai màu đường khác nhau, chúng ta có thể ngay lập tức nhận ra rằng chó luôn phổ biến hơn mèo. Ngay cả khi các đường thẳng dao động lên xuống, vẫn có một xu hướng chung đi lên, và đường dành cho chó luôn nằm cao hơn đường dành cho mèo.
+Thực hành tốt nhất cho biểu đồ đường, 
+Để tránh làm rối mắt người xem, không nên hiển thị quá bốn danh mục đường trên cùng một biểu đồ.
+Sắp xếp các dữ liệu có mức độ biến thiên cao ở phía trên của biểu đồ để dễ đọc hơn.
+
+Biểu đồ phân tán, biểu đồ thanh, biểu đồ tròn và biểu đồ đường là những dạng trực quan hóa dữ liệu phổ biến nhất mà bạn sẽ sử dụng xuyên suốt sự nghiệp quản lý dự án của mình. Để thực hành tạo các biểu đồ này, bạn có thể tham khảo các hướng dẫn từng bước bằng Google Sheets hoặc Microsoft Excel.
+
+KỸ THUẬT THUYẾT TRÌNH HIỆU QUẢ, EFFECTIVE PRESENTATION TECHNIQUES.
+. ......
+Chào bạn. Bạn đã học được quy trình xây dựng một mạch truyện kể về dự án của mình, và bạn cũng đã học được cách trực quan hóa các điểm dữ liệu then chốt giúp bạn kể câu chuyện đó. Bây giờ là lúc kết hợp tất cả lại với nhau. Trong bài học này, chúng ta sẽ nêu bật một số kỹ thuật thuyết trình hữu ích.
+
+Hãy nghĩ về một trong những diễn giả trước công chúng mà bạn yêu thích nhất và tự hỏi tại sao bạn lại thích các bài thuyết trình của họ đến vậy. Có phải vì phong thái tự tin, giọng nói truyền cảm, cách họ tương tác với khán giả hay những câu chuyện sâu sắc mà họ chia sẻ?
+
+Dưới đây là những kỹ thuật thuyết trình then chốt giúp bạn nâng tầm bài nói của mình,
+
+Thứ nhất, thấu hiểu sâu sắc khán giả của bạn, 
+Trước khi bước lên sân khấu hay mở micrô trong phòng họp trực tuyến, bạn phải biết rõ mình đang nói chuyện với ai, Họ là ai? Họ có kiến thức nền tảng về kỹ thuật hay không? Mục tiêu lớn nhất của họ khi tham dự buổi thuyết trình này là gì? Ban giám đốc điều hành cần bức tranh tổng thể và tác động tài chính, trong khi đội ngũ phát triển cần các bước hành động cụ thể và giải pháp kỹ thuật. Hãy điều chỉnh ngôn ngữ và cách tiếp cận của bạn cho phù hợp với từng đối tượng.

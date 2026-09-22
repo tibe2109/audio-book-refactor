@@ -1,0 +1,456 @@
+1
+00:00:00,290 --> 00:00:03,255
+Hi again. In the last video,
+
+2
+00:00:03,255 --> 00:00:04,770
+we focused on how to close out
+
+3
+00:00:04,770 --> 00:00:07,150
+a project for your
+customer and stakeholders.
+
+4
+00:00:07,150 --> 00:00:08,910
+In this video, we'll discuss
+
+5
+00:00:08,910 --> 00:00:12,315
+the best practices for closing
+a project with your team.
+
+6
+00:00:12,315 --> 00:00:15,000
+You'll also learn to
+use a retrospective to
+
+7
+00:00:15,000 --> 00:00:16,050
+close your project and
+
+8
+00:00:16,050 --> 00:00:18,075
+celebrate your team's
+accomplishments.
+
+9
+00:00:18,075 --> 00:00:19,920
+I've talked to you
+about retrospectives
+
+10
+00:00:19,920 --> 00:00:21,690
+quite a bit throughout
+this program, and
+
+11
+00:00:21,690 --> 00:00:22,980
+that's because there really is
+
+12
+00:00:22,980 --> 00:00:25,785
+no better tool for
+reflection and improvement.
+
+13
+00:00:25,785 --> 00:00:28,710
+Retrospectives are such
+an important aspect of
+
+14
+00:00:28,710 --> 00:00:30,150
+the project, and it's important to
+
+15
+00:00:30,150 --> 00:00:32,295
+really emphasize that to you.
+
+16
+00:00:32,295 --> 00:00:33,810
+Throughout the course, I'm
+
+17
+00:00:33,810 --> 00:00:35,485
+referring to the formal practice,
+
+18
+00:00:35,485 --> 00:00:36,875
+but a lot of us conduct
+
+19
+00:00:36,875 --> 00:00:40,055
+informal retrospectives daily
+without even knowing it.
+
+20
+00:00:40,055 --> 00:00:41,390
+Whether we're talking about
+
+21
+00:00:41,390 --> 00:00:43,085
+our day with our
+friends or family
+
+22
+00:00:43,085 --> 00:00:46,220
+or thinking about how we can
+improve past interactions,
+
+23
+00:00:46,220 --> 00:00:49,720
+we are constantly reflecting
+and working toward progress.
+
+24
+00:00:49,720 --> 00:00:51,949
+Let's revisit formal
+retrospectives
+
+25
+00:00:51,949 --> 00:00:53,120
+for a moment to explore
+
+26
+00:00:53,120 --> 00:00:56,905
+how they tie into the formal
+project closing process.
+
+27
+00:00:56,905 --> 00:00:59,555
+You might remember
+that a retrospective
+
+28
+00:00:59,555 --> 00:01:01,924
+is a meeting aimed to
+discuss successes,
+
+29
+00:01:01,924 --> 00:01:05,195
+failures, and possible
+improvements on the project.
+
+30
+00:01:05,195 --> 00:01:06,740
+They can occur after
+
+31
+00:01:06,740 --> 00:01:10,280
+a major milestone completion
+and at the end of a project.
+
+32
+00:01:10,280 --> 00:01:11,900
+In order to understand
+
+33
+00:01:11,900 --> 00:01:13,700
+the importance of
+closing a project,
+
+34
+00:01:13,700 --> 00:01:15,380
+let's discuss the three main
+
+35
+00:01:15,380 --> 00:01:17,630
+retrospective benefits
+for your team.
+
+36
+00:01:17,630 --> 00:01:20,570
+Retrospectives encourage
+team-building because they
+
+37
+00:01:20,570 --> 00:01:23,645
+allow team members to understand
+differing perspectives.
+
+38
+00:01:23,645 --> 00:01:25,400
+Retrospectives facilitate
+
+39
+00:01:25,400 --> 00:01:28,315
+improved collaboration
+on future projects,
+
+40
+00:01:28,315 --> 00:01:30,500
+and they promote positive changes
+
+41
+00:01:30,500 --> 00:01:32,945
+in future procedures
+and processes.
+
+42
+00:01:32,945 --> 00:01:34,820
+So it's no surprise that
+
+43
+00:01:34,820 --> 00:01:37,835
+a retrospective is a critical
+part of closing a project.
+
+44
+00:01:37,835 --> 00:01:40,355
+Whether your team has
+chosen to close the project
+
+45
+00:01:40,355 --> 00:01:43,415
+after each phase or
+comprehensively at the end,
+
+46
+00:01:43,415 --> 00:01:46,990
+you'll conduct retrospectives
+as a part of that process.
+
+47
+00:01:46,990 --> 00:01:48,800
+There may be temptation
+
+48
+00:01:48,800 --> 00:01:50,510
+within your project
+team to resist
+
+49
+00:01:50,510 --> 00:01:53,840
+reflecting before forging
+ahead into the next phase,
+
+50
+00:01:53,840 --> 00:01:55,760
+but you can't grow and improve if
+
+51
+00:01:55,760 --> 00:01:57,880
+you don't spend time reflecting.
+
+52
+00:01:57,880 --> 00:02:01,010
+Reflecting is a great way to
+learn which practices you
+
+53
+00:02:01,010 --> 00:02:04,505
+should keep doing and which
+ones you can improve upon.
+
+54
+00:02:04,505 --> 00:02:06,410
+As a project manager,
+
+55
+00:02:06,410 --> 00:02:08,990
+you want to build a culture
+within your team and
+
+56
+00:02:08,990 --> 00:02:12,040
+company to aim for
+constant improvements.
+
+57
+00:02:12,040 --> 00:02:14,390
+This means that you'll
+need to solicit
+
+58
+00:02:14,390 --> 00:02:15,800
+feedback that will help you to
+
+59
+00:02:15,800 --> 00:02:17,600
+do better in your next project.
+
+60
+00:02:17,600 --> 00:02:20,730
+This feedback might touch on
+any aspect of the project,
+
+61
+00:02:20,730 --> 00:02:23,480
+from planning,
+scheduling, execution,
+
+62
+00:02:23,480 --> 00:02:25,945
+communication, or team dynamics.
+
+63
+00:02:25,945 --> 00:02:27,890
+You might receive feedback about
+
+64
+00:02:27,890 --> 00:02:30,485
+processes you led,
+and that's okay.
+
+65
+00:02:30,485 --> 00:02:32,360
+Working through
+feedback is crucial to
+
+66
+00:02:32,360 --> 00:02:34,600
+your growth as a project manager.
+
+67
+00:02:34,600 --> 00:02:36,080
+It's important to create
+
+68
+00:02:36,080 --> 00:02:38,240
+a safe space for that
+feedback so that
+
+69
+00:02:38,240 --> 00:02:39,680
+folks can really
+share what they're
+
+70
+00:02:39,680 --> 00:02:42,640
+thinking and the team
+can grow together.
+
+71
+00:02:42,640 --> 00:02:45,050
+This is a key piece
+to help improve
+
+72
+00:02:45,050 --> 00:02:47,435
+collaborations on
+future projects.
+
+73
+00:02:47,435 --> 00:02:50,240
+Part of encouraging
+continuous growth is
+
+74
+00:02:50,240 --> 00:02:52,985
+to recognize and celebrate
+a job well done.
+
+75
+00:02:52,985 --> 00:02:54,380
+The way you celebrate will
+
+76
+00:02:54,380 --> 00:02:56,180
+change depending on
+where you're at in
+
+77
+00:02:56,180 --> 00:02:59,545
+the project and what feels
+most appropriate to your team.
+
+78
+00:02:59,545 --> 00:03:02,480
+Taking a moment to reward
+yourself with a token of
+
+79
+00:03:02,480 --> 00:03:04,535
+appreciation turns
+the celebration
+
+80
+00:03:04,535 --> 00:03:06,365
+into a team-building exercise.
+
+81
+00:03:06,365 --> 00:03:08,690
+Being appreciative ensures
+that the work you're
+
+82
+00:03:08,690 --> 00:03:11,090
+doing feels uplifting
+and rewarding,
+
+83
+00:03:11,090 --> 00:03:13,240
+rather than monotonous
+and tiring.
+
+84
+00:03:13,240 --> 00:03:15,750
+It also fuels positive change.
+
+85
+00:03:15,750 --> 00:03:17,315
+So when closing a project,
+
+86
+00:03:17,315 --> 00:03:18,780
+don't forget the fun elements.
+
+87
+00:03:18,780 --> 00:03:21,110
+Makes sure to play a
+game, eat some cake,
+
+88
+00:03:21,110 --> 00:03:22,550
+and celebrate some quality time
+
+89
+00:03:22,550 --> 00:03:25,045
+together, because
+you've earned it.
+
+90
+00:03:25,045 --> 00:03:28,505
+Let's review. Retrospectives
+encourage team-building
+
+91
+00:03:28,505 --> 00:03:29,900
+because they allow team members
+
+92
+00:03:29,900 --> 00:03:31,850
+to understand differing
+perspectives.
+
+93
+00:03:31,850 --> 00:03:33,859
+They facilitate
+improved collaboration
+
+94
+00:03:33,859 --> 00:03:35,090
+on future projects,
+
+95
+00:03:35,090 --> 00:03:36,920
+and they promote
+positive changes in
+
+96
+00:03:36,920 --> 00:03:39,340
+future procedures and processes.
+
+97
+00:03:39,340 --> 00:03:42,230
+Now that you know how to wrap
+things up for your team,
+
+98
+00:03:42,230 --> 00:03:43,655
+let's discuss how to wrap
+
+99
+00:03:43,655 --> 00:03:46,410
+everything up for
+the project manager.

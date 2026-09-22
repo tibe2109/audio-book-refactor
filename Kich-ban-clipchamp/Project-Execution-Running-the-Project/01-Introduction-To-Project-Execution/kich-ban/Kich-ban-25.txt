@@ -1,0 +1,22 @@
+Thành phần thứ ba là Đánh giá tác động đối với dự án, tức Project Impact, Đây là phần tối quan trọng để người nhận hiểu được mức độ nghiêm trọng của sự việc. Hãy lượng hóa tác động bằng các con số cụ thể nếu có thể, Vấn đề này sẽ làm dự án bị trễ hạn bao nhiêu ngày? Nguy cơ phát sinh thêm bao nhiêu chi phí? Hoặc nó ảnh hưởng trực tiếp đến cam kết nào với khách hàng?
+
+Thành phần thứ tư là Các phương án giải quyết đề xuất, tức Proposed Solutions, Đừng bao giờ chỉ ném vấn đề cho cấp trên xử lý. Hãy thể hiện năng lực chủ động của một Project Manager bằng cách đưa ra từ hai đến ba phương án giải quyết khả thi, phân tích ngắn gọn ưu nhược điểm của từng phương án và nêu rõ phương án nào mà bạn cùng đội ngũ đang khuyến nghị lựa chọn.
+
+Thành phần thứ năm là Yêu cầu hành động cụ thể và Thời hạn chót, tức Specific Ask and Deadline, Hãy nói rõ ràng bạn đang cần người nhận làm điều gì cụ thể, Phê duyệt kinh phí bổ sung, can thiệp ở cấp lãnh đạo với đối tác, hay phê duyệt gia hạn thời gian? Kèm theo đó, hãy ghi rõ thời hạn chót bạn cần nhận được phản hồi để không làm đình trệ các công việc tiếp nối.
+
+Ví dụ thực tế một bức email báo cáo leo thang,
+
+Kính gửi, Chị Sarah, Giám đốc Điều hành Dự án,
+Đồng kính gửi, Ban Chỉ đạo Dự án Plant Pals,
+
+Tiêu đề, CẦN CAN THIỆP GẤP, Dự án Plant Pals - Chậm trễ cấp khóa xác thực API Cổng thanh toán PayGate
+
+Thưa chị Sarah,
+
+Tôi viết email này để báo cáo khẩn cấp về một trở ngại kỹ thuật ngoài tầm kiểm soát của đội ngũ dự án Plant Pals và xin ý kiến can thiệp của chị.
+
+một. Bối cảnh và Vấn đề, 
+Đội ngũ dự án đã hoàn tất một trăm phần trăm phần mã nguồn tích hợp cổng thanh toán trực tuyến cho trang web. Tuy nhiên, đơn vị đối tác cung cấp dịch vụ PayGate đã chậm trễ năm ngày làm việc trong việc cấp khóa xác thực môi trường thử nghiệm chính thức theo hợp đồng đã ký kết. Mặc dù tôi đã liên hệ trực tiếp ba lần với chuyên viên phụ trách của PayGate, chúng tôi vẫn chưa nhận được phản hồi cụ thể.
+
+hai. Tác động tới dự án, 
+Nếu không có khóa xác thực trước mười bảy giờ chiều thứ Sáu tuần này, ngày mười lăm tháng Tám, toàn bộ giai đoạn thử nghiệm người dùng UAT sẽ bị hoãn lại tối thiểu một tuần, dẫn tới nguy cơ không thể ra mắt dịch vụ đúng ngày khai trương mùng một tháng Chín như đã cam kết với ban lãnh đạo.

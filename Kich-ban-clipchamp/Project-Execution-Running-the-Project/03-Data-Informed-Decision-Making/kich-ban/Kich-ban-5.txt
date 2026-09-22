@@ -1,0 +1,12 @@
+Dữ liệu là thông tin thô. Đó là những con số và phản hồi sẵn có cho bạn về các khía cạnh khác nhau của dự án. 
+Chỉ số đo lường Metrics là cách bạn đo lường dữ liệu của mình. Chúng xác định thông tin quan trọng hoặc cụ thể mà bạn cần biết về dự án, chẳng hạn như năng suất, chất lượng, hoặc mức độ tương tác. 
+Một khi bạn đã xác định được các chỉ số đo lường của dự án, bạn tiến hành phân tích dữ liệu theo các chỉ số đó để tìm kiếm các quy luật và trả lời các câu hỏi về dự án. Quá trình này được gọi là Phân tích dữ liệu Analytics, Sử dụng dữ liệu để trả lời các câu hỏi, phát hiện các mối quan hệ tương quan, và dự đoán các kết quả chưa biết.
+
+Khi phân tích dữ liệu, bạn hãy tự đặt ra các câu hỏi sau, 
+Các chỉ số đo lường này có ý nghĩa gì đối với bạn?
+Bạn muốn sử dụng các chỉ số đo lường mà mình đã chọn như thế nào?
+Bạn có thể tìm thấy các quy luật để đưa ra các dự đoán về dự án của mình hay không?
+Bạn có thể tìm ra những cách thức để cải tiến hoặc tối ưu hóa một số khía cạnh nhất định của dự án hay không?
+Bạn có thể rút ra những bài học kinh nghiệm gì từ dữ liệu của dự án?
+
+Dưới đây là một số danh mục chỉ số đo lường phổ biến nhất được sử dụng trong quản trị dự án,

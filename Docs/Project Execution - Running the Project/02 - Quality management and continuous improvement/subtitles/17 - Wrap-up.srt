@@ -1,0 +1,88 @@
+1
+00:00:01,210 --> 00:00:02,052
+Hi again.
+
+2
+00:00:02,052 --> 00:00:04,690
+This module featured a lot of information.
+
+3
+00:00:04,690 --> 00:00:08,708
+We revisited familiar concepts and
+introduced so many new ones.
+
+4
+00:00:08,708 --> 00:00:12,739
+We discussed quality management, where
+we learned the four steps to ensuring
+
+5
+00:00:12,739 --> 00:00:16,650
+quality, which includes setting
+quality standards, quality planning,
+
+6
+00:00:16,650 --> 00:00:19,108
+quality assurance, and quality control.
+
+7
+00:00:19,108 --> 00:00:24,316
+We covered continuous improvement and
+how to use data driven strategies such
+
+8
+00:00:24,316 --> 00:00:29,618
+as DMAIC, which stands for Define,
+Measure, Analyze, Improve, Control.
+
+9
+00:00:29,618 --> 00:00:33,548
+And PDCA, which stands for
+Plan, Do, Check,
+
+10
+00:00:33,548 --> 00:00:38,226
+act in order to work toward
+continuous improvements.
+
+11
+00:00:38,226 --> 00:00:41,477
+We learned how to conduct and
+use retrospectives as a tool for
+
+12
+00:00:41,477 --> 00:00:42,763
+future improvements.
+
+13
+00:00:42,763 --> 00:00:47,008
+And how to facilitate positive
+conversation and encourage feedback
+
+14
+00:00:47,008 --> 00:00:52,010
+from your team members in order to avoid
+mistakes later on in future projects.
+
+15
+00:00:52,010 --> 00:00:55,492
+I'm really proud of how far you've come,
+and I hope you are too.
+
+16
+00:00:55,492 --> 00:00:59,490
+I hope you take a moment to admire
+your progress and applaud yourself.
+
+17
+00:00:59,490 --> 00:01:03,234
+In the next module, you'll learn about
+the importance of gathering data and
+
+18
+00:01:03,234 --> 00:01:05,050
+how to make data driven decisions.
+
+19
+00:01:05,050 --> 00:01:07,850
+I'll meet you there whenever you're ready.

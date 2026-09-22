@@ -1,0 +1,12 @@
+Chào mừng bạn quay trở lại! Trong các học phần trước, chúng ta đã thảo luận kỹ lưỡng về việc lập kế hoạch dự án. Khi kế hoạch đã được thiết lập và công việc thực thi chính thức bắt đầu, trách nhiệm của một Project Manager là phải theo dõi sát sao tiến độ để đảm bảo mọi việc diễn ra đúng như dự tính. Vậy việc theo dõi, tức Tracking, thực chất mang lại những ý nghĩa sống còn nào?
+
+Theo dõi dự án là quá trình liên tục giám sát, thu thập và ghi nhận các thông tin về tiến trình thực hiện công việc so với kế hoạch cơ sở đã được phê duyệt. Lý do đầu tiên và quan trọng nhất khiến chúng ta phải theo dõi dự án là để phát hiện sớm các nguy cơ đi chệch hướng. Trong thực tế, không có dự án nào diễn ra hoàn toàn hoàn hảo từ đầu đến cuối mà không gặp bất kỳ trở ngại nào. Một thành viên trong nhóm có thể bị ốm, một nhà cung ứng có thể giao hàng chậm trễ, hoặc một tính năng kỹ thuật có thể đòi hỏi nhiều thời gian xử lý hơn so với ước lượng ban đầu. Nếu bạn không theo dõi sát sao từng ngày, những chậm trễ nhỏ bé ban đầu sẽ nhanh chóng tích tụ thành những sự chậm trễ khổng lồ và đẩy dự án vào nguy cơ vỡ tiến độ hoặc vượt ngân sách nghiêm trọng.
+
+Lý do thứ hai là để duy trì trách nhiệm và sự minh bạch trong toàn đội ngũ. Khi mọi người biết rõ công việc nào đang được theo dõi, ai là người chịu trách nhiệm chính và tiến độ hiện tại đang ở mức nào, tinh thần tự giác và sự phối hợp giữa các thành viên sẽ được nâng cao rõ rệt. Việc theo dõi cũng giúp loại bỏ những phỏng đoán mơ hồ và thay thế bằng những dữ liệu thực tế đáng tin cậy.
+
+Lý do thứ ba là để cung cấp thông tin minh bạch, kịp thời cho các bên liên quan. Các nhà tài trợ dự án, khách hàng và cấp quản lý cấp cao luôn muốn biết dự án đang tiến triển ra sao, ngân sách đã chi tiêu bao nhiêu và liệu sản phẩm có thể ra mắt đúng thời hạn hay không. Nhờ có quy trình theo dõi bài bản, bạn sẽ luôn nắm trong tay những số liệu chuẩn xác để báo cáo một cách tự tin và chuyên nghiệp.
+
+Và cuối cùng, việc theo dõi giúp bạn đưa ra những điều chỉnh kịp thời. Khi phát hiện một công việc đang bị nghẽn lại, bạn có thể ngay lập tức can thiệp, điều chuyển thêm nhân sự hỗ trợ, thương lượng lại phạm vi công việc, hoặc tìm kiếm một giải pháp kỹ thuật thay thế. Theo dõi không phải là để săm soi hay bắt lỗi đội ngũ, mà là chiếc la bàn giúp người thuyền trưởng nhận biết sớm những cơn sóng ngầm để điều khiển con tàu dự án vượt qua bão tố an toàn.
+
+CÁC HẠNG MỤC PHỔ BIẾN CẦN THEO DÕI, COMMON ITEMS TO TRACK.
+. ......

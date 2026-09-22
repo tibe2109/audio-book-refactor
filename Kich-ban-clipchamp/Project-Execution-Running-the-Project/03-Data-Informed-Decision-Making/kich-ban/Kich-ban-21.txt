@@ -1,0 +1,19 @@
+năm. Bước thứ năm, Chia sẻ dữ liệu, tức Share.
+Sau khi đã rút ra được những hiểu biết sâu sắc Insights từ dữ liệu, bạn bước sang giai đoạn Chia sẻ. Bạn tổng hợp các phát hiện của mình thành một bài báo cáo hoặc bài thuyết trình mạch lạc, sử dụng các biểu đồ trực quan để minh họa rõ nét sự khác biệt giữa các danh mục. Bạn trình bày câu chuyện dữ liệu trước người quản lý phòng tập và các bên liên quan, giải thích rõ ràng mối liên hệ giữa việc cơ sở vật chất xuống cấp và tỷ lệ hội viên hủy thẻ.
+
+sáu. Bước thứ sáu, Hành động, tức Act.
+Bước cuối cùng và quan trọng nhất là Hành động. Dựa trên những phân tích thuyết phục mà bạn đã chia sẻ, ban quản lý phòng tập quyết định hành động ngay lập tức, Họ ký hợp đồng bảo trì định kỳ với nhà cung cấp thiết bị để sửa chữa toàn bộ máy chạy bộ hỏng trong vòng một tuần, đồng thời, thuê thêm nhân viên vệ sinh ca tối. Ba tháng sau, dữ liệu khảo sát mới cho thấy tỷ lệ hài lòng về cơ sở vật chất đã tăng vọt lên chín trên mười điểm, và số lượng hội viên đăng ký mới tăng trở lại.
+
+Đó chính là,
+. ......
+trọn vẹn sức mạnh của quy trình sáu bước phân tích dữ liệu, Từ một vấn đề mơ hồ ban đầu, thông qua dữ liệu, bạn đã tạo ra những thay đổi tích cực và mang lại thành công rực rỡ cho tổ chức.
+
+KỂ CÂU CHUYỆN DỰ ÁN BẰNG DỮ LIỆU, PRESENTING DATA TO TELL A PROJECTS STORY.
+. ......
+Chào mừng bạn đã quay trở lại. Trong bài học này, chúng ta sẽ thảo luận về cách kể một câu chuyện đầy sức mạnh bằng cách sử dụng dữ liệu. Chúng tôi sẽ hướng dẫn bạn cách thu thập và sắp xếp dữ liệu dự án của mình để trình bày nó trước những người khác trong tổ chức của bạn.
+
+Thuyết trình là một phương thức mạnh mẽ để truyền đạt các ý tưởng của bạn và củng cố các quyết định của bạn xuyên suốt hành trình dự án. Hãy nghĩ về việc thuyết trình như nghệ thuật kể câu chuyện về dự án của bạn, tức Storytelling with Data.
+
+Tại sao chúng ta lại cần kể chuyện bằng dữ liệu? Bộ não con người không được tạo ra để ghi nhớ các con số trừu tượng hay các bảng tính khô khan. Nhưng con người từ hàng ngàn năm nay luôn kết nối sâu sắc với các câu chuyện. Một câu chuyện dữ liệu xuất sắc sẽ mang lại linh hồn cho các con số, tạo ra sự đồng cảm và thôi thúc người nghe hành động.
+
+Một câu chuyện dữ liệu hấp dẫn thường được xây dựng dựa trên cấu trúc ba phần kinh điển,

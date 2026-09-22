@@ -1,0 +1,383 @@
+1
+00:00:01,160 --> 00:00:02,040
+Welcome back.
+
+2
+00:00:02,040 --> 00:00:04,863
+Remember how I said there
+wasn't one exact formula or
+
+3
+00:00:04,863 --> 00:00:08,430
+template to follow when
+conducting retrospectives?
+
+4
+00:00:08,430 --> 00:00:12,100
+That's because every team learns,
+adapts, and grows differently.
+
+5
+00:00:13,370 --> 00:00:16,650
+In this video, we'll talk about
+how to conduct a retrospective.
+
+6
+00:00:16,650 --> 00:00:20,720
+Different situations call for different
+tactics, and when it comes to receiving
+
+7
+00:00:20,720 --> 00:00:25,760
+potentially sensitive feedback,
+it's best to consider your team's needs.
+
+8
+00:00:25,760 --> 00:00:29,820
+There are a couple of things to keep in
+mind before you begin a retrospective.
+
+9
+00:00:29,820 --> 00:00:33,040
+First, you'll want to maintain
+a positive tone throughout the process.
+
+10
+00:00:34,090 --> 00:00:37,907
+Remember, even if there are some
+tough conversations, the objective of
+
+11
+00:00:37,907 --> 00:00:41,661
+a retrospective is to encourage
+improvements, which prepare you for
+
+12
+00:00:41,661 --> 00:00:43,360
+future projects.
+
+13
+00:00:43,360 --> 00:00:47,086
+In general, the retrospective should be
+considered a positive experience where
+
+14
+00:00:47,086 --> 00:00:49,680
+team members feel comfortable
+sharing their feedback.
+
+15
+00:00:51,340 --> 00:00:55,660
+Next, you may need to be considerate
+of teams outside of your own.
+
+16
+00:00:55,660 --> 00:00:58,024
+If there are other teams
+you partner with regularly,
+
+17
+00:00:58,024 --> 00:01:01,410
+they'll need to be involved
+in the retrospective, as well.
+
+18
+00:01:01,410 --> 00:01:02,161
+For instance,
+
+19
+00:01:02,161 --> 00:01:06,031
+some adjacent teams that were part of the
+project may feel like they want to voice
+
+20
+00:01:06,031 --> 00:01:10,270
+an opinion about the struggle to
+maintain communication between teams.
+
+21
+00:01:10,270 --> 00:01:12,985
+If they choose not to be
+involved in the retrospective,
+
+22
+00:01:12,985 --> 00:01:16,240
+you'll at least want to share
+your findings with them.
+
+23
+00:01:16,240 --> 00:01:18,958
+After all,
+smoothing cross-team interactions and
+
+24
+00:01:18,958 --> 00:01:22,890
+deliverable handoffs is a frequent
+topic of discussion in retrospectives.
+
+25
+00:01:23,910 --> 00:01:26,432
+As previously mentioned,
+you can use various props and
+
+26
+00:01:26,432 --> 00:01:29,150
+tools to conduct your retrospective.
+
+27
+00:01:29,150 --> 00:01:32,110
+Here's an example of what
+a retrospective might entail.
+
+28
+00:01:33,470 --> 00:01:37,418
+As you'll notice, it's pretty extensive
+and includes a lot of opportunity for
+
+29
+00:01:37,418 --> 00:01:41,380
+details. You'll want to encourage as much
+feedback as possible from your team.
+
+30
+00:01:42,750 --> 00:01:47,150
+This retrospective template is a standard
+document, with room for project managers
+
+31
+00:01:47,151 --> 00:01:51,760
+to fill out and discuss with their
+teams and use it to guide the conversation.
+
+32
+00:01:51,760 --> 00:01:56,410
+Go over the chain of events in the same
+way that they happened in real time.
+
+33
+00:01:56,410 --> 00:01:58,330
+What happened during the planning stage?
+
+34
+00:01:58,330 --> 00:02:00,130
+What could have gone better?
+
+35
+00:02:00,130 --> 00:02:02,210
+Where did your team get lucky?
+
+36
+00:02:02,210 --> 00:02:04,040
+How about during the execution stage?
+
+37
+00:02:05,040 --> 00:02:08,578
+As you do that, fill out the lessons
+learned section, which is a space for
+
+38
+00:02:08,578 --> 00:02:12,370
+you to elaborate on things you could
+do differently the next time around.
+
+39
+00:02:13,600 --> 00:02:18,560
+This is a space to include which risks
+materialized during your project.
+
+40
+00:02:18,560 --> 00:02:22,560
+Was there a large gap between
+the original plan and its execution?
+
+41
+00:02:22,560 --> 00:02:24,460
+How did the team feel about it?
+
+42
+00:02:24,460 --> 00:02:28,491
+Maybe several of your project team members
+commented on the fact that the website
+
+43
+00:02:28,491 --> 00:02:31,640
+launch didn't meet the original deadline.
+
+44
+00:02:31,640 --> 00:02:36,490
+Because of this, sales team members
+didn't hit their numbers that month,
+
+45
+00:02:36,490 --> 00:02:41,006
+the marketing department had to change the
+date on several pieces of content and ads,
+
+46
+00:02:41,006 --> 00:02:45,100
+and the sponsor had to answer to investors
+who were eager to view the website.
+
+47
+00:02:46,260 --> 00:02:50,782
+Team members are upset now because if you
+had prioritized the website's completion
+
+48
+00:02:50,782 --> 00:02:54,740
+and spent less time on less important
+tasks, this may have been avoided.
+
+49
+00:02:55,990 --> 00:02:58,498
+It's difficult feedback,
+but it's pertinent for
+
+50
+00:02:58,498 --> 00:03:01,990
+future successes to consider
+why this risk materialised.
+
+51
+00:03:01,990 --> 00:03:06,690
+Next time, you'll make sure to prioritize
+a task with so many dependencies.
+
+52
+00:03:06,690 --> 00:03:10,190
+Now that you've gone over how everything
+went, build a better future for
+
+53
+00:03:10,190 --> 00:03:12,462
+your team by filling out
+the remaining tables.
+
+54
+00:03:12,462 --> 00:03:17,162
+The first one is action items and will
+address the question "What action should
+
+55
+00:03:17,163 --> 00:03:21,448
+we take as a result of our lessons learned?" You'll start on the left-hand side
+
+56
+00:03:21,448 --> 00:03:25,873
+with the action items you want to address,
+then make your way through the cells to
+
+57
+00:03:25,873 --> 00:03:29,931
+the right as you include information
+like: type—as in, is this a tool,
+
+58
+00:03:29,931 --> 00:03:35,470
+a process, a team, or something else?
+Owner—who will own this action item?
+
+59
+00:03:35,471 --> 00:03:39,830
+And relative links—consider where
+we're tracking this item.
+
+60
+00:03:41,420 --> 00:03:44,590
+The next table is all about
+future considerations.
+
+61
+00:03:44,590 --> 00:03:47,792
+Are there any risks that could
+become issues if not addressed
+
+62
+00:03:47,792 --> 00:03:48,930
+in the next quarter?
+
+63
+00:03:49,930 --> 00:03:53,560
+Do you need to pass off ownership
+of this project to someone else?
+
+64
+00:03:53,560 --> 00:03:57,980
+Include those and make sure to fill
+out the other cells, including:
+
+65
+00:03:57,981 --> 00:04:00,930
+Type—is this a process,
+a team, or something else?
+
+66
+00:04:00,930 --> 00:04:04,152
+Contact—who can be a resource
+on this procedure
+
+67
+00:04:04,152 --> 00:04:07,120
+if we need to reference it later?
+
+68
+00:04:07,120 --> 00:04:11,117
+And again, any links that may seem
+relevant to this topic. that could be
+
+69
+00:04:11,117 --> 00:04:14,644
+relevant documentation if you're
+passing the project off or
+
+70
+00:04:14,644 --> 00:04:19,030
+maybe a risk register from your
+project. And there you have it.
+
+71
+00:04:19,030 --> 00:04:23,100
+Now, I showed you a pretty standard
+retrospective as you'd fill it out,
+
+72
+00:04:23,100 --> 00:04:26,298
+but if you feel like your team needs
+something a little more interactive,
+
+73
+00:04:26,298 --> 00:04:28,210
+feel free to have fun with it.
+
+74
+00:04:28,210 --> 00:04:32,206
+The way you gather this information from
+your team can be more innovative than
+
+75
+00:04:32,206 --> 00:04:33,360
+just a list.
+
+76
+00:04:33,360 --> 00:04:36,880
+You can use color coding,
+sticky notes, columns with emojis, and
+
+77
+00:04:36,880 --> 00:04:40,970
+anything else you feel will suit
+your team and keep them engaged.
+
+78
+00:04:40,970 --> 00:04:46,470
+Whatever you do, make sure you carry the
+lessons learned into your next projects.
+
+79
+00:04:46,470 --> 00:04:51,230
+In the next video, we'll recap all of our
+own lessons learned from this module.
+
+80
+00:04:51,230 --> 00:04:51,790
+Meet you there!

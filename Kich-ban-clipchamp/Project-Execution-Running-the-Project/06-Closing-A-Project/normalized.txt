@@ -1,0 +1,260 @@
+HỌC PHẦN SÁU, ĐÓNG DỰ ÁN THÀNH CÔNG, CLOSING A PROJECT.
+. ......
+
+
+
+
+
+LỜI MỞ ĐẦU, ĐÓNG DỰ ÁN, INTRODUCTION, CLOSING A PROJECT.
+. ......
+
+
+
+Chào mừng bạn đã đến với học phần cuối cùng của khóa học Thực thi Dự án! Ở học phần này, chúng ta sẽ cùng nhau tìm hiểu về cách thức đóng một dự án một cách chuyên nghiệp và bài bản.
+
+Trong các bài học này, bạn sẽ học cách giải thích tại sao việc đóng dự án lại có ý nghĩa vô cùng quan trọng, xác định chính xác khi nào một dự án được coi là đã hoàn thành trọn vẹn, và phác thảo quy trình đóng dự án từng bước chi tiết. Chúng ta sẽ cùng nhau hiểu rằng giai đoạn đóng dự án phục vụ như một khía cạnh không thể thiếu của vòng đời dự án và giúp tổ chức tránh được những kịch bản bất lợi không mong muốn. Hãy cùng tôi bước vào bài học đầu tiên!
+
+
+
+TẦM QUAN TRỌNG CỦA VIỆC ĐÓNG DỰ ÁN, THE IMPORTANCE OF PROJECT CLOSURE.
+. ......
+
+
+
+Chào mừng bạn đã quay trở lại. Trong bài học này, chúng ta sẽ thảo luận sâu sắc về giai đoạn đóng dự án, tức Project Closing. Chúng ta sẽ cùng nhau trả lời ba câu hỏi cốt lõi, Đóng dự án thực chất có nghĩa là gì? Tại sao nó lại quan trọng đến vậy? Và khi nào thì quy trình này chính thức diễn ra?
+
+Đóng dự án bao gồm một tập hợp các quy trình được thực hiện để chính thức hoàn thành dự án, kết thúc giai đoạn hiện tại và hoàn tất mọi nghĩa vụ theo hợp đồng đã ký kết.
+
+Điều đầu tiên mà bạn bắt buộc phải phân biệt rạch ròi là, Hoàn thành công việc của dự án không đồng nghĩa với việc Đóng dự án!
+Rất nhiều người quản lý dự án thiếu kinh nghiệm thường mắc phải sai lầm nghiêm trọng này, Khi thấy sản phẩm đã được lập trình xong, tòa nhà đã được xây xong hoặc sự kiện đã được tổ chức xong, họ vội vã tuyên bố dự án kết thúc và lập tức chuyển sang công việc mới. Tuy nhiên, nếu bạn không thực hiện quy trình đóng dự án chính thức, dự án của bạn vẫn chưa thực sự kết thúc.
+
+Tại sao việc đóng dự án lại quan trọng đến vậy?
+Thứ nhất, nó giúp bạn nhận được sự công nhận và phê duyệt chính thức bằng văn bản từ các bên liên quan và khách hàng. Điều này bảo vệ bạn và tổ chức khỏi những tranh chấp pháp lý sau này về phạm vi công việc.
+Thứ hai, nó đảm bảo tất cả các hợp đồng với nhà cung cấp bên ngoài đều được tất toán tài chính và giải phóng nghĩa vụ pháp lý, tránh việc công ty tiếp tục bị tính phí dịch vụ không mong muốn.
+Thứ ba, nó giúp chuyển giao trơn tru sản phẩm của dự án sang cho đội ngũ vận hành và bảo trì thường nhật, đảm bảo người dùng cuối được đào tạo chu đáo để khai thác tối đa giá trị sản phẩm.
+Thứ tư, nó giải phóng các nguồn lực, Các kỹ sư, chuyên gia và trang thiết bị được chính thức bàn giao để họ có thể sẵn sàng tham gia vào các dự án mới của công ty.
+Và cuối cùng, nó mang lại cơ hội vô giá để toàn bộ đội ngũ cùng nhau nhìn nhận lại, đúc kết các bài học kinh nghiệm và tôn vinh những thành tựu tuyệt vời đã cùng nhau đạt được.
+
+Để một dự án được chính thức coi là đóng lại, bạn phải đảm bảo ba điều kiện tiên quyết, 
+Một là, Toàn bộ khối lượng công việc đã cam kết trong kế hoạch đều đã được thực hiện xong xuôi.
+Hai là, Toàn bộ các quy trình quản trị dự án đã thỏa thuận đều đã được thực thi đầy đủ.
+Ba là, Bạn đã nhận được sự công nhận và đồng thuận chính thức bằng văn bản từ các bên liên quan chủ chốt rằng dự án đã hoàn thành.
+
+
+
+NGHIÊN CỨU ĐIỂN HÌNH, HẬU QUẢ KHÔN LƯỜNG KHI BỎ QUA BƯỚC ĐÓNG DỰ ÁN, CASE STUDY, THE IMPACT OF SKIPPING PROJECT CLOSURE STEPS.
+. ......
+
+
+
+Trong bài học trước, chúng ta đã thảo luận về tầm quan trọng của giai đoạn cuối cùng trong vòng đời dự án, Đóng dự án. Bạn đã biết rằng để đóng một dự án, bạn phải đảm bảo toàn bộ công việc đã hoàn thành, các quy trình quản trị đã được thực thi và nhận được sự phê duyệt chính thức bằng văn bản từ các bên liên quan.
+
+Trong tài liệu này, chúng ta sẽ thảo luận về những tác động tiêu cực khôn lường khi bỏ qua các bước đóng dự án quan trọng. Đôi khi việc đóng dự án được tiến hành một cách cẩu thả hoặc thậm chí không bao giờ xảy ra. Điều này có thể gây ra những tổn thất nặng nề đối với khả năng sinh lời và sự thành bại chung của tổ chức bạn. Việc bỏ qua giai đoạn đóng dự án có thể hủy hoại một dự án vốn dĩ đã vận hành rất trơn tru trước đó. Cho dù dự án có vẻ thành công rực rỡ đến đâu ở những giai đoạn cuối cùng, công việc của bạn với tư cách là một người quản lý dự án vẫn chưa hoàn tất cho đến khi tất cả các bước của giai đoạn đóng dự án được hoàn thành trọn vẹn.
+
+Nghiên cứu điển hình, Câu chuyện về Công ty Đồ chơi Tillys Toys.
+Để hiểu rõ hơn điều gì có thể xảy ra khi một dự án không được đóng lại đúng cách, chúng ta hãy cùng phân tích một tình huống giả định thực tế, 
+Tillys Toys là một nhà sản xuất đồ chơi trẻ em quy mô nhỏ. Họ đã phát triển một sản phẩm ống heo tiết kiệm điện tử tương tác hoàn toàn mới có khả năng phát ra tiếng nói và các bài hát vui nhộn để giúp trẻ em học nhận biết chữ số, đếm số và thực hiện các phép cộng đơn giản. 
+
+Dưới đây là một loạt các sai sót nghiêm trọng đã xảy ra do đội ngũ dự án bỏ qua quy trình đóng dự án chính thức, 
+
+Sai sót thứ nhất, Không phải tất cả khối lượng công việc đều đã được hoàn thành.
+Chuyện gì đã xảy ra, Khi sản phẩm ống heo tiết kiệm của Tillys Toys được tung ra thị trường vào dịp Giáng sinh, các phụ huynh bắt đầu phàn nàn gay gắt rằng tính năng dạy đếm số bằng tiếng Tây Ban Nha đã được quảng cáo rầm rộ trên vỏ hộp nhưng hoàn toàn không hoạt động trong phần mềm. Hóa ra, đội ngũ lập trình trước đó đã gặp phải một lỗi kỹ thuật nhỏ ở mô-đun ngôn ngữ này và dự định sẽ quay lại sửa sau. Nhưng vì người quản lý dự án không tiến hành kiểm tra đối soát danh mục hoàn thành cuối cùng, lỗi này đã bị bỏ quên và sản phẩm lỗi vẫn được đưa vào dây chuyền sản xuất hàng loạt. Hậu quả là hàng ngàn sản phẩm bị trả lại, gây thiệt hại nặng nề về doanh thu.
+
+Sai sót thứ hai, Các hợp đồng với nhà cung cấp bên ngoài không được thanh lý chính thức.
+Chuyện gì đã xảy ra, Đội ngũ dự án đã thuê một công ty gia công phần mềm bên ngoài để lập trình các bài hát thiếu nhi cho ống heo. Hợp đồng quy định rõ thời hạn bảo hành sửa lỗi miễn phí trong vòng sáu mươi ngày sau khi bàn giao. Tuy nhiên, vì người quản lý dự án không gửi thông báo nghiệm thu chính thức, thời hạn bảo hành đã trôi qua mà công ty không hề hay biết. Khi các lỗi âm thanh phát sinh trên thực tế, công ty đối tác từ chối sửa chữa miễn phí và yêu cầu Tillys Toys phải ký một hợp đồng dịch vụ mới với chi phí rất cao.
+
+Sai sót thứ ba, Thiếu văn bản nghiệm thu chính thức từ các bên liên quan.
+Chuyện gì đã xảy ra, Ban giám đốc kinh doanh và các nhà phân phối bán lẻ lớn tuyên bố rằng sản phẩm thực tế không đạt đúng tiêu chuẩn kích thước và độ bền như đã cam kết ban đầu. Vì người quản lý dự án không tổ chức buổi nghiệm thu chính thức có chữ ký xác nhận của đại diện kinh doanh trước khi sản xuất hàng loạt, hai bên đã rơi vào một cuộc tranh cãi pháp lý gay gắt kéo dài nhiều tháng, làm đình trệ toàn bộ chiến dịch phân phối.
+
+Sai sót thứ tư, Tài liệu dự án không được lưu trữ và đóng gói ngăn nắp.
+Chuyện gì đã xảy ra, Sáu tháng sau khi dự án kết thúc, khi công ty muốn phát triển phiên bản nâng cấp của ống heo tiết kiệm, họ nhận thấy rằng không ai biết mã nguồn phần mềm gốc được lưu trữ ở đâu, sơ đồ mạch điện tử nằm trong máy tính của kỹ sư nào, và các hợp đồng thỏa thuận bản quyền âm nhạc được cất giữ ở ngăn kéo nào. Toàn bộ đội ngũ mới đã phải mất hàng trăm giờ làm việc để tìm kiếm và xây dựng lại từ đầu những gì đã bị thất lạc.
+
+Bài học rút ra từ Tillys Toys là vô cùng đắt giá, Một giai đoạn đóng dự án nghiêm túc không phải là thủ tục hành chính rườm rà, nó chính là chiếc chốt an toàn bảo vệ toàn bộ thành quả lao động của đội ngũ và danh tiếng của doanh nghiệp!
+
+
+
+QUY TRÌNH ĐÓNG DỰ ÁN DÀNH CHO KHÁCH HÀNG VÀ CÁC BÊN LIÊN QUAN, THE CLOSING PROCESS FOR CLIENTS AND STAKEHOLDERS.
+. ......
+
+
+
+Trong bài học trước, chúng ta đã thảo luận về lý do tại sao quy trình đóng dự án lại quan trọng về mặt tổng thể. Trong bài học này, chúng ta sẽ đi vào cụ thể hơn, Tại sao việc đóng dự án lại tối quan trọng đối với khách hàng và các bên liên quan.
+
+Một quy trình đóng dự án chính thức là vô cùng cần thiết, không chỉ bởi vì, việc đóng dự án không đúng cách có thể khiến bạn vướng vào các hợp đồng dở dang hoặc phạm vi công việc chưa hoàn tất, mà còn bởi vì, bạn muốn các bên liên quan cảm thấy rằng các nhu cầu và kỳ vọng của họ đã được đáp ứng trọn vẹn. Mối quan hệ của đội ngũ dự án với khách hàng, người dùng và các nhà cung cấp có thể bị tổn hại nghiêm trọng bởi những đầu việc dở dang còn sót lại. Nếu các mối quan hệ này bị ảnh hưởng tiêu cực, uy tín của đội ngũ bạn sẽ bị sụt giảm.
+
+Thông thường, các bên liên quan sẽ cùng với người quản lý dự án thiết lập các mục tiêu và phạm vi của dự án ngay từ đầu, do đó, một người quản lý dự án giỏi sẽ luôn muốn đảm bảo rằng các bên liên quan hoàn toàn hài lòng với chất lượng của các sản phẩm bàn giao và sản phẩm cuối cùng.
+
+Làm thế nào để bạn đảm bảo rằng khách hàng và các bên liên quan chủ chốt đều hạnh phúc với giai đoạn đóng dự án?
+Trước hết, bạn cần quyết định xem liệu dự án của bạn có nên áp dụng một quy trình đóng dự án quy mô nhỏ ở cuối mỗi mốc quan trọng Milestone, hay một giai đoạn đóng dự án chính thức và toàn diện hơn ở gần cuối cùng. Bạn thậm chí có thể quyết định thực hiện cả hai, Vừa đóng dự án quy mô nhỏ sau mỗi mốc quan trọng, vừa tiến hành đóng dự án chính thức ở thời điểm kết thúc toàn bộ dự án. Bạn xác định điều này bằng cách tự hỏi xem liệu một mốc quan trọng cụ thể đã là kết quả cuối cùng hay chưa, nghĩa là mốc đó sẽ không cần phải xem xét lại trong tương lai.
+
+Dưới đây là các bước then chốt khi đóng dự án với khách hàng và các bên liên quan, 
+một. Tiến hành kiểm tra nghiệm thu chính thức của người dùng, tức U-A-T, User Acceptance Testing, Đảm bảo rằng khách hàng đích thân kiểm tra và xác nhận sản phẩm đáp ứng hoàn hảo các tiêu chí đã cam kết.
+hai. Thu thập chữ ký nghiệm thu chính thức bằng văn bản, tức Formal Sign-off, Đây là tài liệu pháp lý quan trọng nhất khẳng định khách hàng đã đồng ý tiếp nhận sản phẩm và dự án đã hoàn thành nghĩa vụ.
+ba. Kế hoạch chuyển giao sang vận hành, tức Handover Plan, Chuyển giao toàn bộ tài liệu kỹ thuật, hướng dẫn sử dụng, đào tạo người dùng cuối và thiết lập các thỏa thuận mức độ dịch vụ hỗ trợ kỹ thuật, tức S-L-A, Service Level Agreement.
+bốn. Thanh lý hợp đồng và tất toán tài chính, Đảm bảo các hóa đơn cuối cùng được thanh toán đầy đủ, giải phóng các khoản tiền bảo lãnh bảo hành và chính thức đóng hợp đồng với các nhà cung cấp.
+
+Khi khách hàng cảm thấy họ được chăm sóc chu đáo đến tận giây phút cuối cùng, họ sẽ luôn sẵn sàng quay trở lại hợp tác với bạn trong những dự án tiếp theo.
+
+
+
+CHỨNG MINH TÁC ĐỘNG CỦA DỰ ÁN TRƯỚC CÁC BÊN LIÊN QUAN, DEMONSTRATING PROJECT IMPACT TO STAKEHOLDERS.
+. ......
+
+
+
+Một trong những nhiệm vụ vinh quang nhất của người quản lý dự án trong giai đoạn đóng dự án là chứng minh giá trị thực tế và tác động to lớn mà dự án đã mang lại cho tổ chức và các bên liên quan.
+
+Đừng chỉ dừng lại ở việc báo cáo, Chúng tôi đã hoàn thành một trăm nhiệm vụ đúng hạn. Các nhà tài trợ dự án muốn nhìn thấy tác động kinh doanh thực chất, 
+Tác động về mặt tài chính, Dự án đã giúp công ty tăng bao nhiêu phần trăm doanh thu? Đã giúp tiết kiệm bao nhiêu chi phí vận hành hàng năm? Tỷ suất hoàn vốn đầu tư R-O-I thực tế đạt được là bao nhiêu so với dự toán ban đầu trong Bản hồ sơ kinh doanh Business Case?
+Tác động về mặt vận hành, Thời gian xử lý đơn hàng đã giảm từ ba ngày xuống còn ba giờ như thế nào? Tỷ lệ sai sót trong quy trình đã giảm đi bao nhiêu phần trăm?
+Tác động đến khách hàng và thị trường, Điểm số hài lòng của khách hàng C-S-A-T tăng lên bao nhiêu điểm? Tỷ lệ tiếp nhận sản phẩm Adoption Rate của người dùng đạt bao nhiêu phần trăm trong tháng đầu tiên ra mắt?
+Tác động chiến lược lâu dài, Dự án đã giúp tổ chức mở ra những cơ hội thị trường mới nào, nâng cao năng lực cạnh tranh ra sao và nâng tầm thương hiệu của công ty trên thị trường quốc tế như thế nào?
+
+Hãy chuẩn bị một bài báo cáo tổng kết điều hành Executive Summary thật trang nhã, kết hợp các biểu đồ trực quan sinh động và những câu chuyện phản hồi tích cực từ người dùng thực tế. Khi bạn chứng minh được tác động rõ ràng của dự án, bạn không chỉ khẳng định năng lực lãnh đạo xuất chúng của bản thân mà còn mở ra những cơ hội thăng tiến to lớn trong sự nghiệp.
+
+
+
+QUY TRÌNH ĐÓNG DỰ ÁN DÀNH CHO ĐỘI NGŨ, THE CLOSING PROCESS FOR THE TEAM.
+. ......
+
+
+
+Chào bạn. Trong bài học trước, chúng ta đã tập trung vào cách thức đóng dự án đối với khách hàng và các bên liên quan. Trong bài học này, chúng ta sẽ thảo luận về các thực hành tốt nhất để đóng dự án cùng với đội ngũ của bạn. Bạn cũng sẽ học cách sử dụng phiên họp hồi tưởng Retrospective để đóng dự án và ăn mừng những thành tựu tuyệt vời của đội ngũ.
+
+Tôi đã chia sẻ với bạn về các phiên họp hồi tưởng khá nhiều xuyên suốt chương trình học này, và đó là bởi vì, thực sự không có một công cụ nào tốt hơn để suy ngẫm và cải tiến liên tục!
+
+Quy trình đóng dự án cùng đội ngũ bao gồm ba hoạt động cốt lõi, 
+
+Hoạt động thứ nhất, Tổ chức Phiên họp Hồi tưởng Đóng dự án, tức Final Project Retrospective.
+Khác với các phiên hồi tưởng ngắn sau mỗi Sprint, phiên hồi tưởng đóng dự án nhìn lại toàn bộ bức tranh hành trình từ ngày đầu khởi động cho đến khi về đích.
+Mục tiêu là trả lời ba câu hỏi then chốt, 
+Điều gì đã diễn ra xuất sắc mà chúng ta cần biến thành chuẩn mực cho các dự án tương lai?
+Những sai lầm, trục trặc nào đã xảy ra và nguyên nhân gốc rễ của chúng là gì?
+Những bài học kinh nghiệm đắt giá nào chúng ta cần đúc kết lại để không bao giờ lặp lại trong tương lai?
+Người quản lý dự án phải tạo ra một bầu không khí an toàn tâm lý tuyệt đối, nơi mọi người có thể thành thật chia sẻ mà không sợ bị phán xét hay đổ lỗi.
+
+Hoạt động thứ hai, Đúc kết và Lưu trữ Bài học Kinh nghiệm, tức Documenting Lessons Learned.
+Tất cả những hiểu biết sâu sắc từ phiên hồi tưởng phải được văn bản hóa thành tài liệu Bài học kinh nghiệm và đưa vào kho tri thức chung của tổ chức, giúp các thế hệ quản lý dự án đi sau có thể học hỏi và kế thừa.
+
+Hoạt động thứ ba, Ăn mừng và Công nhận thành tích, tức Celebrating Success and Recognition.
+Đừng bao giờ để một dự án kết thúc trong sự lặng lẽ! Đội ngũ của bạn đã cùng nhau thức khuya dậy sớm, vượt qua biết bao áp lực và thử thách căng thẳng để đưa dự án về đích. Hãy tổ chức một buổi lễ tổng kết ấm cúng, gửi những lời cảm ơn chân thành tới từng cá nhân, nêu bật những đóng góp đặc biệt của từng thành viên và cùng nhau nâng ly ăn mừng chiến thắng. Sự công nhận xứng đáng sẽ để lại những kỷ niệm đẹp đẽ và tạo động lực mạnh mẽ cho mọi người trong những chặng đường tiếp theo.
+
+
+
+SARAH, TẠI SAO TÔI YÊU THÍCH CÁC PHIÊN HỌP HỒI TƯỞNG, SARAH, WHY I LOVE RETROSPECTIVES.
+. ......
+
+
+
+Xin chào, tôi là Sarah. Tôi là Quản lý Chương trình thuộc Đội ngũ Giáo dục Kỹ thuật tại Google. 
+
+Với tư cách là một người quản lý chương trình, tôi điều hành các đội ngũ đa chức năng trong việc thiết kế, ra mắt và phát triển các Chương trình Giáo dục Khoa học Máy tính tại Google. Hiện tại, phạm vi công việc chính của tôi là hợp tác chặt chẽ với các tổ chức giáo dục tại thành phố New York để nỗ lực mang lại nhiều trải nghiệm giáo dục công nghệ và cơ hội phát triển hơn nữa, cho thanh thiếu niên trong khu vực.
+
+Tại sao tôi lại yêu thích các phiên họp hồi tưởng Retrospective đến vậy? 
+Trong công việc quản lý dự án bận rộn, chúng ta thường có xu hướng bị cuốn theo các thời hạn gấp gáp, Vừa hoàn thành xong một đầu việc này là lập tức lao đầu vào đầu việc tiếp theo mà không có lấy một giây phút dừng lại để thở. 
+
+Phiên họp hồi tưởng chính là một khoảng dừng thiêng liêng và vô giá. Đó là nơi duy nhất mà toàn bộ đội ngũ có thể cùng ngồi lại với nhau, gác lại mọi áp lực công việc thường nhật, tháo bỏ những chiếc mặt nạ phòng thủ và thành thật nhìn nhận về cách chúng tôi đã phối hợp cùng nhau. 
+
+Tôi đã từng chứng kiến những phiên hồi tưởng giúp hàn gắn những mối quan hệ căng thẳng giữa các kỹ sư, phát hiện ra những nút thắt quy trình ngớ ngẩn mà suốt nửa năm trời không ai dám lên tiếng, và khơi dậy những sáng kiến cải tiến quy trình đột phá giúp tiết kiệm hàng trăm giờ làm việc cho các dự án sau. 
+
+Đối với tôi, một phiên họp hồi tưởng chân thành không chỉ giúp dự án tốt hơn, mà nó còn giúp con người chúng ta trưởng thành hơn, thấu hiểu nhau hơn và trở thành những đồng đội thực thụ của nhau!
+
+
+
+QUY TRÌNH ĐÓNG DỰ ÁN DÀNH CHO NGƯỜI QUẢN LÝ DỰ ÁN, THE CLOSING PROCESS FOR THE PROJECT MANAGER.
+. ......
+
+
+
+Chào mừng bạn đã quay trở lại. Hãy cùng thảo luận xem quy trình đóng dự án có ý nghĩa gì đối với cá nhân bạn, người quản lý dự án.
+
+Đối với một Project Manager, việc đóng dự án một cách bài bản và đúng đắn là điều tối quan trọng vì rất nhiều lý do, Đóng dự án mang lại cơ hội để suy ngẫm về cách bạn và đội ngũ đã thể hiện, đảm bảo rằng mọi nhiệm vụ đều đã hoàn thành trọn vẹn, và ngăn ngừa mọi sự nhầm lẫn mơ hồ xung quanh dự án trong tương lai.
+
+Dưới đây là các trách nhiệm hành chính và tác nghiệp cụ thể mà bạn cần hoàn tất, 
+một. Đóng toàn bộ các mã tài khoản kế toán và chi phí dự án, Làm việc với phòng kế toán tài chính để khóa các mã số chi phí dự án, đảm bảo không có bất kỳ khoản chi tiêu phát sinh nào tiếp tục bị tính vào ngân sách của dự án đã đóng.
+hai. Giải phóng và tái phân bổ nguồn lực, Chính thức thông báo cho các Trưởng phòng ban chức năng rằng các nhân sự dự án đã hoàn thành nhiệm vụ và sẵn sàng nhận các nhiệm vụ mới. Trả lại các trang thiết bị mượn, phần cứng thử nghiệm hoặc bản quyền phần mềm không còn sử dụng.
+ba. Đóng gói và Lưu trữ tài liệu dự án, tức Project Archiving, Tập hợp toàn bộ kế hoạch dự án, biên bản các cuộc họp, tài liệu thiết kế kiến trúc, hợp đồng nhà cung cấp và mã nguồn phần mềm vào một thư mục lưu trữ tập trung an toàn với cấu trúc thư mục rõ ràng và quyền truy cập được phân cấp chuẩn xác.
+bốn. Soạn thảo Báo cáo Tổng kết Đóng Dự án, tức Project Closeout Report, Đây là văn bản tổng kết chính thức khép lại toàn bộ vòng đời của dự án.
+
+
+
+BÀI TẬP THỰC HÀNH MẪU, SOẠN THẢO BÁO CÁO TỔNG KẾT ĐÓNG DỰ ÁN, ACTIVITY EXEMPLAR, CREATE A PROJECT CLOSEOUT REPORT.
+. ......
+
+
+
+Báo cáo Tổng kết Đóng Dự án, tức Project Closeout Report, là tài liệu mang tính bước ngoặt chính thức ghi nhận việc kết thúc của dự án và bàn giao sản phẩm cho tổ chức.
+
+Dưới đây là bản phân tích chi tiết một Báo cáo Tổng kết mẫu hoàn chỉnh, minh họa cách thức đáp ứng toàn diện các tiêu chí chuẩn mực, 
+Phần thông tin hành chính, Bao gồm ngày tháng lập báo cáo, trạng thái chính thức của dự án, danh sách đầy đủ các thành viên trong đội ngũ dự án và tổng thời lượng thực tế của dự án.
+Phần Tóm tắt Điều hành Executive Summary, Cung cấp bức tranh toàn cảnh ngắn gọn về phạm vi công việc của dự án, các sản phẩm bàn giao chính đã hoàn thành, và các vấn đề lớn phát sinh đã được giải quyết.
+Phần Thành tựu then chốt Key Accomplishments, Nêu bật các nhiệm vụ và các mốc quan trọng Milestone mà đội ngũ đã chinh phục. Điều quan trọng là phần này không chỉ liệt kê những công việc đội ngũ đã làm, mà còn làm nổi bật các mục tiêu và kết quả định lượng cụ thể từ những nỗ lực đó. Ví dụ, Triển khai các phản hồi từ khảo sát khách hàng, giúp gia tăng tỷ lệ giao hàng đúng hẹn thêm mười phần trăm và nâng cao mức độ hài lòng với dịch vụ chăm sóc khách hàng lên hơn bốn mươi hai phần trăm.
+Phần Bài học kinh nghiệm Lessons Learned, Bao gồm cả những điều đã vận hành xuất sắc và những trục trặc phát sinh xuyên suốt dự án. Ví dụ, chương trình đào tạo nhân viên trước ngày ra mắt đã diễn ra rất tốt đẹp, giúp thúc đẩy đáng kể hiệu suất làm việc của nhân viên. Đối với những trục trặc xảy ra, báo cáo nêu rõ cả vấn đề lẫn giải pháp khắc phục, Tỷ lệ giao hàng đúng hẹn ban đầu bị sụt giảm xuống tám mươi phần trăm trong đợt thử nghiệm, nhưng đội ngũ đã nhanh chóng khôi phục lên chín mươi phần trăm bằng cách tuyển dụng thêm tài xế và đánh giá lại các lộ trình giao hàng.
+Phần Các hạng mục còn mở Open Items, Xác định các lĩnh vực của dự án cần tiếp tục cải tiến, cũng như các quy trình vận hành đòi hỏi sự bảo trì liên tục thường nhật.
+Phần Các bước tiếp theo và Cân nhắc tương lai Next Steps and Future Considerations, Đưa ra các khuyến nghị chiến lược về việc phát triển các tính năng nâng cao trong các phiên bản tiếp theo.
+Phần Chữ ký Phê duyệt Nghiệm thu, Chữ ký của Người quản lý Dự án, Nhà tài trợ Dự án và Đại diện Khách hàng chính thức phê duyệt việc đóng dự án.
+
+
+
+SUY NGẪM VÀ KẾT NỐI CÙNG CỘNG ĐỒNG ĐỒNG NGHIỆP, REFLECT AND CONNECT WITH YOUR PEERS.
+. ......
+
+
+
+Hành trình học tập và phát triển nghề nghiệp quản lý dự án không phải là một con đường đơn độc. Khi bạn hoàn thành giai đoạn đóng dự án, hãy dành thời gian để suy ngẫm về sự trưởng thành của chính bản thân mình, Bạn đã học được những kỹ năng mới nào? Bạn đã vượt qua những nỗi sợ hãi và thử thách nào để trở nên bản lĩnh hơn?
+
+Đồng thời, hãy chủ động kết nối với cộng đồng các nhà quản lý dự án xung quanh bạn, Tham gia vào các diễn đàn thảo luận nghề nghiệp, chia sẻ những bài học kinh nghiệm của bạn trên mạng xã hội nghề nghiệp LinkedIn, và lắng nghe những câu chuyện từ các đồng nghiệp đi trước. Một mạng lưới đồng nghiệp vững chắc sẽ luôn là nguồn cảm hứng và chỗ dựa tinh thần to lớn cho bạn trên mọi bước đường sự nghiệp tương lai.
+
+
+
+TỔNG KẾT KHÓA HỌC THỰC THI DỰ ÁN, COURSE WRAP-UP.
+. ......
+
+
+
+Xin nhiệt liệt chúc mừng bạn đã xuất sắc hoàn thành toàn bộ Khóa học bốn, Thực thi Dự án - Vận hành Dự án Thành công! 
+
+Vượt qua được chặng đường dài và đầy thử thách này là một thành tựu vô cùng đáng tự hào. Bạn nên cảm thấy vô cùng phấn khởi về sự tiến bộ vượt bậc của mình. Giờ đây, bạn đã tiến rất gần tới việc xây dựng trọn vẹn vốn hiểu biết thực chiến và kỹ năng chuyên môn cần thiết để trở thành một Project Manager chuyên nghiệp đẳng cấp quốc tế.
+
+Chúng ta hãy cùng nhau nhìn lại toàn bộ bức tranh kiến thức đồ sộ mà bạn đã chinh phục được qua sáu học phần của khóa học này, 
+Học phần một, Bạn đã học cách theo dõi và đo lường tiến độ dự án, quản lý các yếu tố thay đổi, và làm chủ nghệ thuật quản trị rủi ro bằng phương pháp R-O-A-M.
+Học phần hai, Bạn đã nắm vững các khái niệm cốt lõi về quản trị chất lượng Q-A, Q-C, áp dụng vòng lặp cải tiến liên tục P-D-C-A và thấu hiểu tầm quan trọng của sự hài lòng của khách hàng.
+Học phần ba, Bạn đã làm chủ dữ liệu và nghệ thuật ra quyết định dựa trên dữ liệu, thấm nhuần sáu bước phân tích dữ liệu chuẩn mực của Google, đạo đức dữ liệu và kỹ thuật kể chuyện bằng trực quan hóa biểu đồ.
+Học phần bốn, Bạn đã khám phá các bí quyết lãnh đạo đội ngũ hiệu suất cao từ Dự án Aristotle, mô hình phát triển năm giai đoạn của Tuckman, cung cấp vùng phủ sóng bảo vệ Air Cover cho đội ngũ, và nghệ thuật gây ảnh hưởng không cần chức danh.
+Học phần năm, Bạn đã thành thạo các kỹ năng giao tiếp dự án đỉnh cao từ viết email súc tích B-L-U-F, tổ chức cuộc họp tinh gọn Timeboxing, đến điều phối các buổi thảo luận hòa nhập và dễ tiếp cận.
+Và Học phần sáu, Bạn đã nắm trọn vẹn quy trình đóng dự án bài bản, bảo vệ thành quả của tổ chức, tri ân đội ngũ qua phiên hồi tưởng và xuất bản Báo cáo Tổng kết Đóng Dự án mẫu mực.
+
+
+
+BẢNG THUẬT NGỮ KHÓA HỌC BỐN, COURSE BỐN GLOSSARY.
+. ......
+
+
+
+Để giúp bạn thuận tiện tra cứu và ôn tập nhanh chóng, dưới đây là những thuật ngữ cốt lõi nhất xuyên suốt khóa học, 
+A-gile, Phương pháp quản trị dự án linh hoạt, thích ứng nhanh với các thay đổi thông qua các chu kỳ phát triển ngắn lặp đi lặp lại.
+Vùng phủ sóng bảo vệ, tức Air Cover, Sự bảo vệ và che chở mà người quản lý dự án dành cho đội ngũ trước những yêu cầu ngoài phạm vi hoặc chỉ trích từ ban lãnh đạo.
+Phân tích dữ liệu, tức Analytics, Việc sử dụng dữ liệu để trả lời các câu hỏi, phát hiện quy luật và dự đoán các kết quả tương lai.
+Giao tiếp bất đồng bộ, tức Asynchronous Communication, Hình thức giao tiếp không đòi hỏi các bên phải phản hồi ngay lập tức, như email hoặc tài liệu chia sẻ.
+Biểu đồ Burn-down, Biểu đồ trực quan thể hiện khối lượng công việc còn lại so với thời gian của một chu kỳ nước rút Sprint.
+Kiểm soát thay đổi, tức Change Control, Quy trình chính thức để tiếp nhận, đánh giá, phê duyệt hoặc từ chối các yêu cầu thay đổi trong dự án.
+Chỉ số hiệu suất chi phí, tức C-P-I, Tỷ lệ giữa giá trị công việc đạt được so với chi phí thực tế đã giải ngân.
+Chỉ số hiệu suất tiến độ, tức S-P-I, Tỷ lệ giữa giá trị công việc đạt được so với giá trị công việc đã lên kế hoạch.
+An toàn tâm lý, tức Psychological Safety, Niềm tin rằng các thành viên trong đội có thể tự do nêu ý kiến, thử nghiệm và thừa nhận sai lầm mà không sợ bị trừng phạt.
+Vòng tròn Deming, tức P-D-C-A, Mô hình cải tiến liên tục gồm bốn bước Lập kế hoạch, Thực hiện, Kiểm tra và Hành động.
+Phiên họp Hồi tưởng, tức Retrospective, Cuộc họp đội ngũ diễn ra định kỳ để cùng nhau nhìn nhận lại những điểm tốt, điểm chưa tốt và đưa ra hành động cải tiến quy trình.
+Kiểm tra chấp nhận của người dùng, tức U-A-T, Quá trình kiểm thử cuối cùng do chính người dùng hoặc khách hàng thực hiện để xác nhận sản phẩm đạt chuẩn bàn giao.
+Tốc độ hoàn thành công việc, tức Velocity, Khối lượng công việc hoặc số điểm công việc mà đội ngũ có thể hoàn tất trong một Sprint.
+
+
+
+SẴN SÀNG BƯỚC VÀO KHÓA HỌC NĂM, GETTING STARTED ON COURSE NĂM.
+. ......
+
+
+
+Hành trình chinh phục chứng chỉ Quản lý Dự án Chuyên nghiệp của Google vẫn đang tiếp tục vẫy gọi bạn với những chân trời tri thức mới đầy hấp dẫn! 
+
+Trong Khóa học năm tiếp theo mang tên, Quản lý Dự án Linh hoạt Agile, bạn sẽ được đắm chìm vào thế giới sôi động của triết lý Agile và khung làm việc Scrum. Bạn sẽ học cách tổ chức các buổi lập kế hoạch Sprint Planning, điều hành các buổi họp đứng Daily Standup, quản lý danh sách yêu cầu sản phẩm Product Backlog, và dẫn dắt đội ngũ thích ứng linh hoạt trước mọi biến động không ngừng của thị trường công nghệ.
+
+Xin chúc mừng bạn một lần nữa vì sự kiên trì và nỗ lực tuyệt vời. Hãy nghỉ ngơi, tự thưởng cho bản thân và sẵn sàng bước tiếp vào Khóa học năm với tràn đầy niềm hứng khởi!

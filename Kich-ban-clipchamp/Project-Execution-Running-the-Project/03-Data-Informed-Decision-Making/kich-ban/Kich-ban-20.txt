@@ -1,0 +1,12 @@
+hai. Bước thứ hai, Chuẩn bị, tức Prepare.
+Sau khi bạn đã có một định hướng rõ ràng, đã đến lúc bước sang giai đoạn Chuẩn bị. Đây là nơi bạn thu thập và lưu trữ dữ liệu mà bạn sẽ sử dụng cho quá trình phân tích sắp tới.
+Chúng ta hãy quay trở lại với ví dụ về phòng tập thể hình. Để thu thập dữ liệu về trải nghiệm của hội viên, bạn quyết định gửi các bản khảo sát tới các hội viên của phòng tập để xin ý kiến phản hồi về trải nghiệm của họ. Để đảm bảo bạn nhận được các câu trả lời cụ thể, bạn yêu cầu họ đưa ra phản hồi theo ba danh mục riêng biệt, Việc bảo trì cơ sở vật chất, dịch vụ chăm sóc khách hàng, và chi phí thẻ hội viên. Bạn cũng để lại một khoảng trống để họ có thể tự viết thêm câu trả lời mở của mình.
+Khi bạn nhận lại các bản khảo sát của hội viên, điều quan trọng là bạn phải có một hệ thống ngăn nắp để theo dõi và lưu trữ chúng một cách an toàn.
+
+ba. Bước thứ ba, Xử lý dữ liệu, tức Process.
+Giai đoạn này là lúc bạn tiến hành Xử lý dữ liệu của mình. Trong bước này, bạn sẽ làm sạch dữ liệu, tức Clean your data. Điều này có nghĩa là bạn sẽ nhập dữ liệu của mình vào một bảng tính điện tử hoặc một công cụ khác do bạn lựa chọn, và loại bỏ bất kỳ sự không nhất quán và thiếu chính xác nào có thể cản trở kết quả.
+Trong khi xử lý dữ liệu, hãy chắc chắn rằng bạn đã loại bỏ mọi câu trả lời bị trùng lặp. Bạn cũng cần chuẩn hóa các định dạng, sửa các lỗi chính tả và quyết định cách xử lý các trường thông tin bị bỏ trống. Việc làm sạch dữ liệu đảm bảo rằng các kết luận bạn rút ra sau này sẽ hoàn toàn chuẩn xác và đáng tin cậy.
+
+bốn. Bước thứ tư, Phân tích dữ liệu, tức Analyze.
+Bây giờ là lúc bạn thực sự phân tích dữ liệu đã được làm sạch. Bạn sử dụng các công thức tính toán, hàm số thống kê hoặc các bảng tổng hợp Pivot Tables để tìm kiếm các xu hướng, quy luật và mối quan hệ tương quan.
+Quay lại ví dụ phòng tập thể hình, Khi phân tích các con số, bạn phát hiện ra rằng điểm số đánh giá về chi phí thẻ hội viên và dịch vụ khách hàng đều ở mức khá cao, đạt tám trên mười điểm. Tuy nhiên, điểm số dành cho việc bảo trì cơ sở vật chất lại rất thấp, chỉ đạt bốn trên mười điểm. Khi đọc kỹ các phản hồi mở, bạn nhận thấy có rất nhiều lời phàn nàn về việc các máy chạy bộ thường xuyên bị hỏng hóc và phòng thay đồ không được vệ sinh sạch sẽ vào buổi tối. Nhờ phân tích dữ liệu, bạn đã khám phá ra nguyên nhân gốc rễ chính xác khiến hội viên rời bỏ phòng tập.

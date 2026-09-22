@@ -1,0 +1,17 @@
+Bước thứ hai là Làm rõ những tác động cụ thể đối với từng cá nhân và bộ phận, Đừng chỉ nói chung chung về bức tranh lớn. Hãy chỉ rõ cho từng thành viên biết, Thay đổi này ảnh hưởng cụ thể thế nào đến khối lượng công việc của họ? Thời hạn hoàn thành mới là khi nào? Có quy trình hay công cụ nào mới cần sử dụng hay không? Sự rõ ràng sẽ dập tắt những nỗi sợ hãi và tin đồn thất thiệt.
+
+Bước thứ ba là Lắng nghe tích cực và tạo không gian cho đội ngũ bày tỏ phản hồi, Sau khi công bố thay đổi, hãy dành thời gian để đội ngũ đặt câu hỏi, chia sẻ những lo lắng và đóng góp ý kiến. Các thành viên kỹ thuật trực tiếp làm việc có thể nhìn thấy những trở ngại thực tế mà cấp quản lý chưa nhận ra. Việc lắng nghe chân thành không chỉ giúp bạn hoàn thiện kế hoạch mới mà còn khiến đội ngũ cảm thấy tiếng nói của mình luôn được tôn trọng.
+
+Bước thứ tư là Cập nhật đồng bộ toàn bộ tài liệu dự án, Ngay sau buổi thông báo, hãy cập nhật ngay lập tức các kế hoạch dự án, bảng công việc, nhật ký thay đổi và gửi email tóm tắt bằng văn bản cho toàn đội ngũ để đảm bảo mọi người đều có cùng một điểm tham chiếu chuẩn xác.
+
+Và bước thứ năm là Duy trì sự đồng hành và hỗ trợ liên tục, Quá trình chuyển đổi luôn cần thời gian thích nghi. Hãy thường xuyên hỏi han, động viên và kịp thời tháo gỡ khó khăn cho các thành viên trong những ngày đầu triển khai kế hoạch mới.
+
+VIẾT MỘT BỨC EMAIL BÁO CÁO LEO THANG HIỆU QUẢ, WRITING AN EFFECTIVE ESCALATION EMAIL.
+. ......
+Trong môi trường làm việc hiện đại, email thường là phương tiện chính thức và hữu hiệu nhất để bạn thực hiện việc báo cáo leo thang một vấn đề lên các nhà lãnh đạo cấp cao hoặc các bên liên quan chủ chốt. Một bức email báo cáo leo thang được viết bài bản, súc tích và đúng chuẩn mực sẽ giúp người nhận nắm bắt ngay bản chất vấn đề và nhanh chóng đưa ra quyết định hỗ trợ cần thiết.
+
+Dưới đây là công thức cấu trúc chuẩn cho một bức email báo cáo leo thang hiệu quả cao,
+
+Thành phần thứ nhất là Dòng tiêu đề rõ ràng và khẩn cấp, tức Clear Subject Line, Tiêu đề email cần ngắn gọn nhưng phải phản ánh ngay tính chất khẩn cấp và nội dung cốt lõi của sự việc. Hãy bắt đầu bằng tiền tố viết hoa để thu hút sự chú ý tức thì. Ví dụ, CẦN QUYẾT ĐỊNH KHẨN, Dự án Plant Pals - Sự cố tích hợp Cổng thanh toán trực tuyến.
+
+Thành phần thứ hai là Tóm tắt bối cảnh và Vấn đề phát sinh, tức Context and Issue, Hãy đi thẳng vào vấn đề ngay trong một hoặc hai câu đầu tiên mà không vòng vo rườm rà. Nêu rõ sự cố là gì, xảy ra từ khi nào và nguyên nhân bắt nguồn từ đâu.

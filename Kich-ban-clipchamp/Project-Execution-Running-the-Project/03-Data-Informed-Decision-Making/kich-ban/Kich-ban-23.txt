@@ -1,0 +1,15 @@
+Các nhà quản lý dự án sử dụng các biểu diễn trực quan này vì một vài lý do then chốt, 
+Thứ nhất, chúng cực kỳ hữu ích để truyền đạt dữ liệu tới những người khác, bởi vì, chúng giúp sàng lọc thông tin bằng cách tập trung sự chú ý của khán giả vào những điểm dữ liệu và những hiểu biết sâu sắc quan trọng nhất. Bộ não con người xử lý hình ảnh nhanh hơn hàng chục ngàn lần so với việc đọc văn bản. Một biểu đồ được thiết kế tốt có thể truyền tải thông điệp chỉ trong vài giây.
+Thứ hai, trực quan hóa giúp làm nổi bật các mối quan hệ tương quan, các quy luật lặp lại, và các điểm dị biệt bất thường mà bạn gần như không thể nhận ra nếu chỉ nhìn vào một bảng tính gồm hàng nghìn hàng số liệu.
+Thứ ba, nó giúp kết nối các nhóm khán giả khác nhau. Một nhà tài trợ dự án cấp cao có thể không hiểu hết các thuật ngữ kỹ thuật phức tạp, nhưng họ hoàn toàn có thể hiểu ngay lập tức một biểu đồ đường thể hiện xu hướng chi phí đang tăng vọt.
+
+Có rất nhiều công cụ mạnh mẽ hỗ trợ việc trực quan hóa dữ liệu hiện nay, 
+Các phần mềm bảng tính quen thuộc, như Google Sheets và Microsoft Excel, Cho phép bạn nhanh chóng biến đổi các bảng dữ liệu thành các biểu đồ cột, biểu đồ thanh, biểu đồ đường hoặc biểu đồ tròn chỉ bằng vài cú nhấp chuột.
+Các nền tảng bảng điều khiển thông tin doanh nghiệp, tức Business Intelligence Platforms, như Google Looker Studio, Tableau, hay Microsoft Power B-I, Giúp bạn xây dựng các bảng điều khiển tương tác Dashboards kết nối trực tiếp với nhiều nguồn dữ liệu theo thời gian thực, cho phép người xem tự lọc và khám phá dữ liệu theo nhu cầu.
+Các công cụ quản lý dự án chuyên sâu, như Jira Dashboards hay Asana Reporting, Cung cấp sẵn các biểu đồ tiến độ như Burn-down Chart hay Biểu đồ Gantt trực quan.
+
+Lựa chọn đúng công cụ và dạng biểu diễn trực quan phù hợp sẽ giúp thông điệp của bạn được truyền tải một cách mạnh mẽ và chuẩn xác nhất.
+
+CÁC CÁCH KHÁC NHAU ĐỂ TRỰC QUAN HÓA DỮ LIỆU, DIFFERENT WAYS TO VISUALIZE DATA.
+. ......
+Trước đó, chúng ta đã thảo luận về các thực hành tốt nhất để thu thập và phân tích dữ liệu. Khi đến lúc trình bày dữ liệu của bạn trước khán giả, bạn không chỉ muốn nói cho họ biết về các phát hiện của bạn và ý nghĩa của chúng, mà bạn còn muốn chỉ cho họ thấy tận mắt. Trực quan hóa dữ liệu giúp chúng ta tổ chức dữ liệu và biến nó thành thông tin rõ ràng, dễ tiếp thu đối với khán giả. Trong tài liệu này, chúng ta sẽ đi qua nhiều dạng biểu đồ và đồ thị khác nhau mà bạn có thể sử dụng để biểu diễn dữ liệu trực quan.

@@ -1,0 +1,119 @@
+1
+00:00:01,070 --> 00:00:03,860
+Congrats! You've reached
+the end of this section.
+
+2
+00:00:03,860 --> 00:00:07,773
+We've covered some really important
+aspects of implementation, tracking, and
+
+3
+00:00:07,773 --> 00:00:09,420
+quality, in this course.
+
+4
+00:00:09,420 --> 00:00:13,748
+We discussed why the tracking process is
+essential to building confidence in your
+
+5
+00:00:13,748 --> 00:00:17,400
+team and how important knowing
+the progress of a project is.
+
+6
+00:00:17,400 --> 00:00:21,865
+To communicate this, you learned how to
+use various types of tracking methods, like
+
+7
+00:00:21,865 --> 00:00:24,431
+Gantt charts, roadmaps, and
+burndown charts.
+
+8
+00:00:24,431 --> 00:00:28,674
+You also learned that roadmaps are suitable for tracking high-level milestones,
+
+9
+00:00:28,674 --> 00:00:31,983
+Gantt charts are useful for
+projects with many dependencies,
+
+10
+00:00:31,983 --> 00:00:34,735
+and burndown charts are better for
+more granular,
+
+11
+00:00:34,735 --> 00:00:38,010
+task-oriented projects that
+are on a tight schedule.
+
+12
+00:00:38,010 --> 00:00:42,020
+You learned which items to track
+using these charts, including costs,
+
+13
+00:00:42,020 --> 00:00:46,873
+the status of key tasks, progress toward
+milestones, incoming action items, and
+
+14
+00:00:46,873 --> 00:00:48,890
+important decisions.
+
+15
+00:00:48,890 --> 00:00:49,974
+We explored risks and
+
+16
+00:00:49,974 --> 00:00:55,170
+dependencies, including techniques like
+brainstorming to create risk registers,
+
+17
+00:00:55,170 --> 00:00:58,460
+and we took you through the ROAM
+technique, which stands for
+
+18
+00:00:58,460 --> 00:01:01,920
+resolved, owned, accepted, and mitigated.
+
+19
+00:01:01,920 --> 00:01:04,653
+You also learned about changes and
+dependencies and
+
+20
+00:01:04,653 --> 00:01:06,770
+how they impact a project.
+
+21
+00:01:06,770 --> 00:01:10,430
+We also discussed managing and
+communicating those risks, changes, and
+
+22
+00:01:10,430 --> 00:01:11,730
+dependencies.
+
+23
+00:01:11,730 --> 00:01:13,750
+Whew, that is a lot!
+
+24
+00:01:13,750 --> 00:01:14,890
+Well done!
+
+25
+00:01:14,890 --> 00:01:19,060
+Coming up, we'll take you through managing
+quality and continuous improvement.
+
+26
+00:01:19,060 --> 00:01:19,610
+Meet you there.
