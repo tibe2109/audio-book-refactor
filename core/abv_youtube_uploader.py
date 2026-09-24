@@ -10,9 +10,10 @@ import re
 import argparse
 import tempfile
 import time
+import atexit
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Set
 
 import requests
 
@@ -21,13 +22,159 @@ SCOPES = [
     "https://www.googleapis.com/auth/youtube"
 ]
 
+class ProcessLock:
+    """
+    ABV-04 Concurrency Process Lock:
+    Prevents concurrent upload processes from running simultaneously on the same project/directory,
+    eliminating duplicate uploads, API quota waste, and manifest race conditions.
+    Combines kernel-level locking (fcntl.flock on POSIX) with PID validation (psutil / os.kill).
+    """
+    def __init__(self, lock_file: Path):
+        self.lock_file = Path(lock_file).resolve()
+        self.fd: Optional[int] = None
+        self.acquired: bool = False
+
+    def _read_lock_pid(self) -> Optional[int]:
+        if not self.lock_file.exists():
+            return None
+        try:
+            with open(self.lock_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                return data.get("pid")
+        except Exception:
+            return None
+
+    def _is_pid_running(self, pid: Optional[int]) -> bool:
+        if not pid or pid <= 0:
+            return False
+        try:
+            import psutil
+            if psutil.pid_exists(pid):
+                p = psutil.Process(pid)
+                return p.is_running() and p.status() != psutil.STATUS_ZOMBIE
+            return False
+        except Exception:
+            try:
+                os.kill(pid, 0)
+                return True
+            except OSError:
+                return False
+
+    def acquire(self) -> bool:
+        self.lock_file.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            import fcntl
+            self.fd = os.open(str(self.lock_file), os.O_RDWR | os.O_CREAT, 0o644)
+            try:
+                fcntl.flock(self.fd, fcntl.LOCK_EX | fcntl.LOCK_NB)
+            except (BlockingIOError, IOError):
+                # Lock is actively held by another process
+                held_pid = self._read_lock_pid()
+                print(f"\n=======================================================")
+                print(f"⚠️ [PROCESS LOCK ACTIVE] Another upload process is running!")
+                print(f"=======================================================")
+                print(f"🔒 Lock File : {self.lock_file}")
+                print(f"🆔 Active PID: {held_pid or 'Unknown'}")
+                print(f"🛑 To prevent duplicate uploads and quota waste, this process will stop safely.")
+                print(f"=======================================================\n")
+                try:
+                    os.close(self.fd)
+                except Exception:
+                    pass
+                self.fd = None
+                return False
+
+            # Lock acquired via kernel flock. Record current PID & metadata
+            os.ftruncate(self.fd, 0)
+            os.lseek(self.fd, 0, os.SEEK_SET)
+            lock_data = {
+                "pid": os.getpid(),
+                "created_at": datetime.now(timezone.utc).isoformat(),
+                "argv": sys.argv
+            }
+            os.write(self.fd, json.dumps(lock_data, indent=2).encode("utf-8"))
+            os.fsync(self.fd)
+            self.acquired = True
+            atexit.register(self.release)
+            return True
+
+        except Exception as e:
+            # Fallback for systems/filesystems without fcntl support
+            return self._fallback_pid_acquire(e)
+
+    def _fallback_pid_acquire(self, err: Exception) -> bool:
+        print(f"[WARN] fcntl flock failed ({err}), falling back to PID inspection...")
+        if self.lock_file.exists():
+            held_pid = self._read_lock_pid()
+            if held_pid and self._is_pid_running(held_pid):
+                print(f"\n⚠️ [PROCESS LOCK ACTIVE] Another upload process (PID: {held_pid}) is running.")
+                print(f"   Lock file: {self.lock_file}")
+                print(f"   Stopping safely to avoid duplicate uploads.\n")
+                return False
+            else:
+                print(f"[INFO] Removing stale lock file (PID: {held_pid} is not running).")
+                try:
+                    self.lock_file.unlink(missing_ok=True)
+                except Exception:
+                    pass
+
+        try:
+            lock_data = {
+                "pid": os.getpid(),
+                "created_at": datetime.now(timezone.utc).isoformat(),
+                "argv": sys.argv
+            }
+            with open(self.lock_file, "w", encoding="utf-8") as f:
+                json.dump(lock_data, f, indent=2)
+            self.acquired = True
+            atexit.register(self.release)
+            return True
+        except Exception as ex:
+            print(f"[ERROR] Failed to create fallback lock file: {ex}")
+            return False
+
+    def release(self):
+        if self.acquired:
+            if self.fd is not None:
+                try:
+                    import fcntl
+                    fcntl.flock(self.fd, fcntl.LOCK_UN)
+                    os.close(self.fd)
+                except Exception:
+                    pass
+                self.fd = None
+
+            try:
+                if self.lock_file.exists():
+                    held_pid = self._read_lock_pid()
+                    if held_pid == os.getpid() or held_pid is None:
+                        self.lock_file.unlink(missing_ok=True)
+            except Exception as e:
+                print(f"[WARN] Could not remove lock file: {e}")
+            finally:
+                self.acquired = False
+
+    def __enter__(self):
+        if not self.acquire():
+            sys.exit(0)
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.release()
+
 def resolve_all_assets(input_path_str: str) -> Dict[str, Path]:
     """
     Intelligently discovers all necessary folders from a general source path.
     Finds: book_dir, final_dir, final_video_dir, metadata_dir, backgrounds_dir.
     """
     path = Path(input_path_str).resolve()
-    
+    if not path.exists():
+        # Check if parent contains a match (e.g. Tam-Quoc-Dien-Nghia -> Tieu-thuyet-Tam-Quoc-Dien-Nghia)
+        if path.parent.exists():
+            candidates = [p for p in path.parent.iterdir() if p.is_dir() and path.name.lower() in p.name.lower()]
+            if candidates:
+                path = candidates[0]
+
     if path.name == "Videos" and "Final-" in path.parent.name:
         final_video_dir = path
         final_dir = path.parent
@@ -42,6 +189,14 @@ def resolve_all_assets(input_path_str: str) -> Dict[str, Path]:
         final_dir = book_dir / f"Final-{book_name}"
         if not final_dir.exists():
             final_dir = book_dir.parent / f"Final-{book_name}"
+        if not final_dir.exists():
+            final_candidates = [d for d in book_dir.glob("Final-*") if d.is_dir()]
+            if final_candidates:
+                final_dir = final_candidates[0]
+            else:
+                final_candidates = [d for d in book_dir.parent.glob("Final-*") if d.is_dir()]
+                if final_candidates:
+                    final_dir = final_candidates[0]
         final_video_dir = final_dir / "Videos" if (final_dir / "Videos").exists() else final_dir
 
     metadata_dir = final_video_dir / "youtube_metadata"
@@ -129,6 +284,83 @@ def save_manifest_atomic(manifest_path: Path, data: Dict):
         temp_file_name = tf.name
 
     os.replace(temp_file_name, manifest_path)
+
+def set_video_thumbnail_with_retry(
+    token: str,
+    video_id: str,
+    thumbnail_path: Path,
+    max_retries: int = 5,
+    base_backoff: float = 3.0
+) -> bool:
+    """
+    Sets/updates custom thumbnail for a video with automatic retry and exponential backoff
+    for HTTP 429 (Too Many Requests), 5xx server errors, and network interruptions.
+    """
+    if not thumbnail_path or not thumbnail_path.exists():
+        print(f"  [WARN] Thumbnail not found: {thumbnail_path}")
+        return False
+
+    try:
+        # Check 2MB limit and compress if necessary
+        if os.path.getsize(thumbnail_path) > 2 * 1024 * 1024:
+            from PIL import Image
+            import io
+            im = Image.open(thumbnail_path).convert("RGB")
+            buf = io.BytesIO()
+            im.save(buf, format="JPEG", quality=92)
+            thumb_data = buf.getvalue()
+            mime = "image/jpeg"
+        else:
+            with open(thumbnail_path, "rb") as tf:
+                thumb_data = tf.read()
+            mime = "image/png" if thumbnail_path.suffix.lower() == ".png" else "image/jpeg"
+    except Exception as e:
+        print(f"  [WARN] Thumbnail preparation error: {e}")
+        return False
+
+    thumb_headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": mime
+    }
+    thumb_url = f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}"
+
+    for attempt in range(max_retries):
+        try:
+            resp = requests.post(thumb_url, headers=thumb_headers, data=thumb_data, timeout=30)
+            if resp.status_code in (200, 201):
+                print(f"  ✅ [THUMBNAIL SUCCESS] Video {video_id}: Thumbnail set successfully.")
+                return True
+            elif resp.status_code == 429:
+                delay = base_backoff * (2 ** attempt)
+                if attempt < max_retries - 1:
+                    print(f"  ⚠️ [THUMBNAIL RATE LIMIT 429] Video {video_id}: Hit rate limit. Retrying in {delay:.1f}s (Attempt {attempt+1}/{max_retries})...")
+                    time.sleep(delay)
+                    continue
+                else:
+                    print(f"  ⚠️ [THUMBNAIL RATE LIMIT 429] Video {video_id}: Reached max retries for thumbnail. Continuing safely without failing video.")
+                    return False
+            elif resp.status_code in (500, 502, 503, 504):
+                delay = base_backoff * (2 ** attempt)
+                if attempt < max_retries - 1:
+                    print(f"  ⚠️ [THUMBNAIL SERVER ERROR {resp.status_code}] Retrying in {delay:.1f}s (Attempt {attempt+1}/{max_retries})...")
+                    time.sleep(delay)
+                    continue
+                else:
+                    print(f"  ❌ [THUMBNAIL FAILED] Server error ({resp.status_code}): {resp.text[:200]}")
+                    return False
+            else:
+                print(f"  ❌ [THUMBNAIL FAILED] ({resp.status_code}): {resp.text[:200]}")
+                return False
+        except requests.exceptions.RequestException as rex:
+            delay = base_backoff * (2 ** attempt)
+            if attempt < max_retries - 1:
+                print(f"  ⚠️ [THUMBNAIL NETWORK ERROR] {rex}. Retrying in {delay:.1f}s (Attempt {attempt+1}/{max_retries})...")
+                time.sleep(delay)
+            else:
+                print(f"  ❌ [THUMBNAIL NETWORK ERROR] Max retries reached: {rex}")
+                return False
+
+    return False
 
 def upload_single_video(
     token: str,
@@ -239,36 +471,10 @@ def upload_single_video(
     video_url = f"https://youtu.be/{video_id}"
     print(f"\n🎉 UPLOAD SUCCESS: {video_url}")
 
-    # Upload thumbnail if available
+    # Upload thumbnail if available with exponential backoff on 429
     if thumbnail_path and thumbnail_path.exists():
         print(f"[INFO] Uploading custom thumbnail from {thumbnail_path.name}...")
-        try:
-            # Check 2MB limit
-            if os.path.getsize(thumbnail_path) > 2 * 1024 * 1024:
-                from PIL import Image
-                import io
-                im = Image.open(thumbnail_path).convert("RGB")
-                buf = io.BytesIO()
-                im.save(buf, format="JPEG", quality=92)
-                thumb_data = buf.getvalue()
-                mime = "image/jpeg"
-            else:
-                with open(thumbnail_path, "rb") as tf:
-                    thumb_data = tf.read()
-                mime = "image/png" if thumbnail_path.suffix.lower() == ".png" else "image/jpeg"
-
-            thumb_headers = {
-                "Authorization": f"Bearer {token}",
-                "Content-Type": mime
-            }
-            thumb_url = f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}"
-            thumb_resp = requests.post(thumb_url, headers=thumb_headers, data=thumb_data, timeout=30)
-            if thumb_resp.status_code in (200, 201):
-                print(f"[SUCCESS] Thumbnail updated successfully!")
-            else:
-                print(f"[WARN] Failed to set thumbnail ({thumb_resp.status_code}): {thumb_resp.text}")
-        except Exception as e:
-            print(f"[WARN] Thumbnail upload error: {e}")
+        set_video_thumbnail_with_retry(token, video_id, thumbnail_path)
 
     return {
         "video_id": video_id,
@@ -429,34 +635,8 @@ def update_video_privacy(token: str, video_id: str, privacy_status: str = "publi
     return resp.json()
 
 def update_video_thumbnail(token: str, video_id: str, thumbnail_path: Path) -> bool:
-    """Sets/updates custom thumbnail for a video."""
-    if not thumbnail_path or not thumbnail_path.exists():
-        raise FileNotFoundError(f"Thumbnail not found: {thumbnail_path}")
-
-    if os.path.getsize(thumbnail_path) > 2 * 1024 * 1024:
-        from PIL import Image
-        import io
-        im = Image.open(thumbnail_path).convert("RGB")
-        buf = io.BytesIO()
-        im.save(buf, format="JPEG", quality=92)
-        thumb_data = buf.getvalue()
-        mime = "image/jpeg"
-    else:
-        with open(thumbnail_path, "rb") as tf:
-            thumb_data = tf.read()
-        mime = "image/png" if thumbnail_path.suffix.lower() == ".png" else "image/jpeg"
-
-    thumb_headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": mime
-    }
-    thumb_url = f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={video_id}"
-    resp = requests.post(thumb_url, headers=thumb_headers, data=thumb_data, timeout=30)
-    if resp.status_code in (200, 201):
-        return True
-    else:
-        print(f"  [WARN] Failed to set thumbnail for {video_id} ({resp.status_code}): {resp.text}")
-        return False
+    """Sets/updates custom thumbnail for a video with retry and exponential backoff."""
+    return set_video_thumbnail_with_retry(token, video_id, thumbnail_path)
 
 def sync_video_thumbnails(token: str, thumbnail_path: Path, manifest: Dict) -> int:
     """Updates custom thumbnail for all uploaded videos in manifest."""
@@ -472,7 +652,7 @@ def sync_video_thumbnails(token: str, thumbnail_path: Path, manifest: Dict) -> i
         key=lambda x: [int(c) if c.isdigit() else c for c in re.split(r'(\d+)', x[0])]
     )
     for v_name, v_info in sorted_items:
-        if v_info.get("status") == "uploaded" and v_info.get("video_id"):
+        if v_info.get("status") in ("uploaded", "completed") and v_info.get("video_id"):
             uploaded_videos.append((v_name, v_info))
 
     success_count = 0
@@ -529,7 +709,7 @@ def sync_playlist_and_privacy(
         key=lambda x: [int(c) if c.isdigit() else c for c in re.split(r'(\d+)', x[0])]
     )
     for v_name, v_info in sorted_items:
-        if v_info.get("status") == "uploaded" and v_info.get("video_id"):
+        if v_info.get("status") in ("uploaded", "completed") and v_info.get("video_id"):
             uploaded_videos.append((v_name, v_info))
 
     print(f"🎯 Total uploaded videos found: {len(uploaded_videos)}")
@@ -574,34 +754,15 @@ def sync_playlist_and_privacy(
     return pl_id, pl_url
 
 def update_all_thumbnails(token: str, thumbnail_path: Path, manifest: Dict) -> Dict[str, bool]:
-    """Updates custom thumbnail for all uploaded videos to a single uniform image."""
+    """Updates custom thumbnail for all uploaded videos to a single uniform image with retry and exponential backoff."""
     if not thumbnail_path.exists():
         print(f"  ❌ [ERROR] Thumbnail file does not exist: {thumbnail_path}")
         return {}
 
-    file_size = os.path.getsize(thumbnail_path)
-    if file_size > 2 * 1024 * 1024:
-        from PIL import Image
-        import io
-        im = Image.open(thumbnail_path).convert("RGB")
-        buf = io.BytesIO()
-        im.save(buf, format="JPEG", quality=92)
-        thumb_data = buf.getvalue()
-        mime = "image/jpeg"
-    else:
-        with open(thumbnail_path, "rb") as tf:
-            thumb_data = tf.read()
-        mime = "image/png" if thumbnail_path.suffix.lower() == ".png" else "image/jpeg"
-
-    headers = {
-        "Authorization": f"Bearer {token}",
-        "Content-Type": mime
-    }
-
     results = {}
     uploaded_videos = [
         (v_name, v_info) for v_name, v_info in manifest.get("videos", {}).items()
-        if v_info.get("status") == "uploaded" and v_info.get("video_id")
+        if v_info.get("status") in ("uploaded", "completed") and v_info.get("video_id")
     ]
     uploaded_videos.sort(key=lambda x: [int(c) if c.isdigit() else c for c in re.split(r'(\d+)', x[0])])
 
@@ -611,23 +772,10 @@ def update_all_thumbnails(token: str, thumbnail_path: Path, manifest: Dict) -> D
 
     for v_name, v_info in uploaded_videos:
         vid = v_info["video_id"]
-        url = f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}"
-        try:
-            resp = requests.post(url, headers=headers, data=thumb_data, timeout=30)
-            if resp.status_code in (200, 201):
-                print(f"  ✅ [SUCCESS] {v_name} ({vid}) -> thumbnail updated")
-                results[vid] = True
-            elif resp.status_code == 429:
-                print(f"  ⚠️ [RATE LIMIT] {v_name} ({vid}): YouTube thumbnail daily limit reached (429).")
-                results[vid] = False
-                break
-            else:
-                print(f"  ❌ [FAIL] {v_name} ({vid}): {resp.status_code} - {resp.text[:200]}")
-                results[vid] = False
-        except Exception as e:
-            print(f"  ❌ [ERROR] {v_name} ({vid}): {e}")
-            results[vid] = False
-        time.sleep(1)
+        print(f"Updating thumbnail for {v_name} ({vid})...")
+        success = set_video_thumbnail_with_retry(token, vid, thumbnail_path)
+        results[vid] = success
+        time.sleep(0.5)
 
     return results
 
@@ -684,9 +832,9 @@ def generate_master_upload_report(manifest: Dict, output_path: Path, channel_nam
         vid = v_info.get("video_id") or "—"
         url = v_info.get("youtube_url")
         url_link = f"[{url}]({url})" if url else "Chưa đăng"
-        privacy = v_info.get("privacyStatus") or ("public" if status == "uploaded" else "—")
+        privacy = v_info.get("privacyStatus") or ("public" if status in ("uploaded", "completed") else "—")
         uploaded_at = v_info.get("uploaded_at") or "—"
-        status_icon = "✅ UPLOADED" if status == "uploaded" else ("❌ FAILED" if status == "failed" else "⏳ PENDING")
+        status_icon = "✅ UPLOADED" if status in ("uploaded", "completed") else ("❌ FAILED" if status == "failed" else "⏳ PENDING")
         report_lines.append(f"| {idx:03d} | Hồi {idx} | `{v_name}` | {status_icon} | `{vid}` | `{privacy}` | {url_link} | `{uploaded_at}` |")
 
     report_lines.extend([
@@ -699,6 +847,124 @@ def generate_master_upload_report(manifest: Dict, output_path: Path, channel_nam
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(report_lines))
     print(f"\n📊 Master Upload Report generated at: {output_path}")
+
+def fetch_remote_videos_cache(
+    token: str,
+    playlist_id: Optional[str] = None,
+    playlist_title: Optional[str] = None
+) -> List[Dict[str, str]]:
+    """
+    Fetches remote video items from target playlist and channel uploads to build a deduplication cache.
+    Returns list of dicts: [{"video_id": ..., "title": ...}]
+    """
+    remote_items: List[Dict[str, str]] = []
+    headers = {"Authorization": f"Bearer {token}"}
+    seen_ids: Set[str] = set()
+
+    # 1. Query target playlist if known or discover by title
+    target_pl_id = playlist_id
+    if not target_pl_id and playlist_title:
+        try:
+            pl_resp = requests.get(
+                "https://www.googleapis.com/youtube/v3/playlists?part=snippet&mine=true&maxResults=50",
+                headers=headers,
+                timeout=15
+            )
+            if pl_resp.status_code == 200:
+                for pl in pl_resp.json().get("items", []):
+                    if pl.get("snippet", {}).get("title", "").strip().lower() == playlist_title.strip().lower():
+                        target_pl_id = pl["id"]
+                        break
+        except Exception as e:
+            print(f"  [WARN] Failed to search playlist for deduplication: {e}")
+
+    if target_pl_id:
+        try:
+            items = get_playlist_items(token, target_pl_id)
+            for it in items:
+                vid = it["video_id"]
+                if vid not in seen_ids:
+                    seen_ids.add(vid)
+                    remote_items.append({"video_id": vid, "title": it.get("title", "")})
+        except Exception as e:
+            print(f"  [WARN] Failed to fetch playlist items for deduplication: {e}")
+
+    # 2. Query channel uploads playlist (UU...)
+    try:
+        ch_resp = requests.get(
+            "https://www.googleapis.com/youtube/v3/channels?part=contentDetails&mine=true",
+            headers=headers,
+            timeout=15
+        )
+        if ch_resp.status_code == 200:
+            ch_data = ch_resp.json().get("items", [])
+            if ch_data:
+                uploads_pl = ch_data[0].get("contentDetails", {}).get("relatedPlaylists", {}).get("uploads")
+                if uploads_pl and uploads_pl != target_pl_id:
+                    url = f"https://www.googleapis.com/youtube/v3/playlistItems?playlistId={uploads_pl}&part=snippet&maxResults=50"
+                    up_resp = requests.get(url, headers=headers, timeout=20)
+                    if up_resp.status_code == 200:
+                        for it in up_resp.json().get("items", []):
+                            vid = it["snippet"]["resourceId"]["videoId"]
+                            if vid not in seen_ids:
+                                seen_ids.add(vid)
+                                remote_items.append({"video_id": vid, "title": it["snippet"].get("title", "")})
+    except Exception as e:
+        print(f"  [WARN] Failed to fetch channel uploads for deduplication: {e}")
+
+    return remote_items
+
+def find_matching_remote_video(
+    v_name: str,
+    chap_slug: str,
+    metadata_title: str,
+    remote_videos: List[Dict[str, str]]
+) -> Optional[Dict[str, str]]:
+    """
+    Checks if a video already exists remotely on YouTube.
+    Matches by:
+    1. Exact or normalized title match with metadata_title.
+    2. Chapter slug pattern (e.g. '01-Hoi-01' or '01-chuong-1') in remote title.
+    3. Chapter number pattern (e.g. 'Hồi 1' / 'Hồi 01' / 'Chương 1') in remote title.
+    """
+    if not remote_videos:
+        return None
+
+    clean_meta_title = metadata_title.strip().lower()
+
+    # Extract chapter number
+    chap_num = None
+    m_num = re.search(r'(\d+)', chap_slug)
+    if m_num:
+        chap_num = int(m_num.group(1))
+
+    for rv in remote_videos:
+        r_title = rv.get("title", "").strip().lower()
+        r_vid = rv.get("video_id")
+        if not r_vid:
+            continue
+
+        # Check 1: Direct title match
+        if clean_meta_title and (r_title == clean_meta_title or clean_meta_title in r_title or r_title in clean_meta_title):
+            return rv
+
+        # Check 2: Chapter slug in title
+        if chap_slug.lower() in r_title:
+            return rv
+
+        # Check 3: Chapter number matching
+        if chap_num is not None:
+            patterns = [
+                rf'\bhồi\s+0*{chap_num}\b',
+                rf'\bchương\s+0*{chap_num}\b',
+                rf'\bhồi\s+0*{chap_num}[:\s-]',
+                rf'\bchương\s+0*{chap_num}[:\s-]',
+            ]
+            for p in patterns:
+                if re.search(p, r_title, re.IGNORECASE):
+                    return rv
+
+    return None
 
 def main():
     parser = argparse.ArgumentParser(description="ABV-04 Automated YouTube Batch Uploader & Synchronizer")
@@ -718,6 +984,7 @@ def main():
     parser.add_argument("--recreate_playlist", action="store_true", help="Recreate playlist from scratch if exists")
     parser.add_argument("--set_privacy", choices=["public", "unlisted", "private"], help="Update privacyStatus of uploaded videos")
     parser.add_argument("--sync_thumbnails", action="store_true", help="Update thumbnail for all uploaded videos to --thumbnail")
+    parser.add_argument("--sync_only", action="store_true", help="Only sync playlist/privacy and exit without uploading")
 
     args = parser.parse_args()
     assets = resolve_all_assets(args.source)
@@ -773,7 +1040,7 @@ def main():
 
     # Sync counters
     manifest["total_videos"] = len(manifest["videos"])
-    manifest["uploaded_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") == "uploaded")
+    manifest["uploaded_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") in ("uploaded", "completed"))
     manifest["failed_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") == "failed")
     manifest["pending_count"] = manifest["total_videos"] - manifest["uploaded_count"] - manifest["failed_count"]
     save_manifest_atomic(manifest_path, manifest)
@@ -782,158 +1049,212 @@ def main():
         print_upload_status(manifest)
         sys.exit(0)
 
-    print(f"\n=======================================================")
-    print(f"🚀 ABV-04: YOUTUBE BATCH UPLOADER & ASSET SYNCHRONIZER")
-    print(f"=======================================================")
-    print(f"📁 Video Directory     : {final_video_dir}")
-    print(f"📑 Metadata Directory  : {metadata_dir}")
-    print(f"🖼️ Backgrounds Directory: {backgrounds_dir}")
-    print(f"🧭 Upload Manifest     : {manifest_path}")
-    print_upload_status(manifest)
+    # Process Lock: Ensure only one upload process runs for this project at a time
+    lock_file = final_video_dir / ".upload.lock"
+    process_lock = ProcessLock(lock_file)
+    if not process_lock.acquire():
+        sys.exit(0)
 
-    token = get_valid_token(args.client_secrets, args.token_file)
+    try:
+        print(f"\n=======================================================")
+        print(f"🚀 ABV-04: YOUTUBE BATCH UPLOADER & ASSET SYNCHRONIZER")
+        print(f"=======================================================")
+        print(f"📁 Video Directory     : {final_video_dir}")
+        print(f"📑 Metadata Directory  : {metadata_dir}")
+        print(f"🖼️ Backgrounds Directory: {backgrounds_dir}")
+        print(f"🧭 Upload Manifest     : {manifest_path}")
+        print_upload_status(manifest)
 
-    # Execute playlist sync or privacy update if requested
-    if args.sync_playlist or args.set_privacy:
-        sync_playlist_and_privacy(
-            token=token,
-            playlist_title=args.playlist_title,
-            manifest=manifest,
-            manifest_path=manifest_path,
-            target_privacy=args.set_privacy,
-            sync_playlist=args.sync_playlist,
-            recreate_playlist=args.recreate_playlist
-        )
-        report_file = final_video_dir / "Master_Upload_Report.md"
-        generate_master_upload_report(manifest, report_file)
-        if not (args.file or args.batch_start or args.batch_end or args.sync_thumbnails):
-            print("\n✅ Playlist and privacy synchronization completed successfully.")
-            sys.exit(0)
+        token = get_valid_token(args.client_secrets, args.token_file)
 
-    # Execute thumbnail synchronization if requested
-    if args.sync_thumbnails:
-        target_thumb = Path(args.thumbnail).resolve() if args.thumbnail else backgrounds_dir / "Background-1_thumb.jpg"
-        update_all_thumbnails(token, target_thumb, manifest)
-        if not (args.file or args.batch_start or args.batch_end):
-            print("\n✅ Thumbnail synchronization completed successfully.")
-            sys.exit(0)
+        # Execute playlist sync or privacy update if requested
+        if args.sync_playlist or args.set_privacy:
+            sync_playlist_and_privacy(
+                token=token,
+                playlist_title=args.playlist_title,
+                manifest=manifest,
+                manifest_path=manifest_path,
+                target_privacy=args.set_privacy,
+                sync_playlist=args.sync_playlist,
+                recreate_playlist=args.recreate_playlist
+            )
+            report_file = final_video_dir / "Master_Upload_Report.md"
+            generate_master_upload_report(manifest, report_file)
+            if args.sync_only:
+                print("\n✅ Playlist and privacy synchronization completed successfully.")
+                return
 
-    # Filter target videos
-    target_videos = []
-    sorted_items = sorted(manifest["videos"].items(), key=lambda x: [int(c) if c.isdigit() else c for c in re.split(r'(\d+)', x[0])])
+        # Execute thumbnail synchronization if requested
+        if args.sync_thumbnails:
+            target_thumb = Path(args.thumbnail).resolve() if args.thumbnail else backgrounds_dir / "Background-1_thumb.jpg"
+            update_all_thumbnails(token, target_thumb, manifest)
+            if not (args.file or args.batch_start or args.batch_end):
+                print("\n✅ Thumbnail synchronization completed successfully.")
+                return
 
-    for idx, (v_name, v_info) in enumerate(sorted_items, start=1):
-        if args.file and v_name != args.file:
-            continue
-        if args.batch_start and idx < args.batch_start:
-            continue
-        if args.batch_end and idx > args.batch_end:
-            continue
-        target_videos.append((v_name, v_info))
+        # Filter target videos
+        target_videos = []
+        sorted_items = sorted(manifest["videos"].items(), key=lambda x: [int(c) if c.isdigit() else c for c in re.split(r'(\d+)', x[0])])
 
-    print(f"🎯 Target videos for this execution batch: {len(target_videos)}")
+        for idx, (v_name, v_info) in enumerate(sorted_items, start=1):
+            if args.file and v_name != args.file:
+                continue
+            if args.batch_start and idx < args.batch_start:
+                continue
+            if args.batch_end and idx > args.batch_end:
+                continue
+            target_videos.append((v_name, v_info))
 
-    for v_name, v_info in target_videos:
-        # Atomic Resume: Skip if already uploaded
-        if not args.force and v_info.get("status") == "uploaded" and v_info.get("youtube_url"):
-            print(f"  ⏭️ [SKIP UPLOADED] {v_name} -> {v_info['youtube_url']}")
-            continue
+        print(f"🎯 Target videos for this execution batch: {len(target_videos)}")
 
-        video_path = final_video_dir / v_name
-        chap_slug = v_info["chapter_slug"]
+        # Pre-Upload Remote Deduplication Cache
+        remote_videos_cache: List[Dict[str, str]] = []
+        if not args.force and target_videos:
+            print("\n[INFO] Querying YouTube Playlist & Channel to build Pre-Upload Deduplication cache...")
+            remote_videos_cache = fetch_remote_videos_cache(
+                token=token,
+                playlist_id=manifest.get("playlist_id"),
+                playlist_title=args.playlist_title
+            )
+            print(f"[INFO] Deduplication cache built: {len(remote_videos_cache)} remote videos found.\n")
 
-        # 1. Discover Metadata JSON
-        meta_candidates = [
-            metadata_dir / f"youtube_metadata_{chap_slug}.json",
-            final_video_dir / f"youtube_metadata_{chap_slug}.json",
-            book_dir / chap_slug / "youtube_metadata.json"
-        ]
-        metadata = {}
-        for mc in meta_candidates:
-            if mc.exists():
-                with open(mc, "r", encoding="utf-8") as f:
-                    metadata = json.load(f)
-                break
+        for v_name, v_info in target_videos:
+            # Pre-Upload Check 1: Manifest Check (completed or uploaded with valid video_id)
+            is_manifest_uploaded = (
+                v_info.get("status") in ("uploaded", "completed")
+                and v_info.get("video_id")
+                and len(str(v_info.get("video_id")).strip()) >= 8
+            )
+            if not args.force and is_manifest_uploaded:
+                vid = v_info["video_id"]
+                url = v_info.get("youtube_url") or f"https://youtu.be/{vid}"
+                print(f"  ⏭️ [SKIP DUPLICATE] {v_name} already registered in manifest (Status: {v_info.get('status')}, Video ID: {vid}) -> {url}")
+                continue
 
-        if not metadata:
-            print(f"  [WARN] No metadata JSON found for {v_name}. Using defaults.")
-            metadata = {"title": v_name.replace(".mp4", ""), "description": "", "tags": []}
+            video_path = final_video_dir / v_name
+            chap_slug = v_info["chapter_slug"]
 
-        if args.set_privacy:
-            metadata["privacy"] = args.set_privacy
-
-        # 2. Discover Thumbnail (Strictly enforce DUY NHẤT Background-1_thumb.jpg)
-        thumbnail_path = None
-        if args.thumbnail and Path(args.thumbnail).exists():
-            thumbnail_path = Path(args.thumbnail).resolve()
-        else:
-            thumb_candidates = [
-                backgrounds_dir / "Background-1_thumb.jpg",
-                backgrounds_dir / "Background-1.png"
+            # 1. Discover Metadata JSON
+            meta_candidates = [
+                metadata_dir / f"youtube_metadata_{chap_slug}.json",
+                final_video_dir / f"youtube_metadata_{chap_slug}.json",
+                book_dir / chap_slug / "youtube_metadata.json"
             ]
-            for tc in thumb_candidates:
-                if tc.exists():
-                    thumbnail_path = tc
+            metadata = {}
+            for mc in meta_candidates:
+                if mc.exists():
+                    with open(mc, "r", encoding="utf-8") as f:
+                        metadata = json.load(f)
                     break
 
-        # 3. Perform Upload
-        try:
-            result = upload_single_video(
-                token=token,
-                video_path=video_path,
-                metadata=metadata,
-                thumbnail_path=thumbnail_path
-            )
-            v_info["status"] = "uploaded"
-            v_info["video_id"] = result["video_id"]
-            v_info["youtube_url"] = result["youtube_url"]
-            v_info["uploaded_at"] = datetime.now(timezone.utc).isoformat()
-            v_info["error"] = None
-            if args.set_privacy:
-                v_info["privacyStatus"] = args.set_privacy
-        except Exception as e:
-            err_msg = str(e)
-            print(f"  ❌ [UPLOAD FAILED] {v_name}: {err_msg}")
-            v_info["status"] = "failed"
-            v_info["error"] = err_msg
+            if not metadata:
+                print(f"  [WARN] No metadata JSON found for {v_name}. Using defaults.")
+                metadata = {"title": v_name.replace(".mp4", ""), "description": "", "tags": []}
 
-            # Update manifest atomically before deciding to break
-            manifest["uploaded_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") == "uploaded")
+            if args.set_privacy:
+                metadata["privacy"] = args.set_privacy
+
+            # Pre-Upload Check 2: Remote YouTube Playlist & Channel Check
+            if not args.force and remote_videos_cache:
+                matched_remote = find_matching_remote_video(
+                    v_name=v_name,
+                    chap_slug=chap_slug,
+                    metadata_title=metadata.get("title", ""),
+                    remote_videos=remote_videos_cache
+                )
+                if matched_remote:
+                    found_vid = matched_remote["video_id"]
+                    found_title = matched_remote["title"]
+                    print(f"  ⏭️ [SKIP DUPLICATE] {v_name} already exists on YouTube (Video ID: {found_vid}, Title: '{found_title}')")
+                    v_info["status"] = "uploaded"
+                    v_info["video_id"] = found_vid
+                    v_info["youtube_url"] = f"https://youtu.be/{found_vid}"
+                    if not v_info.get("uploaded_at"):
+                        v_info["uploaded_at"] = datetime.now(timezone.utc).isoformat()
+                    v_info["error"] = None
+
+                    manifest["uploaded_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") in ("uploaded", "completed"))
+                    manifest["failed_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") == "failed")
+                    manifest["pending_count"] = manifest["total_videos"] - manifest["uploaded_count"] - manifest["failed_count"]
+                    save_manifest_atomic(manifest_path, manifest)
+                    continue
+
+            # 2. Discover Thumbnail (Strictly enforce DUY NHẤT Background-1_thumb.jpg)
+            thumbnail_path = None
+            if args.thumbnail and Path(args.thumbnail).exists():
+                thumbnail_path = Path(args.thumbnail).resolve()
+            elif args.thumbnail and (backgrounds_dir / Path(args.thumbnail).name).exists():
+                thumbnail_path = (backgrounds_dir / Path(args.thumbnail).name).resolve()
+            else:
+                thumb_candidates = [
+                    backgrounds_dir / "Background-1_thumb.jpg",
+                    backgrounds_dir / "Background-1.png"
+                ]
+                for tc in thumb_candidates:
+                    if tc.exists():
+                        thumbnail_path = tc
+                        break
+
+            # 3. Perform Upload
+            try:
+                result = upload_single_video(
+                    token=token,
+                    video_path=video_path,
+                    metadata=metadata,
+                    thumbnail_path=thumbnail_path
+                )
+                v_info["status"] = "uploaded"
+                v_info["video_id"] = result["video_id"]
+                v_info["youtube_url"] = result["youtube_url"]
+                v_info["uploaded_at"] = datetime.now(timezone.utc).isoformat()
+                v_info["error"] = None
+                if args.set_privacy:
+                    v_info["privacyStatus"] = args.set_privacy
+            except Exception as e:
+                err_msg = str(e)
+                print(f"  ❌ [UPLOAD FAILED] {v_name}: {err_msg}")
+                v_info["status"] = "failed"
+                v_info["error"] = err_msg
+
+                # Update manifest atomically before deciding to break
+                manifest["uploaded_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") in ("uploaded", "completed"))
+                manifest["failed_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") == "failed")
+                manifest["pending_count"] = manifest["total_videos"] - manifest["uploaded_count"] - manifest["failed_count"]
+                save_manifest_atomic(manifest_path, manifest)
+
+                if "quotaExceeded" in err_msg or "uploadLimitExceeded" in err_msg:
+                    print(f"\n⚠️ [QUOTA REACHED] YouTube API daily quota exceeded.")
+                    print(f"   Manifest progress is saved. Please resume after quota reset (14:00 - 15:00 VN).")
+                    break
+
+            # Update manifest atomically after each video
+            manifest["uploaded_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") in ("uploaded", "completed"))
             manifest["failed_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") == "failed")
             manifest["pending_count"] = manifest["total_videos"] - manifest["uploaded_count"] - manifest["failed_count"]
             save_manifest_atomic(manifest_path, manifest)
 
-            if "quotaExceeded" in err_msg or "uploadLimitExceeded" in err_msg:
-                print(f"\n⚠️ [QUOTA REACHED] YouTube API daily quota exceeded.")
-                print(f"   Manifest progress is saved. Please resume after quota reset (14:00 - 15:00 VN).")
-                break
+        # Re-sync playlist and privacy for newly uploaded videos if requested
+        if args.sync_playlist or args.set_privacy:
+            sync_playlist_and_privacy(
+                token=token,
+                playlist_title=args.playlist_title,
+                manifest=manifest,
+                manifest_path=manifest_path,
+                target_privacy=args.set_privacy,
+                sync_playlist=args.sync_playlist,
+                recreate_playlist=args.recreate_playlist
+            )
 
-        # Update manifest atomically after each video
-        manifest["uploaded_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") == "uploaded")
-        manifest["failed_count"] = sum(1 for v in manifest["videos"].values() if v.get("status") == "failed")
-        manifest["pending_count"] = manifest["total_videos"] - manifest["uploaded_count"] - manifest["failed_count"]
-        save_manifest_atomic(manifest_path, manifest)
+        print(f"\n=======================================================")
+        print(f"🎉 BATCH UPLOAD WORKFLOW FINISHED")
+        print(f"=======================================================")
+        print_upload_status(manifest)
 
-    # Re-sync playlist and privacy for newly uploaded videos if requested
-    if args.sync_playlist or args.set_privacy:
-        sync_playlist_and_privacy(
-            token=token,
-            playlist_title=args.playlist_title,
-            manifest=manifest,
-            manifest_path=manifest_path,
-            target_privacy=args.set_privacy,
-            sync_playlist=args.sync_playlist,
-            recreate_playlist=args.recreate_playlist
-        )
-
-    print(f"\n=======================================================")
-    print(f"🎉 BATCH UPLOAD WORKFLOW FINISHED")
-    print(f"=======================================================")
-    print_upload_status(manifest)
-
-    # Generate / update Master Upload Report
-    report_file = final_video_dir / "Master_Upload_Report.md"
-    generate_master_upload_report(manifest, report_file)
+        # Generate / update Master Upload Report
+        report_file = final_video_dir / "Master_Upload_Report.md"
+        generate_master_upload_report(manifest, report_file)
+    finally:
+        process_lock.release()
 
 if __name__ == "__main__":
     main()

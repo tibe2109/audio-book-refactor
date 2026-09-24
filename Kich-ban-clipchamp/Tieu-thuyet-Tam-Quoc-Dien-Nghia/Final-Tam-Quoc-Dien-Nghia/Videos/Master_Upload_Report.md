@@ -2,9 +2,9 @@
 ## TÁC PHẨM: TAM QUỐC DIỄN NGHĨA — TRỌN BỘ 120 HỒI
 **Kênh phát hành:** `Tibe audio book`  
 **Tổng số Video:** 120  
-**Đã đăng thành công:** 11 / 120  
+**Đã đăng thành công:** 37 / 120  
 **Danh sách phát (Playlist):** [Tam Quốc Diễn Nghĩa - La Quán Trung (Phan Kế Bính Dịch)](https://www.youtube.com/playlist?list=PLW4YT639QMO4) (`PLW4YT639QMO4`)  
-**Thời điểm cập nhật báo cáo:** `2026-09-21T04:28:39.980521+00:00`  
+**Thời điểm cập nhật báo cáo:** `2026-09-23T08:15:54.111769+00:00`  
 
 ---
 
@@ -21,33 +21,33 @@
 | 009 | Hồi 9 | `Final_Video_09-Hoi-09_Part1.mp4` | ✅ UPLOADED | `1Q91IwPWl0U` | `public` | [https://youtu.be/1Q91IwPWl0U](https://youtu.be/1Q91IwPWl0U) | `2026-09-21T03:04:25.679569+00:00` |
 | 010 | Hồi 10 | `Final_Video_10-Hoi-10_Part1.mp4` | ✅ UPLOADED | `-HNjsNSx4tg` | `public` | [https://youtu.be/-HNjsNSx4tg](https://youtu.be/-HNjsNSx4tg) | `2026-09-21T03:04:48.958786+00:00` |
 | 011 | Hồi 11 | `Final_Video_11-Hoi-11_Part1.mp4` | ✅ UPLOADED | `hMz3okrct30` | `public` | [https://youtu.be/hMz3okrct30](https://youtu.be/hMz3okrct30) | `2026-09-21T03:05:19.344896+00:00` |
-| 012 | Hồi 12 | `Final_Video_12-Hoi-12_Part1.mp4` | ❌ FAILED | `—` | `—` | Chưa đăng | `—` |
-| 013 | Hồi 13 | `Final_Video_13-Hoi-13_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 014 | Hồi 14 | `Final_Video_14-Hoi-14_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 015 | Hồi 15 | `Final_Video_15-Hoi-15_Part1.mp4` | ❌ FAILED | `—` | `—` | Chưa đăng | `—` |
-| 016 | Hồi 16 | `Final_Video_16-Hoi-16_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 017 | Hồi 17 | `Final_Video_17-Hoi-17_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 018 | Hồi 18 | `Final_Video_18-Hoi-18_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 019 | Hồi 19 | `Final_Video_19-Hoi-19_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 020 | Hồi 20 | `Final_Video_20-Hoi-20_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 021 | Hồi 21 | `Final_Video_21-Hoi-21_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 022 | Hồi 22 | `Final_Video_22-Hoi-22_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 023 | Hồi 23 | `Final_Video_23-Hoi-23_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 024 | Hồi 24 | `Final_Video_24-Hoi-24_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 025 | Hồi 25 | `Final_Video_25-Hoi-25_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 026 | Hồi 26 | `Final_Video_26-Hoi-26_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 027 | Hồi 27 | `Final_Video_27-Hoi-27_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 028 | Hồi 28 | `Final_Video_28-Hoi-28_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 029 | Hồi 29 | `Final_Video_29-Hoi-29_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 030 | Hồi 30 | `Final_Video_30-Hoi-30_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 031 | Hồi 31 | `Final_Video_31-Hoi-31_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 032 | Hồi 32 | `Final_Video_32-Hoi-32_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 033 | Hồi 33 | `Final_Video_33-Hoi-33_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 034 | Hồi 34 | `Final_Video_34-Hoi-34_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 035 | Hồi 35 | `Final_Video_35-Hoi-35_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 036 | Hồi 36 | `Final_Video_36-Hoi-36_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 037 | Hồi 37 | `Final_Video_37-Hoi-37_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-| 038 | Hồi 38 | `Final_Video_38-Hoi-38_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
+| 012 | Hồi 12 | `Final_Video_12-Hoi-12_Part1.mp4` | ✅ UPLOADED | `CebpnLdUByA` | `public` | [https://youtu.be/CebpnLdUByA](https://youtu.be/CebpnLdUByA) | `2026-09-22T08:14:42.443304+00:00` |
+| 013 | Hồi 13 | `Final_Video_13-Hoi-13_Part1.mp4` | ✅ UPLOADED | `Pr_wb0ukXGI` | `public` | [https://youtu.be/Pr_wb0ukXGI](https://youtu.be/Pr_wb0ukXGI) | `2026-09-22T08:15:27.318705+00:00` |
+| 014 | Hồi 14 | `Final_Video_14-Hoi-14_Part1.mp4` | ✅ UPLOADED | `pRmfCr6A4SU` | `public` | [https://youtu.be/pRmfCr6A4SU](https://youtu.be/pRmfCr6A4SU) | `2026-09-22T08:16:08.954762+00:00` |
+| 015 | Hồi 15 | `Final_Video_15-Hoi-15_Part1.mp4` | ✅ UPLOADED | `JZBs0nKY4vA` | `public` | [https://youtu.be/JZBs0nKY4vA](https://youtu.be/JZBs0nKY4vA) | `2026-09-22T08:16:59.013921+00:00` |
+| 016 | Hồi 16 | `Final_Video_16-Hoi-16_Part1.mp4` | ✅ UPLOADED | `5ZDR2J30jUA` | `public` | [https://youtu.be/5ZDR2J30jUA](https://youtu.be/5ZDR2J30jUA) | `2026-09-22T08:17:40.600428+00:00` |
+| 017 | Hồi 17 | `Final_Video_17-Hoi-17_Part1.mp4` | ✅ UPLOADED | `pnSMHBp25X4` | `public` | [https://youtu.be/pnSMHBp25X4](https://youtu.be/pnSMHBp25X4) | `2026-09-22T08:18:04.786309+00:00` |
+| 018 | Hồi 18 | `Final_Video_18-Hoi-18_Part1.mp4` | ✅ UPLOADED | `poLwSb-5-T8` | `public` | [https://youtu.be/poLwSb-5-T8](https://youtu.be/poLwSb-5-T8) | `2026-09-22T08:18:26.721522+00:00` |
+| 019 | Hồi 19 | `Final_Video_19-Hoi-19_Part1.mp4` | ✅ UPLOADED | `HJ9eeJ63xzI` | `public` | [https://youtu.be/HJ9eeJ63xzI](https://youtu.be/HJ9eeJ63xzI) | `2026-09-22T08:19:00.381551+00:00` |
+| 020 | Hồi 20 | `Final_Video_20-Hoi-20_Part1.mp4` | ✅ UPLOADED | `LjlkKBpW1wU` | `public` | [https://youtu.be/LjlkKBpW1wU](https://youtu.be/LjlkKBpW1wU) | `2026-09-22T08:19:27.918945+00:00` |
+| 021 | Hồi 21 | `Final_Video_21-Hoi-21_Part1.mp4` | ✅ UPLOADED | `szR2rNFv_Z0` | `public` | [https://youtu.be/szR2rNFv_Z0](https://youtu.be/szR2rNFv_Z0) | `2026-09-22T08:19:56.883020+00:00` |
+| 022 | Hồi 22 | `Final_Video_22-Hoi-22_Part1.mp4` | ✅ UPLOADED | `DAlwoCgBMHc` | `public` | [https://youtu.be/DAlwoCgBMHc](https://youtu.be/DAlwoCgBMHc) | `2026-09-22T08:20:21.519831+00:00` |
+| 023 | Hồi 23 | `Final_Video_23-Hoi-23_Part1.mp4` | ✅ UPLOADED | `usJmJePi-xs` | `public` | [https://youtu.be/usJmJePi-xs](https://youtu.be/usJmJePi-xs) | `2026-09-23T08:05:41.634874+00:00` |
+| 024 | Hồi 24 | `Final_Video_24-Hoi-24_Part1.mp4` | ✅ UPLOADED | `kFxsas8NkXM` | `public` | [https://youtu.be/kFxsas8NkXM](https://youtu.be/kFxsas8NkXM) | `2026-09-23T08:06:49.084728+00:00` |
+| 025 | Hồi 25 | `Final_Video_25-Hoi-25_Part1.mp4` | ✅ UPLOADED | `Z90VSU0YdBA` | `public` | [https://youtu.be/Z90VSU0YdBA](https://youtu.be/Z90VSU0YdBA) | `2026-09-23T08:07:15.342649+00:00` |
+| 026 | Hồi 26 | `Final_Video_26-Hoi-26_Part1.mp4` | ✅ UPLOADED | `DM5hN41L_Fw` | `public` | [https://youtu.be/DM5hN41L_Fw](https://youtu.be/DM5hN41L_Fw) | `2026-09-23T08:08:22.537127+00:00` |
+| 027 | Hồi 27 | `Final_Video_27-Hoi-27_Part1.mp4` | ✅ UPLOADED | `a-oLpuJ_w0E` | `public` | [https://youtu.be/a-oLpuJ_w0E](https://youtu.be/a-oLpuJ_w0E) | `2026-09-23T08:08:57.655103+00:00` |
+| 028 | Hồi 28 | `Final_Video_28-Hoi-28_Part1.mp4` | ✅ UPLOADED | `Y8BIkz-9JKc` | `public` | [https://youtu.be/Y8BIkz-9JKc](https://youtu.be/Y8BIkz-9JKc) | `2026-09-23T08:09:33.636840+00:00` |
+| 029 | Hồi 29 | `Final_Video_29-Hoi-29_Part1.mp4` | ✅ UPLOADED | `zosWa8OLaTw` | `public` | [https://youtu.be/zosWa8OLaTw](https://youtu.be/zosWa8OLaTw) | `2026-09-23T08:10:06.030901+00:00` |
+| 030 | Hồi 30 | `Final_Video_30-Hoi-30_Part1.mp4` | ✅ UPLOADED | `erW3exZY-2U` | `public` | [https://youtu.be/erW3exZY-2U](https://youtu.be/erW3exZY-2U) | `2026-09-23T08:10:40.375684+00:00` |
+| 031 | Hồi 31 | `Final_Video_31-Hoi-31_Part1.mp4` | ✅ UPLOADED | `VZAOR58g5Lk` | `public` | [https://youtu.be/VZAOR58g5Lk](https://youtu.be/VZAOR58g5Lk) | `2026-09-23T08:11:53.174136+00:00` |
+| 032 | Hồi 32 | `Final_Video_32-Hoi-32_Part1.mp4` | ✅ UPLOADED | `R-5tEFc84eg` | `public` | [https://youtu.be/R-5tEFc84eg](https://youtu.be/R-5tEFc84eg) | `2026-09-23T08:12:27.996376+00:00` |
+| 033 | Hồi 33 | `Final_Video_33-Hoi-33_Part1.mp4` | ✅ UPLOADED | `JgcuqekEP_M` | `public` | [https://youtu.be/JgcuqekEP_M](https://youtu.be/JgcuqekEP_M) | `2026-09-23T08:13:41.167736+00:00` |
+| 034 | Hồi 34 | `Final_Video_34-Hoi-34_Part1.mp4` | ✅ UPLOADED | `zCW0l2KLWcA` | `public` | [https://youtu.be/zCW0l2KLWcA](https://youtu.be/zCW0l2KLWcA) | `2026-09-23T08:14:11.316638+00:00` |
+| 035 | Hồi 35 | `Final_Video_35-Hoi-35_Part1.mp4` | ✅ UPLOADED | `iKBF5H34awo` | `public` | [https://youtu.be/iKBF5H34awo](https://youtu.be/iKBF5H34awo) | `2026-09-23T08:14:33.518075+00:00` |
+| 036 | Hồi 36 | `Final_Video_36-Hoi-36_Part1.mp4` | ✅ UPLOADED | `JeJDD4DVm10` | `public` | [https://youtu.be/JeJDD4DVm10](https://youtu.be/JeJDD4DVm10) | `2026-09-23T08:14:58.297408+00:00` |
+| 037 | Hồi 37 | `Final_Video_37-Hoi-37_Part1.mp4` | ✅ UPLOADED | `ooHnWnSWHI0` | `public` | [https://youtu.be/ooHnWnSWHI0](https://youtu.be/ooHnWnSWHI0) | `2026-09-23T08:15:27.986422+00:00` |
+| 038 | Hồi 38 | `Final_Video_38-Hoi-38_Part1.mp4` | ❌ FAILED | `—` | `—` | Chưa đăng | `—` |
 | 039 | Hồi 39 | `Final_Video_39-Hoi-39_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
 | 040 | Hồi 40 | `Final_Video_40-Hoi-40_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
 | 041 | Hồi 41 | `Final_Video_41-Hoi-41_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
@@ -130,23 +130,6 @@
 | 118 | Hồi 118 | `Final_Video_118-Hoi-118_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
 | 119 | Hồi 119 | `Final_Video_119-Hoi-119_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
 | 120 | Hồi 120 | `Final_Video_120-Hoi-120_Part1.mp4` | ⏳ PENDING | `—` | `—` | Chưa đăng | `—` |
-
----
-
-### 🛡️ KẾT QUẢ KIỂM TOÁN HẠN NGẠCH VÀ TÍNH TOÀN VẸN (QUOTA & INTEGRITY AUDIT)
-- **Kiểm toán viên:** `Quota & Rate Limit Auditor` (Module ABV-04 Multi-Agent Swarm)
-- **Thời điểm kiểm toán:** `2026-09-21T04:28:13+00:00` (11:28:13 GMT+7)
-- **Hạn ngạch tiêu thụ (Quota Units):**
-  - Thao tác Playlist & Quyền riêng tư: `1.155 / 10.000 units` (11.55% định mức API ngày).
-  - Tải lên Video (Hồi 2 – 11): Đã hoàn tất 10 video tải mới; tạm dừng an toàn tại Hồi 12 do chạm ngưỡng tải video hàng ngày (`uploadLimitExceeded`).
-  - Hạn mức an toàn còn lại: `8.845 units` cho các tác vụ quản trị danh sách và siêu dữ liệu.
-- **Xác thực Danh sách phát (Playlist):**
-  - Tên Playlist: `Tam Quốc Diễn Nghĩa - La Quán Trung (Phan Kế Bính Dịch)`
-  - ID: `PLW4YT639QMO4`
-  - Quyền riêng tư Playlist: `public`
-  - Số lượng video trong Playlist: `11 / 11` video (khớp 100% thứ tự từ Hồi 1 đến Hồi 11).
-- **Xác thực Quyền riêng tư Video:** `11 / 11` video xuất bản đều đạt trạng thái `public` và `uploadStatus: processed`.
-- **Đánh giá tổng thể:** 🟢 **PASSED (100% TOÀN VẸN VÀ SẴN SÀNG TIẾP TỤC BATCH 2)**.
 
 ---
 

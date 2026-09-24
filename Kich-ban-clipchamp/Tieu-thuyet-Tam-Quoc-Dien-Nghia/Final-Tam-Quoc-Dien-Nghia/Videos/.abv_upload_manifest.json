@@ -2,16 +2,16 @@
   "book_name": "Tam-Quoc-Dien-Nghia",
   "final_video_dir": "/media/hoanganh/disk1_vol1/Solution/audio-book-refactor/Kich-ban-clipchamp/Tam-Quoc-Dien-Nghia/Final-Tam-Quoc-Dien-Nghia/Videos",
   "created_at": "2026-09-21T02:39:11.088032+00:00",
-  "updated_at": "2026-09-21T04:28:39.978361+00:00",
+  "updated_at": "2026-09-23T08:15:54.109815+00:00",
   "total_videos": 120,
-  "uploaded_count": 11,
-  "pending_count": 107,
-  "failed_count": 2,
+  "uploaded_count": 37,
+  "pending_count": 82,
+  "failed_count": 1,
   "videos": {
     "Final_Video_01-Hoi-01_Part1.mp4": {
       "video_file": "Final_Video_01-Hoi-01_Part1.mp4",
       "chapter_slug": "01-Hoi-01",
-      "status": "uploaded",
+      "status": "completed",
       "video_id": "OUkuc46XzU0",
       "youtube_url": "https://youtu.be/OUkuc46XzU0",
       "uploaded_at": "2026-09-18T18:15:50Z",
@@ -21,7 +21,7 @@
     "Final_Video_02-Hoi-02_Part1.mp4": {
       "video_file": "Final_Video_02-Hoi-02_Part1.mp4",
       "chapter_slug": "02-Hoi-02",
-      "status": "uploaded",
+      "status": "completed",
       "video_id": "gX4nCYgFc-w",
       "youtube_url": "https://youtu.be/gX4nCYgFc-w",
       "uploaded_at": "2026-09-21T03:01:00.800414+00:00",
@@ -31,7 +31,7 @@
     "Final_Video_03-Hoi-03_Part1.mp4": {
       "video_file": "Final_Video_03-Hoi-03_Part1.mp4",
       "chapter_slug": "03-Hoi-03",
-      "status": "uploaded",
+      "status": "completed",
       "video_id": "YwbmLbJzJiY",
       "youtube_url": "https://youtu.be/YwbmLbJzJiY",
       "uploaded_at": "2026-09-21T03:01:37.008369+00:00",
@@ -41,7 +41,7 @@
     "Final_Video_04-Hoi-04_Part1.mp4": {
       "video_file": "Final_Video_04-Hoi-04_Part1.mp4",
       "chapter_slug": "04-Hoi-04",
-      "status": "uploaded",
+      "status": "completed",
       "video_id": "yEBLoLZJZAE",
       "youtube_url": "https://youtu.be/yEBLoLZJZAE",
       "uploaded_at": "2026-09-21T03:02:04.723618+00:00",
@@ -51,7 +51,7 @@
     "Final_Video_05-Hoi-05_Part1.mp4": {
       "video_file": "Final_Video_05-Hoi-05_Part1.mp4",
       "chapter_slug": "05-Hoi-05",
-      "status": "uploaded",
+      "status": "completed",
       "video_id": "ejo6urjRllM",
       "youtube_url": "https://youtu.be/ejo6urjRllM",
       "uploaded_at": "2026-09-21T03:02:37.356608+00:00",
@@ -61,7 +61,7 @@
     "Final_Video_06-Hoi-06_Part1.mp4": {
       "video_file": "Final_Video_06-Hoi-06_Part1.mp4",
       "chapter_slug": "06-Hoi-06",
-      "status": "uploaded",
+      "status": "completed",
       "video_id": "oUWk27df3OU",
       "youtube_url": "https://youtu.be/oUWk27df3OU",
       "uploaded_at": "2026-09-21T03:03:02.631931+00:00",
@@ -71,7 +71,7 @@
     "Final_Video_07-Hoi-07_Part1.mp4": {
       "video_file": "Final_Video_07-Hoi-07_Part1.mp4",
       "chapter_slug": "07-Hoi-07",
-      "status": "uploaded",
+      "status": "completed",
       "video_id": "8sH1a1HbB4E",
       "youtube_url": "https://youtu.be/8sH1a1HbB4E",
       "uploaded_at": "2026-09-21T03:03:28.068726+00:00",
@@ -81,7 +81,7 @@
     "Final_Video_08-Hoi-08_Part1.mp4": {
       "video_file": "Final_Video_08-Hoi-08_Part1.mp4",
       "chapter_slug": "08-Hoi-08",
-      "status": "uploaded",
+      "status": "completed",
       "video_id": "DHk8MYo038I",
       "youtube_url": "https://youtu.be/DHk8MYo038I",
       "uploaded_at": "2026-09-21T03:03:56.873160+00:00",
@@ -91,7 +91,7 @@
     "Final_Video_09-Hoi-09_Part1.mp4": {
       "video_file": "Final_Video_09-Hoi-09_Part1.mp4",
       "chapter_slug": "09-Hoi-09",
-      "status": "uploaded",
+      "status": "completed",
       "video_id": "1Q91IwPWl0U",
       "youtube_url": "https://youtu.be/1Q91IwPWl0U",
       "uploaded_at": "2026-09-21T03:04:25.679569+00:00",
@@ -101,10 +101,130 @@
     "Final_Video_10-Hoi-10_Part1.mp4": {
       "video_file": "Final_Video_10-Hoi-10_Part1.mp4",
       "chapter_slug": "10-Hoi-10",
-      "status": "uploaded",
+      "status": "completed",
       "video_id": "-HNjsNSx4tg",
       "youtube_url": "https://youtu.be/-HNjsNSx4tg",
       "uploaded_at": "2026-09-21T03:04:48.958786+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_11-Hoi-11_Part1.mp4": {
+      "video_file": "Final_Video_11-Hoi-11_Part1.mp4",
+      "chapter_slug": "11-Hoi-11",
+      "status": "completed",
+      "video_id": "hMz3okrct30",
+      "youtube_url": "https://youtu.be/hMz3okrct30",
+      "uploaded_at": "2026-09-21T03:05:19.344896+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_12-Hoi-12_Part1.mp4": {
+      "video_file": "Final_Video_12-Hoi-12_Part1.mp4",
+      "chapter_slug": "12-Hoi-12",
+      "status": "completed",
+      "video_id": "CebpnLdUByA",
+      "youtube_url": "https://youtu.be/CebpnLdUByA",
+      "uploaded_at": "2026-09-22T08:14:42.443304+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_13-Hoi-13_Part1.mp4": {
+      "video_file": "Final_Video_13-Hoi-13_Part1.mp4",
+      "chapter_slug": "13-Hoi-13",
+      "status": "completed",
+      "video_id": "Pr_wb0ukXGI",
+      "youtube_url": "https://youtu.be/Pr_wb0ukXGI",
+      "uploaded_at": "2026-09-22T08:15:27.318705+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_14-Hoi-14_Part1.mp4": {
+      "video_file": "Final_Video_14-Hoi-14_Part1.mp4",
+      "chapter_slug": "14-Hoi-14",
+      "status": "completed",
+      "video_id": "pRmfCr6A4SU",
+      "youtube_url": "https://youtu.be/pRmfCr6A4SU",
+      "uploaded_at": "2026-09-22T08:16:08.954762+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_15-Hoi-15_Part1.mp4": {
+      "video_file": "Final_Video_15-Hoi-15_Part1.mp4",
+      "chapter_slug": "15-Hoi-15",
+      "status": "completed",
+      "video_id": "JZBs0nKY4vA",
+      "youtube_url": "https://youtu.be/JZBs0nKY4vA",
+      "uploaded_at": "2026-09-22T08:16:59.013921+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_16-Hoi-16_Part1.mp4": {
+      "video_file": "Final_Video_16-Hoi-16_Part1.mp4",
+      "chapter_slug": "16-Hoi-16",
+      "status": "completed",
+      "video_id": "5ZDR2J30jUA",
+      "youtube_url": "https://youtu.be/5ZDR2J30jUA",
+      "uploaded_at": "2026-09-22T08:17:40.600428+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_17-Hoi-17_Part1.mp4": {
+      "video_file": "Final_Video_17-Hoi-17_Part1.mp4",
+      "chapter_slug": "17-Hoi-17",
+      "status": "completed",
+      "video_id": "pnSMHBp25X4",
+      "youtube_url": "https://youtu.be/pnSMHBp25X4",
+      "uploaded_at": "2026-09-22T08:18:04.786309+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_18-Hoi-18_Part1.mp4": {
+      "video_file": "Final_Video_18-Hoi-18_Part1.mp4",
+      "chapter_slug": "18-Hoi-18",
+      "status": "completed",
+      "video_id": "poLwSb-5-T8",
+      "youtube_url": "https://youtu.be/poLwSb-5-T8",
+      "uploaded_at": "2026-09-22T08:18:26.721522+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_19-Hoi-19_Part1.mp4": {
+      "video_file": "Final_Video_19-Hoi-19_Part1.mp4",
+      "chapter_slug": "19-Hoi-19",
+      "status": "completed",
+      "video_id": "HJ9eeJ63xzI",
+      "youtube_url": "https://youtu.be/HJ9eeJ63xzI",
+      "uploaded_at": "2026-09-22T08:19:00.381551+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_20-Hoi-20_Part1.mp4": {
+      "video_file": "Final_Video_20-Hoi-20_Part1.mp4",
+      "chapter_slug": "20-Hoi-20",
+      "status": "completed",
+      "video_id": "LjlkKBpW1wU",
+      "youtube_url": "https://youtu.be/LjlkKBpW1wU",
+      "uploaded_at": "2026-09-22T08:19:27.918945+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_21-Hoi-21_Part1.mp4": {
+      "video_file": "Final_Video_21-Hoi-21_Part1.mp4",
+      "chapter_slug": "21-Hoi-21",
+      "status": "completed",
+      "video_id": "szR2rNFv_Z0",
+      "youtube_url": "https://youtu.be/szR2rNFv_Z0",
+      "uploaded_at": "2026-09-22T08:19:56.883020+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_22-Hoi-22_Part1.mp4": {
+      "video_file": "Final_Video_22-Hoi-22_Part1.mp4",
+      "chapter_slug": "22-Hoi-22",
+      "status": "completed",
+      "video_id": "DAlwoCgBMHc",
+      "youtube_url": "https://youtu.be/DAlwoCgBMHc",
+      "uploaded_at": "2026-09-22T08:20:21.519831+00:00",
       "error": null,
       "privacyStatus": "public"
     },
@@ -198,16 +318,6 @@
       "uploaded_at": null,
       "error": null
     },
-    "Final_Video_11-Hoi-11_Part1.mp4": {
-      "video_file": "Final_Video_11-Hoi-11_Part1.mp4",
-      "chapter_slug": "11-Hoi-11",
-      "status": "uploaded",
-      "video_id": "hMz3okrct30",
-      "youtube_url": "https://youtu.be/hMz3okrct30",
-      "uploaded_at": "2026-09-21T03:05:19.344896+00:00",
-      "error": null,
-      "privacyStatus": "public"
-    },
     "Final_Video_110-Hoi-110_Part1.mp4": {
       "video_file": "Final_Video_110-Hoi-110_Part1.mp4",
       "chapter_slug": "110-Hoi-110",
@@ -298,15 +408,6 @@
       "uploaded_at": null,
       "error": null
     },
-    "Final_Video_12-Hoi-12_Part1.mp4": {
-      "video_file": "Final_Video_12-Hoi-12_Part1.mp4",
-      "chapter_slug": "12-Hoi-12",
-      "status": "failed",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": "Failed to initialize upload (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
-    },
     "Final_Video_120-Hoi-120_Part1.mp4": {
       "video_file": "Final_Video_120-Hoi-120_Part1.mp4",
       "chapter_slug": "120-Hoi-120",
@@ -316,239 +417,164 @@
       "uploaded_at": null,
       "error": null
     },
-    "Final_Video_13-Hoi-13_Part1.mp4": {
-      "video_file": "Final_Video_13-Hoi-13_Part1.mp4",
-      "chapter_slug": "13-Hoi-13",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+    "Final_Video_23-Hoi-23_Part1.mp4": {
+      "video_file": "Final_Video_23-Hoi-23_Part1.mp4",
+      "chapter_slug": "23-Hoi-23",
+      "status": "uploaded",
+      "video_id": "usJmJePi-xs",
+      "youtube_url": "https://youtu.be/usJmJePi-xs",
+      "uploaded_at": "2026-09-23T08:05:41.634874+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
-    "Final_Video_14-Hoi-14_Part1.mp4": {
-      "video_file": "Final_Video_14-Hoi-14_Part1.mp4",
-      "chapter_slug": "14-Hoi-14",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
+    "Final_Video_24-Hoi-24_Part1.mp4": {
+      "video_file": "Final_Video_24-Hoi-24_Part1.mp4",
+      "chapter_slug": "24-Hoi-24",
+      "status": "uploaded",
+      "video_id": "kFxsas8NkXM",
+      "youtube_url": "https://youtu.be/kFxsas8NkXM",
+      "uploaded_at": "2026-09-23T08:06:49.084728+00:00",
+      "error": null,
+      "privacyStatus": "public"
     },
-    "Final_Video_15-Hoi-15_Part1.mp4": {
-      "video_file": "Final_Video_15-Hoi-15_Part1.mp4",
-      "chapter_slug": "15-Hoi-15",
+    "Final_Video_25-Hoi-25_Part1.mp4": {
+      "video_file": "Final_Video_25-Hoi-25_Part1.mp4",
+      "chapter_slug": "25-Hoi-25",
+      "status": "uploaded",
+      "video_id": "Z90VSU0YdBA",
+      "youtube_url": "https://youtu.be/Z90VSU0YdBA",
+      "uploaded_at": "2026-09-23T08:07:15.342649+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_26-Hoi-26_Part1.mp4": {
+      "video_file": "Final_Video_26-Hoi-26_Part1.mp4",
+      "chapter_slug": "26-Hoi-26",
+      "status": "uploaded",
+      "video_id": "DM5hN41L_Fw",
+      "youtube_url": "https://youtu.be/DM5hN41L_Fw",
+      "uploaded_at": "2026-09-23T08:08:22.537127+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_27-Hoi-27_Part1.mp4": {
+      "video_file": "Final_Video_27-Hoi-27_Part1.mp4",
+      "chapter_slug": "27-Hoi-27",
+      "status": "uploaded",
+      "video_id": "a-oLpuJ_w0E",
+      "youtube_url": "https://youtu.be/a-oLpuJ_w0E",
+      "uploaded_at": "2026-09-23T08:08:57.655103+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_28-Hoi-28_Part1.mp4": {
+      "video_file": "Final_Video_28-Hoi-28_Part1.mp4",
+      "chapter_slug": "28-Hoi-28",
+      "status": "uploaded",
+      "video_id": "Y8BIkz-9JKc",
+      "youtube_url": "https://youtu.be/Y8BIkz-9JKc",
+      "uploaded_at": "2026-09-23T08:09:33.636840+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_29-Hoi-29_Part1.mp4": {
+      "video_file": "Final_Video_29-Hoi-29_Part1.mp4",
+      "chapter_slug": "29-Hoi-29",
+      "status": "uploaded",
+      "video_id": "zosWa8OLaTw",
+      "youtube_url": "https://youtu.be/zosWa8OLaTw",
+      "uploaded_at": "2026-09-23T08:10:06.030901+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_30-Hoi-30_Part1.mp4": {
+      "video_file": "Final_Video_30-Hoi-30_Part1.mp4",
+      "chapter_slug": "30-Hoi-30",
+      "status": "uploaded",
+      "video_id": "erW3exZY-2U",
+      "youtube_url": "https://youtu.be/erW3exZY-2U",
+      "uploaded_at": "2026-09-23T08:10:40.375684+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_31-Hoi-31_Part1.mp4": {
+      "video_file": "Final_Video_31-Hoi-31_Part1.mp4",
+      "chapter_slug": "31-Hoi-31",
+      "status": "uploaded",
+      "video_id": "VZAOR58g5Lk",
+      "youtube_url": "https://youtu.be/VZAOR58g5Lk",
+      "uploaded_at": "2026-09-23T08:11:53.174136+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_32-Hoi-32_Part1.mp4": {
+      "video_file": "Final_Video_32-Hoi-32_Part1.mp4",
+      "chapter_slug": "32-Hoi-32",
+      "status": "uploaded",
+      "video_id": "R-5tEFc84eg",
+      "youtube_url": "https://youtu.be/R-5tEFc84eg",
+      "uploaded_at": "2026-09-23T08:12:27.996376+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_33-Hoi-33_Part1.mp4": {
+      "video_file": "Final_Video_33-Hoi-33_Part1.mp4",
+      "chapter_slug": "33-Hoi-33",
+      "status": "uploaded",
+      "video_id": "JgcuqekEP_M",
+      "youtube_url": "https://youtu.be/JgcuqekEP_M",
+      "uploaded_at": "2026-09-23T08:13:41.167736+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_34-Hoi-34_Part1.mp4": {
+      "video_file": "Final_Video_34-Hoi-34_Part1.mp4",
+      "chapter_slug": "34-Hoi-34",
+      "status": "uploaded",
+      "video_id": "zCW0l2KLWcA",
+      "youtube_url": "https://youtu.be/zCW0l2KLWcA",
+      "uploaded_at": "2026-09-23T08:14:11.316638+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_35-Hoi-35_Part1.mp4": {
+      "video_file": "Final_Video_35-Hoi-35_Part1.mp4",
+      "chapter_slug": "35-Hoi-35",
+      "status": "uploaded",
+      "video_id": "iKBF5H34awo",
+      "youtube_url": "https://youtu.be/iKBF5H34awo",
+      "uploaded_at": "2026-09-23T08:14:33.518075+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_36-Hoi-36_Part1.mp4": {
+      "video_file": "Final_Video_36-Hoi-36_Part1.mp4",
+      "chapter_slug": "36-Hoi-36",
+      "status": "uploaded",
+      "video_id": "JeJDD4DVm10",
+      "youtube_url": "https://youtu.be/JeJDD4DVm10",
+      "uploaded_at": "2026-09-23T08:14:58.297408+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_37-Hoi-37_Part1.mp4": {
+      "video_file": "Final_Video_37-Hoi-37_Part1.mp4",
+      "chapter_slug": "37-Hoi-37",
+      "status": "uploaded",
+      "video_id": "ooHnWnSWHI0",
+      "youtube_url": "https://youtu.be/ooHnWnSWHI0",
+      "uploaded_at": "2026-09-23T08:15:27.986422+00:00",
+      "error": null,
+      "privacyStatus": "public"
+    },
+    "Final_Video_38-Hoi-38_Part1.mp4": {
+      "video_file": "Final_Video_38-Hoi-38_Part1.mp4",
+      "chapter_slug": "38-Hoi-38",
       "status": "failed",
       "video_id": null,
       "youtube_url": null,
       "uploaded_at": null,
       "error": "Failed to initialize upload (400): {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"The user has exceeded the number of videos they may upload.\",\n    \"errors\": [\n      {\n        \"message\": \"The user has exceeded the number of videos they may upload.\",\n        \"domain\": \"youtube.video\",\n        \"reason\": \"uploadLimitExceeded\"\n      }\n    ]\n  }\n}\n"
-    },
-    "Final_Video_16-Hoi-16_Part1.mp4": {
-      "video_file": "Final_Video_16-Hoi-16_Part1.mp4",
-      "chapter_slug": "16-Hoi-16",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_17-Hoi-17_Part1.mp4": {
-      "video_file": "Final_Video_17-Hoi-17_Part1.mp4",
-      "chapter_slug": "17-Hoi-17",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_18-Hoi-18_Part1.mp4": {
-      "video_file": "Final_Video_18-Hoi-18_Part1.mp4",
-      "chapter_slug": "18-Hoi-18",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_19-Hoi-19_Part1.mp4": {
-      "video_file": "Final_Video_19-Hoi-19_Part1.mp4",
-      "chapter_slug": "19-Hoi-19",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_20-Hoi-20_Part1.mp4": {
-      "video_file": "Final_Video_20-Hoi-20_Part1.mp4",
-      "chapter_slug": "20-Hoi-20",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_21-Hoi-21_Part1.mp4": {
-      "video_file": "Final_Video_21-Hoi-21_Part1.mp4",
-      "chapter_slug": "21-Hoi-21",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_22-Hoi-22_Part1.mp4": {
-      "video_file": "Final_Video_22-Hoi-22_Part1.mp4",
-      "chapter_slug": "22-Hoi-22",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_23-Hoi-23_Part1.mp4": {
-      "video_file": "Final_Video_23-Hoi-23_Part1.mp4",
-      "chapter_slug": "23-Hoi-23",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_24-Hoi-24_Part1.mp4": {
-      "video_file": "Final_Video_24-Hoi-24_Part1.mp4",
-      "chapter_slug": "24-Hoi-24",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_25-Hoi-25_Part1.mp4": {
-      "video_file": "Final_Video_25-Hoi-25_Part1.mp4",
-      "chapter_slug": "25-Hoi-25",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_26-Hoi-26_Part1.mp4": {
-      "video_file": "Final_Video_26-Hoi-26_Part1.mp4",
-      "chapter_slug": "26-Hoi-26",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_27-Hoi-27_Part1.mp4": {
-      "video_file": "Final_Video_27-Hoi-27_Part1.mp4",
-      "chapter_slug": "27-Hoi-27",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_28-Hoi-28_Part1.mp4": {
-      "video_file": "Final_Video_28-Hoi-28_Part1.mp4",
-      "chapter_slug": "28-Hoi-28",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_29-Hoi-29_Part1.mp4": {
-      "video_file": "Final_Video_29-Hoi-29_Part1.mp4",
-      "chapter_slug": "29-Hoi-29",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_30-Hoi-30_Part1.mp4": {
-      "video_file": "Final_Video_30-Hoi-30_Part1.mp4",
-      "chapter_slug": "30-Hoi-30",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_31-Hoi-31_Part1.mp4": {
-      "video_file": "Final_Video_31-Hoi-31_Part1.mp4",
-      "chapter_slug": "31-Hoi-31",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_32-Hoi-32_Part1.mp4": {
-      "video_file": "Final_Video_32-Hoi-32_Part1.mp4",
-      "chapter_slug": "32-Hoi-32",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_33-Hoi-33_Part1.mp4": {
-      "video_file": "Final_Video_33-Hoi-33_Part1.mp4",
-      "chapter_slug": "33-Hoi-33",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_34-Hoi-34_Part1.mp4": {
-      "video_file": "Final_Video_34-Hoi-34_Part1.mp4",
-      "chapter_slug": "34-Hoi-34",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_35-Hoi-35_Part1.mp4": {
-      "video_file": "Final_Video_35-Hoi-35_Part1.mp4",
-      "chapter_slug": "35-Hoi-35",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_36-Hoi-36_Part1.mp4": {
-      "video_file": "Final_Video_36-Hoi-36_Part1.mp4",
-      "chapter_slug": "36-Hoi-36",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_37-Hoi-37_Part1.mp4": {
-      "video_file": "Final_Video_37-Hoi-37_Part1.mp4",
-      "chapter_slug": "37-Hoi-37",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
-    },
-    "Final_Video_38-Hoi-38_Part1.mp4": {
-      "video_file": "Final_Video_38-Hoi-38_Part1.mp4",
-      "chapter_slug": "38-Hoi-38",
-      "status": "pending",
-      "video_id": null,
-      "youtube_url": null,
-      "uploaded_at": null,
-      "error": null
     },
     "Final_Video_39-Hoi-39_Part1.mp4": {
       "video_file": "Final_Video_39-Hoi-39_Part1.mp4",

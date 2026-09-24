@@ -1,0 +1,76 @@
+{
+  "Kich-ban-1.txt": [
+    {
+      "lang": "vi",
+      "text": "CHƯƠNG tám, HỎI THĂM DÒ VÀ TRÌNH BÀY QUAN ĐIỂM , Có những ngôn từ nào hữu hiệu mà bạn tâm đắc không? Nếu quay trở lại với bậc thầy vĩ đại",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Chris Argyris.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Ông từng giảng giải về mô hình Thang suy luận cùng nghệ thuật cân bằng giữa Hỏi thăm dò và Trình bày quan điểm. Đối với những thính giả chưa từng nghe về điều này. Ý tưởng căn bản là phần lớn thời gian chúng ta giao tiếp với nhau ở vị trí mà",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Chris",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "gọi là đỉnh của chiếc thang. Tức là kết luận cuối cùng của chúng ta. Tôi nói, này",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Pete,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "vi",
+      "text": "chúng ta nên triển khai dự án này và phải làm ngay ngày mai. Đó là một kết luận. Và",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Pete",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "đáp lại, anh điên rồi, chúng ta nên giữ nguyên những gì đang có. Đó cũng lại là một kết luận. Điều chúng ta đã hoàn toàn thất bại là không chịu bước xuống dưới các bậc thang suy luận đó. Để soi chiếu những gì thực sự đang diễn ra trong tâm trí mỗi người. Khi tôi nói chúng ta nên hành động ngay ngày mai, thực chất tôi đang dựa trên những dữ liệu cụ thể. Dữ liệu về động thái của đối thủ cạnh tranh, dữ liệu nội bộ về sự sụt giảm doanh số gần đây. Và dữ liệu về việc chúng ta đang đánh mất một vài nhân tài hàng đầu chỉ vì họ cảm thấy nhàm chán. Từ những dữ liệu đó. Tôi lập luận rằng chúng ta cần làm điều gì đó mới mẻ để thu hút sự chú ý của thị trường, và do đó. Tôi đi đến kết luận đã nói với bạn. Tương tự như vậy, khi bạn bảo nên giữ nguyên hiện trạng, thực ra bạn đang nhìn vào những dữ liệu khác. Bạn có thể thấy rằng chưa có vị lãnh đạo cấp trên nào nói rằng chúng ta đang gặp vấn đề. Và phần lớn các doanh nghiệp trong ngành vẫn đang làm giống hệt chúng ta. Từ đó bạn suy luận rằng mọi thứ vẫn ổn thỏa,",
+      "pause_type": "emphasis"
+    },
+    {
+      "lang": "en",
+      "text": "Jim",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "vi",
+      "text": "chỉ đang lo lắng thái quá, và vì vậy. Kết luận của bạn là hãy giữ nguyên hiện trạng. Công cụ cụ thể ở đây chính là sự kết hợp nhuần nhuyễn giữa Trình bày quan điểm và Hỏi thăm dò. Trình bày quan điểm không có nghĩa là bạn gào thét kết luận của mình to hơn. Mà là giúp người khác nhìn thấy rõ lý do vì sao bạn đi đến kết luận đó. Bạn có thể dùng những câu như, tôi có thể chia sẻ những dữ liệu mà tôi đang có với bạn không? hay tôi có thể giải thích cách lập luận của mình để bạn dễ hình dung không? Đó là những ngôn từ giúp mở rộng các bậc thang suy luận của bạn cho người khác thấy. Và điều quyền năng nhất chính là những câu hỏi thăm dò khéo léo, này",
+      "pause_type": "seamless"
+    },
+    {
+      "lang": "en",
+      "text": "Pete.",
+      "pause_type": "terminal"
+    },
+    {
+      "lang": "vi",
+      "text": "Tôi nghe bạn nói rằng bạn nghĩ chúng ta nên giữ nguyên hiện trạng. Bạn có thể giúp tôi hiểu rõ lý do vì sao không? Bạn có thể chia sẻ góc nhìn và các dữ liệu mà bạn đang cân nhắc với tôi được không?.",
+      "pause_type": "terminal"
+    }
+  ],
+  "Kich-ban-2.txt": [
+    {
+      "lang": "vi",
+      "text": "Đặt câu hỏi thăm dò một cách thành thạo có lẽ là phương thức đơn lẻ xuất sắc nhất. Để xây dựng những nhịp cầu giao tiếp mà tôi từng biết. Bạn chỉ cần nhìn ra thế giới chúng ta đang sống ngày nay, với đầy rẫy sự chia rẽ và phân cực. Bạn sẽ nhận ra tất cả chúng ta đều đang không ngừng gào thét vào mặt nhau từ trên đỉnh thang suy luận của chính mình. Mà không hề biết cách giúp người khác hiểu được gốc rễ suy nghĩ của ta. Cũng như không biết cách đặt mình vào vị trí của họ bằng việc hỏi xem họ xuất phát từ đâu.",
+      "pause_type": "terminal"
+    }
+  ]
+}

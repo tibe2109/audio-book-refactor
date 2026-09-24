@@ -114,7 +114,8 @@ def detect_book_thematic_genre(book_name, chap_dir=None):
     biz_tech_kw = [
         "pmbok", "agile", "scrum", "project management", "quan tri",
         "kinh te", "lap trinh", "clean code", "refactoring", "data",
-        "python", "software", "startup", "marketing", "finance"
+        "python", "software", "startup", "marketing", "finance",
+        "project", "execution", "management"
     ]
     if any(k in slug for k in biz_tech_kw):
         return "business_tech_management"
